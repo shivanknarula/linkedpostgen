@@ -1,0 +1,55 @@
+name: Nightly LinkedIn Scraper
+
+on:
+  schedule:
+    # Run every night at 3:00 AM UTC (8:30 AM IST)
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+    # Allows manual triggering from GitHub UI or Vercel API
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install playwright groq-sdk python-dotenv
+        playwright install chromium
+
+    - name: Restore LinkedIn Session
+      env:
+        SESSION_JSON: ${{ secrets.SESSION_JSON }}
+      run: |
+        if [ -n "$SESSION_JSON" ]; then
+          echo "$SESSION_JSON" > session.json
+          echo "Restored session.json from GitHub Secrets."
+        else
+          echo "Warning: SESSION_JSON secret is not set. Scraper may run anonymously."
+        fi
+
+    - name: Run Scraper
+      env:
+        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        LINKEDIN_USERNAME: ${{ secrets.LINKEDIN_USERNAME }}
+        LINKEDIN_PASSWORD: ${{ secrets.LINKEDIN_PASSWORD }}
+      run: |
+        python scrape_v2.py
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "GitHub Action Bot"
+        git config --global user.email "actions@github.com"
+        git add robotics_posts.csv robotics_posts.txt high_value_comments.txt all_scraped_posts.txt generated_links_history.txt || true
+        git commit -m "Auto-update scraped robotics posts [skip ci]" || echo "No changes to commit"
+        git push origin main || echo "No changes to push"

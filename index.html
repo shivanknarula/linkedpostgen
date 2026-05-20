@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postmaker Intelligence</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --bg-base: #0f172a;
+            --bg-glass: rgba(30, 41, 59, 0.7);
+            --border-glass: rgba(255, 255, 255, 0.1);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-primary: #3b82f6;
+            --accent-hover: #2563eb;
+            --accent-glow: rgba(59, 130, 246, 0.5);
+            --success: #10b981;
+            --danger: #ef4444;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            min-height: 100vh;
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.15) 0px, transparent 50%);
+            background-attachment: fixed;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--bg-glass);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--border-glass);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .header h1 i {
+            color: var(--accent-primary);
+        }
+
+        .btn {
+            background: var(--accent-primary);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 500;
+            font-size: 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 15px var(--accent-glow);
+        }
+
+        .btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 0 25px var(--accent-glow);
+        }
+
+        .btn:disabled {
+            background: var(--text-secondary);
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: var(--bg-glass);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--border-glass);
+            border-radius: 16px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-glass);
+        }
+
+        .table-container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border-glass);
+        }
+
+        th {
+            color: var(--text-secondary);
+            font-weight: 500;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        td {
+            font-size: 0.95rem;
+        }
+
+        .score-badge {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--success);
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            display: inline-block;
+        }
+        
+        .score-badge.low {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--danger);
+        }
+        
+        .score-badge.medium {
+            background: rgba(245, 158, 11, 0.1);
+            color: #f59e0b;
+        }
+
+        .link-text {
+            color: var(--accent-primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        .link-text:hover {
+            text-decoration: underline;
+        }
+
+        /* Loading Overlay */
+        #loadingOverlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(5px);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid var(--border-glass);
+            border-top-color: var(--accent-primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 1rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .log-container {
+            background: #000;
+            border: 1px solid var(--border-glass);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+            max-height: 200px;
+            overflow-y: auto;
+            font-family: monospace;
+            font-size: 0.85rem;
+            color: #10b981;
+            display: none;
+        }
+
+        .close-overlay-btn {
+            margin-top: 1.5rem;
+            background: transparent;
+            border: 1px solid var(--border-glass);
+            color: var(--text-primary);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: none;
+        }
+        .close-overlay-btn:hover {
+            background: rgba(255,255,255,0.05);
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="loadingOverlay">
+        <div class="spinner" id="overlaySpinner"></div>
+        <h2 style="margin-bottom: 0.5rem;" id="overlayTitle">Fetching Robotics Data...</h2>
+        <p style="color: var(--text-secondary); max-width: 500px;" id="overlayDesc">This may take a few minutes as Playwright interacts with LinkedIn.</p>
+        <button class="close-overlay-btn" id="closeOverlayBtn" onclick="closeOverlay()">Dismiss</button>
+    </div>
+
+    <div class="container">
+        <header class="header">
+            <h1><i data-lucide="cpu"></i> Postmaker Intelligence Dashboard</h1>
+            <button class="btn" id="scrapeBtn" onclick="startScraping()">
+                <i data-lucide="play"></i> Start Fetching
+            </button>
+        </header>
+
+        <div class="dashboard-grid">
+            <div class="card" id="logCard" style="display: none;">
+                <div class="card-header" style="margin-bottom: 0; padding-bottom: 0; border-bottom: none;">
+                    <h2 style="font-size: 1.25rem;">Terminal Output</h2>
+                </div>
+                <div class="log-container" id="terminalLog"></div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2 style="font-size: 1.25rem;">Latest Scraped Posts</h2>
+                    <button class="btn" style="background: transparent; border: 1px solid var(--border-glass); color: var(--text-primary); box-shadow: none;" onclick="loadResults()">
+                        <i data-lucide="refresh-cw"></i> Refresh
+                    </button>
+                </div>
+                
+                <div class="table-container">
+                    <table id="resultsTable">
+                        <thead>
+                            <tr>
+                                <th>Score</th>
+                                <th>Post URL & AI Comment</th>
+                                <th>Date & Metrics</th>
+                            </tr>
+                        </thead>
+                        <tbody id="resultsBody">
+                            <tr>
+                                <td colspan="3" style="text-align: center; color: var(--text-secondary);">Loading results...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Icons
+        lucide.createIcons();
+
+        // Load results on page load
+        document.addEventListener('DOMContentLoaded', loadResults);
+
+        // Helper to check if running locally
+        function isLocal() {
+            return window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+        }
+
+        async function loadResults() {
+            try {
+                const response = await fetch('/api/results');
+                const data = await response.json();
+                
+                const tbody = document.getElementById('resultsBody');
+                tbody.innerHTML = '';
+                
+                if (data.status === 'success' && data.data && data.data.length > 0) {
+                    // Sort by score descending (handle NaN cases)
+                    const sortedData = data.data.sort((a, b) => (parseInt(b.score) || 0) - (parseInt(a.score) || 0));
+                    
+                    sortedData.forEach(row => {
+                        const tr = document.createElement('tr');
+                        
+                        let scoreClass = 'medium';
+                        let scoreVal = parseInt(row.score) || 0;
+                        if (scoreVal >= 8) scoreClass = '';
+                        else if (scoreVal <= 4) scoreClass = 'low';
+                        
+                        tr.innerHTML = `
+                            <td style="vertical-align: top;"><span class="score-badge ${scoreClass}">${scoreVal}/10</span></td>
+                            <td>
+                                <a href="${row.url}" target="_blank" class="link-text" style="margin-bottom: 0.75rem; display: inline-flex;">
+                                    View Post <i data-lucide="external-link" style="width: 14px; height: 14px;"></i>
+                                </a>
+                                <div style="background: rgba(0,0,0,0.2); padding: 1rem; border-radius: 8px; border-left: 3px solid var(--accent-primary); margin-top: 0.5rem;">
+                                    <strong style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary); font-size: 0.8rem; text-transform: uppercase;">AI Generated Comment:</strong>
+                                    <span style="white-space: pre-wrap; line-height: 1.5;">${row.comment || 'N/A'}</span>
+                                    <div style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-secondary);">
+                                        <strong>Reasoning:</strong> ${row.reasoning || 'N/A'}
+                                    </div>
+                                </div>
+                            </td>
+                            <td style="vertical-align: top;">
+                                <div style="color: var(--text-primary); font-weight: 500; margin-bottom: 0.25rem;">${row.date || 'Unknown'}</div>
+                                <div style="color: var(--text-secondary); font-size: 0.85rem;"><i data-lucide="thumbs-up" style="width: 12px; height: 12px; display: inline; vertical-align: middle;"></i> ${row.likes || 0} &nbsp; <i data-lucide="message-square" style="width: 12px; height: 12px; display: inline; vertical-align: middle;"></i> ${row.comments || 0}</div>
+                            </td>
+                        `;
+                        tbody.appendChild(tr);
+                    });
+                    
+                    lucide.createIcons(); // re-init icons for new elements
+                } else {
+                    tbody.innerHTML = `<tr><td colspan="3" style="text-align: center; color: var(--text-secondary);">No data found. Click 'Start Fetching' to run the scraper.</td></tr>`;
+                }
+            } catch (error) {
+                console.error("Failed to load results", error);
+            }
+        }
+
+        function closeOverlay() {
+            document.getElementById('loadingOverlay').style.display = 'none';
+        }
+
+        async function startScraping() {
+            const btn = document.getElementById('scrapeBtn');
+            const overlay = document.getElementById('loadingOverlay');
+            const overlayTitle = document.getElementById('overlayTitle');
+            const overlayDesc = document.getElementById('overlayDesc');
+            const spinner = document.getElementById('overlaySpinner');
+            const closeBtn = document.getElementById('closeOverlayBtn');
+            const logCard = document.getElementById('logCard');
+            const terminalLog = document.getElementById('terminalLog');
+            
+            btn.disabled = true;
+            btn.innerHTML = '<i data-lucide="loader" class="spinner-icon" style="animation: spin 1s linear infinite;"></i> Fetching...';
+            lucide.createIcons();
+            
+            overlay.style.display = 'flex';
+            closeBtn.style.display = 'none';
+            spinner.style.display = 'block';
+
+            if (isLocal()) {
+                // LOCAL FLASK APP BEHAVIOR
+                overlayTitle.innerText = "Fetching Robotics Data locally...";
+                overlayDesc.innerText = "This will take a few minutes as Playwright interacts with LinkedIn on your machine.";
+                logCard.style.display = 'block';
+                terminalLog.style.display = 'block';
+                terminalLog.innerText = "Running python scrape_v2.py...\nThis will take several minutes to discover posts and generate comments.\n\n";
+                
+                try {
+                    const response = await fetch('/api/scrape', { method: 'POST' });
+                    const data = await response.json();
+                    
+                    if (data.output) {
+                        terminalLog.innerText += data.output;
+                    }
+                    
+                    if (data.status === 'success') {
+                        terminalLog.innerText += "\n\n✅ SCRAPING COMPLETED SUCCESSFULLY!";
+                        loadResults();
+                    } else {
+                        terminalLog.innerText += "\n\n❌ ERROR: " + (data.message || "Unknown error");
+                    }
+                } catch (error) {
+                    terminalLog.innerText += "\n\n❌ NETWORK ERROR: " + error.message;
+                } finally {
+                    overlay.style.display = 'none';
+                    btn.disabled = false;
+                    btn.innerHTML = '<i data-lucide="play"></i> Start Fetching';
+                    lucide.createIcons();
+                    terminalLog.scrollTop = terminalLog.scrollHeight;
+                }
+            } else {
+                // VERCEL SERVERLESS BEHAVIOR
+                overlayTitle.innerText = "Triggering Cloud Scraper...";
+                overlayDesc.innerText = "Sending request to GitHub Actions workflow...";
+
+                try {
+                    const response = await fetch('/api/scrape', { method: 'POST' });
+                    const data = await response.json();
+
+                    if (data.status === 'success') {
+                        spinner.style.display = 'none';
+                        overlayTitle.innerText = "🚀 Scraper Started in the Cloud!";
+                        overlayDesc.innerHTML = `
+                            The scraper has been successfully triggered on your <strong>GitHub Actions</strong> workflow.<br><br>
+                            It will run silently in the background (takes ~3 minutes). Once complete, Vercel will automatically redeploy your site with the fresh results.<br><br>
+                            You can check the build progress in your GitHub repo's <strong>Actions</strong> tab.
+                        `;
+                        closeBtn.style.display = 'inline-block';
+                    } else {
+                        throw new Error(data.message || "Could not trigger GitHub Workflow");
+                    }
+                } catch (error) {
+                    spinner.style.display = 'none';
+                    overlayTitle.innerText = "❌ Trigger Failed";
+                    overlayDesc.innerText = error.message;
+                    closeBtn.style.display = 'inline-block';
+                } finally {
+                    btn.disabled = false;
+                    btn.innerHTML = '<i data-lucide="play"></i> Start Fetching';
+                    lucide.createIcons();
+                }
+            }
+        }
+    </script>
+</body>
+</html>
