@@ -7,25 +7,29 @@ on:
   workflow_dispatch:
     # Allows manual triggering from GitHub UI or Vercel API
 
+# Give the workflow write access to push commits back
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-        cache: 'pip'
 
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install playwright groq-sdk python-dotenv
+        pip install playwright groq python-dotenv
         playwright install chromium
+        playwright install-deps chromium
 
     - name: Restore LinkedIn Session
       env:
@@ -35,7 +39,8 @@ jobs:
           echo "$SESSION_JSON" > session.json
           echo "Restored session.json from GitHub Secrets."
         else
-          echo "Warning: SESSION_JSON secret is not set. Scraper may run anonymously."
+          echo "ERROR: SESSION_JSON secret is not set. Cannot proceed without a LinkedIn session."
+          exit 1
         fi
 
     - name: Run Scraper
@@ -51,5 +56,5 @@ jobs:
         git config --global user.name "GitHub Action Bot"
         git config --global user.email "actions@github.com"
         git add robotics_posts.csv robotics_posts.txt high_value_comments.txt all_scraped_posts.txt generated_links_history.txt || true
-        git commit -m "Auto-update scraped robotics posts [skip ci]" || echo "No changes to commit"
+        git diff --staged --quiet || git commit -m "Auto-update scraped robotics posts [skip ci]"
         git push origin main || echo "No changes to push"
