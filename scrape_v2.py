@@ -93,11 +93,13 @@ def find_urls_via_linkedin(p, queries, history_set, limit=50, state_file="sessio
             for link in all_links:
                 try:
                     href = link.get_attribute('href')
-                    if href and '/posts/' in href or 'activity-' in href:
+                    # FIX: corrected operator precedence + None guard
+                    if href and ('/posts/' in href or 'activity-' in href):
                         if href.startswith('/'):
                             href = "https://www.linkedin.com" + href
                         clean_url = href.split('?')[0].split('&')[0]
-                        if 'linkedin.com' in clean_url and clean_url not in urls:
+                        # FIX: also filter against history_set so we skip already-scraped URLs
+                        if 'linkedin.com' in clean_url and clean_url not in urls and clean_url not in history_set:
                             urls.add(clean_url)
                 except:
                     continue
@@ -154,7 +156,8 @@ def find_urls_via_linkedin(p, queries, history_set, limit=50, state_file="sessio
                                     
                                 if any(p in href for p in POST_PATTERNS):
                                     clean_url = href.split('?')[0].split('&')[0]
-                                    if 'linkedin.com' in clean_url and clean_url not in urls:
+                                    # FIX: filter against history_set so already-scraped posts are skipped
+                                    if 'linkedin.com' in clean_url and clean_url not in urls and clean_url not in history_set:
                                         urls.add(clean_url)
                                         if len(urls) >= limit:
                                             break
@@ -358,14 +361,30 @@ def save_to_file(posts, filename="robotics_posts.txt"):
             f.write("\n" + "="*80 + "\n\n")
 
 def save_to_csv(posts, filename="robotics_posts.csv"):
-    print(f"[*] Saving {len(posts)} posts to {filename} (Overwriting)...")
     keys = ['url', 'date', 'score', 'reasoning', 'comment', 'likes', 'comments', 'text']
+
+    # FIX: Merge with existing CSV so posts accumulate across runs instead of being overwritten
+    existing_rows = {}
+    if os.path.exists(filename):
+        try:
+            with open(filename, 'r', newline='', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    existing_rows[row['url']] = row
+        except Exception as e:
+            print(f"    ! Could not read existing CSV (will overwrite): {e}")
+
+    # Merge: new posts take priority over old ones with the same URL
+    for p in posts:
+        existing_rows[p['url']] = {k: p.get(k, '') for k in keys}
+
+    merged = sorted(existing_rows.values(), key=lambda x: int(x.get('score') or 0), reverse=True)
+    print(f"[*] Saving {len(merged)} total posts to {filename} ({len(posts)} new + {len(existing_rows) - len(posts)} existing)...")
+
     with open(filename, 'w', newline='', encoding='utf-8') as f:
         dict_writer = csv.DictWriter(f, fieldnames=keys)
         dict_writer.writeheader()
-        for p in posts:
-            # handle missing keys just in case
-            row = {k: p.get(k, '') for k in keys}
+        for row in merged:
             dict_writer.writerow(row)
 
 from dotenv import load_dotenv
