@@ -52,9 +52,29 @@ jobs:
         python scrape_v2.py
 
     - name: Commit and Push Changes
+      id: commit
       run: |
         git config --global user.name "GitHub Action Bot"
         git config --global user.email "actions@github.com"
         git add robotics_posts.csv robotics_posts.txt high_value_comments.txt all_scraped_posts.txt generated_links_history.txt || true
-        git diff --staged --quiet || git commit -m "Auto-update scraped robotics posts [skip ci]"
-        git push origin main || echo "No changes to push"
+        if git diff --staged --quiet; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+          echo "No changes to commit"
+        else
+          git commit -m "Auto-update scraped robotics posts [skip ci]"
+          git push origin main
+          echo "changed=true" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Trigger Vercel Redeploy
+      if: steps.commit.outputs.changed == 'true'
+      env:
+        VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+      run: |
+        if [ -n "$VERCEL_DEPLOY_HOOK" ]; then
+          echo "Triggering Vercel redeploy..."
+          curl -s -X POST "$VERCEL_DEPLOY_HOOK"
+          echo "Vercel redeploy triggered successfully."
+        else
+          echo "Warning: VERCEL_DEPLOY_HOOK secret not set. Skipping redeploy trigger."
+        fi
