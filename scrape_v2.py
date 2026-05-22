@@ -70,6 +70,21 @@ def find_urls_via_linkedin(p, queries, history_set, limit=50, state_file="sessio
     context = browser.new_context(storage_state=state_file)
     page = context.new_page()
     
+    # RAPID SESSION VALIDATION CHECK
+    print("[*] Verifying LinkedIn login session validity...")
+    try:
+        page.goto("https://www.linkedin.com/feed/", timeout=10000)
+        page.wait_for_timeout(1500)
+        if "login" in page.url or "uas/login" in page.url:
+            print("[!] LinkedIn login session has expired. Skipping direct LinkedIn search.")
+            browser.close()
+            return []
+        print("    LinkedIn session is active and valid.")
+    except Exception as e:
+        print(f"    ! Session verification failed or timed out: {e}. Skipping direct LinkedIn search.")
+        browser.close()
+        return []
+    
     # Phase 1: High-Value Discovery (Target Specific Profiles First)
     target_profiles = get_target_profiles()
     print(f"[*] Discovery Phase: Checking {len(target_profiles)} Target Profiles...")
@@ -89,7 +104,8 @@ def find_urls_via_linkedin(p, queries, history_set, limit=50, state_file="sessio
                 page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
                 page.wait_for_timeout(1000)
                 
-            all_links = page.locator('a').all()
+            # Using query_selector_all to support all versions of Playwright
+            all_links = page.query_selector_all('a')
             for link in all_links:
                 try:
                     href = link.get_attribute('href')
@@ -129,15 +145,15 @@ def find_urls_via_linkedin(p, queries, history_set, limit=50, state_file="sessio
                         browser.close()
                         return list(urls)
                     
-                    # CHANGE 1: Deep scroll (15-20 scrolls)
-                    MAX_SCROLLS = 18
+                    # OPTIMIZED: Shorter scroll sequence
+                    MAX_SCROLLS = 3
                     for s in range(MAX_SCROLLS):
                         page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-                        # random wait
-                        page.wait_for_timeout(random.randint(1200, 2000))
+                        page.wait_for_timeout(random.randint(500, 800))
                         
                     # Broad Link Extraction
-                    all_links = page.locator('a').all()
+                    # Using query_selector_all to support all versions of Playwright
+                    all_links = page.query_selector_all('a')
                     
                     # CHANGE 3: Improve URL matching (patterns)
                     POST_PATTERNS = (
@@ -168,6 +184,60 @@ def find_urls_via_linkedin(p, queries, history_set, limit=50, state_file="sessio
             
     browser.close()
     print(f"    Found {len(urls)} new candidates (filtered duplicates from history).")
+    return list(urls)[:limit]
+
+
+def find_urls_via_public_search_fallback(p, queries, history_set, limit=50):
+    """
+    Fallback method that uses Yahoo Search to find public LinkedIn posts
+    without requiring any LinkedIn login session!
+    """
+    print("[*] Falling back to Public Yahoo Search Discovery (No login required)...")
+    urls = set()
+    
+    browser = p.chromium.launch(headless=True)
+    context = browser.new_context(
+        user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    )
+    page = context.new_page()
+    
+    # We will search Yahoo for site:linkedin.com/posts/ or site:linkedin.com/pulse/ with our queries
+    for q in queries:
+        if len(urls) >= limit:
+            break
+            
+        search_query = f'site:linkedin.com/posts "{q}"'
+        encoded_query = urllib.parse.quote(search_query)
+        # Yahoo Search uses parameter 'p' instead of 'q'
+        yahoo_url = f"https://search.yahoo.com/search?p={encoded_query}"
+        
+        print(f" -> Searching Yahoo Search: {search_query}")
+        try:
+            page.goto(yahoo_url, timeout=30000)
+            page.wait_for_timeout(3000)
+            
+            # Extract links from search results
+            all_links = page.query_selector_all('a')
+            for link in all_links:
+                href = link.get_attribute('href')
+                if href:
+                    if "yahoo.com" in href:
+                        continue
+                    
+                    if "linkedin.com/posts/" in href or "linkedin.com/pulse/" in href or "/posts/" in href:
+                        clean_url = href.split('?')[0].split('&')[0]
+                        if clean_url.startswith('/'):
+                            # Handle relative URLs if any
+                            continue
+                        if clean_url not in urls and clean_url not in history_set:
+                            urls.add(clean_url)
+                            print(f"    + Discovered via Yahoo: {clean_url}")
+                            if len(urls) >= limit:
+                                break
+        except Exception as e:
+            print(f"    ! Yahoo search failed: {e}")
+            
+    browser.close()
     return list(urls)[:limit]
 
 
@@ -202,95 +272,68 @@ def login_and_save_state(p, username, password, state_file="session.json"):
     
     browser.close()
 
-def extract_content(p, urls, state_file="session.json"):
-    print("[*] Extraction Phase...")
-    results = []
-    
-    # Load state if exists
-    browser = p.chromium.launch(headless=True)
-    
-    if os.path.exists(state_file):
-        print(f"    Loading session from {state_file}")
-        context = browser.new_context(storage_state=state_file,
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        )
-    else:
-        print("    ! No session file found. Running anonymously (might hit auth wall).")
-        context = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        )
-    page = context.new_page()
-    
-    for i, url in enumerate(urls):
-        print(f" [{i+1}/{len(urls)}] Scraping: {url}")
+def extract_single_post(page, url):
+    """
+    Extracts content from a single LinkedIn post URL using an existing page.
+    """
+    try:
+        page.goto(url, timeout=15000)
+        
+        # Dismiss login modal if it appears (common on LinkedIn public)
         try:
-            page.goto(url, timeout=20000)
+            page.locator('button[icon="x-icon"]').click(timeout=1500)
+        except:
+            pass
             
-            # Dismiss login modal if it appears (common on LinkedIn public)
-            try:
-                page.locator('button[icon="x-icon"]').click(timeout=2000)
-            except:
-                pass
-                
-            # Expand text
-            try:
-                # multiple variants of 'see more'
-                page.locator('.see-more').first.click(timeout=1000)
-            except:
-                pass
-            
-            # Extract Text
-            # Try main article content first
-            text = ""
-            main_loc = page.locator('article')
-            if main_loc.count() > 0:
-                text = main_loc.first.inner_text()
-            else:
-                # Fallback to meta description or body
-                text = page.locator('body').inner_text()[:4000]
-            
-            # Extract Engagement Metrics (Likes/Comments)
-            likes = 0
-            comments = 0
-            try:
-                # Basic scrape for likes
-                social_text = page.locator('.social-details-social-counts').first.inner_text()
-                # Basic parsing: "1,234 Likes \n 56 Comments"
-                if 'Like' in social_text:
-                    likes_str = social_text.split('Like')[0].strip().replace(',', '')
-                    if likes_str.isdigit():
-                        likes = int(likes_str)
-                if 'Comment' in social_text:
-                    # messy but tries to get the number before 'Comment'
-                    comments_parts = social_text.split('Comment')[0].split('\n')
-                    comment_str = comments_parts[-1].strip().replace(',', '')
-                    if comment_str.isdigit():
-                        comments = int(comment_str)
-            except:
-                pass
+        # Expand text
+        try:
+            # multiple variants of 'see more'
+            page.locator('.see-more').first.click(timeout=1000)
+        except:
+            pass
+        
+        # Extract Text
+        text = ""
+        main_loc = page.locator('article')
+        if main_loc.count() > 0:
+            text = main_loc.first.inner_text()
+        else:
+            # Fallback to meta description or body
+            text = page.locator('body').inner_text()[:4000]
+        
+        # Extract Engagement Metrics (Likes/Comments)
+        likes = 0
+        comments = 0
+        try:
+            social_text = page.locator('.social-details-social-counts').first.inner_text()
+            if 'Like' in social_text:
+                likes_str = social_text.split('Like')[0].strip().replace(',', '')
+                if likes_str.isdigit():
+                    likes = int(likes_str)
+            if 'Comment' in social_text:
+                comments_parts = social_text.split('Comment')[0].split('\n')
+                comment_str = comments_parts[-1].strip().replace(',', '')
+                if comment_str.isdigit():
+                    comments = int(comment_str)
+        except:
+            pass
 
-            
-            # Cleanup
-            text = text.replace('\n\n', '\n').strip()
-            
-            # Date
-            date_str = datetime.now().strftime("%Y-%m-%d")
-            
-            results.append({
-                'url': url,
-                'date': date_str,
-                'text': text,
-                'likes': likes,
-                'comments': comments
-            })
-            
-            time.sleep(1) # Polite sleep
-            
-        except Exception as e:
-            print(f"    ! Extraction failed: {e}")
-            
-    browser.close()
-    return results
+        # Cleanup
+        text = text.replace('\n\n', '\n').strip()
+        
+        # Date
+        date_str = datetime.now().strftime("%Y-%m-%d")
+        
+        return {
+            'url': url,
+            'date': date_str,
+            'text': text,
+            'likes': likes,
+            'comments': comments
+        }
+    except Exception as e:
+        print(f"    ! Extraction failed for {url}: {e}")
+        return None
 
 import json
 
@@ -393,8 +436,8 @@ def main():
     load_dotenv() # Load .env
     
     parser_arg = argparse.ArgumentParser()
-    parser_arg.add_argument('--limit', type=int, default=50, help="Number of raw candidates to fetch (aim for ~2x desired output)")
-    parser_arg.add_argument('--target_output', type=int, default=50, help="Stop analyzing after finding this many high-value posts")
+    parser_arg.add_argument('--limit', type=int, default=12, help="Number of raw candidates to fetch (aim for ~2x desired output)")
+    parser_arg.add_argument('--target_output', type=int, default=3, help="Stop analyzing after finding this many high-value posts")
     parser_arg.add_argument('--login', action='store_true', help="Run login flow")
     parser_arg.add_argument('--username', type=str, help="LinkedIn username (defaults to env)")
     parser_arg.add_argument('--password', type=str, help="LinkedIn password (defaults to env)")
@@ -424,41 +467,74 @@ def main():
         
         candidates = find_urls_via_linkedin(p, queries, history, limit=args.limit)
         
+        if not candidates:
+            print("[!] LinkedIn login search returned 0 candidates. Triggering Yahoo Search fallback...")
+            candidates = find_urls_via_public_search_fallback(p, queries, history, limit=args.limit)
+            
         if candidates:
             print(f"[*] Total unique new candidates: {len(candidates)}")
-            posts = extract_content(p, candidates) 
-
-            # Generate AI comments and scores
-            print(f"[*] Intelligence Phase: Analyzing up to {len(posts)} posts to find {args.target_output} high-value targets...")
+            
+            # INTERLEAVED EXTRACTION & SCORING PHASE
+            print(f"[*] Intelligence Phase: Scrape & AI Analysis...")
             analyzed_posts = []
             high_value_posts = []
             
-            for post in posts:
-                print(f"    Analyzing: {post['url']}")
-                analysis = generate_ai_comment_and_score(post['text'])
-                post['score'] = analysis['score']
-                post['reasoning'] = analysis['reasoning']
-                post['comment'] = analysis['comment']
-                analyzed_posts.append(post)
+            browser = p.chromium.launch(headless=True)
+            state_file = "session.json"
+            if os.path.exists(state_file):
+                print(f"    Loading session from {state_file}")
+                context = browser.new_context(
+                    storage_state=state_file,
+                    user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                )
+            else:
+                print("    ! No session file found. Running anonymously.")
+                context = browser.new_context(
+                    user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                )
+            page = context.new_page()
+            
+            for i, url in enumerate(candidates):
+                print(f" [{i+1}/{len(candidates)}] Processing: {url}")
+                post = extract_single_post(page, url)
                 
-                if post.get('score', 0) >= 6:
-                    high_value_posts.append(post)
-                    print(f"      -> Success! Found {len(high_value_posts)}/{args.target_output} high-value posts.")
+                if post and post['text']:
+                    print(f"    Evaluating with AI...")
+                    analysis = generate_ai_comment_and_score(post['text'])
+                    post['score'] = analysis['score']
+                    post['reasoning'] = analysis['reasoning']
+                    post['comment'] = analysis['comment']
                     
-                if len(high_value_posts) >= args.target_output:
-                    print(f"[*] Reached target output of {args.target_output} high-value comments. Stopping analysis.")
-                    break
+                    analyzed_posts.append(post)
+                    
+                    # Save/Append to database immediately so progress appears in real-time
+                    save_to_csv([post])
+                    
+                    if post.get('score', 0) >= 6:
+                        high_value_posts.append(post)
+                        print(f"      -> Success! Found {len(high_value_posts)}/{args.target_output} high-value posts.")
+                        
+                    if len(high_value_posts) >= args.target_output:
+                        print(f"[*] Reached target output of {args.target_output} high-value comments. Stopping early!")
+                        break
+                else:
+                    print("    ! Skipped (failed content extraction)")
+                    
+                # Polite sleep
+                time.sleep(1)
+                
+            browser.close()
             
             print(f"[*] Filtering Complete: Found {len(high_value_posts)} high-value posts from {len(analyzed_posts)} analyzed candidates.")
             
-            # Save all for records, but maybe prioritize the good ones
+            # Save records
             save_to_file(high_value_posts, "high_value_comments.txt")
             save_to_file(analyzed_posts, "all_scraped_posts.txt")
-            save_to_csv(analyzed_posts)
             
-            # Update history with new candidates
-            update_history(candidates)
-            print(f"[*] Updated history with {len(candidates)} new links.")
+            # Update history with processed candidates
+            processed_urls = [p['url'] for p in analyzed_posts]
+            update_history(processed_urls)
+            print(f"[*] Updated history with {len(processed_urls)} new links.")
         else:
             print("[!] No URLs found via LinkedIn Search.")
 

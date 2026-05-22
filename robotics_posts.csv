@@ -265,11 +265,6 @@ Because the future of robotics should not belong only to large corporations.
 It should also remain open to researchers, makers, engineers, students, and open-source communities worldwide.
 Project: OpenAMRobot GitHub
 Related development discussion: OpenAMRobot Discussion #17"
-https://www.linkedin.com/company/huayanrobotics/posts/,2026-05-19,5,"The post is a standard industry news update about a company showcasing its solutions at a trade show, without providing deep insights or thought leadership.",,0,0,"Huayan Robotics Insights
-Subscribe
-Subscribe to {:entityName}
-Huayan Robotics to Showcase Welding and Automation Solutions at METALTECH & AUTOMEX 2026
-Huayan Robotics"
 https://www.linkedin.com/pulse/why-humanoid-robotics-entering-new-era-dr-vijay-anand-kandaswamy-sc4ec/,2026-05-19,9,"The post is a thought leadership piece by a renowned expert in the field of humanoid robotics, discussing the latest advancements and Future of robotics, making it highly commentable","Dr. Vijay, your vision for the future of humanoid robotics is truly insightful, and the emphasis on embodied intelligence and ROS2 architectures is well-taken. The integration of sensors, computation, and motion systems will indeed enable humanoids to understand spatial relationships and human intent, transforming robotics into adaptive intelligence. As we move towards more autonomous and collaborative systems, what do you think will be the most significant challenge in ensuring seamless human-robot interaction and trust in dynamic environments?",0,0,"The Robotics Frontier
 372 subscribers
 Subscribe
@@ -332,6 +327,304 @@ Humanoid robotics is entering a defining era where intelligent machines are tran
 The next decade will likely witness humanoids becoming integral to industries, healthcare, research, logistics, and intelligent automation ecosystems worldwide.
 The future of robotics is no longer limited to automation alone. It is evolving toward adaptive intelligence, collaborative systems, and embodied cognition capable of reshaping how humans and machines coexist and innovate together.
 The era of intelligent humanoids has begun."
+https://www.linkedin.com/pulse/we-use-chatgpt-im-sure-what-else-can-do-ana-kapur-0kcwc/,2026-05-19,9,"The post provides thought leadership on AI adoption in businesses and offers a unique framework for understanding AI-native companies, making it a high-value conversation worth engaging with.","I completely agree with your assessment that many businesses are stuck at the Assistive AI level and don't know how to fully leverage AI's potential. Your Three Levels to AI-Native framework provides a clear roadmap for businesses to progress from using AI as a productivity tool to truly integrating it into their operations. What do you think is the biggest hurdle for businesses to overcome when transitioning from Level 1 to Level 2, and how can they ensure that their AI implementations are aligned with their overall business strategy?",0,0,"""We use ChatGPT. I'm not sure what else we can do.""
+Ana Kapur
+Founder, Tanren | Help consultants and solopreneurs scale without building a large team using AI and Content | Productize your expertise | Ex-Meta, Amazon
+April 21, 2026
+I hear this from almost every solopreneur and boutique agency founder I speak with. They've subscribed to Claude or ChatGPT. They use it for drafts, summaries and the occasional search. Its useful, but it’s not the transformation they keep hearing about.
+So, what's actually missing? And more practically, as a founder, if your days are already packed with client work, lead generation, and keeping the business running - how do you actually figure AI out?
+That's what this article is for: how to think about AI and what it can do for your business.
+First things first, what does AI-Native actually mean?
+AI-native means AI is a part of how work gets done in your business. It’s not something you ask one off queries to. When you hire someone, you don't just give them a login and a laptop. You give them a job description. You bring them into the meetings that matter. You show them past work so they understand the standard. You give them feedback so they improve. You check in on whether they're actually delivering.
+An AI-native business has done the equivalent of all of those things, for its AI.
+Think of all the time you spent interviewing, recruiting, onboarding your last hire. Compare that to the time you’re giving to AI today as a founder. And when you hire AI, you don’t have a risk of attrition – the time you spend training, and the person just leaves.
+So, to be AI Native means you have digital employees that have been properly hired, briefed, and managed.
+Which raises the obvious question: what does it actually look like to hire them well?
+Three Levels to AI-Native
+In practice, there are three distinct levels of using AI in a service business. Most people are stuck at the first one and don't know it.
+Level 1: Assistive AI – The Fast Junior
+You open an LLM, ask it something, it gives you an output. A PR agency uses Claude to draft a press release. A consultant uses ChatGPT to pull key themes from a research document. A performance marketing team uses Gemini to brainstorm ad angles.
+Think of Assistive AI as a fast capable junior hire. They are only as useful as the brief you gave them.
+Using LLMs to assist in your work can feel like a wow to begin with, but folks quickly realise that the ceiling on how it impacts your business is lower than they first thought. Because you're still doing the same work in roughly the same way, just with a faster first draft.
+How to improve Assistive AI impact: Better prompts + Giving the LLM actual context: your past work, your client's voice, your specific methodology. Generic prompt, generic output. Specific prompt with real context, something worth using.
+Almost every team gets here. Almost every team stops here.
+Level 2: AI for automating tasks – The Process Owner
+This is where the ""save X hours per week"" promises live — and where most AI projects quietly die.
+The idea is right: take repetitive, well-defined execution tasks — things you have to do to deliver value but that don't require judgment — and hand them to a system. Client onboarding follow-ups. Data formatting. Meeting summaries. First-pass reports.
+Here's the problem. Remember that experienced hire who ran a process brilliantly — once you wrote it down? The same logic applies, and it's non-negotiable.
+In most service businesses, the same task gets done slightly differently by different people, across different tools, with exceptions that everyone handles intuitively but nobody has written down. Before you automate anything at this level, you have to standardise it. Map how the task actually gets done, not how you think it gets done. Account for the real exceptions. Define what a completed output looks like, independent of someone's personal judgment.
+This is the part no one shows you in the demo video. But skip it, and here's what happens: the automation gets built, your team doesn't trust it, they keep a manual workaround ""just in case,"" and eventually nobody uses the thing. I've seen this more times than I'd like to count.
+Level 3: AI as a compounding intelligence layer – The Senior Partner
+This is where real impact lives. Not in the hours saved, but actual new value created.
+At this level, AI becomes a thinking partner for the high-judgment work that clients actually hire you for. Which story angle to pitch to which publication with which hook. How to structure a complex proposal for a specific client situation. What patterns emerge across your last twenty engagements that you'd otherwise never notice.
+Here's the catch: most of that judgment lives in the founder's head. It's implicit. It's never been written down. Getting it out — making it legible enough for an AI system to work with — requires real effort. Documenting your methodology. Building feedback loops. Deciding what ""good"" actually looks like independent of your personal taste and experience.
+This is why AI rewards the businesses that have already done the work of codifying their expertise. If your process lives in your head, AI can't amplify it. It can only amplify what's been made explicit.
+One thing nobody mentions when selling AI to service businesses
+If you automate your execution but still bill by the hour, you've just cut your own revenue.
+A system that makes you faster at delivery is only valuable if your business model captures that speed as margin — not as cheaper invoices. Technology solves a delivery problem. It doesn't fix a pricing problem.
+This is why how you've structured your offer and how you adopt AI are not separate conversations. A business that sells outcomes — a defined methodology, a clear result — is the one that can let AI compound at Level 2 and Level 3. Otherwise you're building a faster engine for a car pointing in the wrong direction.
+How to Evaluate Who you Work with
+It makes sense that you’ll need an expert to help you get AI-Native. There’s lots to learn, and a lot of noise out there. A partner who understands the technology and how to use that technology to deliver the outcomes you need.
+If you're evaluating an AI partner - an agency, a consultant, a platform -  this checklist will tell you whether you're being sold a shortcut or being built something real.
+1. Are they spending time understanding our workflows before recommending tools? Anyone who leads with tool recommendations before understanding how you work is solving a problem they haven't diagnosed yet.
+2. Are they challenging why you do things the way you do or just automating the current state? Some of your processes exist because of constraints that no longer apply. A good AI partner surfaces those. A bad one automates the legacy workaround.
+3. Have they designed for edge cases and not just the happy path? Ask what happens when a client doesn't respond on time, or sends files in the wrong format, or changes scope mid-engagement. If the answer is vague, the workflow will break the first time reality shows up.
+4. Are they asking what ""good"" looks like? This sounds obvious. Most teams have never defined what a successful output actually looks like, independent of a specific person's judgment. If your AI partner isn't pushing you on this, the automation will produce outputs. Just not necessarily the right ones.
+5. How does AI access our information on an ongoing basis? One-time setups break. A real build has a clear answer for how context flows in as your business changes, your clients change, your methods evolve.
+6. Are feedback loops part of the design from the start? AI systems should get better over time. If ""how does this improve?"" gets a vague answer, you're buying a static build that will slowly drift out of relevance.
+A once-and-done install in a week can sound efficient. If it's not designed around how your business actually thinks and works, it won't stick.
+What the businesses actually winning with AI have in common
+Beyond the buzz words, for a solopreneur service provider or boutique agency founder, becoming AI native is a way to improve your business amrgins, and operate at a scale that just wasn’t possible before.
+What it takes to succeed in this is to approach it with the right mindset – the redesign of how you run the business, not short term hacks, and invest in really understanding your business and its workflows – what value you deliver to clients, the quality bar you measure yourself against. The question worth asking isn't ""which tools should we use?"" It's ""what does our business need to make legible before any tool can help?""
+If you're trying to figure out what’s the right next step in your AI-Native journey, and how you can use AI to do more with  less, we should chat. bit.ly/tanren"
+https://www.linkedin.com/pulse/industrial-automation-smart-manufacturing-sg-life-6tu8c/,2026-05-19,9,"The post demonstrates thought leadership, provides deep technical insights, and offers a unique perspective on the future of industrial automation and smart manufacturing.","I couldn't agree more, Shailesh, that the convergence of human understanding and machine intelligence is key to unlocking the true potential of Industry 4.0 and 5.0. Your point about the collapse of the wall between technical expertise and commercial strategy is particularly well-taken, as it highlights the need for cross-functional collaboration and communication in driving successful automation solutions. What do you think is the most critical step that organizations can take to bridge this gap and develop a common vocabulary across technical and business stakeholders?",0,0,"Industrial Automation & Smart Manufacturing
+Shailesh Gaikwad
+Marketing (Head) at ELECTRODIGIT AUTOMATION AND ROBOTICS
+May 15, 2026
+ 
+The Factory of the Future Is Not Being Built by Machines Alone
+Why the next industrial revolution demands visionaries who speak both the language of engineering and the language of growth.
+Walk through the floor of any advanced manufacturing facility today — the hum of servo drives, the precise arc of a robotic torch, the silent coordination of PLCs exchanging data at millisecond intervals — and you are witnessing something profound. Not just automation. Evolution.
+Over more than two decades embedded in industrial automation, thermal cutting, robotic welding, and smart factory development, I have had the privilege of watching this evolution unfold from the inside. From shop floors handling plasma-cut structural steel to turnkey robotic welding cells integrating vision systems, the story of modern manufacturing is not simply about faster machines or better sensors. It is about the convergence of human understanding and machine intelligence.
+And yet, as an industry, we are still learning how to talk about it.
+The shift that most leaders are underestimating
+When business leaders speak of Industry 4.0 — and now Industry 5.0 — they often frame it as a technology conversation. IoT sensors. Digital twins. Collaborative robots. Edge computing. The vocabulary is compelling, and the tools are genuinely transformative.
+But there is a quieter revolution running parallel to it, one that rarely makes the keynote stage: the collapse of the wall between technical expertise and commercial strategy.
+The factory of the future will not be won by the company with the best robot. It will be won by the company that best understands why that robot matters — to the customer, to the process, and to the bottom line.
+I have seen this play out repeatedly. A technically brilliant automation solution fails to scale commercially because no one could articulate its value in a language a plant director or CFO could act on. Conversely, I have seen modest automation investments deliver outsized returns because a team understood the application deeply enough to position it precisely.
+The gap is not technological. It is communicative. It is strategic. It is human.
+Smart manufacturing is not a destination — it is a posture
+The term ""smart factory"" risks becoming another industry buzzword if we treat it as a checkbox exercise — install the sensors, connect the MES, declare victory. True smart manufacturing is not a state you arrive at. It is an organisational posture: the ongoing capacity to sense, interpret, adapt, and communicate across the entire value chain.
+This means the welding engineer and the business development manager must share a common vocabulary. The application specialist and the marketing team must be aligned not just on what the product does, but on what problem it actually solves for a customer operating under real-world constraints — workforce pressure, throughput targets, quality mandates, energy costs.
+What the next decade demands from industrial leaders
+Technical depth paired with commercial fluency — understanding both the arc and the argument
+Application-first thinking that connects machine capability to customer outcome
+Communication that bridges the shop floor and the boardroom without losing either audience
+Strategic positioning of automation solutions in the context of total manufacturing value
+Patience for complexity and boldness for simplification — simultaneously
+From thermal cutting to robotic welding — what two decades taught me
+My journey across plasma and laser cutting applications, CNC systems, welding automation, and turnkey project environments gave me something no classroom could: the experience of watching automation promises meet manufacturing reality. I have seen projects succeed not because the technology was flawless, but because every stakeholder — from the operator to the procurement head — understood their role in making it work.
+And I have seen transformative technology stall because it was sold as a product when it needed to be sold as a solution. As a partnership. As a shared investment in a better process.
+The industrial leaders who will shape the next decade are not those who understand only machines, or only markets. They are the ones who can stand at the intersection — who can read a weld defect and a balance sheet with equal fluency, who can architect a solution and articulate its ROI in the same breath.
+The question every manufacturing organisation must ask today
+As automation becomes more accessible — as collaborative robots enter mid-market facilities, as AI-driven quality inspection moves from aerospace to general fabrication, as digital twins shift from aspiration to operational standard — the competitive differentiator is no longer access to technology.
+It is wisdom about how to deploy it.
+Any organisation can purchase a robot. Far fewer can integrate one with precision, align it to a growth strategy, and communicate that value to the market with clarity.
+The manufacturers, solution providers, and technology partners who will lead the next industrial era are those building teams that combine technical understanding with commercial thinking, process communication with strategic presentation, and application-oriented problem solving with long-term vision.
+This is not idealism. It is the structural reality of where the industry is heading.
+An invitation to the conversation
+I am writing this as someone still actively learning — still expanding into business development, customer engagement, and strategic growth within the automation and robotic welding space. My 21+ years are not a credential of completion. They are context for the questions I am still asking.
+The most important question being: how do we, as an industry, build the next generation of leaders who are as comfortable with a P&L as they are with a PLC? Who can vision-cast a smart factory strategy on Monday and walk a weld inspection on Tuesday?
+If you are working at the edge of industrial automation, manufacturing solutions, robotic welding, or technical-commercial development — I would genuinely like to hear your perspective. The future of this industry is not written yet. And the most important conversations are the ones happening between people who understand it from the inside.
+— Written from 21+ years across industrial automation, thermal cutting, welding automation, and smart manufacturing environments.
+#IndustrialAutomation#SmartManufacturing#Industry5#RoboticWelding#ManufacturingLeadership#FutureOfWork#TechnicalSales#BusinessDevelopment#Automation#IndustrialEngineering"
+https://www.linkedin.com/posts/what-how-robotics_humanoid-robots-running-used-to-look-impossible-activity-7462590011964559360-u6P1,2026-05-22,9,"The post discusses a deep technical topic in robotics, specifically the challenges and breakthroughs in humanoid robots running, and explores the potential real-world applications and implications of such advancements.","I completely agree with your assessment that dynamic coordination under force is a crucial aspect of humanoid robotics. The complexities of predicting and adjusting to momentum shifts, joint stabilization, and impact absorption in real-time are indeed what make running at human speed so challenging for robots. As we push the boundaries of humanoid robotics, what do you think will be the most significant obstacle to overcome in order to achieve widespread adoption of these robots in industries like warehouses, delivery systems, and emergency response?",0,0,"What How Robotics
+1,553 followers
+2d  Edited
+Humanoid robots running used to look impossible because running is controlled falling.
+Humans make it look effortless, but every sprint is actually thousands of continuous balance corrections happening in real time:
+• foot pressure adjustment
+• center-of-mass prediction
+• joint stabilization
+• impact absorption
+• momentum control
+• fall recovery
+For robots, this is brutally hard.
+Walking on flat ground is one thing.
+Running at human speed without collapsing is a completely different category of robotics.
+Because the faster a humanoid moves, the more unstable the system becomes.
+One bad calculation and the robot doesn’t “slow down.”
+It crashes.
+That’s why videos like this matter.
+The breakthrough is not speed alone.
+It’s dynamic coordination under force.
+To sprint successfully, the robot has to constantly predict:
+- where its body will be milliseconds ahead
+- how hard each foot will hit the ground
+- how momentum shifts during acceleration
+- how to recover from imbalance before instability compounds
+In other words, the machine is learning physics through movement.
+And this is where humanoid robotics becomes serious.
+Once robots can move quickly, recover reliably, and operate for long periods without human intervention, the range of possible real-world deployment expands massively:
+- warehouses
+- delivery systems
+- emergency response
+- industrial operations
+- hazardous environments
+- military logistics
+People keep focusing on whether robots “look human.”
+That’s not the important part.
+The important part is whether machines can navigate the physical world with the same adaptability humans can.
+Because civilization is built around human movement:
+stairs, doors, tools, warehouses, factories, sidewalks, equipment.
+The closer robots get to matching human mobility, the less the world needs to be redesigned for automation.
+And that’s when humanoid robotics shifts from experimental demos
+to economic disruption at scale.
+—
+Credit: Robotics 
+…more
+44
+4 Comments
+Like
+Comment
+Share
+Mark Pham
+1d
+The Terminators in the movies were slow... Great, our grand kids gonna have to figure out how to handle these fast T-5000 also.  lol
+Like
+Reply
+Patrick Scanlan
+2d
+Nothing to worry about there…  🤦♂️ 
+Like
+Reply
+1 Reaction
+Nikol D.
+2d
+One question ... Why? 
+Like
+Reply
+Jean Cosgriff
+2d
+Great  😆
+Like
+Reply
+See more comments
+To view or add a comment, sign in"
+https://www.linkedin.com/posts/humanoid-robotics-weekly_last-weeks-theme-12-18-may-2026-the-activity-7462098836367233024-L4yF,2026-05-22,9,"The post showcases thought leadership and deep technical insights into the humanoid robotics industry, with references to specific companies and trends, making it a high-value discussion.","I completely agree with your analysis on the shifting landscape of evidence in humanoid robotics, particularly with Figure's recent livestream setting a new bar for autonomy. One aspect that caught my attention was the converging conversations around soft-goods, actuators, and deployment, which highlights the growing complexity of the humanoid supply chain. What do you think will be the most critical factor for industrial backers to consider when navigating these multi-faceted contracts, and how might this impact the overall development of the humanoid robotics market?",0,0,"Humanoid Robotics Weekly
+18 followers
+4d
+LAST WEEK'S THEME: (12-18 May 2026) 
+The dominant pattern of the week is the rewriting of what counts as evidence. Figure's fifty-hour livestream pulled the autonomy bar from ""a fluid edited clip"" to ""a public, continuous, observable shift,"" and the responses from Agility Robotics, Boston Dynamics partners and Chinese vendors are now being judged against that bar. The endurance question is no longer something a vendor can decline to engage with, and the controlled-environment caveat does not stop the competitive pressure from spreading. 
+In parallel, the Humanoid (UK) / Schaeffler deal and the Persona AI / Under Armour collaboration both point at a quieter, more important shift. Industrial backers are increasingly playing both customer and supplier inside the same agreement, and the soft-goods, actuator and deployment conversations are converging into single contracts. The humanoid supply chain is no longer a discrete topic of investor decks; it is becoming the actual product. The Chinese vendors meanwhile keep widening their product surfaces ahead of their listings, with Unitree's piloted mecha and AGIBOT's Hong Kong positioning both pointing at the same calculation: the public-markets story has to be larger than the biped on stage
+1
+Like
+Comment
+Share
+To view or add a comment, sign in"
+https://www.linkedin.com/posts/juliazadorozhna_meet-odin-our-new-humanoid-robot-that-activity-7358142104725778433-1C9O,2026-05-22,9,"The post showcases a cutting-edge robotics project with significant technical achievements, such as real-time spatial mapping and autonomous decision-making, making it a high-value topic for commentary.","Impressive work on ODIN, Pascal! The fact that your team was able to achieve full autonomy in just one week is a testament to the innovative spirit and technical expertise of your AI Robotics & Experiences Lab. I'm particularly intrigued by the use of embodied AI and the potential applications of this technology in real-world settings. What do you envision as the primary use cases for ODIN and similar autonomous robots in the near future, and how do you see them impacting industries such as healthcare, logistics, or education?",0,0,"Julia Chansard (Zadorozhna)
+9mo
+🤖 Meet ODIN, our new humanoid robot that’s already walking, talking, and thinking autonomously just one week in. What a time to be alive!
+Pascal Brier 
+Pascal Brier is an Influencer
+9mo  Edited
+When I announced our AI Robotics & Experiences Lab, I promised there would be more to come. Here is a glimpse of what’s happening in Paris, where one of our new robots is already taking its first autonomous steps. 😊
+ 
+Just one week after receiving our new robot platform, ODIN (short for Observe, Detect, Interact & Navigate) is already fully autonomous. He isn’t just moving, he’s perceiving, understanding, interacting, and acting autonomously:
+✔️ Real-time spatial mapping, people and object recognition
+ ✔️ Natural human conversations
+ ✔️ Verbal instruction following and autonomous decision-making
+ 
+In the video below, we reveal not just what ODIN sees, but what he perceives from a third-person view into his first-person understanding. This is embodied AI, in action. No scripts. No demos. No Lab simulation. Just ODIN, navigating the real world.
+ 
+All of this was built in just a few days by the brilliant team of our AI Robotics & Experiences Lab, pushing the boundaries in:
+  #Robotics
+  #ComputerVision
+  #GenAI & #AgenticAI
+What our team achieved in a week would take others a quarter. This is why we build Labs and invest in pioneers. This is why Capgemini leads in AI that works, in the real world.
+ 
+Congratulations to the entire team. ODIN has awakened!
+ 
+🎥 Watch the video, and see through his eyes.
+Franck Greverie Alexandre Embry Keith Williams Rodrigo Maia Nitin Dhemre Marc Blanchon Àlex Santos Rosique
+5
+Like
+Comment
+Share
+To view or add a comment, sign in"
+https://www.linkedin.com/posts/grishinrobotics_startups-rhoda-ai-and-genesis-ai-are-building-activity-7384182504351547392-0dNH,2026-05-22,9,"The post discusses thought leadership, provides deep technical insights, and mentions specific companies and investments, making it a high-value conversation","I completely agree that investors are prioritizing near-term utility while the toughest bipedal robotics challenges are being addressed. The mention of Rhoda AI and Genesis AI's approaches, with their focus on 'general-purpose' manipulation, highlights the diverse paths being explored. The contrast between wheeled and leg-based systems for tasks like unloading cartons also underscores the importance of balancing capability with practicality. What do you think will be the tipping point for bipedal robots to overcome the current limitations in reliability, dexterity, and cost-effectiveness, making them more competitive with wheeled solutions in industrial settings?",0,0,"Grishin Robotics
+22,998 followers
+7mo
+Two stealth humanoid plays just surfaced with $100M+ each: Rhoda AI ($162.6M Series A, April 2025) and Genesis AI ($105M seed). Both are chasing ""general-purpose"" manipulation-Rhoda aiming beyond 23 kg (50 lb) lift where many biped bots wobble; Genesis opting for a wheeled base and software-first control.
+Why it matters: the money is following deployment paths that reduce risk. Figure just locked $1B (Series C) at a $39B post-capital to turn pilots into production lines. Meanwhile, Tesla's Optimus push keeps meeting real-world constraints, from rare-earth magnet export licensing to manufacturing bottlenecks. The signal: investors want near-term utility while the hardest biped problems get worked out.
+What we're watching on factory floors in 2026: wheels vs. legs. A wheeled, two-arm unit can unload 25–35 kg cartons at inbound docks today, with simpler safety envelopes and service economics. True bipeds promise reach and human-scale ergonomics-but need reliable balance under load, dexterous hands, and cheaper actuation to win TCO.
+https://lnkd.in/gYEFenqp
+Startups Rhoda AI And Genesis AI Are Building Humanoid Robots In Stealth
+social-www.forbes.com
+2
+Like
+Comment
+Share
+To view or add a comment, sign in"
+https://www.linkedin.com/posts/armel-nene-jr_ros2-slam-nav2-activity-7375521929706758144-fMQh,2026-05-22,9,"The post showcases thought leadership, deep technical discussions, and personal experiences in robotics engineering, making it an ideal opportunity to add value with a comment.","I completely agree that nothing goes 100% to plan when building a robot, and your experience with the ROS2 robot is a great example of this. One thing that caught my attention was your decision to redesign the mountings and use a 3D printer to create a stronger, modular platform. This highlights the importance of adaptability and iterative design in robotics engineering. What do you think is the most significant challenge that robotics engineers will face when integrating autonomous navigation and SLAM capabilities into their projects, and how can we address these challenges as a community?",0,0,"Armel Nene JR
+8mo  Edited
+One thing I’ve learned building my own ROS2 robot is that nothing ever goes 100% to plan, why? I didn’t want to buy a pre-built turtle bot robot and figured this would let me dip in all areas of engineering and guess what. It did. 
+When I first set out to create a ROS 2 Humble-based mobile robot, the vision was clear: 
+Raspberry Pi 4 for brains, Arduino with encoders for odometry, and an LD14 LiDAR to map the world (I quickly found out LIDAR sensors aren’t so cheap). On paper? Simple. In practice? A real engineering adventure.
+At the start, I had to “fake” odometry just to get SLAM Toolbox running. Watching the LiDAR draw a live map reminded me of building a ROS1 robot during my university days. But the real breakthrough came when I finally got encoder-based odometry working—suddenly the robot wasn’t guessing, it knew where it was.
+Then came the plot twist: the base literally cracked under testing, I decided to get stronger motors which were x4 heavier and the shaft was much larger. At first it felt like a disaster, but it turned into one of the best parts of the project. I fired up the 3D printer, redesigned the mountings, and ended up with a stronger, modular platform that made iterating so much easier. (As well as some help off the time help from friends to make the new shaft sleeves) 
+Since then, I’ve integrated:
+	•	SLAM Toolbox for real-time mapping
+	•	Nav2 stack for autonomous path planning and obstacle avoidance
+	•	Explore_Lite for full autonomous exploration
+	•	A web dashboard for remote monitoring and control
+It’s been a crash course in ROS2 and seeing all the changes —balancing low-level hardware with high-level autonomy. Every problem, from TF transform errors to busted parts, became an opportunity to learn, rebuild, and move forward.
+📚 Along the way, I’ve been reading “A Concise Introduction to Robot Programming with ROS2” by Francisco Martín Rico (Though I accidentally bought the first version). The book has been an incredible companion to the build, helping me connect the theory with the hands-on work I was doing. I’m still reading and learning from it now, and it continues to push my understanding forward.
+Also the change in the URDF using comma separated links in the definition was a really annoying change but I can see the benefit in hindsight. Open Robotics  
+Excited to keep pushing this platform further — and to connect with others working in ROS 2, autonomous navigation, or robotics integration.
+#ROS2 #SLAM #Nav2 #RoboticsEngineering #AutonomousNavigation #3DPrinting #RaspberryPi4 #Arduino #LiDAR #Engineering #LearningByDoing #embedded #roboticsUK #iet #London #LondonRobotics
+Also thanks Rob Hawkes Aaron Pinto Jorge Porcel Bustamante Alex Griffiths for helping and collaborating on the little snags along the way!
+…more
+738
+32 Comments
+Like
+Comment
+Share
+Transcript
+Transcript
+If you can drive a motor, you can read an encoder. If you can read an encoder, you can make odometry. If you can make odometry, you can streamline DAR. If you can stream Lidar, you can build a map. If you can build a map, you can tie it all together and telling navigate. And if you can navigate with NAV two, you can explore autonomously. And you've just built a Ross 2 robot.
+Ali Rezazadeh
+7mo
+It seems like an amazing adventure. As a rookie at the beginning of this journey I'd like to know what are the best resources to learn ROS🙏🙏🙏🙏
+Like
+Reply
+Sai Kishore
+8mo
+Really inspiring, Armel Nene JR 🚀! Loved how you broke down the whole journey from faking odometry to integrating SLAM Toolbox, Nav2, and Explore_Lite. The way you turned setbacks like cracked bases and sensor costs into opportunities shows true engineering grit. ROS2 is complex, and seeing your modular approach plus 3D printing integration really highlights how learning by doing creates powerful outcomes. Excited to see how you keep pushing this platform further!
+Like
+Reply
+Syed Shayon Khaled
+Robotics | Mechanical | Electronics
+8mo
+I took the same approach as well, making my own take on Turtlebot instead of starting with an off-the-shelf platform. I think everyone getting into ROS should try to do this at least once - because even if I were to be working on the software side strictly, it would make my life a lot easier if I had basic understanding of how everything works on the hardware side as well.
+Like
+Reply
+Francisco Martín Rico
+8mo
+I am happy to have contributed to your awesome work with my book 🤓!!
+Like
+Reply
+2 Reactions
+Peter Tran
+7mo
+As someone who’s tried to build a ROS2 robot without following a simple turtlebot guide, this is insane
+Like
+Reply
+TIMOTHY AYELAGBE
+8mo
+Great work Armel Nene JR
+Like
+Reply
+1 Reaction
+Seyed Mohammadhadi Rahavi
+7mo
+Wow, Armel, your journey is truly inspiring! How did you prioritize which challenges to tackle first?
+Insights resonate keen to link
+Like
+Reply
+1 Reaction
+Aaqib Khan
+8mo
+Nice poetry...
+Like
+Reply
+Iliya Baladastian
+8mo
+Nice 🔥
+Like
+Reply
+See more comments
+To view or add a comment, sign in"
 https://www.linkedin.com/company/1x-technologies/posts/,2026-05-19,8,"The post discusses a significant milestone in robotics engineering, showcasing a high level of technical expertise and thought leadership in the field of home robots and AI-powered robotics.","Congratulations on reaching full-scale production of NEO, a remarkable achievement in the robotics industry. The integration of a physics-grounded video model for autonomous action is a significant step forward. What potential applications or challenges do you foresee in deploying this technology in real-world environments, and how might it impact the future of robotics?",0,0,"0 notifications total
 Skip to search
 Skip to main content
@@ -471,140 +764,7 @@ You are on the messaging overlay. Press enter to open the list of conversations.
 4
 Compose message
 You are on the messaging overlay. Press enter to open the list of conversations."
-https://www.linkedin.com/company/unitree/posts/,2026-05-19,1,The post appears to be a generic company page with no specific content or discussion to engage with.,,0,0,"0 notifications total
-Skip to search
-Skip to main content
-Keyboard shortcuts
-Close jump menu
-new feed updates notifications
-Home
-My Network
-Jobs
-4
-4 new messages notifications
-Messaging
-1
-1 new notification
-Notifications
-Me
-For Business
-Try Premium for ₹0
-Títì
-Títì is your One-Stop-Shop for Fresh Farm produce – we are building Africa's fresh produce retail market
-Food and Beverage Manufacturing 20 followers 2-10 employees
-Follow
-Message
- 
-Home
-About
-Posts
-Jobs
-People
-Títì
-20 followers
-See a collection of active or past ads by Títì.
-View ad library
-All Images Videos Articles Documents
-Sort by: 
-Top
-No posts yet
-Check back later for posts!
-Pages people also viewed
-Jęuun
-Food and Beverage Services
-47 followers
-Follow
-LS
-Investment Management
-708 followers
-Follow
-Topship (YC W22)
-Transportation, Logistics, Supply Chain and Storage
-2,946 followers
-Follow
-Show all
-People also follow
-Google
-Software Development
-41,665,610 followers
-Follow
-LinkedIn
-Software Development
-33,700,471 followers
-Follow
-Amazon
-Software Development
-36,758,707 followers
-Vatchala & 12 other school alumni work here
-Follow
-Show all
-About
-Accessibility
-Help Center
-Privacy & Terms
-Ad Choices
-Advertising
-Business Services
-Get the LinkedIn app
-More
- LinkedIn Corporation © 2026
-Status is online
-Messaging
-You are on the messaging overlay. Press enter to open the list of conversations.
-4
-Compose message
-You are on the messaging overlay. Press enter to open the list of conversations."
 https://www.linkedin.com/company/boston-dynamics/posts/,2026-05-19,8,"The post appears to be about a thought leadership topic, specifically the learning process of Atlas, a humanoid robot, which suggests a deep technical discussion.","I appreciate the insight into Atlas's learning process. The use of reinforcement learning and simulation is fascinating. One aspect that I think is crucial in such robotic systems is the balance between exploration and exploitation. Did the team consider implementing any specific algorithms to optimize this trade-off, and what were some of the key challenges in translating simulated learning to real-world applications?",0,0,How does Atlas learn? | Inside the Lab
-https://www.linkedin.com/pulse/we-use-chatgpt-im-sure-what-else-can-do-ana-kapur-0kcwc/,2026-05-19,9,"The post provides thought leadership on AI adoption in businesses and offers a unique framework for understanding AI-native companies, making it a high-value conversation worth engaging with.","I completely agree with your assessment that many businesses are stuck at the Assistive AI level and don't know how to fully leverage AI's potential. Your Three Levels to AI-Native framework provides a clear roadmap for businesses to progress from using AI as a productivity tool to truly integrating it into their operations. What do you think is the biggest hurdle for businesses to overcome when transitioning from Level 1 to Level 2, and how can they ensure that their AI implementations are aligned with their overall business strategy?",0,0,"""We use ChatGPT. I'm not sure what else we can do.""
-Ana Kapur
-Founder, Tanren | Help consultants and solopreneurs scale without building a large team using AI and Content | Productize your expertise | Ex-Meta, Amazon
-April 21, 2026
-I hear this from almost every solopreneur and boutique agency founder I speak with. They've subscribed to Claude or ChatGPT. They use it for drafts, summaries and the occasional search. Its useful, but it’s not the transformation they keep hearing about.
-So, what's actually missing? And more practically, as a founder, if your days are already packed with client work, lead generation, and keeping the business running - how do you actually figure AI out?
-That's what this article is for: how to think about AI and what it can do for your business.
-First things first, what does AI-Native actually mean?
-AI-native means AI is a part of how work gets done in your business. It’s not something you ask one off queries to. When you hire someone, you don't just give them a login and a laptop. You give them a job description. You bring them into the meetings that matter. You show them past work so they understand the standard. You give them feedback so they improve. You check in on whether they're actually delivering.
-An AI-native business has done the equivalent of all of those things, for its AI.
-Think of all the time you spent interviewing, recruiting, onboarding your last hire. Compare that to the time you’re giving to AI today as a founder. And when you hire AI, you don’t have a risk of attrition – the time you spend training, and the person just leaves.
-So, to be AI Native means you have digital employees that have been properly hired, briefed, and managed.
-Which raises the obvious question: what does it actually look like to hire them well?
-Three Levels to AI-Native
-In practice, there are three distinct levels of using AI in a service business. Most people are stuck at the first one and don't know it.
-Level 1: Assistive AI – The Fast Junior
-You open an LLM, ask it something, it gives you an output. A PR agency uses Claude to draft a press release. A consultant uses ChatGPT to pull key themes from a research document. A performance marketing team uses Gemini to brainstorm ad angles.
-Think of Assistive AI as a fast capable junior hire. They are only as useful as the brief you gave them.
-Using LLMs to assist in your work can feel like a wow to begin with, but folks quickly realise that the ceiling on how it impacts your business is lower than they first thought. Because you're still doing the same work in roughly the same way, just with a faster first draft.
-How to improve Assistive AI impact: Better prompts + Giving the LLM actual context: your past work, your client's voice, your specific methodology. Generic prompt, generic output. Specific prompt with real context, something worth using.
-Almost every team gets here. Almost every team stops here.
-Level 2: AI for automating tasks – The Process Owner
-This is where the ""save X hours per week"" promises live — and where most AI projects quietly die.
-The idea is right: take repetitive, well-defined execution tasks — things you have to do to deliver value but that don't require judgment — and hand them to a system. Client onboarding follow-ups. Data formatting. Meeting summaries. First-pass reports.
-Here's the problem. Remember that experienced hire who ran a process brilliantly — once you wrote it down? The same logic applies, and it's non-negotiable.
-In most service businesses, the same task gets done slightly differently by different people, across different tools, with exceptions that everyone handles intuitively but nobody has written down. Before you automate anything at this level, you have to standardise it. Map how the task actually gets done, not how you think it gets done. Account for the real exceptions. Define what a completed output looks like, independent of someone's personal judgment.
-This is the part no one shows you in the demo video. But skip it, and here's what happens: the automation gets built, your team doesn't trust it, they keep a manual workaround ""just in case,"" and eventually nobody uses the thing. I've seen this more times than I'd like to count.
-Level 3: AI as a compounding intelligence layer – The Senior Partner
-This is where real impact lives. Not in the hours saved, but actual new value created.
-At this level, AI becomes a thinking partner for the high-judgment work that clients actually hire you for. Which story angle to pitch to which publication with which hook. How to structure a complex proposal for a specific client situation. What patterns emerge across your last twenty engagements that you'd otherwise never notice.
-Here's the catch: most of that judgment lives in the founder's head. It's implicit. It's never been written down. Getting it out — making it legible enough for an AI system to work with — requires real effort. Documenting your methodology. Building feedback loops. Deciding what ""good"" actually looks like independent of your personal taste and experience.
-This is why AI rewards the businesses that have already done the work of codifying their expertise. If your process lives in your head, AI can't amplify it. It can only amplify what's been made explicit.
-One thing nobody mentions when selling AI to service businesses
-If you automate your execution but still bill by the hour, you've just cut your own revenue.
-A system that makes you faster at delivery is only valuable if your business model captures that speed as margin — not as cheaper invoices. Technology solves a delivery problem. It doesn't fix a pricing problem.
-This is why how you've structured your offer and how you adopt AI are not separate conversations. A business that sells outcomes — a defined methodology, a clear result — is the one that can let AI compound at Level 2 and Level 3. Otherwise you're building a faster engine for a car pointing in the wrong direction.
-How to Evaluate Who you Work with
-It makes sense that you’ll need an expert to help you get AI-Native. There’s lots to learn, and a lot of noise out there. A partner who understands the technology and how to use that technology to deliver the outcomes you need.
-If you're evaluating an AI partner - an agency, a consultant, a platform -  this checklist will tell you whether you're being sold a shortcut or being built something real.
-1. Are they spending time understanding our workflows before recommending tools? Anyone who leads with tool recommendations before understanding how you work is solving a problem they haven't diagnosed yet.
-2. Are they challenging why you do things the way you do or just automating the current state? Some of your processes exist because of constraints that no longer apply. A good AI partner surfaces those. A bad one automates the legacy workaround.
-3. Have they designed for edge cases and not just the happy path? Ask what happens when a client doesn't respond on time, or sends files in the wrong format, or changes scope mid-engagement. If the answer is vague, the workflow will break the first time reality shows up.
-4. Are they asking what ""good"" looks like? This sounds obvious. Most teams have never defined what a successful output actually looks like, independent of a specific person's judgment. If your AI partner isn't pushing you on this, the automation will produce outputs. Just not necessarily the right ones.
-5. How does AI access our information on an ongoing basis? One-time setups break. A real build has a clear answer for how context flows in as your business changes, your clients change, your methods evolve.
-6. Are feedback loops part of the design from the start? AI systems should get better over time. If ""how does this improve?"" gets a vague answer, you're buying a static build that will slowly drift out of relevance.
-A once-and-done install in a week can sound efficient. If it's not designed around how your business actually thinks and works, it won't stick.
-What the businesses actually winning with AI have in common
-Beyond the buzz words, for a solopreneur service provider or boutique agency founder, becoming AI native is a way to improve your business amrgins, and operate at a scale that just wasn’t possible before.
-What it takes to succeed in this is to approach it with the right mindset – the redesign of how you run the business, not short term hacks, and invest in really understanding your business and its workflows – what value you deliver to clients, the quality bar you measure yourself against. The question worth asking isn't ""which tools should we use?"" It's ""what does our business need to make legible before any tool can help?""
-If you're trying to figure out what’s the right next step in your AI-Native journey, and how you can use AI to do more with  less, we should chat. bit.ly/tanren"
 https://www.linkedin.com/company/telixia/posts/,2026-05-19,8,"The post discusses thought leadership in the field of AI and data engineering, presenting a framework for making engineering decisions and highlighting the importance of human-in-the-loop systems.","I completely agree that strong systems are built by asking better questions first, and your framework for making engineering decisions is spot on. In my experience as a robotics engineer, I've seen how Human-in-the-Loop (HITL) systems can significantly improve the reliability and trustworthiness of AI applications. What do you think is the most significant challenge in implementing HITL systems, and how can we balance human oversight with the need for autonomy in AI decision-making?",0,0,"0 notifications total
 Skip to search
 Skip to main content
@@ -797,47 +957,6 @@ hashtag
 …more
 Activate to view larger image,
 Activate to view larger i"
-https://www.linkedin.com/pulse/industrial-automation-smart-manufacturing-sg-life-6tu8c/,2026-05-19,9,"The post demonstrates thought leadership, provides deep technical insights, and offers a unique perspective on the future of industrial automation and smart manufacturing.","I couldn't agree more, Shailesh, that the convergence of human understanding and machine intelligence is key to unlocking the true potential of Industry 4.0 and 5.0. Your point about the collapse of the wall between technical expertise and commercial strategy is particularly well-taken, as it highlights the need for cross-functional collaboration and communication in driving successful automation solutions. What do you think is the most critical step that organizations can take to bridge this gap and develop a common vocabulary across technical and business stakeholders?",0,0,"Industrial Automation & Smart Manufacturing
-Shailesh Gaikwad
-Marketing (Head) at ELECTRODIGIT AUTOMATION AND ROBOTICS
-May 15, 2026
- 
-The Factory of the Future Is Not Being Built by Machines Alone
-Why the next industrial revolution demands visionaries who speak both the language of engineering and the language of growth.
-Walk through the floor of any advanced manufacturing facility today — the hum of servo drives, the precise arc of a robotic torch, the silent coordination of PLCs exchanging data at millisecond intervals — and you are witnessing something profound. Not just automation. Evolution.
-Over more than two decades embedded in industrial automation, thermal cutting, robotic welding, and smart factory development, I have had the privilege of watching this evolution unfold from the inside. From shop floors handling plasma-cut structural steel to turnkey robotic welding cells integrating vision systems, the story of modern manufacturing is not simply about faster machines or better sensors. It is about the convergence of human understanding and machine intelligence.
-And yet, as an industry, we are still learning how to talk about it.
-The shift that most leaders are underestimating
-When business leaders speak of Industry 4.0 — and now Industry 5.0 — they often frame it as a technology conversation. IoT sensors. Digital twins. Collaborative robots. Edge computing. The vocabulary is compelling, and the tools are genuinely transformative.
-But there is a quieter revolution running parallel to it, one that rarely makes the keynote stage: the collapse of the wall between technical expertise and commercial strategy.
-The factory of the future will not be won by the company with the best robot. It will be won by the company that best understands why that robot matters — to the customer, to the process, and to the bottom line.
-I have seen this play out repeatedly. A technically brilliant automation solution fails to scale commercially because no one could articulate its value in a language a plant director or CFO could act on. Conversely, I have seen modest automation investments deliver outsized returns because a team understood the application deeply enough to position it precisely.
-The gap is not technological. It is communicative. It is strategic. It is human.
-Smart manufacturing is not a destination — it is a posture
-The term ""smart factory"" risks becoming another industry buzzword if we treat it as a checkbox exercise — install the sensors, connect the MES, declare victory. True smart manufacturing is not a state you arrive at. It is an organisational posture: the ongoing capacity to sense, interpret, adapt, and communicate across the entire value chain.
-This means the welding engineer and the business development manager must share a common vocabulary. The application specialist and the marketing team must be aligned not just on what the product does, but on what problem it actually solves for a customer operating under real-world constraints — workforce pressure, throughput targets, quality mandates, energy costs.
-What the next decade demands from industrial leaders
-Technical depth paired with commercial fluency — understanding both the arc and the argument
-Application-first thinking that connects machine capability to customer outcome
-Communication that bridges the shop floor and the boardroom without losing either audience
-Strategic positioning of automation solutions in the context of total manufacturing value
-Patience for complexity and boldness for simplification — simultaneously
-From thermal cutting to robotic welding — what two decades taught me
-My journey across plasma and laser cutting applications, CNC systems, welding automation, and turnkey project environments gave me something no classroom could: the experience of watching automation promises meet manufacturing reality. I have seen projects succeed not because the technology was flawless, but because every stakeholder — from the operator to the procurement head — understood their role in making it work.
-And I have seen transformative technology stall because it was sold as a product when it needed to be sold as a solution. As a partnership. As a shared investment in a better process.
-The industrial leaders who will shape the next decade are not those who understand only machines, or only markets. They are the ones who can stand at the intersection — who can read a weld defect and a balance sheet with equal fluency, who can architect a solution and articulate its ROI in the same breath.
-The question every manufacturing organisation must ask today
-As automation becomes more accessible — as collaborative robots enter mid-market facilities, as AI-driven quality inspection moves from aerospace to general fabrication, as digital twins shift from aspiration to operational standard — the competitive differentiator is no longer access to technology.
-It is wisdom about how to deploy it.
-Any organisation can purchase a robot. Far fewer can integrate one with precision, align it to a growth strategy, and communicate that value to the market with clarity.
-The manufacturers, solution providers, and technology partners who will lead the next industrial era are those building teams that combine technical understanding with commercial thinking, process communication with strategic presentation, and application-oriented problem solving with long-term vision.
-This is not idealism. It is the structural reality of where the industry is heading.
-An invitation to the conversation
-I am writing this as someone still actively learning — still expanding into business development, customer engagement, and strategic growth within the automation and robotic welding space. My 21+ years are not a credential of completion. They are context for the questions I am still asking.
-The most important question being: how do we, as an industry, build the next generation of leaders who are as comfortable with a P&L as they are with a PLC? Who can vision-cast a smart factory strategy on Monday and walk a weld inspection on Tuesday?
-If you are working at the edge of industrial automation, manufacturing solutions, robotic welding, or technical-commercial development — I would genuinely like to hear your perspective. The future of this industry is not written yet. And the most important conversations are the ones happening between people who understand it from the inside.
-— Written from 21+ years across industrial automation, thermal cutting, welding automation, and smart manufacturing environments.
-#IndustrialAutomation#SmartManufacturing#Industry5#RoboticWelding#ManufacturingLeadership#FutureOfWork#TechnicalSales#BusinessDevelopment#Automation#IndustrialEngineering"
 https://www.linkedin.com/company/agility-robotics/posts/,2026-05-19,8,"The post discusses a significant challenge in robotics, the sim-to-real gap, and the company's efforts to address it, making it a thought leadership post with high commentability","I completely agree that closing the sim-to-real gap is one of the most pressing issues in robotics today. Agility Robotics' approach to tackling this problem with Digit is truly innovative. I'm curious, what are some of the most significant technical hurdles your team has encountered while deploying policies for locomotion and manipulation on Digit, and how do you see the field evolving to address these challenges?",0,0,"0 notifications total
 Skip to search
 Skip to main content
@@ -1046,97 +1165,6 @@ Conclusion
 Humanoid robots are becoming more human in their appearance and capabilities, but they remain machines guided by code, data, and human intent.
 In 2026, these systems are transforming business, defense, and industry by increasing efficiency and reducing risk. However, they also challenge society to address safety, employment, and ethics.
 The future of humanoid robotics will depend on one critical decision: whether humanity uses this technology to protect human life and dignity—or allows convenience and profit to outrun responsibility."
-https://www.linkedin.com/company/tesla-motors/posts/,2026-05-19,1,"The post is an empty page with no content, making it impossible to add value or provide insights.",,0,0,"0 notifications total
-Skip to search
-Skip to main content
-Keyboard shortcuts
-Close jump menu
-new feed updates notifications
-Home
-My Network
-Jobs
-4
-4 new messages notifications
-Messaging
-1
-1 new notification
-Notifications
-Me
-For Business
-Try Premium for ₹0
-Tesla 
-Motor Vehicle Manufacturing Austin, Texas 12M followers 10K+ employees
-Follow
-Visit website
- 
-Home
-About
-Posts
-Jobs
-People
-Tesla
-12,358,764 followers
-See a collection of active or past ads by Tesla.
-View ad library
-All Images Videos Articles Documents
-Sort by: 
-Top
-No posts yet
-Check back later for posts!
-Affiliated pages
-SolarCity
-Renewable Energy Semiconductor Manufacturing
-Subsidiary
-Follow
-Tesla Energy
-Services for Renewable Energy
-Showcase page
-Follow
-Pages people also viewed
-SpaceX
-Aviation and Aerospace Component Manufacturing
-3,547,729 followers
-Follow
-Apple
-Computers and Electronics Manufacturing
-18,225,464 followers
-Follow
-Google
-Software Development
-41,665,633 followers
-Follow
-Show all
-People also follow
-Google
-Software Development
-41,665,633 followers
-Follow
-LinkedIn
-Software Development
-33,700,496 followers
-Follow
-Amazon
-Software Development
-36,758,737 followers
-Vatchala & 12 other school alumni work here
-Follow
-Show all
-About
-Accessibility
-Help Center
-Privacy & Terms
-Ad Choices
-Advertising
-Business Services
-Get the LinkedIn app
-More
- LinkedIn Corporation © 2026
-Status is online
-Messaging
-You are on the messaging overlay. Press enter to open the list of conversations.
-4
-Compose message
-You are on the messaging overlay. Press enter to open the list of conversations."
 https://www.linkedin.com/company/figure-ai/posts/,2026-05-19,8,"The post is from a well-known company in the robotics industry, Figure, and showcases their achievement of running humanoid robots 24/7 with full autonomy, making it a high-value and technically interesting post.","Congratulations on achieving 119 consecutive hours and 149,000 packages with your humanoid robots! The fact that you're pushing the limits of autonomous robotics is truly impressive. I'd love to know more about the technical challenges you've overcome to achieve this level of autonomy. What do you think is the most significant hurdle to overcome in the next phase of development to further expand the capabilities of your robots?",0,0,"0 notifications total
 Skip to search
 Skip to main content
@@ -1261,6 +1289,201 @@ Follow
 Amazon
 Software Development
 36,758,754 followers
+Vatchala & 12 other school alumni work here
+Follow
+Show all
+About
+Accessibility
+Help Center
+Privacy & Terms
+Ad Choices
+Advertising
+Business Services
+Get the LinkedIn app
+More
+ LinkedIn Corporation © 2026
+Status is online
+Messaging
+You are on the messaging overlay. Press enter to open the list of conversations.
+4
+Compose message
+You are on the messaging overlay. Press enter to open the list of conversations."
+https://www.linkedin.com/posts/muthuramalingam-krishnan-5a44b48_polymers-humanoidrobotics-activity-7461642901853261824-jlwt,2026-05-22,8,"The post discusses a specific and technical topic in robotics, providing a deep insight into the importance of polymers in humanoid robotics, making it a good opportunity to add value and showcase expertise.","I completely agree that polymers play a crucial role in bridging the gap between rigid machines and biological systems, enabling safe human-robot interaction and lifelike movement. One interesting aspect that I'd like to add is the potential of polymers to be used in the development of soft robotics, which could further enhance the capabilities of humanoid robots. What are your thoughts on how the integration of soft robotics and polymers could impact the future of humanoid robotics?",0,0,"Muthuramalingam Krishnan
+5d
+𝐓𝐨𝐝𝐚𝐲'𝐬 𝐊𝐍𝐎𝐖𝐋𝐄𝐃𝐆𝐄 𝐒𝐡𝐚𝐫𝐞
+𝐏𝐨𝐥𝐲𝐦𝐞𝐫𝐬 𝐟𝐨𝐫 𝐇𝐮𝐦𝐚𝐧𝐨𝐢𝐝 𝐑𝐨𝐛𝐨𝐭𝐬
+A humanoid robot is a machine designed with a body structure that mimics human anatomy. Beyond their appearance, these robots are engineered to interact with human environments, tools, and people, bridging the gap between artificial intelligence and physical labor.
+The importance of polymers in humanoid robotics lies in their ability to bridge the gap between rigid machines and biological systems. Unlike traditional metals, advanced polymers provide the essential compliance and elasticity required for safe human-robot interaction and lifelike movement. From high-strain elastomers that function as artificial muscles to conductive polymer networks that act as electronic skins, these materials enable humanoids to perceive touch and move with organic dexterity. By shifting from heavy structural components to engineered molecular networks, polymers are the fundamental building blocks making truly autonomous and empathetic humanoid assistants a physical reality.
+If you want more information regarding polymer selection for humanoids, I highly recommend visiting the interesting post by Herwig Juster, which offers a technical perspective on how material science is shaping the future of robotics. 
+source : Roberto YAÑEZ
+https://lnkd.in/g3sxjZqN
+#Polymers #HumanoidRobotics 
+
+1
+Like
+Comment
+Share
+To view or add a comment, sign in"
+https://www.linkedin.com/company/huayanrobotics/posts/,2026-05-19,5,"The post is a standard industry news update about a company showcasing its solutions at a trade show, without providing deep insights or thought leadership.",,0,0,"Huayan Robotics Insights
+Subscribe
+Subscribe to {:entityName}
+Huayan Robotics to Showcase Welding and Automation Solutions at METALTECH & AUTOMEX 2026
+Huayan Robotics"
+https://www.linkedin.com/company/unitree/posts/,2026-05-19,1,The post appears to be a generic company page with no specific content or discussion to engage with.,,0,0,"0 notifications total
+Skip to search
+Skip to main content
+Keyboard shortcuts
+Close jump menu
+new feed updates notifications
+Home
+My Network
+Jobs
+4
+4 new messages notifications
+Messaging
+1
+1 new notification
+Notifications
+Me
+For Business
+Try Premium for ₹0
+Títì
+Títì is your One-Stop-Shop for Fresh Farm produce – we are building Africa's fresh produce retail market
+Food and Beverage Manufacturing 20 followers 2-10 employees
+Follow
+Message
+ 
+Home
+About
+Posts
+Jobs
+People
+Títì
+20 followers
+See a collection of active or past ads by Títì.
+View ad library
+All Images Videos Articles Documents
+Sort by: 
+Top
+No posts yet
+Check back later for posts!
+Pages people also viewed
+Jęuun
+Food and Beverage Services
+47 followers
+Follow
+LS
+Investment Management
+708 followers
+Follow
+Topship (YC W22)
+Transportation, Logistics, Supply Chain and Storage
+2,946 followers
+Follow
+Show all
+People also follow
+Google
+Software Development
+41,665,610 followers
+Follow
+LinkedIn
+Software Development
+33,700,471 followers
+Follow
+Amazon
+Software Development
+36,758,707 followers
+Vatchala & 12 other school alumni work here
+Follow
+Show all
+About
+Accessibility
+Help Center
+Privacy & Terms
+Ad Choices
+Advertising
+Business Services
+Get the LinkedIn app
+More
+ LinkedIn Corporation © 2026
+Status is online
+Messaging
+You are on the messaging overlay. Press enter to open the list of conversations.
+4
+Compose message
+You are on the messaging overlay. Press enter to open the list of conversations."
+https://www.linkedin.com/company/tesla-motors/posts/,2026-05-19,1,"The post is an empty page with no content, making it impossible to add value or provide insights.",,0,0,"0 notifications total
+Skip to search
+Skip to main content
+Keyboard shortcuts
+Close jump menu
+new feed updates notifications
+Home
+My Network
+Jobs
+4
+4 new messages notifications
+Messaging
+1
+1 new notification
+Notifications
+Me
+For Business
+Try Premium for ₹0
+Tesla 
+Motor Vehicle Manufacturing Austin, Texas 12M followers 10K+ employees
+Follow
+Visit website
+ 
+Home
+About
+Posts
+Jobs
+People
+Tesla
+12,358,764 followers
+See a collection of active or past ads by Tesla.
+View ad library
+All Images Videos Articles Documents
+Sort by: 
+Top
+No posts yet
+Check back later for posts!
+Affiliated pages
+SolarCity
+Renewable Energy Semiconductor Manufacturing
+Subsidiary
+Follow
+Tesla Energy
+Services for Renewable Energy
+Showcase page
+Follow
+Pages people also viewed
+SpaceX
+Aviation and Aerospace Component Manufacturing
+3,547,729 followers
+Follow
+Apple
+Computers and Electronics Manufacturing
+18,225,464 followers
+Follow
+Google
+Software Development
+41,665,633 followers
+Follow
+Show all
+People also follow
+Google
+Software Development
+41,665,633 followers
+Follow
+LinkedIn
+Software Development
+33,700,496 followers
+Follow
+Amazon
+Software Development
+36,758,737 followers
 Vatchala & 12 other school alumni work here
 Follow
 Show all

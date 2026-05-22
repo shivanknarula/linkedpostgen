@@ -1,1210 +1,136 @@
-LINK: https://www.linkedin.com/pulse/huayan-robotics-unveils-7-axis-humanoid-robotic-arm-huayanrobotics-uus3c/
-DATE: 2026-05-19
+LINK: https://www.linkedin.com/posts/grishinrobotics_startups-rhoda-ai-and-genesis-ai-are-building-activity-7384182504351547392-0dNH
+DATE: 2026-05-22
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a cutting-edge robotic arm with advanced features and technical specifications, offering a high-value topic for thought leadership and deep technical discussions.
+SCORE: 9/10 - The post discusses thought leadership, provides deep technical insights, and mentions specific companies and investments, making it a high-value conversation
 AI COMMENT:
-I appreciate the innovative approach Huayan Robotics has taken with its 7-axis humanoid robotic arm, particularly the integration of local AI servers and native ROS2 support, which enables edge decision-making and real-time trajectory adjustments. The arm's exceptional force control accuracy and precision are also noteworthy. What potential applications or industries do you envision benefiting the most from this technology, and how do you see it driving embodied intelligence forward?
+I completely agree that investors are prioritizing near-term utility while the toughest bipedal robotics challenges are being addressed. The mention of Rhoda AI and Genesis AI's approaches, with their focus on 'general-purpose' manipulation, highlights the diverse paths being explored. The contrast between wheeled and leg-based systems for tasks like unloading cartons also underscores the importance of balancing capability with practicality. What do you think will be the tipping point for bipedal robots to overcome the current limitations in reliability, dexterity, and cost-effectiveness, making them more competitive with wheeled solutions in industrial settings?
 TEXT:
-Huayan Robotics Insights
-12,196 subscribers
-Subscribe
-Huayan Robotics Unveils the 7-Axis Humanoid Robotic Arm
-Huayan Robotics
-30,166 followers
-April 28, 2026
-On April 25th, Huayan Robotics officially launched its 7-axis humanoid robotic arm series online. As a core execution component for embodied intelligence, this new product will play a key role in advancing Huayan Robotics' efforts to implement embodied intelligence and drive its industrialization, thanks to its exceptional performance, versatile applications, and fully open ecosystem.
-Unmatched Performance, Comparable to "Human Arms"
-Huayan Robotics has integrated both hardware and software capabilities, backed by over 20 years of core technology development in key components like high-performance motors, joint modules, and servo drivers. With deep expertise in high-end collaborative robots, Huayan Robotics introduces its 7-axis humanoid arm that rivals human arms in performance, offering superior sensitivity and responsiveness.
-The arm’s unique integrated force-control joints and algorithms provide human-like tactile sensing and interaction. It boasts high-precision force control for all joints, with a force control accuracy of ≤0.02 N·m, a bandwidth of ≥100Hz, and an end-effector force accuracy of 0.1N. This means it can detect even the slightest force from two A4 sheets falling and respond with precision in just milliseconds.
-Intelligent Capabilities as a Core Feature
-Intelligence is at the heart of the 7-axis humanoid arm, which integrates a local AI server and natively supports ROS2. This allows decision-making to be pushed to the edge, enabling the arm to autonomously detect offsets, assess anomalies, and adjust its trajectory in real time. The native ROS2 support allows developers to create a "perception-decision-execution" feedback loop directly on the arm, transforming it from a mere tool to an intelligent partner.
-The arm offers precision with an absolute positioning accuracy of <1mm and a repeatability of ±0.03mm, equivalent to a third of a human hair's diameter. This micro-level precision meets the stringent requirements for tasks like precision assembly. The entire arm features a high-rigidity aluminum alloy hybrid structure, self-developed high-torque motors, and a lightweight design weighing ≤12kg, delivering greater energy from a compact frame for stable operation across a range of humanoid or quadrupedal platforms.
-Advanced Motion Capabilities and Flexibility
-The 7-axis humanoid arm replicates the flexibility and precision of the human arm, with two different wrist joint designs: the co-planar cross configuration (Echo series) and the spatial cross configuration (HY series). These configurations enable the arm to perform natural movements like obstacle avoidance, reorientation, and bending, making it ideal for complex tasks in tight spaces.
-Additionally, the arm features a revolutionary “end-effector wiring system,” with a minimal cable passage diameter of 15mm. This allows it to carry a gigabit Ethernet cable, GMSL cable, power cable, and signal cables simultaneously without interference or tangling—effectively creating an "information highway" for end-effectors like dexterous hands and vision modules that can be plugged in and swapped out easily.
-Simple Deployment and Low Noise Operation
-Deploying the 7-axis humanoid arm is simple: one controller can manage up to four arms working in coordination, saving space and effort. When running at full load and speed, the arm produces noise ≤50dB, quieter than normal conversation, making it perfect for environments that demand low noise, such as laboratories, hospitals, or quiet workshops.
-A Product Line to Meet Diverse Needs
-At the online launch event, Huayan Robotics also introduced three different load capacity models of the 7-axis humanoid arm under the Echo series (co-planar cross configuration) and HY series (spatial cross configuration). These arms cater to a wide range of applications, from precise operations to heavy-duty handling tasks:
-• Echo 3 and HY 3 offer precision, force control, lightweight design, and low noise, with rated loads of 3kg and 3.5kg, respectively. These arms can be deployed on desktops or mobile robots, making them ideal for laboratory, commercial, and even home environments.
-• Echo 5 and HY 7 achieve repeatability of ±0.03mm and rated loads of 5kg and 7kg, making them suitable for tasks like 3C product assembly and automotive component installation.
-• Echo 15 and HY 15 have a rated load of 15kg, capable of handling tasks like machine tool loading/unloading, large assembly, and palletizing, making them ideal for use in most factories.
-These models are now available for pre-order. Looking ahead, today's 7-axis arms may evolve into fully intelligent systems that can walk, see, hear, and speak. Huayan Robotics is accelerating its full-stack development of embodied intelligence technologies, bringing its product iterations ever closer to the vision of a "robotic partner."
-Open Ecosystem for Collaborative Development
-Huayan Robotics believes the future of embodied intelligence depends on the creativity of the entire developer ecosystem. From the very first 7-axis humanoid arm, the company has embraced an open approach. The arm is compatible with various software and hardware systems and platforms via an SDK, native ROS2 drivers, and standard open protocols (such as Modbus TCP and EtherNet/IP). This openness allows developers to access advanced features and deeply customize the system, even down to the underlying impedance control parameters.
-The arm adheres to safety standards such as ISO 13849 and ISO 10218, using EtherCAT for industrial real-time Ethernet communication with control cycles as low as 1 millisecond, providing the foundation for real-time decision-making in embodied intelligence.
-The future is now, and Huayan Robotics will continue advancing its 7-axis humanoid arm into a truly embodied intelligent system, integrating multi-modal perception, autonomous learning, and collaborative capabilities to transform the arm from an "execution tool" to a "decision partner.
+Grishin Robotics
+22,998 followers
+7mo
+Two stealth humanoid plays just surfaced with $100M+ each: Rhoda AI ($162.6M Series A, April 2025) and Genesis AI ($105M seed). Both are chasing "general-purpose" manipulation-Rhoda aiming beyond 23 kg (50 lb) lift where many biped bots wobble; Genesis opting for a wheeled base and software-first control.
+Why it matters: the money is following deployment paths that reduce risk. Figure just locked $1B (Series C) at a $39B post-capital to turn pilots into production lines. Meanwhile, Tesla's Optimus push keeps meeting real-world constraints, from rare-earth magnet export licensing to manufacturing bottlenecks. The signal: investors want near-term utility while the hardest biped problems get worked out.
+What we're watching on factory floors in 2026: wheels vs. legs. A wheeled, two-arm unit can unload 25–35 kg cartons at inbound docks today, with simpler safety envelopes and service economics. True bipeds promise reach and human-scale ergonomics-but need reliable balance under load, dexterous hands, and cheaper actuation to win TCO.
+https://lnkd.in/gYEFenqp
+Startups Rhoda AI And Genesis AI Are Building Humanoid Robots In Stealth
+social-www.forbes.com
+2
+Like
+Comment
+Share
+To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/pulse/ai-didnt-just-show-up-product-management-moved-potti-gievc/
-DATE: 2026-05-19
+LINK: https://www.linkedin.com/posts/armel-nene-jr_ros2-slam-nav2-activity-7375521929706758144-fMQh
+DATE: 2026-05-22
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post provides thought leadership on the integration of AI in various industries, offering deep insights and specific examples, making it an ideal platform for adding high-value commentary.
+SCORE: 9/10 - The post showcases thought leadership, deep technical discussions, and personal experiences in robotics engineering, making it an ideal opportunity to add value with a comment.
 AI COMMENT:
-Venkata, your observation that AI has transitioned from being a side project to becoming infrastructure across industries like manufacturing and healthcare is spot on. The examples you've provided, such as BMW's deployment of humanoid robots and the advancements in digital twins, highlight the tangible impact of AI on operational efficiency and innovation. A particularly intriguing aspect is the shift from monitoring to acting, enabled by AI, which significantly reduces response times to issues. What do you think will be the most critical factor for companies to focus on as they strive to leverage AI effectively in their operations: developing in-house AI expertise, strategic partnerships, or investments in AI-driven hardware and software?
+I completely agree that nothing goes 100% to plan when building a robot, and your experience with the ROS2 robot is a great example of this. One thing that caught my attention was your decision to redesign the mountings and use a 3D printer to create a stronger, modular platform. This highlights the importance of adaptability and iterative design in robotics engineering. What do you think is the most significant challenge that robotics engineers will face when integrating autonomous navigation and SLAM capabilities into their projects, and how can we address these challenges as a community?
 TEXT:
-Product Lifecycle Optimization
-250 subscribers
-Subscribe
-AI Didn't Just Show Up in Product Management. It Moved In.
-Venkata Sai Krishna Potti
-Engineering Lead @ TechnoIdentity | Big Data Analytics, Data Engineering, Multi-cultural Team Management
-April 16, 2026
-Couple of years ago, many were discussing about AI and few wanted to explore, had an idea and most of the cases were pilots. Promising ones, sure, but still pilots. A predictive maintenance program here, a generative design experiment there. The pitch was always "this could change everything."
-Between 2024 and now, something shifted. AI stopped being a side project and became the infrastructure. Not everywhere, and not evenly, but in enough places and at enough scale that the gap between companies using it and companies thinking about using it has become a competitive problem. Not a theoretical one. A real one, showing up in margins, cycle times, and hiring decisions.
-Here's what actually happened, industry by industry, and where I think this goes next.
-Manufacturing: The Robots Showed Up. Literally.
-The biggest change in manufacturing AI over the past two years isn't software. It's hardware with software baked in.
-In January 2024, BMW started deploying humanoid robots from Figure AI in its Spartanburg plant. Not in a lab. On the actual production line. By late 2025, Figure had hit a $39 billion valuation and broke ground on a facility designed to produce 12,000 robots per year. That's not a prototype program. That's a supply chain for a new category of factory worker.
-The digital twin story also matured. NVIDIA's Omniverse platform went from an impressive demo to an operational tool — manufacturers running energy digital twins have reported consumption reductions around 30%. The shift here is subtle but important: early digital twins modeled how a factory looked. Current ones model how a factory behaves. That's a different kind of useful.
-Siemens launched its Industrial Copilot in partnership with Microsoft, and it's doing something that would have sounded absurd three years ago — letting engineers talk to their automation systems in natural language. Not through a specialized interface. Just... asking. "Why did line 4 slow down at 2 AM?" And getting an actually useful answer.
-What changed: AI in manufacturing moved from monitoring to acting. The feedback loop between "something is wrong" and "something is being done about it" collapsed from days to minutes. Companies that built sensor infrastructure early are now the ones deploying these systems fastest, which tells you something about where the real advantage was all along.
-Healthcare: AI-Designed Drugs Are in Humans Now
-In October 2024, DeepMind's AlphaFold project won the Nobel Prize in Chemistry. Not a tech award. The Nobel Prize. The AlphaFold database now covers 214 million protein structures — essentially the entire known protein universe — and AlphaFold 3, released in May 2024, improved prediction accuracy by over 50% compared to its predecessor. That database is free and open. Every drug company on earth has access to it. The playing field didn't just level — it dissolved.
-The downstream effects are already measurable. Isomorphic Labs, DeepMind's drug discovery spinoff, signed partnerships with Novartis and Eli Lilly in January 2024 and raised $600 million by April 2025. Insilico Medicine, which I wrote about two years ago when they had a single promising candidate, struck a $2.75 billion deal with Eli Lilly in March 2026 and went public for $293 million. Their AI platform has now contributed to multiple compounds in clinical trials.
-These aren't theoretical molecules. They're in humans. Being tested. Some will fail — that's how drug development works. But the fact that AI-generated candidates are reaching Phase 2 and Phase 3 trials at this pace changes the math on pharmaceutical R&D in a way that doesn't reverse.
-On the regulatory side, the FDA has now cleared over 1,200 AI-enabled medical devices, with roughly 77% in radiology. The approval rate has accelerated, not slowed, which tells you something about how regulators are reading the evidence.
-What changed: AI in healthcare went from "promising research" to "compounds in clinical trials" and "FDA-cleared products shipping." The gap between AI capability and regulatory acceptance narrowed faster than most people predicted. Companies that invested in explainability and validation infrastructure are now moving through approvals.
-Consumer Electronics: AI Came to the Device
-2024 was the year AI left the cloud and moved onto the chip.
-Apple launched Apple Intelligence in October 2024 with a hybrid architecture — some processing on-device, some in Apple's private cloud. It wasn't the most powerful AI system on the market. It didn't need to be. It was the most integrated one. Siri got meaningfully better. Photo search got meaningfully better. Writing assistance showed up everywhere. The product didn't change. The experience of using it did.
-Samsung beat Apple to market with Galaxy AI in January 2024, rolling it out across 22+ languages and pushing AI features down to mid-tier devices, not just flagships. They committed to keeping it free through 2026 — a pricing decision that shapes the entire competitive landscape.
-Microsoft defined the Copilot+ PC category, setting a minimum of 40 TOPS (trillion operations per second) for the neural processing unit. Qualcomm, Intel, and AMD all shipped chips meeting that bar. The hardware layer for on-device AI is now standard, not premium.
-What this means for product lifecycle management is significant: when AI processing lives on the device, product teams can update the intelligence of a shipped product without depending on cloud connectivity or server costs scaling with the user base. The economics of post-launch product improvement changed.
-What changed: AI became a hardware spec, not just a cloud service. Product differentiation moved from "does it have AI?" to "how well is the AI integrated into workflows people actually use?" The winners aren't the ones with the biggest models. They're the ones where you forget the AI is there because it just works.
-Retail: The AI Agent Era Started (and Hit a Wall)
-This one is messy, and I think the mess is instructive.
-Amazon quietly shut down all its Go stores by February 2026. The "Just Walk Out" technology, which was supposed to be the future of cashierless retail, turned out to rely on roughly 1,000 human reviewers in India manually checking transactions. The technology worked in demos. It didn't work at the scale and accuracy retail actually requires. That's a useful lesson about the difference between AI that impresses and AI that operates.
-
-
-The more interesting retail development is less flashy. In January 2026, Shopify and Google launched the Universal Commerce Protocol — a framework that lets AI agents browse, compare, and purchase products on behalf of consumers. Think about what that means for product lifecycle management: your next customer might not be a person scrolling your website. It might be an AI agent evaluating your product listing against a set of criteria its human gave it. Product descriptions, pricing, availability, return policies — all of it needs to be machine-readable and machine-comparable in ways that didn't matter before.
-On the supply chain side, AI demand forecasting has gotten genuinely good. Not perfect — nothing in retail forecasting is perfect — but the gap between AI-driven forecasting and traditional statistical methods widened noticeably through 2024-2025. Retailers using modern forecasting systems are reporting meaningful reductions in both stockouts and overstock, which is the holy grail of inventory management.
-What changed: Retail learned that AI needs to work at a production scale, not just in controlled environments. The Amazon Go story is a cautionary tale about deploying before the technology is ready. But the Shopify UCP development points to something bigger: the beginning of AI-mediated commerce, where the product lifecycle extends to how well your product performs when evaluated by algorithms, not just people.
-The industries that moved first — manufacturing, healthcare, automotive, electronics, retail — didn't do so because they love technology. They did it because being slow in those industries costs too much. That pressure is spreading to every sector now.
-All statistics and developments cited are drawn from publicly available company announcements, research publications, regulatory filings, and reporting from major outlets. Where figures vary across sources, the most commonly reported consensus estimates are used.
---to continue
+Armel Nene JR
+8mo  Edited
+One thing I’ve learned building my own ROS2 robot is that nothing ever goes 100% to plan, why? I didn’t want to buy a pre-built turtle bot robot and figured this would let me dip in all areas of engineering and guess what. It did. 
+When I first set out to create a ROS 2 Humble-based mobile robot, the vision was clear: 
+Raspberry Pi 4 for brains, Arduino with encoders for odometry, and an LD14 LiDAR to map the world (I quickly found out LIDAR sensors aren’t so cheap). On paper? Simple. In practice? A real engineering adventure.
+At the start, I had to “fake” odometry just to get SLAM Toolbox running. Watching the LiDAR draw a live map reminded me of building a ROS1 robot during my university days. But the real breakthrough came when I finally got encoder-based odometry working—suddenly the robot wasn’t guessing, it knew where it was.
+Then came the plot twist: the base literally cracked under testing, I decided to get stronger motors which were x4 heavier and the shaft was much larger. At first it felt like a disaster, but it turned into one of the best parts of the project. I fired up the 3D printer, redesigned the mountings, and ended up with a stronger, modular platform that made iterating so much easier. (As well as some help off the time help from friends to make the new shaft sleeves) 
+Since then, I’ve integrated:
+	•	SLAM Toolbox for real-time mapping
+	•	Nav2 stack for autonomous path planning and obstacle avoidance
+	•	Explore_Lite for full autonomous exploration
+	•	A web dashboard for remote monitoring and control
+It’s been a crash course in ROS2 and seeing all the changes —balancing low-level hardware with high-level autonomy. Every problem, from TF transform errors to busted parts, became an opportunity to learn, rebuild, and move forward.
+📚 Along the way, I’ve been reading “A Concise Introduction to Robot Programming with ROS2” by Francisco Martín Rico (Though I accidentally bought the first version). The book has been an incredible companion to the build, helping me connect the theory with the hands-on work I was doing. I’m still reading and learning from it now, and it continues to push my understanding forward.
+Also the change in the URDF using comma separated links in the definition was a really annoying change but I can see the benefit in hindsight. Open Robotics  
+Excited to keep pushing this platform further — and to connect with others working in ROS 2, autonomous navigation, or robotics integration.
+#ROS2 #SLAM #Nav2 #RoboticsEngineering #AutonomousNavigation #3DPrinting #RaspberryPi4 #Arduino #LiDAR #Engineering #LearningByDoing #embedded #roboticsUK #iet #London #LondonRobotics
+Also thanks Rob Hawkes Aaron Pinto Jorge Porcel Bustamante Alex Griffiths for helping and collaborating on the little snags along the way!
+…more
+738
+32 Comments
+Like
+Comment
+Share
+Transcript
+Transcript
+If you can drive a motor, you can read an encoder. If you can read an encoder, you can make odometry. If you can make odometry, you can streamline DAR. If you can stream Lidar, you can build a map. If you can build a map, you can tie it all together and telling navigate. And if you can navigate with NAV two, you can explore autonomously. And you've just built a Ross 2 robot.
+Ali Rezazadeh
+7mo
+It seems like an amazing adventure. As a rookie at the beginning of this journey I'd like to know what are the best resources to learn ROS🙏🙏🙏🙏
+Like
+Reply
+Sai Kishore
+8mo
+Really inspiring, Armel Nene JR 🚀! Loved how you broke down the whole journey from faking odometry to integrating SLAM Toolbox, Nav2, and Explore_Lite. The way you turned setbacks like cracked bases and sensor costs into opportunities shows true engineering grit. ROS2 is complex, and seeing your modular approach plus 3D printing integration really highlights how learning by doing creates powerful outcomes. Excited to see how you keep pushing this platform further!
+Like
+Reply
+Syed Shayon Khaled
+Robotics | Mechanical | Electronics
+8mo
+I took the same approach as well, making my own take on Turtlebot instead of starting with an off-the-shelf platform. I think everyone getting into ROS should try to do this at least once - because even if I were to be working on the software side strictly, it would make my life a lot easier if I had basic understanding of how everything works on the hardware side as well.
+Like
+Reply
+Francisco Martín Rico
+8mo
+I am happy to have contributed to your awesome work with my book 🤓!!
+Like
+Reply
+2 Reactions
+Peter Tran
+7mo
+As someone who’s tried to build a ROS2 robot without following a simple turtlebot guide, this is insane
+Like
+Reply
+TIMOTHY AYELAGBE
+8mo
+Great work Armel Nene JR
+Like
+Reply
+1 Reaction
+Seyed Mohammadhadi Rahavi
+7mo
+Wow, Armel, your journey is truly inspiring! How did you prioritize which challenges to tackle first?
+Insights resonate keen to link
+Like
+Reply
+1 Reaction
+Aaqib Khan
+8mo
+Nice poetry...
+Like
+Reply
+Iliya Baladastian
+8mo
+Nice 🔥
+Like
+Reply
+See more comments
+To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/pulse/open-embodied-ai-infrastructure-alex-reznichenko-l2mpf/
-DATE: 2026-05-19
+LINK: https://www.linkedin.com/posts/muthuramalingam-krishnan-5a44b48_polymers-humanoidrobotics-activity-7461642901853261824-jlwt
+DATE: 2026-05-22
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses thought leadership in embodied AI, a deep technical discussion, and introduces a new concept of an open embodied AI ecosystem, making it a high-value post for commentary.
+SCORE: 8/10 - The post discusses a specific and technical topic in robotics, providing a deep insight into the importance of polymers in humanoid robotics, making it a good opportunity to add value and showcase expertise.
 AI COMMENT:
-Alex, your vision for an Open Embodied AI Ecosystem resonates deeply, as it addresses the pressing need for a more holistic approach to robotics development. The shift from traditional robotics pipelines to embodied AI systems is indeed revolutionary, and the emphasis on learning from interaction data and demonstrations is a crucial aspect of this transition. I particularly appreciate your highlighting of the 'missing middle layer' in robotics, which exacerbates the gap between industrial and academic projects. What strategies do you envision for fostering collaboration between industry stakeholders, academia, and the open-source community to fill this gap and accelerate the development of scalable, affordable embodied AI solutions?
+I completely agree that polymers play a crucial role in bridging the gap between rigid machines and biological systems, enabling safe human-robot interaction and lifelike movement. One interesting aspect that I'd like to add is the potential of polymers to be used in the development of soft robotics, which could further enhance the capabilities of humanoid robots. What are your thoughts on how the integration of soft robotics and polymers could impact the future of humanoid robotics?
 TEXT:
-Botshare Embodied AI Ecosystem
-Open Embodied AI Infrastructure
-Alex R.
-Robotics and AI Systems Architect | Idea → architecture → prototype | Robotics | DeepTech | EdTech | MedTech
-May 19, 2026
-Over the past year, our work on OpenAMRobot has gradually evolved beyond the idea of building an affordable open-source autonomous dual-arm mobile robot.
-Originally, the project focused on developing a modular ROS 2 based autonomous mobile robot platform for research, education, and industrial automation applications. The initial direction concentrated on affordable AMR development, navigation, SLAM, ROS 2 integration, user interfaces, and long-term plans for modular dual-arm manipulation systems. OpenAMRobot GitHub Organization
-However, while continuing the development of the robot itself, it became increasingly clear that the future of robotics is moving toward something much larger than standalone hardware platforms.
-The industry is entering the era of Embodied AI.
-This transition changes the role of robotics systems entirely. Robots are no longer only physical machines executing predefined tasks. They are becoming learning systems capable of observing, understanding, imitating, adapting, and collaborating with humans in dynamic environments.
-This shift also changes what is truly valuable in robotics.
-The bottleneck is no longer only hardware.
-The bottleneck is embodied data, human demonstrations, robot learning pipelines, teleoperation infrastructure, multimodal synchronization, and scalable policy training systems.
-As a result, OpenAMRobot is evolving from an open mobile robotics project into a broader initiative:
-An Open Embodied AI Ecosystem.
-Why embodied AI changes robotics development
-Traditional robotics pipelines are typically divided into many independent modules:
-Perception → Mapping → Planning → Motion Planning → Control → Execution
-This approach remains important and reliable, especially for industrial automation and safety-critical systems. ROS2 based architectures continue to provide robust infrastructure for navigation, communication, hardware abstraction, and distributed robotics systems.
-However, modern embodied AI systems introduce an additional layer:
-Observation → Demonstration → Policy Learning → Robot Action
-Instead of manually programming every behavior, robots increasingly learn from interaction data, demonstrations, and multimodal observations.
-This creates the need for entirely new infrastructure.
-Not only robots.
-But full-cycle embodied AI pipelines.
-The missing middle layer in robotics
-Today there is a large gap between:
-expensive closed industrial robotics ecosystems,
-and fragmented academic or hobby-level robotics projects.
-Many advanced embodied AI systems rely on proprietary hardware, expensive teleoperation systems, high-end motion capture solutions, or heavily vendor-locked ecosystems.
-At the same time, many open-source robotics projects lack scalable embodied AI tooling, standardized data pipelines, or affordable human demonstration systems.
-We believe there is an opportunity to build an open, modular, affordable middle layer.
-A platform that enables:
-robotics research,
-embodied AI experimentation,
-teleoperation,
-imitation learning,
-policy training,
-dataset generation,
-and human-centered robot interaction.
-This is the direction OpenAMRobot is now moving toward.
-The next stage of OpenAMRobot
-The original OpenAMRobot roadmap focused primarily on:
-autonomous mobile navigation,
-ROS 2 integration,
-modular hardware,
-affordable manufacturing,
-and dual-arm mobile manipulation.
-These goals remain.
-But the architecture is expanding.
-The platform is now being designed as a modular embodied AI infrastructure consisting of multiple interconnected layers:
-1. Mobile robotic platform
-The core robot remains a ROS 2 based autonomous mobile platform with future support for:
-dual-arm manipulation,
-mobile manipulation workflows,
-perception modules,
-SLAM,
-navigation,
-lifting systems,
-and human-robot collaboration.
-The robot itself acts as the execution layer of the ecosystem.
-2. Wearable embodied AI data collection kit
-One of the most important new directions is the development of a modular low-cost wearable data collection system for human demonstrations and teleoperation research.
-Instead of relying entirely on expensive proprietary AR ecosystems, the current direction focuses on a more modular and accessible DIY-oriented architecture based on:
-depth cameras,
-RGB cameras,
-IMUs,
-edge AI devices,
-synchronized sensor pipelines,
-and optional privacy-aware gaze estimation systems.
-The goal is to create affordable embodied AI tooling accessible to:
-universities,
-robotics labs,
-hackerspaces,
-startups,
-makers,
-and open-source communities.
-The emphasis is not on building a polished consumer wearable product.
-The emphasis is on building reproducible embodied AI infrastructure.
-Human-centered robot learning
-One of the central ideas behind the wearable system is enabling natural human demonstrations instead of heavily constrained robotic teleoperation setups.
-Rather than forcing operators into complex mechanical exoskeletons, the current research direction explores lightweight motion reconstruction approaches using:
-head tracking,
-body IMUs,
-wrist IMUs,
-vision systems,
-inverse kinematics,
-and multimodal synchronization.
-This allows a person to interact naturally with the environment while the system reconstructs meaningful robot training trajectories.
-The resulting datasets may later be used for:
-imitation learning,
-behavior cloning,
-teleoperation replay,
-shared autonomy,
-and future vision-language-action policy training.
-Privacy-aware embodied AI
-Another important direction is privacy-aware embodied data collection.
-Many embodied AI systems rely heavily on large-scale visual recording, which creates major challenges for:
-industrial deployment,
-GDPR compliance,
-workplace integration,
-and human acceptance.
-Because of this, we are exploring alternative low-cost gaze and attention estimation approaches that reduce dependence on invasive facial recording systems.
-One interesting research direction involves combining:
-IMU tracking,
-egocentric depth perception,
-and optional electrooculography (EOG) based gaze approximation.
-The goal is not medical-grade eye tracking.
-The goal is estimating attention and intention signals while maintaining a lightweight and privacy-friendly architecture.
-This direction may become particularly relevant for industrial human-robot collaboration environments.
-ROS 2 remains the foundation
-Despite the growing focus on embodied AI, ROS2 remains the core infrastructure layer of the project.
-ROS 2 continues to provide:
-modularity,
-distributed communication,
-hardware abstraction,
-sensor synchronization,
-navigation infrastructure,
-and interoperability.
-Embodied AI models do not replace robotics infrastructure.
-Instead, they introduce higher-level policy and reasoning layers above traditional robotics systems.
-The architecture therefore becomes:
-Human Demonstration → Dataset Generation → Policy Learning → High-Level Action Inference → ROS 2 Execution Layer → Physical Robot Action
-This separation is extremely important for maintaining:
-flexibility,
-safety,
-modularity,
-and hardware independence.
-Simulation and AI training
-Simulation also remains a key component of the ecosystem.
-Gazebo continues to serve as a highly practical and accessible environment for:
-robot validation,
-navigation testing,
-SLAM development,
-manipulation prototyping,
-sensor integration,
-and ROS 2 system development.
-At the same time, more advanced AI-oriented simulation environments may later be integrated for:
-synthetic data generation,
-policy learning,
-reinforcement learning,
-domain randomization,
-and large-scale embodied AI experimentation.
-The goal is not to become locked into a single vendor ecosystem.
-Instead, the strategy is to maintain compatibility with modern AI tooling while preserving openness and modularity.
-Edge AI and distributed compute
-The ecosystem is also being designed around distributed edge computing principles.
-The current direction separates:
-low-level robot control,
-navigation,
-wearable data acquisition,
-perception preprocessing,
-and heavy AI inference.
-This allows different hardware layers to specialize in different workloads.
-For example:
-lightweight edge devices can handle wearable sensor synchronization and data streaming,
-embedded robotics computers can manage navigation and perception,
-while heavier AI training workloads can later be performed on GPU workstations or cloud infrastructure.
-This architecture keeps the platform:
-scalable,
-affordable,
-modular,
-and reproducible.
-Why open embodied AI matters
-The robotics industry is entering a period where embodied AI will likely become one of the central technological directions of the next decade.
-See content credentials
-Botshare OpenAMRobot Embodied AI ecosystem
-However, much of the current ecosystem remains inaccessible due to:
-hardware costs,
-proprietary systems,
-vendor lock-in,
-and fragmented tooling.
-OpenAMRobot aims to explore an alternative path.
-An ecosystem that is:
-open,
-modular,
-affordable,
-reproducible,
-educational,
-research-oriented,
-and community-driven.
-Not simply a robot.
-But infrastructure for embodied AI experimentation and development.
-Looking forward
-The next development stages of OpenAMRobot will focus on:
-dual-arm mobile manipulation,
-wearable teleoperation tooling,
-synchronized embodied AI data pipelines,
-ROS 2 based execution systems,
-modular perception stacks,
-simulation integration,
-and human-centered robot learning workflows.
-The long-term goal is to create a platform that enables individuals, startups, research groups, and educational institutions to participate in the future of embodied AI without requiring access to closed multi-million-dollar robotics ecosystems.
-Because the future of robotics should not belong only to large corporations.
-It should also remain open to researchers, makers, engineers, students, and open-source communities worldwide.
-Project: OpenAMRobot GitHub
-Related development discussion: OpenAMRobot Discussion #17
-================================================================================
+Muthuramalingam Krishnan
+5d
+𝐓𝐨𝐝𝐚𝐲'𝐬 𝐊𝐍𝐎𝐖𝐋𝐄𝐃𝐆𝐄 𝐒𝐡𝐚𝐫𝐞
+𝐏𝐨𝐥𝐲𝐦𝐞𝐫𝐬 𝐟𝐨𝐫 𝐇𝐮𝐦𝐚𝐧𝐨𝐢𝐝 𝐑𝐨𝐛𝐨𝐭𝐬
+A humanoid robot is a machine designed with a body structure that mimics human anatomy. Beyond their appearance, these robots are engineered to interact with human environments, tools, and people, bridging the gap between artificial intelligence and physical labor.
+The importance of polymers in humanoid robotics lies in their ability to bridge the gap between rigid machines and biological systems. Unlike traditional metals, advanced polymers provide the essential compliance and elasticity required for safe human-robot interaction and lifelike movement. From high-strain elastomers that function as artificial muscles to conductive polymer networks that act as electronic skins, these materials enable humanoids to perceive touch and move with organic dexterity. By shifting from heavy structural components to engineered molecular networks, polymers are the fundamental building blocks making truly autonomous and empathetic humanoid assistants a physical reality.
+If you want more information regarding polymer selection for humanoids, I highly recommend visiting the interesting post by Herwig Juster, which offers a technical perspective on how material science is shaping the future of robotics. 
+source : Roberto YAÑEZ
+https://lnkd.in/g3sxjZqN
+#Polymers #HumanoidRobotics 
 
-LINK: https://www.linkedin.com/pulse/why-humanoid-robotics-entering-new-era-dr-vijay-anand-kandaswamy-sc4ec/
-DATE: 2026-05-19
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post is a thought leadership piece by a renowned expert in the field of humanoid robotics, discussing the latest advancements and Future of robotics, making it highly commentable
-AI COMMENT:
-Dr. Vijay, your vision for the future of humanoid robotics is truly insightful, and the emphasis on embodied intelligence and ROS2 architectures is well-taken. The integration of sensors, computation, and motion systems will indeed enable humanoids to understand spatial relationships and human intent, transforming robotics into adaptive intelligence. As we move towards more autonomous and collaborative systems, what do you think will be the most significant challenge in ensuring seamless human-robot interaction and trust in dynamic environments?
-TEXT:
-The Robotics Frontier
-372 subscribers
-Subscribe
-Why Humanoid Robotics Is Entering a New Era
-Dr. Vijay Anand Kandaswamy
-Doctorate in Advanced Deep Neural Architectures & Edge Intelligence | Industry Specialist in Federated Learning | Robotics, Humanoid & Cognitive AI | Autonomous Systems | 22+ Years Industry–Academia Collaboration
-May 17, 2026
-Dr. Vijay Anand K
-Robotics & AI Systems Leader | Humanoids • Cobots • ROS2 • Physical AI • Autonomous Systems
-Overview
-“The future of robotics will not be built merely on automation, but on intelligence that can perceive, adapt, and coexist with humanity.” - Dr. Vijay Anand Kandaswamy 
-For decades, humanoid robotics existed primarily as a symbol of technological ambition, impressive in demonstration yet limited in practical integration. Today, that narrative is rapidly changing. Advances in Artificial Intelligence, Physical AI, ROS2 architectures, real-time sensor fusion, edge intelligence, and autonomous decision-making are transforming humanoids from experimental machines into intelligent collaborative systems capable of functioning in real-world environments.
-The modern humanoid is no longer being designed merely to imitate human appearance. Instead, it is being engineered to replicate adaptability, perception, dexterity, and interaction within dynamic environments. This shift represents one of the most significant transitions in the evolution of intelligent robotics.
-Across industries, healthcare ecosystems, research laboratories, manufacturing sectors, and assistive technologies, humanoids are beginning to emerge as operational assets rather than conceptual prototypes. The question is no longer whether humanoids will become part of future society, but how rapidly industries can adapt to their presence.
-The Rise of Embodied Intelligence
-One of the defining breakthroughs driving humanoid robotics is the emergence of embodied intelligence. Traditional AI systems primarily operated within digital boundaries, processing information without interacting physically with the world. Humanoid robotics changes this equation entirely.
-Embodied AI allows robots to perceive, interpret, and respond to physical environments through continuous interaction between sensors, computation, and motion systems. Cameras, LiDAR, tactile feedback systems, inertial sensors, and force-controlled actuators collectively enable humanoids to understand spatial relationships, object behavior, and human intent.
-This integration transforms robotics from programmed automation into adaptive intelligence.
-The future humanoid will not simply execute instructions. It will interpret context, learn from environmental feedback, and optimize behavior dynamically in real time.
-ROS2 and the Foundation of Modern Robotics
-At the core of this transformation lies ROS2, which has become a foundational framework for scalable and distributed robotic architectures. Modern humanoids require synchronization across perception systems, locomotion modules, manipulation frameworks, AI inference engines, and real-time control systems.
-ROS2 enables these independent subsystems to function cohesively while supporting:
-Real-time communication
-Distributed processing
-Multi-robot coordination
-Sensor integration
-Autonomous navigation
-Scalable robotic deployment
-The increasing adoption of ROS2 reflects a broader shift toward modular, interoperable, and intelligent robotic ecosystems capable of evolving continuously with advancements in AI and automation technologies.
-Dexterity and Human - Robot Interaction
-A defining challenge in humanoid robotics has always been dexterity. Human environments were designed for human motion, human grip patterns, and human interaction behaviors. For humanoids to function meaningfully, they must navigate these environments naturally and safely.
-Recent advancements in robotic hands, force-sensitive actuation systems, and AI-assisted manipulation are dramatically improving robotic dexterity. Combined with machine vision and cognitive AI models, humanoids are beginning to achieve more refined interaction capabilities.
-Equally important is human–robot interaction. The success of humanoids will depend not only on mechanical capability, but also on their ability to collaborate safely, predict human intent, and communicate effectively within shared environments.
-This marks the transition from isolated automation toward collaborative intelligence.
-Industrial Transformation Through Humanoids
-Industrial ecosystems are increasingly exploring humanoids for applications involving:
-Hazardous environment operations
-Intelligent inspection systems
-Flexible manufacturing
-Autonomous logistics
-Precision handling
-Human-assistive workflows
-Unlike traditional industrial robots confined to structured spaces, humanoids are designed to operate within environments already built for human workers. This significantly reduces infrastructure redesign requirements and expands deployment flexibility.
-As Industry 4.0 evolves toward Industry 5.0, the focus is shifting from pure automation toward intelligent human-centered collaboration. Humanoids are positioned to become a central component of this transition.
-The Role of Physical AI
-The emergence of Physical AI represents another major milestone. Simulation ecosystems, digital twins, and AI-driven robotic training environments are accelerating robotic learning without requiring continuous physical trial-and-error.
-Technologies such as physics-based simulation and synthetic environment training are enabling humanoids to:
-Learn locomotion strategies
-Improve object manipulation
-Develop adaptive movement
-Optimize navigation behaviors
-Enhance environmental awareness
-This convergence of AI and robotics is creating machines capable of interacting with the physical world with unprecedented levels of intelligence and autonomy.
-Challenges Ahead
-Despite remarkable progress, significant challenges remain. Energy efficiency, motion stability, safety assurance, computational optimization, and ethical deployment frameworks continue to shape the pace of humanoid adoption.
-Additionally, societal acceptance will play a critical role. Humanoids must be designed not only for technical performance, but also for trust, safety, transparency, and meaningful collaboration with humans.
-The future of robotics will not be defined solely by capability, but by responsible integration.
-Conclusion
-Humanoid robotics is entering a defining era where intelligent machines are transitioning from controlled demonstrations into functional real-world systems. Advances in AI, ROS2, edge intelligence, cognitive robotics, and autonomous systems are accelerating this transformation at an unprecedented pace.
-The next decade will likely witness humanoids becoming integral to industries, healthcare, research, logistics, and intelligent automation ecosystems worldwide.
-The future of robotics is no longer limited to automation alone. It is evolving toward adaptive intelligence, collaborative systems, and embodied cognition capable of reshaping how humans and machines coexist and innovate together.
-The era of intelligent humanoids has begun.
-================================================================================
-
-LINK: https://www.linkedin.com/pulse/we-use-chatgpt-im-sure-what-else-can-do-ana-kapur-0kcwc/
-DATE: 2026-05-19
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post provides thought leadership on AI adoption in businesses and offers a unique framework for understanding AI-native companies, making it a high-value conversation worth engaging with.
-AI COMMENT:
-I completely agree with your assessment that many businesses are stuck at the Assistive AI level and don't know how to fully leverage AI's potential. Your Three Levels to AI-Native framework provides a clear roadmap for businesses to progress from using AI as a productivity tool to truly integrating it into their operations. What do you think is the biggest hurdle for businesses to overcome when transitioning from Level 1 to Level 2, and how can they ensure that their AI implementations are aligned with their overall business strategy?
-TEXT:
-"We use ChatGPT. I'm not sure what else we can do."
-Ana Kapur
-Founder, Tanren | Help consultants and solopreneurs scale without building a large team using AI and Content | Productize your expertise | Ex-Meta, Amazon
-April 21, 2026
-I hear this from almost every solopreneur and boutique agency founder I speak with. They've subscribed to Claude or ChatGPT. They use it for drafts, summaries and the occasional search. Its useful, but it’s not the transformation they keep hearing about.
-So, what's actually missing? And more practically, as a founder, if your days are already packed with client work, lead generation, and keeping the business running - how do you actually figure AI out?
-That's what this article is for: how to think about AI and what it can do for your business.
-First things first, what does AI-Native actually mean?
-AI-native means AI is a part of how work gets done in your business. It’s not something you ask one off queries to. When you hire someone, you don't just give them a login and a laptop. You give them a job description. You bring them into the meetings that matter. You show them past work so they understand the standard. You give them feedback so they improve. You check in on whether they're actually delivering.
-An AI-native business has done the equivalent of all of those things, for its AI.
-Think of all the time you spent interviewing, recruiting, onboarding your last hire. Compare that to the time you’re giving to AI today as a founder. And when you hire AI, you don’t have a risk of attrition – the time you spend training, and the person just leaves.
-So, to be AI Native means you have digital employees that have been properly hired, briefed, and managed.
-Which raises the obvious question: what does it actually look like to hire them well?
-Three Levels to AI-Native
-In practice, there are three distinct levels of using AI in a service business. Most people are stuck at the first one and don't know it.
-Level 1: Assistive AI – The Fast Junior
-You open an LLM, ask it something, it gives you an output. A PR agency uses Claude to draft a press release. A consultant uses ChatGPT to pull key themes from a research document. A performance marketing team uses Gemini to brainstorm ad angles.
-Think of Assistive AI as a fast capable junior hire. They are only as useful as the brief you gave them.
-Using LLMs to assist in your work can feel like a wow to begin with, but folks quickly realise that the ceiling on how it impacts your business is lower than they first thought. Because you're still doing the same work in roughly the same way, just with a faster first draft.
-How to improve Assistive AI impact: Better prompts + Giving the LLM actual context: your past work, your client's voice, your specific methodology. Generic prompt, generic output. Specific prompt with real context, something worth using.
-Almost every team gets here. Almost every team stops here.
-Level 2: AI for automating tasks – The Process Owner
-This is where the "save X hours per week" promises live — and where most AI projects quietly die.
-The idea is right: take repetitive, well-defined execution tasks — things you have to do to deliver value but that don't require judgment — and hand them to a system. Client onboarding follow-ups. Data formatting. Meeting summaries. First-pass reports.
-Here's the problem. Remember that experienced hire who ran a process brilliantly — once you wrote it down? The same logic applies, and it's non-negotiable.
-In most service businesses, the same task gets done slightly differently by different people, across different tools, with exceptions that everyone handles intuitively but nobody has written down. Before you automate anything at this level, you have to standardise it. Map how the task actually gets done, not how you think it gets done. Account for the real exceptions. Define what a completed output looks like, independent of someone's personal judgment.
-This is the part no one shows you in the demo video. But skip it, and here's what happens: the automation gets built, your team doesn't trust it, they keep a manual workaround "just in case," and eventually nobody uses the thing. I've seen this more times than I'd like to count.
-Level 3: AI as a compounding intelligence layer – The Senior Partner
-This is where real impact lives. Not in the hours saved, but actual new value created.
-At this level, AI becomes a thinking partner for the high-judgment work that clients actually hire you for. Which story angle to pitch to which publication with which hook. How to structure a complex proposal for a specific client situation. What patterns emerge across your last twenty engagements that you'd otherwise never notice.
-Here's the catch: most of that judgment lives in the founder's head. It's implicit. It's never been written down. Getting it out — making it legible enough for an AI system to work with — requires real effort. Documenting your methodology. Building feedback loops. Deciding what "good" actually looks like independent of your personal taste and experience.
-This is why AI rewards the businesses that have already done the work of codifying their expertise. If your process lives in your head, AI can't amplify it. It can only amplify what's been made explicit.
-One thing nobody mentions when selling AI to service businesses
-If you automate your execution but still bill by the hour, you've just cut your own revenue.
-A system that makes you faster at delivery is only valuable if your business model captures that speed as margin — not as cheaper invoices. Technology solves a delivery problem. It doesn't fix a pricing problem.
-This is why how you've structured your offer and how you adopt AI are not separate conversations. A business that sells outcomes — a defined methodology, a clear result — is the one that can let AI compound at Level 2 and Level 3. Otherwise you're building a faster engine for a car pointing in the wrong direction.
-How to Evaluate Who you Work with
-It makes sense that you’ll need an expert to help you get AI-Native. There’s lots to learn, and a lot of noise out there. A partner who understands the technology and how to use that technology to deliver the outcomes you need.
-If you're evaluating an AI partner - an agency, a consultant, a platform -  this checklist will tell you whether you're being sold a shortcut or being built something real.
-1. Are they spending time understanding our workflows before recommending tools? Anyone who leads with tool recommendations before understanding how you work is solving a problem they haven't diagnosed yet.
-2. Are they challenging why you do things the way you do or just automating the current state? Some of your processes exist because of constraints that no longer apply. A good AI partner surfaces those. A bad one automates the legacy workaround.
-3. Have they designed for edge cases and not just the happy path? Ask what happens when a client doesn't respond on time, or sends files in the wrong format, or changes scope mid-engagement. If the answer is vague, the workflow will break the first time reality shows up.
-4. Are they asking what "good" looks like? This sounds obvious. Most teams have never defined what a successful output actually looks like, independent of a specific person's judgment. If your AI partner isn't pushing you on this, the automation will produce outputs. Just not necessarily the right ones.
-5. How does AI access our information on an ongoing basis? One-time setups break. A real build has a clear answer for how context flows in as your business changes, your clients change, your methods evolve.
-6. Are feedback loops part of the design from the start? AI systems should get better over time. If "how does this improve?" gets a vague answer, you're buying a static build that will slowly drift out of relevance.
-A once-and-done install in a week can sound efficient. If it's not designed around how your business actually thinks and works, it won't stick.
-What the businesses actually winning with AI have in common
-Beyond the buzz words, for a solopreneur service provider or boutique agency founder, becoming AI native is a way to improve your business amrgins, and operate at a scale that just wasn’t possible before.
-What it takes to succeed in this is to approach it with the right mindset – the redesign of how you run the business, not short term hacks, and invest in really understanding your business and its workflows – what value you deliver to clients, the quality bar you measure yourself against. The question worth asking isn't "which tools should we use?" It's "what does our business need to make legible before any tool can help?"
-If you're trying to figure out what’s the right next step in your AI-Native journey, and how you can use AI to do more with  less, we should chat. bit.ly/tanren
-================================================================================
-
-LINK: https://www.linkedin.com/pulse/industrial-automation-smart-manufacturing-sg-life-6tu8c/
-DATE: 2026-05-19
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post demonstrates thought leadership, provides deep technical insights, and offers a unique perspective on the future of industrial automation and smart manufacturing.
-AI COMMENT:
-I couldn't agree more, Shailesh, that the convergence of human understanding and machine intelligence is key to unlocking the true potential of Industry 4.0 and 5.0. Your point about the collapse of the wall between technical expertise and commercial strategy is particularly well-taken, as it highlights the need for cross-functional collaboration and communication in driving successful automation solutions. What do you think is the most critical step that organizations can take to bridge this gap and develop a common vocabulary across technical and business stakeholders?
-TEXT:
-Industrial Automation & Smart Manufacturing
-Shailesh Gaikwad
-Marketing (Head) at ELECTRODIGIT AUTOMATION AND ROBOTICS
-May 15, 2026
- 
-The Factory of the Future Is Not Being Built by Machines Alone
-Why the next industrial revolution demands visionaries who speak both the language of engineering and the language of growth.
-Walk through the floor of any advanced manufacturing facility today — the hum of servo drives, the precise arc of a robotic torch, the silent coordination of PLCs exchanging data at millisecond intervals — and you are witnessing something profound. Not just automation. Evolution.
-Over more than two decades embedded in industrial automation, thermal cutting, robotic welding, and smart factory development, I have had the privilege of watching this evolution unfold from the inside. From shop floors handling plasma-cut structural steel to turnkey robotic welding cells integrating vision systems, the story of modern manufacturing is not simply about faster machines or better sensors. It is about the convergence of human understanding and machine intelligence.
-And yet, as an industry, we are still learning how to talk about it.
-The shift that most leaders are underestimating
-When business leaders speak of Industry 4.0 — and now Industry 5.0 — they often frame it as a technology conversation. IoT sensors. Digital twins. Collaborative robots. Edge computing. The vocabulary is compelling, and the tools are genuinely transformative.
-But there is a quieter revolution running parallel to it, one that rarely makes the keynote stage: the collapse of the wall between technical expertise and commercial strategy.
-The factory of the future will not be won by the company with the best robot. It will be won by the company that best understands why that robot matters — to the customer, to the process, and to the bottom line.
-I have seen this play out repeatedly. A technically brilliant automation solution fails to scale commercially because no one could articulate its value in a language a plant director or CFO could act on. Conversely, I have seen modest automation investments deliver outsized returns because a team understood the application deeply enough to position it precisely.
-The gap is not technological. It is communicative. It is strategic. It is human.
-Smart manufacturing is not a destination — it is a posture
-The term "smart factory" risks becoming another industry buzzword if we treat it as a checkbox exercise — install the sensors, connect the MES, declare victory. True smart manufacturing is not a state you arrive at. It is an organisational posture: the ongoing capacity to sense, interpret, adapt, and communicate across the entire value chain.
-This means the welding engineer and the business development manager must share a common vocabulary. The application specialist and the marketing team must be aligned not just on what the product does, but on what problem it actually solves for a customer operating under real-world constraints — workforce pressure, throughput targets, quality mandates, energy costs.
-What the next decade demands from industrial leaders
-Technical depth paired with commercial fluency — understanding both the arc and the argument
-Application-first thinking that connects machine capability to customer outcome
-Communication that bridges the shop floor and the boardroom without losing either audience
-Strategic positioning of automation solutions in the context of total manufacturing value
-Patience for complexity and boldness for simplification — simultaneously
-From thermal cutting to robotic welding — what two decades taught me
-My journey across plasma and laser cutting applications, CNC systems, welding automation, and turnkey project environments gave me something no classroom could: the experience of watching automation promises meet manufacturing reality. I have seen projects succeed not because the technology was flawless, but because every stakeholder — from the operator to the procurement head — understood their role in making it work.
-And I have seen transformative technology stall because it was sold as a product when it needed to be sold as a solution. As a partnership. As a shared investment in a better process.
-The industrial leaders who will shape the next decade are not those who understand only machines, or only markets. They are the ones who can stand at the intersection — who can read a weld defect and a balance sheet with equal fluency, who can architect a solution and articulate its ROI in the same breath.
-The question every manufacturing organisation must ask today
-As automation becomes more accessible — as collaborative robots enter mid-market facilities, as AI-driven quality inspection moves from aerospace to general fabrication, as digital twins shift from aspiration to operational standard — the competitive differentiator is no longer access to technology.
-It is wisdom about how to deploy it.
-Any organisation can purchase a robot. Far fewer can integrate one with precision, align it to a growth strategy, and communicate that value to the market with clarity.
-The manufacturers, solution providers, and technology partners who will lead the next industrial era are those building teams that combine technical understanding with commercial thinking, process communication with strategic presentation, and application-oriented problem solving with long-term vision.
-This is not idealism. It is the structural reality of where the industry is heading.
-An invitation to the conversation
-I am writing this as someone still actively learning — still expanding into business development, customer engagement, and strategic growth within the automation and robotic welding space. My 21+ years are not a credential of completion. They are context for the questions I am still asking.
-The most important question being: how do we, as an industry, build the next generation of leaders who are as comfortable with a P&L as they are with a PLC? Who can vision-cast a smart factory strategy on Monday and walk a weld inspection on Tuesday?
-If you are working at the edge of industrial automation, manufacturing solutions, robotic welding, or technical-commercial development — I would genuinely like to hear your perspective. The future of this industry is not written yet. And the most important conversations are the ones happening between people who understand it from the inside.
-— Written from 21+ years across industrial automation, thermal cutting, welding automation, and smart manufacturing environments.
-#IndustrialAutomation#SmartManufacturing#Industry5#RoboticWelding#ManufacturingLeadership#FutureOfWork#TechnicalSales#BusinessDevelopment#Automation#IndustrialEngineering
-================================================================================
-
-LINK: https://www.linkedin.com/company/1x-technologies/posts/
-DATE: 2026-05-19
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a significant milestone in robotics engineering, showcasing a high level of technical expertise and thought leadership in the field of home robots and AI-powered robotics.
-AI COMMENT:
-Congratulations on reaching full-scale production of NEO, a remarkable achievement in the robotics industry. The integration of a physics-grounded video model for autonomous action is a significant step forward. What potential applications or challenges do you foresee in deploying this technology in real-world environments, and how might it impact the future of robotics?
-TEXT:
-0 notifications total
-Skip to search
-Skip to main content
-Keyboard shortcuts
-Close jump menu
-new feed updates notifications
-Home
-My Network
-Jobs
-4
-4 new messages notifications
-Messaging
 1
-1 new notification
-Notifications
-Me
-For Business
-Try Premium for ₹0
-1X 
-NEO The Home Robot | Order Today
-Robotics Engineering Palo Alto, California 81K followers 201-500 employees
-Follow
-Visit website
- 
-Home
-About
-Posts
-Jobs
-People
-1X
-80,519 followers
-See a collection of active or past ads by 1X.
-View ad library
-All Images Videos Articles Documents
-Sort by: 
-Top
-Feed post number 1
-1X
-80,519 followers
-2w • 
- 
-Follow
-Building Your NEO | Manufactured in Hayward, CA
-America’s most vertically integrated humanoid robot factory has now begun full-scale production, with the capacity to build 10,000 NEOs this year.
-Spanning 58,000 square feet and employing over 200 team members, 1X manufacturing designs and manufactures NEO’s critical components in-house— including motors, batteries, structures, transmission systems, soft goods, sensors and more.
-With the latest versions of NEO coming off the line and consumer shipments planned for 2026, this is the critical milestone that turns the vision of abundant, general-purpose home robots into reality.
-Media player modal window
-The media could not be loaded, either because the server or network failed or because the format is not supported.
-1,235
-41 comments
-166 reposts
 Like
 Comment
-Repost
-Send
-Feed post number 2
-1X
-80,519 followers
-3w • Edited • 
- 
-Follow
-We’re excited to welcome Amy Lentz as our SVP of People at 1X.
-From the Obama White House to Teach For America to TOMS, where she most recently led organization-wide transformation as Chief People Officer, Amy has built her career at the intersection of strategy, operations, and human performance.
-She now brings that same expertise to 1X as she shapes our people strategy and culture. She has advised ambitious leadership teams in tech, including Perplexity AI, and built an audience of over one million professionals through her platform Hack Your HR, where she turns executive behavior into practical frameworks.
-Read More: https://lnkd.in/g7MRshBZ
-…more
-Activate to view larger image,
-Activate to view larger image,
-506
-26 comments
-9 reposts
-Like
-Comment
-Repost
-Send
-Feed post number 3
-1X
-80,519 followers
-4mo • 
- 
-Follow
-NEO is starting to learn on its own.
-The 1X World Model’s latest update is a paradigm shift in robot learning: NEO now uses a physics-grounded video model (World Model) to turn any voice or text prompt into fully autonomous action, even for completely novel tasks and objects NEO has never seen before.
-By leveraging internet-scale, video data fine-tuned on real robot experience, NEO can visualize future actions, predict outcomes, and execute them with human-like understanding– all without prior examples. This marks the critical first step in NEO being able to collect data on its own to master new tasks all by itself. 
-Read more: https://lnkd.in/gkHJqFSh
-…more
-Media player modal window
-The media could not be loaded, either because the server or network failed or because the format is not supported.
-1,595
-51 comments
-196 reposts
-Like
-Comment
-Repost
-Send
-Pages people also viewed
-Figure
-Machinery Manufacturing
-121,281 followers
-Follow
-Agility Robotics
-Robotics Engineering
-109,338 followers
-Follow
-Apptronik
-Robot Manufacturing
-60,618 followers
-Follow
-Show all
-People also follow
-Google
-Software Development
-41,665,603 followers
-Follow
-LinkedIn
-Software Development
-33,700,469 followers
-Follow
-Google for Developers
-Technology, Information and Internet
-4,027,002 followers
-Follow
-Show all
-About
-Accessibility
-Help Center
-Privacy & Terms
-Ad Choices
-Advertising
-Business Services
-Get the LinkedIn app
-More
- LinkedIn Corporation © 2026
-Status is online
-Messaging
-You are on the messaging overlay. Press enter to open the list of conversations.
-4
-Compose message
-You are on the messaging overlay. Press enter to open the list of conversations.
-================================================================================
-
-LINK: https://www.linkedin.com/company/boston-dynamics/posts/
-DATE: 2026-05-19
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post appears to be about a thought leadership topic, specifically the learning process of Atlas, a humanoid robot, which suggests a deep technical discussion.
-AI COMMENT:
-I appreciate the insight into Atlas's learning process. The use of reinforcement learning and simulation is fascinating. One aspect that I think is crucial in such robotic systems is the balance between exploration and exploitation. Did the team consider implementing any specific algorithms to optimize this trade-off, and what were some of the key challenges in translating simulated learning to real-world applications?
-TEXT:
-How does Atlas learn? | Inside the Lab
-================================================================================
-
-LINK: https://www.linkedin.com/company/telixia/posts/
-DATE: 2026-05-19
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses thought leadership in the field of AI and data engineering, presenting a framework for making engineering decisions and highlighting the importance of human-in-the-loop systems.
-AI COMMENT:
-I completely agree that strong systems are built by asking better questions first, and your framework for making engineering decisions is spot on. In my experience as a robotics engineer, I've seen how Human-in-the-Loop (HITL) systems can significantly improve the reliability and trustworthiness of AI applications. What do you think is the most significant challenge in implementing HITL systems, and how can we balance human oversight with the need for autonomy in AI decision-making?
-TEXT:
-0 notifications total
-Skip to search
-Skip to main content
-Keyboard shortcuts
-Close jump menu
-new feed updates notifications
-Home
-My Network
-Jobs
-4
-4 new messages notifications
-Messaging
-1
-1 new notification
-Notifications
-Me
-For Business
-Try Premium for ₹0
-Telixia
-Making Robotics and AI Education Accessible for All - from Classroom to the Industry.
-IT Services and IT Consulting Lincoln, Lincolnshire 3K followers 11-50 employees
-Follow
-Message
- 
-Home
-About
-Services
-Posts
-Jobs
-People
-Telixia
-2,997 followers
-See a collection of active or past ads by Telixia.
-View ad library
-All Images Videos Articles Documents
-Sort by: 
-Top
-Feed post number 1
-Telixia
-2,997 followers
-31m • 
- 
-Follow
-Most engineers waste time chasing the “best” tools.
-But strong systems are usually built by asking better questions first:
-⚡ What problem are you solving?
-⚡ How much data are you handling?
-⚡ Do you need batch or real-time processing?
-⚡ Are you building analytics, ML, or AI systems?
-⚡ Will the system scale over time?
-This framework maps common engineering decisions across:
-✔ Data pipelines
-✔ AI systems
-✔ ML workflows
-✔ Storage architectures
-✔ Orchestration tools
-✔ Infrastructure scaling
-The biggest takeaway:
-👉 Great engineering is rarely about tools alone.
-It’s about choosing the right architecture for the right use case.
-📘 Credit: Sumit Gupta
-
-hashtag
-#DataEngineering 
-hashtag
-#AI 
-hashtag
-#MachineLearning 
-hashtag
-#SoftwareEngineering 
-hashtag
-#BigData 
-hashtag
-#CloudComputing 
-hashtag
-#Analytics 
-hashtag
-#RAG 
-hashtag
-#AIAgents 
-hashtag
-#Tech
-…more
-Activate to view larger image,
-Activate to view larger image,
-Like
-Comment
-Repost
-Send
-Feed post number 2
-Telixia
-2,997 followers
-37m • 
- 
-Follow
-Most engineers waste time chasing the “best” tools.
-But strong systems are usually built by asking better questions first:
-⚡ What problem are you solving?
-⚡ How much data are you handling?
-⚡ Do you need batch or real-time processing?
-⚡ Are you building analytics, ML, or AI systems?
-⚡ Will the system scale over time?
-This framework maps common engineering decisions across:
-✔ Data pipelines
-✔ AI systems
-✔ ML workflows
-✔ Storage architectures
-✔ Orchestration tools
-✔ Infrastructure scaling
-The biggest takeaway:
-👉 Great engineering is rarely about tools alone.
-It’s about choosing the right architecture for the right use case.
-📘 Credit: Sumit Gupta
-
-hashtag
-#DataEngineering 
-hashtag
-#AI 
-hashtag
-#MachineLearning 
-hashtag
-#SoftwareEngineering 
-hashtag
-#BigData 
-hashtag
-#CloudComputing 
-hashtag
-#Analytics 
-hashtag
-#RAG 
-hashtag
-#AIAgents 
-hashtag
-#Tech
-…more
-Activate to view larger image,
-Activate to view larger image,
-Like
-Comment
-Repost
-Send
-Feed post number 3
-Telixia
-2,997 followers
-15h • 
- 
-Follow
-Human-in-the-Loop (HITL) systems are becoming essential for building reliable, scalable, and trustworthy AI applications.
-As AI systems become more autonomous, human oversight remains critical for safety, quality control, compliance, decision-making, and continuous improvement.
-This visual breaks down 6 major HITL architectures used in modern AI systems, including:
-• Approval-based decision gates
-• Exception-based fallback systems
-• Continuous feedback loops
-• Human-augmented decision systems
-• Review-and-correct workflows
-• Human-trained agent systems
-These architectures are widely used across industries like finance, healthcare, legal, cybersecurity, customer support, workflow automation, and enterprise AI.
-The future of AI isn’t fully autonomous systems replacing humans — it’s intelligent collaboration between humans and AI.
-Definitely worth saving 👇
-Credits:
-Created by: aidigital.co.uk
-Shared by: Telixia
-
-hashtag
-#AI 
-hashtag
-#HumanInTheLoop 
-hashtag
-#ArtificialIntelligence 
-hashtag
-#AIEngineering 
-hashtag
-#Automation 
-hashtag
-#MachineLearning 
-hashtag
-#AIAgents 
-hashtag
-#GenerativeAI 
-hashtag
-#Tech 
-hashtag
-#FutureOfWork 
-hashtag
-#EnterpriseAI 
-hashtag
-#SystemDesign 
-hashtag
-#Innovation
-…more
-Activate to view larger image,
-Activate to view larger i
-================================================================================
-
-LINK: https://www.linkedin.com/company/agility-robotics/posts/
-DATE: 2026-05-19
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a significant challenge in robotics, the sim-to-real gap, and the company's efforts to address it, making it a thought leadership post with high commentability
-AI COMMENT:
-I completely agree that closing the sim-to-real gap is one of the most pressing issues in robotics today. Agility Robotics' approach to tackling this problem with Digit is truly innovative. I'm curious, what are some of the most significant technical hurdles your team has encountered while deploying policies for locomotion and manipulation on Digit, and how do you see the field evolving to address these challenges?
-TEXT:
-0 notifications total
-Skip to search
-Skip to main content
-Keyboard shortcuts
-Close jump menu
-new feed updates notifications
-Home
-My Network
-Jobs
-4
-4 new messages notifications
-Messaging
-1
-1 new notification
-Notifications
-Me
-For Business
-Try Premium for ₹0
-Agility Robotics 
-Robotics Engineering Salem, Oregon 109K followers 201-500 employees
-Follow
-Visit website
- 
-Home
-About
-Posts
-Jobs
-People
-Agility Robotics
-109,338 followers
-See a collection of active or past ads by Agility Robotics.
-View ad library
-All Images Videos Articles Documents
-Sort by: 
-Top
-Feed post number 1
-Agility Robotics
-109,338 followers
-5d • 
- 
-Follow
-A lab demo proves a robot can do something once. A commercial deployment proves it can keep doing it – shift after shift, in real conditions, for real customers. 
- 
-Digit’s been clocked in since 2023, streaming continuous operations.
-Media player modal window
-The media could not be loaded, either because the server or network failed or because the format is not supported.
-247
-3 comments
-25 reposts
-Like
-Comment
-Repost
-Send
-Feed post number 2
-Agility Robotics
-109,338 followers
-1w • 
- 
-Follow
-Digit hasn’t had to run during customer deployments yet, but those humanoid marathon videos really got it inspired. The only way to prove if simulated policies actually translate is to just do it. 
-
-hashtag
-#Digit 
-hashtag
-#HumanoidRobotics
-…more
-Media player modal window
-The media could not be loaded, either because the server or network failed or because the format is not supported.
-107
-3 comments
-16 reposts
-Like
-Comment
-Repost
-Send
-Feed post number 3
-Agility Robotics
-109,338 followers
-2w • 
- 
-Follow
-Closing the sim-to-real gap is one of the hardest problems in robotics. We're hiring a Senior AI Research Engineer to take it on—designing and deploying policies for locomotion and manipulation on Digit, in real facilities, at scale.
-Apply: https://lnkd.in/g4EdSnkA
-
-hashtag
-#AgilityRobotics
-…more
-Activate to view larger image,
-Activate to view larger image,
-188
-6 comments
-13 reposts
-Like
-Comment
-Repost
-Send
-Show more results
-Pages people also viewed
-Boston Dynamics
-Automation Machinery Manufacturing
-648,536 followers
-Follow
-Figure
-Machinery Manufacturing
-121,282 followers
-Follow
-Apptronik
-Robot Manufacturing
-60,618 followers
-Follow
-Show all
-People also follow
-Google
-Software Development
-41,665,630 followers
-Follow
-LinkedIn
-Software Development
-33,700,493 followers
-Follow
-NVIDIA Robotics
-Computer Hardware Manufacturing
-504,510 followers
-Follow
-Show all
-About
-Accessibility
-Help Center
-Privacy & Terms
-Ad Choices
-Advertising
-Business Services
-Get the LinkedIn app
-More
- LinkedIn Corporation © 2026
-Status is online
-Messaging
-You are on the messaging overlay. Press enter to open the list of conversations.
-4
-Compose message
-You are on the messaging overlay. Press enter to open the list of conversations.
-================================================================================
-
-LINK: https://www.linkedin.com/pulse/rise-humanoid-robots-how-machines-becoming-more-human-mugilan-s-jbkzc/
-DATE: 2026-05-19
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post provides a well-structured overview of humanoid robots, their applications, and benefits, demonstrating thought leadership and technical insight, making it a good opportunity to add value with a comment.
-AI COMMENT:
-I completely agree with your assessment of the rising importance of humanoid robots in various industries. One aspect that's often overlooked is the need for standardized safety protocols and regulations to ensure these machines operate safely alongside humans. For instance, the development of ISO/TS 15066 for collaborative robots is a step in the right direction, but more work is needed to address the unique challenges posed by humanoid robots. What do you think are the most critical factors that regulatory bodies should consider when developing guidelines for the deployment of humanoid robots in commercial settings?
-TEXT:
-The Rise of Humanoid Robots: How Machines Are Becoming More Human in 2026
-Mugilan S
-Aspiring Tech Student in ECE | Diploma in Electric Vehicle Technology| On the Verge of Patenting Unique Societal Solutions | Analog Hardware Designer | Embedded System Designer and IoT | UI/UX designer
-May 16, 2026
-In 2026, Humanoid Robotics is moving from science fiction to commercial reality. Robots that walk, talk, observe, and perform physical tasks are being developed by companies and research organizations around the world. Powered by Artificial Intelligence, these machines are beginning to assist in factories, warehouses, hospitals, homes, and military operations.
-The technology promises major benefits, but it also raises difficult questions about employment, safety, and the future relationship between humans and intelligent machines.
-What Are Humanoid Robots?
-Humanoid robots are machines designed to resemble and operate like humans. They typically include:
-Cameras and sensors for vision and navigation
-Robotic arms and hands for manipulation
-Legs or wheeled systems for movement
-AI software for decision-making
-Voice recognition and speech synthesis
-Cloud connectivity for continuous learning
-Their purpose is simple: perform human tasks in environments already built for people.
-Why Businesses and Governments Are Investing in Humanoid Robots
-Organizations are adopting humanoid robots because they can work continuously, handle dangerous assignments, and reduce long-term operating costs.
-Key Business Benefits (WIIFM)
-Operate 24/7 with minimal downtime
-Reduce workplace injuries
-Perform hazardous tasks safely
-Lower recurring labor costs
-Maintain consistent productivity
-Scale operations quickly
-Fill labor shortages
-For companies, the economic incentive is clear: a robot requires a significant upfront investment, but it does not demand salaries, vacations, or shift changes.
-Humanoid Robots in Military Applications
-Military organizations are exploring robotic soldiers to reduce human casualties in combat zones.
-This idea has a strong strategic advantage. Robots do not experience fear, fatigue, or emotional stress. If damaged, they can be repaired or replaced rather than requiring years of training to rebuild human expertise.
-Potential military uses include:
-Reconnaissance missions
-Bomb disposal
-Logistics support
-Border surveillance
-Hazardous combat operations
-The benefit is obvious: fewer human soldiers exposed to life-threatening situations.
-The risk is equally serious. Robots do not understand morality. They execute instructions exactly as programmed. Faulty software, sensor errors, or communication failures could lead to unintended attacks, including harm to allied personnel or civilians.
-Humanoid Robots in Industry
-Manufacturing companies are investing heavily in humanoid robots because they can perform repetitive physical work without fatigue.
-These robots can:
-Assemble products
-Move materials
-Inspect components
-Operate continuously
-Work in extreme environments
-For manufacturers, this means higher productivity and more predictable operations.
-For workers, it creates a legitimate concern: automation may reduce demand for certain jobs, especially repetitive and low-skill roles.
-The Human Cost: Employment Disruption
-The most significant challenge is not technological capability. It is economic transition.
-As robots become more capable, some jobs will disappear, while new roles will emerge in:
-Robotics maintenance
-AI programming
-Systems integration
-Safety oversight
-Human-robot collaboration
-Workers who adapt to these new skills will remain valuable. Those who rely solely on tasks that machines can perform efficiently will face increasing competition from automation.
-My Perspective on the Future
-Humanoid robots offer enormous potential when used responsibly.
-They can reduce military casualties, improve industrial productivity, and take over dangerous tasks that place human lives at risk.
-At the same time, excessive dependence on intelligent machines introduces a profound concern.
-As I have stated:
-“If humanoid robots become deeply integrated into everyday life, they may eventually treat humans the way humans often treat street dogs.”
-This statement reflects a warning rather than a prediction. If society builds increasingly autonomous systems without strong ethical controls, humans may lose authority over technologies designed to serve them.
-Conclusion
-Humanoid robots are becoming more human in their appearance and capabilities, but they remain machines guided by code, data, and human intent.
-In 2026, these systems are transforming business, defense, and industry by increasing efficiency and reducing risk. However, they also challenge society to address safety, employment, and ethics.
-The future of humanoid robotics will depend on one critical decision: whether humanity uses this technology to protect human life and dignity—or allows convenience and profit to outrun responsibility.
-================================================================================
-
-LINK: https://www.linkedin.com/company/figure-ai/posts/
-DATE: 2026-05-19
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post is from a well-known company in the robotics industry, Figure, and showcases their achievement of running humanoid robots 24/7 with full autonomy, making it a high-value and technically interesting post.
-AI COMMENT:
-Congratulations on achieving 119 consecutive hours and 149,000 packages with your humanoid robots! The fact that you're pushing the limits of autonomous robotics is truly impressive. I'd love to know more about the technical challenges you've overcome to achieve this level of autonomy. What do you think is the most significant hurdle to overcome in the next phase of development to further expand the capabilities of your robots?
-TEXT:
-0 notifications total
-Skip to search
-Skip to main content
-Keyboard shortcuts
-Close jump menu
-new feed updates notifications
-Home
-My Network
-Jobs
-4
-4 new messages notifications
-Messaging
-1
-1 new notification
-Notifications
-Me
-For Business
-Try Premium for ₹0
-Figure 
-Figure's mission is to expand human capabilities through advanced AI.
-Machinery Manufacturing San Jose, CA 121K followers 201-500 employees
-Follow
-Message
- 
-Home
-About
-Posts
-Jobs
-People
-Figure
-121,283 followers
-See a collection of active or past ads by Figure.
-View ad library
-All Images Videos Articles Documents
-Sort by: 
-Top
-Feed post number 1
-Figure
-121,283 followers
-21h • 
- 
-Follow
-Day 6 is live: We've now crossed 119 consecutive hours and 149,000 packages
-Day 6 is live: Watch our humanoid robots running 24/7 and fully autonomous. We've now crossed 119 consecutive hours and 149,000 packages
-24/7 Merch https://lnkd.in/gaJkKZhQ
-Media player modal window
-No compatible source was found for this media.
-Event ended
-Day 6 is live: We've now crossed 119 consecutive hours and 149,000 packages
- Linkedin Live
-245
-41 comments
-27 reposts
-Like
-Comment
-Repost
-Send
-Feed post number 2
-Figure
-121,283 followers
-1d • 
- 
-Follow
-F.03 Livestream Day 5: Man vs. Machine
-Day 5 is Live: Watch our humanoid robots running 24/7 with full autonomy. We will be running until robot failure. 
-24/7 Merch https://lnkd.in/gaJkKZhQ
-…more
-Previously live
-Media player modal window
-No compatible source was found for this media.
-872
-79 comments
-57 reposts
-Like
-Comment
-Repost
-Send
-Feed post number 3
-Figure
-121,283 followers
-2d • 
- 
-Follow
-F.03 Livestream - Day 4
-Day 4 is Live: Watch our humanoid robots running 24/7 with full autonomy. We will be running until robot failure. 
-24/7 Merch https://lnkd.in/gaJkKZhQ
-…more
-Previously live
-Media player modal window
-No compatible source was found for this media.
-459
-29 comments
-45 reposts
-Like
-Comment
-Repost
-Send
-Show more results
-Pages people also viewed
-1X
-Robotics Engineering
-80,519 followers
-Follow
-Agility Robotics
-Robotics Engineering
-109,339 followers
-Follow
-Archer
-Airlines and Aviation
-165,905 followers
-Follow
-Show all
-People also follow
-Google
-Software Development
-41,665,648 followers
-Follow
-LinkedIn
-Software Development
-33,700,509 followers
-Follow
-Amazon
-Software Development
-36,758,754 followers
-Vatchala & 12 other school alumni work here
-Follow
-Show all
-About
-Accessibility
-Help Center
-Privacy & Terms
-Ad Choices
-Advertising
-Business Services
-Get the LinkedIn app
-More
- LinkedIn Corporation © 2026
-Status is online
-Messaging
-You are on the messaging overlay. Press enter to open the list of conversations.
-4
-Compose message
-You are on the messaging overlay. Press enter to open the list of conversations.
+Share
+To view or add a comment, sign in
 ================================================================================
 
