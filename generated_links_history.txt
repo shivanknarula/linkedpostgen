@@ -336,3 +336,22 @@ https://www.linkedin.com/posts/juliazadorozhna_meet-odin-our-new-humanoid-robot-
 https://www.linkedin.com/posts/grishinrobotics_startups-rhoda-ai-and-genesis-ai-are-building-activity-7384182504351547392-0dNH
 https://www.linkedin.com/posts/muthuramalingam-krishnan-5a44b48_polymers-humanoidrobotics-activity-7461642901853261824-jlwt
 https://www.linkedin.com/posts/armel-nene-jr_ros2-slam-nav2-activity-7375521929706758144-fMQh
+https://www.linkedin.com/posts/boston-dynamics_air-spot-rl-behavior-research-boston-activity-7366455532733353984-9d75
+https://www.linkedin.com/posts/learn-robotics-with-ros_ros2-robotics-moveit2-activity-7460432175562342401-lpxQ
+https://www.linkedin.com/posts/norman-paulsen_agi-ai-llm-activity-7394784884717895680-u9cx
+=== RUN ===
+https://www.linkedin.com/posts/susanth-k-s-93a110325_ros2-robotics-autonomoussystems-activity-7461361557667532800-e_sK
+https://www.linkedin.com/posts/boston-consulting-group_intelligent-robotics-is-reshaping-industrial-activity-7369293194716475398-W3Pn
+https://www.linkedin.com/posts/alejandra-yonet-garza-delano%C3%A9-3b3191214_robotics-ros2-autonomoussystems-activity-7439020453056323584--1qQ
+=== RUN ===
+https://www.linkedin.com/posts/faizanjavedwriter_the-robotics-industry-is-pouring-billions-activity-7448313069136642048-hSSu
+https://www.linkedin.com/posts/boston-dynamics_the-to-do-list-with-spot-boston-dynamics-activity-7449834757271547904-_Ok8
+https://www.linkedin.com/posts/boston-dynamics_ask-a-roboticist-meet-karl-boston-dynamics-activity-7391520111997919232-ihCJ
+=== RUN ===
+https://www.linkedin.com/posts/mattercode-ai_robotics-humanoidrobots-manufacturing-activity-7462125423473131521-Xm4U
+=== RUN ===
+https://www.linkedin.com/posts/akkar-ltd_bostondynamics-bobbi-ai-activity-7353349434463641600-MDt9
+=== RUN ===
+https://www.linkedin.com/posts/robotverse_fanuc-industrialautomation-smartmanufacturing-activity-7462736607125876736-rJL4
+https://www.linkedin.com/posts/reuven-taplashvili-57a83916a_ros2-robotics-python-activity-7461671950722195456-u7iK
+https://www.linkedin.com/posts/boston-dynamics_boston-dynamics-and-fieldai-are-collaborating-activity-7437861272697589761-_tCK

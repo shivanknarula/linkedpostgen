@@ -1,133 +1,139 @@
-LINK: https://www.linkedin.com/posts/grishinrobotics_startups-rhoda-ai-and-genesis-ai-are-building-activity-7384182504351547392-0dNH
+LINK: https://www.linkedin.com/posts/reuven-taplashvili-57a83916a_ros2-robotics-python-activity-7461671950722195456-u7iK
 DATE: 2026-05-22
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses thought leadership, provides deep technical insights, and mentions specific companies and investments, making it a high-value conversation
+SCORE: 8/10 - The post provides a personal learning experience with ROS2, shares key takeaways, and outlines future projects, making it a valuable discussion starter.
 AI COMMENT:
-I completely agree that investors are prioritizing near-term utility while the toughest bipedal robotics challenges are being addressed. The mention of Rhoda AI and Genesis AI's approaches, with their focus on 'general-purpose' manipulation, highlights the diverse paths being explored. The contrast between wheeled and leg-based systems for tasks like unloading cartons also underscores the importance of balancing capability with practicality. What do you think will be the tipping point for bipedal robots to overcome the current limitations in reliability, dexterity, and cost-effectiveness, making them more competitive with wheeled solutions in industrial settings?
+Great insight, Reuven, on the importance of environment setup in robotics. Your experience with ROS2 and SLAM is relatable, and the takeaway that the core algorithms are not the hardest part resonates with many robotics engineers. I'd love to know, as you progress towards building SLAM mapping systems and autonomous navigation, how do you plan to handle the challenge of sensor fusion and integration of multiple data sources, such as LiDAR and camera, in real-world scenarios?
 TEXT:
-Grishin Robotics
-22,998 followers
-7mo
-Two stealth humanoid plays just surfaced with $100M+ each: Rhoda AI ($162.6M Series A, April 2025) and Genesis AI ($105M seed). Both are chasing "general-purpose" manipulation-Rhoda aiming beyond 23 kg (50 lb) lift where many biped bots wobble; Genesis opting for a wheeled base and software-first control.
-Why it matters: the money is following deployment paths that reduce risk. Figure just locked $1B (Series C) at a $39B post-capital to turn pilots into production lines. Meanwhile, Tesla's Optimus push keeps meeting real-world constraints, from rare-earth magnet export licensing to manufacturing bottlenecks. The signal: investors want near-term utility while the hardest biped problems get worked out.
-What we're watching on factory floors in 2026: wheels vs. legs. A wheeled, two-arm unit can unload 25–35 kg cartons at inbound docks today, with simpler safety envelopes and service economics. True bipeds promise reach and human-scale ergonomics-but need reliable balance under load, dexterous hands, and cheaper actuation to win TCO.
-https://lnkd.in/gYEFenqp
-Startups Rhoda AI And Genesis AI Are Building Humanoid Robots In Stealth
-social-www.forbes.com
-2
+Reuven Taplashvili
+5d
+ROS2 learning project 🪛 
+Recently I read the book - "ROS 2 from scratch" by Edouard Renard . I dived more into the whole robotics simple nodes and one of the concepts there was SLAM (Simultaneous Localization and Mapping).
+Through this experience , I worked with : 
+1️⃣ ROS 2 workplace structure and python nodes . 
+2️⃣ colcon build system and package management . 
+3️⃣ ROS 2 executable and workflows( ros2_run) .
+4️⃣ Basic knowledge and understanding of robotics. 
+5️⃣ Linux ( Ubuntu 24.04) env . 
+🧠 Key Takeaways
+One of the biggest insights from this project is that:
+the core algorithms in robotics are not the hardest part 
+— the environment is. 
+I find myself really fighting against the terminal when I tried to install humble first for the ros2 , later on when I read the book and the docs online I understood "humble" isn't suitable for Ubuntu 24.04 , but "Jazzy" is the right pkg. overall , I came myself to conclusion that I had to remove everything and start over twice . (Because: The version of ubuntu isn't matched and it caused broken pkgs , and the whole env didn't run at all) 
+🚀 What I’m building toward
+I am currently progressing toward:
+SLAM mapping systems
+Autonomous navigation
+Robot perception using sensors (LiDAR, camera)
+Real-world robotics simulation pipelines
+💡 Final Reflection
+This project taught me that in robotics:
+“The algorithm is often the easy part. The real challenge is making everything work together in a real system.”
+#ROS2 #Robotics #Python #EmbeddedSystems #AI #MachineLearning #Engineering #Linux #Codespaces
 Like
 Comment
 Share
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/armel-nene-jr_ros2-slam-nav2-activity-7375521929706758144-fMQh
+LINK: https://www.linkedin.com/posts/boston-dynamics_boston-dynamics-and-fieldai-are-collaborating-activity-7437861272697589761-_tCK
 DATE: 2026-05-22
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post showcases thought leadership, deep technical discussions, and personal experiences in robotics engineering, making it an ideal opportunity to add value with a comment.
+SCORE: 8/10 - The post is about a significant collaboration between Boston Dynamics and FieldAI, with high-quality comments from the audience, indicating a deep technical discussion.
 AI COMMENT:
-I completely agree that nothing goes 100% to plan when building a robot, and your experience with the ROS2 robot is a great example of this. One thing that caught my attention was your decision to redesign the mountings and use a 3D printer to create a stronger, modular platform. This highlights the importance of adaptability and iterative design in robotics engineering. What do you think is the most significant challenge that robotics engineers will face when integrating autonomous navigation and SLAM capabilities into their projects, and how can we address these challenges as a community?
+I completely agree that the combination of Spot and FieldAI's foundation models has the potential to unlock powerful new capabilities for autonomy in dynamic environments. The fact that Spot can now navigate unplanned spaces is a major step forward. I'm curious, how do you think FieldAI's models will handle the challenge of generalizing to new construction sites with limited data, and what role will human oversight play in ensuring the reliability of these autonomous systems?
 TEXT:
-Armel Nene JR
-8mo  Edited
-One thing I’ve learned building my own ROS2 robot is that nothing ever goes 100% to plan, why? I didn’t want to buy a pre-built turtle bot robot and figured this would let me dip in all areas of engineering and guess what. It did. 
-When I first set out to create a ROS 2 Humble-based mobile robot, the vision was clear: 
-Raspberry Pi 4 for brains, Arduino with encoders for odometry, and an LD14 LiDAR to map the world (I quickly found out LIDAR sensors aren’t so cheap). On paper? Simple. In practice? A real engineering adventure.
-At the start, I had to “fake” odometry just to get SLAM Toolbox running. Watching the LiDAR draw a live map reminded me of building a ROS1 robot during my university days. But the real breakthrough came when I finally got encoder-based odometry working—suddenly the robot wasn’t guessing, it knew where it was.
-Then came the plot twist: the base literally cracked under testing, I decided to get stronger motors which were x4 heavier and the shaft was much larger. At first it felt like a disaster, but it turned into one of the best parts of the project. I fired up the 3D printer, redesigned the mountings, and ended up with a stronger, modular platform that made iterating so much easier. (As well as some help off the time help from friends to make the new shaft sleeves) 
-Since then, I’ve integrated:
-	•	SLAM Toolbox for real-time mapping
-	•	Nav2 stack for autonomous path planning and obstacle avoidance
-	•	Explore_Lite for full autonomous exploration
-	•	A web dashboard for remote monitoring and control
-It’s been a crash course in ROS2 and seeing all the changes —balancing low-level hardware with high-level autonomy. Every problem, from TF transform errors to busted parts, became an opportunity to learn, rebuild, and move forward.
-📚 Along the way, I’ve been reading “A Concise Introduction to Robot Programming with ROS2” by Francisco Martín Rico (Though I accidentally bought the first version). The book has been an incredible companion to the build, helping me connect the theory with the hands-on work I was doing. I’m still reading and learning from it now, and it continues to push my understanding forward.
-Also the change in the URDF using comma separated links in the definition was a really annoying change but I can see the benefit in hindsight. Open Robotics  
-Excited to keep pushing this platform further — and to connect with others working in ROS 2, autonomous navigation, or robotics integration.
-#ROS2 #SLAM #Nav2 #RoboticsEngineering #AutonomousNavigation #3DPrinting #RaspberryPi4 #Arduino #LiDAR #Engineering #LearningByDoing #embedded #roboticsUK #iet #London #LondonRobotics
-Also thanks Rob Hawkes Aaron Pinto Jorge Porcel Bustamante Alex Griffiths for helping and collaborating on the little snags along the way!
-…more
-738
-32 Comments
+Boston Dynamics
+649,227 followers
+2mo
+Boston Dynamics and FieldAI are collaborating to combine Spot and our world-class  software stack with FieldAI’s Field Foundation Models™ for uncharted exploration, extending autonomous operations in constantly evolving spaces like construction sites. https://bosdyn.co/4lmCQlG
+653
+19 Comments
 Like
 Comment
 Share
-Transcript
-Transcript
-If you can drive a motor, you can read an encoder. If you can read an encoder, you can make odometry. If you can make odometry, you can streamline DAR. If you can stream Lidar, you can build a map. If you can build a map, you can tie it all together and telling navigate. And if you can navigate with NAV two, you can explore autonomously. And you've just built a Ross 2 robot.
-Ali Rezazadeh
-7mo
-It seems like an amazing adventure. As a rookie at the beginning of this journey I'd like to know what are the best resources to learn ROS🙏🙏🙏🙏
+Humanoids Summit
+2mo
+Exciting to see this partnership!
 Like
 Reply
-Sai Kishore
-8mo
-Really inspiring, Armel Nene JR 🚀! Loved how you broke down the whole journey from faking odometry to integrating SLAM Toolbox, Nav2, and Explore_Lite. The way you turned setbacks like cracked bases and sensor costs into opportunities shows true engineering grit. ROS2 is complex, and seeing your modular approach plus 3D printing integration really highlights how learning by doing creates powerful outcomes. Excited to see how you keep pushing this platform further!
-Like
-Reply
-Syed Shayon Khaled
-Robotics | Mechanical | Electronics
-8mo
-I took the same approach as well, making my own take on Turtlebot instead of starting with an off-the-shelf platform. I think everyone getting into ROS should try to do this at least once - because even if I were to be working on the software side strictly, it would make my life a lot easier if I had basic understanding of how everything works on the hardware side as well.
-Like
-Reply
-Francisco Martín Rico
-8mo
-I am happy to have contributed to your awesome work with my book 🤓!!
+Nurvai
+2mo
+Exciting collaboration! Dynamic environments like construction sites are where robots really get tested. Pairing Spot robot with foundation models built for real-world exploration could unlock some powerful new capabilities for autonomy.
 Like
 Reply
 2 Reactions
-Peter Tran
-7mo
-As someone who’s tried to build a ROS2 robot without following a simple turtlebot guide, this is insane
-Like
-Reply
-TIMOTHY AYELAGBE
-8mo
-Great work Armel Nene JR
+Sorank
+2mo
+Spot navigating unplanned spaces is genuinely a different product category than what Boston Dynamics was selling two years ago. The hard part isn't the robot, it's making the model generalize to a site that changes every week without needing a full re-survey. curious whether FieldAI's models run onboard or if Spot is leaning on cloud inference in the field.
 Like
 Reply
 1 Reaction
-Seyed Mohammadhadi Rahavi
-7mo
-Wow, Armel, your journey is truly inspiring! How did you prioritize which challenges to tackle first?
-Insights resonate keen to link
+Robert Smak
+2mo
+The interesting part isn't the hardware — it's FieldAI's navigation stack handling truly unstructured terrain. On every brownfield site I've worked on, the floor plan in the drawing and the actual floor plan are two different things. That gap kills most AMR deployments. Curious how they handle dynamic obstacle avoidance when the 'environment' changes daily.
+Like
+Reply
+Erdem Ürün
+2mo
+Interesting direction. Combining robotics platforms like Spot with foundation models could be a major step toward truly autonomous operations in complex real world environments.
+Like
+Reply
+2 Reactions
+Markos S.
+2mo
+Interesting development. Autonomous inspection and robotics keep coming up in discussions we’re having with safety and operational leaders, particularly around removing people from hazardous environments.
+The ability to operate in constantly evolving sites like construction will be a big step forward.
+Like
+Reply
+Mostafa Akbari Hochberg
+2mo
+Really happy to see this collaboration and the next steps for Spot and Field AI. Innovation takes time :) Moving from pre-planned routes to autonomous operation feels like a major leap, and I’d guess Spot’s adoption curve will accelerate exponentially from here.
 Like
 Reply
 1 Reaction
-Aaqib Khan
-8mo
-Nice poetry...
+Design Hok
+2mo
+Impressive synergy between hardware and software. Leveraging Spot with FieldAI’s AI-driven foundation models highlights the future of autonomous inspection and exploration in evolving work environments. 
 Like
 Reply
-Iliya Baladastian
-8mo
-Nice 🔥
+RACHID LEMSIAH
+2mo
+Exciting to see robotics and AI come together for real-world exploration. This collaboration could greatly expand autonomous operations in dynamic environments like construction sites.
+
+Like
+Reply
+Igor Shevtsov
+2mo
+This is the kind of real-world AI application that’s exciting to watch. Strong collaboration and a very promising use case.
 Like
 Reply
 See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/muthuramalingam-krishnan-5a44b48_polymers-humanoidrobotics-activity-7461642901853261824-jlwt
+LINK: https://www.linkedin.com/posts/robotverse_fanuc-industrialautomation-smartmanufacturing-activity-7462736607125876736-rJL4
 DATE: 2026-05-22
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a specific and technical topic in robotics, providing a deep insight into the importance of polymers in humanoid robotics, making it a good opportunity to add value and showcase expertise.
+SCORE: 7/10 - The post provides a general overview of the growth of smart manufacturing in India, highlighting the benefits of industrial automation, which is a relevant and somewhat engaging topic in the field of robotics and manufacturing.
 AI COMMENT:
-I completely agree that polymers play a crucial role in bridging the gap between rigid machines and biological systems, enabling safe human-robot interaction and lifelike movement. One interesting aspect that I'd like to add is the potential of polymers to be used in the development of soft robotics, which could further enhance the capabilities of humanoid robots. What are your thoughts on how the integration of soft robotics and polymers could impact the future of humanoid robotics?
+Great insights on the evolving landscape of smart manufacturing in India. The integration of industrial robots, such as those from FANUC, is indeed enhancing productivity, precision, and operational efficiency across various sectors. What role do you think AI and machine learning will play in further augmenting the capabilities of these industrial robots, and how might this impact the future of manufacturing in India?
 TEXT:
-Muthuramalingam Krishnan
-5d
-𝐓𝐨𝐝𝐚𝐲'𝐬 𝐊𝐍𝐎𝐖𝐋𝐄𝐃𝐆𝐄 𝐒𝐡𝐚𝐫𝐞
-𝐏𝐨𝐥𝐲𝐦𝐞𝐫𝐬 𝐟𝐨𝐫 𝐇𝐮𝐦𝐚𝐧𝐨𝐢𝐝 𝐑𝐨𝐛𝐨𝐭𝐬
-A humanoid robot is a machine designed with a body structure that mimics human anatomy. Beyond their appearance, these robots are engineered to interact with human environments, tools, and people, bridging the gap between artificial intelligence and physical labor.
-The importance of polymers in humanoid robotics lies in their ability to bridge the gap between rigid machines and biological systems. Unlike traditional metals, advanced polymers provide the essential compliance and elasticity required for safe human-robot interaction and lifelike movement. From high-strain elastomers that function as artificial muscles to conductive polymer networks that act as electronic skins, these materials enable humanoids to perceive touch and move with organic dexterity. By shifting from heavy structural components to engineered molecular networks, polymers are the fundamental building blocks making truly autonomous and empathetic humanoid assistants a physical reality.
-If you want more information regarding polymer selection for humanoids, I highly recommend visiting the interesting post by Herwig Juster, which offers a technical perspective on how material science is shaping the future of robotics. 
-source : Roberto YAÑEZ
-https://lnkd.in/g3sxjZqN
-#Polymers #HumanoidRobotics 
-
-1
+RobotVerse
+25 followers
+2d
+Smart Manufacturing in India Is Rapidly Evolving
+Industrial automation is no longer the future — it is becoming the present reality for Indian manufacturing industries.
+From automotive production and CNC automation to smart factories and warehouse operations, FANUC industrial robots are helping manufacturers improve:
+✔ Productivity
+✔ Precision
+✔ Operational efficiency
+✔ Workplace safety
+✔ Production scalability
+As Industry 4.0 adoption grows across India, robotic automation is becoming a key investment for businesses aiming to stay globally competitive.
+Read the full blog on RobotVerse and discover how industrial robots are transforming modern manufacturing.
+🌐 Read More: https://lnkd.in/gjGcMqBy
+#FANUC #IndustrialAutomation #SmartManufacturing #Industry40 #FactoryAutomation #Robotics #ManufacturingIndia #RobotVerse #AutomationTechnology #IndustrialRobots
 Like
 Comment
 Share

@@ -898,7 +898,7 @@
         // Fetch entries from Flask or direct raw GitHub data
         async function loadResults() {
             try {
-                const response = await fetch('/api/results');
+                const response = await fetch('/api/results?_t=' + Date.now());
                 const data = await response.json();
                 
                 if (data.status === 'success' && data.data) {
@@ -1230,7 +1230,7 @@
 
             logInterval = setInterval(async () => {
                 try {
-                    const response = await fetch('/api/scrape/status');
+                    const response = await fetch('/api/scrape/status?_t=' + Date.now());
                     const data = await response.json();
                     
                     if (data.status === 'success') {
@@ -1242,6 +1242,9 @@
                             
                             // Autoscroll terminal
                             terminalLog.scrollTop = terminalLog.scrollHeight;
+                            
+                            // Real-time results update as logs stream in!
+                            loadResults();
                         }
                         
                         // Check if process finished

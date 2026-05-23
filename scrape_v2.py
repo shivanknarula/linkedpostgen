@@ -39,16 +39,55 @@ def get_queries():
 
 HISTORY_FILE = "generated_links_history.txt"
 
-def load_history():
+def load_history_runs():
     if not os.path.exists(HISTORY_FILE):
-        return set()
+        return []
+    
+    runs = []
+    current_run = []
+    
     with open(HISTORY_FILE, "r", encoding="utf-8") as f:
-        return set(line.strip() for line in f if line.strip())
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            if line.startswith("===") or line.startswith("#"):
+                if current_run:
+                    runs.append(current_run)
+                    current_run = []
+            else:
+                current_run.append(line)
+                
+    if current_run:
+        runs.append(current_run)
+        
+    return runs
+
+def load_history():
+    runs = load_history_runs()
+    # Keep only the last 10 runs
+    last_10_runs = runs[-10:]
+    history_set = set()
+    for run in last_10_runs:
+        history_set.update(run)
+    return history_set
 
 def update_history(new_urls):
-    with open(HISTORY_FILE, "a", encoding="utf-8") as f:
-        for url in new_urls:
-            f.write(f"{url}\n")
+    if not new_urls:
+        return
+        
+    runs = load_history_runs()
+    runs.append(list(new_urls))
+    
+    # Keep only the last 10 runs
+    runs = runs[-10:]
+    
+    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+        for i, run in enumerate(runs):
+            if i > 0:
+                f.write("=== RUN ===\n")
+            for url in run:
+                f.write(f"{url}\n")
 
 
 import urllib.parse
@@ -474,6 +513,16 @@ def main():
         if candidates:
             print(f"[*] Total unique new candidates: {len(candidates)}")
             
+            # Clear and initialize the CSV file with headers for the new run
+            CSV_FILE = "robotics_posts.csv"
+            try:
+                with open(CSV_FILE, "w", encoding="utf-8", newline="") as f:
+                    writer = csv.writer(f)
+                    writer.writerow(['url', 'date', 'score', 'reasoning', 'comment', 'likes', 'comments', 'text'])
+                print(f"[*] Initialized fresh {CSV_FILE} for this run.")
+            except Exception as e:
+                print(f"    ! Could not initialize CSV: {e}")
+                
             # INTERLEAVED EXTRACTION & SCORING PHASE
             print(f"[*] Intelligence Phase: Scrape & AI Analysis...")
             analyzed_posts = []
