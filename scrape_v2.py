@@ -136,12 +136,12 @@ def find_urls_via_linkedin(p, queries, history_set, limit=50, state_file="sessio
         print(f" -> Checking profile: {posts_url}")
         try:
             page.goto(posts_url, timeout=30000, wait_until="domcontentloaded")
-            page.wait_for_timeout(3000)
+            page.wait_for_timeout(1500)
             
             # Simple scroll
-            for s in range(3):
+            for s in range(2):
                 page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-                page.wait_for_timeout(1000)
+                page.wait_for_timeout(700)
                 
             # Using query_selector_all to support all versions of Playwright
             all_links = page.query_selector_all('a')
