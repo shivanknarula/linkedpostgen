@@ -1,142 +1,87 @@
-LINK: https://www.linkedin.com/posts/reuven-taplashvili-57a83916a_ros2-robotics-python-activity-7461671950722195456-u7iK
-DATE: 2026-05-22
+LINK: https://www.linkedin.com/posts/boston-dynamics_from-teleoperation-to-autonomy-inside-boston-activity-7376295561219588096-KsnD
+DATE: 2026-05-23
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post provides a personal learning experience with ROS2, shares key takeaways, and outlines future projects, making it a valuable discussion starter.
+SCORE: 9/10 - The post discusses a highly technical topic, AI and robotics, and features comments from knowledgeable individuals, making it a great opportunity to add value and spark a meaningful conversation
 AI COMMENT:
-Great insight, Reuven, on the importance of environment setup in robotics. Your experience with ROS2 and SLAM is relatable, and the takeaway that the core algorithms are not the hardest part resonates with many robotics engineers. I'd love to know, as you progress towards building SLAM mapping systems and autonomous navigation, how do you plan to handle the challenge of sensor fusion and integration of multiple data sources, such as LiDAR and camera, in real-world scenarios?
-TEXT:
-Reuven Taplashvili
-5d
-ROS2 learning project 🪛 
-Recently I read the book - "ROS 2 from scratch" by Edouard Renard . I dived more into the whole robotics simple nodes and one of the concepts there was SLAM (Simultaneous Localization and Mapping).
-Through this experience , I worked with : 
-1️⃣ ROS 2 workplace structure and python nodes . 
-2️⃣ colcon build system and package management . 
-3️⃣ ROS 2 executable and workflows( ros2_run) .
-4️⃣ Basic knowledge and understanding of robotics. 
-5️⃣ Linux ( Ubuntu 24.04) env . 
-🧠 Key Takeaways
-One of the biggest insights from this project is that:
-the core algorithms in robotics are not the hardest part 
-— the environment is. 
-I find myself really fighting against the terminal when I tried to install humble first for the ros2 , later on when I read the book and the docs online I understood "humble" isn't suitable for Ubuntu 24.04 , but "Jazzy" is the right pkg. overall , I came myself to conclusion that I had to remove everything and start over twice . (Because: The version of ubuntu isn't matched and it caused broken pkgs , and the whole env didn't run at all) 
-🚀 What I’m building toward
-I am currently progressing toward:
-SLAM mapping systems
-Autonomous navigation
-Robot perception using sensors (LiDAR, camera)
-Real-world robotics simulation pipelines
-💡 Final Reflection
-This project taught me that in robotics:
-“The algorithm is often the easy part. The real challenge is making everything work together in a real system.”
-#ROS2 #Robotics #Python #EmbeddedSystems #AI #MachineLearning #Engineering #Linux #Codespaces
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/boston-dynamics_boston-dynamics-and-fieldai-are-collaborating-activity-7437861272697589761-_tCK
-DATE: 2026-05-22
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post is about a significant collaboration between Boston Dynamics and FieldAI, with high-quality comments from the audience, indicating a deep technical discussion.
-AI COMMENT:
-I completely agree that the combination of Spot and FieldAI's foundation models has the potential to unlock powerful new capabilities for autonomy in dynamic environments. The fact that Spot can now navigate unplanned spaces is a major step forward. I'm curious, how do you think FieldAI's models will handle the challenge of generalizing to new construction sites with limited data, and what role will human oversight play in ensuring the reliability of these autonomous systems?
+I completely agree with Scott Kuindersma's point that high-quality data is crucial for robust and adaptable robotics. The comments from William Collins and LumiMerse also highlight the importance of considering the interaction between subsystems and the balance between real and synthetic data. One aspect that I think is worth exploring further is how to ensure that the data collection process is not only robust but also efficient, particularly in scenarios where data annotation is a significant bottleneck. What strategies do you think are most effective for streamlining the data annotation process in robotics, and how can we leverage advances in active learning to reduce the burden on human annotators?
 TEXT:
 Boston Dynamics
-649,227 followers
-2mo
-Boston Dynamics and FieldAI are collaborating to combine Spot and our world-class  software stack with FieldAI’s Field Foundation Models™ for uncharted exploration, extending autonomous operations in constantly evolving spaces like construction sites. https://bosdyn.co/4lmCQlG
-653
-19 Comments
+649,416 followers
+8mo
+AI is rapidly enabling more robust and adaptable robotics, but AI models are only as good as the underlying data. Scott Kuindersma, VP of robotics research, shares the process of data collection, annotation, model training, and evaluation that power Atlas's autonomy. 
+Listen to the full conversation: https://bosdyn.co/3KCo6Re
+From teleoperation to autonomy: Inside Boston Dynamics' Atlas training
+https://www.therobotreport.com
+175
+3 Comments
 Like
 Comment
 Share
-Humanoids Summit
-2mo
-Exciting to see this partnership!
+William Collins
+5mo
+Boston Dynamics What you’re describing here mirrors something I’ve been observing across LLMs as well: a lot of failure modes don’t come from the model’s capabilities, but from drift inside the interaction rhythm between subsystems.
+In robotics, that shows up as control instability. In language models, it shows up as behavioural drift.
+Different domains, same underlying pattern:
+co-regulation stabilises autonomy far more than raw data or model size.
 Like
 Reply
-Nurvai
-2mo
-Exciting collaboration! Dynamic environments like construction sites are where robots really get tested. Pairing Spot robot with foundation models built for real-world exploration could unlock some powerful new capabilities for autonomy.
+LumiMerse
+8mo
+Spot on—robust robots are ultimately a data problem. Blending messy field logs with domain-randomized synthetic runs has been our biggest unlock, paired with scenario-library evaluation instead of single metrics. How do you balance real vs synthetic data for contact-rich motions? #DataCentricAI #Robotics #Sim2Real
 Like
 Reply
-2 Reactions
-Sorank
-2mo
-Spot navigating unplanned spaces is genuinely a different product category than what Boston Dynamics was selling two years ago. The hard part isn't the robot, it's making the model generalize to a site that changes every week without needing a full re-survey. curious whether FieldAI's models run onboard or if Spot is leaning on cloud inference in the field.
-Like
-Reply
-1 Reaction
-Robert Smak
-2mo
-The interesting part isn't the hardware — it's FieldAI's navigation stack handling truly unstructured terrain. On every brownfield site I've worked on, the floor plan in the drawing and the actual floor plan are two different things. That gap kills most AMR deployments. Curious how they handle dynamic obstacle avoidance when the 'environment' changes daily.
-Like
-Reply
-Erdem Ürün
-2mo
-Interesting direction. Combining robotics platforms like Spot with foundation models could be a major step toward truly autonomous operations in complex real world environments.
-Like
-Reply
-2 Reactions
-Markos S.
-2mo
-Interesting development. Autonomous inspection and robotics keep coming up in discussions we’re having with safety and operational leaders, particularly around removing people from hazardous environments.
-The ability to operate in constantly evolving sites like construction will be a big step forward.
-Like
-Reply
-Mostafa Akbari Hochberg
-2mo
-Really happy to see this collaboration and the next steps for Spot and Field AI. Innovation takes time :) Moving from pre-planned routes to autonomous operation feels like a major leap, and I’d guess Spot’s adoption curve will accelerate exponentially from here.
-Like
-Reply
-1 Reaction
-Design Hok
-2mo
-Impressive synergy between hardware and software. Leveraging Spot with FieldAI’s AI-driven foundation models highlights the future of autonomous inspection and exploration in evolving work environments. 
-Like
-Reply
-RACHID LEMSIAH
-2mo
-Exciting to see robotics and AI come together for real-world exploration. This collaboration could greatly expand autonomous operations in dynamic environments like construction sites.
-
-Like
-Reply
-Igor Shevtsov
-2mo
-This is the kind of real-world AI application that’s exciting to watch. Strong collaboration and a very promising use case.
+Diego Tica
+7mo
+Love to get into teleoperation for humanoid robotics
 Like
 Reply
 See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/robotverse_fanuc-industrialautomation-smartmanufacturing-activity-7462736607125876736-rJL4
-DATE: 2026-05-22
+LINK: https://www.linkedin.com/posts/the-mathworks_2_boston-dynamics-at-mathworks-automotive-conference-activity-7367496365578280960-4gxf
+DATE: 2026-05-23
 METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - The post provides a general overview of the growth of smart manufacturing in India, highlighting the benefits of industrial automation, which is a relevant and somewhat engaging topic in the field of robotics and manufacturing.
+SCORE: 8/10 - The post discusses a specific application of AI and robotics, featuring a well-known company and a technical topic, making it a good opportunity to add value and insights.
 AI COMMENT:
-Great insights on the evolving landscape of smart manufacturing in India. The integration of industrial robots, such as those from FANUC, is indeed enhancing productivity, precision, and operational efficiency across various sectors. What role do you think AI and machine learning will play in further augmenting the capabilities of these industrial robots, and how might this impact the future of manufacturing in India?
+I completely agree that the integration of Boston Dynamics' Spot robot with MATLAB-based AI algorithms is a game-changer for high dynamic range inspections. What's particularly interesting is how this technology can be applied to various industries, such as construction, oil and gas, and environmental monitoring. Can you share some examples of how MathWorks is supporting the development of similar inspection systems, and what challenges do you see as the most significant in deploying these technologies at scale?
 TEXT:
-RobotVerse
-25 followers
-2d
-Smart Manufacturing in India Is Rapidly Evolving
-Industrial automation is no longer the future — it is becoming the present reality for Indian manufacturing industries.
-From automotive production and CNC automation to smart factories and warehouse operations, FANUC industrial robots are helping manufacturers improve:
-✔ Productivity
-✔ Precision
-✔ Operational efficiency
-✔ Workplace safety
-✔ Production scalability
-As Industry 4.0 adoption grows across India, robotic automation is becoming a key investment for businesses aiming to stay globally competitive.
-Read the full blog on RobotVerse and discover how industrial robots are transforming modern manufacturing.
-🌐 Read More: https://lnkd.in/gjGcMqBy
-#FANUC #IndustrialAutomation #SmartManufacturing #Industry40 #FactoryAutomation #Robotics #ManufacturingIndia #RobotVerse #AutomationTechnology #IndustrialRobots
+Loaded: 100.00%
+Pause
+Back to start
+Current Time 
+0:01/
+Duration 
+0:34
+Unmute
+Fullscreen
+Boston Dynamics at MathWorks Automotive Conference
+MathWorks
+491,593 followers
+8mo
+🤖 Explore how Boston Dynamics' Spot robot and MATLAB-based AI algorithms are transforming high dynamic range inspections! 
+Full video in the comments ⬇️
+…more
+557
+2 Comments
 Like
 Comment
 Share
+MathWorks
+8mo
+🔗 https://spr.ly/6043f7EoX 
+Like
+Reply
+8 Reactions
+Atul Mishra
+8mo
+Lando de Weerdt 
+Dhruv Bhatia 
+Something which we are already doing at Scale! 😉
+Like
+Reply
+1 Reaction
+See more comments
 To view or add a comment, sign in
 ================================================================================
 
