@@ -19,8 +19,8 @@ export default async function handler(req, res) {
         const csvText = await response.text();
         const parsedData = parseCSV(csvText);
 
-        // Cache the response for 5 minutes on the client side but always revalidate
-        res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate');
+        // Disable Vercel edge caching to ensure live data is always fetched immediately
+        res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
         return res.status(200).json({ status: 'success', data: parsedData });
 
     } catch (error) {
