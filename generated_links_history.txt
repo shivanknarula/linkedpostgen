@@ -359,3 +359,6 @@ https://www.linkedin.com/posts/boston-dynamics_boston-dynamics-and-fieldai-are-c
 https://www.linkedin.com/posts/robotverse_industrialrobots-industrialautomation-activity-7462401646938071041-7BzJ
 https://www.linkedin.com/posts/boston-dynamics_from-teleoperation-to-autonomy-inside-boston-activity-7376295561219588096-KsnD
 https://www.linkedin.com/posts/the-mathworks_2_boston-dynamics-at-mathworks-automotive-conference-activity-7367496365578280960-4gxf
+=== RUN ===
+https://www.linkedin.com/posts/robotisim_learning-ros2-starts-when-you-connect-a-real-activity-7387416392834306048-vnxh
+https://www.linkedin.com/posts/aditya-raj-6aa3aa260_industrialautomation-robotics-smartmanufacturing-activity-7435205723237572608-0NrD
