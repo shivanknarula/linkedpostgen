@@ -1102,12 +1102,88 @@
             });
         }
 
-        function showToast() {
+        function showToast(message = "Copied to Clipboard!", icon = "check-circle", isSuccess = true) {
             const toast = document.getElementById('copyToast');
+            toast.innerHTML = `<i data-lucide="${icon}" style="width: 18px; height: 18px;"></i> <span>${message}</span>`;
+            if (!isSuccess) {
+                toast.style.background = 'var(--danger)';
+                toast.style.boxShadow = '0 8px 24px rgba(239, 68, 68, 0.35)';
+            } else {
+                toast.style.background = 'var(--success)';
+                toast.style.boxShadow = '0 8px 24px rgba(16, 185, 129, 0.35)';
+            }
             toast.classList.add('show');
+            lucide.createIcons();
             setTimeout(() => {
                 toast.classList.remove('show');
             }, 3000);
+        }
+
+        function closeOverlay() {
+            document.getElementById('loadingOverlay').style.display = 'none';
+        }
+
+        let vercelPollInterval = null;
+        function startVercelBackgroundPolling(btn) {
+            if (vercelPollInterval) clearInterval(vercelPollInterval);
+            
+            const originalDataString = JSON.stringify(rawData);
+            let pollCount = 0;
+            const maxPolls = 24; // 24 * 10 seconds = 4 minutes timeout
+            
+            // Set button to active background scanning state
+            btn.disabled = true;
+            btn.innerHTML = '<i data-lucide="compass" style="animation: spin-clockwise 2s linear infinite; width: 16px; height: 16px; display: inline-block;"></i> Scanning...';
+            btn.style.opacity = '0.75';
+            btn.style.boxShadow = '0 0 15px rgba(59, 130, 246, 0.3)';
+            lucide.createIcons();
+            
+            vercelPollInterval = setInterval(async () => {
+                pollCount++;
+                try {
+                    const response = await fetch('/api/results?_t=' + Date.now());
+                    const data = await response.json();
+                    
+                    if (data.status === 'success' && data.data) {
+                        const newDataString = JSON.stringify(data.data);
+                        if (newDataString !== originalDataString) {
+                            // Data has changed!
+                            clearInterval(vercelPollInterval);
+                            vercelPollInterval = null;
+                            
+                            rawData = data.data;
+                            renderTable();
+                            calculateStats();
+                            
+                            // Reset button
+                            btn.disabled = false;
+                            btn.innerHTML = '<i data-lucide="play" style="width: 18px; height: 18px;"></i> <span>Scan Robotics Network</span>';
+                            btn.style.opacity = '';
+                            btn.style.boxShadow = '';
+                            lucide.createIcons();
+                            
+                            showToast("Scan Complete! Discovered fresh robotics posts.", "check-circle", true);
+                            return;
+                        }
+                    }
+                } catch (e) {
+                    console.error("Vercel background poll error:", e);
+                }
+                
+                if (pollCount >= maxPolls) {
+                    // Timeout
+                    clearInterval(vercelPollInterval);
+                    vercelPollInterval = null;
+                    
+                    btn.disabled = false;
+                    btn.innerHTML = '<i data-lucide="play" style="width: 18px; height: 18px;"></i> <span>Scan Robotics Network</span>';
+                    btn.style.opacity = '';
+                    btn.style.boxShadow = '';
+                    lucide.createIcons();
+                    
+                    showToast("Scan completed in background. Check results above.", "info", true);
+                }
+            }, 10000); // Poll every 10 seconds
         }
 
         // Modal Editor actions
@@ -1203,10 +1279,16 @@
                         overlayTitle.innerText = "🚀 Cloud Agent Triggered!";
                         overlayDesc.innerHTML = `
                             The scraping worker has been successfully triggered on your <strong>GitHub Actions</strong> workflow.<br><br>
-                            It will run silently in the background (takes ~3 minutes). Once complete, Vercel will automatically redeploy your site with the fresh results.<br><br>
-                            You can check the build progress in your GitHub repo's <strong>Actions</strong> tab.
+                            It will run silently in the background (~2 minutes). You can close this dialog; your page will automatically refresh as soon as new leads are ready!
                         `;
                         closeBtn.style.display = 'inline-block';
+                        
+                        // Auto-close the overlay modal after 2 seconds so the user isn't blocked
+                        setTimeout(() => {
+                            closeOverlay();
+                        }, 2000);
+
+                        startVercelBackgroundPolling(btn);
                     } else {
                         throw new Error(data.message || "Could not trigger GitHub Workflow");
                     }
@@ -1214,7 +1296,8 @@
                     overlayTitle.innerText = "❌ Trigger Failed";
                     overlayDesc.innerText = error.message;
                     closeBtn.style.display = 'inline-block';
-                } finally {
+                    
+                    // Reset button only on failure
                     btn.disabled = false;
                     btn.innerHTML = '<i data-lucide="play" style="width: 18px; height: 18px;"></i> <span>Scan Robotics Network</span>';
                     lucide.createIcons();
