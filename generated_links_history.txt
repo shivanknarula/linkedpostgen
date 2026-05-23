@@ -362,3 +362,7 @@ https://www.linkedin.com/posts/the-mathworks_2_boston-dynamics-at-mathworks-auto
 === RUN ===
 https://www.linkedin.com/posts/robotisim_learning-ros2-starts-when-you-connect-a-real-activity-7387416392834306048-vnxh
 https://www.linkedin.com/posts/aditya-raj-6aa3aa260_industrialautomation-robotics-smartmanufacturing-activity-7435205723237572608-0NrD
+=== RUN ===
+https://www.linkedin.com/posts/meridian-ib_industrial-automation-robotics-spring-2025-activity-7333542634998640644-Kgt0
+https://www.linkedin.com/posts/robotverse_industrialrobots-manufacturing-smartfactory-activity-7462065100884119552-LMtn
+https://www.linkedin.com/posts/ferbin12_two-years-into-ros2-and-the-learning-never-activity-7310659686339420161-RIIB

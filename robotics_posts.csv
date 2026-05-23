@@ -1,66 +1,88 @@
 url,date,score,reasoning,comment,likes,comments,text
-https://www.linkedin.com/posts/robotisim_learning-ros2-starts-when-you-connect-a-real-activity-7387416392834306048-vnxh,2026-05-23,9,"The post discusses a specific technical topic (ROS2) and offers a practical approach to learning, making it a high-value conversation starter.","I completely agree that hands-on experience with a real robot is essential for learning ROS2. One aspect that's often overlooked is the importance of simulating real-world scenarios to test the robot's decision-making capabilities. What are some key considerations when deciding which tasks to process through ROS2 versus handling directly on the robot, and how can developers ensure seamless communication between the two?",0,0,"Loaded: 100.00%
-Pause
-Back to start
-Current Time 
-0:01/
-Duration 
-0:51
-Show Captions
-Unmute
-Fullscreen
-Robotisim
-3,434 followers
-7mo
-Learning ROS2 starts when you connect a real robot.
-Move it, collect sensor data, and process it through ROS2 to see how everything communicates.
-A simple path to build real robotics understanding.
-Watch the full video on YouTube: https://lnkd.in/dnGnxU_s
-We broke down the roadmap in detail here: https://lnkd.in/dkHGw5cm
-…more
-20
+https://www.linkedin.com/posts/meridian-ib_industrial-automation-robotics-spring-2025-activity-7333542634998640644-Kgt0,2026-05-23,9,"The post provides valuable insights into the M&A market in industrial automation and robotics, shares a detailed report, and asks an open-ended question, making it an ideal opportunity to add value and spark a discussion.","The Meridian Capital report highlights key trends in industrial automation and robotics M&A activity. I particularly appreciate the subsector spotlights, which provide a nuanced view of the market. One area that I think will gain more attention in the next 12 months is the intersection of robotics and artificial intelligence, particularly in the context of edge computing and real-time processing. What role do you think hybrid approaches, combining traditional robotics with AI-driven decision-making, will play in shaping the future of IA&R dealmaking?",0,0,"CLA Meridian Capital
+7,957 followers
+12mo
+🤖 M&A Activity in Industrial Automation & Robotics 
+ 
+Meridian Capital has released our new Spring 2025 M&A Market Update. In this document, we break down:
+🔹 Median private deal multiples 
+🔹 Strategic acquirers driving M&A activity across the IA&R landscape
+🔹 Subsector Spotlights: Robotics, machine vision, motion control, digital factory tech, and more
+🔹 Case Study: MTM Robotics’ sale to Airbus
+ 
+Built for automation founders, industrial execs, and private equity sponsors, this report is built to inform strategic decisions. Contact our Industrial team leads Brian Murphy or Aaron Franzheim to learn more about how this impacts your business. 
+ 
+Get the full report here: https://lnkd.in/g9kfSD9C
+ 
+👇 What trend do you think will define the next 12 months of IA&R dealmaking? (AI, reshoring, RaaS, cross-border consolidation?) We’d love to hear your take!
+ 
+#IndustrialAutomation #Robotics #MergersAndAcquisitions #MiddleMarket #PrivateEquity #DigitalManufacturing #SmartFactory #IAandR #Dealmakers #MeridianCapital
+Industrial Automation & Robotics Spring 2025 Market Update - Meridian Capital
+https://meridianib.com
+25
 Like
 Comment
 Share
-Transcript
-Transcript
-In the job description of robotic software developer and researcher, you will find Ross to NVIDIA, Isaac SIM and other simulators. The main reason is to see the robot before putting it in a physical real world to save costs and plan properly. Now you don't have a job, let's say, and you want to get into these frameworks to build a robotic scarier and start completing the requirements of the job. The place where people get stuck is what to start. What to do with this framework? Because roster is just for communication. So in this video we are going to explore the possibility of learning Ross two in a practical way with an actual robot. So things can make sense. If roster is just communication, what are the things that are robot should be processing through Ross to and what things should it not be doing it? So let's explore in detail.
 To view or add a comment, sign in"
-https://www.linkedin.com/posts/aditya-raj-6aa3aa260_industrialautomation-robotics-smartmanufacturing-activity-7435205723237572608-0NrD,2026-05-23,8,"The post showcases thought leadership in industrial automation, mentioning specific companies and technologies, and invites discussion on the future of the industry.","Aditya, your insights on the evolving landscape of industrial automation are spot on. The integration of cobots, machine vision, and autonomous systems is indeed transforming the factory floor. What I find particularly interesting is the potential for these technologies to not only improve efficiency but also enable more agile and adaptive production lines. As we move forward, what role do you think human-machine collaboration will play in driving innovation in this space?",0,0,"Aditya Raj
-2mo
-“Something interesting is happening in industrial automation right now""
-In just a few days, the Robotics and Automation Exhibition 2026 will bring together 350+ automation and robotics companies in Birmingham, United Kingdom to showcase the next wave of industrial technology.
-But what really caught my attention isn’t just the number of exhibitors.
-We’re no longer just talking about robots on factory floors.
-We’re talking about:
- • Cobots working side by side with humans
- • Machine vision making real time decisions
- • Autonomous systems optimizing production
- • Smart factories learning and adapting
-Companies like Bosch Rexroth, AutoStore™, Dematic Mobile Automation, Kardex, ELITE ROBOTS, and ek robotics are already pushing the boundaries of what automation can do across manufacturing, logistics, and smart factories.
-The interesting question now is no longer “Will automation grow?”
-It’s how fast companies are willing to adopt it.
-Personally, I’m always curious to see:
- • Which innovations attract the most attention
- • Which companies are pushing the boundaries
- • And which technologies quietly become the next industry standard
-#IndustrialAutomation #Robotics #SmartManufacturing
-10
-3 Comments
+https://www.linkedin.com/posts/ferbin12_two-years-into-ros2-and-the-learning-never-activity-7310659686339420161-RIIB,2026-05-23,8,"The post is a personal account of learning ROS2 and robotics, with a specific example of a project and recommendations for courses, making it a valuable and thought-provoking discussion","Ferbin, I completely agree with you on the importance of structured learning in ROS2 and robotics. Antonio Brandi's courses seem to have been a game-changer for you. What I've found particularly useful in my own journey is combining theoretical knowledge with hands-on experience, such as participating in robotics competitions or contributing to open-source projects. How do you think the ROS2 community can better support newcomers in getting that practical experience and applying their skills to real-world projects?",0,0,"Ferbin Richard
+1y
+Two years into ROS2, and the learning never stops! 
+When I first started with ROS2, I spent countless hours watching YouTube videos, taking Udemy courses, and attending workshops. My first major project was implementing SLAM and Navigation2 (Nav2) for an Autonomous Mobile Robot (AMR).
+At first, I was hesitant to buy Antonio Brandi Self-driving using AMR course on localization and mapping, thinking I had already covered AMR with ROS2. But then I thought why not give it a shot. I didn’t stop at just one—I ended up getting three of his courses!  And honestly, they these courses helped me a lot.  I gained deeper insights into AMR, ROS2, robotics, mathematics, kinematics, and programming, all of which significantly improved my understanding and skills. Now waiting for his next course on path planning.
+Lately, I’ve been getting a lot of messages from people asking how to kickstart their ROS2/robotics journey. If you're looking for a structured way to learn, I’d highly recommend Antonio Brandi courses—they provide a solid foundation and practical insights that are hard to find elsewhere.
+To everyone starting their journey in robotics: keep learning, keep building, and never stop experimenting! 💡
+#ROS2 #Robotics #AutonomousRobots #AMR #Localization #SLAM #MachineLearning #LearningNeverStops #Kinematics #Programming
+108
+6 Comments
 Like
 Comment
 Share
-Aditya Raj
-2mo
-If you’re attending or following updates from the event, I’d love to hear your perspective.
-#Industry40 #AdvancedManufacturing #FactoryAutomation
-
+Loksharan M
+1y
+Excellent work Ferbin
 Like
 Reply
-ED WARTENS - INDIA
-2mo
-Great insights Aditya Raj Industrial automation and robotics are clearly shaping the future of smart manufacturing. Exciting to see how these technologies continue to improve efficiency and scalability
+Murtaza Saifuddin Chulawala
+1y
+Congrats Ferbin! 🎉 I am also enrolled in Antonio Brandi courses on ros2 looking forward to learning those skills. It's great to see how you are applying these skills and how great these courses have been in your journey.
 Like
 Reply
+2 Reactions
+Tejas Pagare
+1y
+Nice work 💯
+Like
+Reply
+Shubhi Shukla
+1y
+Absolutely amazing work! Very insightful
+Like
+Reply
+1 Reaction
+SAI CHARAN
+1y
+Nice work!! Ferbin FJ
+Like
+Reply
+1 Reaction
 See more comments
+To view or add a comment, sign in"
+https://www.linkedin.com/posts/robotverse_industrialrobots-manufacturing-smartfactory-activity-7462065100884119552-LMtn,2026-05-23,5,"The post provides a general overview of industrial robot applications in manufacturing, but lacks depth and unique insights.",,0,0,"RobotVerse
+28 followers
+5d
+Top Industrial Robot Applications in Manufacturing Industries
+Industrial robots are transforming modern manufacturing with smarter automation, higher precision, and faster production capabilities.
+From assembly lines and welding to packaging and quality inspection, robotic systems are helping industries improve efficiency and reduce operational challenges.
+✔ Smart Factory Automation
+ ✔ Industrial Robotics
+ ✔ AI-Powered Manufacturing
+ ✔ Faster Production
+ ✔ Improved Quality Control
+As Industry 4.0 continues to grow, industrial robots are becoming an essential part of modern manufacturing industries.
+📖 Read the full blog here:
+https://lnkd.in/gpRqdxaa
+#IndustrialRobots #Manufacturing #SmartFactory #IndustrialAutomation #Industry40 #Robotics #FactoryAutomation #AutomationTechnology #IndustrialAI #SmartManufacturing
+Like
+Comment
+Share
 To view or add a comment, sign in"
