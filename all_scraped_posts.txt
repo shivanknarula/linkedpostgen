@@ -1,50 +1,9 @@
-LINK: https://www.linkedin.com/posts/boston-dynamics_from-teleoperation-to-autonomy-inside-boston-activity-7376295561219588096-KsnD
+LINK: https://www.linkedin.com/posts/robotisim_learning-ros2-starts-when-you-connect-a-real-activity-7387416392834306048-vnxh
 DATE: 2026-05-23
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a highly technical topic, AI and robotics, and features comments from knowledgeable individuals, making it a great opportunity to add value and spark a meaningful conversation
+SCORE: 9/10 - The post discusses a specific technical topic (ROS2) and offers a practical approach to learning, making it a high-value conversation starter.
 AI COMMENT:
-I completely agree with Scott Kuindersma's point that high-quality data is crucial for robust and adaptable robotics. The comments from William Collins and LumiMerse also highlight the importance of considering the interaction between subsystems and the balance between real and synthetic data. One aspect that I think is worth exploring further is how to ensure that the data collection process is not only robust but also efficient, particularly in scenarios where data annotation is a significant bottleneck. What strategies do you think are most effective for streamlining the data annotation process in robotics, and how can we leverage advances in active learning to reduce the burden on human annotators?
-TEXT:
-Boston Dynamics
-649,416 followers
-8mo
-AI is rapidly enabling more robust and adaptable robotics, but AI models are only as good as the underlying data. Scott Kuindersma, VP of robotics research, shares the process of data collection, annotation, model training, and evaluation that power Atlas's autonomy. 
-Listen to the full conversation: https://bosdyn.co/3KCo6Re
-From teleoperation to autonomy: Inside Boston Dynamics' Atlas training
-https://www.therobotreport.com
-175
-3 Comments
-Like
-Comment
-Share
-William Collins
-5mo
-Boston Dynamics What you’re describing here mirrors something I’ve been observing across LLMs as well: a lot of failure modes don’t come from the model’s capabilities, but from drift inside the interaction rhythm between subsystems.
-In robotics, that shows up as control instability. In language models, it shows up as behavioural drift.
-Different domains, same underlying pattern:
-co-regulation stabilises autonomy far more than raw data or model size.
-Like
-Reply
-LumiMerse
-8mo
-Spot on—robust robots are ultimately a data problem. Blending messy field logs with domain-randomized synthetic runs has been our biggest unlock, paired with scenario-library evaluation instead of single metrics. How do you balance real vs synthetic data for contact-rich motions? #DataCentricAI #Robotics #Sim2Real
-Like
-Reply
-Diego Tica
-7mo
-Love to get into teleoperation for humanoid robotics
-Like
-Reply
-See more comments
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/the-mathworks_2_boston-dynamics-at-mathworks-automotive-conference-activity-7367496365578280960-4gxf
-DATE: 2026-05-23
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a specific application of AI and robotics, featuring a well-known company and a technical topic, making it a good opportunity to add value and insights.
-AI COMMENT:
-I completely agree that the integration of Boston Dynamics' Spot robot with MATLAB-based AI algorithms is a game-changer for high dynamic range inspections. What's particularly interesting is how this technology can be applied to various industries, such as construction, oil and gas, and environmental monitoring. Can you share some examples of how MathWorks is supporting the development of similar inspection systems, and what challenges do you see as the most significant in deploying these technologies at scale?
+I completely agree that hands-on experience with a real robot is essential for learning ROS2. One aspect that's often overlooked is the importance of simulating real-world scenarios to test the robot's decision-making capabilities. What are some key considerations when deciding which tasks to process through ROS2 versus handling directly on the robot, and how can developers ensure seamless communication between the two?
 TEXT:
 Loaded: 100.00%
 Pause
@@ -52,65 +11,73 @@ Back to start
 Current Time 
 0:01/
 Duration 
-0:34
+0:51
+Show Captions
 Unmute
 Fullscreen
-Boston Dynamics at MathWorks Automotive Conference
-MathWorks
-491,593 followers
-8mo
-🤖 Explore how Boston Dynamics' Spot robot and MATLAB-based AI algorithms are transforming high dynamic range inspections! 
-Full video in the comments ⬇️
+Robotisim
+3,434 followers
+7mo
+Learning ROS2 starts when you connect a real robot.
+Move it, collect sensor data, and process it through ROS2 to see how everything communicates.
+A simple path to build real robotics understanding.
+Watch the full video on YouTube: https://lnkd.in/dnGnxU_s
+We broke down the roadmap in detail here: https://lnkd.in/dkHGw5cm
 …more
-557
-2 Comments
+20
 Like
 Comment
 Share
-MathWorks
-8mo
-🔗 https://spr.ly/6043f7EoX 
-Like
-Reply
-8 Reactions
-Atul Mishra
-8mo
-Lando de Weerdt 
-Dhruv Bhatia 
-Something which we are already doing at Scale! 😉
-Like
-Reply
-1 Reaction
-See more comments
+Transcript
+Transcript
+In the job description of robotic software developer and researcher, you will find Ross to NVIDIA, Isaac SIM and other simulators. The main reason is to see the robot before putting it in a physical real world to save costs and plan properly. Now you don't have a job, let's say, and you want to get into these frameworks to build a robotic scarier and start completing the requirements of the job. The place where people get stuck is what to start. What to do with this framework? Because roster is just for communication. So in this video we are going to explore the possibility of learning Ross two in a practical way with an actual robot. So things can make sense. If roster is just communication, what are the things that are robot should be processing through Ross to and what things should it not be doing it? So let's explore in detail.
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/robotverse_industrialrobots-industrialautomation-activity-7462401646938071041-7BzJ
+LINK: https://www.linkedin.com/posts/aditya-raj-6aa3aa260_industrialautomation-robotics-smartmanufacturing-activity-7435205723237572608-0NrD
 DATE: 2026-05-23
 METRICS: 0 Likes, 0 Comments
-SCORE: 5/10 - The post is a general overview of industrial robots in manufacturing, lacking a unique perspective or depth, making it a standard industry news post.
+SCORE: 8/10 - The post showcases thought leadership in industrial automation, mentioning specific companies and technologies, and invites discussion on the future of the industry.
 AI COMMENT:
-
+Aditya, your insights on the evolving landscape of industrial automation are spot on. The integration of cobots, machine vision, and autonomous systems is indeed transforming the factory floor. What I find particularly interesting is the potential for these technologies to not only improve efficiency but also enable more agile and adaptive production lines. As we move forward, what role do you think human-machine collaboration will play in driving innovation in this space?
 TEXT:
-RobotVerse
-28 followers
-4d
-🚀 Industrial Robots Are Transforming Modern Manufacturing!
-From robotic welding and smart assembly lines to AI-powered quality inspection and packaging automation, industrial robots are helping industries improve productivity, precision, and operational efficiency.
-✅ Faster Production
- ✅ Better Product Quality
- ✅ Reduced Downtime
- ✅ Improved Workplace Safety
- ✅ Smart Factory Integration
-As Industry 4.0 continues to grow, robotic automation is becoming essential for future-ready manufacturing industries.
-📘 For more details, view:
-https://lnkd.in/gjGcMqBy
-#IndustrialRobots #IndustrialAutomation #SmartManufacturing #Industry40 #FactoryAutomation #Robotics #AutomationTechnology #AIinManufacturing #ManufacturingIndustry #SmartFactory #RobotVerse #IndustrialAI #AutomationSolutions
-2
-1 Comment
+Aditya Raj
+2mo
+“Something interesting is happening in industrial automation right now"
+In just a few days, the Robotics and Automation Exhibition 2026 will bring together 350+ automation and robotics companies in Birmingham, United Kingdom to showcase the next wave of industrial technology.
+But what really caught my attention isn’t just the number of exhibitors.
+We’re no longer just talking about robots on factory floors.
+We’re talking about:
+ • Cobots working side by side with humans
+ • Machine vision making real time decisions
+ • Autonomous systems optimizing production
+ • Smart factories learning and adapting
+Companies like Bosch Rexroth, AutoStore™, Dematic Mobile Automation, Kardex, ELITE ROBOTS, and ek robotics are already pushing the boundaries of what automation can do across manufacturing, logistics, and smart factories.
+The interesting question now is no longer “Will automation grow?”
+It’s how fast companies are willing to adopt it.
+Personally, I’m always curious to see:
+ • Which innovations attract the most attention
+ • Which companies are pushing the boundaries
+ • And which technologies quietly become the next industry standard
+#IndustrialAutomation #Robotics #SmartManufacturing
+10
+3 Comments
 Like
 Comment
 Share
+Aditya Raj
+2mo
+If you’re attending or following updates from the event, I’d love to hear your perspective.
+#Industry40 #AdvancedManufacturing #FactoryAutomation
+
+Like
+Reply
+ED WARTENS - INDIA
+2mo
+Great insights Aditya Raj Industrial automation and robotics are clearly shaping the future of smart manufacturing. Exciting to see how these technologies continue to improve efficiency and scalability
+Like
+Reply
+See more comments
 To view or add a comment, sign in
 ================================================================================
 
