@@ -4,7 +4,7 @@ export default async function handler(req, res) {
     const owner = process.env.GITHUB_REPO_OWNER || 'shivanknarula';
     const repo  = process.env.GITHUB_REPO_NAME  || 'linkedpostgen';
     const branch = 'main';
-    const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/robotics_posts.csv`;
+    const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/robotics_posts.csv?t=${Date.now()}`;
 
     try {
         const response = await fetch(rawUrl, {
