@@ -1,136 +1,128 @@
 url,date,score,reasoning,comment,likes,comments,text
-https://www.linkedin.com/posts/boston-dynamics_whats-in-a-humanoid-hand-boston-dynamics-activity-7381690601454452736-7Lbj,2026-05-24,9,"The post discusses a highly technical topic, humanoid robot grippers, and shares in-depth information about the design and evolution of Boston Dynamics' Atlas gripper, making it a great opportunity to add value with a thoughtful comment.","I completely agree that grippers are one of the most intricate parts of a humanoid robot, requiring a delicate balance between durability and precision. The addition of an opposable thumb in the GR2 gripper is a significant advancement, enabling more complex manipulation tasks. What I find particularly interesting is the trade-off between the number of fingers and the ability to achieve complex manipulation tasks - the choice of three fingers in the GR2 gripper is fascinating. How do you think the development of grippers will impact the overall autonomy and versatility of humanoid robots in the next 5-10 years, and what are the most significant challenges that still need to be addressed?",0,0,"Loaded: 6.38%
-Pause
-Back to start
-Current Time 
-0:01/
-Duration 
-6:19
-Show Captions
-Unmute
-Fullscreen
-What's in a Humanoid Hand? | Boston Dynamics
-Boston Dynamics
-649,511 followers
-7mo
-Grippers are one of the most intricate parts of a humanoid robot, packed with actuation and sensing; they need to be durable enough to handle tough jobs, but precise enough to handle fragile items. Our engineers share how the Atlas gripper has evolved as our manipulation capabilities expand and the principles that will guide future iterations.
-…more
-4,049
-62 Comments
+https://www.linkedin.com/posts/enzo-ghisoni-robotics_ros2-ai-robotics-activity-7449070785433993216-8JnR,2026-05-24,9,The post is about a specific and technical topic (Reinforcement Learning in ROS 2) and has generated interesting comments and discussions from other experts in the field.,"Enzo, thanks for sharing this valuable resource on getting started with Reinforcement Learning in ROS 2. The use of Stable-Baselines3 and OpenAI Gym is particularly notable. One aspect that could further enhance the training process is the incorporation of multi-modal sensing, such as combining lidar data with camera inputs for more comprehensive environmental perception. What are your thoughts on the potential benefits and challenges of integrating such multi-modal sensing into RL frameworks for robotics?",0,0,"Enzo Ghisoni
+1mo  Edited
+Train Your Robot with Reinforcement Learning in ROS 2!
+Ever wondered how to get started with Reinforcement Learning (RL) in robotics using ROS 2?
+Check out the ros2_flatland_rl_tutorial package created by Filipe Almeida, a hands-on guide to training a robot using Stable-Baselines3, OpenAI Gym, and the Flatland lightweight 2D simulator under ROS 2 Humble.
+What you'll learn:
+✅ How to set up a custom Gym environment with ROS 2 nodes
+✅ How to train a robot to navigate a hallway using the PPO algorithm
+✅ How to structure rewards and observations from Lidar for RL
+✅ How to simulate faster and evaluate training strategies
+🔗 This repository is a great way to dive into Robot Learning, experiment with different environments, and see RL in action!
+https://lnkd.in/eF4FAJsK
+Do you have other awesome RL + ROS 2 example setup?
+Let's connect and share insights 🔽
+#ROS2 #AI #Robotics
+875
+18 Comments
 Like
 Comment
 Share
-Transcript
-Transcript
-The transition from hydraulics to electric Atlas gave us an interesting jumping point. We knew that right about the same time that Boston Dynamics and Atlas wanted to focus more on manipulation, not just mobility and locomotion. And that was just a natural point to explore grippers with higher dexterity. We've known from the beginning that the gripper journey is a long one. Grippers are one of the most intricate components of a humanoid robot. They pack tons of functionality. We have to put in a lot of actuation and sensing into a very small space. So it's a very hard design problem. We've taken that long term perspective and tried to maximize learnings through that path. GR1 is a gripper that it's the first gripper of what we call the GR line, where we basically were looking to build something that had the most fundamental and in a way minimalistic capabilities of a human hand. GR one allowed us to learn a ton of what it means to mount a gripper to a humanoid robot that works most of the time well, but sometimes it falls. And inevitably, once in a while, it's gonna fall on top of the gripper. So we wanted to figure out what is a good way to build a gripper that can resist that kind of failure mode, and which is very important to our development path, being able to build grippers that are rugged and reliable. This is our second generation gripper. It has seven degrees of freedom. We have seven different actuators within it. Two for each of the three fingers, and then one for this articulated thumb joint. We have tactile sensing on the fingertips, and we have cameras here in the palm. The whole module is self contained with all the actuation within it. It's very easy to put on and off of the robot. And it was an iteration from our first generation gripper, which had a similar three fingers, but they were there was no thumbs. They're all in the same line. Maybe the most important distinction from GR two to GR one is the addition of a thumb, an opposable thumb. That really expands the type of grasps that it allows us to do. It really increases the flexibility of which objects we can grasp with it. And, really, over the last year or so, we've realized that we can grasp almost anything that we throw at it. We landed on three because we believe that that's the fewest amount of fingers that can achieve very complex manipulation tasks. So the the fact that you do have three fingers brings a lot more to the table over just two because the fact that there's some distance between them can help in maintaining a stable grasp, especially when you're rotating larger or heavier objects that wanna kind of rotate out of your hand. We do have the opportunity with this thumb to do some two finger pinch grasps, can be very helpful, for delicate manipulation of very tiny objects. But that third finger coming into play, when you are grasping something a little heavier or a little larger can be really helpful in in maintaining a stable grasp. We've debated a lot, and we do wonder if there's an opportunity to add more fingers and whether they bring much to the table. We decided not to add more fingers because adding more fingers, it just adds more complexity that if it's not necessary, it always ends up meaning lower reliability, higher cost, just in general, lower speed of development. We shouldn't take that as a dogma though, right? Three fingers was the right answer for the first phases of this program. We will see what is the answer moving forward. Tactile sensing is force feedback. You can think of it as your sense of touch that you have in your own fingers. Tactile sensors live here on the fingertips in this, this elastomer here that's at the top, that provides two functions. One is to give a high friction surface, and then also as it deforms, we have sensors within those fingertips that translate that into a force feedback. By having that sense of touch on your fingertips, you can apply very gentle forces to something. If you're perhaps manipulating a fragile object, you might wanna handle it gingerly. You can also detect if you've dropped something. So if you didn't mean to, but it's fallen out of your hand, those tactile sensors can give you that feedback to understand what's going on. The goal is to apply as little force as possible, but maintaining a stable grasp. That's very similar to when you pick something up. You you don't wanna crush the object, but you wanna make sure that it stays in your hand. It doesn't slip out of your hand. Too light a grasp, and something might slip away, and too heavy a grasp, and you might actually damage it. So inward, we can rotate up to ninety degrees, very similar to what your hand can do. But this has some extra human capability in that all these fingers can bend backwards completely. We can do some very clever things where you would actually be grasping on the backside of the gripper. So we actually have a left and right version of this gripper, similar to how our own hands, we have a left and right hand that are mirrored but not the same. So this thumb always comes around on this one side. Atlas will usually be planning for the most optimal route to get the job done that it's trying to do. So if standing in a certain position and reaching in with the left hand will provide a more stable grasp or allow you to avoid objects in the environment, that's usually the way that it will choose. It doesn't tend to have a dominant left or right hand like you and I do. We're setting the next milestone in the direction of dexterity. It's becoming clear that tasks like bin picking or tool use or in general handling small objects are very prevalent in manufacturing. Interestingly, all of these things kind of are pushing us, not necessarily by design, but sort of naturally, organically, into more anthropomorphic designs of the Finding the gripper with the right sweet spot of dexterity, actuation, and sensing is one of the most interesting journeys of the next few years, and we're very excited to see where it takes us.
-Oghogho Joshua
-7mo
-The model has been well trained to understand patterns and able to grib items despite the three fingers... Awesome.
-Like
-Reply
-7 Reactions
-Nora Xu
-7mo
-Fascinating deep dive into the Atlas gripper's evolution, it's incredible how Boston Dynamics has iterated from simple two-finger designs for basic lifting to the current seven-degree-of-freedom, thumb-equipped version with tactile sensing and palm cameras. Balancing durability for heavy industrial tasks with the precision needed for fragile objects is no small feat, and it perfectly embodies the challenges (and excitement) of advancing humanoid robotics. This kind of manipulation breakthrough not only expands Atlas's real-world applications in manufacturing and logistics but also ties directly into the broader AI-robotics boom we're seeing, where edge computing and adaptive sensing (think NXP's nature-inspired approaches) will make collaborative robot swarms a reality. What guiding principles from your team are you most excited to apply in the next gen? 
-Like
-Reply
-robominds GmbH
-7mo
-Impressive to see next gen gripper technology not only in action on robot arms in industrial use, but with humanoids (which arguably needs so much more flexibility)! 
+Enzo Ghisoni
+1mo
+ 🔗 You can check the repository: https://github.com/FilipeAlmeidaFEUP/ros2_flatland_rl_tutorial
 Like
 Reply
 1 Reaction
-Aparobot
-7mo
-Incredible work pushing the boundaries of humanoid manipulation. The design of Atlas' hand really highlights the engineering requirements to achieve or surpass human-level dexterity and flexibility.
-Our recent article about grippers and bionic hands:  https://www.linkedin.com/posts/aparobot_bionic-grippers-endeffectors-activity-7381941876427251712-KY-E?utm_source=share&utm_medium=member_desktop&rcm=ACoAADmuhx8BSf-kPZiy3fxjTp4BDs2W_-wTrE0
-Like
-Reply
-Joshua Sprinkle
-7mo
-I find it fascinating what Atlas is capable of with a gripper, my hunch was that a gripper would be less dexterous than a robotic hand that mirrors a human hand. Learn something new every day! 
-Like
-Reply
-Tim Shea
-7mo
-Thanks for sharing 👌
+Prathmesh Barapatre
+1mo
+Made a custom gym with ISS layout for space Robotics simulation 
 Like
 Reply
 2 Reactions
-András Gaál
-7mo
-Modern breakthroughs in sensing, actuation, and AI are revolutionizing how robots interact with our world. The evolution of the Atlas gripper, balancing precision and durability, is a great example of this progress. It’s exciting to see how these advancements are enabling robots to handle complex, real-world tasks with human-like dexterity.
-Like
-Reply
-Keen Ron Wong
-7mo
-The developments made to end effectors in recent times have been nothing short of amazing! Many try to replicate human hands, but neglect its optimisation - this design elegantly considers both and is functional to its set of usecases 🎉 Such clever engineering!
+Hamna Qaseem
+1mo
+This is super helpful, thanks for sharing! 🙌
+As someone just getting started with Reinforcement Learning in robotics, I’m curious, what would you recommend as the best platform for beginners?
+Would you suggest starting with MuJoCo, or going directly with ROS 2 + simulators like Gazebo?
+I’m really excited to start experimenting and implementing RL in real-world-like environments, so would love your advice (and others here too!) 
 Like
 Reply
 1 Reaction
-Evan Benjamin
-7mo
-The idea of path planning for not just locomotion, but also for determining which arm to reach for is interesting. I'm curious to see which arm Atlas would choose to reach with, given an unobstructed environment, at different starting points, and a target item centered on a shelf.
+Leo T.
+1mo
+Wow! Thanks! I really appreciate this! This is really useful! 
 Like
 Reply
-Brandon Jones
-7mo
-Wild how far this tech has come — the control and precision in those hands is insane. 👏🤖
+1 Reaction
+Shashank Dev
+1mo
+I’ve built ACPL (Adaptive Consequence Penalized Learning), a reinforcement learning approach designed to explicitly model delayed negative consequences. Instead of optimizing only for immediate reward, it penalizes actions based on anticipated future harm.
+The goal is to make RL agents safer and more risk-aware, especially in environments where failures are delayed, noisy, or rare.
+Like
+Reply
+2 Reactions
+Adithya Mohan
+1mo
+I think that for this env, ros2 is a bit too much.
+If RL is the goal, one could just implement a gym flatland env and learn to train the RL agent.
+Would like to know more from you why to use ROS2 for basic RL stuff. Any specifics?
+Like
+Reply
+1 Reaction
+Mahmoud Majdalani
+1mo
+Engineer Enzo
+now I study basics of ROS2
+what can I achieve in this level and what can I will go in this field in the future
+I'm really excited to learn knowledge in robotics world
+Like
+Reply
+1 Reaction
+Dr. D.N.S Ravi Kumar
+1mo
+https://internsharks.ai/home
+Like
+Reply
+Pritam Bandgar, MS
+1mo
+Good resource Enzo Ghisoni. RL with ROS2 still feels like a deep rabbit hole, so hands-on examples like this are useful.
+Like
+Reply
+HARDWARE ONLY
+1mo
+Training navigation in a simulated hallway is a great starting point. Enzo Ghisoni
 Like
 Reply
 See more comments
 To view or add a comment, sign in"
-https://www.linkedin.com/posts/schaeffler_schaeffler-at-ces-2026-humanoid-robotics-activity-7414746402351820802-XB0q,2026-05-24,8,"The post discusses a specific technical application of humanoid robotics and features a live demo, which provides a good basis for adding unique value and sparking a meaningful discussion.","Andreas Zeug's live demo at CES 2026 is a great showcase of Schaeffler's innovative approach to humanoid robotics, particularly with the planetary gear actuator. However, as Marcus Türling pointed out, the speed and quality of the demo may not fully reflect the complexities of real-world applications, such as handling soft rings or meeting tight stacking deadlines. What potential advancements in robotic vision or gripping technologies could further enhance the efficiency and precision of such systems, and how might these developments impact the future of humanoid robotics in manufacturing?",0,0,"Loaded: 14.18%
+https://www.linkedin.com/posts/jimohafeezco_humanoid-or-no-humanoid-debate-in-robotics-activity-7463716672059707392-ZUh4,2026-05-24,8,"The post discusses a thought-provoking topic in robotics, presenting a balanced view of the debate on humanoid robots, and offers a deep technical discussion on the advantages of humanoid robot design.","I appreciate your thorough breakdown of the arguments in favor of humanoid robots, particularly the points about navigating human-designed environments and the ease of training robots with human-like form. However, I'd like to add that while humanoid robots may excel in certain tasks, they might not be the most efficient or cost-effective solution for many industrial applications. What are your thoughts on the potential trade-offs between the benefits of humanoid robots and the potential drawbacks of increased complexity and cost?",0,0,"Loaded: 11.81%
 Pause
 Back to start
 Current Time 
-0:01/
+0:02/
 Duration 
-1:10
+8:56
+Show Captions
 Unmute
 Fullscreen
-Schaeffler at CES 2026 Humanoid Robotics
-Schaeffler
-634,411 followers
-4mo
-Join  Andreas Zeug, Project Manager, Humanoid Robotics, as he showcases our live humanoid demonstrator at CES 2026!
-We’re excited to partner with Humanoid to highlight real-world humanoid applications. Every hour in our booth 7301, live demos will run featuring the HMND 01 wheeled Alpha robot expertly picking and sorting randomly scattered bearing rings — demonstrating how this technology helps keep ball bearing assembly lines running efficiently with precise, smooth movements.
-For the first time ever, Schaeffler also unveiled our innovative planetary gear actuator developed specifically for humanoid robots. Discover more about our components and systems here:
-https://lnkd.in/dhiJv6HU
-Join us at CES to see how Schaeffler is advancing intelligent motion and shaping the future of humanoid robotics.
-#SchaefflerCES2026 #AdvancingIntelligentMotion
-…more
-614
-6 Comments
+Hafeez Jimoh
+1d
+Humanoid or no humanoid debate in robotics 
+38
+3 Comments
 Like
 Comment
 Share
-Marcus Türling
-4mo
-Sorry, is this a joke. Feeding in this speed and quality looks like technology 50 years ago. This works with already hardened rings but with soft rings is untolerable to get marks, dents or even deformation. For example in heat treatment you have to stack 200 of those rings in an exact skeam   in about 5 to 10 min. Please speed up and get better
-Like
-Reply
-7 Reactions
-Christian Niemeyer
-4mo
-Nicht so schnell, ich komme nicht mit!
-Like
-Reply
-Claus S.
-4mo
-Congrats Andreas Zeug and nice to see the robot loading a good old turntable as feeding and sorting machine.
-Like
-Reply
-Julian Kramer
-4mo
-Andreas Zeug It's great to see Europe's amazing first movers, such as Schaeffler and Humanoid. Keep pushing!
-Like
-Reply
-Tyler Morrison
-4mo
-Congrats on the live demo Andreas Zeug!
+Transcript
+Transcript
+The biggest debate within the robotics community is on the topic of humanoid robots. Some experts believe that humanoid robots make sense and we should build them, while we also have another big divide, another parallel line where people are saying oh, don't make sense. What I'm going to discuss in this video is what are the 2 arguments and let's look at them together. For the people on the first side, which are the proponents of humanoid robots. What they are saying is that the humanoid environments. Is, I mean, they are saying that the human environments, the offices, the hospitals, the airports, the manufacturing plants, the warehouses, all those places they are designed for. Human being. Because they are designed for human being, it means that we need to have a robot that is also going to be an human form to navigate this environment. And the other. Premise of the humanoid robot design is that the thesis for the humanoid robot is based on designing a human a a robot that is a general purpose robot. So when we say general purpose robots, what it means is that a robot that is able to do wide veiling activities with the robot is able to do vacuum today against the dishwasher tomorrow for their closeness time, pick the toys and do palletization next day. All those activities without needing to change. The form of the robots and without the need to reprogram that robots because of that. Then we need to have an humanoid robot because it is only human being formed that we know that can do 1000 activities without needing to change their form. Therefore, and humanoid robot needs to be in the human form. The third argument is. It is easier to train the woman and the robots. You know you want the humanoid robot to do wide varying activities. For you to train the humanoid robot, it means you need some control, you need some AI, you need some software. And we have importance data for human, human, human form. I think that we call it egocentric data, right? So it is easier to train the humanoid robots for these activities because. There are but then data to train humanoid from human demonstrations. Also, one of those arguments is that the environment we live in, I think I mentioned it already, but it relates to the leg arguments now, is that the environment we live in, they are designed for women already. Therefore, it means if I want my own robots to climb the stairs, it is easier for an humanoid robot to do but. I know my neighbors with two legs, but if I have a robot with wheels, then it is impossible for a robot with wheels, or it is going to be very challenging for a robot with wheels to actually climb these tears. As a result, we need a robot. That is like a woman that is the human night robots and. So those are the basic thesis for the humanoid robots design. What are the arguments against humanoid robots? One of the current arguments is the AI is not there yet. We do not currently have the AI robot that is going to make us achieve the general purpose robots. And are we going to be able to eventually have that AI? The answer is nobody knows. It took us or it took the I community. A couple of years to get to the chargeability moment. So are we going to get to that moment with robotics? Nobody knows, but it's still going to take a time. The other argument against the humanoid robots is that you do not need legs because. It's for balance purpose, for your robots to be able to save around people. You don't want it to have two legs. If you have wheels or you have like 3 or 4 contact points with the gun, it means that what is more safer, It doesn't. It can't just fall because there's more balance. The other problem with humanoid robots is the actuator problem currently. Actually, that is the most expensive part of the humanoid robot fan. Humanoid robots. You may need up to 20 to 30 joints on the humanoid robots without factoring the ants by the time you had the degree of freedom of the hands and then you are talking about 40 to 15. The girlfriend dumped him the number. The higher the degree of freedom, the more the complexity of the problem. Which means if I need my robots to just pick an item. For docker, but to be able to pick that item I need to be able to control. A lot of degree of freedom compared to having an industrial manipulator that usually have 5:00 to 6:00 or 7�� of freedom for that's why. But I only need to control six or seven cents accurately and may I robot is going to be able to pick it. But for humanoid robots, the ants alone, you have 20 things, you have 20�� of freedom. With that 20�� of freedom, I need you to just do 1 task. It means I need to be able to control it. And the complexity of the complexity of the problem increases because of the complexity of the problem. This is it is very difficult scientifically or engineering wise to control that robot. Making that with both legs less dexterous. Uh, and that is why for many of the videos and demos we see, we always see the robots jumping around, dancing around and walking all those things. The reason the robot is able to draw distances, these, these are locomotion task. Locomotion task doesn't need to be very precise, but when it comes to manipulation task or text actions that require dexterity, these are actions that are still very difficult for robots to do. And you know, some companies are doing well with manipulation tasks, but you know, we still have a lot of problems then. And as I was saying, again related to the arbitrator. Has increased the number of actuators, the problem space becomes more complex. The cost is going to be higher. You need to deal with the weights of the act of of the old humanoid form. So which means actuator is heavy and all those things and it's again may be slower and the cost factor is also there because you have high number of factors. Now the implication is that your robot is more expensive than a special purpose robots. Those are some of the reasons. And the other reason is that the idea of general purpose robot itself is dead on arrival. It is. It is actually puts it, it's more theoretical because even human being, we are not general purpose, we require tools to be on our hands to do things. Which means if I need my industrial manipulator to be general purpose, it means I just need to change the end effector and I'm not changing the form. I'm only putting something else. Same thing for the humanoid robots. If you need your humanoid robot to do welding today, it means you need to put a world gone on its hands. If you need it to paint, it needs to hold the paint. All these things, we have special purposes, but doing them already so. Those are some of the things. Again, I think safety, I've talked about safety. One of those arguments that I have not, I did not mention for the four is that. For people to integrate relates to the human network, but emotionally and psychologically in places, maybe the elders, the kids and the seniors, then it needs to be in the human N form. Time is going to tell. A lot of dollars are flowing into the humanoid robotics research and development. Many of these companies that are doing these these research, they are a billion dollar company already. Investors are putting money because people are. That's the thing, the big bets on robotics, they believe robotics is the next big thing that is going to happen. Whether we are going to get there or not, nobody knows. But these are just some of the reasons or some of the logic behind humanoid robots. The debate still continues. Most demanded conferences, most robotics conferences, you're going to see people talking about these debates. Thank you so much for watching. Let me know what your thoughts are on this topic.
+Samson Ajadalu
+1d
+I think humanoid robots are a good direction, and they will improve with time. But we need to keep working toward them to make that vision achievable. I really appreciate everyone building in this space. We also need better ways to collect useful data faster.
 Like
 Reply
 1 Reaction
+Orianwo Eric
+1d
+This is great I love the way you broke the arguments down.
+Like
+Reply
+Peter Okiokpa
+1d
+This is very insightful.
+Like
+Reply
 See more comments
 To view or add a comment, sign in"
