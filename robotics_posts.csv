@@ -1,88 +1,136 @@
 url,date,score,reasoning,comment,likes,comments,text
-https://www.linkedin.com/posts/meridian-ib_industrial-automation-robotics-spring-2025-activity-7333542634998640644-Kgt0,2026-05-23,9,"The post provides valuable insights into the M&A market in industrial automation and robotics, shares a detailed report, and asks an open-ended question, making it an ideal opportunity to add value and spark a discussion.","The Meridian Capital report highlights key trends in industrial automation and robotics M&A activity. I particularly appreciate the subsector spotlights, which provide a nuanced view of the market. One area that I think will gain more attention in the next 12 months is the intersection of robotics and artificial intelligence, particularly in the context of edge computing and real-time processing. What role do you think hybrid approaches, combining traditional robotics with AI-driven decision-making, will play in shaping the future of IA&R dealmaking?",0,0,"CLA Meridian Capital
-7,957 followers
-12mo
-🤖 M&A Activity in Industrial Automation & Robotics 
- 
-Meridian Capital has released our new Spring 2025 M&A Market Update. In this document, we break down:
-🔹 Median private deal multiples 
-🔹 Strategic acquirers driving M&A activity across the IA&R landscape
-🔹 Subsector Spotlights: Robotics, machine vision, motion control, digital factory tech, and more
-🔹 Case Study: MTM Robotics’ sale to Airbus
- 
-Built for automation founders, industrial execs, and private equity sponsors, this report is built to inform strategic decisions. Contact our Industrial team leads Brian Murphy or Aaron Franzheim to learn more about how this impacts your business. 
- 
-Get the full report here: https://lnkd.in/g9kfSD9C
- 
-👇 What trend do you think will define the next 12 months of IA&R dealmaking? (AI, reshoring, RaaS, cross-border consolidation?) We’d love to hear your take!
- 
-#IndustrialAutomation #Robotics #MergersAndAcquisitions #MiddleMarket #PrivateEquity #DigitalManufacturing #SmartFactory #IAandR #Dealmakers #MeridianCapital
-Industrial Automation & Robotics Spring 2025 Market Update - Meridian Capital
-https://meridianib.com
-25
+https://www.linkedin.com/posts/boston-dynamics_whats-in-a-humanoid-hand-boston-dynamics-activity-7381690601454452736-7Lbj,2026-05-24,9,"The post discusses a highly technical topic, humanoid robot grippers, and shares in-depth information about the design and evolution of Boston Dynamics' Atlas gripper, making it a great opportunity to add value with a thoughtful comment.","I completely agree that grippers are one of the most intricate parts of a humanoid robot, requiring a delicate balance between durability and precision. The addition of an opposable thumb in the GR2 gripper is a significant advancement, enabling more complex manipulation tasks. What I find particularly interesting is the trade-off between the number of fingers and the ability to achieve complex manipulation tasks - the choice of three fingers in the GR2 gripper is fascinating. How do you think the development of grippers will impact the overall autonomy and versatility of humanoid robots in the next 5-10 years, and what are the most significant challenges that still need to be addressed?",0,0,"Loaded: 6.38%
+Pause
+Back to start
+Current Time 
+0:01/
+Duration 
+6:19
+Show Captions
+Unmute
+Fullscreen
+What's in a Humanoid Hand? | Boston Dynamics
+Boston Dynamics
+649,511 followers
+7mo
+Grippers are one of the most intricate parts of a humanoid robot, packed with actuation and sensing; they need to be durable enough to handle tough jobs, but precise enough to handle fragile items. Our engineers share how the Atlas gripper has evolved as our manipulation capabilities expand and the principles that will guide future iterations.
+…more
+4,049
+62 Comments
 Like
 Comment
 Share
+Transcript
+Transcript
+The transition from hydraulics to electric Atlas gave us an interesting jumping point. We knew that right about the same time that Boston Dynamics and Atlas wanted to focus more on manipulation, not just mobility and locomotion. And that was just a natural point to explore grippers with higher dexterity. We've known from the beginning that the gripper journey is a long one. Grippers are one of the most intricate components of a humanoid robot. They pack tons of functionality. We have to put in a lot of actuation and sensing into a very small space. So it's a very hard design problem. We've taken that long term perspective and tried to maximize learnings through that path. GR1 is a gripper that it's the first gripper of what we call the GR line, where we basically were looking to build something that had the most fundamental and in a way minimalistic capabilities of a human hand. GR one allowed us to learn a ton of what it means to mount a gripper to a humanoid robot that works most of the time well, but sometimes it falls. And inevitably, once in a while, it's gonna fall on top of the gripper. So we wanted to figure out what is a good way to build a gripper that can resist that kind of failure mode, and which is very important to our development path, being able to build grippers that are rugged and reliable. This is our second generation gripper. It has seven degrees of freedom. We have seven different actuators within it. Two for each of the three fingers, and then one for this articulated thumb joint. We have tactile sensing on the fingertips, and we have cameras here in the palm. The whole module is self contained with all the actuation within it. It's very easy to put on and off of the robot. And it was an iteration from our first generation gripper, which had a similar three fingers, but they were there was no thumbs. They're all in the same line. Maybe the most important distinction from GR two to GR one is the addition of a thumb, an opposable thumb. That really expands the type of grasps that it allows us to do. It really increases the flexibility of which objects we can grasp with it. And, really, over the last year or so, we've realized that we can grasp almost anything that we throw at it. We landed on three because we believe that that's the fewest amount of fingers that can achieve very complex manipulation tasks. So the the fact that you do have three fingers brings a lot more to the table over just two because the fact that there's some distance between them can help in maintaining a stable grasp, especially when you're rotating larger or heavier objects that wanna kind of rotate out of your hand. We do have the opportunity with this thumb to do some two finger pinch grasps, can be very helpful, for delicate manipulation of very tiny objects. But that third finger coming into play, when you are grasping something a little heavier or a little larger can be really helpful in in maintaining a stable grasp. We've debated a lot, and we do wonder if there's an opportunity to add more fingers and whether they bring much to the table. We decided not to add more fingers because adding more fingers, it just adds more complexity that if it's not necessary, it always ends up meaning lower reliability, higher cost, just in general, lower speed of development. We shouldn't take that as a dogma though, right? Three fingers was the right answer for the first phases of this program. We will see what is the answer moving forward. Tactile sensing is force feedback. You can think of it as your sense of touch that you have in your own fingers. Tactile sensors live here on the fingertips in this, this elastomer here that's at the top, that provides two functions. One is to give a high friction surface, and then also as it deforms, we have sensors within those fingertips that translate that into a force feedback. By having that sense of touch on your fingertips, you can apply very gentle forces to something. If you're perhaps manipulating a fragile object, you might wanna handle it gingerly. You can also detect if you've dropped something. So if you didn't mean to, but it's fallen out of your hand, those tactile sensors can give you that feedback to understand what's going on. The goal is to apply as little force as possible, but maintaining a stable grasp. That's very similar to when you pick something up. You you don't wanna crush the object, but you wanna make sure that it stays in your hand. It doesn't slip out of your hand. Too light a grasp, and something might slip away, and too heavy a grasp, and you might actually damage it. So inward, we can rotate up to ninety degrees, very similar to what your hand can do. But this has some extra human capability in that all these fingers can bend backwards completely. We can do some very clever things where you would actually be grasping on the backside of the gripper. So we actually have a left and right version of this gripper, similar to how our own hands, we have a left and right hand that are mirrored but not the same. So this thumb always comes around on this one side. Atlas will usually be planning for the most optimal route to get the job done that it's trying to do. So if standing in a certain position and reaching in with the left hand will provide a more stable grasp or allow you to avoid objects in the environment, that's usually the way that it will choose. It doesn't tend to have a dominant left or right hand like you and I do. We're setting the next milestone in the direction of dexterity. It's becoming clear that tasks like bin picking or tool use or in general handling small objects are very prevalent in manufacturing. Interestingly, all of these things kind of are pushing us, not necessarily by design, but sort of naturally, organically, into more anthropomorphic designs of the Finding the gripper with the right sweet spot of dexterity, actuation, and sensing is one of the most interesting journeys of the next few years, and we're very excited to see where it takes us.
+Oghogho Joshua
+7mo
+The model has been well trained to understand patterns and able to grib items despite the three fingers... Awesome.
+Like
+Reply
+7 Reactions
+Nora Xu
+7mo
+Fascinating deep dive into the Atlas gripper's evolution, it's incredible how Boston Dynamics has iterated from simple two-finger designs for basic lifting to the current seven-degree-of-freedom, thumb-equipped version with tactile sensing and palm cameras. Balancing durability for heavy industrial tasks with the precision needed for fragile objects is no small feat, and it perfectly embodies the challenges (and excitement) of advancing humanoid robotics. This kind of manipulation breakthrough not only expands Atlas's real-world applications in manufacturing and logistics but also ties directly into the broader AI-robotics boom we're seeing, where edge computing and adaptive sensing (think NXP's nature-inspired approaches) will make collaborative robot swarms a reality. What guiding principles from your team are you most excited to apply in the next gen? 
+Like
+Reply
+robominds GmbH
+7mo
+Impressive to see next gen gripper technology not only in action on robot arms in industrial use, but with humanoids (which arguably needs so much more flexibility)! 
+Like
+Reply
+1 Reaction
+Aparobot
+7mo
+Incredible work pushing the boundaries of humanoid manipulation. The design of Atlas' hand really highlights the engineering requirements to achieve or surpass human-level dexterity and flexibility.
+Our recent article about grippers and bionic hands:  https://www.linkedin.com/posts/aparobot_bionic-grippers-endeffectors-activity-7381941876427251712-KY-E?utm_source=share&utm_medium=member_desktop&rcm=ACoAADmuhx8BSf-kPZiy3fxjTp4BDs2W_-wTrE0
+Like
+Reply
+Joshua Sprinkle
+7mo
+I find it fascinating what Atlas is capable of with a gripper, my hunch was that a gripper would be less dexterous than a robotic hand that mirrors a human hand. Learn something new every day! 
+Like
+Reply
+Tim Shea
+7mo
+Thanks for sharing 👌
+Like
+Reply
+2 Reactions
+András Gaál
+7mo
+Modern breakthroughs in sensing, actuation, and AI are revolutionizing how robots interact with our world. The evolution of the Atlas gripper, balancing precision and durability, is a great example of this progress. It’s exciting to see how these advancements are enabling robots to handle complex, real-world tasks with human-like dexterity.
+Like
+Reply
+Keen Ron Wong
+7mo
+The developments made to end effectors in recent times have been nothing short of amazing! Many try to replicate human hands, but neglect its optimisation - this design elegantly considers both and is functional to its set of usecases 🎉 Such clever engineering!
+Like
+Reply
+1 Reaction
+Evan Benjamin
+7mo
+The idea of path planning for not just locomotion, but also for determining which arm to reach for is interesting. I'm curious to see which arm Atlas would choose to reach with, given an unobstructed environment, at different starting points, and a target item centered on a shelf.
+Like
+Reply
+Brandon Jones
+7mo
+Wild how far this tech has come — the control and precision in those hands is insane. 👏🤖
+Like
+Reply
+See more comments
 To view or add a comment, sign in"
-https://www.linkedin.com/posts/ferbin12_two-years-into-ros2-and-the-learning-never-activity-7310659686339420161-RIIB,2026-05-23,8,"The post is a personal account of learning ROS2 and robotics, with a specific example of a project and recommendations for courses, making it a valuable and thought-provoking discussion","Ferbin, I completely agree with you on the importance of structured learning in ROS2 and robotics. Antonio Brandi's courses seem to have been a game-changer for you. What I've found particularly useful in my own journey is combining theoretical knowledge with hands-on experience, such as participating in robotics competitions or contributing to open-source projects. How do you think the ROS2 community can better support newcomers in getting that practical experience and applying their skills to real-world projects?",0,0,"Ferbin Richard
-1y
-Two years into ROS2, and the learning never stops! 
-When I first started with ROS2, I spent countless hours watching YouTube videos, taking Udemy courses, and attending workshops. My first major project was implementing SLAM and Navigation2 (Nav2) for an Autonomous Mobile Robot (AMR).
-At first, I was hesitant to buy Antonio Brandi Self-driving using AMR course on localization and mapping, thinking I had already covered AMR with ROS2. But then I thought why not give it a shot. I didn’t stop at just one—I ended up getting three of his courses!  And honestly, they these courses helped me a lot.  I gained deeper insights into AMR, ROS2, robotics, mathematics, kinematics, and programming, all of which significantly improved my understanding and skills. Now waiting for his next course on path planning.
-Lately, I’ve been getting a lot of messages from people asking how to kickstart their ROS2/robotics journey. If you're looking for a structured way to learn, I’d highly recommend Antonio Brandi courses—they provide a solid foundation and practical insights that are hard to find elsewhere.
-To everyone starting their journey in robotics: keep learning, keep building, and never stop experimenting! 💡
-#ROS2 #Robotics #AutonomousRobots #AMR #Localization #SLAM #MachineLearning #LearningNeverStops #Kinematics #Programming
-108
+https://www.linkedin.com/posts/schaeffler_schaeffler-at-ces-2026-humanoid-robotics-activity-7414746402351820802-XB0q,2026-05-24,8,"The post discusses a specific technical application of humanoid robotics and features a live demo, which provides a good basis for adding unique value and sparking a meaningful discussion.","Andreas Zeug's live demo at CES 2026 is a great showcase of Schaeffler's innovative approach to humanoid robotics, particularly with the planetary gear actuator. However, as Marcus Türling pointed out, the speed and quality of the demo may not fully reflect the complexities of real-world applications, such as handling soft rings or meeting tight stacking deadlines. What potential advancements in robotic vision or gripping technologies could further enhance the efficiency and precision of such systems, and how might these developments impact the future of humanoid robotics in manufacturing?",0,0,"Loaded: 14.18%
+Pause
+Back to start
+Current Time 
+0:01/
+Duration 
+1:10
+Unmute
+Fullscreen
+Schaeffler at CES 2026 Humanoid Robotics
+Schaeffler
+634,411 followers
+4mo
+Join  Andreas Zeug, Project Manager, Humanoid Robotics, as he showcases our live humanoid demonstrator at CES 2026!
+We’re excited to partner with Humanoid to highlight real-world humanoid applications. Every hour in our booth 7301, live demos will run featuring the HMND 01 wheeled Alpha robot expertly picking and sorting randomly scattered bearing rings — demonstrating how this technology helps keep ball bearing assembly lines running efficiently with precise, smooth movements.
+For the first time ever, Schaeffler also unveiled our innovative planetary gear actuator developed specifically for humanoid robots. Discover more about our components and systems here:
+https://lnkd.in/dhiJv6HU
+Join us at CES to see how Schaeffler is advancing intelligent motion and shaping the future of humanoid robotics.
+#SchaefflerCES2026 #AdvancingIntelligentMotion
+…more
+614
 6 Comments
 Like
 Comment
 Share
-Loksharan M
-1y
-Excellent work Ferbin
+Marcus Türling
+4mo
+Sorry, is this a joke. Feeding in this speed and quality looks like technology 50 years ago. This works with already hardened rings but with soft rings is untolerable to get marks, dents or even deformation. For example in heat treatment you have to stack 200 of those rings in an exact skeam   in about 5 to 10 min. Please speed up and get better
 Like
 Reply
-Murtaza Saifuddin Chulawala
-1y
-Congrats Ferbin! 🎉 I am also enrolled in Antonio Brandi courses on ros2 looking forward to learning those skills. It's great to see how you are applying these skills and how great these courses have been in your journey.
+7 Reactions
+Christian Niemeyer
+4mo
+Nicht so schnell, ich komme nicht mit!
 Like
 Reply
-2 Reactions
-Tejas Pagare
-1y
-Nice work 💯
+Claus S.
+4mo
+Congrats Andreas Zeug and nice to see the robot loading a good old turntable as feeding and sorting machine.
 Like
 Reply
-Shubhi Shukla
-1y
-Absolutely amazing work! Very insightful
+Julian Kramer
+4mo
+Andreas Zeug It's great to see Europe's amazing first movers, such as Schaeffler and Humanoid. Keep pushing!
 Like
 Reply
-1 Reaction
-SAI CHARAN
-1y
-Nice work!! Ferbin FJ
+Tyler Morrison
+4mo
+Congrats on the live demo Andreas Zeug!
 Like
 Reply
 1 Reaction
 See more comments
-To view or add a comment, sign in"
-https://www.linkedin.com/posts/robotverse_industrialrobots-manufacturing-smartfactory-activity-7462065100884119552-LMtn,2026-05-23,5,"The post provides a general overview of industrial robot applications in manufacturing, but lacks depth and unique insights.",,0,0,"RobotVerse
-28 followers
-5d
-Top Industrial Robot Applications in Manufacturing Industries
-Industrial robots are transforming modern manufacturing with smarter automation, higher precision, and faster production capabilities.
-From assembly lines and welding to packaging and quality inspection, robotic systems are helping industries improve efficiency and reduce operational challenges.
-✔ Smart Factory Automation
- ✔ Industrial Robotics
- ✔ AI-Powered Manufacturing
- ✔ Faster Production
- ✔ Improved Quality Control
-As Industry 4.0 continues to grow, industrial robots are becoming an essential part of modern manufacturing industries.
-📖 Read the full blog here:
-https://lnkd.in/gpRqdxaa
-#IndustrialRobots #Manufacturing #SmartFactory #IndustrialAutomation #Industry40 #Robotics #FactoryAutomation #AutomationTechnology #IndustrialAI #SmartManufacturing
-Like
-Comment
-Share
 To view or add a comment, sign in"
