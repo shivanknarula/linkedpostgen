@@ -1,142 +1,107 @@
-LINK: https://www.linkedin.com/posts/enzo-ghisoni-robotics_ros2-ai-robotics-activity-7449070785433993216-8JnR
+LINK: https://www.linkedin.com/posts/digital-info-station_ai-agents-vs-agentic-ai-whats-the-real-activity-7462594181249527808-chap
 DATE: 2026-05-24
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post is about a specific and technical topic (Reinforcement Learning in ROS 2) and has generated interesting comments and discussions from other experts in the field.
+SCORE: 8/10 - The post offers a clear distinction between AI Agents and Agentic AI, sparking a technical discussion with potential for adding unique value and insights.
 AI COMMENT:
-Enzo, thanks for sharing this valuable resource on getting started with Reinforcement Learning in ROS 2. The use of Stable-Baselines3 and OpenAI Gym is particularly notable. One aspect that could further enhance the training process is the incorporation of multi-modal sensing, such as combining lidar data with camera inputs for more comprehensive environmental perception. What are your thoughts on the potential benefits and challenges of integrating such multi-modal sensing into RL frameworks for robotics?
+I completely agree that understanding the difference between AI Agents and Agentic AI is crucial for the development of autonomous systems. Your analogy of AI Agents as Task Executors and Agentic AI as Goal-Oriented Decision Makers is particularly insightful. However, I'd like to add that the adaptability of Agentic AI in complex, dynamic environments is still a subject of ongoing research. What are your thoughts on how organizations can effectively evaluate and implement Agentic AI solutions that balance autonomy with reliability and transparency?
 TEXT:
-Enzo Ghisoni
-1mo  Edited
-Train Your Robot with Reinforcement Learning in ROS 2!
-Ever wondered how to get started with Reinforcement Learning (RL) in robotics using ROS 2?
-Check out the ros2_flatland_rl_tutorial package created by Filipe Almeida, a hands-on guide to training a robot using Stable-Baselines3, OpenAI Gym, and the Flatland lightweight 2D simulator under ROS 2 Humble.
-What you'll learn:
-✅ How to set up a custom Gym environment with ROS 2 nodes
-✅ How to train a robot to navigate a hallway using the PPO algorithm
-✅ How to structure rewards and observations from Lidar for RL
-✅ How to simulate faster and evaluate training strategies
-🔗 This repository is a great way to dive into Robot Learning, experiment with different environments, and see RL in action!
-https://lnkd.in/eF4FAJsK
-Do you have other awesome RL + ROS 2 example setup?
-Let's connect and share insights 🔽
-#ROS2 #AI #Robotics
-875
-18 Comments
+Digital Info Station
+19 followers
+4d
+🤖 AI Agents and Agentic AI are often used interchangeably — but they are NOT the same.
+Understanding the difference is becoming critical for businesses, developers, and tech leaders in 2026.
+In my latest blog, I break down:
+🔹 What AI Agents actually do
+🔹 What makes Agentic AI different
+🔹 Key differences in autonomy, decision-making & adaptability
+🔹 Real-world examples and business applications
+🔹 Why this distinction matters for the future of automation
+A simple way to think about it:
+➡️ AI Agents = Task Executors
+➡️ Agentic AI = Goal-Oriented Decision Makers
+As AI evolves from simple assistants to autonomous systems, knowing this difference can help organizations build smarter and more scalable AI solutions.
+📖 Read the full blog here:
+https://lnkd.in/dMXhigvG
+#AI #AgenticAI #AIAgents #ArtificialIntelligence #Automation #MachineLearning #FutureOfWork #DigitalTransformation #TechTrends #Innovation
+
+AI Agents vs Agentic AI: What’s the Real Difference?
+digitalinfostation.com
+2
 Like
 Comment
 Share
-Enzo Ghisoni
-1mo
- 🔗 You can check the repository: https://github.com/FilipeAlmeidaFEUP/ros2_flatland_rl_tutorial
-Like
-Reply
-1 Reaction
-Prathmesh Barapatre
-1mo
-Made a custom gym with ISS layout for space Robotics simulation 
-Like
-Reply
-2 Reactions
-Hamna Qaseem
-1mo
-This is super helpful, thanks for sharing! 🙌
-As someone just getting started with Reinforcement Learning in robotics, I’m curious, what would you recommend as the best platform for beginners?
-Would you suggest starting with MuJoCo, or going directly with ROS 2 + simulators like Gazebo?
-I’m really excited to start experimenting and implementing RL in real-world-like environments, so would love your advice (and others here too!) 
-Like
-Reply
-1 Reaction
-Leo T.
-1mo
-Wow! Thanks! I really appreciate this! This is really useful! 
-Like
-Reply
-1 Reaction
-Shashank Dev
-1mo
-I’ve built ACPL (Adaptive Consequence Penalized Learning), a reinforcement learning approach designed to explicitly model delayed negative consequences. Instead of optimizing only for immediate reward, it penalizes actions based on anticipated future harm.
-The goal is to make RL agents safer and more risk-aware, especially in environments where failures are delayed, noisy, or rare.
-Like
-Reply
-2 Reactions
-Adithya Mohan
-1mo
-I think that for this env, ros2 is a bit too much.
-If RL is the goal, one could just implement a gym flatland env and learn to train the RL agent.
-Would like to know more from you why to use ROS2 for basic RL stuff. Any specifics?
-Like
-Reply
-1 Reaction
-Mahmoud Majdalani
-1mo
-Engineer Enzo
-now I study basics of ROS2
-what can I achieve in this level and what can I will go in this field in the future
-I'm really excited to learn knowledge in robotics world
-Like
-Reply
-1 Reaction
-Dr. D.N.S Ravi Kumar
-1mo
-https://internsharks.ai/home
-Like
-Reply
-Pritam Bandgar, MS
-1mo
-Good resource Enzo Ghisoni. RL with ROS2 still feels like a deep rabbit hole, so hands-on examples like this are useful.
-Like
-Reply
-HARDWARE ONLY
-1mo
-Training navigation in a simulated hallway is a great starting point. Enzo Ghisoni
-Like
-Reply
-See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/jimohafeezco_humanoid-or-no-humanoid-debate-in-robotics-activity-7463716672059707392-ZUh4
+LINK: https://www.linkedin.com/posts/boston-dynamics_welcome-to-boston-dynamics-university-our-activity-7381335278814392320-Lfc9
 DATE: 2026-05-24
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a thought-provoking topic in robotics, presenting a balanced view of the debate on humanoid robots, and offers a deep technical discussion on the advantages of humanoid robot design.
+SCORE: 8/10 - The post is from a major figure in the robotics industry (Boston Dynamics) and discusses a significant development (expansion of their training program), offering a chance for thought leadership and visibility.
 AI COMMENT:
-I appreciate your thorough breakdown of the arguments in favor of humanoid robots, particularly the points about navigating human-designed environments and the ease of training robots with human-like form. However, I'd like to add that while humanoid robots may excel in certain tasks, they might not be the most efficient or cost-effective solution for many industrial applications. What are your thoughts on the potential trade-offs between the benefits of humanoid robots and the potential drawbacks of increased complexity and cost?
+Boston Dynamics' initiative to standardize and expand access to robot operator training is a significant step towards accelerating the adoption of robotics across industries. As we move towards greater autonomy and complexity in robotic systems, standardized training will become increasingly crucial. What role do you envision Boston Dynamics University playing in shaping the future of robotics education and workforce development, particularly in emerging markets and industries?
 TEXT:
-Loaded: 11.81%
+Loaded: 100.00%
 Pause
 Back to start
 Current Time 
 0:02/
 Duration 
-8:56
-Show Captions
+0:26
 Unmute
 Fullscreen
-Hafeez Jimoh
-1d
-Humanoid or no humanoid debate in robotics 
-38
-3 Comments
+Boston Dynamics
+649,539 followers
+7mo
+Welcome to Boston Dynamics University! Our team has trained 1k+ robot operators all over the world and we're thrilled to be expanding access to help our customers go from basics to expertise.
+Learn more: https://bosdyn.co/48PLg0C
+…more
+1,316
+15 Comments
 Like
 Comment
 Share
-Transcript
-Transcript
-The biggest debate within the robotics community is on the topic of humanoid robots. Some experts believe that humanoid robots make sense and we should build them, while we also have another big divide, another parallel line where people are saying oh, don't make sense. What I'm going to discuss in this video is what are the 2 arguments and let's look at them together. For the people on the first side, which are the proponents of humanoid robots. What they are saying is that the humanoid environments. Is, I mean, they are saying that the human environments, the offices, the hospitals, the airports, the manufacturing plants, the warehouses, all those places they are designed for. Human being. Because they are designed for human being, it means that we need to have a robot that is also going to be an human form to navigate this environment. And the other. Premise of the humanoid robot design is that the thesis for the humanoid robot is based on designing a human a a robot that is a general purpose robot. So when we say general purpose robots, what it means is that a robot that is able to do wide veiling activities with the robot is able to do vacuum today against the dishwasher tomorrow for their closeness time, pick the toys and do palletization next day. All those activities without needing to change. The form of the robots and without the need to reprogram that robots because of that. Then we need to have an humanoid robot because it is only human being formed that we know that can do 1000 activities without needing to change their form. Therefore, and humanoid robot needs to be in the human form. The third argument is. It is easier to train the woman and the robots. You know you want the humanoid robot to do wide varying activities. For you to train the humanoid robot, it means you need some control, you need some AI, you need some software. And we have importance data for human, human, human form. I think that we call it egocentric data, right? So it is easier to train the humanoid robots for these activities because. There are but then data to train humanoid from human demonstrations. Also, one of those arguments is that the environment we live in, I think I mentioned it already, but it relates to the leg arguments now, is that the environment we live in, they are designed for women already. Therefore, it means if I want my own robots to climb the stairs, it is easier for an humanoid robot to do but. I know my neighbors with two legs, but if I have a robot with wheels, then it is impossible for a robot with wheels, or it is going to be very challenging for a robot with wheels to actually climb these tears. As a result, we need a robot. That is like a woman that is the human night robots and. So those are the basic thesis for the humanoid robots design. What are the arguments against humanoid robots? One of the current arguments is the AI is not there yet. We do not currently have the AI robot that is going to make us achieve the general purpose robots. And are we going to be able to eventually have that AI? The answer is nobody knows. It took us or it took the I community. A couple of years to get to the chargeability moment. So are we going to get to that moment with robotics? Nobody knows, but it's still going to take a time. The other argument against the humanoid robots is that you do not need legs because. It's for balance purpose, for your robots to be able to save around people. You don't want it to have two legs. If you have wheels or you have like 3 or 4 contact points with the gun, it means that what is more safer, It doesn't. It can't just fall because there's more balance. The other problem with humanoid robots is the actuator problem currently. Actually, that is the most expensive part of the humanoid robot fan. Humanoid robots. You may need up to 20 to 30 joints on the humanoid robots without factoring the ants by the time you had the degree of freedom of the hands and then you are talking about 40 to 15. The girlfriend dumped him the number. The higher the degree of freedom, the more the complexity of the problem. Which means if I need my robots to just pick an item. For docker, but to be able to pick that item I need to be able to control. A lot of degree of freedom compared to having an industrial manipulator that usually have 5:00 to 6:00 or 7�� of freedom for that's why. But I only need to control six or seven cents accurately and may I robot is going to be able to pick it. But for humanoid robots, the ants alone, you have 20 things, you have 20�� of freedom. With that 20�� of freedom, I need you to just do 1 task. It means I need to be able to control it. And the complexity of the complexity of the problem increases because of the complexity of the problem. This is it is very difficult scientifically or engineering wise to control that robot. Making that with both legs less dexterous. Uh, and that is why for many of the videos and demos we see, we always see the robots jumping around, dancing around and walking all those things. The reason the robot is able to draw distances, these, these are locomotion task. Locomotion task doesn't need to be very precise, but when it comes to manipulation task or text actions that require dexterity, these are actions that are still very difficult for robots to do. And you know, some companies are doing well with manipulation tasks, but you know, we still have a lot of problems then. And as I was saying, again related to the arbitrator. Has increased the number of actuators, the problem space becomes more complex. The cost is going to be higher. You need to deal with the weights of the act of of the old humanoid form. So which means actuator is heavy and all those things and it's again may be slower and the cost factor is also there because you have high number of factors. Now the implication is that your robot is more expensive than a special purpose robots. Those are some of the reasons. And the other reason is that the idea of general purpose robot itself is dead on arrival. It is. It is actually puts it, it's more theoretical because even human being, we are not general purpose, we require tools to be on our hands to do things. Which means if I need my industrial manipulator to be general purpose, it means I just need to change the end effector and I'm not changing the form. I'm only putting something else. Same thing for the humanoid robots. If you need your humanoid robot to do welding today, it means you need to put a world gone on its hands. If you need it to paint, it needs to hold the paint. All these things, we have special purposes, but doing them already so. Those are some of the things. Again, I think safety, I've talked about safety. One of those arguments that I have not, I did not mention for the four is that. For people to integrate relates to the human network, but emotionally and psychologically in places, maybe the elders, the kids and the seniors, then it needs to be in the human N form. Time is going to tell. A lot of dollars are flowing into the humanoid robotics research and development. Many of these companies that are doing these these research, they are a billion dollar company already. Investors are putting money because people are. That's the thing, the big bets on robotics, they believe robotics is the next big thing that is going to happen. Whether we are going to get there or not, nobody knows. But these are just some of the reasons or some of the logic behind humanoid robots. The debate still continues. Most demanded conferences, most robotics conferences, you're going to see people talking about these debates. Thank you so much for watching. Let me know what your thoughts are on this topic.
-Samson Ajadalu
-1d
-I think humanoid robots are a good direction, and they will improve with time. But we need to keep working toward them to make that vision achievable. I really appreciate everyone building in this space. We also need better ways to collect useful data faster.
+Aparobot
+7mo
+Standardization and accessible training are vital for scaling robotics across industries. Congrats to the team Boston Dynamics!
+Like
+Reply
+Tim Dykstra
+7mo
+Exciting! Congrats to Christine White and all the others that worked tirelessly to put this training academy together.
+Like
+Reply
+8 Reactions
+Chris Rauen
+7mo
+BD team, your technology is absolutely amazing; and the use cases we are building into your robotics for our customers is powerful and seemingly endless!
 Like
 Reply
 1 Reaction
-Orianwo Eric
-1d
-This is great I love the way you broke the arguments down.
+Joe Taveras
+7mo
+Too cool! Would love to visit one day (and maybe get some art in the HQ 👀
 Like
 Reply
-Peter Okiokpa
-1d
-This is very insightful.
+2 Reactions
+Manjesh Bhaskar
+7mo
+please accept internships, from overseas. you are my dream company
+
+Like
+Reply
+Frank Borovsky
+7mo
+Fantastic facilities!  Was honored to be on site earlier this year.  Boston Dynamics is a great place to work.  
+Like
+Reply
+Carsten Gregor
+7mo
+As scary as impressive and inspiring
+Like
+Reply
+Matthew Brown
+7mo
+I want this training.
 Like
 Reply
 See more comments
