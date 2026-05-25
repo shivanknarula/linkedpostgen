@@ -1,5 +1,3 @@
-https://www.linkedin.com/posts/mattercode-ai_robotics-humanoidrobots-manufacturing-activity-7462125423473131521-Xm4U
-=== RUN ===
 https://www.linkedin.com/posts/akkar-ltd_bostondynamics-bobbi-ai-activity-7353349434463641600-MDt9
 === RUN ===
 https://www.linkedin.com/posts/robotverse_fanuc-industrialautomation-smartmanufacturing-activity-7462736607125876736-rJL4
@@ -28,3 +26,6 @@ https://www.linkedin.com/posts/boston-dynamics_welcome-to-boston-dynamics-univer
 === RUN ===
 https://www.linkedin.com/posts/boston-consulting-group_intelligent-robotics-is-reshaping-industrial-activity-7369293194716475398-W3Pn
 https://www.linkedin.com/posts/ai-ml-engineering-aiproductstack_a-glimpse-into-the-next-phase-of-industrial-activity-7437472274070351872-7IYS
+=== RUN ===
+https://www.linkedin.com/posts/leosu2025_is-the-matthew-effect-in-humanoid-robotics-activity-7427411180249522176-gEUJ
+https://www.linkedin.com/posts/humanoid-robotics-weekly_last-weeks-theme-12-18-may-2026-the-activity-7462098836367233024-L4yF

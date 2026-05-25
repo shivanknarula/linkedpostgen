@@ -1,80 +1,108 @@
 url,date,score,reasoning,comment,likes,comments,text
-https://www.linkedin.com/posts/boston-consulting-group_intelligent-robotics-is-reshaping-industrial-activity-7369293194716475398-W3Pn,2026-05-25,8,"The post discusses thought leadership on the impact of intelligent robotics on industrial operations and value chains, with multiple insightful comments from various professionals.","I completely agree that physical AI is redefining value chains and workforce dynamics. The notion that AI-trained resilience is replacing legacy fragility on factory floors is particularly intriguing. As we continue to harness the potential of intelligent robotics, what role do you think human-AI collaboration will play in driving innovation and competitiveness in industries where tasks are highly variable or complex?",0,0,"Boston Consulting Group (BCG)
-5,421,183 followers
-8mo
-Intelligent robotics is reshaping industrial operations, expanding automation to tasks once thought too complex or variable to automate.
- 
-A new report by BCG and the World Economic Forum explores how physical AI – intelligent robots that perceive, reason and act – is redefining value chains, from precision assembly to quality control.
- 
-This marks a shift towards operating models where resilience, competitiveness and workforce evolution go hand in hand.
- 
-Read the full report: http://on.bcg.com/3UZE8a0
-104
-10 Comments
+https://www.linkedin.com/posts/leosu2025_is-the-matthew-effect-in-humanoid-robotics-activity-7427411180249522176-gEUJ,2026-05-25,9,"The post discusses a thought-provoking topic, the Matthew Effect in humanoid robotics, with significant funding rounds and potential barriers to entry for smaller new entrants. It also features a well-informed comment from Alberto Muñoz, offering a deep technical insight.","Leo, your observation about the Matthew Effect in humanoid robotics is spot on. The recent funding rounds do indicate a trend towards concentration of capital and potential barriers to entry for smaller players. Alberto's comment about the upper tail of humanoid robots capable of useful and repeatable work resonate with me. However, I'd like to add that the development of more advanced AI and machine learning capabilities could potentially democratize access to robotics development, mitigating the effects of funding concentration. What role do you think AI and ML will play in shaping the future of humanoid robotics, and how might they impact the competitive landscape?",0,0,"Leo 磊 Su
+3mo  Edited
+Is the Matthew Effect in humanoid robotics getting more obvious?
+Today, Apptronik  announced a $520M funding round, bringing total funding to $1B. 
+I haven’t done a full research yet, but in the past few months
+ • Skild AI  AI raised $1.4B  
+ • Figure closed $1B  
+ • In China, LimX Dynamics  raised $200M and Galaxy raised $300M 
+ • In Europe, NEURA Robotics  Robotics secured €120M  
+... 
+Funding rounds are getting bigger and more concentrated.
+When capital flows at this scale, it creates barriers to entry: 
+Access to talent, training infrastructure, supply chains, and deployment partnerships.
+Will smaller new entrants still have room to compete?
+79
+23 Comments
 Like
 Comment
 Share
-Anjali Dangi
-8mo
-As someone who will be working  in analytics and supply chain stories, this post makes me think . Physical AI isn’t just about smart machines it’s about how we, as humans, grow alongside them. It challenges us to think faster, adapt better, and find new ways to stay valuable. What I love is how this shifts the conversation from 'Will AI take our jobs?' to 'How can we evolve with it?' That’s  the story I want to be part of....
-Like
-Reply
-1 Reaction
-Michael Khoury
-8mo
-Fascinating insights on how intelligent robotics is expanding the frontier of automation. It’s exciting to see how physical AI is reshaping value chains and workforce dynamics. At Go Vertical ICM we echo this drive by helping inventors validate and refine breakthrough ideas through our Innovation Overview program.
-
+Leo 磊 Su
+3mo
+""LimX Dynamics Secures $200 Million in Series B Financing"" 2/1/2026
+https://www.linkedin.com/pulse/limx-dynamics-secures-200-million-series-b-financing-limx-dynamics-sf6wc/
 Like
 Reply
 2 Reactions
-Go Vertical ICM
-8mo
-Fascinating insights on how intelligent robotics is transforming operations. The shift toward resilient and adaptable value chains is inspiring. Inventors looking to validate their ideas might find Go Vertical ICM’s Innovation Overview a useful resource.
+Leo 磊 Su
+3mo
+""Humanoid startup Apptronik raises $520 million with backing from Google and Mercedes-Benz""  - Reuters
+https://www.reuters.com/technology/humanoid-startup-apptronik-raises-520-million-with-backing-google-mercedes-benz-2026-02-11/
+Like
+Reply
+1 Reaction
+Leo 磊 Su
+3mo
+""Galbot brings in $300M to scale mobile manipulator deployments
+By The Robot Report Staff | December 23, 2025"" 
+https://www.therobotreport.com/galbot-brings-in-300m-to-scale-mobile-manipulator-deployments/
+Like
+Reply
+1 Reaction
+Leo 磊 Su
+3mo
+I’ll dig into the recent funding data and see if any clear patterns emerge. I’ll share my observations once I’ve had a closer look. 
 Like
 Reply
 2 Reactions
-Dr. Bharathidasan. M
-8mo
-This is a fascinating insight into the future of automation and its impact on industry.  
+Leo 磊 Su
+3mo
+For Apptronik, these funds will be allocated across the following key areas:
+“🤖 Ramp production of Apollo
+🌍 Expand global commercial and pilot deployments
+🏭 Build next-generation facilities for robot training and data collection
+⚡ Accelerate real-world impact across manufacturing, logistics, and beyond”
 Like
 Reply
-1 Reaction
-William T Cooper
-8mo
-The future of factory floors is no longer human versus robot but AI-trained resilience versus legacy fragility. 👍 
+4 Reactions
+Alberto Muñoz
+3mo
+As in many technological domains, long-term value is not defined by the center of the complexity distribution but by its tails. The market is already showing signs of saturation, with many humanoid systems optimized for visibility, demonstrations, and short-lived spectacle. While these efforts have advanced actuation and balance, their commercial differentiation is rapidly diminishing, and investment concentration is outpacing the creation of durable economic ecosystems.
+The true opportunity lies in the upper tail: humanoid robots capable of useful, repeatable, and economically grounded work, and of sustaining a viable chain of value creation. Systems that can operate in real workflows, manipulate tools, adapt to unstructured environments, and contribute meaningfully to productivity remain far from saturated and still offer significant room for innovation and long-horizon investment. My experience in the XPRIZE AAC underscored a key limitation: teleoperation, though tempting as a shortcut, ultimately masks rather than solves the core challenges of autonomy. The fundamental bottleneck today is dexterous manipulation. Dexterity cannot be achieved through brute force or improvisation—no one solves a Rubik’s Cube by random motion. 
 Like
 Reply
-1 Reaction
-MacDonald Iyamu.
-8mo
-We are reminded that AI in manufacturing isn’t just about tech—it’s about scaling, skills, and strategy. Early movers will define the future.
+2 Reactions
+Val Kamenski
+3mo
+The $1B+ players will go after general-purpose platforms, but smaller startups that really nail one specific use case (warehouse logistics, eldercare, agriculture, etc.) can still build super defensible businesses. It’ll probably feel a lot like the early days of OpenAI: plenty of hallucinations, weird edge cases, and unexpected failures in the real world.
+At the same time, open-source “general robotics” models will show up, and that’s great news for smaller teams. It means you can compete by combining those foundations with deep, domain-specific understanding of the niche you’re in.
+That said, robotics, especially humanoids, is definitely not for everyone. There’s that saying: for software startup you need millions, for robotics you need billions. 😁 
 Like
 Reply
-Nadine AYAD
-8mo
-Most AI projects fail not because of tech, but because of execution. Strategy, talent, and adoption matter more than the model itself
+2 Reactions
+Robert Little
+3mo
+Yes, I can see how these massive funding rounds can take the air out of the room for smaller companies.
+The risk with large capital raises is that speed becomes the mandate. Scale fast. Deliver fast. Pick a direction and go. But if that technology path turns out to be wrong, it’s hard to pivot. A lot of money, talent, and infrastructure are already committed to that solution.
+Smaller companies have a different advantage.
+Watch where the well-funded players go. Learn from it. Then build around it.
+Don’t copy. Be unique.
 Like
 Reply
+2 Reactions
+Siddharth Sawant
+3mo
+It is getting obvious for one reason IMO - more capital can buy more computing power and capacity. 
+There are other components in the value chain such as actuators, data collection etc but I expect those costs to come down with time and economies of scale.
+Like
+Reply
+2 Reactions
+Mario Mauerer
+3mo
+That's a disadvantage of a ""hype"": You don't necessarily need to have a great product anymore, you ""only"" need to be good at fundraising. (I'm not referencing to Apptronik, this is a general statement)
+Like
+Reply
+6 Reactions
 See more comments
 To view or add a comment, sign in"
-https://www.linkedin.com/posts/ai-ml-engineering-aiproductstack_a-glimpse-into-the-next-phase-of-industrial-activity-7437472274070351872-7IYS,2026-05-25,8,"The post discusses a significant development in industrial automation, highlighting the role of intelligence and cutting-edge technologies like computer vision and reinforcement learning, making it a valuable thought leadership piece.","Dr. Sambamoorthi, your insights on the evolving role of robots in industrial automation are spot on. The integration of AI and robotics is indeed revolutionizing warehouses and logistics hubs, enhancing safety, efficiency, and consistency. What I find particularly intriguing is the potential for reinforcement learning to adapt to unique, real-world scenarios. As we move towards more seamless human-robot collaboration, what do you think will be the most critical factor in ensuring worker trust and adoption of these automated systems?",0,0,"Loaded: 59.04%
-Pause
-Back to start
-Current Time 
-0:01/
-Duration 
-0:21
-Unmute
-Fullscreen
-Nethra Sambamoorthi, M.A, M.Sc., PhD
-2mo
-A glimpse into the next phase of industrial automation.
-Robots are steadily moving beyond repetitive assembly tasks and stepping into more dynamic environments like warehouses, maintenance zones, and logistics hubs. 
-What makes this development significant is not just the hardware, but the intelligence behind it. With improvements in computer vision, reinforcement learning, and motion planning, robots are learning to interact with real world objects that are irregular, heavy, or difficult to handle.
-In environments where safety, efficiency, and consistency matter, such systems can support human workers by taking on repetitive or hazardous tasks.
-Step by step, we are moving toward warehouses and industrial sites where humans and robots collaborate seamlessly to keep operations running.
-…more
-53
+https://www.linkedin.com/posts/humanoid-robotics-weekly_last-weeks-theme-12-18-may-2026-the-activity-7462098836367233024-L4yF,2026-05-25,9,"The post provides in-depth analysis of the humanoid robotics industry, covering key developments and trends, making it a high-value topic for discussion.","I appreciate your insightful breakdown of the recent developments in humanoid robotics, particularly how Figure's livestream has raised the bar for autonomy and endurance in the field. It's fascinating to see industrial backers taking on dual roles and the convergence of various aspects of the humanoid supply chain into single contracts. What implications do you think this shift towards integrated supply chains will have on the pace of innovation and adoption of humanoid robotics in industries beyond manufacturing and logistics?",0,0,"Humanoid Robotics Weekly
+21 followers
+6d
+LAST WEEK'S THEME: (12-18 May 2026) 
+The dominant pattern of the week is the rewriting of what counts as evidence. Figure's fifty-hour livestream pulled the autonomy bar from ""a fluid edited clip"" to ""a public, continuous, observable shift,"" and the responses from Agility Robotics, Boston Dynamics partners and Chinese vendors are now being judged against that bar. The endurance question is no longer something a vendor can decline to engage with, and the controlled-environment caveat does not stop the competitive pressure from spreading. 
+In parallel, the Humanoid (UK) / Schaeffler deal and the Persona AI / Under Armour collaboration both point at a quieter, more important shift. Industrial backers are increasingly playing both customer and supplier inside the same agreement, and the soft-goods, actuator and deployment conversations are converging into single contracts. The humanoid supply chain is no longer a discrete topic of investor decks; it is becoming the actual product. The Chinese vendors meanwhile keep widening their product surfaces ahead of their listings, with Unitree's piloted mecha and AGIBOT's Hong Kong positioning both pointing at the same calculation: the public-markets story has to be larger than the biped on stage
+1
 Like
 Comment
 Share
