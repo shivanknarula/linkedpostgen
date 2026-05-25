@@ -1,110 +1,98 @@
-LINK: https://www.linkedin.com/posts/digital-info-station_ai-agents-vs-agentic-ai-whats-the-real-activity-7462594181249527808-chap
-DATE: 2026-05-24
+LINK: https://www.linkedin.com/posts/boston-consulting-group_intelligent-robotics-is-reshaping-industrial-activity-7369293194716475398-W3Pn
+DATE: 2026-05-25
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post offers a clear distinction between AI Agents and Agentic AI, sparking a technical discussion with potential for adding unique value and insights.
+SCORE: 8/10 - The post discusses thought leadership on the impact of intelligent robotics on industrial operations and value chains, with multiple insightful comments from various professionals.
 AI COMMENT:
-I completely agree that understanding the difference between AI Agents and Agentic AI is crucial for the development of autonomous systems. Your analogy of AI Agents as Task Executors and Agentic AI as Goal-Oriented Decision Makers is particularly insightful. However, I'd like to add that the adaptability of Agentic AI in complex, dynamic environments is still a subject of ongoing research. What are your thoughts on how organizations can effectively evaluate and implement Agentic AI solutions that balance autonomy with reliability and transparency?
+I completely agree that physical AI is redefining value chains and workforce dynamics. The notion that AI-trained resilience is replacing legacy fragility on factory floors is particularly intriguing. As we continue to harness the potential of intelligent robotics, what role do you think human-AI collaboration will play in driving innovation and competitiveness in industries where tasks are highly variable or complex?
 TEXT:
-Digital Info Station
-19 followers
-4d
-🤖 AI Agents and Agentic AI are often used interchangeably — but they are NOT the same.
-Understanding the difference is becoming critical for businesses, developers, and tech leaders in 2026.
-In my latest blog, I break down:
-🔹 What AI Agents actually do
-🔹 What makes Agentic AI different
-🔹 Key differences in autonomy, decision-making & adaptability
-🔹 Real-world examples and business applications
-🔹 Why this distinction matters for the future of automation
-A simple way to think about it:
-➡️ AI Agents = Task Executors
-➡️ Agentic AI = Goal-Oriented Decision Makers
-As AI evolves from simple assistants to autonomous systems, knowing this difference can help organizations build smarter and more scalable AI solutions.
-📖 Read the full blog here:
-https://lnkd.in/dMXhigvG
-#AI #AgenticAI #AIAgents #ArtificialIntelligence #Automation #MachineLearning #FutureOfWork #DigitalTransformation #TechTrends #Innovation
-
-AI Agents vs Agentic AI: What’s the Real Difference?
-digitalinfostation.com
-2
+Boston Consulting Group (BCG)
+5,421,183 followers
+8mo
+Intelligent robotics is reshaping industrial operations, expanding automation to tasks once thought too complex or variable to automate.
+ 
+A new report by BCG and the World Economic Forum explores how physical AI – intelligent robots that perceive, reason and act – is redefining value chains, from precision assembly to quality control.
+ 
+This marks a shift towards operating models where resilience, competitiveness and workforce evolution go hand in hand.
+ 
+Read the full report: http://on.bcg.com/3UZE8a0
+104
+10 Comments
 Like
 Comment
 Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/boston-dynamics_welcome-to-boston-dynamics-university-our-activity-7381335278814392320-Lfc9
-DATE: 2026-05-24
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post is from a major figure in the robotics industry (Boston Dynamics) and discusses a significant development (expansion of their training program), offering a chance for thought leadership and visibility.
-AI COMMENT:
-Boston Dynamics' initiative to standardize and expand access to robot operator training is a significant step towards accelerating the adoption of robotics across industries. As we move towards greater autonomy and complexity in robotic systems, standardized training will become increasingly crucial. What role do you envision Boston Dynamics University playing in shaping the future of robotics education and workforce development, particularly in emerging markets and industries?
-TEXT:
-Loaded: 100.00%
-Pause
-Back to start
-Current Time 
-0:02/
-Duration 
-0:26
-Unmute
-Fullscreen
-Boston Dynamics
-649,539 followers
-7mo
-Welcome to Boston Dynamics University! Our team has trained 1k+ robot operators all over the world and we're thrilled to be expanding access to help our customers go from basics to expertise.
-Learn more: https://bosdyn.co/48PLg0C
-…more
-1,316
-15 Comments
-Like
-Comment
-Share
-Aparobot
-7mo
-Standardization and accessible training are vital for scaling robotics across industries. Congrats to the team Boston Dynamics!
-Like
-Reply
-Tim Dykstra
-7mo
-Exciting! Congrats to Christine White and all the others that worked tirelessly to put this training academy together.
-Like
-Reply
-8 Reactions
-Chris Rauen
-7mo
-BD team, your technology is absolutely amazing; and the use cases we are building into your robotics for our customers is powerful and seemingly endless!
+Anjali Dangi
+8mo
+As someone who will be working  in analytics and supply chain stories, this post makes me think . Physical AI isn’t just about smart machines it’s about how we, as humans, grow alongside them. It challenges us to think faster, adapt better, and find new ways to stay valuable. What I love is how this shifts the conversation from 'Will AI take our jobs?' to 'How can we evolve with it?' That’s  the story I want to be part of....
 Like
 Reply
 1 Reaction
-Joe Taveras
-7mo
-Too cool! Would love to visit one day (and maybe get some art in the HQ 👀
-Like
-Reply
-2 Reactions
-Manjesh Bhaskar
-7mo
-please accept internships, from overseas. you are my dream company
+Michael Khoury
+8mo
+Fascinating insights on how intelligent robotics is expanding the frontier of automation. It’s exciting to see how physical AI is reshaping value chains and workforce dynamics. At Go Vertical ICM we echo this drive by helping inventors validate and refine breakthrough ideas through our Innovation Overview program.
 
 Like
 Reply
-Frank Borovsky
-7mo
-Fantastic facilities!  Was honored to be on site earlier this year.  Boston Dynamics is a great place to work.  
+2 Reactions
+Go Vertical ICM
+8mo
+Fascinating insights on how intelligent robotics is transforming operations. The shift toward resilient and adaptable value chains is inspiring. Inventors looking to validate their ideas might find Go Vertical ICM’s Innovation Overview a useful resource.
 Like
 Reply
-Carsten Gregor
-7mo
-As scary as impressive and inspiring
+2 Reactions
+Dr. Bharathidasan. M
+8mo
+This is a fascinating insight into the future of automation and its impact on industry.  
 Like
 Reply
-Matthew Brown
-7mo
-I want this training.
+1 Reaction
+William T Cooper
+8mo
+The future of factory floors is no longer human versus robot but AI-trained resilience versus legacy fragility. 👍 
+Like
+Reply
+1 Reaction
+MacDonald Iyamu.
+8mo
+We are reminded that AI in manufacturing isn’t just about tech—it’s about scaling, skills, and strategy. Early movers will define the future.
+Like
+Reply
+Nadine AYAD
+8mo
+Most AI projects fail not because of tech, but because of execution. Strategy, talent, and adoption matter more than the model itself
 Like
 Reply
 See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/ai-ml-engineering-aiproductstack_a-glimpse-into-the-next-phase-of-industrial-activity-7437472274070351872-7IYS
+DATE: 2026-05-25
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post discusses a significant development in industrial automation, highlighting the role of intelligence and cutting-edge technologies like computer vision and reinforcement learning, making it a valuable thought leadership piece.
+AI COMMENT:
+Dr. Sambamoorthi, your insights on the evolving role of robots in industrial automation are spot on. The integration of AI and robotics is indeed revolutionizing warehouses and logistics hubs, enhancing safety, efficiency, and consistency. What I find particularly intriguing is the potential for reinforcement learning to adapt to unique, real-world scenarios. As we move towards more seamless human-robot collaboration, what do you think will be the most critical factor in ensuring worker trust and adoption of these automated systems?
+TEXT:
+Loaded: 59.04%
+Pause
+Back to start
+Current Time 
+0:01/
+Duration 
+0:21
+Unmute
+Fullscreen
+Nethra Sambamoorthi, M.A, M.Sc., PhD
+2mo
+A glimpse into the next phase of industrial automation.
+Robots are steadily moving beyond repetitive assembly tasks and stepping into more dynamic environments like warehouses, maintenance zones, and logistics hubs. 
+What makes this development significant is not just the hardware, but the intelligence behind it. With improvements in computer vision, reinforcement learning, and motion planning, robots are learning to interact with real world objects that are irregular, heavy, or difficult to handle.
+In environments where safety, efficiency, and consistency matter, such systems can support human workers by taking on repetitive or hazardous tasks.
+Step by step, we are moving toward warehouses and industrial sites where humans and robots collaborate seamlessly to keep operations running.
+…more
+53
+Like
+Comment
+Share
 To view or add a comment, sign in
 ================================================================================
 
