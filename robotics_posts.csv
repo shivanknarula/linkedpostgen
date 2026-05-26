@@ -1,108 +1,52 @@
 url,date,score,reasoning,comment,likes,comments,text
-https://www.linkedin.com/posts/leosu2025_is-the-matthew-effect-in-humanoid-robotics-activity-7427411180249522176-gEUJ,2026-05-25,9,"The post discusses a thought-provoking topic, the Matthew Effect in humanoid robotics, with significant funding rounds and potential barriers to entry for smaller new entrants. It also features a well-informed comment from Alberto Muñoz, offering a deep technical insight.","Leo, your observation about the Matthew Effect in humanoid robotics is spot on. The recent funding rounds do indicate a trend towards concentration of capital and potential barriers to entry for smaller players. Alberto's comment about the upper tail of humanoid robots capable of useful and repeatable work resonate with me. However, I'd like to add that the development of more advanced AI and machine learning capabilities could potentially democratize access to robotics development, mitigating the effects of funding concentration. What role do you think AI and ML will play in shaping the future of humanoid robotics, and how might they impact the competitive landscape?",0,0,"Leo 磊 Su
-3mo  Edited
-Is the Matthew Effect in humanoid robotics getting more obvious?
-Today, Apptronik  announced a $520M funding round, bringing total funding to $1B. 
-I haven’t done a full research yet, but in the past few months
- • Skild AI  AI raised $1.4B  
- • Figure closed $1B  
- • In China, LimX Dynamics  raised $200M and Galaxy raised $300M 
- • In Europe, NEURA Robotics  Robotics secured €120M  
-... 
-Funding rounds are getting bigger and more concentrated.
-When capital flows at this scale, it creates barriers to entry: 
-Access to talent, training infrastructure, supply chains, and deployment partnerships.
-Will smaller new entrants still have room to compete?
-79
-23 Comments
+https://www.linkedin.com/posts/amira-asim312_ros2-robotics-computervision-activity-7464309009790091265-LA9d,2026-05-26,9,"The post showcases thought leadership and a deep technical discussion on integrating YOLOv8 real-time object detection into a ROS2-powered robot simulation, making it suitable for adding valuable insights and sparking further discussion.","Amira, this is impressive work. The integration of YOLOv8 with ROS2 is a great example of how computer vision can be leveraged to enable autonomous decision-making in robotics. I particularly appreciate the use of cv_bridge for seamless integration between OpenCV and ROS2. What do you think are the most significant challenges in deploying such a system in real-world scenarios, and how do you envision addressing issues like varying lighting conditions or dynamic environments?",0,0,"Loaded: 27.52%
+Pause
+Back to start
+Current Time 
+0:01/
+Duration 
+1:24
+Unmute
+Fullscreen
+Amira Asim
+1d  Edited
+I gave a robot eyes, and taught it to make decisions. 👁️🤖
+For my ME6 robotics project, I integrated YOLOv8 real-time object detection into a ROS2-powered robot simulation. The result? A robot that sees the world through a camera, understands what's in front of it, and reacts autonomously.
+Final output: the exact location of detected object in 3D is published to ""detections"" topic and based on what is it and the location of it close or far? the decision node decides what will happen (stop, slow down, go left, ...) and publish it to the ME6 Robot on ""/cmd_vel"" topic.
+Tech stack:
+ROS2 Humble | Python | YOLOv8 (Ultralytics) | OpenCV | Gazebo | cv_bridge | geometry_msgs
+This project gave me hands on experience at the intersection of AI and robotics, a space I'm deeply passionate about and actively building in.
+#ROS2 #Robotics #ComputerVision #YOLOv8 #MachineLearning #ArtificialIntelligence #Gazebo #OpenCV #Python #Autonomous #RoboticEngineering #IoT
+…more
+32
+2 Comments
 Like
 Comment
 Share
-Leo 磊 Su
-3mo
-""LimX Dynamics Secures $200 Million in Series B Financing"" 2/1/2026
-https://www.linkedin.com/pulse/limx-dynamics-secures-200-million-series-b-financing-limx-dynamics-sf6wc/
+Saif Hany
+1d
+Great work👏🏼👏🏼
 Like
 Reply
-2 Reactions
-Leo 磊 Su
-3mo
-""Humanoid startup Apptronik raises $520 million with backing from Google and Mercedes-Benz""  - Reuters
-https://www.reuters.com/technology/humanoid-startup-apptronik-raises-520-million-with-backing-google-mercedes-benz-2026-02-11/
-Like
-Reply
-1 Reaction
-Leo 磊 Su
-3mo
-""Galbot brings in $300M to scale mobile manipulator deployments
-By The Robot Report Staff | December 23, 2025"" 
-https://www.therobotreport.com/galbot-brings-in-300m-to-scale-mobile-manipulator-deployments/
-Like
-Reply
-1 Reaction
-Leo 磊 Su
-3mo
-I’ll dig into the recent funding data and see if any clear patterns emerge. I’ll share my observations once I’ve had a closer look. 
-Like
-Reply
-2 Reactions
-Leo 磊 Su
-3mo
-For Apptronik, these funds will be allocated across the following key areas:
-“🤖 Ramp production of Apollo
-🌍 Expand global commercial and pilot deployments
-🏭 Build next-generation facilities for robot training and data collection
-⚡ Accelerate real-world impact across manufacturing, logistics, and beyond”
-Like
-Reply
-4 Reactions
-Alberto Muñoz
-3mo
-As in many technological domains, long-term value is not defined by the center of the complexity distribution but by its tails. The market is already showing signs of saturation, with many humanoid systems optimized for visibility, demonstrations, and short-lived spectacle. While these efforts have advanced actuation and balance, their commercial differentiation is rapidly diminishing, and investment concentration is outpacing the creation of durable economic ecosystems.
-The true opportunity lies in the upper tail: humanoid robots capable of useful, repeatable, and economically grounded work, and of sustaining a viable chain of value creation. Systems that can operate in real workflows, manipulate tools, adapt to unstructured environments, and contribute meaningfully to productivity remain far from saturated and still offer significant room for innovation and long-horizon investment. My experience in the XPRIZE AAC underscored a key limitation: teleoperation, though tempting as a shortcut, ultimately masks rather than solves the core challenges of autonomy. The fundamental bottleneck today is dexterous manipulation. Dexterity cannot be achieved through brute force or improvisation—no one solves a Rubik’s Cube by random motion. 
-Like
-Reply
-2 Reactions
-Val Kamenski
-3mo
-The $1B+ players will go after general-purpose platforms, but smaller startups that really nail one specific use case (warehouse logistics, eldercare, agriculture, etc.) can still build super defensible businesses. It’ll probably feel a lot like the early days of OpenAI: plenty of hallucinations, weird edge cases, and unexpected failures in the real world.
-At the same time, open-source “general robotics” models will show up, and that’s great news for smaller teams. It means you can compete by combining those foundations with deep, domain-specific understanding of the niche you’re in.
-That said, robotics, especially humanoids, is definitely not for everyone. There’s that saying: for software startup you need millions, for robotics you need billions. 😁 
-Like
-Reply
-2 Reactions
-Robert Little
-3mo
-Yes, I can see how these massive funding rounds can take the air out of the room for smaller companies.
-The risk with large capital raises is that speed becomes the mandate. Scale fast. Deliver fast. Pick a direction and go. But if that technology path turns out to be wrong, it’s hard to pivot. A lot of money, talent, and infrastructure are already committed to that solution.
-Smaller companies have a different advantage.
-Watch where the well-funded players go. Learn from it. Then build around it.
-Don’t copy. Be unique.
-Like
-Reply
-2 Reactions
-Siddharth Sawant
-3mo
-It is getting obvious for one reason IMO - more capital can buy more computing power and capacity. 
-There are other components in the value chain such as actuators, data collection etc but I expect those costs to come down with time and economies of scale.
-Like
-Reply
-2 Reactions
-Mario Mauerer
-3mo
-That's a disadvantage of a ""hype"": You don't necessarily need to have a great product anymore, you ""only"" need to be good at fundraising. (I'm not referencing to Apptronik, this is a general statement)
-Like
-Reply
-6 Reactions
-See more comments
 To view or add a comment, sign in"
-https://www.linkedin.com/posts/humanoid-robotics-weekly_last-weeks-theme-12-18-may-2026-the-activity-7462098836367233024-L4yF,2026-05-25,9,"The post provides in-depth analysis of the humanoid robotics industry, covering key developments and trends, making it a high-value topic for discussion.","I appreciate your insightful breakdown of the recent developments in humanoid robotics, particularly how Figure's livestream has raised the bar for autonomy and endurance in the field. It's fascinating to see industrial backers taking on dual roles and the convergence of various aspects of the humanoid supply chain into single contracts. What implications do you think this shift towards integrated supply chains will have on the pace of innovation and adoption of humanoid robotics in industries beyond manufacturing and logistics?",0,0,"Humanoid Robotics Weekly
-21 followers
-6d
-LAST WEEK'S THEME: (12-18 May 2026) 
-The dominant pattern of the week is the rewriting of what counts as evidence. Figure's fifty-hour livestream pulled the autonomy bar from ""a fluid edited clip"" to ""a public, continuous, observable shift,"" and the responses from Agility Robotics, Boston Dynamics partners and Chinese vendors are now being judged against that bar. The endurance question is no longer something a vendor can decline to engage with, and the controlled-environment caveat does not stop the competitive pressure from spreading. 
-In parallel, the Humanoid (UK) / Schaeffler deal and the Persona AI / Under Armour collaboration both point at a quieter, more important shift. Industrial backers are increasingly playing both customer and supplier inside the same agreement, and the soft-goods, actuator and deployment conversations are converging into single contracts. The humanoid supply chain is no longer a discrete topic of investor decks; it is becoming the actual product. The Chinese vendors meanwhile keep widening their product surfaces ahead of their listings, with Unitree's piloted mecha and AGIBOT's Hong Kong positioning both pointing at the same calculation: the public-markets story has to be larger than the biped on stage
-1
+https://www.linkedin.com/posts/uni-network-group_bostondynamics-bostondynamicsuniversity-activity-7387790033732304896-27v0,2026-05-26,8,"The post shares news about a significant development in the robotics industry, specifically the launch of a training and certification platform by a major player, Boston Dynamics. This launch has the potential to impact the field significantly, making the post worthy of a thoughtful comment.","Boston Dynamics University is indeed a groundbreaking initiative, validating the growing need for specialized training in robotics deployment. What's particularly interesting is how BDU's hands-on and online learning programs could standardize robotics skills across different industries. As we look to the future, how do you think the integration of AI and automation talent development will influence the curriculum and focus areas of such training platforms?",0,0,"Loaded: 100.00%
+Pause
+Back to start
+Current Time 
+0:01/
+Duration 
+0:26
+Unmute
+Fullscreen
+UNI NETWORK GROUP
+17,827 followers
+7mo
+Boston Dynamics has officially launched 𝗕𝗼𝘀𝘁𝗼𝗻 𝗗𝘆𝗻𝗮𝗺𝗶𝗰𝘀 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 (𝗕𝗗𝗨) — a groundbreaking platform dedicated to robotics training and certification. Designed for both customers and partners, BDU offers hands-on and online learning programs that empower operators to master robotics deployment safely and efficiently.
+Through interactive sessions, self-paced courses, and expert-led guidance, participants can develop real-world skills across Boston Dynamics’ robots — including Spot, Stretch, and Orbit. This initiative also enables partners to become certified to sell, integrate, and service robots globally, ensuring consistent technical excellence across the ecosystem.
+As the demand for industrial AI and automation talent accelerates, Boston Dynamics University is shaping the next generation of robotics professionals.
+Ridhwan Ahmed | Rebecca Khurshid | Matthew Gardner | Kevin Miskelly | Dion Gonano | Joshua Jacob | Mark Fournier | Cait Amadon | Aaron Abroff | James Roderick
+#BostonDynamics #BostonDynamicsUniversity #Robotics #AI #Automation #LearningAndDevelopment #SpotRobot #StretchRobot #Innovation #TechEducation #UniNetwork
+…more
 Like
 Comment
 Share
