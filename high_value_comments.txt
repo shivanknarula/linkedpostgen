@@ -1,70 +1,156 @@
-LINK: https://www.linkedin.com/posts/amira-asim312_ros2-robotics-computervision-activity-7464309009790091265-LA9d
-DATE: 2026-05-26
+LINK: https://www.linkedin.com/posts/boston-dynamics_the-to-do-list-with-spot-boston-dynamics-activity-7449834757271547904-_Ok8
+DATE: 2026-05-27
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post showcases thought leadership and a deep technical discussion on integrating YOLOv8 real-time object detection into a ROS2-powered robot simulation, making it suitable for adding valuable insights and sparking further discussion.
+SCORE: 9/10 - The post discusses the latest advancements in robotics, AI, and embodied reasoning, with thought-provoking comments from other users that add unique perspectives to the conversation.
 AI COMMENT:
-Amira, this is impressive work. The integration of YOLOv8 with ROS2 is a great example of how computer vision can be leveraged to enable autonomous decision-making in robotics. I particularly appreciate the use of cv_bridge for seamless integration between OpenCV and ROS2. What do you think are the most significant challenges in deploying such a system in real-world scenarios, and how do you envision addressing issues like varying lighting conditions or dynamic environments?
+I completely agree that the shift towards robots understanding context, not just commands, is a game-changer. The integration of Google DeepMind's VLM Gemini Robotics-ER 1.5 with Spot is a significant leap forward. As we move towards more autonomous robots, what do you think are the most critical factors to consider when designing and implementing systems that enable robots to 'understand' their environment and make decisions accordingly?
 TEXT:
-Loaded: 27.52%
+Loaded: 88.42%
 Pause
 Back to start
 Current Time 
 0:01/
 Duration 
-1:24
+1:39
 Unmute
 Fullscreen
-Amira Asim
-1d  Edited
-I gave a robot eyes, and taught it to make decisions. 👁️🤖
-For my ME6 robotics project, I integrated YOLOv8 real-time object detection into a ROS2-powered robot simulation. The result? A robot that sees the world through a camera, understands what's in front of it, and reacts autonomously.
-Final output: the exact location of detected object in 3D is published to "detections" topic and based on what is it and the location of it close or far? the decision node decides what will happen (stop, slow down, go left, ...) and publish it to the ME6 Robot on "/cmd_vel" topic.
-Tech stack:
-ROS2 Humble | Python | YOLOv8 (Ultralytics) | OpenCV | Gazebo | cv_bridge | geometry_msgs
-This project gave me hands on experience at the intersection of AI and robotics, a space I'm deeply passionate about and actively building in.
-#ROS2 #Robotics #ComputerVision #YOLOv8 #MachineLearning #ArtificialIntelligence #Gazebo #OpenCV #Python #Autonomous #RoboticEngineering #IoT
+The To Do List with Spot | Boston Dynamics
+Boston Dynamics
+650,129 followers
+1mo
+For an industrial robot built for the rigors of factories and power plants, tidying up a living room may seem like a light day at the office for Spot. Yet, this demonstration represents the promise of AI models in robotics. In this case, Google DeepMind visual-language model (VLM) Gemini Robotics-ER 1.5 was empowering Spot with embodied reasoning. 
+Go behind the scenes and watch the full demo in our blog: https://bosdyn.co/483K9JM
 …more
-32
-2 Comments
+2,429
+60 Comments
 Like
 Comment
 Share
-Saif Hany
-1d
-Great work👏🏼👏🏼
+Boston Dynamics
+1mo
+Learn more about the newly announced Gemini Robotics ER 1.6 and our work with Google DeepMind: https://deepmind.google/blog/gemini-robotics-er-1-6/
 Like
 Reply
+16 Reactions
+Mariusz Nowocień
+1mo
+So we’ve officially reached the point where you can give a robot a to-do list… and it might even walk your dog better than you do.
+Jokes aside – this is a huge leap. Moving from coding every step to simply telling a robot what to do changes the game entirely.
+The real breakthrough isn’t the demo – it’s the shift toward robots that understand context, not just commands.
+Question is: are we ready for machines that don’t just execute tasks, but actually decide how to do them?
+Like
+Reply
+6 Reactions
+Anwenwillie Fru Ndenge (Dr.-Ing.)
+1mo
+When one watches #Spot operating in these scenarios, parallels can be drawn to those farmers who'd have just completed the day's job with his tractors on the fields in the countryside, and decides to drive with his tractor to the shopping mall in the city center to do his groceries shopping!
+It must be funny when he parks his tractor in the parking lot in front of the mall to do his shopping.
+All the shoppers visiting the mall stare at this tractor as some strange vehicle from an extraterrestrial planet!
+One time and again can witness such strange farmers!
+What on #earth is #spot doing here? Can #spot not revolt, claiming that's not my job?
+Why is #Spot conducting the #WrongJob!
+There's no wrong job, but only an incompetent worker - a one who isn't #capable of conducting any job assigned to her/him!
+#Spot is growing into an #UniversalAllRounder  - soon having the #skills to carry on any activity in our universe!
+I've finally found my #UniversalAssistant.
+#ReinforceIT #spot and earn your #reward - #EarnIT.
+Like
+Reply
+2 Reactions
+Arielle Masters
+1mo
+"check the mouse traps", eh?  And then do what with them?  Spot owners need to check its code to be sure Spot deals with the mouse traps as the owners wish, not in some default way.  Also:  please use humane mouse traps instead.  The snappers are nasty (though not as evil as glue traps) and could also catch the household pets or kids.
+Like
+Reply
+1 Reaction
+Raul V.
+1mo
+Interesting application.
+ 
+Using VLMs to enable embodied reasoning is a big step, moving robots from executing commands to understanding context and intent.
+ 
+From an engineering perspective, the challenge is translating that reasoning into reliable, repeatable actions in real environments.
+ 
+Promising direction, especially if consistency can match the intelligence.
+ 
+#Robotics #Automation
+Like
+Reply
+5 Reactions
+Jagan Nivas P
+3w
+The tool-calling architecture is clean — Gemini Robotics acting as the operator, tools as the API bridge, Spot handling the physical execution. Real leverage for developers who already work with the SDK.
+One thing the blog makes explicit: "until the robot powers on, Gemini Robotics has no context for what tasks we might ask it to perform." That's the right scope for this layer — but it also points to what sits above it in a real home deployment. Persistent identity (who is giving the instruction — homeowner, guest, child), memory across sessions, social awareness when a second person enters the room, privacy constraints on what the robot retains after it's done tidying.
+None of that falls out of the VLM or the motion stack. It's a separate layer that has to be designed independently and composed cleanly with what Boston Dynamics and DeepMind have built here. Been working on exactly that — cognitive runtime for physical AI, local deployment, persistent memory with privacy enforced at the database layer. The task reasoning breakthrough makes the social-cognitive layer more urgent, not less.
+Like
+Reply
+Jean-Marie B.
+1mo
+For this robot to be truly functional, it would need a house where everything is tidy, organized, and cataloged. It would need a large house so the robot could move around easily. In short, you'd have to be rich, owner of a social network, for example. For poor people, it's out of reach. And besides, if you want a tidy house, a woman does the job just fine (just kidding!). I like the dog's reaction; he's not fooled. cf Runaway (1984)
+Like
+Reply
+Saurabh Mehta
+4w
+It’s amazing and sad at the same time. The technology is incredible, with unbelievable real-world applications, and it’s very helpful for people who need support. At the same time, it’s sad to see someone miss out on the unbreakable bond of love between a person and their dog. A dog’s best moment of the day is often when it goes out for a walk with its owner.
+Like
+Reply
+Rohit Avadhani
+1mo
+clearly Koda is not amused. 
+Like
+Reply
+3 Reactions
+Roger Lance
+1mo
+Here are my thoughts. As always enjoy the mental strengths of others. Heed the warning from the K9 interaction, for many people will make the same reaction. This has been seen in other developers anti-bots trending. Secondly, the-intellectual capacities of these robots makes me wonder are these movements mimicking external parameters, reliant on external data or cloud ☁️. Which means it susceptible to drops in data service. Keep up the fascinating work.
+Like
+Reply
+See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/uni-network-group_bostondynamics-bostondynamicsuniversity-activity-7387790033732304896-27v0
-DATE: 2026-05-26
+LINK: https://www.linkedin.com/posts/akkar-ltd_bostondynamics-bobbi-ai-activity-7353349434463641600-MDt9
+DATE: 2026-05-27
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post shares news about a significant development in the robotics industry, specifically the launch of a training and certification platform by a major player, Boston Dynamics. This launch has the potential to impact the field significantly, making the post worthy of a thoughtful comment.
+SCORE: 9/10 - The post discusses a significant development in robotics and AI, featuring a well-known company, Boston Dynamics, and explores the potential implications of virtual AI agents on the future of robotics and automation.
 AI COMMENT:
-Boston Dynamics University is indeed a groundbreaking initiative, validating the growing need for specialized training in robotics deployment. What's particularly interesting is how BDU's hands-on and online learning programs could standardize robotics skills across different industries. As we look to the future, how do you think the integration of AI and automation talent development will influence the curriculum and focus areas of such training platforms?
+Akkar, I completely agree that Bobbi represents a significant shift in how we interact with robots and automation, leveraging language, reasoning, and memory to enhance user experience. What's particularly interesting is how AI agents like Bobbi could enable more personalized and efficient customer support, potentially transforming the role of sales engineers and customer success teams. Do you think we'll see a convergence of AI-powered virtual agents and human-centric design principles in the next generation of robotics solutions, and how might that impact the way we design and deploy automation systems?
 TEXT:
-Loaded: 100.00%
-Pause
-Back to start
-Current Time 
-0:01/
-Duration 
-0:26
-Unmute
-Fullscreen
-UNI NETWORK GROUP
-17,827 followers
-7mo
-Boston Dynamics has officially launched 𝗕𝗼𝘀𝘁𝗼𝗻 𝗗𝘆𝗻𝗮𝗺𝗶𝗰𝘀 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 (𝗕𝗗𝗨) — a groundbreaking platform dedicated to robotics training and certification. Designed for both customers and partners, BDU offers hands-on and online learning programs that empower operators to master robotics deployment safely and efficiently.
-Through interactive sessions, self-paced courses, and expert-led guidance, participants can develop real-world skills across Boston Dynamics’ robots — including Spot, Stretch, and Orbit. This initiative also enables partners to become certified to sell, integrate, and service robots globally, ensuring consistent technical excellence across the ecosystem.
-As the demand for industrial AI and automation talent accelerates, Boston Dynamics University is shaping the next generation of robotics professionals.
-Ridhwan Ahmed | Rebecca Khurshid | Matthew Gardner | Kevin Miskelly | Dion Gonano | Joshua Jacob | Mark Fournier | Cait Amadon | Aaron Abroff | James Roderick
-#BostonDynamics #BostonDynamicsUniversity #Robotics #AI #Automation #LearningAndDevelopment #SpotRobot #StretchRobot #Innovation #TechEducation #UniNetwork
-…more
+Akkar
+60,000 followers
+10mo
+🚨 Boston Dynamics just dropped their first virtual AI agent: Bobbi 🚨
+Bobbi is an AI assistant designed to help users explore their robotics solutions, identify the right tools for specific applications, and streamline operational improvement.
+While we’ve come to associate Boston Dynamics with high-powered robots leaping, flipping, and hauling cargo - Bobbi takes a different path:
+💡 A virtual AI agent focused on language, reasoning, and memory but still built with the same world-class robotic brainpower.
+Bobbi represents the next wave of intelligent, accessible automation:
+ ✅ Scalable
+ ✅ User-driven
+ ✅ Available 24/7 to support ops, logistics, and engineering teams
+In other words, it’s not just the robots getting smarter. The way we buy, deploy, and scale robots is evolving too.
+🧠 What does this signal for the future of how we interact with robots and automation?
+Could AI agents like Bobbi:
+Transform how engineering teams evaluate and implement robotic solutions?
+Redefine product discovery across complex, technical industries?
+Become the new standard for customer-facing automation in mobility and manufacturing?
+👇 We're curious - how would you see a tool like this fitting into your world?
+📸 Image credit: Boston Dynamics
+#BostonDynamics #Bobbi #AI #Robotics #MobilityInnovation 
+15
+3 Comments
 Like
 Comment
 Share
+Muhammad Abu Bakar .
+10mo
+Big shift, brains over brawn, will AI agents replace sales engineers someday?
+Like
+Reply
+David Hatcher
+10mo
+I wonder how Bobbi would cope on a cold call 🤔 
+Like
+Reply
+See more comments
 To view or add a comment, sign in
 ================================================================================
 

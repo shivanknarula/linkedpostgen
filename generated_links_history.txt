@@ -1,7 +1,3 @@
-https://www.linkedin.com/posts/robotverse_fanuc-industrialautomation-smartmanufacturing-activity-7462736607125876736-rJL4
-https://www.linkedin.com/posts/reuven-taplashvili-57a83916a_ros2-robotics-python-activity-7461671950722195456-u7iK
-https://www.linkedin.com/posts/boston-dynamics_boston-dynamics-and-fieldai-are-collaborating-activity-7437861272697589761-_tCK
-=== RUN ===
 https://www.linkedin.com/posts/robotverse_industrialrobots-industrialautomation-activity-7462401646938071041-7BzJ
 https://www.linkedin.com/posts/boston-dynamics_from-teleoperation-to-autonomy-inside-boston-activity-7376295561219588096-KsnD
 https://www.linkedin.com/posts/the-mathworks_2_boston-dynamics-at-mathworks-automotive-conference-activity-7367496365578280960-4gxf
@@ -30,3 +26,6 @@ https://www.linkedin.com/posts/humanoid-robotics-weekly_last-weeks-theme-12-18-m
 === RUN ===
 https://www.linkedin.com/posts/amira-asim312_ros2-robotics-computervision-activity-7464309009790091265-LA9d
 https://www.linkedin.com/posts/uni-network-group_bostondynamics-bostondynamicsuniversity-activity-7387790033732304896-27v0
+=== RUN ===
+https://www.linkedin.com/posts/boston-dynamics_the-to-do-list-with-spot-boston-dynamics-activity-7449834757271547904-_Ok8
+https://www.linkedin.com/posts/akkar-ltd_bostondynamics-bobbi-ai-activity-7353349434463641600-MDt9
