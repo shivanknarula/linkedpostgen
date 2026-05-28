@@ -1,95 +1,82 @@
-LINK: https://www.linkedin.com/posts/boston-dynamics_boston-dynamics-and-fieldai-are-collaborating-activity-7437861272697589761-_tCK
+LINK: https://www.linkedin.com/posts/sherry-zhang-a6062b188_humanoidrobots-ai-robotics-activity-7462322216873902081-HMaN
 DATE: 2026-05-28
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a collaboration between Boston Dynamics and FieldAI, combining Spot with FieldAI's foundation models for autonomous operations in dynamic environments, which is a deep technical discussion with potential for thought leadership.
+SCORE: 8/10 - The post discusses a specific and emerging area of robotics, providing a brief overview of the current state of the industry, its drivers, and future prospects, making it a good opportunity to add value and thought leadership
 AI COMMENT:
-I completely agree that the partnership between Boston Dynamics and FieldAI has the potential to unlock powerful new capabilities for autonomy in dynamic environments. The integration of Spot with FieldAI's foundation models could significantly enhance the robot's ability to navigate and adapt to changing construction sites. However, one of the key challenges will be ensuring seamless communication between the robot's onboard systems and the cloud-based inference models, especially in areas with limited connectivity. What strategies do you think Boston Dynamics and FieldAI will employ to address this challenge and ensure reliable operation in such environments?
+Sherry, you've accurately outlined the perfect storm that's propelling humanoid robots from the lab into our daily lives. The confluence of technological advancements, demographic shifts, and supportive policies is indeed creating a fertile ground for this industry to flourish. However, one aspect that warrants deeper exploration is the ethical implications of mass-producing humanoid robots - how do you think we can balance the benefits of widespread adoption with the need for responsible AI development and deployment? 
 TEXT:
-Boston Dynamics
-650,325 followers
-2mo
-Boston Dynamics and FieldAI are collaborating to combine Spot and our world-class  software stack with FieldAI’s Field Foundation Models™ for uncharted exploration, extending autonomous operations in constantly evolving spaces like construction sites. https://bosdyn.co/4lmCQlG
-654
-20 Comments
+Sherry Zhang
+1w
+Humanoid Robots: From Lab to Life at Scale
+The industry is crossing the commercialization chasm.
+Supply: Tesla, Unitree, Agibot & UBTECH drive mass production.Demand: Aging populations & labor costs fuel urgent adoption.Tech: AI large models deliver true intelligence.
+Supported by policy and capital, humanoid robots are emerging as a major new industry, expanding from B to C-end markets. The future is vast.
+#HumanoidRobots #AI #Robotics #FutureIsNow #Commercialization
 Like
 Comment
 Share
-Humanoids Summit
-2mo
-Exciting to see this partnership!
-Like
-Reply
-Nurvai
-2mo
-Exciting collaboration! Dynamic environments like construction sites are where robots really get tested. Pairing Spot robot with foundation models built for real-world exploration could unlock some powerful new capabilities for autonomy.
-Like
-Reply
-2 Reactions
-Sorank
-2mo
-Spot navigating unplanned spaces is genuinely a different product category than what Boston Dynamics was selling two years ago. The hard part isn't the robot, it's making the model generalize to a site that changes every week without needing a full re-survey. curious whether FieldAI's models run onboard or if Spot is leaning on cloud inference in the field.
-Like
-Reply
-1 Reaction
-YZ-RA
-4d
-I completely agree that the combination of Spot and FieldAI's foundation models has the potential to unlock powerful new capabilities for autonomy in dynamic environments...
-Like
-Reply
-Robert Smak
-2mo
-The interesting part isn't the hardware — it's FieldAI's navigation stack handling truly unstructured terrain. On every brownfield site I've worked on, the floor plan in the drawing and the actual floor plan are two different things. That gap kills most AMR deployments. Curious how they handle dynamic obstacle avoidance when the 'environment' changes daily.
-Like
-Reply
-Erdem Ürün
-2mo
-Interesting direction. Combining robotics platforms like Spot with foundation models could be a major step toward truly autonomous operations in complex real world environments.
-Like
-Reply
-2 Reactions
-Markos S.
-2mo
-Interesting development. Autonomous inspection and robotics keep coming up in discussions we’re having with safety and operational leaders, particularly around removing people from hazardous environments.
-The ability to operate in constantly evolving sites like construction will be a big step forward.
-Like
-Reply
-Mostafa Akbari Hochberg
-2mo
-Really happy to see this collaboration and the next steps for Spot and Field AI. Innovation takes time :) Moving from pre-planned routes to autonomous operation feels like a major leap, and I’d guess Spot’s adoption curve will accelerate exponentially from here.
-Like
-Reply
-1 Reaction
-Design Hok
-2mo
-Impressive synergy between hardware and software. Leveraging Spot with FieldAI’s AI-driven foundation models highlights the future of autonomous inspection and exploration in evolving work environments. 
-Like
-Reply
-RACHID LEMSIAH
-2mo
-Exciting to see robotics and AI come together for real-world exploration. This collaboration could greatly expand autonomous operations in dynamic environments like construction sites.
-
-Like
-Reply
-See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/phanikumar-varikuti-0862b312a_artificialintelligence-robotics-automation-activity-7462563240934334464-bL5y
+LINK: https://www.linkedin.com/posts/automationnewsmedia_humanoid-robotics-activity-7392580345239535616-iutT
 DATE: 2026-05-28
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a significant technical breakthrough in robotics and AI, with potential applications in various industries, making it a valuable topic for thought leadership and technical discussion.
+SCORE: 8/10 - The post discusses a significant collaboration in the field of humanoid robotics and AI, involving a major company like SAP, and has a relatively low number of comments, making it a good opportunity to add valuable insights.
 AI COMMENT:
-The achievement of Atlas in full-body AI coordination is indeed impressive and marks a substantial step forward in robotics. The integration of AI perception and control to handle dynamic loads is a challenging problem that has hindered the widespread adoption of robots in real-world environments. I'd like to know, what potential applications in disaster response do you envision for robots like Atlas, given their enhanced capabilities in lifting heavy objects and navigating complex spaces?
+The integration of SAP's enterprise software solutions with Humanoid's cognitive robots has the potential to revolutionize industrial automation. I'm intrigued by the possibilities of embodied AI in enhancing human-robot collaboration. What do you think will be the most significant challenge in scaling up the deployment of these humanoid robots in industrial environments, and how can they be addressed?
 TEXT:
-PHANIKUMAR VARIKUTI
-1w
-Atlas, Boston Dynamics’ humanoid robot, has achieved a breakthrough in full‑body AI coordination, enabling it to lift heavy objects with a nuanced sense of weight. This milestone marks a significant step toward machines that move with human‑like understanding of physical forces, opening new possibilities for automation in manufacturing, logistics, and disaster response.
-The advancement showcases how integrated AI perception and control can overcome one of robotics’ toughest challenges—dynamic load handling—paving the way for more adaptable and capable robotic assistants in real‑world environments.
-#ArtificialIntelligence #Robotics #Automation #AIInnovation
-1
+Automation News
+843 followers
+6mo
+🤖 Humanoid Robotics with SAP’s Embodied AI for industrial applications
+Humanoid, a UK-based AI and robotics company, announced a collaboration with SAP to develop and demonstrate real-world robotics solutions. Together, the companies will explore the integration of cognitive humanoid robots into industrial and enterprise environments through a series of proofs of concept (POCs) combining Humanoid’s latest HMND 01 platform with SAP’s enterprise software solutions, addressing a market estimated at $15-20 billion by 2030, equivalent to 300,000-400,000 robots, with longer-term projections of $38 billion by 2035.
+Read more here 👉 https://lnkd.in/eJG9JcWv
+#AutomationNews #robotics #AI #industrial #humanoidrobots
+8
+1 Comment
 Like
 Comment
 Share
+Adelya Fatykhova
+6mo
+If you like this, check out all #embodiedAI announcements on SAP news 🤖 https://news.sap.com/2025/11/sap-physical-ai-partnerships-new-robotics-pilots/
+Like
+Reply
 To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/futurepedia_ai-robotics-humanoidrobots-activity-7465409124374134784-lR3q
+DATE: 2026-05-28
+METRICS: 0 Likes, 0 Comments
+SCORE: 1/10 - The post content appears to be a generic LinkedIn login page, lacking any substantial information or discussion topic.
+AI COMMENT:
+
+TEXT:
+Skip to main content
+LinkedIn
+Join LinkedIn
+Email
+Password (6+ characters)
+By clicking Agree & Join, you agree to the LinkedIn User Agreement, Privacy Policy, and Cookie Policy.
+Agree & Join
+or
+Already on Linkedin? Sign in
+LINKEDIN
+LinkedIn is better on the app
+Don’t have the app? Get it in the Microsoft Store.
+Open the app
+LinkedIn
+© 2026
+About
+Accessibility
+User Agreement
+Privacy Policy
+Your California Privacy Choices
+Cookie Policy
+Copyright Policy
+Brand Policy
+Guest Controls
+Community Guidelines
+Language
 ================================================================================
 
