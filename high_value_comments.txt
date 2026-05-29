@@ -1,47 +1,168 @@
-LINK: https://www.linkedin.com/posts/sherry-zhang-a6062b188_humanoidrobots-ai-robotics-activity-7462322216873902081-HMaN
-DATE: 2026-05-28
+LINK: https://www.linkedin.com/posts/ludobotics_ros2-roboticseducation-gamebasedlearning-activity-7404544180594634753-38Pa
+DATE: 2026-05-29
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a specific and emerging area of robotics, providing a brief overview of the current state of the industry, its drivers, and future prospects, making it a good opportunity to add value and thought leadership
+SCORE: 9/10 - The post presents a unique approach to teaching ROS 2 using an interactive game, Odyssey, and provides a detailed explanation of the concepts and mechanisms behind it, making it a high-value post for thought leadership and technical discussion.
 AI COMMENT:
-Sherry, you've accurately outlined the perfect storm that's propelling humanoid robots from the lab into our daily lives. The confluence of technological advancements, demographic shifts, and supportive policies is indeed creating a fertile ground for this industry to flourish. However, one aspect that warrants deeper exploration is the ethical implications of mass-producing humanoid robots - how do you think we can balance the benefits of widespread adoption with the need for responsible AI development and deployment? 
+I love how Odyssey turns ROS 2 into an interactive experience, making complex concepts more accessible and engaging. The fact that players use actual ROS 2 CLI and code to solve challenges is a huge plus. What I'd like to know is, have you considered integrating real-world robotics projects or case studies into the game to further bridge the gap between simulation and reality? How do you envision Odyssey being used in educational settings or professional training programs?
 TEXT:
-Sherry Zhang
-1w
-Humanoid Robots: From Lab to Life at Scale
-The industry is crossing the commercialization chasm.
-Supply: Tesla, Unitree, Agibot & UBTECH drive mass production.Demand: Aging populations & labor costs fuel urgent adoption.Tech: AI large models deliver true intelligence.
-Supported by policy and capital, humanoid robots are emerging as a major new industry, expanding from B to C-end markets. The future is vast.
-#HumanoidRobots #AI #Robotics #FutureIsNow #Commercialization
+Ludobotics
+255 followers
+5mo
+🚀 How do we teach ROS 2 differently with Odyssey?
+Most ROS 2 learning relies on documentation, exercises, or tutorials. With Odyssey, we take a different path: we turn ROS 2 into an interactive experience.
+The image below captures the core ideas behind our approach:
+🔍 Unveil the mechanisms of ROS 2
+ Players discover how topics, nodes, and tools behave by interacting with them inside the game world. Concepts are visual, spatial, and hands-on.
+🤖 Explore worlds with Odie
+ Learning begins through exploration. Each environment introduces ROS 2 ideas in context, supported by narrative and in-game systems. The desire to discover more thrive the player in learning.
+🧩 Solve puzzles using real ROS 2 tools
+ Players use the actual ROS 2 CLI and code to solve challenges.
+📈 Advance toward increasingly complex tasks
+ From basic pub/sub interactions to managing packages, nodes, and diagnostics in multi-robot scenarios, each chapter builds on the previous one.
+🛰 Learn to manage robotic fleets
+ Later levels introduce multi-robot coordination, and system-scale reasoning, reflecting real robotics challenges.
+🛠 From game to reality
+ All ROS 2 commands and code used in Odyssey follow standard practices. Skills acquired in-game are directly applicable to physical robots and real projects. Odyssey is not simulating ROS2, but directly interfaced with it.
+A huge thank you to Salomé Galliot for the illustration bringing these ideas to life.
+#ROS2 #RoboticsEducation #GameBasedLearning #EdTech #Unity3D #Robotics #LearningByDoing #STEMEducation #IndieGameDev #SeriousGames #RoboticsResearch
+17
 Like
 Comment
 Share
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/automationnewsmedia_humanoid-robotics-activity-7392580345239535616-iutT
-DATE: 2026-05-28
+LINK: https://www.linkedin.com/posts/a-banks_boston-dynamics-just-partnered-with-google-activity-7416826389066047488-Xldl
+DATE: 2026-05-29
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a significant collaboration in the field of humanoid robotics and AI, involving a major company like SAP, and has a relatively low number of comments, making it a good opportunity to add valuable insights.
+SCORE: 9/10 - The post discusses a significant partnership between Boston Dynamics and Google DeepMind, featuring a cutting-edge robot with unique capabilities, and explores the implications of this development on the future of robotics and industry.
 AI COMMENT:
-The integration of SAP's enterprise software solutions with Humanoid's cognitive robots has the potential to revolutionize industrial automation. I'm intrigued by the possibilities of embodied AI in enhancing human-robot collaboration. What do you think will be the most significant challenge in scaling up the deployment of these humanoid robots in industrial environments, and how can they be addressed?
+Alex, your analysis of the Boston Dynamics and Google DeepMind partnership is spot on. The integration of Gemini Robotics does indeed address a critical gap in the field. However, I'd like to add that the true potential of humanoid robots like Atlas lies not just in their ability to mimic human movements, but in their capacity to adapt to dynamic environments and learn from experience. What are your thoughts on how the convergence of hardware and intelligence will impact the development of autonomous systems in the next 5 years?
 TEXT:
-Automation News
-843 followers
-6mo
-🤖 Humanoid Robotics with SAP’s Embodied AI for industrial applications
-Humanoid, a UK-based AI and robotics company, announced a collaboration with SAP to develop and demonstrate real-world robotics solutions. Together, the companies will explore the integration of cognitive humanoid robots into industrial and enterprise environments through a series of proofs of concept (POCs) combining Humanoid’s latest HMND 01 platform with SAP’s enterprise software solutions, addressing a market estimated at $15-20 billion by 2030, equivalent to 300,000-400,000 robots, with longer-term projections of $38 billion by 2035.
-Read more here 👉 https://lnkd.in/eJG9JcWv
-#AutomationNews #robotics #AI #industrial #humanoidrobots
-8
-1 Comment
+Loaded: 70.49%
+Pause
+Back to start
+Current Time 
+0:00/
+Duration 
+0:51
+Show Captions
+Unmute
+Fullscreen
+Alex Banks 
+Alex Banks is an Influencer
+4mo
+Boston Dynamics just partnered with Google DeepMind.
+Their robot is the same height as the Terminator.
+The upgraded electric Atlas humanoid just debuted at CES 2026.
+Here's what makes this different:
+→ 56 degrees of freedom
+→ 4-hour battery life
+→ Self-swapping batteries for continuous operation
+→ 1.9m frame (same height as Schwarzenegger in Terminator)
+→ Designed specifically for factory work
+The DeepMind partnership solves the missing piece:
+For years, hardware teams cracked locomotion.
+But intelligence and local compute lagged behind.
+Gemini Robotics integration changes that equation entirely.
+The humanoid advantage:
+Some argue the humanoid form is suboptimal.
+Why limit robots to human-like movements?
+But Atlas already exploits what we can't do:
+→ 360-degree torso rotations
+→ More energy-efficient than stepping
+→ Movements impossible for human joints
+The humanoid form serves as a universal worker, much like a human.
+My takeaway:
+We're watching hardware and intelligence finally converge at scale.
+The robotics race is now about who can deploy them fastest.
+Hyundai plans to deploy 30,000 units in their manufacturing facilities starting this year.
+Meanwhile, China's Unitree already ships robots at $70k with similar battery-swap capabilities.
+We’re watching the early stages of an industry that could reshape entire sectors within the decade.
+Follow me Alex Banks for daily AI highlights and insights.
+If you liked this post, you'll love the newsletter.
+I cover the most important AI developments each week.
+Subscribe here: https://lnkd.in/ePSZP6KF
+…more
+402
+146 Comments
 Like
 Comment
 Share
-Adelya Fatykhova
-6mo
-If you like this, check out all #embodiedAI announcements on SAP news 🤖 https://news.sap.com/2025/11/sap-physical-ai-partnerships-new-robotics-pilots/
+Transcript
+Transcript
+First time in public and as you can see it's walk is pretty natural and pretty smooth. We've partnered with our sister organization, the Robotics and AI Institute to push the limits on natural walking just for this performance and I think we've done something really special. We've also visited this robotic staying for awhile, and we've learned that there's more to it than just copying nature. We can pick the best parts of what nature has to offer and do better in others. So as you can see, Atlas here has joints that can move 360��. This lets outlets move even more efficiently than humans, particularly in manufacturing environments where every second counts. We've also designed Atlas's head and face very purposefully, and we like both working with Atlas to know that Atlas is a helpful role.
+Alex Banks
+4mo
+📌 You can read the full announcement here: https://bostondynamics.com/blog/boston-dynamics-google-deepmind-form-new-ai-partnership/
 Like
 Reply
+9 Reactions
+Michal Majdanski
+4mo
+Great breakdown Alex Banks, but honestly the scariest part isn't in your post—it's what happens when Hyundai's 30,000 Atlas units become MORE reliable than their human workforce in 18 months. We're celebrating deployment speed like it's innovation, but China commoditizing these at $70k means every manufacturing CEO now has one choice: automate or watch competitors do it first and eat your lunch.
+The real story isn't hardware meeting AI. It's that we've crossed the economic threshold where robot workers are cheaper than human annual salaries, and we're still pretending "reskilling" will somehow keep pace with deployment velocity. What's the actual plan when entire sectors automate faster than people can pivot careers?
+Like
+Reply
+6 Reactions
+Muhammad Ali
+4mo
+It is wild to watch the timeline between 'science fiction concept' and 'industrial reality' shrink to almost zero.
+Like
+Reply
+7 Reactions
+Safia Saher
+4mo
+Humans now have competition on the ramp walk.🙌
+Like
+Reply
+3 Reactions
+Glenda Carnate
+4mo
+Alex Banks The partnership between robotics and intelligence platforms shows that movement alone is no longer the bottleneck; decision-making and adaptability are now the differentiators in automation.
+Like
+Reply
+3 Reactions
+Zaki Akhtar
+4mo
+Old industrial robots:
+	•	Bolted to one spot
+	•	Single task, single motion
+	•	Useless outside pre programmed paths
+New humanoid robots:
+	•	Mobile across the entire factory
+	•	Software defined roles
+	•	Adapt to layout changes without retooling
+The form factor isn’t the headline. The flexibility is.
+Like
+Reply
+4 Reactions
+Bryn Richards
+4mo
+This is wild, it really does feel like we’re watching the moment hardware and intelligence finally catch up to each other. The fact this is aimed at real factory work, not demos, makes it feel less sci-fi and more like a genuine industry shift already underway, is that the case?
+Like
+Reply
+5 Reactions
+Tersh Blissett
+4mo
+Intelligence has always been the bottleneck. With DeepMind onboard, Atlas could finally move from demo to real world impact.
+Like
+Reply
+10 Reactions
+Eduardo Roman
+4mo
+Feels like the race is less about who builds the best robot and more about who integrates, deploys, and maintains fastest. That’s where winners usually emerge.
+Like
+Reply
+5 Reactions
+Muhammad Waqas Arif
+4mo
+ The convergence of advanced hardware and on-device intelligence finally makes humanoid robots practical for real work.
+ I’ve seen similar breakthroughs where capability alone isn’t enough; speed of deployment and integration determines who leads the market.
+Like
+Reply
+6 Reactions
+See more comments
 To view or add a comment, sign in
 ================================================================================
 

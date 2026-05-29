@@ -1,7 +1,3 @@
-https://www.linkedin.com/posts/meridian-ib_industrial-automation-robotics-spring-2025-activity-7333542634998640644-Kgt0
-https://www.linkedin.com/posts/robotverse_industrialrobots-manufacturing-smartfactory-activity-7462065100884119552-LMtn
-https://www.linkedin.com/posts/ferbin12_two-years-into-ros2-and-the-learning-never-activity-7310659686339420161-RIIB
-=== RUN ===
 https://www.linkedin.com/posts/schaeffler_schaeffler-at-ces-2026-humanoid-robotics-activity-7414746402351820802-XB0q
 https://www.linkedin.com/posts/boston-dynamics_whats-in-a-humanoid-hand-boston-dynamics-activity-7381690601454452736-7Lbj
 === RUN ===
@@ -29,3 +25,6 @@ https://www.linkedin.com/posts/phanikumar-varikuti-0862b312a_artificialintellige
 https://www.linkedin.com/posts/futurepedia_ai-robotics-humanoidrobots-activity-7465409124374134784-lR3q
 https://www.linkedin.com/posts/sherry-zhang-a6062b188_humanoidrobots-ai-robotics-activity-7462322216873902081-HMaN
 https://www.linkedin.com/posts/automationnewsmedia_humanoid-robotics-activity-7392580345239535616-iutT
+=== RUN ===
+https://www.linkedin.com/posts/ludobotics_ros2-roboticseducation-gamebasedlearning-activity-7404544180594634753-38Pa
+https://www.linkedin.com/posts/a-banks_boston-dynamics-just-partnered-with-google-activity-7416826389066047488-Xldl
