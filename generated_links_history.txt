@@ -1,6 +1,3 @@
-https://www.linkedin.com/posts/schaeffler_schaeffler-at-ces-2026-humanoid-robotics-activity-7414746402351820802-XB0q
-https://www.linkedin.com/posts/boston-dynamics_whats-in-a-humanoid-hand-boston-dynamics-activity-7381690601454452736-7Lbj
-=== RUN ===
 https://www.linkedin.com/posts/enzo-ghisoni-robotics_ros2-ai-robotics-activity-7449070785433993216-8JnR
 https://www.linkedin.com/posts/jimohafeezco_humanoid-or-no-humanoid-debate-in-robotics-activity-7463716672059707392-ZUh4
 === RUN ===
@@ -28,3 +25,6 @@ https://www.linkedin.com/posts/automationnewsmedia_humanoid-robotics-activity-73
 === RUN ===
 https://www.linkedin.com/posts/ludobotics_ros2-roboticseducation-gamebasedlearning-activity-7404544180594634753-38Pa
 https://www.linkedin.com/posts/a-banks_boston-dynamics-just-partnered-with-google-activity-7416826389066047488-Xldl
+=== RUN ===
+https://www.linkedin.com/posts/rolandberger_humanoid-robots-roland-berger-activity-7283090175801389058-8tZx
+https://www.linkedin.com/posts/akashr001_ai-artificialintelligence-robotics-activity-7464971154986823680-n2dV
