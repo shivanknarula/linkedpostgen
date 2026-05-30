@@ -1,6 +1,3 @@
-https://www.linkedin.com/posts/enzo-ghisoni-robotics_ros2-ai-robotics-activity-7449070785433993216-8JnR
-https://www.linkedin.com/posts/jimohafeezco_humanoid-or-no-humanoid-debate-in-robotics-activity-7463716672059707392-ZUh4
-=== RUN ===
 https://www.linkedin.com/posts/digital-info-station_ai-agents-vs-agentic-ai-whats-the-real-activity-7462594181249527808-chap
 https://www.linkedin.com/posts/boston-dynamics_welcome-to-boston-dynamics-university-our-activity-7381335278814392320-Lfc9
 === RUN ===
@@ -28,3 +25,6 @@ https://www.linkedin.com/posts/a-banks_boston-dynamics-just-partnered-with-googl
 === RUN ===
 https://www.linkedin.com/posts/rolandberger_humanoid-robots-roland-berger-activity-7283090175801389058-8tZx
 https://www.linkedin.com/posts/akashr001_ai-artificialintelligence-robotics-activity-7464971154986823680-n2dV
+=== RUN ===
+https://www.linkedin.com/posts/armel-nene-jr_ros2-slam-nav2-activity-7375521929706758144-fMQh
+https://www.linkedin.com/posts/alejandra-yonet-garza-delano%C3%A9-3b3191214_robotics-ros2-autonomoussystems-activity-7439020453056323584--1qQ

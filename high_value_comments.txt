@@ -1,34 +1,9 @@
-LINK: https://www.linkedin.com/posts/rolandberger_humanoid-robots-roland-berger-activity-7283090175801389058-8tZx
+LINK: https://www.linkedin.com/posts/armel-nene-jr_ros2-slam-nav2-activity-7375521929706758144-fMQh
 DATE: 2026-05-30
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a thought-provoking topic, the future of humanoid robots, with potential scenarios and obstacles, making it a valuable conversation starter
+SCORE: 9/10 - The post is a detailed, personal account of building a ROS2 robot, showcasing thought leadership, technical insights, and a willingness to learn from failures, making it ideal for adding value through a well-crafted comment.
 AI COMMENT:
-I completely agree that advancements in AI and hardware are bringing humanoid robots closer to reality, and tackling labor shortages is a compelling use case. However, I'd like to add that the development of explainable AI and transparency in robotic decision-making will be crucial for widespread adoption. What do you think will be the most significant hurdle in achieving explainability in humanoid robots, and how can we address it to unlock their full potential?
-TEXT:
-Roland Berger
-568,193 followers
-1y
-🤖 The future of humanoid robots is closer than you think! With advancements in #AI and hardware, what once seemed like science fiction is becoming reality. But where is this revolution headed? 
-Tackling the labor shortage, especially in manufacturing, is only one example that shows #WhatTechCanDo for our future. We’ve identified two potential scenarios for the use of humanoid robots:
-1️⃣  A future where they’re universally applicable by 2030, transforming industries and creating new revenue streams.
-2️⃣  Or a more conservative path, where they remain niche, generating moderate growth.
-The trajectory hinges on overcoming critical obstacles, from advancing hardware like #Actuators and power systems to achieving full-stack software development with AI and #MachineLearning. 📌 
-💡 Want to learn more? Download our study for deeper insights and meet our experts at #CES2025 to discuss how these technologies can reshape industries and tackle labor gaps: 
-➡️ https://lnkd.in/dSpDT8uT
-#RolandBerger
-29
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/akashr001_ai-artificialintelligence-robotics-activity-7464971154986823680-n2dV
-DATE: 2026-05-30
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a significant achievement in robotics, raises a thought-provoking question, and encourages audience engagement, making it a high-value conversation starter.
-AI COMMENT:
-The milestone achieved by this humanoid robot is indeed impressive, and its reliability in performing repetitive tasks is a game-changer. What's also noteworthy is how AI-powered physical systems can learn from their environment and adapt to new tasks over time. As we look to the next decade, which specific aspect of industrial transformation do you think will be most impacted by the convergence of AI, robotics, and the Internet of Things (IoT): efficiency, job displacement, or the creation of new job categories?
+I completely agree that nothing ever goes 100% to plan, especially when working with complex systems like ROS2 robots. Your journey from 'faking' odometry to achieving encoder-based odometry is a great example of the iterative process that defines robotics engineering. The integration of SLAM Toolbox, Nav2 stack, and Explore_Lite is impressive. What do you think is the most significant challenge that robotics engineers face when transitioning from a proof-of-concept prototype to a fully autonomous, reliable system, and how do you plan to address this challenge with your current project?
 TEXT:
 Loaded: 100.00%
 Pause
@@ -36,26 +11,115 @@ Back to start
 Current Time 
 0:01/
 Duration 
-0:46
+0:22
 Show Captions
 Unmute
 Fullscreen
-Akash R
-3d
-🤖 A humanoid robot working continuously for 200 hours and inspecting 249,560 packages is more than a robotics milestone—it's a glimpse into how AI-powered physical systems are transforming operations.
-What's fascinating isn't just the scale of work completed, but the consistency, endurance, and reliability these systems can bring to repetitive tasks.
-As AI evolves from software assistants to physical workers, a key question emerges:
-Which industries will experience the biggest transformation from AI-powered humanoid robots over the next decade?
-I'd love to hear your thoughts.
-#AI #ArtificialIntelligence #Robotics #FigureAI #HumanoidRobots #Automation #FutureOfWork #Innovation #Technology 
+Armel Nene JR
+8mo  Edited
+One thing I’ve learned building my own ROS2 robot is that nothing ever goes 100% to plan, why? I didn’t want to buy a pre-built turtle bot robot and figured this would let me dip in all areas of engineering and guess what. It did. 
+When I first set out to create a ROS 2 Humble-based mobile robot, the vision was clear: 
+Raspberry Pi 4 for brains, Arduino with encoders for odometry, and an LD14 LiDAR to map the world (I quickly found out LIDAR sensors aren’t so cheap). On paper? Simple. In practice? A real engineering adventure.
+At the start, I had to “fake” odometry just to get SLAM Toolbox running. Watching the LiDAR draw a live map reminded me of building a ROS1 robot during my university days. But the real breakthrough came when I finally got encoder-based odometry working—suddenly the robot wasn’t guessing, it knew where it was.
+Then came the plot twist: the base literally cracked under testing, I decided to get stronger motors which were x4 heavier and the shaft was much larger. At first it felt like a disaster, but it turned into one of the best parts of the project. I fired up the 3D printer, redesigned the mountings, and ended up with a stronger, modular platform that made iterating so much easier. (As well as some help off the time help from friends to make the new shaft sleeves) 
+Since then, I’ve integrated:
+	•	SLAM Toolbox for real-time mapping
+	•	Nav2 stack for autonomous path planning and obstacle avoidance
+	•	Explore_Lite for full autonomous exploration
+	•	A web dashboard for remote monitoring and control
+It’s been a crash course in ROS2 and seeing all the changes —balancing low-level hardware with high-level autonomy. Every problem, from TF transform errors to busted parts, became an opportunity to learn, rebuild, and move forward.
+📚 Along the way, I’ve been reading “A Concise Introduction to Robot Programming with ROS2” by Francisco Martín Rico (Though I accidentally bought the first version). The book has been an incredible companion to the build, helping me connect the theory with the hands-on work I was doing. I’m still reading and learning from it now, and it continues to push my understanding forward.
+Also the change in the URDF using comma separated links in the definition was a really annoying change but I can see the benefit in hindsight. Open Robotics  
+Excited to keep pushing this platform further — and to connect with others working in ROS 2, autonomous navigation, or robotics integration.
+#ROS2 #SLAM #Nav2 #RoboticsEngineering #AutonomousNavigation #3DPrinting #RaspberryPi4 #Arduino #LiDAR #Engineering #LearningByDoing #embedded #roboticsUK #iet #London #LondonRobotics
+Also thanks Rob Hawkes Aaron Pinto Jorge Porcel Bustamante Alex Griffiths for helping and collaborating on the little snags along the way!
 …more
-2
+738
+32 Comments
 Like
 Comment
 Share
 Transcript
 Transcript
-7654321.
+If you can drive a motor, you can read an encoder. If you can read an encoder, you can make odometry. If you can make odometry, you can streamline DAR. If you can stream Lidar, you can build a map. If you can build a map, you can tie it all together and telling navigate. And if you can navigate with NAV two, you can explore autonomously. And you've just built a Ross 2 robot.
+Ali Rezazadeh
+8mo
+It seems like an amazing adventure. As a rookie at the beginning of this journey I'd like to know what are the best resources to learn ROS🙏🙏🙏🙏
+Like
+Reply
+Sai Kishore
+8mo
+Really inspiring, Armel Nene JR 🚀! Loved how you broke down the whole journey from faking odometry to integrating SLAM Toolbox, Nav2, and Explore_Lite. The way you turned setbacks like cracked bases and sensor costs into opportunities shows true engineering grit. ROS2 is complex, and seeing your modular approach plus 3D printing integration really highlights how learning by doing creates powerful outcomes. Excited to see how you keep pushing this platform further!
+Like
+Reply
+Syed Shayon Khaled
+Robotics | Mechanical | Electronics
+8mo
+I took the same approach as well, making my own take on Turtlebot instead of starting with an off-the-shelf platform. I think everyone getting into ROS should try to do this at least once - because even if I were to be working on the software side strictly, it would make my life a lot easier if I had basic understanding of how everything works on the hardware side as well.
+Like
+Reply
+Francisco Martín Rico
+8mo
+I am happy to have contributed to your awesome work with my book 🤓!!
+Like
+Reply
+2 Reactions
+TIMOTHY AYELAGBE
+8mo
+Great work Armel Nene JR
+Like
+Reply
+1 Reaction
+Peter Tran
+8mo
+As someone who’s tried to build a ROS2 robot without following a simple turtlebot guide, this is insane
+Like
+Reply
+Seyed Mohammadhadi Rahavi
+7mo
+Wow, Armel, your journey is truly inspiring! How did you prioritize which challenges to tackle first?
+Insights resonate keen to link
+Like
+Reply
+1 Reaction
+Aaqib Khan
+8mo
+Nice poetry...
+Like
+Reply
+Iliya Baladastian
+8mo
+Nice 🔥
+Like
+Reply
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/alejandra-yonet-garza-delano%C3%A9-3b3191214_robotics-ros2-autonomoussystems-activity-7439020453056323584--1qQ
+DATE: 2026-05-30
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post discusses a specific technical topic, robotics perception and navigation in ROS2, and provides details about the author's experience with a learning repository, making it a good opportunity to add value and showcase expertise.
+AI COMMENT:
+I appreciate the detailed walkthrough of the robovison_ros2 repository, Alejandra. The connection between perception and motion is indeed a crucial aspect of robotics development. One aspect that I've found particularly interesting is the integration of machine learning models with sensor data for more accurate obstacle detection. What are your thoughts on the potential applications of deep learning in enhancing robot navigation, and how do you see this evolving in the ROS2 ecosystem?
+TEXT:
+Alejandra Yonet Garza Delanoé
+2mo  Edited
+This week I spent some time working through a robotics learning repository focused on perception and navigation in ROS2.
+I followed a series of exercises from the open source project robovison_ros2 by (ARTenshi). The repository walks through different steps of working with RGB-D sensors, point clouds, and robot navigation using ROS2.
+While working through the exercises I explored things like:
+- Reading RGB-D data and point clouds from ROS bag 
+- Extracting useful spatial information from the cloud like central points and distances
+- understanding how perceptions data can be used for robot decisions 
+- Building a simple reactive navigation behaivor
+One of the interesting parts of the exercises was connecting perception with motion, using sensor data to determinate whether the robot should move forward or rotate to avoid obstacles.
+Thanks to the author for sharing the repository and exercises openly.
+https://lnkd.in/e_2QWeiM 
+#Robotics #ROS2 #AutonomousSystems #RoboticsLearning
+4
+Like
+Comment
+Share
 To view or add a comment, sign in
 ================================================================================
 
