@@ -1,6 +1,3 @@
-https://www.linkedin.com/posts/digital-info-station_ai-agents-vs-agentic-ai-whats-the-real-activity-7462594181249527808-chap
-https://www.linkedin.com/posts/boston-dynamics_welcome-to-boston-dynamics-university-our-activity-7381335278814392320-Lfc9
-=== RUN ===
 https://www.linkedin.com/posts/boston-consulting-group_intelligent-robotics-is-reshaping-industrial-activity-7369293194716475398-W3Pn
 https://www.linkedin.com/posts/ai-ml-engineering-aiproductstack_a-glimpse-into-the-next-phase-of-industrial-activity-7437472274070351872-7IYS
 === RUN ===
@@ -28,3 +25,6 @@ https://www.linkedin.com/posts/akashr001_ai-artificialintelligence-robotics-acti
 === RUN ===
 https://www.linkedin.com/posts/armel-nene-jr_ros2-slam-nav2-activity-7375521929706758144-fMQh
 https://www.linkedin.com/posts/alejandra-yonet-garza-delano%C3%A9-3b3191214_robotics-ros2-autonomoussystems-activity-7439020453056323584--1qQ
+=== RUN ===
+https://www.linkedin.com/posts/hrwc_hrwc2026-humanoids-ai-activity-7390761014780350464-487e
+https://www.linkedin.com/posts/tomgreenasianroboticsreview_robotics-humanoidrobots-engineering-activity-7465444074544660481-S_wB

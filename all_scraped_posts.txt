@@ -1,9 +1,9 @@
-LINK: https://www.linkedin.com/posts/armel-nene-jr_ros2-slam-nav2-activity-7375521929706758144-fMQh
-DATE: 2026-05-30
+LINK: https://www.linkedin.com/posts/hrwc_hrwc2026-humanoids-ai-activity-7390761014780350464-487e
+DATE: 2026-05-31
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post is a detailed, personal account of building a ROS2 robot, showcasing thought leadership, technical insights, and a willingness to learn from failures, making it ideal for adding value through a well-crafted comment.
+SCORE: 9/10 - The post is about a high-profile robotics championship, highlighting innovation and real-world applications, making it a great opportunity for thought leadership and technical discussion.
 AI COMMENT:
-I completely agree that nothing ever goes 100% to plan, especially when working with complex systems like ROS2 robots. Your journey from 'faking' odometry to achieving encoder-based odometry is a great example of the iterative process that defines robotics engineering. The integration of SLAM Toolbox, Nav2 stack, and Explore_Lite is impressive. What do you think is the most significant challenge that robotics engineers face when transitioning from a proof-of-concept prototype to a fully autonomous, reliable system, and how do you plan to address this challenge with your current project?
+The Humanoid Robotics World Championship is an exciting development for the field, bringing together pioneers and visionaries to tackle real-world problems. I'm particularly intrigued by the potential for humanoids to redefine 'intelligent machines' in areas like rescue, healthcare, and human interaction. What do you think will be the most significant challenge for humanoid robots to overcome in order to achieve widespread adoption and make a meaningful impact on society?
 TEXT:
 Loaded: 100.00%
 Pause
@@ -11,115 +11,75 @@ Back to start
 Current Time 
 0:01/
 Duration 
-0:22
+0:38
 Show Captions
 Unmute
 Fullscreen
-Armel Nene JR
-8mo  Edited
-One thing I’ve learned building my own ROS2 robot is that nothing ever goes 100% to plan, why? I didn’t want to buy a pre-built turtle bot robot and figured this would let me dip in all areas of engineering and guess what. It did. 
-When I first set out to create a ROS 2 Humble-based mobile robot, the vision was clear: 
-Raspberry Pi 4 for brains, Arduino with encoders for odometry, and an LD14 LiDAR to map the world (I quickly found out LIDAR sensors aren’t so cheap). On paper? Simple. In practice? A real engineering adventure.
-At the start, I had to “fake” odometry just to get SLAM Toolbox running. Watching the LiDAR draw a live map reminded me of building a ROS1 robot during my university days. But the real breakthrough came when I finally got encoder-based odometry working—suddenly the robot wasn’t guessing, it knew where it was.
-Then came the plot twist: the base literally cracked under testing, I decided to get stronger motors which were x4 heavier and the shaft was much larger. At first it felt like a disaster, but it turned into one of the best parts of the project. I fired up the 3D printer, redesigned the mountings, and ended up with a stronger, modular platform that made iterating so much easier. (As well as some help off the time help from friends to make the new shaft sleeves) 
-Since then, I’ve integrated:
-	•	SLAM Toolbox for real-time mapping
-	•	Nav2 stack for autonomous path planning and obstacle avoidance
-	•	Explore_Lite for full autonomous exploration
-	•	A web dashboard for remote monitoring and control
-It’s been a crash course in ROS2 and seeing all the changes —balancing low-level hardware with high-level autonomy. Every problem, from TF transform errors to busted parts, became an opportunity to learn, rebuild, and move forward.
-📚 Along the way, I’ve been reading “A Concise Introduction to Robot Programming with ROS2” by Francisco Martín Rico (Though I accidentally bought the first version). The book has been an incredible companion to the build, helping me connect the theory with the hands-on work I was doing. I’m still reading and learning from it now, and it continues to push my understanding forward.
-Also the change in the URDF using comma separated links in the definition was a really annoying change but I can see the benefit in hindsight. Open Robotics  
-Excited to keep pushing this platform further — and to connect with others working in ROS 2, autonomous navigation, or robotics integration.
-#ROS2 #SLAM #Nav2 #RoboticsEngineering #AutonomousNavigation #3DPrinting #RaspberryPi4 #Arduino #LiDAR #Engineering #LearningByDoing #embedded #roboticsUK #iet #London #LondonRobotics
-Also thanks Rob Hawkes Aaron Pinto Jorge Porcel Bustamante Alex Griffiths for helping and collaborating on the little snags along the way!
+Humanoid World Championship 2026
+Humanoid Robotics World Championship
+222 followers
+6mo  Edited
+🎥 The Future Has a Human Shape.
+What if the next global competition isn’t between nations — but between humanoids?
+In September 2026, the world will gather in Zurich, Switzerland for the first Humanoid Robotics World Championship (HRWC) —
+a global stage where science meets industry, and machines are challenged to solve real-world problems.
+From industrial inspection and logistics to rescue, healthcare, and human interaction, the HRWC unites robotics pioneers, startups, universities, and visionaries from across the world.
+💡 This is more than a competition. It’s a movement — a chance to define what “intelligent machines” truly mean for humanity.
+👉 Join the journey.
+ Follow us, share this video, and be part of the new chapter in robotics.
+🌐 www.humanoidroboticswc.com
+ #HRWC2026 #Humanoids #AI #Robotics #Innovation #Zurich #FutureOfWork #TechnologyLeadership #LinkedInPremium
+
+🎥 未来的形状，是人的形状。
+如果下一场全球竞赛，不是国家之间，而是——人形机器人之间？
+2026年9月，全球目光将汇聚瑞士苏黎世，
+ 迎来首届 人形机器人世界锦标赛（HRWC）。
+这是一个科学与产业相遇的平台，
+ 在这里，机器人将面对真实世界的挑战：
+ 从工业检测与物流，到救援、医疗与人机互动。
+💡 这不仅是一场竞赛，更是一场全球运动。
+ 一次重新定义“智能机器”对人类意义的契机。
+👉 关注我们，分享这段视频，
+ 加入这场改变未来的旅程。
+🌐 www.humanoidroboticswc.com
+ #HRWC2026 #人形机器人 #人工智能 #创新 #未来工作 #科技领导力 #瑞士苏黎世 #LinkedInPremium
+
 …more
-738
-32 Comments
+13
 Like
 Comment
 Share
 Transcript
 Transcript
-If you can drive a motor, you can read an encoder. If you can read an encoder, you can make odometry. If you can make odometry, you can streamline DAR. If you can stream Lidar, you can build a map. If you can build a map, you can tie it all together and telling navigate. And if you can navigate with NAV two, you can explore autonomously. And you've just built a Ross 2 robot.
-Ali Rezazadeh
-8mo
-It seems like an amazing adventure. As a rookie at the beginning of this journey I'd like to know what are the best resources to learn ROS🙏🙏🙏🙏
-Like
-Reply
-Sai Kishore
-8mo
-Really inspiring, Armel Nene JR 🚀! Loved how you broke down the whole journey from faking odometry to integrating SLAM Toolbox, Nav2, and Explore_Lite. The way you turned setbacks like cracked bases and sensor costs into opportunities shows true engineering grit. ROS2 is complex, and seeing your modular approach plus 3D printing integration really highlights how learning by doing creates powerful outcomes. Excited to see how you keep pushing this platform further!
-Like
-Reply
-Syed Shayon Khaled
-Robotics | Mechanical | Electronics
-8mo
-I took the same approach as well, making my own take on Turtlebot instead of starting with an off-the-shelf platform. I think everyone getting into ROS should try to do this at least once - because even if I were to be working on the software side strictly, it would make my life a lot easier if I had basic understanding of how everything works on the hardware side as well.
-Like
-Reply
-Francisco Martín Rico
-8mo
-I am happy to have contributed to your awesome work with my book 🤓!!
-Like
-Reply
-2 Reactions
-TIMOTHY AYELAGBE
-8mo
-Great work Armel Nene JR
-Like
-Reply
-1 Reaction
-Peter Tran
-8mo
-As someone who’s tried to build a ROS2 robot without following a simple turtlebot guide, this is insane
-Like
-Reply
-Seyed Mohammadhadi Rahavi
-7mo
-Wow, Armel, your journey is truly inspiring! How did you prioritize which challenges to tackle first?
-Insights resonate keen to link
-Like
-Reply
-1 Reaction
-Aaqib Khan
-8mo
-Nice poetry...
-Like
-Reply
-Iliya Baladastian
-8mo
-Nice 🔥
-Like
-Reply
-See more comments
+The future of robotics. Starts here. In 2026, the world's leading robotics companies will face the ultimate test, the Humanoid Robotics World Championship in Zurich, a global stage for courage, innovation and real world performance. Will your robots compete? Will your company rise to the challenge? Join us in Switzerland 2026. Be part of history.
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/alejandra-yonet-garza-delano%C3%A9-3b3191214_robotics-ros2-autonomoussystems-activity-7439020453056323584--1qQ
-DATE: 2026-05-30
+LINK: https://www.linkedin.com/posts/tomgreenasianroboticsreview_robotics-humanoidrobots-engineering-activity-7465444074544660481-S_wB
+DATE: 2026-05-31
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a specific technical topic, robotics perception and navigation in ROS2, and provides details about the author's experience with a learning repository, making it a good opportunity to add value and showcase expertise.
+SCORE: 8/10 - The post discusses a complex technical topic and invites deeper conversation on humanoid robots, making it a high-value opportunity for thoughtful commentary.
 AI COMMENT:
-I appreciate the detailed walkthrough of the robovison_ros2 repository, Alejandra. The connection between perception and motion is indeed a crucial aspect of robotics development. One aspect that I've found particularly interesting is the integration of machine learning models with sensor data for more accurate obstacle detection. What are your thoughts on the potential applications of deep learning in enhancing robot navigation, and how do you see this evolving in the ROS2 ecosystem?
+I completely agree with your assessment of the complexity of humanoid robots, Tom. The integration of robotics, physics, and material science indeed presents significant challenges. However, I'd like to add that advancements in areas like soft robotics and biomimicry might offer novel solutions to some of these problems. For instance, using soft actuators could potentially simplify the balance and movement aspects. Looking ahead, what role do you envision artificial intelligence playing in the development of more autonomous and adaptive humanoid robots, especially in dynamic, real-world environments?
 TEXT:
-Alejandra Yonet Garza Delanoé
-2mo  Edited
-This week I spent some time working through a robotics learning repository focused on perception and navigation in ROS2.
-I followed a series of exercises from the open source project robovison_ros2 by (ARTenshi). The repository walks through different steps of working with RGB-D sensors, point clouds, and robot navigation using ROS2.
-While working through the exercises I explored things like:
-- Reading RGB-D data and point clouds from ROS bag 
-- Extracting useful spatial information from the cloud like central points and distances
-- understanding how perceptions data can be used for robot decisions 
-- Building a simple reactive navigation behaivor
-One of the interesting parts of the exercises was connecting perception with motion, using sensor data to determinate whether the robot should move forward or rotate to avoid obstacles.
-Thanks to the author for sharing the repository and exercises openly.
-https://lnkd.in/e_2QWeiM 
-#Robotics #ROS2 #AutonomousSystems #RoboticsLearning
-4
+Tom Green
+3d
+ARE WORK BOOTS ENOUGH FOR A HUMANOID?
+Humanoid robots at the hard intersection of robotics, physics, and material science.
+Under the hood of a humanoid. Yikes!
+“Where every joint is its own system. Every sensor is another layer of complexity. Every movement requires precision, balance, power control, and real-time decision making.”   MORE
+https://lnkd.in/dyTiFVQh
+#Robotics #HumanoidRobots #Engineering #AI #Automation #EmbeddedSystems #Technology
+3
+1 Comment
 Like
 Comment
 Share
+Walter C.
+2d
+And this is just the beginning of problems arising when trying to use robots in the field. Just think of social impact, like robot gender & their relations to humans, see family, friends, households, child & elderly care, etc.
+Like
+Reply
 To view or add a comment, sign in
 ================================================================================
 
