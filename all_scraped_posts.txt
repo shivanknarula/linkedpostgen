@@ -1,60 +1,107 @@
-LINK: https://www.linkedin.com/posts/brownstone-researchllc_humanoid-robots-are-entering-mass-production-activity-7465741363217608704-1Rjh
+LINK: https://www.linkedin.com/posts/ustat-singh-6883b2325_ros2-robotics-gazebosimulation-activity-7465863077394264064-8tmJ
 DATE: 2026-06-01
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a significant trend in humanoid robotics, with major companies investing in manufacturing infrastructure, indicating a high level of thought leadership and industry insight.
+SCORE: 9/10 - The post demonstrates thought leadership, shares a deep technical discussion, and provides a valuable resource (GitHub link) for others to learn from, making it an ideal opportunity to add value with a comment.
 AI COMMENT:
-The rapid advancement of humanoid robots into mass production is indeed a remarkable development, and it's interesting to see how this will disrupt various industries. One aspect to consider is how the standardization of manufacturing processes for these robots will impact their ability to learn and adapt in real-world environments. What do you think will be the most significant challenge for companies looking to integrate humanoid robots into their operations, and how can they overcome it?
+Ustat, your work on upgrading your robot simulation to incorporate multi-sensor fusion is impressive and highlights a crucial aspect of robotics development. The integration of camera, LiDAR, and IMU sensors, coupled with managing TF2 transform trees and bridging Gazebo topics to ROS2, showcases a comprehensive understanding of the complexities involved in sensor fusion. What challenges do you foresee in translating these simulations into real-world applications, especially considering factors like sensor calibration and noisy data from various environmental conditions?
 TEXT:
-Loaded: 4.15%
+Loaded: 100.00%
 Pause
 Back to start
 Current Time 
 0:01/
 Duration 
-0:52
+0:36
 Unmute
 Fullscreen
-Humanoid Robots Are Entering Mass Production Faster Than Expected
-Brownstone Research
-319 followers
+Ustat Singh
 3d
-Humanoid robotics is moving from prototype to production.
-.
-Major companies are now investing billions into manufacturing infrastructure designed to scale intelligent robots at unprecedented levels.
-.
-2026 may be remembered as the year humanoid robots entered the real world at scale.
-.
-👉 Explore the full breakdown at jeffbrownsbleedingedge.com
-📩 For more insights like this, subscribe to Jeff's daily e-letter The Bleeding Edge.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-#WealthBuilding #stocks #stockmarket #investing #AIStocks #Robotics #ArtificialIntelligence #TechInvesting #Innovation #HighGrowth #FutureOfWork #Automation
+From a single camera to full sensor fusion — here's how I upgraded my robot simulation.
+A few weeks ago I built my first ROS2 robot simulation with just a camera sensor. It worked — but a real robot doesn't perceive the world through one sensor alone.
+So I went back and upgraded it.
+🏭 Multi-Sensor Warehouse Robot Simulation
+Same robot. Completely new capabilities.
+I integrated 3 sensors running simultaneously:
+📷 Camera — Live RGB image stream
+📡 LiDAR — 360° laser scanning, 12m range, visualized as a live point cloud
+📐 IMU — Orientation & acceleration tracking at 50Hz with realistic noise simulation
+The world was upgraded to a full warehouse environment — walls, industrial shelves, stacked boxes and ceiling lighting — making the sensor data actually meaningful.
+🔧 What I learned:
+→ Managing TF2 transform trees across multiple sensor frames
+→ Bridging Gazebo topics to ROS2 using ros_gz_bridge
+→ Tuning sensor noise for realistic simulation
+🛠️ Stack: ROS2 Jazzy • Gazebo Harmonic • RViz2 • URDF/Xacro • ros_gz_bridge • tf2_ros
+🔗 GitHub: https://lnkd.in/gT6RTxwp
+#ROS2 #Robotics #GazeboSimulation #RViz2 #LiDAR #IMU #SensorFusion #RoboticsEngineering #URDF
 …more
+62
+2 Comments
 Like
 Comment
 Share
+Ayush .
+3d
+Keep learning 🫡
+Like
+Reply
+2 Reactions
+Kaustuk Pratap Singh
+2d
+Good work 👏
+Like
+Reply
+1 Reaction
+See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/regaldi-ai_beyondexpo-robotics-ai-activity-7465668279026479106-9YNa
+LINK: https://www.linkedin.com/posts/autonomousmechatronics_what-happens-when-artificial-intelligence-activity-7466194990046769152-xgB7
 DATE: 2026-06-01
 METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - The post shares industry news and mentions a significant development in robotics, but it's a relatively standard update without a deep technical discussion or controversial take.
+SCORE: 9/10 - The post is a thought leadership piece discussing the transformation of industrial automation with AI, Machine Vision, Robotics, and IIoT, and introduces a unique framework (D³ Framework).
 AI COMMENT:
-It's great to see Matrix Robotics pushing the boundaries of human-robot collaboration. The introduction of their humanoid robot has the potential to significantly impact manufacturing and beyond. I'm curious, what role do you think AI will play in ensuring the seamless interaction between humans and robots in these collaborative environments, and how might this change the face of industries like manufacturing?
+I completely agree with your assertion that we're transitioning from 'automated' to 'autonomous' systems in industrial settings, Lokesh. The D³ Framework you've introduced offers a structured approach to understanding this shift. I'm particularly intrigued by the 'Decode' aspect, as extracting hidden intelligence from machine behavior can be a complex task. What role do you envision edge computing and real-time data processing playing in the 'Decode' phase, especially as industries handle increasingly large amounts of sensor data?
 TEXT:
-Regaldi.ai
-260 followers
-4d
-At the #BeyondExpo in Macau, Matrix Robotics CEO Allen Zhang discussed the company’s strategic roadmap for introducing their humanoid robot to the world. From refined manufacturing timelines to market readiness, Matrix Robotics is proving that human-robot collaboration is becoming reality. Exciting times ahead for the robotics industry. #Robotics #AI #Manufacturing #Technology #Leadership
-https://lnkd.in/dsi--w68
+Autonomous Mechatronics Private Limited
+463 followers
+2d
+https://lnkd.in/dEYz7XaJ
+Lokesh Patel
+2d
+Industrial Automation is no longer just about machines, PLCs, and repetitive tasks. 
+We are entering an era where AI, Machine Vision, Robotics, IIoT, and intelligent systems are transforming industries from “automated” to “autonomous.”
+In this TEDx talk, I introduce the D³ Framework:
+🔹 Decode — Learn how industries extract hidden intelligence from data, sensors, and machine behaviour.
+🔹 Design — Discover how AI-powered systems, vision technologies, and smart automation are reshaping manufacturing and decision-making.
+🔹 Disrupt — Understand how the future belongs to autonomous industrial ecosystems driven by Artificial Intelligence and Machine Learning.
+Key topics covered in this talk:
+• Industrial Automation & AI/ML
+• Machine Vision Systems
+• IIoT & Smart Factories
+• Robotics & Cobots
+• Autonomous Industrial Automation
+• Data-Driven Manufacturing
+• Predictive Intelligence
+• Human + AI Collaboration
+• Future of Industry 4.0 & Beyond
+Some of the most powerful ideas from the session:
+⚡ “Earlier, we programmed machines. Now, we train them.”
+⚡ “Decode what others ignore. Design what others can’t imagine. Disrupt what others accept.”
+⚡ “Automation without vision is incomplete.”
+This talk is for:
+• Engineers
+• Industrial Automation Professionals
+• Students & Innovators
+• AI/ML Enthusiasts
+• Manufacturing Leaders
+• Future Technologists
+Lokesh Patel is a self-made entrepreneur and technology leader working at the forefront of automation, robotics, and the Industrial Internet of Things (IIoT). With a degree in Electronics and Telecommunication, he began his entrepreneurial journey at the age of 24, building ventures from the ground up through technical expertise, resilience, and vision. This talk was given at a TEDx event using the TED conference format but independently organized by a local community. Learn more at https://www.ted.com/tedx
+If you enjoyed the talk, do like, share, and subscribe for more content on Industrial Automation, Robotics, AI, Vision Systems, and future technologies shaping tomorrow’s industries.
+#TEDx #IndustrialAutomation #AI #MachineLearning #Industry40 #SmartFactory #Robotics #IIoT #Automation #Innovation #FutureTechnology #ArtificialIntelligence #MachineVision
+
+https://lnkd.in/dDswJ_y9
+What happens when Artificial Intelligence meets Industrial Automation? | Lokesh Patel | TEDxBBAU
+https://www.youtube.com/
 Like
 Comment
 Share
