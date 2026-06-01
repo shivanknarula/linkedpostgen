@@ -1,6 +1,3 @@
-https://www.linkedin.com/posts/boston-consulting-group_intelligent-robotics-is-reshaping-industrial-activity-7369293194716475398-W3Pn
-https://www.linkedin.com/posts/ai-ml-engineering-aiproductstack_a-glimpse-into-the-next-phase-of-industrial-activity-7437472274070351872-7IYS
-=== RUN ===
 https://www.linkedin.com/posts/leosu2025_is-the-matthew-effect-in-humanoid-robotics-activity-7427411180249522176-gEUJ
 https://www.linkedin.com/posts/humanoid-robotics-weekly_last-weeks-theme-12-18-may-2026-the-activity-7462098836367233024-L4yF
 === RUN ===
@@ -28,3 +25,6 @@ https://www.linkedin.com/posts/alejandra-yonet-garza-delano%C3%A9-3b3191214_robo
 === RUN ===
 https://www.linkedin.com/posts/hrwc_hrwc2026-humanoids-ai-activity-7390761014780350464-487e
 https://www.linkedin.com/posts/tomgreenasianroboticsreview_robotics-humanoidrobots-engineering-activity-7465444074544660481-S_wB
+=== RUN ===
+https://www.linkedin.com/posts/brownstone-researchllc_humanoid-robots-are-entering-mass-production-activity-7465741363217608704-1Rjh
+https://www.linkedin.com/posts/regaldi-ai_beyondexpo-robotics-ai-activity-7465668279026479106-9YNa
