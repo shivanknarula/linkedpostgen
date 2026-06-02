@@ -1,74 +1,51 @@
-LINK: https://www.linkedin.com/posts/humanoid-robotics-weekly_boston-dynamics-atlas-training-methodology-activity-7465718531678994432-AO9O
+LINK: https://www.linkedin.com/posts/robotics-24-7_behind-the-scenes-of-how-boston-dynamics-activity-7465040167196835844-shtD
 DATE: 2026-06-02
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post provides in-depth analysis and technical insights into Boston Dynamics' Atlas training methodology, making it a high-value discussion with potential for meaningful comments.
+SCORE: 8/10 - The post discusses a specific and technical topic in robotics, namely the training of humanoid robots, which is an area of interest for experts and thought leaders in the field.
 AI COMMENT:
-Kudos to Boston Dynamics for pushing the boundaries of humanoid robotics with their Atlas training methodology disclosure. The use of domain randomisation and reinforcement learning to achieve load carrying capabilities without visual object identification is particularly impressive. I'd love to know more about how the team plans to address potential real-world challenges such as navigating uneven terrain or handling unexpected payload shifts. What are the most significant hurdles that the Boston Dynamics team anticipates overcoming as they move towards deploying Atlas in the Hyundai Motor Group Metaplant America by 2028?
+I appreciate the insight into Boston Dynamics' training methods for the Atlas humanoid robot. The use of complex tasks such as moving heavy objects to improve the robot's autonomy is particularly noteworthy. One aspect that I find intriguing is the potential application of such training methods to other areas of robotics, such as search and rescue or industrial automation. What do you think is the most significant challenge in scaling these training methods to more complex and dynamic environments?
 TEXT:
-Humanoid Robotics Weekly
-26 followers
-4d
-Boston Dynamics — Atlas training methodology disclosure · 18 May
-Boston Dynamics published two videos and a technical blog detailing how the all-electric Atlas learned to lift and carry loads of more than 100 pounds without relying on visual object identification. The published demonstration shows Atlas moving a 50-pound mini-fridge across a lab; the company states that internal testing pushed the same reinforcement-learning policy to loads exceeding 100 pounds with the fridge loaded with shifting objects of uneven distribution. The policy was trained in simulation on 50-to-70 pound loads using domain randomisation, then deployed to physical hardware without task-specific tuning. The disclosure names the engineers behind the work for the first time.
-Why now: 
-The post arrives as parent Hyundai Motor Group commits to deploy Atlas at the Hyundai Motor Group Metaplant America from 2028 with a stated 30,000-unit-per-year production target by that year, and as the Robotics Summit and Expo in Boston on 27 and 28 May begins. Methodology disclosure builds the credibility runway for those commitments. It also positions Boston Dynamics against Figure AI's livestream activity, which has been claiming similar zero-intervention runtime through the same week.
-What they're not saying: 
-All Atlas production for 2026 remains fully allocated to Hyundai and Google DeepMind, which means the disclosure describes capability the wider market cannot yet procure. The mini-fridge demo was filmed in a controlled lab environment with a known floor surface and engineer supervision; the 100-pound generalisation claim is company-stated and has not been independently reproduced. Atlas's certified payload remains 110 pounds, so the 100-pound result sits just under the rated maximum rather than expanding it.
-Our take: 
-Methodology disclosure is becoming the new product launch in the Western humanoid sector. Boston Dynamics is now publishing how Atlas learns rather than what it does, which is a different kind of credibility play and one that lands more durably with the engineering buyers Hyundai will eventually need to convince.
-2
+Robotics 24/7
+4,689 followers
+6d
+Boston Dynamics provided details on how the company trains its Atlas humanoid robot to perform complex tasks, such as moving heavy objects around a location.  
+Behind the scenes of how Boston Dynamics trains the Atlas humanoid robot
+robotics247.com
+3
 Like
 Comment
 Share
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/humanoid-robotics-technology_reflex-robotics-arvato-humanoid-robot-activity-7440759468587520000-5Mdb
+LINK: https://www.linkedin.com/posts/smita-swami-3545322a7_ros2-robotics-robotry-activity-7467080905090682881-raHI
 DATE: 2026-06-02
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post showcases cutting-edge humanoid robotics technology and invites discussion on its applications and potential advancements.
+SCORE: 6/10 - The post shares a personal experience of completing a ROS 2 workshop, which is a specific and technical topic, but it's more of a personal achievement post rather than a thought leadership or deep technical discussion.
 AI COMMENT:
-I completely agree with Karthikeyan Subbiyan's point about questioning the need for human-like robots in material handling. The demonstration by Reflex Robotics is indeed impressive. However, as we push the boundaries of humanoid robotics, we must consider factors like flexibility, adaptability, and cost-effectiveness. For instance, adding multiple limbs to a robot could significantly enhance its capabilities, but it also increases complexity and potential points of failure. What are your thoughts on the trade-offs between robotic dexterity and simplicity in achieving efficient material handling?
+Congratulations on completing the ROS 2 workshop, Smita. It's great that you had a hands-on experience with the Robot Operating System 2, which is a crucial skill for any robotics engineer. One aspect that I've found particularly interesting in my own work with ROS 2 is the potential for integrating it with other autonomous systems, such as drones or autonomous vehicles. What are your thoughts on the applications of ROS 2 in edge cases, such as search and rescue operations or environmental monitoring?
 TEXT:
-Loaded: 29.16%
-Pause
-Back to start
-Current Time 
-0:01/
-Duration 
-0:26
-Unmute
-Fullscreen
-Reflex Robotics & Arvato | Humanoid Robot Collaboration
-Humanoid Robotics Technology
-52,315 followers
-2mo
-Reflex Robotics has demonstrated its humanoid robot handling packages with impressive control during operations at Arvato.
-Discover more about the humanoid industry here: https://lnkd.in/eNdkY_-f
-#humanoids #humanoidrobotics #humanoidrobot #humanoid
-…more
-329
-4 Comments
+Smita Swami
+1d
+I am pleased to share that I have successfully completed a 5-Day ROS 2 Workshop conducted by robotry.
+Throughout this workshop, I gained valuable insights into Robot Operating System 2 (ROS 2), including its architecture, communication mechanisms, and practical applications in robotics. The hands-on sessions enhanced my understanding of robot software development and strengthened my interest in autonomous systems and intelligent robotics.
+I would like to thank Robotry and the instructors for organizing such an informative and engaging learning experience.
+Looking forward to applying these skills in my robotics projects and continuing my journey in autonomous mobile robotics.
+
+
+
+#ROS2 #Robotics #Robotry #AutonomousSystems #Learning #Engineering #BTech #RoboticsEngineering #Innovation
+74
+2 Comments
 Like
 Comment
 Share
-Karthikeyan Subbiyan
-2mo
-I always wonder is it required human like robots to handle materials.
-Next, sometimes in conventional material handling we may deploy 2 or more humans. In this sense I may install 4 or more hands to this robots to perform the job faster(alien machines ;-) )
+robotry
+1d
+Congratulations Smita Swami 👏 Keep Learning!
 Like
 Reply
-Humanoid Robotics Technology
-2mo
-Karun Warrior Avadesh Meduri Mateo Mariscal Jason Vasquez Salil Kapur Ritesh Ragavender Michael Noone Sachin Vidyasagaran Lucas Haber Nancy Waters Mike Meyers Bashir Ziady Jacob Levy David Schwebel 
-Like
-Reply
-Heather A. Scott 🇨🇦
-2mo
-Now can we see it at 1x speed?
-Like
-Reply
-See more comments
+1 Reaction
 To view or add a comment, sign in
 ================================================================================
 
