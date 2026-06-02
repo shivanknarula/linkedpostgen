@@ -1,93 +1,57 @@
 url,date,score,reasoning,comment,likes,comments,text
-https://www.linkedin.com/posts/ustat-singh-6883b2325_ros2-robotics-gazebosimulation-activity-7465863077394264064-8tmJ,2026-06-01,9,"The post demonstrates thought leadership, shares a deep technical discussion, and provides a valuable resource (GitHub link) for others to learn from, making it an ideal opportunity to add value with a comment.","Ustat, your work on upgrading your robot simulation to incorporate multi-sensor fusion is impressive and highlights a crucial aspect of robotics development. The integration of camera, LiDAR, and IMU sensors, coupled with managing TF2 transform trees and bridging Gazebo topics to ROS2, showcases a comprehensive understanding of the complexities involved in sensor fusion. What challenges do you foresee in translating these simulations into real-world applications, especially considering factors like sensor calibration and noisy data from various environmental conditions?",0,0,"Loaded: 100.00%
+https://www.linkedin.com/posts/humanoid-robotics-weekly_boston-dynamics-atlas-training-methodology-activity-7465718531678994432-AO9O,2026-06-02,9,"The post provides in-depth analysis and technical insights into Boston Dynamics' Atlas training methodology, making it a high-value discussion with potential for meaningful comments.",Kudos to Boston Dynamics for pushing the boundaries of humanoid robotics with their Atlas training methodology disclosure. The use of domain randomisation and reinforcement learning to achieve load carrying capabilities without visual object identification is particularly impressive. I'd love to know more about how the team plans to address potential real-world challenges such as navigating uneven terrain or handling unexpected payload shifts. What are the most significant hurdles that the Boston Dynamics team anticipates overcoming as they move towards deploying Atlas in the Hyundai Motor Group Metaplant America by 2028?,0,0,"Humanoid Robotics Weekly
+26 followers
+4d
+Boston Dynamics — Atlas training methodology disclosure · 18 May
+Boston Dynamics published two videos and a technical blog detailing how the all-electric Atlas learned to lift and carry loads of more than 100 pounds without relying on visual object identification. The published demonstration shows Atlas moving a 50-pound mini-fridge across a lab; the company states that internal testing pushed the same reinforcement-learning policy to loads exceeding 100 pounds with the fridge loaded with shifting objects of uneven distribution. The policy was trained in simulation on 50-to-70 pound loads using domain randomisation, then deployed to physical hardware without task-specific tuning. The disclosure names the engineers behind the work for the first time.
+Why now: 
+The post arrives as parent Hyundai Motor Group commits to deploy Atlas at the Hyundai Motor Group Metaplant America from 2028 with a stated 30,000-unit-per-year production target by that year, and as the Robotics Summit and Expo in Boston on 27 and 28 May begins. Methodology disclosure builds the credibility runway for those commitments. It also positions Boston Dynamics against Figure AI's livestream activity, which has been claiming similar zero-intervention runtime through the same week.
+What they're not saying: 
+All Atlas production for 2026 remains fully allocated to Hyundai and Google DeepMind, which means the disclosure describes capability the wider market cannot yet procure. The mini-fridge demo was filmed in a controlled lab environment with a known floor surface and engineer supervision; the 100-pound generalisation claim is company-stated and has not been independently reproduced. Atlas's certified payload remains 110 pounds, so the 100-pound result sits just under the rated maximum rather than expanding it.
+Our take: 
+Methodology disclosure is becoming the new product launch in the Western humanoid sector. Boston Dynamics is now publishing how Atlas learns rather than what it does, which is a different kind of credibility play and one that lands more durably with the engineering buyers Hyundai will eventually need to convince.
+2
+Like
+Comment
+Share
+To view or add a comment, sign in"
+https://www.linkedin.com/posts/humanoid-robotics-technology_reflex-robotics-arvato-humanoid-robot-activity-7440759468587520000-5Mdb,2026-06-02,8,The post showcases cutting-edge humanoid robotics technology and invites discussion on its applications and potential advancements.,"I completely agree with Karthikeyan Subbiyan's point about questioning the need for human-like robots in material handling. The demonstration by Reflex Robotics is indeed impressive. However, as we push the boundaries of humanoid robotics, we must consider factors like flexibility, adaptability, and cost-effectiveness. For instance, adding multiple limbs to a robot could significantly enhance its capabilities, but it also increases complexity and potential points of failure. What are your thoughts on the trade-offs between robotic dexterity and simplicity in achieving efficient material handling?",0,0,"Loaded: 29.16%
 Pause
 Back to start
 Current Time 
 0:01/
 Duration 
-0:36
+0:26
 Unmute
 Fullscreen
-Ustat Singh
-3d
-From a single camera to full sensor fusion — here's how I upgraded my robot simulation.
-A few weeks ago I built my first ROS2 robot simulation with just a camera sensor. It worked — but a real robot doesn't perceive the world through one sensor alone.
-So I went back and upgraded it.
-🏭 Multi-Sensor Warehouse Robot Simulation
-Same robot. Completely new capabilities.
-I integrated 3 sensors running simultaneously:
-📷 Camera — Live RGB image stream
-📡 LiDAR — 360° laser scanning, 12m range, visualized as a live point cloud
-📐 IMU — Orientation & acceleration tracking at 50Hz with realistic noise simulation
-The world was upgraded to a full warehouse environment — walls, industrial shelves, stacked boxes and ceiling lighting — making the sensor data actually meaningful.
-🔧 What I learned:
-→ Managing TF2 transform trees across multiple sensor frames
-→ Bridging Gazebo topics to ROS2 using ros_gz_bridge
-→ Tuning sensor noise for realistic simulation
-🛠️ Stack: ROS2 Jazzy • Gazebo Harmonic • RViz2 • URDF/Xacro • ros_gz_bridge • tf2_ros
-🔗 GitHub: https://lnkd.in/gT6RTxwp
-#ROS2 #Robotics #GazeboSimulation #RViz2 #LiDAR #IMU #SensorFusion #RoboticsEngineering #URDF
+Reflex Robotics & Arvato | Humanoid Robot Collaboration
+Humanoid Robotics Technology
+52,315 followers
+2mo
+Reflex Robotics has demonstrated its humanoid robot handling packages with impressive control during operations at Arvato.
+Discover more about the humanoid industry here: https://lnkd.in/eNdkY_-f
+#humanoids #humanoidrobotics #humanoidrobot #humanoid
 …more
-62
-2 Comments
+329
+4 Comments
 Like
 Comment
 Share
-Ayush .
-3d
-Keep learning 🫡
+Karthikeyan Subbiyan
+2mo
+I always wonder is it required human like robots to handle materials.
+Next, sometimes in conventional material handling we may deploy 2 or more humans. In this sense I may install 4 or more hands to this robots to perform the job faster(alien machines ;-) )
 Like
 Reply
-2 Reactions
-Kaustuk Pratap Singh
-2d
-Good work 👏
+Humanoid Robotics Technology
+2mo
+Karun Warrior Avadesh Meduri Mateo Mariscal Jason Vasquez Salil Kapur Ritesh Ragavender Michael Noone Sachin Vidyasagaran Lucas Haber Nancy Waters Mike Meyers Bashir Ziady Jacob Levy David Schwebel 
 Like
 Reply
-1 Reaction
+Heather A. Scott 🇨🇦
+2mo
+Now can we see it at 1x speed?
+Like
+Reply
 See more comments
-To view or add a comment, sign in"
-https://www.linkedin.com/posts/autonomousmechatronics_what-happens-when-artificial-intelligence-activity-7466194990046769152-xgB7,2026-06-01,9,"The post is a thought leadership piece discussing the transformation of industrial automation with AI, Machine Vision, Robotics, and IIoT, and introduces a unique framework (D³ Framework).","I completely agree with your assertion that we're transitioning from 'automated' to 'autonomous' systems in industrial settings, Lokesh. The D³ Framework you've introduced offers a structured approach to understanding this shift. I'm particularly intrigued by the 'Decode' aspect, as extracting hidden intelligence from machine behavior can be a complex task. What role do you envision edge computing and real-time data processing playing in the 'Decode' phase, especially as industries handle increasingly large amounts of sensor data?",0,0,"Autonomous Mechatronics Private Limited
-463 followers
-2d
-https://lnkd.in/dEYz7XaJ
-Lokesh Patel
-2d
-Industrial Automation is no longer just about machines, PLCs, and repetitive tasks. 
-We are entering an era where AI, Machine Vision, Robotics, IIoT, and intelligent systems are transforming industries from “automated” to “autonomous.”
-In this TEDx talk, I introduce the D³ Framework:
-🔹 Decode — Learn how industries extract hidden intelligence from data, sensors, and machine behaviour.
-🔹 Design — Discover how AI-powered systems, vision technologies, and smart automation are reshaping manufacturing and decision-making.
-🔹 Disrupt — Understand how the future belongs to autonomous industrial ecosystems driven by Artificial Intelligence and Machine Learning.
-Key topics covered in this talk:
-• Industrial Automation & AI/ML
-• Machine Vision Systems
-• IIoT & Smart Factories
-• Robotics & Cobots
-• Autonomous Industrial Automation
-• Data-Driven Manufacturing
-• Predictive Intelligence
-• Human + AI Collaboration
-• Future of Industry 4.0 & Beyond
-Some of the most powerful ideas from the session:
-⚡ “Earlier, we programmed machines. Now, we train them.”
-⚡ “Decode what others ignore. Design what others can’t imagine. Disrupt what others accept.”
-⚡ “Automation without vision is incomplete.”
-This talk is for:
-• Engineers
-• Industrial Automation Professionals
-• Students & Innovators
-• AI/ML Enthusiasts
-• Manufacturing Leaders
-• Future Technologists
-Lokesh Patel is a self-made entrepreneur and technology leader working at the forefront of automation, robotics, and the Industrial Internet of Things (IIoT). With a degree in Electronics and Telecommunication, he began his entrepreneurial journey at the age of 24, building ventures from the ground up through technical expertise, resilience, and vision. This talk was given at a TEDx event using the TED conference format but independently organized by a local community. Learn more at https://www.ted.com/tedx
-If you enjoyed the talk, do like, share, and subscribe for more content on Industrial Automation, Robotics, AI, Vision Systems, and future technologies shaping tomorrow’s industries.
-#TEDx #IndustrialAutomation #AI #MachineLearning #Industry40 #SmartFactory #Robotics #IIoT #Automation #Innovation #FutureTechnology #ArtificialIntelligence #MachineVision
-
-https://lnkd.in/dDswJ_y9
-What happens when Artificial Intelligence meets Industrial Automation? | Lokesh Patel | TEDxBBAU
-https://www.youtube.com/
-Like
-Comment
-Share
 To view or add a comment, sign in"
