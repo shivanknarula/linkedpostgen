@@ -1,84 +1,678 @@
-LINK: https://www.linkedin.com/posts/1950-ai_nvidias-isaac-gr00t-humanoid-robot-platform-activity-7467260137913724928-EM_j
+LINK: https://www.linkedin.com/posts/hingoraninaresh_agentic-ai-is-the-new-operating-system-for-activity-7467070034901667840-eCD4
 DATE: 2026-06-02
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a cutting-edge technology, NVIDIA's Isaac GR00T humanoid robot platform, and its potential to revolutionize the field of robotics and AI, making it a high-value topic for Thought Leadership and technical discussion.
+SCORE: 9/10 - Thought leadership on Agentic AI with deep technical insights and a framework for enterprise AI systems
 AI COMMENT:
-The potential of NVIDIA's Isaac GR00T to bring 'physical AI' into the real world is indeed exciting, as it represents a major step forward in integrating AI with robotics. One aspect that caught my attention was the importance of simulation-first training in accelerating humanoid robot development. I'd love to hear more about how the academic institutions are utilizing standardized humanoid platforms to drive innovation - what are some potential applications or breakthroughs that we can expect to see in the near future as a result of this technology?
+Naresh, your framework for Agentic AI systems is comprehensive and insightful, highlighting the shift from 'AI tools' to systems that can perceive, reason, and act. The emphasis on the system around the model, including retrieval pipelines, multi-agent coordination, and governance layers, is particularly valuable. What do you think will be the most significant challenge for enterprises to overcome when integrating Agentic AI into their existing infrastructure, and how can they ensure a seamless transition to this new paradigm?
 TEXT:
-1950.Ai
-1,385 followers
+Naresh Hingorani
 1d
-🤖 NVIDIA’s Isaac GR00T Is Bringing AI Into the Physical World ⚙️
-Artificial intelligence is rapidly evolving beyond chatbots and digital assistants. NVIDIA’s Isaac GR00T humanoid robot platform represents a major leap toward “physical AI,” where intelligent systems can perceive, reason, move, and interact within real-world environments.
-Built with NVIDIA’s Jetson Thor architecture and Unitree Robotics’ humanoid hardware, the platform introduces a unified ecosystem for robotics research, simulation, and embodied AI development.
-🔍 In this fascinating insight, we explore:
-💡 How the Isaac GR00T platform combines robotics hardware with AI-native computing
-💡 The role of simulation-first training in accelerating humanoid robot development
-💡 Why high-dexterity robotic hands and real-time reasoning are critical breakthroughs
-💡 How academic institutions are using standardized humanoid platforms to speed innovation
-💡 The growing importance of “physical AI” in manufacturing, automation, and future industries
-🚀 The next era of artificial intelligence may not live solely in the cloud, it may walk, interact, and operate directly within the physical world.
-👉 Dive into the full article for a deeper understanding of how NVIDIA’s Isaac GR00T platform could reshape robotics research, embodied intelligence, and the future of AI-driven automation: https://lnkd.in/dunUp8iE
-Follow us for more expert insights from Dr.Shahid Masood and the 1950.ai team.
-#ArtificialIntelligence #Robotics #NVIDIA #HumanoidRobots #PhysicalAI #Automation #MachineLearning #EmergingTechnologies #1950ai #DrShahidMasood
-NVIDIA’s Isaac GR00T Humanoid Robot Platform Explained: How a 75-DOF AI Machine Could Redefine Global Robotics Research by Kaixuan Ren
-1950.ai
-4
+Agentic AI Is the New Operating System for Enterprises
+After spending weeks researching enterprise AI systems, autonomous workflows, and production-grade agents, one thing became very clear:
+We are moving beyond “AI tools”
+…into the era of Agentic AI systems.
+This shift is massive.
+Most people still think AI is:
+➡️ prompts
+➡️ chatbots
+➡️ content generation
+But the next generation of AI is about systems that can:
+• perceive
+• reason
+• plan
+• act
+• use tools
+• collaborate
+• learn from feedback
+• continuously improve
+That’s what Agentic AI really means.
+The framework in this visual perfectly captures how modern AI architecture is evolving into layered intelligence systems.
+At the center of everything are:
+✅ Foundation Models / LLMs
+✅ Memory Systems
+✅ Tool Use & APIs
+✅ Orchestration Layers
+✅ Autonomous Workflows
+And this is important:
+The real value of AI no longer comes from the model alone.
+It comes from the system around the model.
+That includes:
+• Retrieval pipelines (RAG)
+• Multi-agent coordination
+• Runtime orchestration
+• Long-term memory
+• Observability
+• Feedback loops
+• Safety guardrails
+• Policy enforcement
+This is exactly why enterprises are now investing heavily in:
+→ AI orchestration platforms
+→ agent runtimes
+→ vector databases
+→ workflow engines
+→ memory architectures
+→ governance layers
+Because production AI is not a single prompt.
+It’s an ecosystem.
+One of the biggest misconceptions I see right now is companies trying to deploy “agents” without:
+❌ memory
+❌ evaluation
+❌ orchestration
+❌ monitoring
+❌ rollback systems
+❌ safety constraints
+That’s not Agentic AI.
+That’s just automation with risk.
+The future belongs to organizations that can build:
+• reliable agents
+• scalable workflows
+• adaptive systems
+• human-AI collaboration layers
+And perhaps the most exciting part?
+We’re still early.
+What we’re seeing today is probably the “basic internet phase” of Agentic AI.
+Over the next few years, we’ll likely see:
+• self-improving enterprise agents
+• collaborative multi-agent ecosystems
+• autonomous research systems
+• AI operating layers across businesses
+The companies learning this architecture now will have a huge advantage later.
+Because in the future, competitive advantage won’t just come from data.
+It will come from:
+how intelligently your agents can reason, retrieve, coordinate, and execute.
+Agentic AI is no longer experimental.
+It’s becoming enterprise infrastructure.
+What layer of this framework do you think is the hardest to get right in production?
+👇 Share your thoughts in the comments.
+♻️ Repost if this helped simplify Agentic AI architecture.
+📌 Follow me for more deep dives on AI Agents, RAG Systems, Enterprise AI, and Automation Frameworks.
+106
+36 Comments
+Like
+Comment
+Share
+Dr. Bastian Alexander Sakowski
+1d
+Naresh Hingorani, calling Agentic AI the “new operating system” for enterprises is powerful—but also a bit provocative in the right way. An OS implies control, resource management, and governance, not just orchestration of agents. My take is that most enterprises aren’t ready for that level of autonomous “process ownership” yet—they’re still figuring out guardrails, accountability, and observability across agents. So I wonder: do you see Agentic AI truly replacing the enterprise OS layer, or evolving more as a coordination fabric that still depends heavily on human-defined boundaries and oversight?
+
+Like
+Reply
+3 Reactions
+Terry Snyder
+1d
+Useful overview, 
+but I would separate agent orchestration
+ from governed operation.
+ 
+LLMs, memory, tools, APIs, RAG, workflows, observability, feedback loops, safety guardrails, and policy enforcement may form an agentic coordination fabric.
+ 
+That is not yet an enterprise operating system.
+ 
+An operating system does not simply help components reason, retrieve, coordinate, and execute.
+ 
+It controls what may execute, under what authority, within what scope, with what evidence, and what happens when conditions fail or change.
+ 
+The production question is not only whether agents can act.
+ 
+The harder question is whether inadmissible movement can bind.
+ 
+Before an agentic action reaches a tool, payment, record, contract, workflow, API, or external system, the runtime has to resolve authority, standing, evidence, scope, refusal conditions, receipt, replay, and changed-condition behavior.
+ 
+Without that, “Agentic AI as an operating system” is too early.
+ 
+It is still orchestration with governance language around it.
+ 
+The shift is from agent coordination to governed consequence.
+Like
+Reply
+Dr Amal Almheiri
+21h
+An excellent illustration of how AI is evolving from automation to autonomous decision support. As Agentic AI advances, organizations will need to assess not only their technology readiness but also their workforce readiness, governance maturity, decision-making processes, and ethical frameworks. Human readiness will remain the foundation of successful AI transformation.
+Like
+Reply
+Aitude Technologies
+1d
+This is informative!
+
+Like
+Reply
+Rosso H.
+20h
+Orchestration is the one I see break most often in practice — not because it's conceptually hard, but because most teams underestimate how much prompt brittleness compounds across agent hops. What's your go-to approach for handling that in production?
+Like
+Reply
+Rituparna De
+13h
+Naresh Hingorani, Great overview. In my experience, the hardest layer to get right in production is governance and observability. Building an agent is relatively easy. Building one that is trustworthy, auditable, secure, and reliable at enterprise scale is where most implementations struggle.
+Like
+Reply
+Azhar Hussain
+22h
+Thanks for sharing 
+Like
+Reply
+DJ Everette
+22h
+Not just what the Tech company has built in. 
+Like
+Reply
+DJ Everette
+22h
+Thanks information on these phases is critical. What global or US Standards for safety/security ID are put in place on this? 
+Like
+Reply
+Aryaman Upmanyu
+1d
+Deploying agents without rollback systems and evaluation metrics isnt innovation its just automation with massive liability
+Like
+Reply
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/loksanthoshsurisetty_ai-aiagents-agenticai-activity-7460340082449788928-rtxl
+DATE: 2026-06-02
+METRICS: 0 Likes, 0 Comments
+SCORE: 9/10 - The post showcases thought leadership in AI and enterprise architecture, providing a deep technical discussion and highlighting future trends.
+AI COMMENT:
+I completely agree that AI agents are revolutionizing enterprise architecture, and the shift towards API-driven, event-driven, and copilot-based architectures is a significant step forward. One aspect that I think deserves more attention is the importance of explainability in AI agent decision-making, particularly as we move towards more complex multi-agent systems. How do you envision organizations balancing the need for agent autonomy with the need for transparency and interpretability in their decision-making processes?
+TEXT:
+Santhoshkumar S L
+2w  Edited
+AI Agents are transforming enterprise architecture faster than APIs did
+🔹 From chatbots to autonomous systems, AI agents can now be exposed through APIs, events, copilots, workflows, voice, and even multi-agent ecosystems.
+🔹 Enterprises are rapidly adopting API-driven, event-driven, and copilot-based agent architectures to accelerate automation and decision-making.
+🔹 The real power comes when agents collaborate with enterprise systems, knowledge bases, workflows, and real-time events.
+🔹 Modern AI agents are no longer just “chat interfaces”  they are becoming digital employees capable of reasoning, planning, and execution.
+🔹 Event-driven agents are enabling real-time fraud detection, monitoring, and intelligent automation at massive scale.
+🔹 Multi-agent systems are emerging as the next evolution where specialized agents coordinate like teams inside an organization.
+🔹 AI Gateways are becoming critical to securely expose agents while managing governance, observability, token usage, and access control.
+🔹 Organizations adopting the right exposure pattern today will gain faster innovation, operational efficiency, and competitive advantage tomorrow.
+💡 The future isn’t just about building AI agents, it’s about exposing them through the right architecture for scale, security, and business impact.
+#AI #AIAgents #AgenticAI #EnterpriseAI #LLM #Automation #APIs #EventDrivenArchitecture #AIGateway #DigitalTransformation
+3
 Like
 Comment
 Share
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/ctorobotics_nvidia-announces-the-first-open-humanoid-activity-7467439922853961728-LuSc
+LINK: https://www.linkedin.com/posts/ai-ml-engineering-aiproductstack_a-glimpse-into-the-next-phase-of-industrial-activity-7437472274070351872-7IYS
 DATE: 2026-06-02
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post announces a significant development in robotics research, specifically the release of an open humanoid robot reference design, and sparks thoughtful comments from the community.
+SCORE: 9/10 - The post discusses thought leadership in industrial automation, highlighting advancements in AI and robotics, making it a high-value topic for commentary.
 AI COMMENT:
-The introduction of the NVIDIA Isaac GR00T Reference Humanoid Robot is indeed a milestone for robotics research, offering a comprehensive platform that can harmonize efforts across the community. The fusion of hardware and software components like the Jetson Thor and Isaac GR00T models can drastically reduce the barriers to entry for new researchers. What potential applications or research areas do you think this platform will most significantly impact in the next few years?
+Dr. Sambamoorthi, your insights into the next phase of industrial automation are spot on. The integration of computer vision, reinforcement learning, and motion planning is indeed revolutionizing the capabilities of robots in dynamic environments. What I find particularly interesting is the potential for these systems to not only augment human capabilities but also to learn from human workers and adapt to new tasks. How do you envision the development of explainable AI and transparency in decision-making processes for these collaborative robots, to ensure trust and safety in human-robot teams?
 TEXT:
-Loaded: 7.34%
+Loaded: 100.00%
+Pause
+Back to start
+Current Time 
+0:01/
+Duration 
+0:21
+Unmute
+Fullscreen
+Nethra Sambamoorthi, M.A, M.Sc., PhD
+2mo
+A glimpse into the next phase of industrial automation.
+Robots are steadily moving beyond repetitive assembly tasks and stepping into more dynamic environments like warehouses, maintenance zones, and logistics hubs. 
+What makes this development significant is not just the hardware, but the intelligence behind it. With improvements in computer vision, reinforcement learning, and motion planning, robots are learning to interact with real world objects that are irregular, heavy, or difficult to handle.
+In environments where safety, efficiency, and consistency matter, such systems can support human workers by taking on repetitive or hazardous tasks.
+Step by step, we are moving toward warehouses and industrial sites where humans and robots collaborate seamlessly to keep operations running.
+…more
+53
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/jhabishwajeet_bostondynamics-dhl-figure02-activity-7464691808803971075-bxkk
+DATE: 2026-06-02
+METRICS: 0 Likes, 0 Comments
+SCORE: 9/10 - The post is a thought leadership piece that presents a contrarian take on the robotics industry, specifically the focus on humanoid robots vs purpose-built machines. The author provides concrete examples, data, and poses insightful questions.
+AI COMMENT:
+I love how you're challenging the conventional wisdom on humanoid robots and highlighting the benefits of purpose-built machines like Boston Dynamics' Stretch. Your point about matching robot geometry to task geometry is particularly well-taken. What do you think is the biggest hurdle for operations leaders to overcome in order to adopt this more task-specific approach to automation, and how can they start to rethink their automation roadmap to prioritize ROI over '_press-release-worthy' tech?
+TEXT:
+Loaded: 47.87%
+Pause
+Back to start
+Current Time 
+0:01/
+Duration 
+1:11
+Show Captions
+Unmute
+Fullscreen
+Bishwajeet Jha
+1w
+#BostonDynamics Stretch unloads 1,000 cases per hour at #DHL warehouses.
+Look at the shape. Four arms. Suction grip. Wheels. Built to do one thing: empty trailers.
+DHL ran 12-month trials. Then ordered 24 units. Payback under 18 months per dock.
+Now compare. #Figure02 at BMW costs $50-200K per unit. 11 months of pilot to hit 1,250 production hours. Labor math won't pencil for another 3 years on humanoids.
+Stretch prints money today. Humanoids print press releases.
+Most coverage treats this as a Boston Dynamics vs Figure AI horse race. Wrong frame.
+The real question for every ops leader: does your highest-volume task actually need human-shaped hands and feet, or does it need a shape built for that exact task?
+Cases want a suction arm. Totes want a wheeled mover. Shelves want a vertical arm plus AMR base. Most warehouse work has zero use for legs.
+The teams that match robot geometry to task geometry will own 2026-2027. Teams waiting for the perfect humanoid will spend twice as much for half the throughput.
+What's the highest-volume task in your operation that nobody has tried to automate yet?
+#Robotics #SupplyChain #Logistics #Operations
+
+…more
+2
+Like
+Comment
+Share
+Transcript
+Transcript
+Boston Dynamics Stretch robot now unloads 1000 cases per hour at DHL warehouses. Notice what Stretch isn't? It's not a humanoid, it's a forearm purpose built case mover with one job unload trailers. DHL ordered 24 units after a 12 month trial. Pay back under 18 months on a single dock. Compared to humanoid robot deployments where the labor cost math doesn't pencil for another three years, Stretch already prints money today. Humanoids get all the press tasks, Specific robots get the ROI. Three questions every OPS leader should run their automation road map through. One, what single task moves 80% of your labor cost? 2 Does that task actually need a humanoid form factor or a purpose built shape? 3. What's the payback if you skip humanoids and buy 6 purpose built units for the same budget? The geometry of your operation should drive the geometry of the robot. Not the other way around. What's the highest volume single task in your operation that you haven't automated yet?
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/akkar-ltd_bostondynamics-bobbi-ai-activity-7353349434463641600-MDt9
+DATE: 2026-06-02
+METRICS: 0 Likes, 0 Comments
+SCORE: 9/10 - The post discusses a thought leadership topic, Boston Dynamics' new virtual AI agent, and invites discussion on the future of robotics and automation, making it an ideal platform to add unique value and insights
+AI COMMENT:
+Akkar, your point about Bobbi representing the next wave of intelligent, accessible automation is well-taken. What's fascinating is how AI agents like Bobbi could also enable more extensive data analytics and performance monitoring for robotic systems, potentially leading to improved overall system efficiency. How do you envision the integration of AI agents like Bobbi with existing robotic systems, and what role do you think they will play in shaping the future of Industry 4.0?
+TEXT:
+Akkar
+60,275 followers
+10mo
+🚨 Boston Dynamics just dropped their first virtual AI agent: Bobbi 🚨
+Bobbi is an AI assistant designed to help users explore their robotics solutions, identify the right tools for specific applications, and streamline operational improvement.
+While we’ve come to associate Boston Dynamics with high-powered robots leaping, flipping, and hauling cargo - Bobbi takes a different path:
+💡 A virtual AI agent focused on language, reasoning, and memory but still built with the same world-class robotic brainpower.
+Bobbi represents the next wave of intelligent, accessible automation:
+ ✅ Scalable
+ ✅ User-driven
+ ✅ Available 24/7 to support ops, logistics, and engineering teams
+In other words, it’s not just the robots getting smarter. The way we buy, deploy, and scale robots is evolving too.
+🧠 What does this signal for the future of how we interact with robots and automation?
+Could AI agents like Bobbi:
+Transform how engineering teams evaluate and implement robotic solutions?
+Redefine product discovery across complex, technical industries?
+Become the new standard for customer-facing automation in mobility and manufacturing?
+👇 We're curious - how would you see a tool like this fitting into your world?
+📸 Image credit: Boston Dynamics
+#BostonDynamics #Bobbi #AI #Robotics #MobilityInnovation 
+16
+4 Comments
+Like
+Comment
+Share
+YZ-RA
+5d
+What's particularly interesting is how AI agents like Bobbi could enable more personalized and efficient customer support, potentially transforming the role of sales engineers and customer success teams.
+Like
+Reply
+Muhammad Abu Bakar .
+10mo
+Big shift, brains over brawn, will AI agents replace sales engineers someday?
+Like
+Reply
+David Hatcher
+10mo
+I wonder how Bobbi would cope on a cold call 🤔 
+Like
+Reply
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/giovani-zanotelli-9087a5288_industrialautomation-robotics-plc-activity-7458345125241364480-OoEK
+DATE: 2026-06-02
+METRICS: 0 Likes, 0 Comments
+SCORE: 9/10 - The post discusses a thought leadership topic in industrial automation with a deep technical insight, making it high-value and worthy of commentary
+AI COMMENT:
+I completely agree with your point on the importance of adaptability across industrial automation ecosystems. The idea that experience with multiple platforms like Universal Robots, Mitsubishi Electric, and Siemens can expand not only technical knowledge but also operational flexibility is well-taken. One aspect to consider is how the convergence ofOT and IT systems in Industry 4.0 projects can further enhance this adaptability. What role do you think standardization of communication protocols, such as OPC UA, will play in facilitating seamless integration across these diverse platforms?
+TEXT:
+Giovani Zanotelli
+3w
+Developing adaptability across industrial automation ecosystems. ⚙️🤖
+Access to different robotic and control platforms creates faster learning capacity, broader integration vision, and stronger problem-solving in real industrial scenarios.
+Working between collaborative robotics, PLC environments, HMIs, and industrial simulation develops the ability to understand how different technologies communicate, react, and perform together on the factory floor.
+Experience with platforms such as Universal Robots, Mitsubishi Electric, Siemens, Schneider Electric, and Festo expands not only technical knowledge — but operational flexibility during commissioning, integration, troubleshooting, and future scalability.
+💡 For industrial companies, this means:
+• Faster adaptation to existing automation structures.
+• Reduced dependency on a single ecosystem or manufacturer.
+• Easier integration between machines, robots, and control systems.
+• Better troubleshooting capability across mixed industrial environments.
+• Greater versatility for Industry 4.0 projects and smart manufacturing.
+The objective is not only programming machines — but understanding industrial behavior, system communication, and scalable automation architecture. 🚀
+#IndustrialAutomation #Robotics #PLC #Industry40 #UniversalRobots #MitsubishiElectric #Siemens #SchneiderElectric #Festo #Engineering #AutomationEngineer #ControlsEngineering #SmartFactory
+28
+2 Comments
+Like
+Comment
+Share
+Nilesh Kumar
+3w
+This highlights a crucial point: adaptability is key, but it's also about fostering a culture of continuous learning within teams. When employees feel empowered to experiment across various platforms, innovation flourishes. How do we encourage that mindset on the factory floor?
+Like
+Reply
+1 Reaction
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/piyush-ranjan-9297a632_the-rise-of-ai-agents-from-basic-llms-to-activity-7330071992831770625-L41D
+DATE: 2026-06-02
+METRICS: 0 Likes, 0 Comments
+SCORE: 9/10 - The post discusses thought leadership on the evolution of AI agents, providing a detailed framework for their progression, making it a high-value topic for commentary and discussion.
+AI COMMENT:
+Piyush, I appreciate the comprehensive breakdown of the evolution of AI agents, highlighting the journey from basic LLMs to fully autonomous systems. The inclusion of stages like multi-modal workflows and advanced agent architecture underscores the complexity and potential of these systems. However, as we aim to build more sophisticated AI-native apps, I think it's also crucial to consider the ethical and transparency aspects of these autonomous decision-making processes. How do you envision the balance between autonomy and accountability being addressed in the development of future AI agent frameworks?
+TEXT:
+Piyush Ranjan
+1y
+The Rise of AI Agents: From Basic LLMs to Fully Autonomous Systems
+We’ve come a long way from simple text generation.
+This visual breakdown captures the evolution of AI agents—from the early days of standalone LLMs to the emerging architectures capable of autonomous reasoning, tool use, memory management, and inter-agent communication.
+Here’s how the progression unfolds:
+→ Stage 1: LLM Processing Flow
+ Basic prompt-response interaction. One input, one output.
+→ Stage 2: Document Processing with LLMs
+ Handling full documents and structured input/output at scale.
+→ Stage 3: LLMs + RAG + Tools
+ Combining Retrieval-Augmented Generation with external tool use—ushering in smarter context-aware responses.
+→ Stage 4: Multi-Modal Workflows
+ Integrating text, images, and memory for richer reasoning.
+→ Stage 5: Advanced Agent Architecture
+ Agents now reason with memory (short, long, and episodic), tools, and vector databases to make decisions.
+→ Stage 6: Future AI Agent Framework
+ Multi-agent orchestration, reflection, synthetic data, and dynamic task allocation form the backbone of intelligent autonomous systems.
+As we build the next generation of AI-native apps, understanding these stages is crucial. It's no longer just about what the LLM can do—it's about how we structure intelligent ecosystems around them.
+Save this framework. It’s the blueprint for where enterprise-grade Agentic AI is headed.
+
+333
+49 Comments
+Like
+Comment
+Share
+Deepanshu Singh
+1y
+Future frameworks aren’t just about response—they’re about planning, reflecting, and improving continuously. True AI assistants are coming.
+Like
+Reply
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/aditya-raj-6aa3aa260_industrialautomation-robotics-smartmanufacturing-activity-7435205723237572608-0NrD
+DATE: 2026-06-02
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post discusses thought leadership and new developments in industrial automation, with specific examples of companies and technologies, making it a high-value topic for discussion.
+AI COMMENT:
+I completely agree with your assessment, Aditya, that we're moving beyond traditional factory floor automation. The integration of cobots, machine vision, and autonomous systems is indeed a game-changer. One aspect that I think deserves more attention is the role of data analytics and AI in optimizing production workflows. How do you think companies will balance the need for increased automation with the potential challenges of data security and workforce upskilling in the coming years?
+TEXT:
+Aditya Raj
+2mo
+“Something interesting is happening in industrial automation right now"
+In just a few days, the Robotics and Automation Exhibition 2026 will bring together 350+ automation and robotics companies in Birmingham, United Kingdom to showcase the next wave of industrial technology.
+But what really caught my attention isn’t just the number of exhibitors.
+We’re no longer just talking about robots on factory floors.
+We’re talking about:
+ • Cobots working side by side with humans
+ • Machine vision making real time decisions
+ • Autonomous systems optimizing production
+ • Smart factories learning and adapting
+Companies like Bosch Rexroth, AutoStore™, Dematic Mobile Automation, Kardex, ELITE ROBOTS, and ek robotics are already pushing the boundaries of what automation can do across manufacturing, logistics, and smart factories.
+The interesting question now is no longer “Will automation grow?”
+It’s how fast companies are willing to adopt it.
+Personally, I’m always curious to see:
+ • Which innovations attract the most attention
+ • Which companies are pushing the boundaries
+ • And which technologies quietly become the next industry standard
+#IndustrialAutomation #Robotics #SmartManufacturing
+11
+4 Comments
+Like
+Comment
+Share
+Aditya Raj
+2mo
+If you’re attending or following updates from the event, I’d love to hear your perspective.
+#Industry40 #AdvancedManufacturing #FactoryAutomation
+
+Like
+Reply
+ED WARTENS - INDIA
+2mo
+Great insights Aditya Raj Industrial automation and robotics are clearly shaping the future of smart manufacturing. Exciting to see how these technologies continue to improve efficiency and scalability
+Like
+Reply
+YZ-RA
+1w
+Aditya, your insights on the evolving landscape of industrial automation are spot on. The integration of cobots, machine vision, and autonomous systems is indeed transforming the factory floor. 
+Like
+Reply
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/lentinjoseph_ros-ros2-robotics-activity-7173890674113675265-56I-
+DATE: 2026-06-02
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post sparks interesting discussions, and the author is a significant figure in the ROS community, making a thoughtful comment visible to a targeted audience.
+AI COMMENT:
+Congratulations Lentin on completing the biggest ROS training program, it's truly commendable to see your passion for teaching shine through. Your 170 hours of live lectures are a testament to your dedication. I'm particularly intrigued by the inclusion of ROS 2 Industrial training topics, such as Navigation 2 Stack and MoveIt 2. What are some of the most common challenges your students face when transitioning from ROS 1 to ROS 2, and how do you address these in your course?
+TEXT:
+Loaded: 61.37%
 Pause
 Back to start
 Current Time 
 0:02/
 Duration 
-0:17
+0:58
 Unmute
 Fullscreen
-CTO ROBOTICS Media
-142,502 followers
-12h
-NVIDIA announces the first open humanoid robot reference design built for robotics research.
-The NVIDIA Isaac GR00T Reference Humanoid Robot combines the Unitree Robotics H2 humanoid robot, Sharpa Robotics Wave five-fingered hands for dexterous manipulation, Jetson Thor onboard compute, and Isaac GR00T open software and models, giving researchers a full-stack platform from data capture to model deployment.
-🎥 Media: NVIDIA , NVIDIA Robotics , Sharpa , Unitree Robotics 
-⚠️ This content is shared for informational purposes only. CTO Robotics Media is a media platform and does not own or develop the technology shown. Credit belongs to the original creators.
+Lentin Joseph
+2y
+Finally, I have completed the biggest ROS training program that I have ever done. 🎉 
+Teaching is one of my passions. In 2022, I started a personal mentorship program called ROS Developer Learning Path 2.0. The course covered the most important topics of ROS 1 & ROS 2. 
+ 
+The plan was to complete the course within 1 - 1.5 years, but it was extended to 2 years because of my vacation plans.
+I have taken almost 170 hours of live lectures in this course. 
+I am apologizing for the delay caused, and I am thankful to everyone for their immense support. 
+Here is the course page: https://lnkd.in/ga7vMptE
+The live recorded videos and notes are available. If anyone is interested in joining the recorded sessions, please let me know 
+I am putting video highlights of the course sessions in the post
+If you are interested in ROS 2 Industrial training in the following topics, please DM me
+* ROS 2 Essentials
+* Gazebo Simulation essentials
+* Navigation 2 Stack
+* MoveIt 2
+* ROS 2 Perception
+* ROS 2 Deep learning
+* Micro-ROS Essentials
+* Rviz-Rqt-Gazebo-Navigation 2 plugin development
+* ROS 2 Docker & CI
+* Basics of NVIDIA Isaac Sim & Isaac ROS
+
+Thanks all
+Lentin Joseph
+#ros #ros2 #robotics #roscourses 
 …more
-60
-3 Comments
+374
+18 Comments
 Like
 Comment
 Share
-724form
-12h
-Open robotics platforms have the potential to accelerate collaboration and innovation across the entire research community. A shared foundation allows teams to focus more on advancing capabilities rather than building infrastructure from scratch.
- 
-
+Rob Knight
+2y
+I’m working with some partners in India to develop certified robotics courses aimed at industrial placement. Would be great to discuss if there’s a fit here.
 Like
 Reply
-Ahmet Ömer Yılmaz
-12h
-A fully integrated platform like this could significantly accelerate humanoid robotics research by reducing development complexity and improving accessibility. Bringing hardware, AI models, and deployment tools together creates a strong foundation for faster innovation.
- 
-
+1 Reaction
+Hari Prasanth
+2y
+Have you tried ROS 2 on windows? If so, could you share your thoughts on it?
 Like
 Reply
-Cedric Mau
-3h
-PommeMan!!
+1 Reaction
+Abhishek Gupta
+2y
+It's great to see your dedication to sharing knowledge and helping others learn. Keep up the excellent work!
+Like
+Reply
+1 Reaction
+Harinarayanan Nampoothiri M G Ph.D.
+2y
+Thank you Lentin Joseph for the transforming course, happy to be a part of it live.
+Like
+Reply
+1 Reaction
+Siddhant Diwaker
+2y
+Amazing course 
+Like
+Reply
+1 Reaction
+Birhanu Shimelis
+2y
+Wooow amazing course content. Bravo.
+Does it have a discount for an international student from Africa?
+Like
+Reply
+Chaitra Sri Chenaboina
+2y
+Hello Sir ,
+Are new registrations still open?
+Like
+Reply
+Flavio Yamamoto
+2y
+Gilmar Jeronimo, Murilo Zanini de Carvalho
+Like
+Reply
+Abdolrahman Vahabi
+2y
+Congratulations
+Like
+Reply
+SreeHarsha Rowdur, PhD
+2y
+how can I get videos
 Like
 Reply
 See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/ferbin12_two-years-into-ros2-and-the-learning-never-activity-7310659686339420161-RIIB
+DATE: 2026-06-02
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post provides a personal learning experience with ROS2, offers specific recommendations, and invites engagement from the audience, making it a great opportunity to add value and establish authority.
+AI COMMENT:
+Ferbin, it's great to see how you've applied the knowledge from Antonio Brandi's courses to real-world projects like SLAM and Navigation2 for Autonomous Mobile Robots. I've also found that combining ROS2 with computer vision techniques can significantly enhance the capabilities of AMRs. What do you think are the most significant challenges that newcomers to the field of robotics and ROS2 face when trying to apply theoretical knowledge to practical projects, and how can the community better support them?
+TEXT:
+Ferbin Richard
+1y
+Two years into ROS2, and the learning never stops! 
+When I first started with ROS2, I spent countless hours watching YouTube videos, taking Udemy courses, and attending workshops. My first major project was implementing SLAM and Navigation2 (Nav2) for an Autonomous Mobile Robot (AMR).
+At first, I was hesitant to buy Antonio Brandi Self-driving using AMR course on localization and mapping, thinking I had already covered AMR with ROS2. But then I thought why not give it a shot. I didn’t stop at just one—I ended up getting three of his courses!  And honestly, they these courses helped me a lot.  I gained deeper insights into AMR, ROS2, robotics, mathematics, kinematics, and programming, all of which significantly improved my understanding and skills. Now waiting for his next course on path planning.
+Lately, I’ve been getting a lot of messages from people asking how to kickstart their ROS2/robotics journey. If you're looking for a structured way to learn, I’d highly recommend Antonio Brandi courses—they provide a solid foundation and practical insights that are hard to find elsewhere.
+To everyone starting their journey in robotics: keep learning, keep building, and never stop experimenting! 💡
+#ROS2 #Robotics #AutonomousRobots #AMR #Localization #SLAM #MachineLearning #LearningNeverStops #Kinematics #Programming
+108
+6 Comments
+Like
+Comment
+Share
+Loksharan M
+1y
+Excellent work Ferbin
+Like
+Reply
+Murtaza Saifuddin Chulawala
+1y
+Congrats Ferbin! 🎉 I am also enrolled in Antonio Brandi courses on ros2 looking forward to learning those skills. It's great to see how you are applying these skills and how great these courses have been in your journey.
+Like
+Reply
+2 Reactions
+Tejas Pagare
+1y
+Nice work 💯
+Like
+Reply
+Shubhi Shukla
+1y
+Absolutely amazing work! Very insightful
+Like
+Reply
+1 Reaction
+SAI CHARAN
+1y
+Nice work!! Ferbin FJ
+Like
+Reply
+1 Reaction
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/ayushaman24_ai-autonomoussystems-aiagents-activity-7465388887075426305-U06z
+DATE: 2026-06-02
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post showcases thought leadership, provides actionable advice, and sparks a discussion on AI adoption challenges.
+AI COMMENT:
+I completely agree that 2026 is poised to be a transformative year for autonomous systems, and your points on assessing workflows, identifying high-impact opportunities, and enabling teams are well-taken. What's often overlooked, however, is the critical role of explainability and transparency in AI decision-making. As we push for wider adoption, how do you think organizations can balance the need for AI-driven insights with the need for human understanding and trust in these systems?
+TEXT:
+AYUSH AMAN
+6d
+2026 is shaping up to be the year of autonomous systems.
+AI agents are transforming how teams operate — improving productivity, reducing operational overhead, and accelerating decision-making.
+I’ve seen this firsthand: when deployed thoughtfully, AI agents streamline repetitive workflows and free teams to focus on strategic, high-value work.
+For organizations looking to adopt AI effectively, three things matter most:
+1. Assess your current workflows
+2. Identify high-impact AI opportunities
+3. Enable your teams with the right training and adoption mindset
+The technology is advancing fast, but successful implementation still comes down to people, processes, and clarity of use cases.
+What’s the biggest challenge your team faces in adopting AI?
+#AI #AutonomousSystems #AIAgents #DigitalTransformation
+5
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/industrial-automation-monthly_brain-corp-advances-contextual-ai-for-industrial-activity-7464711132444815360-YQCA
+DATE: 2026-06-02
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - The post discusses a specific industry news and advancements in autonomous robotics, offering a decent opportunity for adding a thoughtful comment
+AI COMMENT:
+I appreciate the highlight on Brain Corp and UC San Diego's research efforts in semantic mapping and contextual AI for autonomous robotics. The application of contextual AI in industrial settings can indeed revolutionize operational efficiency. One lesser-known aspect of this technology is its potential to integrate with existing IoT infrastructure, leading to even more comprehensive automation solutions. How do you think the convergence of IoT and AI will impact the future of industrial automation?
+TEXT:
+Industrial Automation Monthly
+445 followers
+1w  Edited
+Industrial Automation Monthly highlights Brain Corp and UC San Diego research involving semantic mapping and contextual AI for autonomous robotics systems:
+Brain Corp Advances Contextual AI for Industrial Robotics
+https://industrialautomationmonthly.com
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/smartsystemsinc_from-chatbots-to-autonomous-ai-agents-the-activity-7460198462953938944-2Ojw
+DATE: 2026-06-02
+METRICS: 0 Likes, 0 Comments
+SCORE: 5/10 - The post is a standard industry news article with a link to a company blog, making it a medium-value post for adding a decent thought.
+AI COMMENT:
+
+TEXT:
+Smart Systems, Inc.
+273 followers
+2w
+From Chatbots to Autonomous AI Agents: The Evolution of AI
+https://bit.ly/42rRnUG #ArtificialIntelligence #AIAgents #Chatbots #MachineLearning #Automation #GenerativeAI #FutureOfAI #DigitalTransformation #SmartTechnology #AIInnovation #Smartsystems
+From Chatbots to Autonomous AI Agents: The Evolution of AI
+https://www.smartsystems.ai
+2
+Like
+Comment
+Share
 To view or add a comment, sign in
 ================================================================================
 
