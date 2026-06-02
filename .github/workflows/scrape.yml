@@ -64,7 +64,7 @@ jobs:
         LINKEDIN_USERNAME: ${{ secrets.LINKEDIN_USERNAME }}
         LINKEDIN_PASSWORD: ${{ secrets.LINKEDIN_PASSWORD }}
       run: |
-        python scrape_v2.py --limit 8 --target_output 2
+        python scrape_v2.py --limit 35 --target_output 12
 
     - name: Commit and Push Changes
       id: commit

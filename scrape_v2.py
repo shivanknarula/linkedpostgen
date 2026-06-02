@@ -475,8 +475,8 @@ def main():
     load_dotenv() # Load .env
     
     parser_arg = argparse.ArgumentParser()
-    parser_arg.add_argument('--limit', type=int, default=12, help="Number of raw candidates to fetch (aim for ~2x desired output)")
-    parser_arg.add_argument('--target_output', type=int, default=3, help="Stop analyzing after finding this many high-value posts")
+    parser_arg.add_argument('--limit', type=int, default=35, help="Number of raw candidates to fetch (aim for ~2x desired output)")
+    parser_arg.add_argument('--target_output', type=int, default=12, help="Stop analyzing after finding this many high-value posts")
     parser_arg.add_argument('--login', action='store_true', help="Run login flow")
     parser_arg.add_argument('--username', type=str, help="LinkedIn username (defaults to env)")
     parser_arg.add_argument('--password', type=str, help="LinkedIn password (defaults to env)")
