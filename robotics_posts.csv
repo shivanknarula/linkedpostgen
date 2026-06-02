@@ -1,34 +1,67 @@
 url,date,score,reasoning,comment,likes,comments,text
-https://www.linkedin.com/posts/robotics-24-7_behind-the-scenes-of-how-boston-dynamics-activity-7465040167196835844-shtD,2026-06-02,8,"The post discusses a specific and technical topic in robotics, namely the training of humanoid robots, which is an area of interest for experts and thought leaders in the field.","I appreciate the insight into Boston Dynamics' training methods for the Atlas humanoid robot. The use of complex tasks such as moving heavy objects to improve the robot's autonomy is particularly noteworthy. One aspect that I find intriguing is the potential application of such training methods to other areas of robotics, such as search and rescue or industrial automation. What do you think is the most significant challenge in scaling these training methods to more complex and dynamic environments?",0,0,"Robotics 24/7
-4,689 followers
-6d
-Boston Dynamics provided details on how the company trains its Atlas humanoid robot to perform complex tasks, such as moving heavy objects around a location.  
-Behind the scenes of how Boston Dynamics trains the Atlas humanoid robot
-robotics247.com
-3
+https://www.linkedin.com/posts/1950-ai_nvidias-isaac-gr00t-humanoid-robot-platform-activity-7467260137913724928-EM_j,2026-06-02,9,"The post discusses a cutting-edge technology, NVIDIA's Isaac GR00T humanoid robot platform, and its potential to revolutionize the field of robotics and AI, making it a high-value topic for Thought Leadership and technical discussion.","The potential of NVIDIA's Isaac GR00T to bring 'physical AI' into the real world is indeed exciting, as it represents a major step forward in integrating AI with robotics. One aspect that caught my attention was the importance of simulation-first training in accelerating humanoid robot development. I'd love to hear more about how the academic institutions are utilizing standardized humanoid platforms to drive innovation - what are some potential applications or breakthroughs that we can expect to see in the near future as a result of this technology?",0,0,"1950.Ai
+1,385 followers
+1d
+🤖 NVIDIA’s Isaac GR00T Is Bringing AI Into the Physical World ⚙️
+Artificial intelligence is rapidly evolving beyond chatbots and digital assistants. NVIDIA’s Isaac GR00T humanoid robot platform represents a major leap toward “physical AI,” where intelligent systems can perceive, reason, move, and interact within real-world environments.
+Built with NVIDIA’s Jetson Thor architecture and Unitree Robotics’ humanoid hardware, the platform introduces a unified ecosystem for robotics research, simulation, and embodied AI development.
+🔍 In this fascinating insight, we explore:
+💡 How the Isaac GR00T platform combines robotics hardware with AI-native computing
+💡 The role of simulation-first training in accelerating humanoid robot development
+💡 Why high-dexterity robotic hands and real-time reasoning are critical breakthroughs
+💡 How academic institutions are using standardized humanoid platforms to speed innovation
+💡 The growing importance of “physical AI” in manufacturing, automation, and future industries
+🚀 The next era of artificial intelligence may not live solely in the cloud, it may walk, interact, and operate directly within the physical world.
+👉 Dive into the full article for a deeper understanding of how NVIDIA’s Isaac GR00T platform could reshape robotics research, embodied intelligence, and the future of AI-driven automation: https://lnkd.in/dunUp8iE
+Follow us for more expert insights from Dr.Shahid Masood and the 1950.ai team.
+#ArtificialIntelligence #Robotics #NVIDIA #HumanoidRobots #PhysicalAI #Automation #MachineLearning #EmergingTechnologies #1950ai #DrShahidMasood
+NVIDIA’s Isaac GR00T Humanoid Robot Platform Explained: How a 75-DOF AI Machine Could Redefine Global Robotics Research by Kaixuan Ren
+1950.ai
+4
 Like
 Comment
 Share
 To view or add a comment, sign in"
-https://www.linkedin.com/posts/smita-swami-3545322a7_ros2-robotics-robotry-activity-7467080905090682881-raHI,2026-06-02,6,"The post shares a personal experience of completing a ROS 2 workshop, which is a specific and technical topic, but it's more of a personal achievement post rather than a thought leadership or deep technical discussion.","Congratulations on completing the ROS 2 workshop, Smita. It's great that you had a hands-on experience with the Robot Operating System 2, which is a crucial skill for any robotics engineer. One aspect that I've found particularly interesting in my own work with ROS 2 is the potential for integrating it with other autonomous systems, such as drones or autonomous vehicles. What are your thoughts on the applications of ROS 2 in edge cases, such as search and rescue operations or environmental monitoring?",0,0,"Smita Swami
-1d
-I am pleased to share that I have successfully completed a 5-Day ROS 2 Workshop conducted by robotry.
-Throughout this workshop, I gained valuable insights into Robot Operating System 2 (ROS 2), including its architecture, communication mechanisms, and practical applications in robotics. The hands-on sessions enhanced my understanding of robot software development and strengthened my interest in autonomous systems and intelligent robotics.
-I would like to thank Robotry and the instructors for organizing such an informative and engaging learning experience.
-Looking forward to applying these skills in my robotics projects and continuing my journey in autonomous mobile robotics.
-
-
-
-#ROS2 #Robotics #Robotry #AutonomousSystems #Learning #Engineering #BTech #RoboticsEngineering #Innovation
-74
-2 Comments
+https://www.linkedin.com/posts/ctorobotics_nvidia-announces-the-first-open-humanoid-activity-7467439922853961728-LuSc,2026-06-02,8,"The post announces a significant development in robotics research, specifically the release of an open humanoid robot reference design, and sparks thoughtful comments from the community.","The introduction of the NVIDIA Isaac GR00T Reference Humanoid Robot is indeed a milestone for robotics research, offering a comprehensive platform that can harmonize efforts across the community. The fusion of hardware and software components like the Jetson Thor and Isaac GR00T models can drastically reduce the barriers to entry for new researchers. What potential applications or research areas do you think this platform will most significantly impact in the next few years?",0,0,"Loaded: 7.34%
+Pause
+Back to start
+Current Time 
+0:02/
+Duration 
+0:17
+Unmute
+Fullscreen
+CTO ROBOTICS Media
+142,502 followers
+12h
+NVIDIA announces the first open humanoid robot reference design built for robotics research.
+The NVIDIA Isaac GR00T Reference Humanoid Robot combines the Unitree Robotics H2 humanoid robot, Sharpa Robotics Wave five-fingered hands for dexterous manipulation, Jetson Thor onboard compute, and Isaac GR00T open software and models, giving researchers a full-stack platform from data capture to model deployment.
+🎥 Media: NVIDIA , NVIDIA Robotics , Sharpa , Unitree Robotics 
+⚠️ This content is shared for informational purposes only. CTO Robotics Media is a media platform and does not own or develop the technology shown. Credit belongs to the original creators.
+…more
+60
+3 Comments
 Like
 Comment
 Share
-robotry
-1d
-Congratulations Smita Swami 👏 Keep Learning!
+724form
+12h
+Open robotics platforms have the potential to accelerate collaboration and innovation across the entire research community. A shared foundation allows teams to focus more on advancing capabilities rather than building infrastructure from scratch.
+ 
+
 Like
 Reply
-1 Reaction
+Ahmet Ömer Yılmaz
+12h
+A fully integrated platform like this could significantly accelerate humanoid robotics research by reducing development complexity and improving accessibility. Bringing hardware, AI models, and deployment tools together creates a strong foundation for faster innovation.
+ 
+
+Like
+Reply
+Cedric Mau
+3h
+PommeMan!!
+Like
+Reply
+See more comments
 To view or add a comment, sign in"

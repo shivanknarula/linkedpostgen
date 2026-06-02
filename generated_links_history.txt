@@ -1,6 +1,3 @@
-https://www.linkedin.com/posts/boston-dynamics_boston-dynamics-and-fieldai-are-collaborating-activity-7437861272697589761-_tCK
-https://www.linkedin.com/posts/phanikumar-varikuti-0862b312a_artificialintelligence-robotics-automation-activity-7462563240934334464-bL5y
-=== RUN ===
 https://www.linkedin.com/posts/futurepedia_ai-robotics-humanoidrobots-activity-7465409124374134784-lR3q
 https://www.linkedin.com/posts/sherry-zhang-a6062b188_humanoidrobots-ai-robotics-activity-7462322216873902081-HMaN
 https://www.linkedin.com/posts/automationnewsmedia_humanoid-robotics-activity-7392580345239535616-iutT
@@ -28,3 +25,6 @@ https://www.linkedin.com/posts/humanoid-robotics-weekly_boston-dynamics-atlas-tr
 === RUN ===
 https://www.linkedin.com/posts/smita-swami-3545322a7_ros2-robotics-robotry-activity-7467080905090682881-raHI
 https://www.linkedin.com/posts/robotics-24-7_behind-the-scenes-of-how-boston-dynamics-activity-7465040167196835844-shtD
+=== RUN ===
+https://www.linkedin.com/posts/1950-ai_nvidias-isaac-gr00t-humanoid-robot-platform-activity-7467260137913724928-EM_j
+https://www.linkedin.com/posts/ctorobotics_nvidia-announces-the-first-open-humanoid-activity-7467439922853961728-LuSc
