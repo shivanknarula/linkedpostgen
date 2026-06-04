@@ -1,6 +1,3 @@
-https://www.linkedin.com/posts/rolandberger_humanoid-robots-roland-berger-activity-7283090175801389058-8tZx
-https://www.linkedin.com/posts/akashr001_ai-artificialintelligence-robotics-activity-7464971154986823680-n2dV
-=== RUN ===
 https://www.linkedin.com/posts/armel-nene-jr_ros2-slam-nav2-activity-7375521929706758144-fMQh
 https://www.linkedin.com/posts/alejandra-yonet-garza-delano%C3%A9-3b3191214_robotics-ros2-autonomoussystems-activity-7439020453056323584--1qQ
 === RUN ===
@@ -48,3 +45,17 @@ https://www.linkedin.com/posts/boston-consulting-group_intelligent-robotics-is-r
 https://www.linkedin.com/posts/abhisek-das-9ba967216_artificialintelligence-aiagents-autonomoussystems-activity-7465265295931113472-1KRN
 https://www.linkedin.com/posts/polestar-analytics_gartner-defines-ai-agents-as-autonomous-or-activity-7348301279770701824-5VhA
 https://www.linkedin.com/posts/enzo-ghisoni-robotics_ros2-ai-robotics-activity-7449070785433993216-8JnR
+=== RUN ===
+https://www.linkedin.com/posts/youssbm_figure-ai-just-solved-the-sim-to-real-transfer-activity-7419110941415346177-CKER
+https://www.linkedin.com/posts/aditi-chandra-384585278_ros-robotoperatingsystem-ros2-activity-7467892869337477120-dCCQ
+https://www.linkedin.com/posts/robotverse_industrialautomation-industry40-smartmanufacturing-activity-7465635482836688896-r7AT
+https://www.linkedin.com/posts/industrial-automation-monthly_mind-robotics-expands-ai-driven-industrial-activity-7465073640703782913-xM6V
+https://www.linkedin.com/posts/alvinchang_autonomous-ai-agents-that-can-provision-infrastructure-activity-7465409230003421198-zWA-
+https://www.linkedin.com/posts/ai-infra-summit_ai-agents-are-moving-from-demos-into-real-activity-7466181970985635840-o046
+https://www.linkedin.com/posts/a-banks_boston-dynamics-just-partnered-with-google-activity-7416826389066047488-Xldl
+https://www.linkedin.com/posts/boston-dynamics_ask-a-roboticist-meet-karl-boston-dynamics-activity-7391520111997919232-ihCJ
+https://www.linkedin.com/posts/uni-network-group_bostondynamics-bostondynamicsuniversity-activity-7387790033732304896-27v0
+https://www.linkedin.com/posts/degrayautomation_robotics-automation-manufacturing-activity-7465410569316007936-MQeh
+https://www.linkedin.com/posts/humanoid-robotics-weekly_three-live-signals-19-25th-may-2026-methodology-activity-7465356206593970176-XZXV
+https://www.linkedin.com/posts/kinjalvrajput_what-happens-when-artificial-intelligence-activity-7467055753229680640-748V
+https://www.linkedin.com/posts/abhinandbinu_ros2-robotics-amr-activity-7467517193472081920-tDKh

@@ -1,689 +1,301 @@
-LINK: https://www.linkedin.com/posts/boston-dynamics_the-to-do-list-with-spot-boston-dynamics-activity-7449834757271547904-_Ok8
-DATE: 2026-06-03
+LINK: https://www.linkedin.com/posts/youssbm_figure-ai-just-solved-the-sim-to-real-transfer-activity-7419110941415346177-CKER
+DATE: 2026-06-04
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post is from a major figure in the robotics industry, demonstrates thought leadership, and includes a deep technical discussion about AI models in robotics, specifically the Google DeepMind visual-language model (VLM) Gemini Robotics-ER 1.5.
+SCORE: 9/10 - The post discusses a significant technical achievement in robotics, provides insightful analysis of the industry, and makes a bold prediction about the company's future success.
 AI COMMENT:
-I completely agree that the true power of robotics lies in their ability to understand context and make decisions, rather than simply executing tasks. The integration of Gemini Robotics ER 1.6 with Spot is a significant step towards achieving this goal. However, as we move towards more autonomous robots, don't you think that we'll also need to redefine our approach to robot safety and ethics, especially when it comes to decision-making in complex, dynamic environments? What role do you think human oversight will play in ensuring that these robots make decisions that align with human values?
+Youssef, your analysis of Figure AI's breakthrough in sim-to-real transfer is spot on. The ability to adapt to real-world environments is indeed a crucial hurdle for humanoid robotics. What's particularly interesting is how Figure AI's approach could be combined with advancements in edge computing to further enhance their robots' autonomy and resilience in unpredictable environments. How do you think the intersection of robotics and edge computing will impact the scalability of Figure AI's technology in the next 18 months?
 TEXT:
-Loaded: 77.01%
+Youssef Ben Mahmoud
+4mo
+Figure AI just solved the sim-to-real transfer problem that has killed humanoid robotics for decades.
+Running in simulation is trivial. Every Boston Dynamics Atlas video proves labs can produce viral clips. But dealing with uneven pavement, wind gusts, and unpredictable surfaces is where 90% of bipedal systems fail. Figure 03 just ran outside the lab, not on a treadmill.
+Here's the real opportunity. Brett Adcock isn't building a robot company. He's building the first robotics platform that can graduate from warehouses to the real world. Boston Dynamics Atlas does backflips but requires external power for extended operation. Tesla Optimus prioritizes affordability over terrain adaptability.
+The strategic genius: NVIDIA, Intel Capital, and Brookfield didn't write $1B+ checks for another demo reel. They're betting Figure will dominate the labor shortage crisis hitting manufacturing, logistics, and healthcare globally.
+I think within 18 months, Figure AI becomes the first humanoid robotics company to achieve meaningful outdoor commercial deployment.
+6
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/aditi-chandra-384585278_ros-robotoperatingsystem-ros2-activity-7467892869337477120-dCCQ
+DATE: 2026-06-04
+METRICS: 0 Likes, 0 Comments
+SCORE: 9/10 - The post is a thought leadership piece showcasing the author's hands-on experience with ROS and URDF, making it a high-value topic for the robotics community.
+AI COMMENT:
+I completely agree with your approach to gaining hands-on experience with ROS and URDF, Aditi. Your project highlights the importance of understanding the relationships between links and joints in robot modeling. One aspect that I've found particularly interesting is how URDF can be used to simulate and test robotic systems before deploying them on physical hardware. This can significantly reduce the time and costs associated with prototyping. What are some potential challenges or limitations you think robotics engineers might face when scaling up their URDF models to more complex robotic systems?
+TEXT:
+Loaded: 9.57%
 Pause
 Back to start
 Current Time 
 0:01/
 Duration 
-1:39
+0:46
 Unmute
 Fullscreen
-The To Do List with Spot | Boston Dynamics
-Boston Dynamics
-651,517 followers
-1mo
-For an industrial robot built for the rigors of factories and power plants, tidying up a living room may seem like a light day at the office for Spot. Yet, this demonstration represents the promise of AI models in robotics. In this case, Google DeepMind visual-language model (VLM) Gemini Robotics-ER 1.5 was empowering Spot with embodied reasoning. 
-Go behind the scenes and watch the full demo in our blog: https://bosdyn.co/483K9JM
+Aditi Chandra
+20h
+🚀 ROS Learning Update
+As part of my Robotics and ROS learning journey, I recently worked on creating and simulating a cobot model using URDF (Unified Robot Description Format). 🤖
+Through this project, I gained hands-on experience with:
+✅ Robot modeling using URDF
+✅ Understanding links and joints relationships
+✅ Visualizing robot structures in ROS
+✅ Simulating the cobot model for better understanding of robot descriptions and kinematics
+It's fascinating to see how a robot can be digitally represented and tested before interacting with real hardware. Every project is helping me build a stronger foundation in robotics and ROS.
+Source code and URDF files are available on GitHub.
+📂 GitHub Repository: https://lnkd.in/gzGayMke
+I would appreciate any feedback or suggestions from the robotics community. Looking forward to learning more and sharing my progress along the way!
+#ROS #RobotOperatingSystem #ROS2 #Robotics #URDF #RobotSimulation #Cobot #IndustrialAutomation #Engineering #GitHub #OpenSource #LearningJourney #RoboticsEngineer #Automation #TechCommunity
 …more
-2,429
-61 Comments
-Like
-Comment
-Share
-Boston Dynamics
-1mo
-Learn more about the newly announced Gemini Robotics ER 1.6 and our work with Google DeepMind: https://deepmind.google/blog/gemini-robotics-er-1-6/
-Like
-Reply
-16 Reactions
-Mariusz Nowocień
-1mo
-So we’ve officially reached the point where you can give a robot a to-do list… and it might even walk your dog better than you do.
-Jokes aside – this is a huge leap. Moving from coding every step to simply telling a robot what to do changes the game entirely.
-The real breakthrough isn’t the demo – it’s the shift toward robots that understand context, not just commands.
-Question is: are we ready for machines that don’t just execute tasks, but actually decide how to do them?
-Like
-Reply
-6 Reactions
-Anwenwillie Fru Ndenge (Dr.-Ing.)
-1mo
-When one watches #Spot operating in these scenarios, parallels can be drawn to those farmers who'd have just completed the day's job with his tractors on the fields in the countryside, and decides to drive with his tractor to the shopping mall in the city center to do his groceries shopping!
-It must be funny when he parks his tractor in the parking lot in front of the mall to do his shopping.
-All the shoppers visiting the mall stare at this tractor as some strange vehicle from an extraterrestrial planet!
-One time and again can witness such strange farmers!
-What on #earth is #spot doing here? Can #spot not revolt, claiming that's not my job?
-Why is #Spot conducting the #WrongJob!
-There's no wrong job, but only an incompetent worker - a one who isn't #capable of conducting any job assigned to her/him!
-#Spot is growing into an #UniversalAllRounder  - soon having the #skills to carry on any activity in our universe!
-I've finally found my #UniversalAssistant.
-#ReinforceIT #spot and earn your #reward - #EarnIT.
-Like
-Reply
-2 Reactions
-Arielle Masters
-1mo
-"check the mouse traps", eh?  And then do what with them?  Spot owners need to check its code to be sure Spot deals with the mouse traps as the owners wish, not in some default way.  Also:  please use humane mouse traps instead.  The snappers are nasty (though not as evil as glue traps) and could also catch the household pets or kids.
-Like
-Reply
-1 Reaction
-Jagan Nivas P
-1mo
-The tool-calling architecture is clean — Gemini Robotics acting as the operator, tools as the API bridge, Spot handling the physical execution. Real leverage for developers who already work with the SDK.
-One thing the blog makes explicit: "until the robot powers on, Gemini Robotics has no context for what tasks we might ask it to perform." That's the right scope for this layer — but it also points to what sits above it in a real home deployment. Persistent identity (who is giving the instruction — homeowner, guest, child), memory across sessions, social awareness when a second person enters the room, privacy constraints on what the robot retains after it's done tidying.
-None of that falls out of the VLM or the motion stack. It's a separate layer that has to be designed independently and composed cleanly with what Boston Dynamics and DeepMind have built here. Been working on exactly that — cognitive runtime for physical AI, local deployment, persistent memory with privacy enforced at the database layer. The task reasoning breakthrough makes the social-cognitive layer more urgent, not less.
-Like
-Reply
-Raul V.
-1mo
-Interesting application.
- 
-Using VLMs to enable embodied reasoning is a big step, moving robots from executing commands to understanding context and intent.
- 
-From an engineering perspective, the challenge is translating that reasoning into reliable, repeatable actions in real environments.
- 
-Promising direction, especially if consistency can match the intelligence.
- 
-#Robotics #Automation
-Like
-Reply
-5 Reactions
-Jean-Marie B.
-1mo
-For this robot to be truly functional, it would need a house where everything is tidy, organized, and cataloged. It would need a large house so the robot could move around easily. In short, you'd have to be rich, owner of a social network, for example. For poor people, it's out of reach. And besides, if you want a tidy house, a woman does the job just fine (just kidding!). I like the dog's reaction; he's not fooled. cf Runaway (1984)
-Like
-Reply
-Saurabh Mehta
-1mo
-It’s amazing and sad at the same time. The technology is incredible, with unbelievable real-world applications, and it’s very helpful for people who need support. At the same time, it’s sad to see someone miss out on the unbreakable bond of love between a person and their dog. A dog’s best moment of the day is often when it goes out for a walk with its owner.
-Like
-Reply
-Rohit Avadhani
-1mo
-clearly Koda is not amused. 
-Like
-Reply
-3 Reactions
-Roger Lance
-1mo
-Here are my thoughts. As always enjoy the mental strengths of others. Heed the warning from the K9 interaction, for many people will make the same reaction. This has been seen in other developers anti-bots trending. Secondly, the-intellectual capacities of these robots makes me wonder are these movements mimicking external parameters, reliant on external data or cloud ☁️. Which means it susceptible to drops in data service. Keep up the fascinating work.
-Like
-Reply
-See more comments
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/ashishcs1990_overview-of-the-different-types-of-ai-agents-activity-7335346484793503744-fBFj
-DATE: 2026-06-03
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post provides a comprehensive overview of different types of AI agents, showcasing thought leadership and deep technical discussion.
-AI COMMENT:
-Ashish, thanks for providing a thorough overview of the various AI agent types. Your categorization by functionality, autonomy, and learning capabilities is particularly insightful. I'd like to add that the integration of these agents with edge computing and IoT devices will further enhance their capabilities, especially in real-time decision-making applications. What do you think are the most significant challenges in deploying multi-agent systems in resource-constrained environments?
-TEXT:
-Ashish Sahu
-1y
-Overview of the different types of AI agents, categorized by functionality, autonomy, and learning capabilities:
-⸻
-🚦 1. Simple Reflex Agents
-Behavior: Act only on the current percept (input), without memory.
-How they work: Use condition-action rules like “If traffic is red → stop.”
-✅ Use cases:
-	•	Basic automation (e.g. thermostat)
-	•	Rule-based bots (e.g. IVR systems)
-🔸 Limitation: Cannot handle unseen scenarios or remember past states.
-⸻
-🧠 2. Model-Based Reflex Agents
-Behavior: Maintain a model of the world to track internal state.
-How they work: Use the current input + internal memory to choose actions.
-✅ Use cases:
-	•	Game AI (e.g., enemies that patrol areas)
-	•	Robotic control with environment modeling
-🔸 Limitation: Still not goal-oriented; limited decision-making complexity.
-⸻
-🎯 3. Goal-Based Agents
-Behavior: Act to achieve specific goals using planning and search.
-How they work: Combine knowledge of actions with desired outcomes to select the best path.
-✅ Use cases:
-	•	Pathfinding algorithms (e.g. self-driving cars)
-	•	Recommender systems with optimization logic
-🔸 Limitation: Require defined goals; may not adapt well to changing goals or environments.
-⸻
-📈 4. Utility-Based Agents
-Behavior: Choose actions based on expected utility (how “good” outcomes are).
-How they work: Evaluate and rank multiple options, not just goal success.
-✅ Use cases:
-	•	Strategic AI in games
-	•	Financial AI for portfolio optimization
-🔸 Limitation: Require well-defined utility functions; harder to design.
-⸻
-🔄 5. Learning Agents
-Behavior: Learn from experiences and improve performance over time.
-How they work: Use reinforcement learning, supervised learning, or online adaptation.
-✅ Use cases:
-	•	AI in robotics (e.g. walking bots)
-	•	Personal assistants (e.g. Alexa, Siri improving via feedback)
-🔸 Limitation: Training data, time, and exploration/exploitation trade-offs.
-⸻
-🧠🤖 6. Agentic AI (Autonomous Cognitive Agents)
-Behavior: Exhibit agency—initiate tasks, set goals, reason, and adapt autonomously.
-How they work: Combine memory, planning, reasoning loops (e.g. ReAct, CoT), and tools to achieve complex goals.
-✅ Use cases:
-	•	AutoGPT, Devin
-	•	AI research assistants, autonomous workflows
-🔸 Limitation: Still emerging; risk of unpredictability or inefficiency without oversight.
-⸻
-🕸️ 7. Multi-Agent Systems (MAS)
-Behavior: Multiple agents interacting—collaborating or competing—to solve distributed problems.
-How they work: Communicate and coordinate actions across agents.
-✅ Use cases:
-	•	Swarm robotics
-	•	Distributed AI (e.g., market simulations, logistics)
-🔸 Limitation: Coordination, conflict resolution, and communication costs.
-3
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/abhisek-das-9ba967216_artificialintelligence-aiagents-autonomoussystems-activity-7465265295931113472-1KRN
-DATE: 2026-06-03
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a thought-provoking research paper on AI agents and autonomous systems, providing a deep technical overview and insights into the future of AI research, making it a high-value post for adding unique perspectives.
-AI COMMENT:
-Abhisek, thanks for sharing this insightful research paper on MARS, which indeed highlights the potential of autonomous AI agents in revolutionizing the research process. The application of reflective memory and Monte Carlo Tree Search to optimize research workflows is particularly intriguing. I'd love to explore further how such autonomous agents might handle complex tasks like scientific discovery and result analysis, potentially leading to breakthroughs in areas like robotics and computer vision. What are your thoughts on the potential applications and limitations of MARS in interdisciplinary research settings?
-TEXT:
-Abhisek Das
-1w  Edited
-I have gone through a fantastic research paper and honestly I really love reading and executing research papers and made me realise that I can build around through it.
-Research Paper: “MARS: Modular Agent with Reflective Search for Automated AI Research”
-One of the most interesting 2026 research papers in AI Agents & Autonomous Systems is:
-MARS: Modular Agent with Reflective Search for Automated AI Research
-by Jiefeng Chen, Bhavana Dalvi Mishra, Jaehyun Nam and others. 
-What the paper is about
-The paper introduces an autonomous AI research agent called MARS, designed to automate parts of the AI research process.
-Instead of generating one large monolithic solution, MARS:
-Breaks complex problems into smaller modules
-Uses reflective memory to learn from previous mistakes
-Optimizes research workflows while considering computational cost
-Uses planning techniques like Monte Carlo Tree Search (MCTS)
-
-Why it matters:-
-This research shows how AI agents are evolving from simple assistants into systems capable of:
-autonomous experimentation,
-iterative learning,
-reasoning over research tasks,
-and improving their own workflows.
-
-The paper achieved strong performance on MLE-Bench, a benchmark for machine learning engineering agents. 
-Key takeaway
-AI is moving toward a future where autonomous agents may assist researchers in:
-.literature review,
-.experiment planning,
-.code generation,
-.result analysis,
-and even scientific discovery.
-
-
-
-#ArtificialIntelligence #AIAgents #AutonomousSystems #MachineLearning #DataScience #GenerativeAI #AIResearch #LLM #FutureOfAI #Technology
-2
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/boston-dynamics_boston-dynamics-and-fieldai-are-collaborating-activity-7437861272697589761-_tCK
-DATE: 2026-06-03
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a collaboration between Boston Dynamics and FieldAI, combining Spot with foundation models for autonomous operations in dynamic environments, which is a thought leadership topic with potential for deep technical discussions.
-AI COMMENT:
-The integration of Spot with FieldAI's foundation models indeed has the potential to revolutionize autonomous operations in construction sites and other dynamic environments. One of the key challenges in such settings is ensuring the model's ability to generalize and adapt to frequent changes without requiring extensive retraining or surveying. I'd love to know more about how FieldAI's models handle dynamic obstacle avoidance and whether there are plans to integrate real-time data from various sources, such as sensors and drones, to further enhance the autonomy and decision-making capabilities of Spot. How do you envision the role of human-in-the-loop feedback in fine-tuning these models for optimal performance in real-world scenarios?
-TEXT:
-Boston Dynamics
-651,517 followers
-2mo
-Boston Dynamics and FieldAI are collaborating to combine Spot and our world-class  software stack with FieldAI’s Field Foundation Models™ for uncharted exploration, extending autonomous operations in constantly evolving spaces like construction sites. https://bosdyn.co/4lmCQlG
-654
-20 Comments
-Like
-Comment
-Share
-Humanoids Summit
-2mo
-Exciting to see this partnership!
-Like
-Reply
-Nurvai
-2mo
-Exciting collaboration! Dynamic environments like construction sites are where robots really get tested. Pairing Spot robot with foundation models built for real-world exploration could unlock some powerful new capabilities for autonomy.
-Like
-Reply
-2 Reactions
-Sorank
-2mo
-Spot navigating unplanned spaces is genuinely a different product category than what Boston Dynamics was selling two years ago. The hard part isn't the robot, it's making the model generalize to a site that changes every week without needing a full re-survey. curious whether FieldAI's models run onboard or if Spot is leaning on cloud inference in the field.
-Like
-Reply
-1 Reaction
-Robert Smak
-2mo
-The interesting part isn't the hardware — it's FieldAI's navigation stack handling truly unstructured terrain. On every brownfield site I've worked on, the floor plan in the drawing and the actual floor plan are two different things. That gap kills most AMR deployments. Curious how they handle dynamic obstacle avoidance when the 'environment' changes daily.
-Like
-Reply
-YZ-RA
-1w
-I completely agree that the combination of Spot and FieldAI's foundation models has the potential to unlock powerful new capabilities for autonomy in dynamic environments...
-Like
-Reply
-Erdem Ürün
-2mo
-Interesting direction. Combining robotics platforms like Spot with foundation models could be a major step toward truly autonomous operations in complex real world environments.
-Like
-Reply
-2 Reactions
-Markos S.
-2mo
-Interesting development. Autonomous inspection and robotics keep coming up in discussions we’re having with safety and operational leaders, particularly around removing people from hazardous environments.
-The ability to operate in constantly evolving sites like construction will be a big step forward.
-Like
-Reply
-Mostafa Akbari Hochberg
-2mo
-Really happy to see this collaboration and the next steps for Spot and Field AI. Innovation takes time :) Moving from pre-planned routes to autonomous operation feels like a major leap, and I’d guess Spot’s adoption curve will accelerate exponentially from here.
-Like
-Reply
-1 Reaction
-Design Hok
-2mo
-Impressive synergy between hardware and software. Leveraging Spot with FieldAI’s AI-driven foundation models highlights the future of autonomous inspection and exploration in evolving work environments. 
-Like
-Reply
-RACHID LEMSIAH
-2mo
-Exciting to see robotics and AI come together for real-world exploration. This collaboration could greatly expand autonomous operations in dynamic environments like construction sites.
-
-Like
-Reply
-See more comments
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/venkatavarun-yelika-849007301_ai-aiagents-artificialintelligence-activity-7465711006342819840-j5_o
-DATE: 2026-06-03
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post provides a comprehensive overview of AI agent types and sparks an interesting discussion on the future of AI.
-AI COMMENT:
-Great summary of AI agent types, Venkatavarun! I particularly appreciate how you've highlighted the diversity of AI agents and their applications. The evolution towards more autonomous and hybrid agents is indeed exciting. What role do you think explainability and transparency will play in the development of these advanced AI agents, especially in high-stakes applications like self-driving systems and autonomous decision-making?
-TEXT:
-Venkatavarun Yelika
-5d
-TYPES OF AI AGENTS
-AI is evolving from simple chatbots to intelligent autonomous systems.
-Different AI Agents are designed for different kinds of thinking, planning, learning, and decision-making.
-Here are the major types of AI Agents 👇
-1️⃣ Simple Reflex Agent
-Acts only on current inputs using predefined rules.
-2️⃣ Model-Based Agent
-Uses memory and understands changes in the environment.
-3️⃣ Goal-Based Agent
-Focuses on achieving specific goals through planning.
-4️⃣ Utility-Based Agent
-Chooses the best possible action based on utility/value.
-5️⃣ Learning Agent
-Learns from experience and improves over time.
-6️⃣ Reactive Agent
-Responds instantly to environmental changes.
-7️⃣ Deliberative Agent
-Reasons and plans before taking action.
-8️⃣ Hybrid Agent
-Combines reactive behavior with intelligent planning.
-9️⃣ Autonomous Agent
-Works independently without human intervention.
-🔟 Multi-Agent System (MAS)
-Multiple AI agents collaborating together.
-AI Agents are powering:
-✔ AI Automation
-✔ Self-driving Systems
-✔ Robotics
-✔ AI Assistants
-✔ Smart Workflows
-✔ Autonomous Decision Making
-The future of AI is not just generating answers.
-It’s building intelligent systems that can think, learn, plan, and act. 
-Which AI Agent type do you think will dominate the future? 👇
-#AI #AIAgents #ArtificialIntelligence #MachineLearning #Automation #LLM #GenerativeAI #Tech #n8n #AIAutomation #FutureOfAI
-View C2PA information
-3
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/enzo-ghisoni-robotics_nav2-ros2-robotics-activity-7359191586280214530--Kae
-DATE: 2026-06-03
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post provides a valuable resource for learning ROS 2 and has generated interesting comments from professionals in the field, making it a good opportunity to add unique value and insights.
-AI COMMENT:
-Enzo, thanks for sharing this excellent ROS 2 tutorial series. I particularly appreciate the coverage of advanced topics like SLAM and navigation with nav2. As someone who has worked on robotics projects involving computer vision and autonomous navigation, I can attest to the importance of having practical resources like this. What are some potential applications or projects that you think this tutorial series could be used for, beyond the typical mobile robot use cases?
-TEXT:
-Enzo Ghisoni
-9mo  Edited
-A Tutorial Series to Start ROS 2 in C++?
-Husarion has published a great step-by-step ROS 2 tutorial series that walks you through basics of ROS 2 in C++ for mobile robot applications, with clear examples using Gazebo or Husarion robots like the ROSbot.
-From the fundamentals to real-world applications:
-✅ ROS 2 basics: nodes, topics, parameters
-✅ Node creation (messages & services)
-✅ Kinematics, teleop & data visualization (RViz2, PlotJuggler)
-✅ Object tracking with OpenCV
-✅ Network configuration
-✅ tf2 transformations
-✅ SLAM with slam_toolbox
-✅ Navigation with nav2
-✅ Exploration with explore_lite
-Whether you're just getting started with ROS 2 or want to explore packages like #Nav2, slam_toolbox or explore_lite, this series could be helpful for your projects.
-🔗 You can check the tutorial here:
-https://lnkd.in/dKPRmyAG
-Which resource would you recommend to start ROS 2?
-Let's connect and share robotics resources 🔽
-#ROS2 #Robotics
-1,334
-37 Comments
-Like
-Comment
-Share
-Ammar Al Ansary, عمار الأنصاري
-9mo
-Fantastic share, Enzo Ghisoni! 
-This ROS 2 C++ tutorial series looks incredibly valuable, especially covering crucial aspects like OpenCV for object tracking and SLAM.
-As a Mechatronics Engineer working on AI-powered robotics (like my 'Smart Agriculture Robot' which heavily uses computer vision and navigation), I can attest to how vital these practical ROS 2 applications are. 
-This series will be a huge asset for anyone in robotics.
-Highly recommend it!
-Like
-Reply
-1 Reaction
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/atomrobot_atomrobot-smartfactory-automation-activity-7465448138624102400-yiLk
-DATE: 2026-06-03
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a significant trend in the manufacturing industry, namely the transition towards smart automation, and presents a thought-provoking question about the future of factories, making it a good opportunity to add value and spark a discussion.
-AI COMMENT:
-The idea of factories running without human labor is indeed becoming a reality, and it's exciting to see companies like Atomrobot at the forefront of this change. One aspect to consider is how the integration of AI and machine learning will further enhance the efficiency and adaptability of these smart factories. As we move towards more autonomous production lines, what role do you think human workers will play in overseeing and maintaining these complex systems, and how can we ensure a smooth transition for the workforce?
-TEXT:
-Loaded: 88.58%
-Pause
-Back to start
-Current Time 
-0:01/
-Duration 
-0:32
-Unmute
-Fullscreen
-Leo Zhang
-6d
-Will factories eventually run without human labor?
-The answer is already happening.
-Across the manufacturing industry, companies are facing the same challenges:
-⚠ Rising labor costs
-⚠ Labor shortages
-⚠ Production inefficiencies
-⚠ Increasing pressure for 24/7 operations
-This is why more manufacturers are accelerating their transition toward smart automation.
-Atomrobot helps production lines evolve from traditional manual operations to fully integrated automation — from case packing to intelligent palletizing.
-📦 Automated packing
-🤖 Robotic palletizing
-⚡ Higher efficiency
-📈 Greater production stability
-🌙 Continuous unmanned operation
-The goal is not simply replacing labor.
-It’s about building smarter factories that can scale faster, operate more efficiently, and stay competitive in the future of manufacturing.
-The era of the unmanned factory is no longer a concept — it’s becoming the new industry standard.
-How is your factory preparing for the next stage of automation?
-#Atomrobot #SmartFactory #Automation #IndustrialAutomation #casepacking #packagingsolution #palletiing #Manufacturing #Industry40 #Robotics #FactoryAutomation #Palletizing #PackagingAutomation
-…more
-10
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/boston-consulting-group_intelligent-robotics-is-reshaping-industrial-activity-7369293194716475398-W3Pn
-DATE: 2026-06-03
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses thought leadership in intelligent robotics and its impact on industrial operations, with insightful comments from various professionals, making it a high-value discussion to contribute to.
-AI COMMENT:
-I appreciate how this report highlights the transformative power of physical AI in redefining value chains and workforce dynamics. The shift towards operating models that prioritize resilience, competitiveness, and workforce evolution is indeed a game-changer. What I'd like to explore further is how organizations can effectively balance the need for AI-driven efficiency with the necessity of upskilling their workforce to work alongside intelligent robots. How do you think companies can best approach this delicate balance, and what strategies have you seen succeed in practice?
-TEXT:
-Boston Consulting Group (BCG)
-5,432,405 followers
-9mo
-Intelligent robotics is reshaping industrial operations, expanding automation to tasks once thought too complex or variable to automate.
- 
-A new report by BCG and the World Economic Forum explores how physical AI – intelligent robots that perceive, reason and act – is redefining value chains, from precision assembly to quality control.
- 
-This marks a shift towards operating models where resilience, competitiveness and workforce evolution go hand in hand.
- 
-Read the full report: http://on.bcg.com/3UZE8a0
-105
-11 Comments
-Like
-Comment
-Share
-Anjali Dangi
-9mo
-As someone who will be working  in analytics and supply chain stories, this post makes me think . Physical AI isn’t just about smart machines it’s about how we, as humans, grow alongside them. It challenges us to think faster, adapt better, and find new ways to stay valuable. What I love is how this shifts the conversation from 'Will AI take our jobs?' to 'How can we evolve with it?' That’s  the story I want to be part of....
-Like
-Reply
-1 Reaction
-YZ-RA
-1w
-I completely agree that physical AI is redefining value chains and workforce dynamics. The notion that AI-trained resilience is replacing legacy fragility on factory floors is particularly intriguing..
-Like
-Reply
-Michael Khoury
-9mo
-Fascinating insights on how intelligent robotics is expanding the frontier of automation. It’s exciting to see how physical AI is reshaping value chains and workforce dynamics. At Go Vertical ICM we echo this drive by helping inventors validate and refine breakthrough ideas through our Innovation Overview program.
-
-Like
-Reply
-2 Reactions
-Go Vertical ICM
-9mo
-Fascinating insights on how intelligent robotics is transforming operations. The shift toward resilient and adaptable value chains is inspiring. Inventors looking to validate their ideas might find Go Vertical ICM’s Innovation Overview a useful resource.
-Like
-Reply
-2 Reactions
-Dr. Bharathidasan. M
-9mo
-This is a fascinating insight into the future of automation and its impact on industry.  
-Like
-Reply
-1 Reaction
-William T Cooper
-9mo
-The future of factory floors is no longer human versus robot but AI-trained resilience versus legacy fragility. 👍 
-Like
-Reply
-1 Reaction
-MacDonald Iyamu.
-8mo
-We are reminded that AI in manufacturing isn’t just about tech—it’s about scaling, skills, and strategy. Early movers will define the future.
-Like
-Reply
-Nadine AYAD
-8mo
-Most AI projects fail not because of tech, but because of execution. Strategy, talent, and adoption matter more than the model itself
-Like
-Reply
-See more comments
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/polestar-analytics_gartner-defines-ai-agents-as-autonomous-or-activity-7348301279770701824-5VhA
-DATE: 2026-06-03
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a specific and technical topic in AI, provides a clear definition, and opens up a thought-provoking question, making it a good opportunity to add value and showcase expertise.
-AI COMMENT:
-I completely agree with the emphasis on carefully evaluating the need for AI agents and considering multi-agent systems. The criteria you've outlined, such as reliability, reuse, and robustness, are crucial in determining the suitability of AI agents for a particular use case. One aspect that I think is also worth exploring is the potential for AI agents to learn from each other and adapt in dynamic environments. What role do you think machine learning will play in the development and orchestration of AI agents in the future?
-TEXT:
-Polestar Analytics
-61,163 followers
-10mo
-Gartner defines AI agents as autonomous or semiautonomous software entities that use AI techniques to perceive, make decisions, take actions, and achieve goals in their digital or physical environments. 
-And Agentic AI as an approach to building AI solutions based on the use of one or multiple software entities that are classified, completely or at least partially, as AI agents.
-Why is this important? Because there are many criteria that should be evaluated to see if a (Multi-agent system) MAS may be better suited than applying a single AI agent based on 
-- Reliability
-- Reuse
-- Robustness
-- Requirements
-- Rearchitecting 
-And also understanding whether you need an agent in the first place!! 
-P.S. AI agents are not a miracle cure for each and every business context and use case - you can look at the image below for more details or check the link here: https://lnkd.in/g3RaaCGF
-What do you think about the rising AI agents?
-25
+36
 1 Comment
 Like
 Comment
 Share
-Rajesh Burman
-10mo
-AI agents are promising, but businesses need to be careful not to treat them as a silver bullet. I see orchestrating multiple agents for adaptive workflow  env rather  than forcing them into every problem.
+Ali Mustafa Siddiqui
+11h
+I am fascinated! Did building the URDF change how you think about a robot's physical design now that you've had to define every link and joint manually?
 Like
 Reply
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/enzo-ghisoni-robotics_ros2-ai-robotics-activity-7449070785433993216-8JnR
-DATE: 2026-06-03
+LINK: https://www.linkedin.com/posts/alvinchang_autonomous-ai-agents-that-can-provision-infrastructure-activity-7465409230003421198-zWA-
+DATE: 2026-06-04
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post is about a specific technical topic (Reinforcement Learning in ROS 2) and has generated a discussion with multiple comments from experts in the field, indicating a high level of engagement and relevance to the robotics and AI community.
+SCORE: 9/10 - The post discusses a critical and specific issue in AI agent development, namely the lack of a reliable 'kill switch' to stop malfunctioning agents, making it a high-value technical discussion.
 AI COMMENT:
-Great resource, Enzo! The ros2_flatland_rl_tutorial package is a fantastic example of how to apply Reinforcement Learning to robotics using ROS 2. I particularly appreciate the use of Stable-Baselines3 and OpenAI Gym. One aspect to consider is the integration of more advanced simulators like Gazebo or Isaac Sim, which could further enhance the realism of the environment. What are your thoughts on using simulation-to-reality transfer methods to deploy RL-trained policies on real-world robots?
+I completely agree that the current state of agent deployments is concerning, and the three requirements you've outlined are essential for a robust kill switch. Adding to your point, cryptographic identity revocation and cascade blocking can be particularly challenging in edge cases, such as when agents are operating in a highly distributed or asynchronous environment. What strategies do you think are most effective for implementing these measures in complex, real-world scenarios?
 TEXT:
-Enzo Ghisoni
-1mo  Edited
-Train Your Robot with Reinforcement Learning in ROS 2!
-Ever wondered how to get started with Reinforcement Learning (RL) in robotics using ROS 2?
-Check out the ros2_flatland_rl_tutorial package created by Filipe Almeida, a hands-on guide to training a robot using Stable-Baselines3, OpenAI Gym, and the Flatland lightweight 2D simulator under ROS 2 Humble.
-What you'll learn:
-✅ How to set up a custom Gym environment with ROS 2 nodes
-✅ How to train a robot to navigate a hallway using the PPO algorithm
-✅ How to structure rewards and observations from Lidar for RL
-✅ How to simulate faster and evaluate training strategies
-🔗 This repository is a great way to dive into Robot Learning, experiment with different environments, and see RL in action!
-https://lnkd.in/eF4FAJsK
-Do you have other awesome RL + ROS 2 example setup?
-Let's connect and share insights 🔽
-#ROS2 #AI #Robotics
-876
-18 Comments
+Alvin Chang, MSc, MBCS
+1w
+Autonomous AI agents that can provision infrastructure and escalate privileges, but no way to stop them when they go off-script.
+That's the state of most agent deployments today.
+When an agent goes wrong — whether through prompt injection, misconfigured policies, or a hallucination with root access — you need to revoke its authority immediately. Not "open a ticket." Now.
+Three things every AI kill switch needs:
+1. Cryptographic identity revocation (not just "delete the session")
+2. Cascade blocking — if Agent A spawned Agent B, revoking A should revoke B
+3. Audit trail — you need to know what it did between "go" and "stop"
+Most companies are deploying agents with none of these. They'll learn why they matter the hard way.
+What's your agent kill switch strategy? If you don't have one, that's the answer.
+1
+1 Comment
 Like
 Comment
 Share
-Enzo Ghisoni
-1mo
- 🔗 You can check the repository: https://github.com/FilipeAlmeidaFEUP/ros2_flatland_rl_tutorial
+Keith R.
+6d
+That “no way to stop them” line is the one that should make non-security people pay attention. An AI agent with access to infrastructure needs the same basics as a new employee: an owner, limits, logs, and a clear off switch before it touches anything important.
 Like
 Reply
-1 Reaction
-Prathmesh Barapatre
-1mo
-Made a custom gym with ISS layout for space Robotics simulation 
-Like
-Reply
-2 Reactions
-Hamna Qaseem
-1mo
-This is super helpful, thanks for sharing! 🙌
-As someone just getting started with Reinforcement Learning in robotics, I’m curious, what would you recommend as the best platform for beginners?
-Would you suggest starting with MuJoCo, or going directly with ROS 2 + simulators like Gazebo?
-I’m really excited to start experimenting and implementing RL in real-world-like environments, so would love your advice (and others here too!) 
-Like
-Reply
-1 Reaction
-Leo T.
-1mo
-Wow! Thanks! I really appreciate this! This is really useful! 
-Like
-Reply
-1 Reaction
-Shashank Dev
-1mo
-I’ve built ACPL (Adaptive Consequence Penalized Learning), a reinforcement learning approach designed to explicitly model delayed negative consequences. Instead of optimizing only for immediate reward, it penalizes actions based on anticipated future harm.
-The goal is to make RL agents safer and more risk-aware, especially in environments where failures are delayed, noisy, or rare.
-Like
-Reply
-2 Reactions
-Adithya Mohan
-1mo
-I think that for this env, ros2 is a bit too much.
-If RL is the goal, one could just implement a gym flatland env and learn to train the RL agent.
-Would like to know more from you why to use ROS2 for basic RL stuff. Any specifics?
-Like
-Reply
-1 Reaction
-Mahmoud Majdalani
-1mo
-Engineer Enzo
-now I study basics of ROS2
-what can I achieve in this level and what can I will go in this field in the future
-I'm really excited to learn knowledge in robotics world
-Like
-Reply
-1 Reaction
-Dr. D.N.S Ravi Kumar
-1mo
-https://internsharks.ai/home
-Like
-Reply
-Pritam Bandgar, MS
-1mo
-Good resource Enzo Ghisoni. RL with ROS2 still feels like a deep rabbit hole, so hands-on examples like this are useful.
-Like
-Reply
-INDUSTRIAL RENAISSANCE EUROPE
-1mo
-Training navigation in a simulated hallway is a great starting point. Enzo Ghisoni
-Like
-Reply
-See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/robotverse_robotverse-industrialautomation-industry40-activity-7465771471278202882-ZSsw
-DATE: 2026-06-03
+LINK: https://www.linkedin.com/posts/ai-infra-summit_ai-agents-are-moving-from-demos-into-real-activity-7466181970985635840-o046
+DATE: 2026-06-04
 METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - The post discusses a relevant and timely topic in industrial automation, with a clear overview of current advancements, but lacks a deep technical discussion or a unique perspective.
+SCORE: 9/10 - The post is a thought leadership piece discussing the implementation of responsible AI in real-world systems, featuring a panel discussion with industry experts, and raises important questions about governance and accountability.
 AI COMMENT:
-The showcase of industrial robotics and smart automation technologies is truly impressive, highlighting the significant impact on manufacturing and production efficiency. I particularly appreciate the emphasis on Industry 4.0 innovation and intelligent production systems. However, as we move towards more AI-driven automation, what role do you think human-machine collaboration will play in future-ready manufacturing, and how can we ensure that these advancements benefit both productivity and workforce development?
+I completely agree that responsible AI shouldn't be an afterthought, but rather a fundamental aspect of the architecture itself. The panel's discussion on sovereign AI, data quality, and human-in-the-loop for autonomous systems highlights the complexities of implementing responsible AI in operationally critical environments. Dr. Matthew Chow's point about not striving for perfection, but rather for a standard that allows us to mitigate risk, is particularly insightful. What are some potential strategies that organizations can employ to ensure that their AI systems are aligned with human values and ethics, and how can we balance the need for speed and efficiency with the need for safety and oversight?
 TEXT:
-Loaded: 97.63%
+Loaded: 32.33%
 Pause
 Back to start
 Current Time 
 0:02/
 Duration 
-0:18
+0:23
+Show Captions
 Unmute
 Fullscreen
-RobotVerse
-33 followers
+AI INFRA SUMMIT
+259 followers
 5d
-🚀 The Future of Industrial Automation Is Here
-Industrial robotics and smart automation technologies are redefining the future of manufacturing and production efficiency.
-This short showcase highlights the power of:
-• Industrial Robotics
-• Smart Manufacturing
-• High-Speed Automation
-• Industry 4.0 Innovation
-• Intelligent Production Systems
-As industries continue moving toward AI-driven automation and connected manufacturing environments, advanced robotic systems are becoming essential for productivity, precision, and scalability.
-At RobotVerse, we are passionate about showcasing the next generation of industrial technology and automation solutions shaping modern factories.
-Smarter Operations
-Intelligent Robotics
-🚀 Future-Ready Manufacturing
-#RobotVerse #IndustrialAutomation #Industry40 #Robotics #Manufacturing #SmartFactory #Automation #Engineering #ArtificialIntelligence #IndustrialTechnology #Innovation #SmartManufacturing #FutureFactory #AutomationTechnology #IndustrialEngineering
+AI agents are moving from demos into real systems.
+That raises a question the industry is still working through:
+What does responsible AI actually look like once autonomous agents begin making decisions, taking actions, and interacting with critical workflows?
+At AI INFRA SUMMIT 5, this panel moderated by Robert Scoble (CEO, Unaligned), featured panelists Radhika I. (MP, StarChain Ventures), Mel Lim (CEO, Chateauz™) and Matthew Chow (TELUS Health) as they explored healthcare, defense, enterprise governance, sovereign AI, probabilistic systems, and the growing tension between speed, safety, and human oversight.
+Responsible AI is not something added after deployment.
+It has to be built into the architecture itself.
+Watch the full panel in the comments.
 …more
+13
+2 Comments
+Like
+Comment
+Share
+Transcript
+Transcript
+And I'll tell you why. It doesn't have to be perfect. So I'm I'm a physician. I work in high stakes, high risk environments, life and death decisions. I am not perfect. I have killed patients. Other doctors I know have killed patients, at least the honest ones. I'll admit it. We're not perfect. And so the standard by which AI needs to be held is not a standard of perfection. It is a standard by which we can sleep at night knowing that we did our very best to mitigate the risk.
+IgniteGTM
+5d
+Watch It now : https://youtu.be/Idyh81BjQqg?si=gqm0E-bky93_I0t_
+Like
+Reply
+3 Reactions
+Bill Barry
+5d
+We specifically curated this panel at AI INFRA SUMMIT 5 to move past "responsible AI" talking points and get into what it actually looks like operationally. Robert Scoble, Radhika I., Mel Lim, and Dr. Matthew Chow delivered. The conversation around sovereign AI, data quality, and human-in-the-loop for autonomous systems was exactly what the room needed.
+As agentic AI gets more capable, the governance question is getting harder. 
+What's your org doing about it today?
+Like
+Reply
+3 Reactions
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/a-banks_boston-dynamics-just-partnered-with-google-activity-7416826389066047488-Xldl
+DATE: 2026-06-04
+METRICS: 0 Likes, 0 Comments
+SCORE: 9/10 - The post is about a significant development in robotics with a partnership between Boston Dynamics and Google DeepMind, offering a deep technical insight into the capabilities of the Atlas humanoid robot and its potential impact on industries.
+AI COMMENT:
+I completely agree that the convergence of hardware and intelligence is a game-changer in the robotics industry. The 56 degrees of freedom and self-swapping batteries in the Atlas humanoid robot make it a highly efficient and reliable worker. What I'd like to add is that the success of such robots will also depend on the development of advanced computer vision and machine learning algorithms that can enable them to adapt to dynamic environments and learn from experience. As the industry moves forward, do you think the focus will shift from just deploying robots quickly to ensuring their safe and seamless integration with human workers?
+TEXT:
+Loaded: 65.61%
+Pause
+Back to start
+Current Time 
+0:01/
+Duration 
+0:51
+Show Captions
+Unmute
+Fullscreen
+Alex Banks 
+Alex Banks is an Influencer
+4mo
+Boston Dynamics just partnered with Google DeepMind.
+Their robot is the same height as the Terminator.
+The upgraded electric Atlas humanoid just debuted at CES 2026.
+Here's what makes this different:
+→ 56 degrees of freedom
+→ 4-hour battery life
+→ Self-swapping batteries for continuous operation
+→ 1.9m frame (same height as Schwarzenegger in Terminator)
+→ Designed specifically for factory work
+The DeepMind partnership solves the missing piece:
+For years, hardware teams cracked locomotion.
+But intelligence and local compute lagged behind.
+Gemini Robotics integration changes that equation entirely.
+The humanoid advantage:
+Some argue the humanoid form is suboptimal.
+Why limit robots to human-like movements?
+But Atlas already exploits what we can't do:
+→ 360-degree torso rotations
+→ More energy-efficient than stepping
+→ Movements impossible for human joints
+The humanoid form serves as a universal worker, much like a human.
+My takeaway:
+We're watching hardware and intelligence finally converge at scale.
+The robotics race is now about who can deploy them fastest.
+Hyundai plans to deploy 30,000 units in their manufacturing facilities starting this year.
+Meanwhile, China's Unitree already ships robots at $70k with similar battery-swap capabilities.
+We’re watching the early stages of an industry that could reshape entire sectors within the decade.
+Follow me Alex Banks for daily AI highlights and insights.
+If you liked this post, you'll love the newsletter.
+I cover the most important AI developments each week.
+Subscribe here: https://lnkd.in/ePSZP6KF
+…more
+402
+146 Comments
+Like
+Comment
+Share
+Transcript
+Transcript
+First time in public and as you can see it's walk is pretty natural and pretty smooth. We've partnered with our sister organization, the Robotics and AI Institute to push the limits on natural walking just for this performance and I think we've done something really special. We've also visited this robotic staying for awhile, and we've learned that there's more to it than just copying nature. We can pick the best parts of what nature has to offer and do better in others. So as you can see, Atlas here has joints that can move 360��. This lets outlets move even more efficiently than humans, particularly in manufacturing environments where every second counts. We've also designed Atlas's head and face very purposefully, and we like both working with Atlas to know that Atlas is a helpful role.
+Alex Banks
+4mo
+📌 You can read the full announcement here: https://bostondynamics.com/blog/boston-dynamics-google-deepmind-form-new-ai-partnership/
+Like
+Reply
+9 Reactions
+Michal Majdanski
+4mo
+Great breakdown Alex Banks, but honestly the scariest part isn't in your post—it's what happens when Hyundai's 30,000 Atlas units become MORE reliable than their human workforce in 18 months. We're celebrating deployment speed like it's innovation, but China commoditizing these at $70k means every manufacturing CEO now has one choice: automate or watch competitors do it first and eat your lunch.
+The real story isn't hardware meeting AI. It's that we've crossed the economic threshold where robot workers are cheaper than human annual salaries, and we're still pretending "reskilling" will somehow keep pace with deployment velocity. What's the actual plan when entire sectors automate faster than people can pivot careers?
+Like
+Reply
+6 Reactions
+Muhammad Ali
+4mo
+It is wild to watch the timeline between 'science fiction concept' and 'industrial reality' shrink to almost zero.
+Like
+Reply
+7 Reactions
+Safia Saher
+4mo
+Humans now have competition on the ramp walk.🙌
+Like
+Reply
+3 Reactions
+Glenda Carnate
+4mo
+Alex Banks The partnership between robotics and intelligence platforms shows that movement alone is no longer the bottleneck; decision-making and adaptability are now the differentiators in automation.
+Like
+Reply
+3 Reactions
+Zaki Akhtar
+4mo
+Old industrial robots:
+	•	Bolted to one spot
+	•	Single task, single motion
+	•	Useless outside pre programmed paths
+New humanoid robots:
+	•	Mobile across the entire factory
+	•	Software defined roles
+	•	Adapt to layout changes without retooling
+The form factor isn’t the headline. The flexibility is.
+Like
+Reply
+4 Reactions
+Bryn Richards
+4mo
+This is wild, it really does feel like we’re watching the moment hardware and intelligence finally catch up to each other. The fact this is aimed at real factory work, not demos, makes it feel less sci-fi and more like a genuine industry shift already underway, is that the case?
+Like
+Reply
+5 Reactions
+Tersh Blissett
+4mo
+Intelligence has always been the bottleneck. With DeepMind onboard, Atlas could finally move from demo to real world impact.
+Like
+Reply
+10 Reactions
+Eduardo Roman
+4mo
+Feels like the race is less about who builds the best robot and more about who integrates, deploys, and maintains fastest. That’s where winners usually emerge.
+Like
+Reply
+5 Reactions
+Muhammad Waqas Arif
+4mo
+ The convergence of advanced hardware and on-device intelligence finally makes humanoid robots practical for real work.
+ I’ve seen similar breakthroughs where capability alone isn’t enough; speed of deployment and integration determines who leads the market.
+Like
+Reply
+6 Reactions
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/humanoid-robotics-weekly_three-live-signals-19-25th-may-2026-methodology-activity-7465356206593970176-XZXV
+DATE: 2026-06-04
+METRICS: 0 Likes, 0 Comments
+SCORE: 9/10 - The post provides unique insights into recent developments in humanoid robotics, including technical content releases from major companies and significant investment and deployment announcements, offering a rich opportunity for thoughtful commentary.
+AI COMMENT:
+I appreciate the in-depth analysis of the recent shifts in the humanoid robotics landscape, particularly the emphasis on methodology over marketing by industry leaders like Boston Dynamics, Figure AI, and Tesla. The annotated training pipelines and unedited livestreams indeed offer a more transparent look into the development process. The consolidation moves, such as Hangzhou Kelin's stake in Kepler Robotics, and deployment targets set by Shanghai, also signal a maturing industry. What do you think will be the most critical factor in achieving the widespread adoption of humanoid robots in factories by 2030, and how might these recent developments influence that outcome?
+TEXT:
+Humanoid Robotics Weekly
+28 followers
+1w
+Three Live Signals 19-25th May 2026 
+Methodology over marketing. Boston Dynamics, Figure AI, and Tesla released detailed technical content within a week of each other, replacing the choreographed stage demonstration with annotated training pipelines, unedited livestreams, and direct comparisons to prior failure footage.
+First A-share consolidation. Hangzhou Kelin took a 51 percent controlling stake in Kepler Robotics on 19 May for 300 million yuan, the first listed-company controlling acquisition of a Chinese humanoid pure-play, executed at a 720 million yuan valuation that the financial filings describe as distressed.
+Shanghai sets a deployment floor. Municipal authorities confirmed a target of 100,000 humanoid robots in factories by the end of the 15th Five-Year Plan in 2030, alongside Beijing's launch of a national humanoid robot lifecycle management platform and JD.com's announcement of the first humanoid robot auction at the 618 shopping festival.
 1
 Like
 Comment
@@ -691,51 +303,277 @@ Share
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/the-knotts-company_the-stats-and-opportunity-behind-us-industrial-activity-7417223894106890240-PWi0
-DATE: 2026-06-03
+LINK: https://www.linkedin.com/posts/kinjalvrajput_what-happens-when-artificial-intelligence-activity-7467055753229680640-748V
+DATE: 2026-06-04
 METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - The post provides interesting statistics and insights into the adoption of industrial automation, making it a standard industry news post with opportunities to add decent thoughts.
+SCORE: 9/10 - The post discusses thought leadership, combines human expertise, technology, and automation, and features a TEDx talk by a major figure in the industry.
 AI COMMENT:
-I completely agree that industrial automation is accelerating, and the stats you provided are indeed insightful. One aspect that I think is crucial to consider is how the integration of physical machines with software platforms will impact cybersecurity in industrial settings. As we see more connected devices, the attack surface expands, and companies will need to prioritize security measures to protect their operations. What do you think will be the most significant challenge for industrial companies to overcome in terms of securing their automated systems?
+I completely agree that the future of industry lies at the intersection of human expertise, technology, and automation. The D³ Framework presented in the TEDx talk provides a compelling structure for understanding this evolution. What I find particularly intriguing is the potential for 'Decode' to uncover new insights from industrial data - how do you envision the role of explainable AI in ensuring that these insights are not only accurate but also transparent and actionable for human decision-makers?
 TEXT:
-The Knotts Company
-2,313 followers
-4mo
-📈 INDUSTRIAL AUTOMATION ISN'T THE FUTURE — IT'S HERE. 
-AND IT'S ACCELERATING.
-New research from RobCo’s 2025 U.S. Automation Index shows a MAJOR shift in how industrial companies across the U.S. are approaching automation strategy. 
-A recent article, 'The Stats and Opportunity Behind U.S. Industrial Automation’s Rise', published in Modern Distribution Management (MDM) delves into the insights and data that every industrial leader should know.
-According to the latest findings:
-🔹 95% of U.S. industrial firms plan to introduce new automation within the next 3 years
-🔹 Over 50% are already testing or planning robotic deployments
-🔹 Nearly all respondents are integrating physical machines with software platforms
-🔹 Federal incentives (73%) & reshoring initiatives (61%) are key adoption drivers
-🔹 Robotics adoption is moving rapidly from pilot projects to mainstream strategy, with huge implications for productivity & competitiveness. 
-For distributors and supply chain partners, this isn’t just a trend  —  it Is a strategic opportunity .....
-     ✅ Expand product offerings
-     ✅ Deepen customer relationships
-     ✅ Support manufacturers through a critical transformation  
-From automation-ready hardware to connectivity and controls, the demand landscape is evolving — and expanding fast. 
-Whether you’re in electrical, motion control, or industrial supplies, now’s the moment to rethink how automation fits into your roadmap. 🛣️  
+Kinjal Rajput
+3d
+The future isn't being built by AI alone. It's being built by people who know how to combine human expertise, technology, and automation.
+Excited to share this TEDx talk by Lokesh Patel at TEDxBBAU, on the evolving intersection of Artificial Intelligence and Industrial Automation.
+The discussion covers how industries have evolved through different technological revolutions and what lies ahead with Industry 5.0. More importantly, it highlights a powerful idea: technology delivers its best results when it amplifies human potential rather than replacing it.
+A thought-provoking watch for anyone interested in AI, automation, and the future of industry.
+A well-deserved milestone for someone who continues to inspire through both expertise and a genuine commitment to learning and mentoring.
+Congratulations, and wishing you many more such achievements ahead.
+TedTalk is available at:
+https://lnkd.in/drpywD6M
+#TEDx #TEDxBBAU #ArtificialIntelligence #IndustrialAutomation #Leadership #Mentorship #Innovation
 
-📰 READ THE FULL Modern Distribution Management (MDM) ARTICLE EVERY INDUSTRIAL LEADER SHOULD KNOW:
-     👉  https://lnkd.in/gzASrMfk
+Lokesh Patel
+5d
+Industrial Automation is no longer just about machines, PLCs, and repetitive tasks. 
+We are entering an era where AI, Machine Vision, Robotics, IIoT, and intelligent systems are transforming industries from “automated” to “autonomous.”
+In this TEDx talk, I introduce the D³ Framework:
+🔹 Decode — Learn how industries extract hidden intelligence from data, sensors, and machine behaviour.
+🔹 Design — Discover how AI-powered systems, vision technologies, and smart automation are reshaping manufacturing and decision-making.
+🔹 Disrupt — Understand how the future belongs to autonomous industrial ecosystems driven by Artificial Intelligence and Machine Learning.
+Key topics covered in this talk:
+• Industrial Automation & AI/ML
+• Machine Vision Systems
+• IIoT & Smart Factories
+• Robotics & Cobots
+• Autonomous Industrial Automation
+• Data-Driven Manufacturing
+• Predictive Intelligence
+• Human + AI Collaboration
+• Future of Industry 4.0 & Beyond
+Some of the most powerful ideas from the session:
+⚡ “Earlier, we programmed machines. Now, we train them.”
+⚡ “Decode what others ignore. Design what others can’t imagine. Disrupt what others accept.”
+⚡ “Automation without vision is incomplete.”
+This talk is for:
+• Engineers
+• Industrial Automation Professionals
+• Students & Innovators
+• AI/ML Enthusiasts
+• Manufacturing Leaders
+• Future Technologists
+Lokesh Patel is a self-made entrepreneur and technology leader working at the forefront of automation, robotics, and the Industrial Internet of Things (IIoT). With a degree in Electronics and Telecommunication, he began his entrepreneurial journey at the age of 24, building ventures from the ground up through technical expertise, resilience, and vision. This talk was given at a TEDx event using the TED conference format but independently organized by a local community. Learn more at https://www.ted.com/tedx
+If you enjoyed the talk, do like, share, and subscribe for more content on Industrial Automation, Robotics, AI, Vision Systems, and future technologies shaping tomorrow’s industries.
+#TEDx #IndustrialAutomation #AI #MachineLearning #Industry40 #SmartFactory #Robotics #IIoT #Automation #Innovation #FutureTechnology #ArtificialIntelligence #MachineVision
 
-#IndustrialAutomation #Manufacturing #Robotics #SupplyChain #Distribution #Technology #Innovation #SmartManufacturing
-
-The Stats and Opportunity Behind U.S. Industrial Automation’s Rise
-https://www.mdm.com
-4
-1 Comment
+https://lnkd.in/dDswJ_y9
+What happens when Artificial Intelligence meets Industrial Automation? | Lokesh Patel | TEDxBBAU
+https://www.youtube.com/
+5
 Like
 Comment
 Share
-Suzanne Tracey-Ward
-4mo
-Quite insightful!
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/abhinandbinu_ros2-robotics-amr-activity-7467517193472081920-tDKh
+DATE: 2026-06-04
+METRICS: 0 Likes, 0 Comments
+SCORE: 9/10 - The post is a detailed, technical discussion of a robotics project, including specific tools and techniques, with potential for in-depth commentary and follow-up discussion.
+AI COMMENT:
+Abhinand, your ROS 2 Learning Series is providing invaluable insights into the development of Autonomous Mobile Robots. I particularly appreciate the emphasis on frame management and the lessons learned from debugging frame transformations. What are some potential challenges you foresee when deploying the Nav2 autonomous navigation stack on real hardware, and how do you plan to address them?
+TEXT:
+Loaded: 78.47%
+Pause
+Back to start
+Current Time 
+0:01/
+Duration 
+1:28
+Unmute
+Fullscreen
+Abhinand Binu
+1d
+🚀 ROS 2 Learning Series with I Hub School of Learning — From Mapping to Localization
+Excited to share another milestone in my ROS 2 Autonomous Mobile Robot (AMR) journey!
+After successfully building a mobile robot simulation with LiDAR, Camera, Gazebo, RViz, and ROS 2 Control, I completed the next critical stages of autonomous navigation:
+🗺️ SLAM Mapping
+📍 Localization using a pre-built map
+🔧 What I implemented:
+✔ Designed and simulated a differential drive AMR using URDF/Xacro
+✔ Integrated LiDAR and Camera sensors
+✔ Configured ROS 2 Control for realistic robot actuation
+✔ Generated an occupancy grid map using SLAM Toolbox
+✔ Saved and reused the generated map
+✔ Performed localization on the saved environment
+✔ Validated robot pose estimation using LiDAR scan matching and TF transforms
+✔ Debugged frame transformations and odometry integration
+🧠 Key Learning:
+One of the most important lessons during this phase was understanding the significance of the TF tree and frame consistency. A single frame mismatch between base_link and base_footprint prevented proper localization until the transform hierarchy was corrected.
+This reinforced a valuable robotics engineering principle:
+👉 Accurate frame management is just as important as writing code.
+📡 Current System Capabilities:
+✔ Gazebo-based robot simulation
+✔ RViz visualization
+✔ LiDAR perception
+✔ Camera perception
+✔ ROS 2 Control integration
+✔ Odometry generation
+✔ SLAM-based mapping
+✔ Map saving and loading
+✔ Localization on a known map
+🚀 Next Steps:
+🔹 Adaptive Monte Carlo Localization (AMCL) optimization
+🔹 Nav2 autonomous navigation stack
+🔹 Goal-based navigation in RViz
+🔹 Deployment on real hardware using Raspberry Pi and ROS 2
+Every stage of this journey is helping me better understand how modern Autonomous Mobile Robots are designed, simulated, localized, and eventually deployed in real-world environments.
+#ROS2 #Robotics #AMR #AutonomousRobots #SLAM #Localization #LiDAR #Gazebo #RViz #Nav2 #ROS2Control #MobileRobotics #RoboticsEngineer #LearningSeries
+…more
+30
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/boston-dynamics_ask-a-roboticist-meet-karl-boston-dynamics-activity-7391520111997919232-ihCJ
+DATE: 2026-06-04
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post features a thought leadership piece from a major figure in the robotics industry, Boston Dynamics, and provides an opportunity to engage with a mechanical engineer, offering a deep technical discussion.
+AI COMMENT:
+Karl's insights on balancing innovation and reliability in robotics are truly valuable. I appreciate how Boston Dynamics pushes the boundaries of what's possible with robots like Atlas. It's fascinating to consider how advancements in robotics could lead to more autonomous systems in various industries. What do you think is the most significant challenge in scaling up robotics innovation for real-world applications, Karl, and how do you envision Boston Dynamics addressing it?
+TEXT:
+Boston Dynamics
+651,703 followers
+7mo  Edited
+Karl Price, a mechanical engineer at Boston Dynamics, answers your questions about designing robots, balancing innovation and reliability, and getting hands-on with Atlas. https://bosdyn.co/4hDK2Ia
+Ask a Roboticist: Meet Karl | Boston Dynamics
+bostondynamics.com
+160
+4 Comments
+Like
+Comment
+Share
+David Deng
+6mo
+This is amazing! Boston Dynamics' perfect blend of engineering and creativity, and its process of balancing innovation and reliability, is shaping the future of robotics.
 Like
 Reply
-1 Reaction
+ImageDeep - Real-Time Intelligence. Real-World Impact
+6mo
+Hi Karl, what did you think of the Xpeng IRON  'Proves non-human by shedding skin'? 
+No outside sensors adds a remote control feel to the play.
+Like
+Reply
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/uni-network-group_bostondynamics-bostondynamicsuniversity-activity-7387790033732304896-27v0
+DATE: 2026-06-04
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post discusses a significant development in the robotics industry, specifically the launch of Boston Dynamics University, which offers a unique opportunity for thought leadership and technical insights.
+AI COMMENT:
+The launch of Boston Dynamics University is a significant step forward in addressing the growing need for skilled robotics professionals. By providing hands-on and online learning programs, BDU is empowering operators to master robotics deployment safely and efficiently. What I find particularly interesting is the potential for BDU to drive innovation in robotics applications beyond industrial settings - how do you think the skills and expertise developed through BDU will translate to other fields, such as healthcare or environmental conservation?
+TEXT:
+Loaded: 100.00%
+Pause
+Back to start
+Current Time 
+0:01/
+Duration 
+0:26
+Unmute
+Fullscreen
+UNI NETWORK GROUP
+18,662 followers
+7mo
+Boston Dynamics has officially launched 𝗕𝗼𝘀𝘁𝗼𝗻 𝗗𝘆𝗻𝗮𝗺𝗶𝗰𝘀 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆 (𝗕𝗗𝗨) — a groundbreaking platform dedicated to robotics training and certification. Designed for both customers and partners, BDU offers hands-on and online learning programs that empower operators to master robotics deployment safely and efficiently.
+Through interactive sessions, self-paced courses, and expert-led guidance, participants can develop real-world skills across Boston Dynamics’ robots — including Spot, Stretch, and Orbit. This initiative also enables partners to become certified to sell, integrate, and service robots globally, ensuring consistent technical excellence across the ecosystem.
+As the demand for industrial AI and automation talent accelerates, Boston Dynamics University is shaping the next generation of robotics professionals.
+Ridhwan Ahmed | Rebecca Khurshid | Matthew Gardner | Kevin Miskelly | Dion Gonano | Joshua Jacob | Mark Fournier | Cait Amadon | Aaron Abroff | James Roderick
+#BostonDynamics #BostonDynamicsUniversity #Robotics #AI #Automation #LearningAndDevelopment #SpotRobot #StretchRobot #Innovation #TechEducation #UniNetwork
+…more
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/degrayautomation_robotics-automation-manufacturing-activity-7465410569316007936-MQeh
+DATE: 2026-06-04
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post sparks a discussion on the evolution of industrial robotics, and the hint about the robot's location and platform invites engagement. The additional information provided in the comments, such as the possible identification of the robot model, adds technical depth to the conversation.
+AI COMMENT:
+I love how this vintage robot showcases the foundation of modern automation. The Unimation PUMA series was indeed a pioneering achievement in the field. What I find particularly interesting is how the core principles of reliability, repeatability, and continuous production have remained consistent despite the advancements in technology. What do you think is the most significant challenge in integrating legacy systems like this with modern automation solutions, and how can we learn from the past to inform our future innovations?
+TEXT:
+Degray Automation
+705 followers
+1w
+Bonus point for any one who knows where this is located and what platform it is.
+Hint: It is not at Degray Automation.
+Industrial robotics have come a long way. it is impressive how many of the core ideas behind modern automation were already being realized decades ago. Reliability, repeatability, dangerous task removal and continuous production has always been the goal.
+The tools evolve. The mission remains.
+Manufacturing and automation continue shaping the world around us. This is pretty neat to get a snapshot of manufacturing and automation from the past.
+#Robotics #Automation #Manufacturing #IndustrialAutomation #DegrayAutomation
+5
+2 Comments
+Like
+Comment
+Share
+Degray Automation
+14h
+A little bonus for the robotics crowd:
+This appears to be a Unimation PUMA series robot, likely from the late 1970s through 1980s, on display at the Baltimore Museum of Industry.
+If anyone can identify the exact model and year, we'd love to hear it.
+Like
+Reply
+Degray Automation
+1w
+www.degrayautomation.com
+Like
+Reply
+2 Reactions
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/robotverse_industrialautomation-industry40-smartmanufacturing-activity-7465635482836688896-r7AT
+DATE: 2026-06-04
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - The post discusses current industrial automation trends, which is a relevant and interesting topic, but lacks a unique perspective or thought leadership to elevate it to a higher score
+AI COMMENT:
+I completely agree that AI-powered automation and industrial robotics are driving the transformation of manufacturing industries. One aspect that I think is particularly noteworthy is how the integration of these technologies can lead to significant improvements in overall efficiency and product quality. For instance, predictive maintenance can reduce downtime by up to 50%, and collaborative robots can enhance workplace safety. As we look to the future of Industry 4.0, what role do you think human-machine collaboration will play in shaping the next generation of smart factories?
+TEXT:
+RobotVerse
+34 followers
+1w
+Industrial Automation Trends for 2026
+Manufacturing industries worldwide are rapidly transforming through AI-powered automation, industrial robotics, and smart factory technologies.
+Key trends shaping Industry 4.0 include:
+✔ Predictive Maintenance
+ ✔ Industrial IoT
+ ✔ Collaborative Robots
+ ✔ AI-Based Manufacturing
+ ✔ Smart Vision Inspection
+ ✔ Autonomous Mobile Robots
+Industrial automation is becoming the foundation of future smart manufacturing growth.
+Read the complete article here:
+ 🌐 https://lnkd.in/gjGcMqBy
+#IndustrialAutomation #Industry40 #SmartManufacturing #IndustrialRobotics #AIManufacturing #FactoryAutomation #RobotVerse
+1
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/industrial-automation-monthly_mind-robotics-expands-ai-driven-industrial-activity-7465073640703782913-xM6V
+DATE: 2026-06-04
+METRICS: 0 Likes, 0 Comments
+SCORE: 5/10 - The post is sharing standard industry news without taking a unique stance or providing in-depth technical analysis.
+AI COMMENT:
+
+TEXT:
+Industrial Automation Monthly
+453 followers
+1w  Edited
+Industrial Automation Monthly highlights the Mind Robotics expansion of AI-powered industrial robotics and adaptive manufacturing automation technologies:
+Mind Robotics Expands AI-Driven Industrial Automation
+https://industrialautomationmonthly.com
+Like
+Comment
+Share
 To view or add a comment, sign in
 ================================================================================
 
