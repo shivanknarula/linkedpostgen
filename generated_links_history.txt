@@ -1,6 +1,3 @@
-https://www.linkedin.com/posts/armel-nene-jr_ros2-slam-nav2-activity-7375521929706758144-fMQh
-https://www.linkedin.com/posts/alejandra-yonet-garza-delano%C3%A9-3b3191214_robotics-ros2-autonomoussystems-activity-7439020453056323584--1qQ
-=== RUN ===
 https://www.linkedin.com/posts/hrwc_hrwc2026-humanoids-ai-activity-7390761014780350464-487e
 https://www.linkedin.com/posts/tomgreenasianroboticsreview_robotics-humanoidrobots-engineering-activity-7465444074544660481-S_wB
 === RUN ===
@@ -59,3 +56,16 @@ https://www.linkedin.com/posts/degrayautomation_robotics-automation-manufacturin
 https://www.linkedin.com/posts/humanoid-robotics-weekly_three-live-signals-19-25th-may-2026-methodology-activity-7465356206593970176-XZXV
 https://www.linkedin.com/posts/kinjalvrajput_what-happens-when-artificial-intelligence-activity-7467055753229680640-748V
 https://www.linkedin.com/posts/abhinandbinu_ros2-robotics-amr-activity-7467517193472081920-tDKh
+=== RUN ===
+https://www.linkedin.com/posts/lars-talbert-papershredding_robotics-humanoidrobots-bostondynamics-activity-7467237778943021056-Q3HG
+https://www.linkedin.com/posts/priya-singh-017b861b9_articulatedrobots-industrialrobotics-smartmanufacturing-activity-7467169933861441537-mMvb
+https://www.linkedin.com/posts/robotrove_humanoid-robotics-research-is-stuck-reinventing-activity-7467107232284004352-UvKY
+https://www.linkedin.com/posts/therobotics_bostondynamics-atlasrobot-humanoidrobot-activity-7465699672502775809-LG7T
+https://www.linkedin.com/posts/manikya-sinha_robotics-humanoidrobots-ai-activity-7461686304292933632-LWLy
+https://www.linkedin.com/posts/gayatri-tambe-b8818a332_ros2-robotics-robotry-activity-7467921735498207233-s_u4
+https://www.linkedin.com/posts/anoop-kumar-1462bb116_5g-industrialiot-ai-activity-7465651329659592704-6sQF
+https://www.linkedin.com/posts/andrzej-gocyla-278677131_industrial-automation-is-changing-the-future-activity-7466182910354767872-i4Ex
+https://www.linkedin.com/posts/arpit-jainn_introduction-to-agentspdf-activity-7395782475630854144-tMRn
+https://www.linkedin.com/posts/srinivasav22_artificialintelligence-agenticai-aiagents-activity-7435270705371394048-9TFw
+https://www.linkedin.com/posts/leggedrobotics_icra2026-humanoidrobots-leggedrobots-activity-7467555299780902915-82CQ
+https://www.linkedin.com/posts/humanoidsummit_nvidia-unveils-open-isaac-gr00t-humanoid-activity-7467141879185346560-Vo9a
