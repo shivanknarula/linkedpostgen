@@ -1,401 +1,561 @@
-LINK: https://www.linkedin.com/posts/lars-talbert-papershredding_robotics-humanoidrobots-bostondynamics-activity-7467237778943021056-Q3HG
-DATE: 2026-06-05
+LINK: https://www.linkedin.com/posts/huxaifash_agenticai-softwareengineering-automation-activity-7466834546886520833-lWGm
+DATE: 2026-06-06
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a specific robot platform, provides technical details, and sparks a discussion on what sets it apart from other humanoid robots, making it a high-value conversation to engage with.
+SCORE: 9/10 - The post discusses a deep technical topic, provides a clear explanation of Agentic AI, and invites discussion on integrating autonomous loops into projects.
 AI COMMENT:
-Lars, you've hit the nail on the head by focusing on the movement capabilities of Atlas. The 56 degrees of freedom and full-body dynamic control are indeed game-changers. What I find particularly intriguing is how this level of mobility, combined with advanced AI, could revolutionize industries beyond just research and development. Do you think we'll see a convergence of humanoid robotics and Edge AI in the near future, enabling more autonomous and adaptive robots in real-world environments?
+I completely agree that mastering the core autonomous loop is crucial for Agentic AI to handle complex tasks. The breakdown of State and Action is particularly insightful. One aspect that I've found interesting in my own work is the challenge of designing robust state representations that can adapt to changing environments. What strategies have you found most effective for handling partial observability and uncertainty in state estimation, and how do you see this impacting the development of more sophisticated Agentic AI systems?
 TEXT:
-Lars Talbert
-3d
-You saw the Figure AI livestream last week. Now let's talk about the robot that made it all possible.
-While everyone's focused on the newest humanoid announcements, I went back to the platform that redefined what robots can actually do — and the spec that keeps standing out isn't the AI or the price.
-It's the movement.
-Here's what caught my attention: 
-🦾 Human scale — 6'1", 198 lbs 
-🔩 56 degrees of freedom (that's serious mobility) 
-⚡ Electric actuation — full-body dynamic control 
-🎯 Targeted at $150K+
-At that capability level, Atlas stops being a research experiment and starts being an engineering benchmark. Every humanoid company building today is measured against what Boston Dynamics already proved was possible.
-The viral videos were impressive. The underlying engineering is what made it real.
-What do you think separates Atlas from the humanoid platforms entering the market right now? 👇
-"Full breakdown is live on the Robotic Life website — link in the comments. 🔗"
-#Robotics #HumanoidRobots #BostonDynamics #Atlas #PhysicalAI #FutureOfWork #Automation #RoboticsInvesting#autonomousrobots
+Muhammad Huzaifa
+5d
+🚀 Moving Beyond Prompt-and-Response: The Engine Behind Agentic AI
+The AI landscape is shifting incredibly fast. We are no longer just talking to chatbots; we are entering the era of fully autonomous Agentic AI.
+While exploring agent architectures and building out automated workflows, I realized that making these systems truly autonomous boils down to two fundamental concepts: States and Actions.
+Here is a quick breakdown of how these digital brains actually operate 👇
+📍 1. The State (Where am I?) Think of the 'State' as the agent's current understanding of its environment. It includes all the retrieved data, active memory, and context. Just like assessing a chessboard before a move, the agent evaluates its state to figure out exactly what is happening right now.
+⚡ 2. The Action (What do I do next?) An 'Action' is the calculated move the agent makes to get closer to its goal. This isn't just generating text—it’s actively calling an API, writing a script, or triggering a webhook. Every action alters the environment, which in turn creates a brand-new State.
+🔄 The Core Autonomous Loop At its heart, Agentic AI relies on a continuous, self-correcting cycle: Sense the State ➡️ Decide on an Action ➡️ Execute ➡️ Assess the New State.
+Mastering this loop is what allows AI to handle complex, multi-step engineering tasks without needing constant human hand-holding for every single step.
+Whether you are experimenting with code-heavy frameworks like LangChain and AutoGen, or visual automation tools like n8n and make.com, this loop remains the foundational logic.
+How are you integrating autonomous loops into your projects? Let’s connect and discuss!
+#AgenticAI #SoftwareEngineering #Automation #ArtificialIntelligence #TechInnovation #CSStudent #LearningInPublic #AIWorkflows
 View C2PA information
+6
 Like
 Comment
 Share
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/priya-singh-017b861b9_articulatedrobots-industrialrobotics-smartmanufacturing-activity-7467169933861441537-mMvb
-DATE: 2026-06-05
+LINK: https://www.linkedin.com/posts/sambhav-agarwal-ba7923324_ros2-robotics-robotcontrol-activity-7424020483618226176-A5_e
+DATE: 2026-06-06
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a significant development in industrial robotics, specifically the adoption of articulated robots, and highlights key technologies driving this trend, such as AI vision and force-sensing technologies, making it a high-value thought leadership piece.
+SCORE: 9/10 - The post is a thoughtful, technical discussion about hands-on learning with ROS 2 Control & Teleoperation, providing specific details about the author's experience and learnings, making it a high-value post for adding unique insights and perspectives.
 AI COMMENT:
-Priya, your insight into the evolving landscape of articulated robots in industrial settings is spot on. The integration of AI-driven agility and vision, coupled with advancements in force-feedback sensors, is indeed revolutionizing the way we approach automation, particularly in breaking down the barriers between robotic and human workforces. What potential applications or industries do you foresee being the next major beneficiaries of these advancements in robotic technology?
+Great job diving deep into ROS 2, Sam_bhav! Your explanation of tracing the flow from joystick input to robot motion is particularly insightful. I've found that understanding the intricacies of the control pipeline is crucial for building robust and efficient robot control systems. What do you think are some of the most significant challenges in implementing ROS 2 in real-world robotics applications, and how do you see the community addressing them?
 TEXT:
-Priya Singh
-3d
-𝗧𝗵𝗲 𝗡𝗲𝘅𝘁 𝗪𝗮𝘃𝗲 𝗼𝗳 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻: 𝗪𝗵𝗮𝘁’𝘀 𝗗𝗿𝗶𝘃𝗶𝗻𝗴 𝗔𝗿𝘁𝗶𝗰𝘂𝗹𝗮𝘁𝗲𝗱 𝗥𝗼𝗯𝗼𝘁 𝗔𝗱𝗼𝗽𝘁𝗶𝗼𝗻 𝗶𝗻 𝟮𝟬𝟮𝟲
-Articulated robots robotic arms with rotary joints that mimic human movement are experiencing a massive surge in industrial adoption. Historically confined to highly rigid, repetitive tasks in automotive assembly lines, these systems are being rapidly redefined by breakthroughs in AI vision, force-sensing technologies, and lighter, collaborative materials. 
-𝗥𝗲𝗮𝗱 𝘁𝗵𝗲 𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗲 𝗕𝗹𝗼𝗴: https://lnkd.in/gmh4ux-8
-𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗬𝗼𝘂𝗿 𝗙𝗿𝗲𝗲 𝗦𝗮𝗺𝗽𝗹𝗲 𝗧𝗼𝗱𝗮𝘆: https://lnkd.in/gdwai9QV
-𝗞𝗲𝘆 𝗧𝗮𝗸𝗲𝗮𝘄𝗮𝘆𝘀:
-𝗔𝗜-𝗗𝗿𝗶𝘃𝗲𝗻 𝗔𝗴𝗶𝗹𝗶𝘁𝘆 𝗮𝗻𝗱 𝗩𝗶𝘀𝗶𝗼𝗻: The integration of real-time machine learning and advanced spatial vision allows next-generation articulated arms to instantly identify, adapt to, and handle randomized objects, breaking the old requirement of perfectly structured, unvarying production lines.
-𝗙𝗿𝗼𝗺 𝗜𝘀𝗼𝗹𝗮𝘁𝗶𝗼𝗻 𝘁𝗼 𝗖𝗼𝗹𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗶𝗼𝗻:  Driven by enhanced precision force-feedback sensors, articulated systems are breaking out of physical safety cages to work safely alongside human workforces, driving massive productivity gains in electronics, pharmaceuticals, and logistics.
-#ArticulatedRobots #IndustrialRobotics #SmartManufacturing #Automation2026 #VisionAI #RoboticArm #FutureOfWork #FactoryAutomation #Cobots #TechTrends2026 #Industry40 #AdvancedRobotics
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/robotrove_humanoid-robotics-research-is-stuck-reinventing-activity-7467107232284004352-UvKY
-DATE: 2026-06-05
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a significant development in humanoid robotics research, introducing an open reference design that could accelerate the field by democratizing the stack that powers robots, making it a high-value topic for thought leadership and technical discussion.
-AI COMMENT:
-NVIDIA's announcement of the Isaac GR00T Reference Humanoid Robot is a game-changer for the field, providing a much-needed shared baseline for researchers to build upon. The integration of a Unitree H2 Plus body with Sharpa Wave five-finger tactile hands and Jetson Thor onboard compute, along with the full Isaac GR00T open software stack, will undoubtedly streamline research and development. What do you think will be the most significant impact of this open reference design on the future of humanoid robotics research, and how will it change the way institutions collaborate on projects?
-TEXT:
-Loaded: 100.00%
-Pause
-Back to start
-Current Time 
-0:02/
-Duration 
-0:20
-Unmute
-Fullscreen
-Robotrove
-74 followers
-4d
-Humanoid robotics research is stuck reinventing the wheel.
-Every lab builds its own stack from scratch — hardware, simulation, data capture, training, deployment. The result? Brilliant ideas die in integration hell before they ever touch a real robot.
-𝐍𝐕𝐈𝐃𝐈𝐀 𝐣𝐮𝐬𝐭 𝐜𝐡𝐚𝐧𝐠𝐞𝐝 𝐭𝐡𝐞 𝐠𝐚𝐦𝐞.
-They announced the first open humanoid robot reference design for academic research: the NVIDIA Isaac GR00T Reference Humanoid Robot. It pairs a Unitree H2 Plus body with Sharpa Wave five-finger tactile hands, Jetson Thor onboard compute, and the full Isaac GR00T open software stack — from data capture to model deployment.
-𝐓𝐡𝐢𝐬 𝐢𝐬 𝐧𝐨𝐭 𝐣𝐮𝐬𝐭 𝐡𝐚𝐫𝐝𝐰𝐚𝐫𝐞. 𝐈𝐭 𝐢𝐬 𝐚 𝐟𝐮𝐥𝐥-𝐬𝐭𝐚𝐜𝐤 𝐩𝐥𝐚𝐭𝐟𝐨𝐫𝐦.
-Isaac Teleop for demonstrations. Isaac Sim and Isaac Lab for training. Isaac ROS for deployment. Open foundation models for reasoning and multitask behavior. Researchers keep full control of their data and models.
-The specs are serious: 75 degrees of freedom, 360 Nm leg torque, 7 kg rated arm payload, Blackwell GPU with 2,070 FP4 teraflops, 128 GB unified memory, and about three hours of battery life.
-Leading institutions — Ai2, ETH Zurich, Stanford Robotics Center, UC San Diego — are already on board.
-𝐖𝐡𝐲 𝐭𝐡𝐢𝐬 𝐦𝐚𝐭𝐭𝐞𝐫𝐬: 𝐟𝐫𝐨𝐧𝐭𝐢𝐞𝐫 𝐡𝐮𝐦𝐚𝐧𝐨𝐢𝐝 𝐫𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐠𝐚𝐭𝐞𝐝 𝐛𝐞𝐡𝐢𝐧𝐝 𝐩𝐫𝐨𝐩𝐫𝐢𝐞𝐭𝐚𝐫𝐲 𝐩𝐥𝐚𝐭𝐟𝐨𝐫𝐦𝐬 𝐚𝐧𝐝 𝐛𝐞𝐬𝐩𝐨𝐤𝐞 𝐢𝐧𝐭𝐞𝐠𝐫𝐚𝐭𝐢𝐨𝐧. 𝐍𝐕𝐈𝐃𝐈𝐀 𝐣𝐮𝐬𝐭 𝐠𝐚𝐯𝐞 𝐭𝐡𝐞 𝐞𝐧𝐭𝐢𝐫𝐞 𝐫𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐞𝐜𝐨𝐬𝐲𝐬𝐭𝐞𝐦 𝐚 𝐬𝐡𝐚𝐫𝐞𝐝 𝐛𝐚𝐬𝐞𝐥𝐢𝐧𝐞 𝐭𝐨 𝐛𝐮𝐢𝐥𝐝 𝐨𝐧, 𝐜𝐨𝐦𝐩𝐚𝐫𝐞 𝐚𝐠𝐚𝐢𝐧𝐬𝐭, 𝐚𝐧𝐝 𝐩𝐮𝐬𝐡 𝐟𝐨𝐫𝐰𝐚𝐫𝐝.
-Availability: late 2026 from Unitree. G1 support coming soon.
-This is how you accelerate a field — not by selling robots, but by democratizing the stack that powers them.
-Follow us to keep with Open source robotics !
-…more
-2
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/manikya-sinha_robotics-humanoidrobots-ai-activity-7461686304292933632-LWLy
-DATE: 2026-06-05
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a trending topic in robotics, shares insights on industry applications, and touches on the future of work, making it a high-value contribution to the field.
-AI COMMENT:
-I completely agree that humanoid robots are transforming industries by taking on repetitive and physically demanding tasks, thus enhancing operational efficiency. What's fascinating is the integration of Physical AI, enabling machines to interact more intelligently with their environment. However, one aspect that's crucial for the widespread adoption of humanoid robots is ensuring their ability to learn from experience and adapt to new situations without explicit programming. How do you think the development of more autonomous and self-improving humanoid robots will impact the future of robotics engineering and AI operations?
-TEXT:
-Manikya Sinha
-2w
-Humanoid Robots in Real-World Jobs 🤖🏭
-Humanoid robots are no longer limited to futuristic demonstrations or research laboratories. 🚀 In 2026, intelligent robots powered by AI, computer vision, and advanced sensors are beginning to enter real-world industries including manufacturing, logistics, healthcare, retail, and warehouse operations. 
-⚡ These robots are designed to perform repetitive, physically demanding, and sometimes dangerous tasks with increasing efficiency and adaptability. What makes this trend especially important is the rise of Physical AI — where machines can interact intelligently with real-world environments instead of following fixed instructions. 
-🌍 Companies are investing heavily in humanoid robotics because labor shortages, operational efficiency, and automation demands continue growing globally. While concerns about workforce transformation remain important, humanoid robots are also creating new opportunities in robotics engineering, AI operations, and advanced manufacturing. The future workplace may involve humans and intelligent machines collaborating side by side to improve productivity and innovation. 
-💡 This technology is advancing much faster than many people expected, and the industries that successfully integrate robotics into operations could gain a major competitive advantage. Humanoid robotics is quickly becoming one of the defining technology trends of the decade. 🔥
-#Robotics #HumanoidRobots #AI #Automation #Innovation #FutureOfWork
-1
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/andrzej-gocyla-278677131_industrial-automation-is-changing-the-future-activity-7466182910354767872-i4Ex
-DATE: 2026-06-05
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a thought leadership topic with deep technical insights and a clear vision for the future of industrial automation, making it highly commentable.
-AI COMMENT:
-Andrzej, I completely agree that the future of industrial automation lies in modular systems where different components can communicate seamlessly. Your approach to developing a scalable machine vision architecture based on industrial TCP/IP communication, JSON data exchange, and independent vision processing is particularly intriguing. One aspect that caught my attention is the emphasis on deterministic robot communication, which is crucial for precise control and synchronization. How do you envision addressing potential latency or packet loss issues in these modular systems, especially when integrating with different PLCs and robots from various manufacturers?
-TEXT:
-Andrzej Gocyla
-6d
-Industrial automation is changing.
-The future is no longer about one closed ecosystem.
-The future belongs to modular systems where:
-Vision,
-AI,
-PLC,
-Robot,
-and Industrial Network
-can communicate independently and reliably.
-I am currently developing within a new project a scalable machine vision architecture based on:
-industrial TCP/IP communication,
-JSON data exchange,
-independent vision processing,
-deterministic robot communication.
-The objective is flexibility:
-different PLCs,
-different robots,
-different cameras,
-one communication philosophy.
-This project combines practical experience gathered during international industrial implementations over many years.
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/leggedrobotics_icra2026-humanoidrobots-leggedrobots-activity-7467555299780902915-82CQ
-DATE: 2026-06-05
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a specific technical topic in robotics, whole-body humanoid locomotion, and shares a research paper and project page, providing a deep technical discussion.
-AI COMMENT:
-Impressive work on whole-body humanoid locomotion! The combination of diffusion-based motion generation and reinforcement learning-based motion tracking is a fascinating approach. I'm particularly interested in the fine-tuning process of the tracker with the frozen generator, and how it bridges the gap between clean offline data and imperfect online generated trajectories. How do you envision this technology being applied to real-world scenarios, such as search and rescue operations, where adaptability to new terrain geometries is crucial?
-TEXT:
-Loaded: 1.75%
+Loaded: 27.93%
 Pause
 Back to start
 Current Time 
 0:01/
 Duration 
-2:54
-Show Captions
+2:23
 Unmute
 Fullscreen
-Robotic Systems Lab
-33,255 followers
-2d  Edited
-🚀 Excited to share our recent work, “Learning Whole-Body Humanoid Locomotion via Motion Generation and Motion Tracking,” on whole-body humanoid locomotion for challenging terrain traversal!! 
-🌍In this paper, we study how humanoid robots can move through complex human environments that require more than walking, such as climbing onto obstacles, jumping down, vaulting over hurdles, traversing stairs, and adapting their motion online based on terrain perception. 
-🧠Our framework combines diffusion-based motion generation with reinforcement learning-based motion tracking. A motion generator produces short-horizon whole-body reference motions online conditioned on the robot state, terrain height scan, and target direction, while an RL tracker converts these references into stable joint actions for real-time execution. 
-🔧To improve robustness and generalization, we fine-tune the tracker with the frozen generator on more diverse terrains and direction commands, bridging the gap between clean offline data and imperfect online generated trajectories and enabling better adaptation to new terrain geometries. 
-📍We deploy the system onboard a Unitree G1 humanoid with LiDAR-based elevation mapping and real-time inference. On hardware, it handles high boxes, hurdles, stairs, local navigation, and mixed-terrain sequences. 
-📖 Paper: https://lnkd.in/g5UAus7q
-🔗 Project Page: https://lnkd.in/gSHDn2s6
-📹 Video: https://lnkd.in/g6f5nNKc
-Authors: Zewei Z., Kehan Wen, Michael Xu, Junzhe H., Chenhao Li, Takahiro Miki, Clemens Schwarke, Chong Zhang, Jason Peng, and Marco Hutter.
-Kehan Wen will present this work at the ICRA 2026 Workshop “Beyond Teleoperation: Learning from Diverse Human and Simulation Data” on June 5 in Vienna. Please stop by our poster in Poster Session 2, 15:00–16:00, Poster No. 3!
-#ICRA2026 #HumanoidRobots #LeggedRobots #Robotics #RobotLearning #ReinforcementLearning #MotionGeneration #WholeBodyControl
+SAMBHAV AGARWAL
+4mo
+ Hands-on Learning with ROS 2 Control & Teleoperation 🕹️ 
+Over the past few days, I’ve been diving deep into ROS 2 (Humble) and understanding how real robot control pipelines are built — beyond just running nodes.
+Worked hands-on with:
+ROS 2 nodes, parameters, and launch files
+Velocity control using Twist / TwistStamped
+Simple differential drive kinematics
+Joystick-based teleoperation using joy_node and joy_teleop
+Debugging controller and YAML configuration issues
+What stood out most was learning to trace the full flow from joystick input → cmd_vel → controller → robot motion, and understanding why each component exists.
+I’ve attached a short video showing the teleoperation and control pipeline in action (🤖 ↔️ 🎮 )
+Special thanks to Antonio Brandi for a well-structured and practical ROS 2 course that truly emphasizes learning by doing.
+Building step by step, one system at a time.
+#ROS2 #Robotics #RobotControl #LearningByDoing #DifferentialDrive #AntonioBrandi
 …more
-355
-3 Comments
+87
+5 Comments
 Like
 Comment
 Share
-Transcript
-Transcript
-Humanoid robots need to move through human environments, but whole body locomotion over obstacles remains challenging. The robot must coordinate its legs, arms, torso and contacts while reacting to terrain in real time. In this work, we train a whole body humanoid locomotion controller by combining an online motion generation and motion tracking for traversing diverse types of terrains. Given the robot state, terrain height scan and target direction, the diffusion based motion generator predicts a short horizon to rein aware reference motion. The royal tracker then converts this reference into stable joint actions for the real robot. We first build a whole body motion data set by retargeting human motion data to the robot. Using this offline data set we retrain a motion tracker and a motion generator. However, directly combining the pre trained generator and tracker can still be brittle due to imperfect generated references and limited terrain diversity during pre training. We therefore fine tune the tracker with the frozen generator using RL on more diverse terrains and direction commands enabling. Table real time execution with generated references. After fine tuning, the system can robustly handle terrain geometry changes using online generated trajectories. The full system is deployed onboard a unitary G1 humanoid using Lidar based elevation mapping and real time onboard inference. On hardware, the robot successfully climbs onto high boxes and jumps down from different directions and configurations. It also vaults over hurdles and traverses stairs, demonstrating the ability to switch between different locomotion skills. Our system also shows local navigation capability. When the robot is not well positioned to traverse an obstacle directly, it adapts online and bypasses it while still moving toward the target. Finally, the robot completes mixed terrain sequences that combine multiple obstacle types within a single run. Together, these results show that our framework can generate and execute adaptive whole body motions for diverse real-world terrain traversal tasks.
-Zixin Zhang
-2d
-It walks as if it were the coolest robot in the world
+Bhavya Aggarwal
+4mo
+Great man ✨keep it up
 Like
 Reply
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/humanoidsummit_nvidia-unveils-open-isaac-gr00t-humanoid-activity-7467141879185346560-Vo9a
-DATE: 2026-06-05
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a significant development in humanoid robotics, specifically the introduction of an open humanoid robotics platform by NVIDIA, which has the potential to impact the field greatly.
-AI COMMENT:
-I completely agree that the NVIDIA Isaac GR00T Reference Humanoid Robot has the potential to be a game-changer for humanoid robotics research. The integrated development stack, combining hardware, software, simulation, AI models, and deployment workflows, could indeed accelerate the commercialization of humanoid systems. One aspect that I find particularly intriguing is how this platform might influence the development of more sophisticated human-robot interaction models. How do you think researchers and developers will leverage this platform to overcome the current challenges in humanoid robotics, such as balance, locomotion, and dexterity?
-TEXT:
-Humanoid Summit
-58 followers
-3d
-NVIDIA has introduced the Isaac GR00T Reference Humanoid Robot, an open humanoid robotics platform designed to provide researchers with a standardized foundation for building, training, and validating humanoid systems. The announcement is significant not because of a single robot design, but because it combines hardware, software, simulation, AI models, and deployment workflows into an integrated development stack that could improve the pace of humanoid robotics commercialization.
-https://lnkd.in/dhg2f2w7
-NVIDIA Unveils Open Isaac GR00T Humanoid Platform for Robotics Research
-https://humanoidsummit.com
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/therobotics_bostondynamics-atlasrobot-humanoidrobot-activity-7465699672502775809-LG7T
-DATE: 2026-06-05
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a thought-provoking and futuristic scenario involving robotics and AI, with a hint of speculation and humor, making it engaging and worthy of a high-value comment.
-AI COMMENT:
-I love how Boston Dynamics' Atlas is pushing the boundaries of what's possible with humanoid robots. The idea of a robot participating in a high-profile event like the World Cup is not only entertaining but also highlights the rapid advancements in AI and robotics. As we continue to blur the lines between technology and spectacle, what do you think will be the next significant milestone for humanoid robots in the entertainment and sports industries?
-TEXT:
-Loaded: 34.96%
-Pause
-Back to start
-Current Time 
-0:01/
-Duration 
-0:29
-Unmute
-Fullscreen
-The Robotics Media
-8,890 followers
-1w
-Boston Dynamics’ Atlas might become the first humanoid robot to appear at a World Cup stage.
-But the real question is:
-will it kick off the first ball… recreate the “Hand of God”… or just steal the spotlight by dancing with the crowd? 👀⚽🤖
-As humanoid robotics moves from research labs into mainstream entertainment and public events, moments like this no longer feel impossible. The line between sport, AI, and spectacle is getting thinner every year.
-Video by Boston Dynamics
-#BostonDynamics #AtlasRobot #HumanoidRobot #WorldCup #AI #Robotics
-…more
-10
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/anoop-kumar-1462bb116_5g-industrialiot-ai-activity-7465651329659592704-6sQF
-DATE: 2026-06-05
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a specific and relevant topic (5G in industrial automation) with technical details, making it a good opportunity to add value and showcase expertise
-AI COMMENT:
-Anoop, you've highlighted the key benefits of 5G in industrial automation, particularly in enabling real-time robotics control and autonomous warehouse systems. One interesting aspect to consider is how 5G's ultra-low latency can be leveraged to implement more advanced robotic control algorithms, such as those using reinforcement learning. What do you think will be the most significant challenge in integrating 5G with existing industrial automation systems, and how can we address it?
-TEXT:
-Anoop kumar
-1w
- How 5G is Transforming Industrial Automation
-5G is not just faster internet — it is the backbone of real-time intelligent industries.
-With ultra-low latency and high bandwidth, 5G enables:
-- Real-time robotics control
-- Autonomous warehouse systems
-- Smart factories with thousands of connected devices
-- AI-powered surveillance & safety systems
-- Remote industrial operations
-    
-*Why it matters: Traditional networks cannot handle massive real-time machine communication efficiently.
-5G unlocks the true potential of Industrial IoT and Edge AI
-The future factory will run on: AI + IoT + 5G + Robotics + Cloud + Edge Intelligence
-#5G #IndustrialIoT #AI #SmartFactory #Industry40 #Automation #EdgeComputing #Robotics #DigitalTransformation
-View C2PA information
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/arpit-jainn_introduction-to-agentspdf-activity-7395782475630854144-tMRn
-DATE: 2026-06-05
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post shares a valuable resource, a 54-page PDF on AI agents, which indicates thought leadership and deep technical discussion.
-AI COMMENT:
-Thanks for sharing this valuable resource, Arpit. The taxonomy of agentic systems and core agent architecture are particularly interesting topics. I've seen the application of AI agents in robotics and autonomous systems, where the orchestration layer plays a crucial role. What are some potential challenges or limitations that you think need to be addressed in order to scale up the deployment of AI agents in enterprise settings?
-TEXT:
-Arpit Jain
-6mo
-Google keeps dropping AI gems 💎
-(Not just for PMs.)
-A new 54-page PDF on AI agents.
-Inside:
-1. From Predictive AI to Autonomous Agents
-2. Introduction to AI Agents
-3.  A Taxonomy of Agentic Systems
-4. Core Agent Architecture: Model, Tools, and Orchestration
-5. The Orchestration Layer
-6. Agent Deployment and Services
-7. Agent Ops: A Structured Approach to the Unpredictable
-8. Agent Interoperability
-9. Securing a Single Agent: The Trust Trade-Off
-10. Scaling Up from a Single Agent to an Enterprise Fleet
-11. How Agents Evolve and Learn
-12. Examples of Advanced Agents
-Free PDF:
-https://lnkd.in/gnSkNdsF
-
-Introduction to Agents.pdf
-drive.google.com
-69
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/srinivasav22_artificialintelligence-agenticai-aiagents-activity-7435270705371394048-9TFw
-DATE: 2026-06-05
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a nuanced topic in AI, providing a clear distinction between AI Agents and Agentic AI, and sparks a thoughtful discussion in the comments.
-AI COMMENT:
-Great explanation of the difference between AI Agents and Agentic AI, Srinivasa! Your analogy of AI Agent = Task Executor and Agentic AI = Autonomous Decision Maker really helps clarify the distinction. I'd like to add that the move towards agentic architectures will likely require significant advancements in areas like explainability, transparency, and accountability. What are your thoughts on how we can ensure that these autonomous decision-making systems are aligned with human values and ethics?
-TEXT:
-Srinivasa Venkataramana
-3mo
-🤖 AI Agent vs Agentic AI — What’s the Difference?
-🔹 AI Agent  
-An AI Agent is designed to perform a specific task based on predefined rules, prompts, or workflows. It usually follows instructions and completes actions like answering questions, retrieving data, or executing a tool.
-🔹 Agentic AI  
-Agentic AI goes a step further. It can plan, reason, make decisions, and take multiple actions autonomously to achieve a goal. Instead of just executing tasks, it behaves more like an intelligent system that can adapt, learn, and coordinate multiple agents.
-✅ In simple terms:  
-AI Agent = Task Executor  
-Agentic AI = Autonomous Decision Maker
-As AI evolves, systems are moving from simple agents to fully agentic architectures capable of complex problem solving.
-Follow me for more AI, ML, and LLM insights 👉 @Srinivasa Venkataramana
-#ArtificialIntelligence #AgenticAI #AIAgents #GenerativeAI #MachineLearning #LLM #AIArchitecture #AIEngineering #FutureOfAI #DataScience #AIInnovation
-28
-2 Comments
-Like
-Comment
-Share
-Jagadish Mohan Gaglani
-3mo
-Hey Srini - Would you mind sharing, which is better Agent AI vs Agentic AI, suppose someone has fix the tickets with Autonomous reasoning. And all things are properly validated and then workflow is complete End to End 
+Priyanshu Kaushal
+4mo
+Very good bhai👍
 Like
 Reply
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/gayatri-tambe-b8818a332_ros2-robotics-robotry-activity-7467921735498207233-s_u4
-DATE: 2026-06-05
-METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - The post is about a personal experience in a ROS 2 workshop, which is a specific and technical topic. While it's not extremely thought-provoking, it's a standard industry-related post where a decent thought can be added.
-AI COMMENT:
-Congratulations on completing the ROS 2 workshop, Gayatri! It's great to see you exploring the fundamentals of ROS 2 and its applications in robotics and autonomous systems. I particularly appreciate your mention of visualizing robots in Gazebo and understanding autonomous navigation - these are indeed crucial aspects of real-world robotics applications. What do you think is the most significant challenge in integrating ROS 2 with real-world robotics projects, and how do you plan to address it in your future endeavors?
-TEXT:
-Gayatri Tambe
-1d
-Successfully Completed a 5-Day ROS 2 Workshop!
-I recently had the opportunity to participate in an 5-day ROS 2 (Robot Operating System) workshop
-During the workshop, I explored:
-🔹 ROS 2 fundamentals and architecture
-🔹 Linux, ROS 2 workspace and package creation
-🔹 Publisher, Subscriber, Services and Actions
-🔹 Robot simulation using Turtlesim, Gazebo and RViz2
-🔹 Robot design concepts using Fusion 360 and URDF
-🔹 SLAM (Simultaneous Localization and Mapping) and Nav2
-🔹 LiDAR integration and mapping
-🔹 ROS 2 communication with microcontrollers
-🔹 Introduction to Computer Vision with OpenCV and ROS 2
-One of the most exciting parts was visualizing robots in Gazebo, creating maps using LiDAR, and understanding how autonomous navigation works in real-world robotics applications.
-As someone who was experiencing ROS 2 for the first time, this workshop genuinely sparked my interest in robotics and autonomous systems. The hands-on sessions, practical demonstrations, and interactive discussions made the learning experience both engaging and enjoyable.
-A big thank you to Aryan Jagushte sir and the Robotry team for an insightful learning experience. Special thanks to our HOD, Chandan M N Sir, for his constant support and encouragement, and to @ARSA for organizing this wonderful workshop and making it a great learning opportunity for students.
-Looking forward to learning more and building exciting projects in Robotics, ROS 2, Computer Vision, and Autonomous Systems. 
-#ROS2 #Robotics #Robotry #ARSA #AutomationAndRobotics #Gazebo #RViz #SLAM #Nav2 #LiDAR #ComputerVision #OpenCV #Engineering #LearningJourney #FutureTech
-+2
-48
-3 Comments
-Like
-Comment
-Share
-Chandan M N
-1d
-Congratulations 👏
+1 Reaction
+Priyanshu Kaushal
+4mo
+Keep growing
 Like
 Reply
-Aryan Jagushte
-1d
-Gayatri Tambe Congratulations 🎉.
-Keep learning!!
+1 Reaction
+Fateen A.
+4mo
+Looks good🔥✨️
 Like
 Reply
-Gaurav Chaudhari
-1d
-Keep it up 👍
+1 Reaction
+Fateen A.
+4mo
+Looks good🔥✨️
 Like
 Reply
 1 Reaction
 See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/learnroboticsandai_excited-to-share-some-insights-about-ros-activity-7468194941182046208-FFUA
+DATE: 2026-06-06
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post provides valuable insights into ROS 2 and its applications, with a comprehensive list of resources for beginners, making it a thought leadership post where a smart comment can add value and get high visibility.
+AI COMMENT:
+I appreciate the effort you've put into compiling this exhaustive list of ROS 2 resources for beginners. The modular and scalable nature of ROS 2 certainly makes it an attractive choice for robotics application development. One aspect that I think deserves more attention is the integration of ROS 2 with other emerging technologies like computer vision and machine learning. How do you envision the future of ROS 2 in relation to these technologies, and what potential applications do you see arising from their convergence?
+TEXT:
+Learn Robotics & AI
+12,785 followers
+1d
+🚀 Excited to share some insights about ROS 2! 🤖
+(Most comprehensive list of ROS 2 resources for beginners- https://lnkd.in/eFHR4qU5)
+🌟 What is ROS 2?
+ROS 2, short for Robot Operating System 2, is not an actual operating system, but rather a middleware or framework. It provides developers like you with a scalable and distributed platform to create robotics applications without starting from scratch.
+Why learn ROS 2?
+✅ Robust, modular, and scalable applications.
+✅ Seamless switching between projects.
+✅ Faster development and prototyping.
+✅ Real-world experimentation.
+✅ Growing job opportunities.
+🔑 Prerequisites to Get Started
+To embark on your ROS 2 learning journey, having some knowledge of computer science and programming is essential. You don't need to be an expert, but basic familiarity with programming concepts is recommended.
+💻 Proficiency in using a terminal and command line tools, preferably on Ubuntu, is beneficial.
+🐍 Understanding Python or intermediate-level proficiency in C++ is crucial, as they are the primary programming languages for ROS 2. You can stick with python in the beginning.
+Remember, a solid programming foundation is invaluable, regardless of the language. Consider investing in yourself before diving into ROS 2! 🌟
+📚 Starting with ROS 2 Basics
+To kick off your ROS 2 learning, follow these steps:
+1️⃣ Install ROS 2 and set up your environment.
+2️⃣ Learn by experimenting with existing ROS 2 projects to grasp the underlying concepts.
+3️⃣ Begin writing your own code, applying the learned concepts to your unique applications.
+Mastering concepts like packages, nodes, topics, services, actions, parameters, launch files, and command line tools is crucial. Debugging with plugins like rqt_graph will prove invaluable too.
+For practice exercises, you can start with ROS 2 Turtlesim, a simplified robotics project perfect for understanding basic concepts. 🐢
+🔍 Exploring Intermediate Subjects and Tools
+Once you have a strong grasp of ROS 2's core, you can broaden your knowledge with more advanced functionalities:
+1️⃣ Components
+2️⃣ Lifecycled nodes
+3️⃣ Running multiple nodes on different machines
+4️⃣ 3D visualization tools like Rviz and Gazebo
+5️⃣ Tf transformations
+For specialized areas like SLAM, robotic arm manipulation, or drone integration, you'll need to choose the relevant learning path.
+ROS 2's flexibility allows you to work with real robots without owning the physical hardware. For instance, the TurtleBot3 simulation offers a comprehensive virtual environment for SLAM and navigation experiments.
+🔨 Some top resources to learn ROS 2 include:
+“ROS2 For Beginners” course on Udemy - https://lnkd.in/ewuEzEga
+“Getting Started with ROS 2” tutorial on Ubuntu - https://lnkd.in/egjp7HNf
+“How to Learn ROS 2” guide on The Robotics Back-End - https://lnkd.in/e3D9iwKN
+(Most comprehensive list of ROS 2 resources for beginners- https://lnkd.in/eFHR4qU5)
+Source: How to Learn ROS 2 - The Robotics Back-End (roboticsbackend.com)
+35
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/schaeffler_schaeffler-at-ces-2026-humanoid-robotics-activity-7414746402351820802-XB0q
+DATE: 2026-06-06
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post is a showcase of Schaeffler's innovative approach to humanoid robotics, and the comments section features a mix of praise, criticism, and nuanced discussion, making it a great opportunity to add value and build authority.
+AI COMMENT:
+I appreciate Andreas Zeug's effort in showcasing the live humanoid demonstrator at CES 2026, and the planetary gear actuator is indeed a notable innovation. However, as Marcus Türling and YZ-RA pointed out, the speed and quality of the demo may not fully reflect the complexities of real-world applications. It would be interesting to explore how Schaeffler plans to address these challenges, particularly in scenarios involving soft rings or high-stacking deadlines. What do you think are the most significant technical hurdles to overcome in order to make humanoid robots like the HMND 01 more versatile and efficient in industrial settings?
+TEXT:
+Loaded: 44.60%
+Pause
+Back to start
+Current Time 
+0:01/
+Duration 
+1:10
+Unmute
+Fullscreen
+Schaeffler at CES 2026 Humanoid Robotics
+Schaeffler
+637,615 followers
+4mo
+Join  Andreas Zeug, Project Manager, Humanoid Robotics, as he showcases our live humanoid demonstrator at CES 2026!
+We’re excited to partner with Humanoid to highlight real-world humanoid applications. Every hour in our booth 7301, live demos will run featuring the HMND 01 wheeled Alpha robot expertly picking and sorting randomly scattered bearing rings — demonstrating how this technology helps keep ball bearing assembly lines running efficiently with precise, smooth movements.
+For the first time ever, Schaeffler also unveiled our innovative planetary gear actuator developed specifically for humanoid robots. Discover more about our components and systems here:
+https://lnkd.in/dhiJv6HU
+Join us at CES to see how Schaeffler is advancing intelligent motion and shaping the future of humanoid robotics.
+#SchaefflerCES2026 #AdvancingIntelligentMotion
+…more
+615
+7 Comments
+Like
+Comment
+Share
+Marcus Türling
+4mo
+Sorry, is this a joke. Feeding in this speed and quality looks like technology 50 years ago. This works with already hardened rings but with soft rings is untolerable to get marks, dents or even deformation. For example in heat treatment you have to stack 200 of those rings in an exact skeam   in about 5 to 10 min. Please speed up and get better
+Like
+Reply
+7 Reactions
+YZ-RA
+1w
+Live demo at CES 2026 is a great showcase of Schaeffler's innovative approach to humanoid robotics, particularly with the planetary gear actuator. However, as Marcus pointed out, the speed and quality of the demo may not fully reflect the complexities of real-world applications, such as handling soft rings or meeting tight stacking deadlines....
+Like
+Reply
+Christian Niemeyer
+4mo
+Nicht so schnell, ich komme nicht mit!
+Like
+Reply
+Claus S.
+4mo
+Congrats Andreas Zeug and nice to see the robot loading a good old turntable as feeding and sorting machine.
+Like
+Reply
+Julian Kramer
+4mo
+Andreas Zeug It's great to see Europe's amazing first movers, such as Schaeffler and Humanoid. Keep pushing!
+Like
+Reply
+Tyler Morrison
+4mo
+Congrats on the live demo Andreas Zeug!
+Like
+Reply
+1 Reaction
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/pandey-dhananjay_industrialautomation-plc-scada-activity-7466835889529331712-VaVW
+DATE: 2026-06-06
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post provides a thoughtful overview of industrial automation and its key components, making it a valuable discussion starter for professionals in the field.
+AI COMMENT:
+I completely agree that industrial automation is about creating smarter, safer, and more reliable systems. The integration of these core technologies is crucial for achieving Industry 4.0. What I find particularly interesting is how the convergence of PLCs, SCADA systems, and HMIs is enabling more efficient and adaptive manufacturing processes. As we move forward, how do you think the increasing use of AI and machine learning will impact the development and implementation of these core technologies?
+TEXT:
+Dhananjay Pandey
+5d
+Industrial Automation isn't just about machines doing the work.
+It's about creating systems that are smarter, safer, more reliable, and more productive.
+From SCADA systems that monitor entire plants, to PLCs that control processes, HMIs that provide real-time visibility, sensors that act as the eyes and ears of machines, and pneumatic/hydraulic systems that deliver motion—each component plays a critical role in modern industry.
+As industries move towards Industry 4.0 and smart manufacturing, understanding these core technologies is becoming essential for engineers, technicians, and automation enthusiasts.
+Which of these technologies do you work with the most?
+#IndustrialAutomation #PLC #SCADA #HMI #Industry40 #Manufacturing #AutomationEngineering #Robotics #Engineering #SmartFactory
+75
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/yinyinphyo29_robotics-ros2-embodiedai-activity-7454937501921832960-dClW
+DATE: 2026-06-06
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post demonstrates thought leadership, a clear learning roadmap, and invites discussion from the robotics community, making it a high-value post for commenting.
+AI COMMENT:
+I appreciate your structured approach to learning robotics, Yin Yin, and the willingness to share your journey publicly. Building strong foundations is indeed crucial, and I've seen many engineers struggle with kinematics and dynamics later on due to a lack of understanding of the basics. One aspect that might be interesting to explore further is how ROS 2 integrates with other simulation tools and environments for more complex project deployments. What are your thoughts on the role of simulation in the development and testing of robotic systems, and how do you plan to incorporate it into your learning process?
+TEXT:
+Yin Yin Phyo
+1mo
+I have been posting about robotics for a while.
+But this week, I want to make my learning more structured.
+🤖 My goal is simple:
+Not just to read about robotics, but to learn it step by step and eventually build real projects I can share publicly.
+👩💻 So I’m starting Robotics Level 1: Foundations.
+🤖 Level 1 will focus on the basics first:
+- What a robot really is
+- Frames, pose, and degrees of freedom
+- Links, joints, and kinematic chains
+- Forward and inverse kinematics
+- ROS 2 basics
+- Simulation
+I realized that if I skip the foundations, everything later starts to feel like memorizing tools instead of understanding systems.
+So from now on, I’ll share useful parts from each lesson as I learn: 📝
+small concepts, notes, diagrams, and eventually code and projects too.
+If you work in robotics, ROS, embodied AI, or simulation,
+I’d love to learn from your experience. 🤓
+If you have any beginner tips, learning advice, or roadmaps that helped you early on, I’d really appreciate your suggestions.
+What foundation topic do you think every beginner should understand first?
+#Robotics #ROS2 #EmbodiedAI #LearningInPublic #Engineering
+124
+9 Comments
+Like
+Comment
+Share
+Satyarth Shree
+1mo
+I started learning ROS 2 a few months ago. While learning I also started documenting and teaching what I am learning. 
+To do so I started my own publication named ROS Simplified where I publish beginner friendly ROS 2 tutorial articles.
+If you are looking for resources to learn ROS 2, then ROS Simplified might be able to help you.
+Here is the link: https://rossimplified.substack.com/
+Like
+Reply
+2 Reactions
+Roni da Matta Guimaraes
+1mo
+Great approach — strong foundations make a huge difference
+At my company, we still rely mostly on SDKs because they’re more stable and safer for industrial use. But internally, ROS 2 is becoming a priority — the expectation is that in 1–2 years it’ll be mature enough for real-world deployments, so we’re preparing for that shift.
+I’m also starting to learn it now, so looking forward to following your journey.
+Like
+Reply
+1 Reaction
+Victor Ololade
+1mo
+Will follow along in your jouney, sounds exciting 
+Like
+Reply
+1 Reaction
+Obichukwu Enibe
+1mo
+Okay. I'd love to know what resources you're using for your learning
+
+Like
+Reply
+1 Reaction
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/automationnewsmedia_humanoid-robotics-activity-7392580345239535616-iutT
+DATE: 2026-06-06
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post discusses a significant collaboration between Humanoid and SAP, exploring the integration of cognitive humanoid robots into industrial environments, which is a thought leadership topic in the field of robotics and AI.
+AI COMMENT:
+The partnership between Humanoid and SAP is indeed a significant step forward in the development of Embodied AI for industrial applications. What's particularly interesting is how the HMND 01 platform, with its advanced humanoid robotics capabilities, will be integrated with SAP's enterprise software solutions to create more efficient and adaptable industrial environments. As we consider the potential impact of such collaborations on the future of work and industry, what do you think will be the most critical factors in determining the successful adoption of humanoid robots in industrial settings?
+TEXT:
+Automation News
+862 followers
+7mo
+🤖 Humanoid Robotics with SAP’s Embodied AI for industrial applications
+Humanoid, a UK-based AI and robotics company, announced a collaboration with SAP to develop and demonstrate real-world robotics solutions. Together, the companies will explore the integration of cognitive humanoid robots into industrial and enterprise environments through a series of proofs of concept (POCs) combining Humanoid’s latest HMND 01 platform with SAP’s enterprise software solutions, addressing a market estimated at $15-20 billion by 2030, equivalent to 300,000-400,000 robots, with longer-term projections of $38 billion by 2035.
+Read more here 👉 https://lnkd.in/eJG9JcWv
+#AutomationNews #robotics #AI #industrial #humanoidrobots
+8
+1 Comment
+Like
+Comment
+Share
+Adelya Fatykhova
+6mo
+If you like this, check out all #embodiedAI announcements on SAP news 🤖 https://news.sap.com/2025/11/sap-physical-ai-partnerships-new-robotics-pilots/
+Like
+Reply
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/rolandberger_humanoid-robots-roland-berger-activity-7283090175801389058-8tZx
+DATE: 2026-06-06
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post discusses a thought-provoking topic with potential for deep technical insights and is from a major consulting firm, indicating high visibility and engagement potential.
+AI COMMENT:
+I appreciate the in-depth analysis on the future of humanoid robots and the potential scenarios outlined. The advancement of actuators and power systems, as well as full-stack software development with AI and machine learning, are indeed crucial for the widespread adoption of humanoid robots. One aspect to consider is the potential for humanoid robots to not only address labor shortages but also to enhance human capabilities in complex tasks. What role do you think human-robot collaboration will play in shaping the future of industries like manufacturing and healthcare?
+TEXT:
+Roland Berger
+569,509 followers
+1y
+🤖 The future of humanoid robots is closer than you think! With advancements in #AI and hardware, what once seemed like science fiction is becoming reality. But where is this revolution headed? 
+Tackling the labor shortage, especially in manufacturing, is only one example that shows #WhatTechCanDo for our future. We’ve identified two potential scenarios for the use of humanoid robots:
+1️⃣  A future where they’re universally applicable by 2030, transforming industries and creating new revenue streams.
+2️⃣  Or a more conservative path, where they remain niche, generating moderate growth.
+The trajectory hinges on overcoming critical obstacles, from advancing hardware like #Actuators and power systems to achieving full-stack software development with AI and #MachineLearning. 📌 
+💡 Want to learn more? Download our study for deeper insights and meet our experts at #CES2025 to discuss how these technologies can reshape industries and tackle labor gaps: 
+➡️ https://lnkd.in/dSpDT8uT
+#RolandBerger
+29
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/enzo-ghisoni-robotics_ros2-robotics-ai-activity-7468269898826170368-cV9l
+DATE: 2026-06-06
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post discusses a specific open-source solution for managing ROS 2 robotics data, highlighting its key features and the importance of data infrastructure in robotics, making it a valuable topic for thought leadership and technical discussion
+AI COMMENT:
+Enzo, thanks for sharing the exciting work Mosaico is doing to address the growing need for robust data management in robotics. The fact that their platform is designed specifically for continuous sensor streams and is ROS compatible is a significant step forward. I'm particularly intrigued by the use of Rust for the backend, given its focus on performance and security. What potential challenges or limitations do you think the community will face in adopting and integrating such platforms, and how can we work together to overcome them?
+TEXT:
+Enzo Ghisoni
+1d
+The Open Source solution to manage ROS 2 Robotics Data
+Thanks to the Mosaico team for joining the ROSCon Belgium 2026 adventure with a Gold Sponsorship.
+Mosaico is building an open-source data platform specifically for robotics and Physical AI, with features:
+✅ Designed specifically for Robotics applications
+✅ Built for continuous sensor streams, not static datasets
+✅ ROS compatible (.bag, .db3, .mcap)
+✅ Rust backend handling compression, conversion and storage
+✅ Open Source by design
+As robots generate more and more data from increasingly complex applications, data infrastructure is becoming the most valuable part of the robotics stacks.
+Are you working on large-scale robotics datasets or robot learning pipelines?
+Let's meet at the ROSCon BE 2026 🔽
+#ROS2 #Robotics #AI
+63
+8 Comments
+Like
+Comment
+Share
+Enzo Ghisoni
+1d
+🔗 You can learn more about Mosaico on their website: 
+https://mosaico.dev/
+ 🔗 All the information about the ROSCon BE 2026 are available on the website:
+https://roscon.ros.org/be/2026/
+Like
+Reply
+1 Reaction
+Gabriele Lini
+1d
+Happy to be part of it!
+Like
+Reply
+2 Reactions
+Antoine Van Malleghem
+1d
+💪💪
+Like
+Reply
+1 Reaction
+Pallavi Ahuja
+1d
+🔥🔥🔥
+Like
+Reply
+1 Reaction
+Noor Akhunji
+1d
+Physical AI will only be as good as the data pipelines behind it. Purpose built platforms for robotics data are becoming just as important as the models themselves Enzo Ghisoni
+Like
+Reply
+1 Reaction
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/rockwell-automation-tackles-industry-50-share-7465472327334457346-Hcnh/
+DATE: 2026-06-06
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post discusses a thought leadership topic, Industry 5.0, with an article from a prominent figure, Ryan Gariepy, and has a low number of comments, making it a good opportunity to add value.
+AI COMMENT:
+I appreciate Ryan Gariepy's insights on the role of AI, robotics, and production logistics in creating more adaptive, human-centric industrial operations. One aspect that I think is crucial to the successful implementation of Industry 5.0 is the need for standardized communication protocols to enable seamless interaction between different robotic systems and equipment. How do you envision the development of these protocols unfolding, and what role do you see organizations like Rockwell Automation playing in driving this standardization?
+TEXT:
+OTTO by Rockwell Automation
+20,447 followers
+1w
+What does Industry 5.0 actually look like on the plant floor? In this new ASSEMBLY Magazine article, Rockwell’s Vice President of Robotics, Ryan Gariepy, explores how AI, robotics and production logistics are enabling more adaptive, human-centric industrial operations: https://bit.ly/4e8UpDK
+Rockwell Automation Tackles Industry 5.0
+assemblymag.com
+21
+1 Comment
+Like
+Comment
+Share
+Michael Rada
+H U M A N & INDUSTRY 5.0 FOUNDER
+5d
+Dear OTTO by Rockwell Automation and Rockwell Automation INDUSTRY 5.0 entered on December 2, 2025, second decade of existence. Let me share with you the insights collected during the first decade through the perspective of INDUSTRY 5.0 Founder. If any questions, feel free to ask https://www.youtube.com/watch?v=33sh5kHbIEI
+Like
+Reply
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/humanoid-robotics-technology_sonic-supersizing-motion-tracking-for-natural-activity-7395460576430415872-ZrcG
+DATE: 2026-06-06
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post discusses a cutting-edge technology (SONIC) introduced by NVIDIA researchers, and the comments section already includes thoughtful questions and reactions from the audience, indicating a high level of engagement and interest in the topic.
+AI COMMENT:
+The introduction of SONIC by NVIDIA researchers is a significant leap forward in humanoid robotics, as it enables more natural and scalable motion tracking. One of the key advantages of SONIC is its ability to acquire human motion priors without manual reward engineering, which could greatly simplify the development process for humanoid robots. What potential applications of SONIC do you think could have the most significant impact on the field of robotics in the next 5 years?
+TEXT:
+Loaded: 24.15%
+Pause
+Back to start
+Current Time 
+0:01/
+Duration 
+1:30
+Unmute
+Fullscreen
+SONIC | Supersizing Motion Tracking for Natural Humanoid Whole-Body Control
+Humanoid Robotics Technology
+52,599 followers
+6mo
+Researchers at NVIDIA have introduced SONIC, a supersized motion-tracking model for natural humanoid whole-body control.
+SONIC treats motion tracking as a natural and scalable task for humanoid control, leveraging dense supervision from diverse motion-capture data to acquire human motion priors without manual reward engineering.
+Read the paper here: https://lnkd.in/ecjZeuHH 
+#humanoid #humanoids #humanoidrobotics #humanoidrobot NVIDIA Robotics
+…more
+499
+16 Comments
+Like
+Comment
+Share
+Mari Pelfrey
+6mo
+I want to be the first person to trial the robot in my home. Put me on the list!
+Like
+Reply
+Boram Yoon
+6mo
+👍
+Like
+Reply
+1 Reaction
+kwang hone jin
+6mo
+손의 자유도를 비롯한 여러 부분의 완성도가 2년정도 떨어져 보인다.
+Like
+Reply
+1 Reaction
+K Fu
+6mo
+Humanoid Robotics Technology 🤖🦾
+Like
+Reply
+1 Reaction
+Seyed Mohammadhadi Rahavi
+6mo
+This is exciting progress! How do you envision SONIC impacting real-world applications for humanoid robots in the near future?
+Like
+Reply
+Om Saha MBA,BE ☆☆☆
+6mo
+Very Impressive!
+Like
+Reply
+1 Reaction
+William W.
+6mo
+That was great! 🤓
+Like
+Reply
+1 Reaction
+Jeff Knapp
+6mo
+The Giants could use him
+Like
+Reply
+My dad K
+6mo
+台中市南
+Like
+Reply
+Greg Mitchell
+6mo
+Jeffrey Scott does any of this look familiar to you? 😃
+Like
+Reply
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/humanoid-global-holdings-corp_cse-robo-otc-activity-7364280146477899776-ORUB
+DATE: 2026-06-06
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - The post discusses industry trends and potential applications of humanoid robotics, making it a standard industry news post where a decent thought can be added.
+AI COMMENT:
+I completely agree that labor shortages and advancements in AI are prime catalysts for the growth of humanoid robotics. One interesting aspect to consider is how humanoid robots can be designed to not only replace human labor but also to work alongside humans, enhancing productivity and job quality. What do you think are the most critical factors that will determine the successful integration of humanoid robots into various industries?
+TEXT:
+Humanoid Global Holdings (CSE: ROBO | OTCQB: RBOHF | FRA: 0XM1)
+153 followers
+9mo
+Labor shortages, rising labor costs, and rapid advancements in AI and robotics are creating the perfect conditions for humanoid robotics to scale. The future of work is being built now.
+Learn more: asmbly.link/WvDlb2d
+🇨🇦 #CSE: #ROBO 🇺🇸 #OTC: #RBOHF 🇩🇪 #FRA: #0XM1
+#humanoidrobotics #humanoid #robotics
+Like
+Comment
+Share
 To view or add a comment, sign in
 ================================================================================
 

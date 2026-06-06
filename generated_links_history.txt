@@ -1,6 +1,3 @@
-https://www.linkedin.com/posts/hrwc_hrwc2026-humanoids-ai-activity-7390761014780350464-487e
-https://www.linkedin.com/posts/tomgreenasianroboticsreview_robotics-humanoidrobots-engineering-activity-7465444074544660481-S_wB
-=== RUN ===
 https://www.linkedin.com/posts/brownstone-researchllc_humanoid-robots-are-entering-mass-production-activity-7465741363217608704-1Rjh
 https://www.linkedin.com/posts/regaldi-ai_beyondexpo-robotics-ai-activity-7465668279026479106-9YNa
 === RUN ===
@@ -69,3 +66,16 @@ https://www.linkedin.com/posts/arpit-jainn_introduction-to-agentspdf-activity-73
 https://www.linkedin.com/posts/srinivasav22_artificialintelligence-agenticai-aiagents-activity-7435270705371394048-9TFw
 https://www.linkedin.com/posts/leggedrobotics_icra2026-humanoidrobots-leggedrobots-activity-7467555299780902915-82CQ
 https://www.linkedin.com/posts/humanoidsummit_nvidia-unveils-open-isaac-gr00t-humanoid-activity-7467141879185346560-Vo9a
+=== RUN ===
+https://www.linkedin.com/posts/huxaifash_agenticai-softwareengineering-automation-activity-7466834546886520833-lWGm
+https://www.linkedin.com/posts/learnroboticsandai_excited-to-share-some-insights-about-ros-activity-7468194941182046208-FFUA
+https://www.linkedin.com/posts/schaeffler_schaeffler-at-ces-2026-humanoid-robotics-activity-7414746402351820802-XB0q
+https://www.linkedin.com/posts/pandey-dhananjay_industrialautomation-plc-scada-activity-7466835889529331712-VaVW
+https://www.linkedin.com/posts/humanoid-global-holdings-corp_cse-robo-otc-activity-7364280146477899776-ORUB
+https://www.linkedin.com/posts/yinyinphyo29_robotics-ros2-embodiedai-activity-7454937501921832960-dClW
+https://www.linkedin.com/posts/automationnewsmedia_humanoid-robotics-activity-7392580345239535616-iutT
+https://www.linkedin.com/posts/rolandberger_humanoid-robots-roland-berger-activity-7283090175801389058-8tZx
+https://www.linkedin.com/posts/sambhav-agarwal-ba7923324_ros2-robotics-robotcontrol-activity-7424020483618226176-A5_e
+https://www.linkedin.com/posts/enzo-ghisoni-robotics_ros2-robotics-ai-activity-7468269898826170368-cV9l
+https://www.linkedin.com/posts/rockwell-automation-tackles-industry-50-share-7465472327334457346-Hcnh/
+https://www.linkedin.com/posts/humanoid-robotics-technology_sonic-supersizing-motion-tracking-for-natural-activity-7395460576430415872-ZrcG
