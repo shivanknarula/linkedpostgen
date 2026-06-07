@@ -1,6 +1,3 @@
-https://www.linkedin.com/posts/brownstone-researchllc_humanoid-robots-are-entering-mass-production-activity-7465741363217608704-1Rjh
-https://www.linkedin.com/posts/regaldi-ai_beyondexpo-robotics-ai-activity-7465668279026479106-9YNa
-=== RUN ===
 https://www.linkedin.com/posts/ustat-singh-6883b2325_ros2-robotics-gazebosimulation-activity-7465863077394264064-8tmJ
 https://www.linkedin.com/posts/autonomousmechatronics_what-happens-when-artificial-intelligence-activity-7466194990046769152-xgB7
 === RUN ===
@@ -79,3 +76,15 @@ https://www.linkedin.com/posts/sambhav-agarwal-ba7923324_ros2-robotics-robotcont
 https://www.linkedin.com/posts/enzo-ghisoni-robotics_ros2-robotics-ai-activity-7468269898826170368-cV9l
 https://www.linkedin.com/posts/rockwell-automation-tackles-industry-50-share-7465472327334457346-Hcnh/
 https://www.linkedin.com/posts/humanoid-robotics-technology_sonic-supersizing-motion-tracking-for-natural-activity-7395460576430415872-ZrcG
+=== RUN ===
+https://www.linkedin.com/posts/innovationsandai_physicalai-humanoidrobotics-bostondynamics-activity-7468678023232339968-9PQl
+https://www.linkedin.com/posts/ajitnaidu_ai-agenticai-futureofwork-activity-7337595714610376705-oyUQ
+https://www.linkedin.com/posts/sparvezshaikh_ai-just-shifted-from-chatbots-to-autonomous-activity-7467218897004539904-SOBT
+https://www.linkedin.com/posts/mohammed-ashik2002_ros2-robotics-selflearning-activity-7454480270847561728-zLvR
+https://www.linkedin.com/posts/robotisim_learning-ros2-starts-when-you-connect-a-real-activity-7387416392834306048-vnxh
+https://www.linkedin.com/posts/hingoraninaresh_ai-agents-are-tools-agentic-ai-is-a-system-activity-7468247769233645568-elmF
+https://www.linkedin.com/posts/chandrabhan-jha-265898229_bostondynamics-atlasrobot-humanoidrobots-activity-7465998335615832064-AdPW
+https://www.linkedin.com/posts/akhilantech_aiagents-autonomoussystems-artificialintelligence-activity-7466496147914682368-Szqm
+https://www.linkedin.com/posts/armel-nene-jr_ros2-slam-nav2-activity-7375521929706758144-fMQh
+https://www.linkedin.com/posts/sachinsuvarna_ros2-robotics-moveit2-activity-7467508369608810497-Y9d_
+https://www.linkedin.com/posts/alejandra-yonet-garza-delano%C3%A9-3b3191214_robotics-ros2-autonomoussystems-activity-7439020453056323584--1qQ
