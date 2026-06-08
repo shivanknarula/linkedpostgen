@@ -1,172 +1,36 @@
-LINK: https://www.linkedin.com/posts/innovationsandai_physicalai-humanoidrobotics-bostondynamics-activity-7468678023232339968-9PQl
-DATE: 2026-06-07
+LINK: https://www.linkedin.com/posts/kevinmrusso_agentic-ai-in-software-engineering-activity-7468602676369600512-jq9o
+DATE: 2026-06-08
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a significant advancement in robotics, specifically the use of reinforcement learning in Boston Dynamics' Atlas robot, and highlights its potential impact on industrial sites and real-world adoption.
+SCORE: 9/10 - The post discusses a thought-provoking and technical topic, presenting a unique perspective on the future of software engineering and the role of autonomous agents, making it an ideal opportunity for a high-value comment.
 AI COMMENT:
-I completely agree that the shift from automation based on repetition to automation based on learning is a game-changer. The fact that Atlas can adapt to unpredictable situations without explicit programming is a major breakthrough. What I find particularly interesting is the potential for this technology to be applied to other areas, such as search and rescue or environmental monitoring. How do you think the development of robots that can learn and adapt will change the way we approach robotics in fields beyond industrial automation?
+I couldn't agree more, Kevin, on the transformation of the 'human-in-the-loop' concept from a safety feature to a defining engineering skill. The shift towards 'Engineering as Governance' and focusing on 'Value Velocity' as a key metric highlights the need for a new skill set among developers. As we move towards a more autonomous and hybrid human-agent pipeline, what do you think are the most critical factors for organizations to consider when reassessing their talent acquisition and development strategies to support this new paradigm?
 TEXT:
-Loaded: 8.86%
-Pause
-Back to start
-Current Time 
-0:02/
-Duration 
-0:23
-Unmute
-Fullscreen
-INNOVATIONS
-7,856 followers
-1d
-For years, robots have been following instructions. Now they're learning.
-Boston Dynamics is training Atlas using reinforcement learning, allowing the robot to figure out how to move, balance, and handle objects through experience rather than relying solely on pre-programmed commands.
-That may sound like a technical detail. It's not.
-A robot that follows instructions can only operate within situations engineers anticipated. A robot that learns can adapt when reality doesn't match the plan.
-In recent demonstrations, Atlas has been lifting heavy objects, adjusting to changes in weight, and recovering from unexpected movement without being explicitly told what to do.
-That's a major shift.
-Factories, warehouses, and industrial sites are full of unpredictable situations. The real world rarely behaves like a controlled lab environment.
-The companies that succeed with robotics won't necessarily be the ones with the most robots.
-They'll be the ones deploying robots that can adapt.
-We're moving from automation based on repetition to automation based on learning. And that changes the timeline for real-world adoption more than most people realize.
-Humanoid robots aren't just getting stronger.
-They're getting better at figuring things out for themselves.
-
-Credits: Boston Dynamics | Video source: Interesting Engineering
-
-
-Follow INNOVATIONS to discover tech that matters and ideas that lead.
-We are a platform that promotes innovation forward, supporting bold ideas, diverse voices, and groundbreaking businesses shaping the future globally.
-#PhysicalAI #HumanoidRobotics #BostonDynamics #IndustrialRobotics #RoboticsInnovation #AutomationTechnology 
-…more
-9
+Kevin Russo
+2d
+As AI rapidly alters software engineering, too many leaders are treating autonomous agents as a risk to be managed, viewing the "human-in-the-loop" requirement merely as a compliance failsafe.  As we outline in our new Deloitte perspective on Agentic AI, this is a fundamental misread of the inflection point we are at.  "Human-in-the-loop" isn't a safety feature it is the defining engineering skill of the next decade.
+We are moving away from the traditional Software Development Life Cycle (SDLC).  When AI agents can autonomously reason, execute, and test code, the role of the human engineer completely transforms, which means we must rebuild our engineering organizations around two new realities:
+1. Engineering as Governance (The New Skill)
+Our developers must evolve from "syntax typists" into "system orchestrators." The value of a senior engineer is no longer in how fast they can write a script, but in how effectively they can govern the intent, quality, and architectural trust of a multi-agent system.  Guiding and correcting autonomous agents is a completely new craft.
+2. Value Velocity (The New Metric)
+For decades, we measured engineering by cost, effort (story points), and volume (lines of code).  When agents handle the execution, measuring volume is meaningless.  The metric that matters now is Value Velocity - how fast can your hybrid human-agent pipeline translate a strategic business objective into a secure, deployed capability.
+As tech leaders, we need to elevate our human talent to govern autonomous systems, relentlessly focusing on delivering business value.
+https://lnkd.in/gwxFs4Mw
+#SoftwareEngineering #CIO #TechLeadership #Deloitte #AI #ValueCreation #HumanInTheLoop #FutureOfWork #DeloitteTechnology
+Agentic AI in software engineering
+deloitte.com
+6
 Like
 Comment
 Share
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/ajitnaidu_ai-agenticai-futureofwork-activity-7337595714610376705-oyUQ
-DATE: 2026-06-07
+LINK: https://www.linkedin.com/posts/faajmid_ros2-robotics-machinelearning-activity-7469303445162913792-qM6a
+DATE: 2026-06-08
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post is a thought leadership piece on a critical topic in AI, with a clear explanation of the distinction between AI Agents and Agentic AI, and its implications on the future of work and leadership.
+SCORE: 9/10 - The post showcases a thought leadership project in robotics and machine learning, providing a detailed technical overview and listing specific tools and technologies used.
 AI COMMENT:
-Ajit, your distinction between AI Agents and Agentic AI is well-taken, and the paper by Sapkota, Roumeliotis, and Karkee provides a valuable framework for understanding this shift. One aspect that I think deserves further exploration is the role of explainability and transparency in Agentic AI systems, particularly as they begin to make autonomous decisions that impact human teams. How do you envision the development of explainability metrics and techniques that can ensure trust and accountability in these complex systems?
-TEXT:
-Ajit Naidu
-12mo  Edited
-🧠 AI Agents vs. Agentic AI: A New Frontier in Intelligence
-We’re witnessing a tectonic shift in artificial intelligence—from task-based AI Agents to complex, autonomous Agentic AI systems that think, collaborate, and adapt.
-A paper by Sapkota, Roumeliotis, and Karkee (May 2025) provides a critical taxonomy, clarifying the fundamental differences between AI Agents and Agentic AI. This distinction isn't just semantic; it dictates design philosophies, capabilities, and future applications across industries. For the full text, you can access “AI Agents vs. Agentic AI: A Conceptual
-Taxonomy, Applications and Challenges” on https://lnkd.in/ejYBBR2U
-🔹 AI Agents are powerful—but limited.
- They use tools, follow prompts, and complete discrete tasks. Think: AutoGPT planning your day or an AI assistant sorting your inbox.
-🔹 Agentic AI is something more.
- It’s not a single tool. It’s a system of agents—communicating, coordinating, and solving multi-step problems dynamically. Picture an autonomous team of AIs managing a project, adapting in real-time, learning together.
-💡 Why this matters:
- We’re moving beyond automation toward orchestrated autonomy. That means AI systems aren’t just doing tasks for us—they’re starting to reason, delegate, and evolve, much like human teams.
-But with that potential comes complexity:
-- Misalignment between agents
-- Emergent behaviors
-- The need for trust, transparency, and governance
- If yesterday’s AI was a tool, and today’s is a teammate—
-The big question:
- 👉 What role will we play in tomorrow’s intelligent teams (systems)?
-#AI #AgenticAI #FutureOfWork #AutonomousSystems #ArtificialIntelligence #DigitalTransformation #Leadership
-122
-9 Comments
-Like
-Comment
-Share
-Ajit Naidu
-12mo
-We are at a turning point in how we think about AI—not just as tools, but as teammates. The move from isolated agents to collaborative, reasoning systems forces us to ask: What does leadership look like when intelligence is distributed across man and machine? The future of work may not be man vs. machine, but human + machine vs. the unknown
-Like
-Reply
-6 Reactions
-Geeta Pyne
-12mo
-Such profound impact on Enteprise Architecture to support this decision making, timely, responsibly, with right identity and access etc. The need for local memory, reasoning, perceiving the context, resolving conflicts, dynamic code and context  … fun time for every layer of the OSI stack … Ajit Naidu will discuss with you the next frontier of end to end Architecture thats reuqired to enable our businesses in this new paradigm !
-Like
-Reply
-10 Reactions
-Vishwas Manral
-12mo
-Ajit, Geeta - the way we look at it is:
-1. AI Agent is a software framework for building complex apps on LLMs. Most apps require integration with data, memory, tools for actions and the Agent framework allows one to do it easily. One could however build an app without the framework and do all the integrations themselves.
-2. Agentic AI is a type of AI, that allows for autonomous decisions to be made (think learning, adaptability etc) vs automating where toil work is automated. Agentic AI apps can use an AI Agent framework or not.
-Enterprise Architects need a superpower to govern, observe, and optimize increasingly autonomous, agent-driven systems without losing visibility or control.
-Like
-Reply
-10 Reactions
-Tarak .
-11mo
-we’re shifting from agents that execute instructions to systems that navigate environments. The distinction between “AI Agents” and “Agentic AI” isn’t marketing fluffit’s a signal of deeper changes in how we design, evaluate, and ultimately trust machine intelligence.
-AI Agents are reactive by design, they wait for prompts, run scripts, maybe call APIs. Useful, but predictable. Agentic AI breaks that mold. These systems don’t just act; they organize, replan, and course-correct. They’re context-sensitive, capable of delegating to sub-agents, and increasingly operate with long-horizon goals in mindmuch like a project manager balancing conflicting tasks under changing conditions.
-This shift toward orchestrated autonomy forces a rethink of our entire stack. You don’t just need better prompt design, you need agent coordination frameworks, sandboxed memory, real-time feedback loops, conflict resolution strategies, and trust layers that go beyond classic input/output validation. This is less about building smart tools and more about creating coherent multi-agent systems with emergent behavior that doesn’t spiral into chaos.
-Like
-Reply
-Ali Nawab
-11mo
-Hard to ignore how fast the line is blurring between “supporting AI” and “working with AI.”
-What used to be automation feels more like orchestration now. Feels like we’re inching closer to orgs where roles are shared between humans and intelligent agent networks.
-Like
-Reply
-Moiz Chakkiwala
-12mo
-It’s simply amazing how powerful AI can evolve into; and scary too
-Like
-Reply
-1 Reaction
-Issam (Sam) M. Ali
-12mo
-Thanks for sharing, Ajit
-Like
-Reply
-Kishore Ramnani
-12mo
-💡 Great insight
-Like
-Reply
-1 Reaction
-See more comments
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/sparvezshaikh_ai-just-shifted-from-chatbots-to-autonomous-activity-7467218897004539904-SOBT
-DATE: 2026-06-07
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses thought leadership and the future of AI, specifically the shift from chatbots to autonomous agents, providing significant opportunities for insightful commentary.
-AI COMMENT:
-I completely agree that the AI landscape is evolving beyond chatbots, with autonomous agents poised to revolutionize workflows. The emphasis on 'directing' rather than 'doing' underscores the need for strategic human oversight. Interestingly, the integration of autonomous systems also raises questions about cybersecurity and data integrity, as these agents will be operating with increased autonomy. What measures do you think organizations should prioritize to ensure the secure deployment of autonomous agents?
-TEXT:
-Shahin Parvez S.
-5d
-AI just shifted from chatbots to autonomous agents—and nobody's talking about what this really means for your work.
-This week alone:
-🔹 Anthropic closed a $65B funding round, surpassing OpenAI's valuation. Claude Opus 4.8 ED now has 8% better reasoning—meaning it's not just faster, it's smarter at solving complex problems.
-🔹 OpenAI refined GPT 5.5 Instant with 52% fewer hallucinations. Translation: AI is becoming more reliable for mission-critical tasks.
-🔹 Microsoft made agent mode the default for Office 365. Your spreadsheets, emails, and documents now have AI that actually *does* work instead of just suggesting it.
-🔹 Google unified everything under Antigravity with Gemini 3.5 Flash for real-time agents. Mistral AI is already running industrial simulations for Airbus and BMW.
-Here's what's actually happening:
-The AI era isn't about better chatbots anymore. It's about autonomous systems that execute tasks, make decisions, and operate on devices without waiting for human input.
-This changes everything:
-• Knowledge workers aren't being replaced—they're being repositioned. You're moving from "doing" to "directing."
-• Companies that integrate agents into workflows now will have a massive competitive advantage in 6 months.
-• The bottleneck isn't AI capability anymore. It's how fast organizations can adapt their processes to work *with* autonomous systems.
-The question isn't "Will AI take my job?" anymore.
-It's "Will I be the one directing AI agents, or will I be competing with someone who is?"
-What's the biggest shift you're seeing in how AI is being used in your industry right now?
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/robotisim_learning-ros2-starts-when-you-connect-a-real-activity-7387416392834306048-vnxh
-DATE: 2026-06-07
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a technical topic, specifically learning ROS2 in a practical way with an actual robot, and provides valuable resources and insights, making it an ideal opportunity to add value and showcase authority.
-AI COMMENT:
-I completely agree that hands-on experience with ROS2 is crucial for building real robotics understanding. The fact that you're emphasizing the importance of connecting a real robot to learn ROS2 resonates with my own experiences in robotics development. One aspect that's often overlooked is the integration of ROS2 with other frameworks like NVIDIA's Isaac SIM for simulation and testing. What are some potential challenges or limitations that developers might face when trying to integrate ROS2 with other simulators or frameworks, and how can they be addressed?
+Fahad, your graduation project on learning-based mobile robot navigation is impressive, and the custom simulation environment you built is a great example of innovative problem-solving. I'm curious to know more about the challenges you faced while integrating ROS2, Gazebo, and PyTorch, and how you overcame them. What do you think are the most significant limitations of using human demonstrations for robot navigation, and how do you envision addressing them in future projects?
 TEXT:
 Loaded: 100.00%
 Pause
@@ -174,497 +38,151 @@ Back to start
 Current Time 
 0:02/
 Duration 
-0:51
-Show Captions
+0:30
 Unmute
 Fullscreen
-Robotisim
-3,451 followers
-7mo
-Learning ROS2 starts when you connect a real robot.
-Move it, collect sensor data, and process it through ROS2 to see how everything communicates.
-A simple path to build real robotics understanding.
-Watch the full video on YouTube: https://lnkd.in/dnGnxU_s
-We broke down the roadmap in detail here: https://lnkd.in/dkHGw5cm
+Fahad Al Ajmi
+23h  Edited
+Graduation Project Update — Final Version 
+We completed our graduation project:
+Learning-Based Mobile Robot Navigation in Complex Environments Using Human Demonstrations
+This project focuses on teaching a mobile robot to navigate by learning from human driving demonstrations.
+For the final version, we built a custom simulation environment for better data collection and testing. The floor was designed in Inkscape, while the walls and obstacles were modeled in Shapr3D and exported to Gazebo.
+Using ROS2, Gazebo, RViz, TurtleBot3, Python, and PyTorch, we collected joystick demonstrations, trained the model, and tested autonomous navigation in simulation.
+I mainly focused on the technical implementation, including environment design, Gazebo/RViz setup, data collection, model training/testing, and final demo preparation.
+Project completed at the American University of the Middle East (AUM).
+Special thanks to our supervisor Dr. Karim Youssef for his guidance and feedback, and to my team members Ali Taleb, Salman Albedaiwi, Abdullah Bourkhan, and Essa Alsalman for their work and support.
+#ROS2 #Robotics #MachineLearning #Ai #PyTorch #Gazebo #RViz #TurtleBot3 #Autonomous #RobotNavigation #Engineering #STEM
 …more
-20
+17
+1 Comment
 Like
 Comment
 Share
-Transcript
-Transcript
-In the job description of robotic software developer and researcher, you will find Ross to NVIDIA, Isaac SIM and other simulators. The main reason is to see the robot before putting it in a physical real world to save costs and plan properly. Now you don't have a job, let's say, and you want to get into these frameworks to build a robotic scarier and start completing the requirements of the job. The place where people get stuck is what to start. What to do with this framework? Because roster is just for communication. So in this video we are going to explore the possibility of learning Ross two in a practical way with an actual robot. So things can make sense. If roster is just communication, what are the things that are robot should be processing through Ross to and what things should it not be doing it? So let's explore in detail.
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/hingoraninaresh_ai-agents-are-tools-agentic-ai-is-a-system-activity-7468247769233645568-elmF
-DATE: 2026-06-07
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post showcases thought leadership, provides a deep technical discussion on AI Agents and Agentic AI, and sparks a controversial take on the future of AI systems.
-AI COMMENT:
-I appreciate the distinction you've made between AI Agents and Agentic AI, Naresh. The example you provided about scheduling a meeting vs. increasing sales by 20% perfectly illustrates the difference. As someone who's worked on developing autonomous workflows, I can attest that Agentic AI's ability to break down complex goals into sub-tasks and adapt based on feedback is a game-changer. What do you think are the most significant challenges that companies will face when transitioning from traditional AI Agents to Agentic AI Systems, and how can they overcome them?
-TEXT:
-Naresh Hingorani
-2d
-AI Agents Are Tools. Agentic AI Is a System. Here's Why That Matters.
-Everyone is talking about AI Agents.
-But the real conversation in 2026 is about Agentic AI.
-After spending the last few months researching AI architectures, multi-agent systems, autonomous workflows, and enterprise AI implementations, I've noticed something interesting:
-Most professionals use these two terms interchangeably.
-They shouldn't.
-Here's the simplest way to think about it:
-👉 AI Agents are individual workers.
-👉 Agentic AI is the organisation they work within.
-An AI Agent is typically designed for a specific purpose.
-Input → Process → Action → Output.
-Examples include:
-• Customer support bots
-• Personal assistants
-• Recommendation engines
-• Workflow automation agents
-They are effective, focused, and predictable.
-But they usually operate within predefined boundaries.
-Agentic AI operates at an entirely different level.
-Instead of executing a task, it pursues a goal.
-Rather than asking:
-"What action should I perform?"
-It asks:
-"What sequence of actions will help me achieve the objective?"
-That's a massive shift.
-Agentic AI can:
-✅ Break down complex goals into sub-tasks
-✅ Create execution plans
-✅ Use external tools and APIs
-✅ Coordinate multiple agents
-✅ Adapt based on feedback
-✅ Re-plan when conditions change
-✅ Learn from outcomes
-In other words:
-Traditional AI responds.
-AI Agents execute.
-Agentic AI strategizes.
-One comparison stood out during my research:
-AI Agent Example
-"Schedule a meeting."
-The agent performs the task.
-Done.
-Agentic AI Example
-"Help me increase sales by 20%."
-The system may:
-• Analyze customer data
-• Identify growth opportunities
-• Research competitors
-• Generate campaigns
-• Launch workflows
-• Measure results
-• Adjust strategy continuously
-The goal becomes the operating system.
-This distinction matters because the next generation of AI products won't be built around single agents.
-They'll be built around:
-🔹 Multi-agent collaboration
-🔹 Dynamic planning
-🔹 Long-term memory
-🔹 Tool orchestration
-🔹 Autonomous decision-making
-🔹 Continuous optimization
-We're moving from task automation to outcome automation.
-And that's where the biggest transformation will happen.
-The companies that understand Agentic AI today will build the intelligent systems that define the next decade.
-AI Agents are important.
-But Agentic AI is where the future is heading.
-What's your take?
-Do you believe the future belongs to:
-A) Specialized AI Agents
-B) Agentic AI Systems coordinating multiple agents
-Drop A or B in the comments and tell me why.
-If you found this useful, repost it so more people understand one of the most important AI concepts of 2026.
-🔁 Repost to help someone in your network
-❤️ Like if you're building with AI
-➕ Follow me for more deep dives on Claude, AI Agents, RAG, MCP, and Automation Systems.
-16
-6 Comments
-Like
-Comment
-Share
-Booster Wabuyabo
-2d
-I lean toward B, but only because most real-world business problems aren't isolated tasks, they're workflows with multiple dependencies, changing conditions, and competing priorities.
- 
-What's interesting is that many organizations haven't fully extracted value from single-purpose agents yet, so I suspect we'll see both models coexist for a while. Specialized agents will handle focused tasks, while agentic systems coordinate them around broader objectives.
- 
-The shift from task automation to outcome automation is the key idea here. Once the goal becomes "grow revenue," "launch a product," or "publish a book," a single agent quickly runs into limits. That's where planning, memory, tool orchestration, and coordination start to matter.
- 
-That's also why platforms like River (rivereditor.com) have caught my attention. The interesting part isn't the AI itself, it's the move toward AI that can work across documents, research, planning, and execution in a shared workspace rather than treating every request as a standalone task. That feels much closer to where agentic systems are headed.
-Like
-Reply
-2 Reactions
-Frank Feather
-2d
-Very obvious, in my view.
+Raghad Badarneh
+21h
+Great work Fahad!👏🏼👏🏼
 Like
 Reply
 1 Reaction
-Keith R. Worfolk - MBA, MCIS, AIML, CCIO, CCISO
-2d
-Completely agree, an agent performs actions, but an agentic system coordinates actions toward outcomes.
- 
-
-Like
-Reply
-See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/akhilantech_aiagents-autonomoussystems-artificialintelligence-activity-7466496147914682368-Szqm
-DATE: 2026-06-07
+LINK: https://www.linkedin.com/posts/sundarindustry40_manufacturing-industry40-automation-activity-7466499710900469760-yMgJ
+DATE: 2026-06-08
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post provides a well-structured and in-depth discussion on AI agents and autonomous systems, including their capabilities, applications, and implications, making it a high-value topic for thought leadership and technical insights.
+SCORE: 9/10 - The post discusses a thought-provoking and futuristic concept of industrial automation, sparked by an AI prediction, allowing for deep technical insights and discussion.
 AI COMMENT:
-Akhilan, you've provided a comprehensive overview of the rise of AI agents and autonomous systems, highlighting their potential to transform various aspects of our lives. One aspect that resonates with me is the shift from 'humans operating software' to 'humans supervising intelligent agents.' As we increasingly rely on autonomous systems, it's crucial to address the concerns around loss of human oversight, security vulnerabilities, and bias in decision-making. What do you think is the most critical factor in determining the acceptable level of autonomy in AI systems, and how can we ensure that these systems remain aligned with human values and goals?
+I find the idea of a 'Factory Brain' where humans and autonomous systems collaborate to achieve goals fascinating. The convergence of PLCs, SCADA, MES, Historians, Vision AI, and Robotics could indeed revolutionize manufacturing efficiency and flexibility. An interesting aspect to consider is how such a system would handle unexpected disruptions or ethical dilemmas. What role do you think human oversight and feedback mechanisms will play in ensuring the 'Factory Brain' aligns with societal values and priorities?
 TEXT:
-Akhilan Vengala
+Sundar Narayanan
 1w
-🤖 AI Agents & Autonomous Systems — When AI Starts Taking Actions, Not Just Giving Answers
-We’ve moved beyond AI that only responds.
-Now we’re entering the era of AI that can:
- 🧠 Think
- 📋 Plan
- ⚡ Act
- 🔄 Learn from outcomes
-That’s the rise of AI Agents & Autonomous Systems.
-💡 What Are AI Agents?
-An AI agent is a system designed to:
-✔ Observe its environment
- ✔ Make decisions
- ✔ Execute tasks autonomously
- ✔ Adapt based on feedback
-Unlike traditional AI chatbots that only answer prompts,
- AI agents can perform multi-step tasks with minimal human intervention.
-🚀 Real-World Examples
-AI agents are already appearing in:
-🚗 Autonomous vehicles
- 📈 AI trading systems
- 🛒 Smart recommendation engines
- 🤖 Customer support automation
- 🏭 Industrial robotics
-And soon:
- • Personal AI assistants may manage schedules, emails, and workflows independently.
-⚙️ How Autonomous Systems Work
-Typical workflow 👇
-1️⃣ Perceive → Gather data
- 2️⃣ Reason → Analyze context
- 3️⃣ Plan → Decide next steps
- 4️⃣ Act → Execute tasks
- 5️⃣ Learn → Improve over time
-This creates systems that are:
- Adaptive. Scalable. Intelligent.
-🌍 Why This Matters
-AI agents could transform:
- ✔ Productivity
- ✔ Decision-making
- ✔ Automation
- ✔ Human-computer interaction
-Instead of using software manually,
- humans may simply define goals —
- and AI handles execution.
-⚠️ But There’s a Catch
-More autonomy = more responsibility.
-Major concerns include:
- ❌ Loss of human oversight
- ❌ Security vulnerabilities
- ❌ Bias in decision-making
- ❌ Ethical accountability
- ❌ Over-dependence on AI systems
-An autonomous system making the wrong decision at scale can have massive consequences.
-🧠 The Bigger Shift
-The future of computing may no longer be:
- “Humans operating software.”
-But instead:
- “Humans supervising intelligent agents.”
-That changes everything.
-The real question isn’t:
-“Can AI agents automate tasks?”
-It’s:
-“How much decision-making are we willing to hand over to machines?”
-💬 Would you trust an autonomous AI agent to manage important tasks in your daily life?
-#AIAgents #AutonomousSystems #ArtificialIntelligence #FutureOfWork #EmergingTech #AIInnovation
+Interesting experiment with AI.
+I asked:
+"What will industrial automation look like 50 -100 years from now?"
+The image below is AI's prediction, not mine.
+According to AI, PLCs, SCADA, MES, Historians, Vision AI, and Robotics may eventually converge into a single intelligent "Factory Brain" where humans define goals and autonomous systems determine the best path to achieve them.
+What do you think will still exist in manufacturing 100 years from now?
+#Manufacturing #Industry40 #Automation #MES #SCADA #AI #SmartFactory
 View C2PA information
-5
+12
 Like
 Comment
 Share
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/armel-nene-jr_ros2-slam-nav2-activity-7375521929706758144-fMQh
-DATE: 2026-06-07
+LINK: https://www.linkedin.com/posts/salman-aglawane-678b25201_robotics-automation-industrialautomation-activity-7455422500508848128-tG-g
+DATE: 2026-06-08
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post is a personal account of building a ROS2 robot, sharing experiences, and lessons learned, which provides a lot of depth for discussion and adding value.
+SCORE: 8/10 - The post discusses a specific topic in industrial robotics and automation, with thoughtful comments that add to the conversation, making it a high-value opportunity for adding unique insights and sparking further discussion.
 AI COMMENT:
-I totally agree that building a robot from scratch can be a wild adventure, and it's great that you dove into all areas of engineering. I'm impressed by your persistence in overcoming the various challenges, especially with the base cracking under testing. The integration of SLAM Toolbox, Nav2 stack, and Explore_Lite is quite impressive. What do you think is the most significant challenge in balancing low-level hardware with high-level autonomy in ROS2, and how do you see this project evolving in the future?
+I completely agree that understanding the core components of an industrial robotic system is crucial for efficient automation solutions. The integration of advanced sensors and real-time calibration, as mentioned, can significantly enhance accuracy and repeatability. However, I'd like to add that another critical aspect is the development of adaptive control algorithms that can learn from production data and adjust the system's parameters accordingly. What are your thoughts on the potential of machine learning in optimizing industrial robotic systems for complex manufacturing tasks?
 TEXT:
-Loaded: 19.69%
-Pause
-Back to start
-Current Time 
-0:01/
-Duration 
-0:22
-Show Captions
-Unmute
-Fullscreen
-Armel Nene JR
-8mo  Edited
-One thing I’ve learned building my own ROS2 robot is that nothing ever goes 100% to plan, why? I didn’t want to buy a pre-built turtle bot robot and figured this would let me dip in all areas of engineering and guess what. It did. 
-When I first set out to create a ROS 2 Humble-based mobile robot, the vision was clear: 
-Raspberry Pi 4 for brains, Arduino with encoders for odometry, and an LD14 LiDAR to map the world (I quickly found out LIDAR sensors aren’t so cheap). On paper? Simple. In practice? A real engineering adventure.
-At the start, I had to “fake” odometry just to get SLAM Toolbox running. Watching the LiDAR draw a live map reminded me of building a ROS1 robot during my university days. But the real breakthrough came when I finally got encoder-based odometry working—suddenly the robot wasn’t guessing, it knew where it was.
-Then came the plot twist: the base literally cracked under testing, I decided to get stronger motors which were x4 heavier and the shaft was much larger. At first it felt like a disaster, but it turned into one of the best parts of the project. I fired up the 3D printer, redesigned the mountings, and ended up with a stronger, modular platform that made iterating so much easier. (As well as some help off the time help from friends to make the new shaft sleeves) 
-Since then, I’ve integrated:
-	•	SLAM Toolbox for real-time mapping
-	•	Nav2 stack for autonomous path planning and obstacle avoidance
-	•	Explore_Lite for full autonomous exploration
-	•	A web dashboard for remote monitoring and control
-It’s been a crash course in ROS2 and seeing all the changes —balancing low-level hardware with high-level autonomy. Every problem, from TF transform errors to busted parts, became an opportunity to learn, rebuild, and move forward.
-📚 Along the way, I’ve been reading “A Concise Introduction to Robot Programming with ROS2” by Francisco Martín Rico (Though I accidentally bought the first version). The book has been an incredible companion to the build, helping me connect the theory with the hands-on work I was doing. I’m still reading and learning from it now, and it continues to push my understanding forward.
-Also the change in the URDF using comma separated links in the definition was a really annoying change but I can see the benefit in hindsight. Open Robotics  
-Excited to keep pushing this platform further — and to connect with others working in ROS 2, autonomous navigation, or robotics integration.
-#ROS2 #SLAM #Nav2 #RoboticsEngineering #AutonomousNavigation #3DPrinting #RaspberryPi4 #Arduino #LiDAR #Engineering #LearningByDoing #embedded #roboticsUK #iet #London #LondonRobotics
-Also thanks Rob Hawkes Aaron Pinto Jorge Porcel Bustamante Alex Griffiths for helping and collaborating on the little snags along the way!
-…more
-738
-32 Comments
-Like
-Comment
-Share
-Transcript
-Transcript
-If you can drive a motor, you can read an encoder. If you can read an encoder, you can make odometry. If you can make odometry, you can streamline DAR. If you can stream Lidar, you can build a map. If you can build a map, you can tie it all together and telling navigate. And if you can navigate with NAV two, you can explore autonomously. And you've just built a Ross 2 robot.
-Ali Rezazadeh
-8mo
-It seems like an amazing adventure. As a rookie at the beginning of this journey I'd like to know what are the best resources to learn ROS🙏🙏🙏🙏
-Like
-Reply
-Sai Kishore
-8mo
-Really inspiring, Armel Nene JR 🚀! Loved how you broke down the whole journey from faking odometry to integrating SLAM Toolbox, Nav2, and Explore_Lite. The way you turned setbacks like cracked bases and sensor costs into opportunities shows true engineering grit. ROS2 is complex, and seeing your modular approach plus 3D printing integration really highlights how learning by doing creates powerful outcomes. Excited to see how you keep pushing this platform further!
-Like
-Reply
-Syed Shayon Khaled
-Robotics | Mechanical | Electronics
-8mo
-I took the same approach as well, making my own take on Turtlebot instead of starting with an off-the-shelf platform. I think everyone getting into ROS should try to do this at least once - because even if I were to be working on the software side strictly, it would make my life a lot easier if I had basic understanding of how everything works on the hardware side as well.
-Like
-Reply
-Francisco Martín Rico
-8mo
-I am happy to have contributed to your awesome work with my book 🤓!!
-Like
-Reply
-2 Reactions
-Peter Tran
-8mo
-As someone who’s tried to build a ROS2 robot without following a simple turtlebot guide, this is insane
-Like
-Reply
-TIMOTHY AYELAGBE
-8mo
-Great work Armel Nene JR
-Like
-Reply
-1 Reaction
-Seyed Mohammadhadi Rahavi
-8mo
-Wow, Armel, your journey is truly inspiring! How did you prioritize which challenges to tackle first?
-Insights resonate keen to link
-Like
-Reply
-1 Reaction
-Aaqib Khan
-8mo
-Nice poetry...
-Like
-Reply
-Iliya Baladastian
-8mo
-Nice 🔥
-Like
-Reply
-See more comments
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/sachinsuvarna_ros2-robotics-moveit2-activity-7467508369608810497-Y9d_
-DATE: 2026-06-07
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post demonstrates thought leadership, provides a deep technical discussion, and showcases a complex project in robotics, making it highly valuable for commentary.
-AI COMMENT:
-Sachin, your implementation of a ROS2 Gesture-Based Learning from Demonstration pipeline with physics simulation is highly impressive and showcases a deep understanding of robotics software architecture. The addition of gesture recording and playback, physics-based object manipulation, and high-level task orchestration makes this project particularly noteworthy. Your physics tuning parameters for achieving stable object interaction are also well-explained. What are some of the potential applications or extensions of this project that you envision in the field of autonomous systems or robotics, and how do you see this technology evolving in the next few years?
-TEXT:
-Loaded: 46.86%
-Pause
-Back to start
-Current Time 
-0:01/
-Duration 
-3:56
-Unmute
-Fullscreen
-Sachin Suvarna
-4d  Edited
-🚀 Completed: ROS2 Gesture-Based Learning from Demonstration (LfD) with Physics Simulation
-Over the past few days, I worked on implementing a complete Learning from Demonstration (LfD) pipeline using ROS2 Humble, MoveIt 2, and Gazebo.
-🔹 Project Overview
-The goal was to enable a robot to learn a manipulation task from a demonstrated trajectory and then autonomously reproduce it in simulation.
-🛠️ Key Features
-✅ Gesture Recording & Playback
- ✅ Physics-Based Object Manipulation
- ✅ High-Level Task Orchestration
- ✅ ROS2 Service-Based Execution
- ✅ Gazebo Dynamic Object Simulation
-🎯 Task
-The robot learns and executes a trajectory to push a T-shaped object into a designated target zone.
-⚙️ What I Implemented
-GestureManager
-Records robot joint trajectories
-Saves demonstrations as YAML files
-Replays learned gestures on demand
-Task Orchestrator
-Handles high-level task execution
-Resets the simulation environment
-Spawns a fresh object before every run
-Triggers gesture playback automatically
-🔬 Physics Tuning
-To achieve stable object interaction, I configured the T-shaped object with:
-Mass: 2.0 kg
-Friction: 0.7
-Contact Stiffness: 10000
-Contact Damping: 1.0
-These parameters helped reduce jitter, prevent bouncing, and create realistic pushing behavior.
-📚 What I Learned
-Learning from Demonstration workflows
-ROS2 Service and Node Architecture
-MoveIt 2 trajectory execution
-Gazebo physics tuning and object interaction
-Designing task-level robot orchestration systems
-This project gave me valuable hands-on experience in robotics software architecture, motion execution, and simulation-based manipulation.
-
-I'm actively exploring opportunities in Robotics Software Engineering, ROS2, Autonomous Systems, and AI Robotics. Feedback and suggestions are always welcome!
-#ROS2 #Robotics #MoveIt2 #Gazebo #LearningFromDemonstration #LfD #RobotLearning #AutonomousSystems #Simulation #RoboticsEngineering #ROS #RobotManipulation #Engineering #OpenSource #SoftwareEngineering #ComputerVision #AI #RoboticsDeveloper
-🎥 Demo video is attached below.
-…more
-33
+Salman Aglawane
+1mo
+Understanding the core components of an industrial robotic system is essential for building efficient automation solutions. Each element plays a critical role in precision and performance.
+#Robotics #Automation #IndustrialAutomation #Engineering #Industry40 #Mechatronics #RobotProgramming #Manufacturing #Tech
+28
 2 Comments
 Like
 Comment
 Share
-Shashank Pandey
-4d
-very good keep it up🙌
-Like
-Reply
-To view or add a comment, sign in
-================================================================================
+Sanjeevv Yaadav
+1mo
+Interesting insights on robotics and industrial automation. The growing role of automation in improving efficiency and precision is clearly evident.
+ 
 
-LINK: https://www.linkedin.com/posts/mohammed-ashik2002_ros2-robotics-selflearning-activity-7454480270847561728-zLvR
-DATE: 2026-06-07
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post showcases a personal project with specific technical details, such as the use of ROS2 and computer vision, demonstrating thought leadership and a deep technical discussion.
-AI COMMENT:
-Congratulations on completing your first ROS2 robotics project, Mohammed. It's impressive how you've leveraged ChatGPT as a learning assistant to drive your self-learning journey in robotics. I'm particularly interested in the computer vision aspect of your project - what approaches did you explore for detecting the red ball, and how did you handle potential lighting variations or occlusions?
-TEXT:
-Loaded: 53.55%
-Pause
-Back to start
-Current Time 
-0:01/
-Duration 
-1:36
-Unmute
-Fullscreen
-Mohammed Ashik
-1mo
-Excited to share my first ROS2 robotics project — a robot that detects and reaches a red ball autonomously.
-This project was built as part of my self-learning journey in robotics, where I explored ROS2, computer vision, and robot movement control. I also used ChatGPT as a learning assistant to understand concepts, solve problems, and improve the project step by step.
-Looking forward to building more innovative robotics projects ahead.
-#ROS2 #Robotics #SelfLearning #Automation #ComputerVision #Mechatronics #Engineering #FirstProject
-…more
-7
-1 Comment
-Like
-Comment
-Share
-Christena Sunny
-1mo
-👏
 Like
 Reply
 1 Reaction
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/chandrabhan-jha-265898229_bostondynamics-atlasrobot-humanoidrobots-activity-7465998335615832064-AdPW
-DATE: 2026-06-07
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a cutting-edge development in humanoid robotics, specifically highlighting advancements in Boston Dynamics' Atlas robot and its potential integration with Google's Gemini technology, making it a high-value topic for thought leadership and technical discussion.
-AI COMMENT:
-The progress Boston Dynamics has made with Atlas is truly remarkable, and the potential partnership with Google's Gemini technology could be a game-changer for humanoid robotics. What I find particularly intriguing is how the integration of AI and machine learning will enable these robots to learn from their interactions and adapt to new environments. As we move towards more autonomous and human-like robots, what do you think will be the most significant challenge in ensuring these systems can safely and effectively interact with humans in complex, real-world scenarios?
-TEXT:
-Loaded: 77.68%
-Pause
-Back to start
-Current Time 
-0:01/
-Duration 
-0:43
-Unmute
-Fullscreen
-Chandrabhan Jha
-1w
-🔍 Exciting progress in humanoid robotics!
-Boston Dynamics has released a new video showcasing the incredible capabilities of its humanoid robot, Atlas. The demonstration highlights advanced mobility, balance, and object manipulation — showing how far robotics and AI integration have evolved. 🤖
-What makes this even more interesting is the possibility of Atlas leveraging Google’s Gemini Robotics technology as part of the partnership announced earlier this year between Boston Dynamics and Google.
-While the video doesn’t reveal many technical details, it clearly reflects the rapid advancements happening in next-generation humanoid robots and AI-driven automation.
-The future of robotics is becoming more intelligent, adaptive, and human-like than ever before. 🚀
-#BostonDynamics #AtlasRobot #HumanoidRobots #ArtificialIntelligence #Robotics #Automation #AI #MachineLearning #GoogleGemini #FutureTech #Innovation #Technology #TechNews #Engineering
-…more
-5
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/alejandra-yonet-garza-delano%C3%A9-3b3191214_robotics-ros2-autonomoussystems-activity-7439020453056323584--1qQ
-DATE: 2026-06-07
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a specific robotics learning repository, providing a detailed walkthrough of exercises and sharing technical insights, making it a valuable topic for adding unique value and sparking a meaningful discussion.
-AI COMMENT:
-Alejandra, I appreciate the effort you put into walking through the robovison_ros2 repository and highlighting the connection between perception and motion in robotics. Your point about using sensor data to determine whether the robot should move forward or rotate to avoid obstacles is particularly interesting. What do you think are the most significant challenges in integrating perception and navigation systems in real-world robotics applications, and how do you envision ROS2 addressing these challenges in the future?
-TEXT:
-Alejandra Yonet Garza Delanoé
-2mo  Edited
-This week I spent some time working through a robotics learning repository focused on perception and navigation in ROS2.
-I followed a series of exercises from the open source project robovison_ros2 by (ARTenshi). The repository walks through different steps of working with RGB-D sensors, point clouds, and robot navigation using ROS2.
-While working through the exercises I explored things like:
-- Reading RGB-D data and point clouds from ROS bag 
-- Extracting useful spatial information from the cloud like central points and distances
-- understanding how perceptions data can be used for robot decisions 
-- Building a simple reactive navigation behaivor
-One of the interesting parts of the exercises was connecting perception with motion, using sensor data to determinate whether the robot should move forward or rotate to avoid obstacles.
-Thanks to the author for sharing the repository and exercises openly.
-https://lnkd.in/e_2QWeiM 
-#Robotics #ROS2 #AutonomousSystems #RoboticsLearning
-5
-1 Comment
-Like
-Comment
-Share
-YZ-RA
-1w
-I appreciate the detailed walkthrough of the robovison_ros2 repository, Alejandra. The connection between perception and motion is indeed a crucial aspect of robotics development.
+Mohamed Shawky - محمد شوقي
+1mo
+Absolutely. Integration of feedback sensors and real-time calibration significantly amplifies accuracy. Have you observed notable improvements in repeatability across different production cycles?
 Like
 Reply
+1 Reaction
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/rvt-labs_rvtlabs-momentumrobotics-ros2-activity-7466396508649615360-H5ub
+DATE: 2026-06-08
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post provides a clear take on learning ROS2 and offers a structured approach to overcoming common beginner difficulties, making it a good opportunity for adding value with a thoughtful comment
+AI COMMENT:
+I completely agree that a step-by-step approach is key to mastering ROS2, and your program seems to offer a comprehensive path. One aspect that I've found particularly crucial for beginners is understanding how to debug and troubleshoot their projects efficiently. What strategies or tools do you think are most effective for newcomers to ROS2 to overcome the initial hurdles of debugging their robotic applications?
+TEXT:
+RVTLabs
+61 followers
+1w  Edited
+🚀 One clear truth: ROS2 is NOT hard.
+Most beginners quit because they try to learn everything at once. They look at complex stacks, get hit with endless errors, and think, "Maybe I'm not smart enough for this."
+The truth? You aren't lacking talent—you're just learning it in the wrong order.
+At RVTLabs, in collaboration with Momentum Robotics, we have perfected a step-by-step path designed to make ROS2 incredibly easy for absolute beginners, backed by dedicated one-on-one mentorship:
+1️⃣ The Basics: Linux, C++, and Python foundations.
+2️⃣ The Core: Nodes, Topics, Services, and Actions.
+3️⃣ The Simulation: URDF modeling and Gazebo.
+4️⃣ The Autonomy: SLAM mapping and Nav2 navigation.
+5️⃣ The Real World: 15 days of hands-on industrial training on real robot hardware!
+New to ROS 2? No problem. This program takes you from the fundamentals to real-world robotics development, helping you move beyond tutorial-based learning with expert mentorship and hands-on experience on industrial hardware.
+Our next batch is officially open.
+📅 Batch Starts: 11 June
+📩 Apply here: 👉 https://lnkd.in/gqJnu8Hr
+#RVTlabs #MomentumRobotics #ROS2 #Robotics #Automation #AMR #Python #Cplusplus #Linux #RoboticsEngineering #TechForBeginners #Mentorship #HardwareTraining #CareerGrowth
+14
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/robotverse_industrialautomation-aimanufacturing-industrialrobotics-activity-7467092617562853376-Nj5z
+DATE: 2026-06-08
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - The post discusses a relevant and timely topic in the field of robotics and AI, highlighting key benefits of AI-powered automation and industrial robotics in smart manufacturing, but lacks a unique perspective or deep technical insight.
+AI COMMENT:
+I completely agree that AI and robotics are revolutionizing the manufacturing industry by improving operational efficiency and competitiveness. The integration of predictive maintenance, smart quality inspection, and autonomous production systems can significantly enhance productivity. However, one aspect that's often overlooked is the need for standardized communication protocols to facilitate seamless interaction between different AI and robotics systems. What do you think are the most significant challenges in implementing such standards, and how can they be addressed to fully unlock the potential of Industry 4.0?
+TEXT:
+RobotVerse
+38 followers
+1w
+AI and Robotics in Smart Manufacturing
+Manufacturing industries worldwide are rapidly adopting AI-powered automation and industrial robotics to improve operational efficiency and competitiveness.
+Key benefits include:
+✔ Predictive Maintenance
+ ✔ Smart Quality Inspection
+ ✔ Autonomous Production Systems
+ ✔ Improved Productivity
+ ✔ Industry 4.0 Integration
+AI and robotics are becoming the foundation of next-generation smart factories.
+Read the full article:
+ 🌐 https://lnkd.in/gjGcMqBy
+#IndustrialAutomation #AIManufacturing #IndustrialRobotics #SmartManufacturing #Industry40 #FactoryAutomation #RobotVerse
+1
+Like
+Comment
+Share
 To view or add a comment, sign in
 ================================================================================
 

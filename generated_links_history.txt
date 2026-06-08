@@ -1,6 +1,3 @@
-https://www.linkedin.com/posts/ustat-singh-6883b2325_ros2-robotics-gazebosimulation-activity-7465863077394264064-8tmJ
-https://www.linkedin.com/posts/autonomousmechatronics_what-happens-when-artificial-intelligence-activity-7466194990046769152-xgB7
-=== RUN ===
 https://www.linkedin.com/posts/humanoid-robotics-technology_reflex-robotics-arvato-humanoid-robot-activity-7440759468587520000-5Mdb
 https://www.linkedin.com/posts/humanoid-robotics-weekly_boston-dynamics-atlas-training-methodology-activity-7465718531678994432-AO9O
 === RUN ===
@@ -88,3 +85,10 @@ https://www.linkedin.com/posts/akhilantech_aiagents-autonomoussystems-artificial
 https://www.linkedin.com/posts/armel-nene-jr_ros2-slam-nav2-activity-7375521929706758144-fMQh
 https://www.linkedin.com/posts/sachinsuvarna_ros2-robotics-moveit2-activity-7467508369608810497-Y9d_
 https://www.linkedin.com/posts/alejandra-yonet-garza-delano%C3%A9-3b3191214_robotics-ros2-autonomoussystems-activity-7439020453056323584--1qQ
+=== RUN ===
+https://www.linkedin.com/posts/kevinmrusso_agentic-ai-in-software-engineering-activity-7468602676369600512-jq9o
+https://www.linkedin.com/posts/salman-aglawane-678b25201_robotics-automation-industrialautomation-activity-7455422500508848128-tG-g
+https://www.linkedin.com/posts/rvt-labs_rvtlabs-momentumrobotics-ros2-activity-7466396508649615360-H5ub
+https://www.linkedin.com/posts/robotverse_industrialautomation-aimanufacturing-industrialrobotics-activity-7467092617562853376-Nj5z
+https://www.linkedin.com/posts/faajmid_ros2-robotics-machinelearning-activity-7469303445162913792-qM6a
+https://www.linkedin.com/posts/sundarindustry40_manufacturing-industry40-automation-activity-7466499710900469760-yMgJ
