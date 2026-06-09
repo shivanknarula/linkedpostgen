@@ -1,6 +1,3 @@
-https://www.linkedin.com/posts/humanoid-robotics-technology_reflex-robotics-arvato-humanoid-robot-activity-7440759468587520000-5Mdb
-https://www.linkedin.com/posts/humanoid-robotics-weekly_boston-dynamics-atlas-training-methodology-activity-7465718531678994432-AO9O
-=== RUN ===
 https://www.linkedin.com/posts/smita-swami-3545322a7_ros2-robotics-robotry-activity-7467080905090682881-raHI
 https://www.linkedin.com/posts/robotics-24-7_behind-the-scenes-of-how-boston-dynamics-activity-7465040167196835844-shtD
 === RUN ===
@@ -92,3 +89,11 @@ https://www.linkedin.com/posts/rvt-labs_rvtlabs-momentumrobotics-ros2-activity-7
 https://www.linkedin.com/posts/robotverse_industrialautomation-aimanufacturing-industrialrobotics-activity-7467092617562853376-Nj5z
 https://www.linkedin.com/posts/faajmid_ros2-robotics-machinelearning-activity-7469303445162913792-qM6a
 https://www.linkedin.com/posts/sundarindustry40_manufacturing-industry40-automation-activity-7466499710900469760-yMgJ
+=== RUN ===
+https://www.linkedin.com/posts/unni-mecheeri-ba25a71_industrialautomation-robotics-supplychain-activity-7469953982258601984-IXhV
+https://www.linkedin.com/posts/alexandralacruzpuente_artificialintelligence-aiagents-generativeai-activity-7468470174522900480-iWWP
+https://www.linkedin.com/posts/ali-ahmad-agentic-ai_agenticai-rag-agenticsystems-activity-7431657733998706688-LpBQ
+https://www.linkedin.com/posts/carstenkrause_robotics-ai-innovation-activity-7209608478384885761-CQkc
+https://www.linkedin.com/posts/vamshiiitbhu14_we-spent-3-years-building-ai-copilots-the-activity-7467226234377248772-ooGG
+https://www.linkedin.com/posts/elizabethschell_generativeai-aiagents-enterprisetech-activity-7465778283801001985-Ibyc
+https://www.linkedin.com/posts/harshvardhan-pote_ros2-robotics-robotoperatingsystem-activity-7468335270556487680-uTUH

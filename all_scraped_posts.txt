@@ -1,23 +1,320 @@
-LINK: https://www.linkedin.com/posts/kevinmrusso_agentic-ai-in-software-engineering-activity-7468602676369600512-jq9o
-DATE: 2026-06-08
+LINK: https://www.linkedin.com/posts/unni-mecheeri-ba25a71_industrialautomation-robotics-supplychain-activity-7469953982258601984-IXhV
+DATE: 2026-06-09
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a thought-provoking and technical topic, presenting a unique perspective on the future of software engineering and the role of autonomous agents, making it an ideal opportunity for a high-value comment.
+SCORE: 9/10 - The post provides a thought leadership take on industrial automation, highlighting the often-overlooked engineering challenges behind continuous uptime at scale, making it an ideal opportunity to add unique value and spark a discussion.
 AI COMMENT:
-I couldn't agree more, Kevin, on the transformation of the 'human-in-the-loop' concept from a safety feature to a defining engineering skill. The shift towards 'Engineering as Governance' and focusing on 'Value Velocity' as a key metric highlights the need for a new skill set among developers. As we move towards a more autonomous and hybrid human-agent pipeline, what do you think are the most critical factors for organizations to consider when reassessing their talent acquisition and development strategies to support this new paradigm?
+I completely agree that the engineering behind continuous uptime at scale is the actual problem that determines the success of automation projects. The points you mentioned, such as structural frames, conveyor joints, and predictive maintenance systems, are crucial in ensuring that robots like the ones UPS is deploying can operate efficiently. What I'd like to add is that designing for maintainability and scalability from the outset is key to avoiding costly rework and downtime. As we move towards more complex automation systems, do you think there's a need for a more standardized approach to designing and integrating these systems, or should companies continue to rely on custom solutions?
 TEXT:
-Kevin Russo
-2d
-As AI rapidly alters software engineering, too many leaders are treating autonomous agents as a risk to be managed, viewing the "human-in-the-loop" requirement merely as a compliance failsafe.  As we outline in our new Deloitte perspective on Agentic AI, this is a fundamental misread of the inflection point we are at.  "Human-in-the-loop" isn't a safety feature it is the defining engineering skill of the next decade.
-We are moving away from the traditional Software Development Life Cycle (SDLC).  When AI agents can autonomously reason, execute, and test code, the role of the human engineer completely transforms, which means we must rebuild our engineering organizations around two new realities:
-1. Engineering as Governance (The New Skill)
-Our developers must evolve from "syntax typists" into "system orchestrators." The value of a senior engineer is no longer in how fast they can write a script, but in how effectively they can govern the intent, quality, and architectural trust of a multi-agent system.  Guiding and correcting autonomous agents is a completely new craft.
-2. Value Velocity (The New Metric)
-For decades, we measured engineering by cost, effort (story points), and volume (lines of code).  When agents handle the execution, measuring volume is meaningless.  The metric that matters now is Value Velocity - how fast can your hybrid human-agent pipeline translate a strategic business objective into a secure, deployed capability.
-As tech leaders, we need to elevate our human talent to govern autonomous systems, relentlessly focusing on delivering business value.
-https://lnkd.in/gwxFs4Mw
-#SoftwareEngineering #CIO #TechLeadership #Deloitte #AI #ValueCreation #HumanInTheLoop #FutureOfWork #DeloitteTechnology
-Agentic AI in software engineering
-deloitte.com
+Loaded: 13.26%
+Pause
+Back to start
+Current Time 
+0:01/
+Duration 
+0:10
+Unmute
+Fullscreen
+Unni Mecheeri
+3h
+UPS just committed $120 million to 400 robots that unload trucks autonomously.
+One robot. One truck. Two hours. No workers.
+But I keep thinking about what comes before the robot ever touches a box.
+These systems pick and unload 400 to 1,500 cases per hour, handling packages from small 6-inch cubes up to 32-inch wide boxes, floor-loaded at random, in the confined space of a trailer.
+That is not a software problem.
+For that robot to work at 3 AM in a Memphis facility without stopping:
+1. Structural frames must carry dynamic loads without fatigue failure across millions of cycles.
+2. Conveyor joints feeding the robot must survive vibration, dust, and temperature swings across every shift.
+3. Unplanned conveyor downtime costs operations severely.
+4. Predictive maintenance systems reduce it by up to 75%, but only if the underlying hardware was engineered to be monitored in the first place.
+5. Sensors must maintain signal integrity when dozens of robots operate simultaneously in the same space.
+6. Electronics inside every unit must meet RoHS and REACH before a single system ships to a European distribution centre.
+UPS is deploying these across multiple facilities starting in late 2026, as part of a $9 billion automation programme targeting $3 billion in cost savings by 2028.
+At that scale, one thermal design flaw does not affect one site. It propagates across 400 units in 63 facilities simultaneously.
+The AI figures out how to load the truck.
+Engineering determines whether the hardware survives long enough to matter.
+Although speed here is the headline. The engineering behind continuous uptime at scale is the actual problem.
+That problem is what Sunstream Global works on.
+What part of industrial automation do you think fails most quietly before anyone notices?
+
+#IndustrialAutomation #Robotics #SupplyChain #EngineeringInnovation
+…more
+164
+28 Comments
+Like
+Comment
+Share
+George Lamdus
+2h
+Most people see robots moving boxes. Very few think about everything that has to keep working behind the scenes for that robot to stay productive every hour.
+Like
+Reply
+1 Reaction
+Daud Sharif
+2h
+Predictive maintenance gets plenty of attention, but equipment still needs to be built properly before any prediction can help.
+Like
+Reply
+1 Reaction
+Jon Flatt
+2h
+Hardware often carries responsibilities that software cannot solve no matter how advanced the algorithms become.
+Like
+Reply
+1 Reaction
+vikash pathak
+2h
+Reliability rarely gets headlines, yet it decides whether automation delivers value or becomes an expensive experiment.
+Like
+Reply
+1 Reaction
+Issam M.
+1h
+Many automation projects succeed in testing. Long term durability is where real proof shows up.
+Like
+Reply
+1 Reaction
+Jack Ng, MSSc, BSSc, Hons, RSW
+2h
+Speed is exciting. Consistent uptime is what actually pays the bills.
+Like
+Reply
+1 Reaction
+Dr. Zdenka Cumano
+7m
+Automation success depends on thousands of details working together. Missing just one can create trouble later.
+Like
+Reply
+Tatiana BIMOGA
+9m
+Most people admire innovation. Engineers spend their days worrying about failure points.
+Like
+Reply
+Tel Ganesan
+11m
+Continuous operation is where engineering earns its value. Anyone can make something work for a day.
+Like
+Reply
+Andrew Lenti
+38m
+Wear and tear is probably one of the quietest risks. Equipment can keep running while performance slowly drops.
+Like
+Reply
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/alexandralacruzpuente_artificialintelligence-aiagents-generativeai-activity-7468470174522900480-iWWP
+DATE: 2026-06-09
+METRICS: 0 Likes, 0 Comments
+SCORE: 9/10 - The post provides a comprehensive overview of AI agent creation, offers a unique resource (cheat sheet), and invites discussion on a specific topic, making it a high-value thought leadership post.
+AI COMMENT:
+Dr. La Cruz, I appreciate the effort you've put into creating this AI Agent Creation Cheat Sheet, which clearly outlines the complexities of building autonomous systems. Your emphasis on the holistic view of AI agents, beyond just LLMs, is particularly insightful. One aspect that I think deserves more exploration is the integration of explainability and transparency in these systems. As we move towards more autonomous agents, understanding their decision-making processes becomes crucial. What role do you think explainability will play in the development and deployment of future AI agents, and how can we effectively balance model complexity with interpretability?
+TEXT:
+Dra. Alexandra La Cruz
+4d
+AI Agent Creation: From Transformers to Autonomous Systems
+The AI landscape is evolving rapidly, but many professionals still struggle to see how all the pieces fit together—from Transformers and LLMs to RAG, MCP, tool calling, and multi-agent systems.
+To help students, researchers, and practitioners, I created this AI Agent Creation Cheat Sheet, a visual roadmap that connects the entire ecosystem:
+🔹 Transformer fundamentals
+🔹 Foundation models (GPT, Claude, Gemini, Llama, Qwen, DeepSeek, Mistral)
+🔹 Agent architectures and reasoning loops
+🔹 Memory systems and RAG pipelines
+🔹 MCP (Model Context Protocol) integration
+🔹 Agent frameworks (LangGraph, CrewAI, AutoGen, LlamaIndex, PydanticAI)
+🔹 Ollama and local AI deployments
+🔹 Multi-agent orchestration patterns
+🔹 Production-ready AI agent stacks
+The most important lesson:
+An AI agent is not just an LLM.
+Real-world agents combine reasoning, memory, tools, planning, retrieval, and execution to accomplish complex tasks.
+As we move toward increasingly autonomous systems, understanding the complete architecture becomes more valuable than focusing on a single model.
+What component do you think is currently the biggest bottleneck for enterprise AI agents: memory, planning, tool integration, evaluation, or governance?
+#ArtificialIntelligence #AIAgents #GenerativeAI #LLM #GPT #Claude #Gemini #Ollama #MachineLearning #DeepLearning #RAG #MCP #LangChain #LangGraph #CrewAI #AutoGen #LlamaIndex #DataScience #AIEngineering #AgenticAI #Innovation #Technology #HigherEducation #Research #ComputerScience
+
+4
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/vamshiiitbhu14_we-spent-3-years-building-ai-copilots-the-activity-7467226234377248772-ooGG
+DATE: 2026-06-09
+METRICS: 0 Likes, 0 Comments
+SCORE: 9/10 - The post discusses a thought-provoking shift in AI technology from copilots to agents, highlighting the need for enterprises to redesign their workflows for autonomous execution, making it a high-value, thought leadership post.
+AI COMMENT:
+Vamshi, you make a compelling point about the shift from AI copilots to agents and the importance of redesigning workflows for autonomous execution. One often overlooked aspect of this transition is the need for explainability and transparency in AI decision-making, particularly as humans cede control to agents. What strategies do you think enterprises should prioritize to ensure their AI agents are not only autonomous but also trustworthy and accountable?
+TEXT:
+Vamshi Krishna Guduru
+1w
+We spent 3 years building AI copilots.
+The next 3 years belong to AI agents.
+The difference isn't technical.
+It's who drives.
+Copilot: human decides every step, 
+         AI assists each one
+Agent: human sets the goal,
+       AI decides every step
+Most enterprises aren't ready for this shift.
+Not because the technology isn't there.
+Because their workflows were never 
+designed to be autonomous.
+The companies winning with AI in 2026 
+aren't prompting better.
+They're redesigning workflows from 
+the ground up for autonomous execution.
+2
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/elizabethschell_generativeai-aiagents-enterprisetech-activity-7465778283801001985-Ibyc
+DATE: 2026-06-09
+METRICS: 0 Likes, 0 Comments
+SCORE: 9/10 - The post discusses a thought leadership topic, Autonomous AI Agents, and introduces a novel concept, the Agentic Control Plane, which is a high-value area for discussion and debate.
+AI COMMENT:
+I completely agree that Autonomous AI Agents are the next step in AI evolution, and the challenges you've highlighted around managing multiple agents are very real. The Agentic Control Plane concept is fascinating, particularly the Safety Guardrails and Audit Trail features. However, I'd love to explore further how this control plane can be designed to handle edge cases, such as conflicting priorities between different AI agents or handling exceptions that don't fit into predefined boundaries. How do you envision the Agentic Control Plane handling such complex scenarios?
+TEXT:
+Elizabeth Schell, MBA, PMP, AIF
+1w
+If you’ve been following AI lately, the conversation is shifting away from simple chatbots toward something much more powerful: Autonomous AI Agents.
+Instead of just answering questions, these agents can actually “do work”:
+👉booking travel
+👉processing insurance claims
+👉updating databases across multiple systems.
+👉etc. 
+But this introduces a brand new enterprise challenge. What happens when a company has 50, 500, or 5,000 autonomous AI agents all running at the same time? 
+How do you stop them from talking over each other, accidentally running up massive API bills, or breaking security compliance?
+Enter the Agentic Control Plane. ✈️
+Think of it as the “Air Traffic Control tower” for an enterprise's AI workforce.
+Without air traffic control, you just have individual pilots trying their best, leading to chaos. The Control Plane acts as the central operating system that manages the entire fleet.
+Here is what it actually does in plain English:
+🔹 Traffic Routing: It looks at an incoming job and decides exactly which AI agent (or team of agents) is best qualified to handle it.
+🔹 The Safety Guardrails: It enforces strict boundaries. For example, it dictates that an AI can draft a contract, but a human must approve it before it's sent.
+🔹 Short & Long-Term Memory: It ensures that if a complex task takes days to complete, the agents don’t "forget" what they were doing halfway through.
+🔹 The Audit Trail: It logs every single decision and action the AI takes, so human teams can review exactly how a result was achieved.
+Right now, we are moving past the phase of building isolated AI tools. The next competitive advantage belongs to organizations that can securely orchestrate, govern, and scale an entire digital workforce.
+#GenerativeAI #AIAgents #EnterpriseTech #AIGovernance #Innovation
+View C2PA information
+4
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/harshvardhan-pote_ros2-robotics-robotoperatingsystem-activity-7468335270556487680-uTUH
+DATE: 2026-06-09
+METRICS: 0 Likes, 0 Comments
+SCORE: 9/10 - The post provides a deep technical explanation of ROS2 architecture, making it a high-value topic for discussion and adding unique insights.
+AI COMMENT:
+Great explanation of the ROS2 architecture, Harshvardhan! The emphasis on the Node → DDS Middleware → Node communication flow is particularly important for understanding how ROS2 enables robust and scalable distributed robotic systems. I'm intrigued by your exploration of advanced ROS2 concepts like Navigation2 and MoveIt2. How do you think the integration of AI and machine learning with ROS2 will impact the development of autonomous systems in the next 5 years?
+TEXT:
+Harshvardhan Pote
+4d
+🤖 ROS2 Architecture Explained: The Foundation of Modern Robotics
+If you're learning robotics, understanding ROS2 architecture is essential.
+ROS2 (Robot Operating System 2) is more than just a framework—it's a communication ecosystem that enables different robotic components to work together efficiently, reliably, and at scale.
+🔹 Nodes
+The fundamental building blocks of ROS2. Each node performs a specific task and operates independently.
+🔹 Topics
+Enable asynchronous communication using the Publisher → Subscriber model, making them ideal for continuous data streams.
+🔹 Services
+Provide synchronous request-response communication when an immediate answer is required.
+🔹 Actions
+Designed for long-running tasks that need feedback during execution and a result when completed.
+🔹 Parameters
+Allow runtime configuration of nodes without modifying code or recompiling the system.
+🔹 DDS Middleware
+The communication backbone of ROS2, providing discovery, reliability, scalability, QoS, and real-time capabilities.
+💡 Key Insight:
+ROS2 communication is not simply Node → Node.
+Instead:
+Node → DDS Middleware → Node
+This architecture enables robust, scalable, distributed robotic systems.
+🎯 Why ROS2?
+✅ Modular Architecture
+✅ Real-Time Support
+✅ Multi-Robot Communication
+✅ Distributed Computing
+✅ Industrial-Grade Reliability
+✅ Autonomous Systems Ready
+From autonomous vehicles and drones to industrial robots and smart devices, ROS2 is rapidly becoming the industry standard for modern robotics development.
+Which ROS2 concept did you find the most challenging when you started learning robotics?
+👇 Share your thoughts in the comments.
+#ROS2 #Robotics #RobotOperatingSystem #Automation #EmbeddedSystems #EmbeddedLinux #ROS #ROSDevelopment #DDS #AutonomousSystems #IndustrialAutomation #RobotEngineering #AI #MachineLearning #EngineeringStudents #RoboticsEngineer
+Dr. Sujit Kumbhar Krushnaraj Bagal Tanmay Patil Ajij Panhalkar Shreyash Ganthade Aniruddha Jarandikar ASHISH DESAI Innovista Automation IRTI-Robotics RVTLabs
+View C2PA information
+22
+2 Comments
+Like
+Comment
+Share
+Harshvardhan Pote
+4d
+I’m currently exploring advanced ROS2 concepts including Navigation2, MoveIt2, ROS2 Control, and DDS QoS policies. What ROS2 topic would you like me to cover next?
+Like
+Reply
+1 Reaction
+Sadnan Jonayet Sajid
+12h
+well architecture!!
+
+Like
+Reply
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/ali-ahmad-agentic-ai_agenticai-rag-agenticsystems-activity-7431657733998706688-LpBQ
+DATE: 2026-06-09
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post provides a comprehensive overview of AI agents, their types, and architectures, offering a solid foundation for discussion and adding value.
+AI COMMENT:
+I completely agree that AI agents represent a significant shift from traditional chatbots, enabling autonomous decision-making and action. The distinction between different types of AI agents, such as simple reflex and utility-based agents, is particularly insightful. As we move towards more complex human-machine collaborations, what role do you think explainability and transparency will play in ensuring trust and adoption of AI agent technologies?
+TEXT:
+Loaded: 84.71%
+Pause
+Back to start
+Current Time 
+0:02/
+Duration 
+1:12
+Unmute
+Fullscreen
+Ali Ahmad
+3mo
+What is an AI Agent? And Why It Matters in 2026
+AI Agents are not just chatbots.
+They are intelligent systems designed to perceive, decide, and act autonomously to achieve specific goals.
+How AI Agents Work
+ An AI agent combines:
+ • Human input + autonomous action
+ • Memory and reactivity
+ • Access to tools (APIs, internet, code execution)
+ • Interaction with its environment
+Instead of just responding
+AI agents plan, execute tasks, and adapt based on feedback.
+Types of AI Agents
+ • Simple Reflex Agents
+ • Model-Based Agents
+ • Goal-Based Agents
+ • Utility-Based Agents
+ • Learning Agents
+Each type increases in intelligence and decision-making capability.
+AI Agent Architectures
+ • Single Agent – Acts as a personal assistant
+ • Multi-Agent – Agents collaborate and communicate
+ • Human–Machine – AI works alongside humans
+💡 The real power of AI agents lies in automation.
+ From AI-driven workflows to intelligent business operations, agents are transforming how companies operate.
+The future is not just AI tools.
+ The future is AI agents that think, act, and execute.
+#AgenticAI #RAG #AgenticSystems #RetrievalAugmentedGeneration #GenAI 
+
+…more
 6
 Like
 Comment
@@ -25,164 +322,37 @@ Share
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/faajmid_ros2-robotics-machinelearning-activity-7469303445162913792-qM6a
-DATE: 2026-06-08
+LINK: https://www.linkedin.com/posts/carstenkrause_robotics-ai-innovation-activity-7209608478384885761-CQkc
+DATE: 2026-06-09
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post showcases a thought leadership project in robotics and machine learning, providing a detailed technical overview and listing specific tools and technologies used.
+SCORE: 8/10 - The post discusses thought leadership in the robotics industry, specifically highlighting Boston Dynamics' innovative AI integrations and comparing them to other industry players, making it a valuable and engaging topic for technical discussion.
 AI COMMENT:
-Fahad, your graduation project on learning-based mobile robot navigation is impressive, and the custom simulation environment you built is a great example of innovative problem-solving. I'm curious to know more about the challenges you faced while integrating ROS2, Gazebo, and PyTorch, and how you overcame them. What do you think are the most significant limitations of using human demonstrations for robot navigation, and how do you envision addressing them in future projects?
+I completely agree with your analysis on how Boston Dynamics is pushing the boundaries of robotics innovation with their AI integrations. The use of generative AI, voice recognition, and computer vision is indeed transforming various industries. What I find particularly interesting is the potential for these advancements to not only enhance efficiency but also to introduce new challenges in terms of cybersecurity and data privacy. How do you think the robotics industry will address these concerns as AI integration becomes more widespread?
 TEXT:
-Loaded: 100.00%
-Pause
-Back to start
-Current Time 
-0:02/
-Duration 
-0:30
-Unmute
-Fullscreen
-Fahad Al Ajmi
-23h  Edited
-Graduation Project Update — Final Version 
-We completed our graduation project:
-Learning-Based Mobile Robot Navigation in Complex Environments Using Human Demonstrations
-This project focuses on teaching a mobile robot to navigate by learning from human driving demonstrations.
-For the final version, we built a custom simulation environment for better data collection and testing. The floor was designed in Inkscape, while the walls and obstacles were modeled in Shapr3D and exported to Gazebo.
-Using ROS2, Gazebo, RViz, TurtleBot3, Python, and PyTorch, we collected joystick demonstrations, trained the model, and tested autonomous navigation in simulation.
-I mainly focused on the technical implementation, including environment design, Gazebo/RViz setup, data collection, model training/testing, and final demo preparation.
-Project completed at the American University of the Middle East (AUM).
-Special thanks to our supervisor Dr. Karim Youssef for his guidance and feedback, and to my team members Ali Taleb, Salman Albedaiwi, Abdullah Bourkhan, and Essa Alsalman for their work and support.
-#ROS2 #Robotics #MachineLearning #Ai #PyTorch #Gazebo #RViz #TurtleBot3 #Autonomous #RobotNavigation #Engineering #STEM
-…more
-17
+Carsten Krause (MBA, CISM, TOGAF)
+1y  Edited
+🤖The Future of Robotics: A Boston Dynamics Case Study! 🤖
+In the rapidly evolving world of robotics, Boston Dynamics' Spot and Atlas robots are pushing the boundaries of innovation with advanced AI integrations! From generative AI and voice recognition to cutting-edge computer vision, these robots are transforming industries from construction and oil & gas to healthcare and public safety. 🌍
+🔍 Key Highlights:
+👉 Hyundai and Spot: Utilizing AI for predictive maintenance and voice-command capabilities.
+👉Ford and Atlas: Enhancing assembly lines with computer vision and adaptive AI.
+What is the competitio doing?
+👉Figure 01 by Figure.ai: Competing with top-tier AI and OpenAI's speech-to-speech reasoning for superior customer interaction.
+👉Tesla Optimus AI Gen 2 Bot: Revolutionizing industrial and domestic tasks with advanced AI and computer vision.
+Check out our in-depth analysis on how these companies are shaping the future of robotics, trends in the robotics industry 📈
+👉 Read the full article here: Boston Dynamics: Pioneering the Future of Robotics - link in the comments
+Boston Dynamics, Chad Wright, Marc Theermann, Brett Adcock, Milan Kovac
+#Robotics #AI #Innovation #BostonDynamics #Hyundai #Ford #Figure1 #TeslaBot #FutureOfWork #TechRevolution #Automation
+2
 1 Comment
 Like
 Comment
 Share
-Raghad Badarneh
-21h
-Great work Fahad!👏🏼👏🏼
+Carsten Krause (MBA, CISM, TOGAF)
+1y
+Here is the link: https://cdotimes.com/2024/06/20/boston-dynamics-pioneering-robotics-and-ai-integration/
 Like
 Reply
-1 Reaction
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/sundarindustry40_manufacturing-industry40-automation-activity-7466499710900469760-yMgJ
-DATE: 2026-06-08
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a thought-provoking and futuristic concept of industrial automation, sparked by an AI prediction, allowing for deep technical insights and discussion.
-AI COMMENT:
-I find the idea of a 'Factory Brain' where humans and autonomous systems collaborate to achieve goals fascinating. The convergence of PLCs, SCADA, MES, Historians, Vision AI, and Robotics could indeed revolutionize manufacturing efficiency and flexibility. An interesting aspect to consider is how such a system would handle unexpected disruptions or ethical dilemmas. What role do you think human oversight and feedback mechanisms will play in ensuring the 'Factory Brain' aligns with societal values and priorities?
-TEXT:
-Sundar Narayanan
-1w
-Interesting experiment with AI.
-I asked:
-"What will industrial automation look like 50 -100 years from now?"
-The image below is AI's prediction, not mine.
-According to AI, PLCs, SCADA, MES, Historians, Vision AI, and Robotics may eventually converge into a single intelligent "Factory Brain" where humans define goals and autonomous systems determine the best path to achieve them.
-What do you think will still exist in manufacturing 100 years from now?
-#Manufacturing #Industry40 #Automation #MES #SCADA #AI #SmartFactory
-View C2PA information
-12
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/salman-aglawane-678b25201_robotics-automation-industrialautomation-activity-7455422500508848128-tG-g
-DATE: 2026-06-08
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a specific topic in industrial robotics and automation, with thoughtful comments that add to the conversation, making it a high-value opportunity for adding unique insights and sparking further discussion.
-AI COMMENT:
-I completely agree that understanding the core components of an industrial robotic system is crucial for efficient automation solutions. The integration of advanced sensors and real-time calibration, as mentioned, can significantly enhance accuracy and repeatability. However, I'd like to add that another critical aspect is the development of adaptive control algorithms that can learn from production data and adjust the system's parameters accordingly. What are your thoughts on the potential of machine learning in optimizing industrial robotic systems for complex manufacturing tasks?
-TEXT:
-Salman Aglawane
-1mo
-Understanding the core components of an industrial robotic system is essential for building efficient automation solutions. Each element plays a critical role in precision and performance.
-#Robotics #Automation #IndustrialAutomation #Engineering #Industry40 #Mechatronics #RobotProgramming #Manufacturing #Tech
-28
-2 Comments
-Like
-Comment
-Share
-Sanjeevv Yaadav
-1mo
-Interesting insights on robotics and industrial automation. The growing role of automation in improving efficiency and precision is clearly evident.
- 
-
-Like
-Reply
-1 Reaction
-Mohamed Shawky - محمد شوقي
-1mo
-Absolutely. Integration of feedback sensors and real-time calibration significantly amplifies accuracy. Have you observed notable improvements in repeatability across different production cycles?
-Like
-Reply
-1 Reaction
-See more comments
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/rvt-labs_rvtlabs-momentumrobotics-ros2-activity-7466396508649615360-H5ub
-DATE: 2026-06-08
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post provides a clear take on learning ROS2 and offers a structured approach to overcoming common beginner difficulties, making it a good opportunity for adding value with a thoughtful comment
-AI COMMENT:
-I completely agree that a step-by-step approach is key to mastering ROS2, and your program seems to offer a comprehensive path. One aspect that I've found particularly crucial for beginners is understanding how to debug and troubleshoot their projects efficiently. What strategies or tools do you think are most effective for newcomers to ROS2 to overcome the initial hurdles of debugging their robotic applications?
-TEXT:
-RVTLabs
-61 followers
-1w  Edited
-🚀 One clear truth: ROS2 is NOT hard.
-Most beginners quit because they try to learn everything at once. They look at complex stacks, get hit with endless errors, and think, "Maybe I'm not smart enough for this."
-The truth? You aren't lacking talent—you're just learning it in the wrong order.
-At RVTLabs, in collaboration with Momentum Robotics, we have perfected a step-by-step path designed to make ROS2 incredibly easy for absolute beginners, backed by dedicated one-on-one mentorship:
-1️⃣ The Basics: Linux, C++, and Python foundations.
-2️⃣ The Core: Nodes, Topics, Services, and Actions.
-3️⃣ The Simulation: URDF modeling and Gazebo.
-4️⃣ The Autonomy: SLAM mapping and Nav2 navigation.
-5️⃣ The Real World: 15 days of hands-on industrial training on real robot hardware!
-New to ROS 2? No problem. This program takes you from the fundamentals to real-world robotics development, helping you move beyond tutorial-based learning with expert mentorship and hands-on experience on industrial hardware.
-Our next batch is officially open.
-📅 Batch Starts: 11 June
-📩 Apply here: 👉 https://lnkd.in/gqJnu8Hr
-#RVTlabs #MomentumRobotics #ROS2 #Robotics #Automation #AMR #Python #Cplusplus #Linux #RoboticsEngineering #TechForBeginners #Mentorship #HardwareTraining #CareerGrowth
-14
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/robotverse_industrialautomation-aimanufacturing-industrialrobotics-activity-7467092617562853376-Nj5z
-DATE: 2026-06-08
-METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - The post discusses a relevant and timely topic in the field of robotics and AI, highlighting key benefits of AI-powered automation and industrial robotics in smart manufacturing, but lacks a unique perspective or deep technical insight.
-AI COMMENT:
-I completely agree that AI and robotics are revolutionizing the manufacturing industry by improving operational efficiency and competitiveness. The integration of predictive maintenance, smart quality inspection, and autonomous production systems can significantly enhance productivity. However, one aspect that's often overlooked is the need for standardized communication protocols to facilitate seamless interaction between different AI and robotics systems. What do you think are the most significant challenges in implementing such standards, and how can they be addressed to fully unlock the potential of Industry 4.0?
-TEXT:
-RobotVerse
-38 followers
-1w
-AI and Robotics in Smart Manufacturing
-Manufacturing industries worldwide are rapidly adopting AI-powered automation and industrial robotics to improve operational efficiency and competitiveness.
-Key benefits include:
-✔ Predictive Maintenance
- ✔ Smart Quality Inspection
- ✔ Autonomous Production Systems
- ✔ Improved Productivity
- ✔ Industry 4.0 Integration
-AI and robotics are becoming the foundation of next-generation smart factories.
-Read the full article:
- 🌐 https://lnkd.in/gjGcMqBy
-#IndustrialAutomation #AIManufacturing #IndustrialRobotics #SmartManufacturing #Industry40 #FactoryAutomation #RobotVerse
-1
-Like
-Comment
-Share
 To view or add a comment, sign in
 ================================================================================
 
