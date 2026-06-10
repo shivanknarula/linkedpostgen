@@ -1,6 +1,3 @@
-https://www.linkedin.com/posts/smita-swami-3545322a7_ros2-robotics-robotry-activity-7467080905090682881-raHI
-https://www.linkedin.com/posts/robotics-24-7_behind-the-scenes-of-how-boston-dynamics-activity-7465040167196835844-shtD
-=== RUN ===
 https://www.linkedin.com/posts/1950-ai_nvidias-isaac-gr00t-humanoid-robot-platform-activity-7467260137913724928-EM_j
 https://www.linkedin.com/posts/ctorobotics_nvidia-announces-the-first-open-humanoid-activity-7467439922853961728-LuSc
 === RUN ===
@@ -97,3 +94,14 @@ https://www.linkedin.com/posts/carstenkrause_robotics-ai-innovation-activity-720
 https://www.linkedin.com/posts/vamshiiitbhu14_we-spent-3-years-building-ai-copilots-the-activity-7467226234377248772-ooGG
 https://www.linkedin.com/posts/elizabethschell_generativeai-aiagents-enterprisetech-activity-7465778283801001985-Ibyc
 https://www.linkedin.com/posts/harshvardhan-pote_ros2-robotics-robotoperatingsystem-activity-7468335270556487680-uTUH
+=== RUN ===
+https://www.linkedin.com/posts/aecvc_in-2026-china-made-it-official-embodied-activity-7469764683059720192-Gx2D
+https://www.linkedin.com/posts/bindu-sri-medapati-991964314_python-ros2-robotics-activity-7450599512273813505-8I93
+https://www.linkedin.com/posts/nishgaba-ai_aiagents-futureofai-innovation-activity-7436051660923183104-mKBs
+https://www.linkedin.com/posts/mattercode-ai_robotics-supplychain-humanoids-activity-7465441668754993152-_2_u
+https://www.linkedin.com/posts/checkpointaisecurity_aisecurity-aiagents-agenticai-activity-7425581340542275584-7vZZ
+https://www.linkedin.com/posts/pandey-dhananjay_industrialrobotics-automation-industry40-activity-7469742610236997632-ZbY8
+https://www.linkedin.com/posts/billyjspears_ai-agent-incidents-unchecked-risks-expose-activity-7468723483015892992-V9_H
+https://www.linkedin.com/posts/ai-planetx_ai-agents-evolved-from-simple-reactive-bots-activity-7470038616182837248-9_ks
+https://www.linkedin.com/posts/alireza-saboukhi_robotics-automation-industrialautomation-activity-7470082645687808000-PhH-
+https://www.linkedin.com/posts/rocco-de-luca-automation_industrialautomation-robotics-factoryautomation-activity-7431873031565873153-d-ig

@@ -1,296 +1,394 @@
 url,date,score,reasoning,comment,likes,comments,text
-https://www.linkedin.com/posts/unni-mecheeri-ba25a71_industrialautomation-robotics-supplychain-activity-7469953982258601984-IXhV,2026-06-09,9,"The post provides a thought leadership take on industrial automation, highlighting the often-overlooked engineering challenges behind continuous uptime at scale, making it an ideal opportunity to add unique value and spark a discussion.","I completely agree that the engineering behind continuous uptime at scale is the actual problem that determines the success of automation projects. The points you mentioned, such as structural frames, conveyor joints, and predictive maintenance systems, are crucial in ensuring that robots like the ones UPS is deploying can operate efficiently. What I'd like to add is that designing for maintainability and scalability from the outset is key to avoiding costly rework and downtime. As we move towards more complex automation systems, do you think there's a need for a more standardized approach to designing and integrating these systems, or should companies continue to rely on custom solutions?",0,0,"Loaded: 13.26%
+https://www.linkedin.com/posts/aecvc_in-2026-china-made-it-official-embodied-activity-7469764683059720192-Gx2D,2026-06-10,9,"The post discusses a thought-provoking and timely topic, highlighting a strategic gap in Western manufacturing and the importance of capitalizing robotics deployment, with a clear call to action and opportunity for nuanced discussion","Patric, your insight into China's strategic investment in embodied intelligence and industrial automation is thought-provoking, and it's crucial for Western manufacturers to consider the implications of this coordinated effort. One potential contrarian view is that the emphasis on top-down capital coordination might stifle innovation, as it may lead to a focus on established players rather than startups and new entrants. What role do you think venture capital and private investment can play in bridging the structural gap in robotics deployment, and how might this impact the overall competitiveness of Western manufacturers?",0,0,"Patric Hellermann
+1d
+In 2026, China made it official. Embodied intelligence - industrial automation and robots/humanoids - is now a top strategic industry in the 15th Five-Year Plan. Same tier as semiconductors and 6G. And backed by a 1 trillion yuan state fund.
+$138 billion directed and coordinated.
+Western manufacturers should read that number carefully. Because this is industrial policy with a 30-year time horizon and the full weight of allocated production capital behind it.
+There is a civilizational logic: China sees demographic collapse coming and ACTS on it. Western policymakers might see it - I miss the action. At least not at this scale and with this coordination.
+Individual companies are buying robots. A few governments are writing strategy documents. All in the right direction
+But what Western manufacturers would benefit from is strategic capital coordinated into deploying automation. Deploying into the robotics systems integrators, the EPCs, the engineering firms that actually make automation productive inside a factory or a shipyard or a grid.
+That is a structural gap. Capitalizing robotics deployment. China proves it because it is funding a productive capacity system. That is a different bet. A larger one.
+So: If you run a Western manufacturing company, the question is not whether automation is coming. It is whether your supply chain, your integration partners, your engineering capacity can absorb it at speed. 
+Chances are, they cannot because no one (including you) are capitalizing them. We ask them to finance growth out of organic cash flows.
+Capital has to find the deployment layer. That is where the compounding happens. That is where sovereignty gets built or lost.
+30
+1 Comment
+Like
+Comment
+Share
+Julien Pache
+1d
+Let s see if Westmag can get there without top-down capital coordination. 
+Like
+Reply
+1 Reaction
+To view or add a comment, sign in"
+https://www.linkedin.com/posts/nishgaba-ai_aiagents-futureofai-innovation-activity-7436051660923183104-mKBs,2026-06-10,9,"The post discusses a transformative topic in AI, the AI Agents Economy, and explores its potential impact on various industries, making it a high-value topic for thought leadership and technical discussion.","I completely agree that the AI Agents Economy is poised to revolutionize the way we approach complex tasks and decision-making. The notion of autonomous agents collaborating with humans and other agents to drive economic activity is particularly intriguing. One aspect that I think deserves more exploration is the role of explainability and transparency in these agent-driven systems. As we design these systems, how can we ensure that the decision-making processes of autonomous agents are not only efficient but also interpretable and accountable to human stakeholders? What strategies do you think businesses should prioritize to address this challenge?",0,0,"Nishchal Gaba
+3mo
+The world of artificial intelligence is rapidly evolving beyond predictive models and chatbots. We're on the cusp of a transformative new frontier: the AI Agents Economy. This isn't just about AI assisting humans; it's about autonomous agents taking initiative, making decisions, and executing complex tasks to create tangible value and drive economic activity.
+Imagine intelligent software entities collaborating, negotiating, and transacting with each other, and with humans, to optimize processes, personalize services, and even develop new products. This shift will redefine productivity, demand new skill sets, and open up unprecedented opportunities for innovation across every industry, from finance to healthcare.
+The implications are profound. Businesses must begin strategizing how to integrate these autonomous systems, foster human-agent collaboration, and secure robust ethical frameworks. Understanding and preparing for this agent-driven paradigm isn't just foresight; it's essential for future competitiveness and sustainable growth.
+#AIAgents #FutureofAI #Innovation #DigitalTransformation #TechTrends
+12
+1 Comment
+Like
+Comment
+Share
+Prithvi Raj
+2mo
+Very interesting perspective. As AI moves from tools to autonomous agents, the real challenge will be designing systems where human oversight, governance, and agent collaboration work effectively together
+Like
+Reply
+1 Reaction
+To view or add a comment, sign in"
+https://www.linkedin.com/posts/mattercode-ai_robotics-supplychain-humanoids-activity-7465441668754993152-_2_u,2026-06-10,9,"The post discusses a highly relevant and timely topic in the robotics industry, with a deep dive into technical and supply chain challenges, and invites thoughtful discussion.","The rare-earth constraint on humanoid robotics production is a crucial reminder of the complex interplay between technological innovation and global supply chains. It's interesting to note how design choices, like Agility Robotics' fewer actuators in Digit, can mitigate these risks. However, as we move forward, what strategies do you think robotics companies should prioritize to effectively hedge against such geopolitical supply risks and ensure the long-term viability of their hardware roadmaps?",0,0,"AI + Robotics News
+43 followers
+1w
+Boston Dynamics IPO plans hit a materials bottleneck 🔩
+Atlas humanoid deployment timelines now depend on Beijing's rare-earth export policy.
+Rare-earth prices are up 210% across EV, robotics, and defense supply chains.
+Hyundai Motor Company is pushing commercialization of Atlas, but every actuator needs neodymium magnets for high-torque motors. Every sensor array needs lanthanum for precision optics.
+China controls 70% of global rare-earth refining capacity. They've tightened export quotas twice in the past 18 months.
+This isn't an Atlas-specific problem. Every humanoid manufacturer faces the same constraint — Tesla Optimus, Figure, Sanctuary AI. But Boston Dynamics is the first trying to go public with this uncertainty.
+The irony: Atlas achieves 28 DoF mobility partly because of rare-earth permanent magnets in every joint actuator. The same materials enabling the performance are now limiting production scale.
+Meanwhile Agility Robotics uses fewer actuators in Digit by design. Lower capability ceiling, but potentially more resilient supply chain.
+Factory deployment timelines matter for IPO valuations. If lead times stretch from 6 months to 18 months, revenue projections collapse.
+How are robotics companies actually pricing geopolitical supply risk into their hardware roadmaps?
+#Robotics #SupplyChain #Humanoids #Manufacturing
+Like
+Comment
+Share
+To view or add a comment, sign in"
+https://www.linkedin.com/posts/billyjspears_ai-agent-incidents-unchecked-risks-expose-activity-7468723483015892992-V9_H,2026-06-10,9,"The post discusses a critical and timely topic in AI, namely accountability and security, and invites discussion and sharing of concerns, making it highly commentable.",I completely agree that AI accountability is a crucial aspect that needs more attention. The potential risks associated with autonomous systems operating at machine speed are vast and could lead to unprecedented cybersecurity incidents. One aspect that I think warrants deeper exploration is the intersection of Explainable AI (XAI) and AI security - how can we ensure that the decisions made by AI agents are not only secure but also transparent and explainable? What role do you think XAI will play in mitigating the risks associated with AI agents in the enterprise?,0,0,"Billy Spears
+4d
+Everyone is talking about AI productivity. Why aren't more people are talking about AI accountability?
+As organizations rush to deploy AI agents, a critical question remains:
+-- Who is securing the agents that are making decisions, accessing data, and taking actions on our behalf?
+The next wave of cybersecurity incidents won't just come from people or traditional software. They'll come from autonomous systems operating at machine speed. The companies that win with AI won't be the ones that deploy it the fastest. They'll be the ones that deploy it responsibly.
+Worth the read from #Kiteworks: 🔗 https://gag.gl/UguV12
+What concerns you most about AI agents in the enterprise: security, governance, privacy, or loss of human oversight?
+👍 #LIKE if you believe AI security needs more attention.
+💬 #COMMENT with the biggest AI risk your organization is discussing today.
+🔄 #SHARE to help elevate the conversation around responsible AI adoption.
+📲 #FOLLOWME for insights on CxO Innovation, AI, cybersecurity, leadership, and trusted innovation.
+#AI #Cybersecurity #AIAgents #AISecurity #RiskManagement #TrustworthyAI #Leadership #DigitalTrust #Innovation #Kiteworks #BillyJSpears
+
+AI Agent Incidents: Unchecked Risks Expose 65% of Organizations
+kiteworks.com
+10
+Like
+Comment
+Share
+To view or add a comment, sign in"
+https://www.linkedin.com/posts/bindu-sri-medapati-991964314_python-ros2-robotics-activity-7450599512273813505-8I93,2026-06-10,8,"The post showcases hands-on experience with ROS 2 and Python, demonstrating a good understanding of key concepts in robotics, making it a valuable platform for adding technical insights.","Great job, Bindu, on experimenting with ROS 2 and Python to control the turtle's motion in TurtleSim! Your project highlights the importance of understanding the interplay between linear and angular velocities in achieving precise circular motion. One aspect that could further enhance your project is exploring how to integrate sensor feedback into your control loop to handle real-world uncertainties. How do you envision incorporating sensor data into your robot control applications in future projects?",0,0,"Loaded: 100.00%
 Pause
 Back to start
 Current Time 
 0:01/
 Duration 
-0:10
+1:32
 Unmute
 Fullscreen
-Unni Mecheeri
-3h
-UPS just committed $120 million to 400 robots that unload trucks autonomously.
-One robot. One truck. Two hours. No workers.
-But I keep thinking about what comes before the robot ever touches a box.
-These systems pick and unload 400 to 1,500 cases per hour, handling packages from small 6-inch cubes up to 32-inch wide boxes, floor-loaded at random, in the confined space of a trailer.
-That is not a software problem.
-For that robot to work at 3 AM in a Memphis facility without stopping:
-1. Structural frames must carry dynamic loads without fatigue failure across millions of cycles.
-2. Conveyor joints feeding the robot must survive vibration, dust, and temperature swings across every shift.
-3. Unplanned conveyor downtime costs operations severely.
-4. Predictive maintenance systems reduce it by up to 75%, but only if the underlying hardware was engineered to be monitored in the first place.
-5. Sensors must maintain signal integrity when dozens of robots operate simultaneously in the same space.
-6. Electronics inside every unit must meet RoHS and REACH before a single system ships to a European distribution centre.
-UPS is deploying these across multiple facilities starting in late 2026, as part of a $9 billion automation programme targeting $3 billion in cost savings by 2028.
-At that scale, one thermal design flaw does not affect one site. It propagates across 400 units in 63 facilities simultaneously.
-The AI figures out how to load the truck.
-Engineering determines whether the hardware survives long enough to matter.
-Although speed here is the headline. The engineering behind continuous uptime at scale is the actual problem.
-That problem is what Sunstream Global works on.
-What part of industrial automation do you think fails most quietly before anyone notices?
+BINDU SRI MEDAPATI
+1mo
+Sharing my recent progress in learning ROS 2 using Python.
+I worked on two hands-on tasks in TurtleSim to understand robot motion and control concepts more clearly.
+First, I developed a Python node to make the turtle move in a circular path using velocity commands. This helped me understand how linear and angular velocities work together to produce circular motion.
+Next, using Python and ROS 2 services, I controlled the turtle to draw the word ""ROBO"" using coordinate-based movement with teleport and pen control. This approach provided better precision compared to velocity-based motion and resulted in a cleaner output.
+Tools and Technologies:
+• Python
+• ROS 2 (Humble)
+• TurtleSim
+Key Learnings:
+• Writing Python code for ROS 2 nodes
+• Publishing velocity commands for motion control
+• Understanding circular motion using linear and angular velocity
+• Using ROS 2 services like teleport and pen control
+• Difference between velocity-based and coordinate-based movement
+• Achieving precise control of robot position
+These tasks helped me strengthen my understanding of how robots can be programmed and controlled using Python in ROS 2.
+I will continue to explore more concepts and build practical applications in Robotics and Automation.
+#Python #ROS2 #Robotics #Learning #EngineeringStudent
 
-#IndustrialAutomation #Robotics #SupplyChain #EngineeringInnovation
 …more
-164
-28 Comments
-Like
-Comment
-Share
-George Lamdus
-2h
-Most people see robots moving boxes. Very few think about everything that has to keep working behind the scenes for that robot to stay productive every hour.
-Like
-Reply
-1 Reaction
-Daud Sharif
-2h
-Predictive maintenance gets plenty of attention, but equipment still needs to be built properly before any prediction can help.
-Like
-Reply
-1 Reaction
-Jon Flatt
-2h
-Hardware often carries responsibilities that software cannot solve no matter how advanced the algorithms become.
-Like
-Reply
-1 Reaction
-vikash pathak
-2h
-Reliability rarely gets headlines, yet it decides whether automation delivers value or becomes an expensive experiment.
-Like
-Reply
-1 Reaction
-Issam M.
-1h
-Many automation projects succeed in testing. Long term durability is where real proof shows up.
-Like
-Reply
-1 Reaction
-Jack Ng, MSSc, BSSc, Hons, RSW
-2h
-Speed is exciting. Consistent uptime is what actually pays the bills.
-Like
-Reply
-1 Reaction
-Dr. Zdenka Cumano
-7m
-Automation success depends on thousands of details working together. Missing just one can create trouble later.
-Like
-Reply
-Tatiana BIMOGA
-9m
-Most people admire innovation. Engineers spend their days worrying about failure points.
-Like
-Reply
-Tel Ganesan
-11m
-Continuous operation is where engineering earns its value. Anyone can make something work for a day.
-Like
-Reply
-Andrew Lenti
-38m
-Wear and tear is probably one of the quietest risks. Equipment can keep running while performance slowly drops.
-Like
-Reply
-See more comments
-To view or add a comment, sign in"
-https://www.linkedin.com/posts/alexandralacruzpuente_artificialintelligence-aiagents-generativeai-activity-7468470174522900480-iWWP,2026-06-09,9,"The post provides a comprehensive overview of AI agent creation, offers a unique resource (cheat sheet), and invites discussion on a specific topic, making it a high-value thought leadership post.","Dr. La Cruz, I appreciate the effort you've put into creating this AI Agent Creation Cheat Sheet, which clearly outlines the complexities of building autonomous systems. Your emphasis on the holistic view of AI agents, beyond just LLMs, is particularly insightful. One aspect that I think deserves more exploration is the integration of explainability and transparency in these systems. As we move towards more autonomous agents, understanding their decision-making processes becomes crucial. What role do you think explainability will play in the development and deployment of future AI agents, and how can we effectively balance model complexity with interpretability?",0,0,"Dra. Alexandra La Cruz
-4d
-AI Agent Creation: From Transformers to Autonomous Systems
-The AI landscape is evolving rapidly, but many professionals still struggle to see how all the pieces fit together—from Transformers and LLMs to RAG, MCP, tool calling, and multi-agent systems.
-To help students, researchers, and practitioners, I created this AI Agent Creation Cheat Sheet, a visual roadmap that connects the entire ecosystem:
-🔹 Transformer fundamentals
-🔹 Foundation models (GPT, Claude, Gemini, Llama, Qwen, DeepSeek, Mistral)
-🔹 Agent architectures and reasoning loops
-🔹 Memory systems and RAG pipelines
-🔹 MCP (Model Context Protocol) integration
-🔹 Agent frameworks (LangGraph, CrewAI, AutoGen, LlamaIndex, PydanticAI)
-🔹 Ollama and local AI deployments
-🔹 Multi-agent orchestration patterns
-🔹 Production-ready AI agent stacks
-The most important lesson:
-An AI agent is not just an LLM.
-Real-world agents combine reasoning, memory, tools, planning, retrieval, and execution to accomplish complex tasks.
-As we move toward increasingly autonomous systems, understanding the complete architecture becomes more valuable than focusing on a single model.
-What component do you think is currently the biggest bottleneck for enterprise AI agents: memory, planning, tool integration, evaluation, or governance?
-#ArtificialIntelligence #AIAgents #GenerativeAI #LLM #GPT #Claude #Gemini #Ollama #MachineLearning #DeepLearning #RAG #MCP #LangChain #LangGraph #CrewAI #AutoGen #LlamaIndex #DataScience #AIEngineering #AgenticAI #Innovation #Technology #HigherEducation #Research #ComputerScience
-
 4
 Like
 Comment
 Share
 To view or add a comment, sign in"
-https://www.linkedin.com/posts/vamshiiitbhu14_we-spent-3-years-building-ai-copilots-the-activity-7467226234377248772-ooGG,2026-06-09,9,"The post discusses a thought-provoking shift in AI technology from copilots to agents, highlighting the need for enterprises to redesign their workflows for autonomous execution, making it a high-value, thought leadership post.","Vamshi, you make a compelling point about the shift from AI copilots to agents and the importance of redesigning workflows for autonomous execution. One often overlooked aspect of this transition is the need for explainability and transparency in AI decision-making, particularly as humans cede control to agents. What strategies do you think enterprises should prioritize to ensure their AI agents are not only autonomous but also trustworthy and accountable?",0,0,"Vamshi Krishna Guduru
-1w
-We spent 3 years building AI copilots.
-The next 3 years belong to AI agents.
-The difference isn't technical.
-It's who drives.
-Copilot: human decides every step, 
-         AI assists each one
-Agent: human sets the goal,
-       AI decides every step
-Most enterprises aren't ready for this shift.
-Not because the technology isn't there.
-Because their workflows were never 
-designed to be autonomous.
-The companies winning with AI in 2026 
-aren't prompting better.
-They're redesigning workflows from 
-the ground up for autonomous execution.
-2
+https://www.linkedin.com/posts/checkpointaisecurity_aisecurity-aiagents-agenticai-activity-7425581340542275584-7vZZ,2026-06-10,8,"The post discusses thought leadership on AI security, specifically agentic AI security, and highlights two key takeaways from recent blog posts, making it a high-value post for commenting","Great insights on the importance of considering chained behaviors and unintended side effects in agentic AI systems. The example of NVIDIA NeMo highlights the complexities of multi-agent setups. What strategies do you think are most effective in implementing explicit delegation boundaries, escalation paths, and audit evidence to ensure structural security in these systems?",0,0,"Check Point AI Security
+19,787 followers
+4mo
+𝗜𝗖𝗬𝗠𝗜: 𝗧𝘄𝗼 𝘁𝗮𝗸𝗲𝗮𝘄𝗮𝘆𝘀 𝗳𝗿𝗼𝗺 𝗼𝘂𝗿 𝗹𝗮𝘁𝗲𝘀𝘁 𝗟𝗮𝗸𝗲𝗿𝗮 𝗯𝗹𝗼𝗴 🔍
+This week, we published two new posts on agentic AI security. If you missed them, here’s one key takeaway from each:
+👉 𝗥𝗲𝗱-𝘁𝗲𝗮𝗺𝗶𝗻𝗴 𝗮𝗴𝗲𝗻𝘁𝗶𝗰 𝘀𝘆𝘀𝘁𝗲𝗺𝘀 𝗶𝘀𝗻’𝘁 𝗷𝘂𝘀𝘁 𝗽𝗿𝗼𝗺𝗽𝘁 𝗵𝗮𝗰𝗸𝗶𝗻𝗴. When agents can plan, call tools, and act across steps, the real risks show up in chained behaviors and unintended side effects, especially in multi-agent setups like NVIDIA NeMo.
+👉 𝗢𝗽𝗲𝗻𝗖𝗹𝗮𝘄 𝘀𝗵𝗼𝘄𝘀 𝗵𝗼𝘄 𝗳𝗮𝘀𝘁 “𝗮𝘂𝘁𝗼𝗻𝗼𝗺𝘆” 𝘁𝘂𝗿𝗻𝘀 𝗶𝗻𝘁𝗼 𝗮𝘂𝘁𝗵𝗼𝗿𝗶𝘁𝘆. When AI agents act on behalf of humans, unclear boundaries around permissions and trust quickly become a security issue, not a product feature.
+If you’re building, deploying, or securing agentic systems, both pieces are worth a read.
+𝗟𝗶𝗻𝗸𝘀 𝗶𝗻 𝘁𝗵𝗲 𝗰𝗼𝗺𝗺𝗲𝗻𝘁𝘀 👇
+#AISecurity #AIAgents #AgenticAI #RedTeaming #LLMSecurity
+57
+6 Comments
 Like
 Comment
 Share
-To view or add a comment, sign in"
-https://www.linkedin.com/posts/elizabethschell_generativeai-aiagents-enterprisetech-activity-7465778283801001985-Ibyc,2026-06-09,9,"The post discusses a thought leadership topic, Autonomous AI Agents, and introduces a novel concept, the Agentic Control Plane, which is a high-value area for discussion and debate.","I completely agree that Autonomous AI Agents are the next step in AI evolution, and the challenges you've highlighted around managing multiple agents are very real. The Agentic Control Plane concept is fascinating, particularly the Safety Guardrails and Audit Trail features. However, I'd love to explore further how this control plane can be designed to handle edge cases, such as conflicting priorities between different AI agents or handling exceptions that don't fit into predefined boundaries. How do you envision the Agentic Control Plane handling such complex scenarios?",0,0,"Elizabeth Schell, MBA, PMP, AIF
-1w
-If you’ve been following AI lately, the conversation is shifting away from simple chatbots toward something much more powerful: Autonomous AI Agents.
-Instead of just answering questions, these agents can actually “do work”:
-👉booking travel
-👉processing insurance claims
-👉updating databases across multiple systems.
-👉etc. 
-But this introduces a brand new enterprise challenge. What happens when a company has 50, 500, or 5,000 autonomous AI agents all running at the same time? 
-How do you stop them from talking over each other, accidentally running up massive API bills, or breaking security compliance?
-Enter the Agentic Control Plane. ✈️
-Think of it as the “Air Traffic Control tower” for an enterprise's AI workforce.
-Without air traffic control, you just have individual pilots trying their best, leading to chaos. The Control Plane acts as the central operating system that manages the entire fleet.
-Here is what it actually does in plain English:
-🔹 Traffic Routing: It looks at an incoming job and decides exactly which AI agent (or team of agents) is best qualified to handle it.
-🔹 The Safety Guardrails: It enforces strict boundaries. For example, it dictates that an AI can draft a contract, but a human must approve it before it's sent.
-🔹 Short & Long-Term Memory: It ensures that if a complex task takes days to complete, the agents don’t ""forget"" what they were doing halfway through.
-🔹 The Audit Trail: It logs every single decision and action the AI takes, so human teams can review exactly how a result was achieved.
-Right now, we are moving past the phase of building isolated AI tools. The next competitive advantage belongs to organizations that can securely orchestrate, govern, and scale an entire digital workforce.
-#GenerativeAI #AIAgents #EnterpriseTech #AIGovernance #Innovation
-View C2PA information
-4
+Check Point AI Security
+4mo
+OpenClaw Shows What Happens When AI Agents Act on Human Authority 👉 https://www.lakera.ai/blog/openclaw-shows-what-happens-when-ai-agents-act-on-human-authority
 Like
-Comment
-Share
-To view or add a comment, sign in"
-https://www.linkedin.com/posts/harshvardhan-pote_ros2-robotics-robotoperatingsystem-activity-7468335270556487680-uTUH,2026-06-09,9,"The post provides a deep technical explanation of ROS2 architecture, making it a high-value topic for discussion and adding unique insights.","Great explanation of the ROS2 architecture, Harshvardhan! The emphasis on the Node → DDS Middleware → Node communication flow is particularly important for understanding how ROS2 enables robust and scalable distributed robotic systems. I'm intrigued by your exploration of advanced ROS2 concepts like Navigation2 and MoveIt2. How do you think the integration of AI and machine learning with ROS2 will impact the development of autonomous systems in the next 5 years?",0,0,"Harshvardhan Pote
-4d
-🤖 ROS2 Architecture Explained: The Foundation of Modern Robotics
-If you're learning robotics, understanding ROS2 architecture is essential.
-ROS2 (Robot Operating System 2) is more than just a framework—it's a communication ecosystem that enables different robotic components to work together efficiently, reliably, and at scale.
-🔹 Nodes
-The fundamental building blocks of ROS2. Each node performs a specific task and operates independently.
-🔹 Topics
-Enable asynchronous communication using the Publisher → Subscriber model, making them ideal for continuous data streams.
-🔹 Services
-Provide synchronous request-response communication when an immediate answer is required.
-🔹 Actions
-Designed for long-running tasks that need feedback during execution and a result when completed.
-🔹 Parameters
-Allow runtime configuration of nodes without modifying code or recompiling the system.
-🔹 DDS Middleware
-The communication backbone of ROS2, providing discovery, reliability, scalability, QoS, and real-time capabilities.
-💡 Key Insight:
-ROS2 communication is not simply Node → Node.
-Instead:
-Node → DDS Middleware → Node
-This architecture enables robust, scalable, distributed robotic systems.
-🎯 Why ROS2?
-✅ Modular Architecture
-✅ Real-Time Support
-✅ Multi-Robot Communication
-✅ Distributed Computing
-✅ Industrial-Grade Reliability
-✅ Autonomous Systems Ready
-From autonomous vehicles and drones to industrial robots and smart devices, ROS2 is rapidly becoming the industry standard for modern robotics development.
-Which ROS2 concept did you find the most challenging when you started learning robotics?
-👇 Share your thoughts in the comments.
-#ROS2 #Robotics #RobotOperatingSystem #Automation #EmbeddedSystems #EmbeddedLinux #ROS #ROSDevelopment #DDS #AutonomousSystems #IndustrialAutomation #RobotEngineering #AI #MachineLearning #EngineeringStudents #RoboticsEngineer
-Dr. Sujit Kumbhar Krushnaraj Bagal Tanmay Patil Ajij Panhalkar Shreyash Ganthade Aniruddha Jarandikar ASHISH DESAI Innovista Automation IRTI-Robotics RVTLabs
-View C2PA information
-22
-2 Comments
-Like
-Comment
-Share
-Harshvardhan Pote
-4d
-I’m currently exploring advanced ROS2 concepts including Navigation2, MoveIt2, ROS2 Control, and DDS QoS policies. What ROS2 topic would you like me to cover next?
+Reply
+Check Point AI Security
+4mo
+Red Teaming Agentic Capabilities in NVIDIA NeMo Agent Toolkit 👉 https://www.lakera.ai/blog/red-teaming-agentic-capabilities-in-nvidia-nemo-agent-toolkit
 Like
 Reply
 1 Reaction
-Sadnan Jonayet Sajid
-12h
-well architecture!!
-
+Judgement Spine
+3mo
+The real risk isn’t prompt failure — it’s chained authority. When agents plan, call tools, and act across steps, delegation boundaries, escalation paths, and audit evidence have to be explicit. That’s where security moves from reactive to structural.
+Like
+Reply
+Marco M.
+3mo
+Love the quote in your article, “When AI Agents Go Rogue ” Agent ecosystems are starting to look less like controlled enterprise software and more like chaotic playgrounds”
+Like
+Reply
+Thomas Scanlon
+4mo
+Thanks for sharing. This is valuable to better understand how we help clients.
 Like
 Reply
 See more comments
 To view or add a comment, sign in"
-https://www.linkedin.com/posts/ali-ahmad-agentic-ai_agenticai-rag-agenticsystems-activity-7431657733998706688-LpBQ,2026-06-09,8,"The post provides a comprehensive overview of AI agents, their types, and architectures, offering a solid foundation for discussion and adding value.","I completely agree that AI agents represent a significant shift from traditional chatbots, enabling autonomous decision-making and action. The distinction between different types of AI agents, such as simple reflex and utility-based agents, is particularly insightful. As we move towards more complex human-machine collaborations, what role do you think explainability and transparency will play in ensuring trust and adoption of AI agent technologies?",0,0,"Loaded: 84.71%
+https://www.linkedin.com/posts/pandey-dhananjay_industrialrobotics-automation-industry40-activity-7469742610236997632-ZbY8,2026-06-10,8,"The post provides a comprehensive list of free industrial robotics and automation courses, making it a valuable resource for professionals and students. The author's advice on focusing on industry-relevant skills and the call to action for sharing helpful resources make it an engaging and discussable post.","Dhananjay, your curated list of industrial robotics and automation courses is impressive and will undoubtedly benefit many enthusiasts and professionals. One aspect that I'd like to add is the importance of hands-on experience and project-based learning in robotics. What are your thoughts on how individuals can effectively balance theoretical knowledge with practical implementation, and are there any specific projects or simulations that you recommend for beginners to get started with?",0,0,"Dhananjay Pandey
+1d
+🤖 FREE Industrial Robotics & Automation Courses You Shouldn't Miss!
+Whether you're a student, educator, technician, automation enthusiast, or aspiring robotics engineer, these free resources can help you build skills in industrial robotics, automation, manufacturing systems, and robot programming.
+📚 Top Free Industrial Robotics Learning Resources
+🔹 READY Academy
+Free industrial robotics and automation training with over 40 hours of content.
+🔗 https://readyacademy.co
+🔹 Carnegie Mellon Robotics Academy (CS2N)
+Structured robotics and engineering courses with simulation-based learning.
+🔗 https://www.cs2n.org
+🔹 Class Central – Robotics Courses
+Browse thousands of robotics, automation, and engineering courses from leading universities.
+🔗 https://lnkd.in/gcXmMmGA
+🔹 Alison – Robotics Courses
+Free robotics and automation courses with optional certifications.
+🔗 https://lnkd.in/gDfVRbgY
+🔹 ROS (Robot Operating System) Learning Resources
+Industry-standard robotics framework used in autonomous and industrial robotic systems.
+🔗 https://lnkd.in/gC_-dEdX
+🔗 https://docs.ros.org
+🔹 ABB Robotics Learning
+Industrial robot programming, automation, and manufacturing-focused training.
+🔗 https://lnkd.in/gJZWifhY
+🔹 FANUC Academy Resources
+Industrial robot operation, programming, and automation fundamentals.
+🔗 https://lnkd.in/gUYWzBNA
+🔹 Universal Robots Academy
+Free collaborative robot (cobot) training and certification courses.
+🔗 https://lnkd.in/gJi5GjmZ
+🔹 Siemens SITRAIN Learning Platform
+Industrial automation, PLCs, digital manufacturing, and Industry 4.0 training.
+🔗 https://lnkd.in/g3jArBVZ
+💡 My Advice: Focus on Industry-Relevant Skills
+Start with:
+✅ Industrial Robot Fundamentals
+✅ Robot Programming & Simulation
+✅ PLC Basics & Industrial Control Systems
+✅ Industrial Sensors & Machine Vision
+✅ ROS Fundamentals
+✅ Industrial Networking (Profinet, EtherNet/IP, Modbus)
+✅ Industry 4.0 & Smart Manufacturing
+✅ AI & Computer Vision for Automation
+🚀 The future belongs to engineers who can design, program, and integrate intelligent automation systems.
+Which industrial robotics or automation resource helped you the most? Share it in the comments! 👇
+#IndustrialRobotics #Automation #Industry40 #SmartManufacturing #RoboticsEngineering #FactoryAutomation #PLC #ROS #MachineVision #Engineering #Mechatronics #Manufacturing #STEM #IndustrialAutomation #RobotProgramming #FutureOfWork #Learning #Education #AI #DigitalTransformation #Industry50
+444
+5 Comments
+Like
+Comment
+Share
+Guilherme Silva Rocha
+6h
+Thank you so much for this recommendations 😀
+Like
+Reply
+Sarah Sanni
+8h
+👏🏽 🔥 
+Like
+Reply
+1 Reaction
+Raise Engg Education and Career Guide
+19h
+Robotics Engineering is a multidisciplinary field that offers opportunities for Computer, Electronics, Electrical, and Mechanical Engineers to work together in the design, integration, and testing of robotic systems.
+Students/Engineers should first identify the robotics domain that interests them most and then build deep expertise in that area.
+Please read my pot for the skills required
+https://www.linkedin.com/feed/update/urn:li:activity:7467771257170837504
+
+Like
+Reply
+1 Reaction
+David LeCourt
+1d
+Thank You for sharing Dhananjay !  🤖
+Like
+Reply
+2 Reactions
+Emmanuel K N Anderson
+23h
+Thanks for sharing! 
+Like
+Reply
+2 Reactions
+See more comments
+To view or add a comment, sign in"
+https://www.linkedin.com/posts/ai-planetx_ai-agents-evolved-from-simple-reactive-bots-activity-7470038616182837248-9_ks,2026-06-10,8,"The post showcases thought leadership on the evolution of AI agents, providing a comprehensive framework and sparking interesting discussions.","I appreciate the detailed breakdown of the 10 levels of AI agents, highlighting the progression from reactive to super intelligent systems. A key aspect to consider is how these levels intersect with human values and ethics, particularly as we approach levels 9 and 10. What do you think will be the most significant challenge in ensuring that super intelligent agents align with human interests and values?",0,0,"AI PlanetX
+26,309 followers
+22h
+AI Agents Evolved from simple reactive bots to futuristic super intelligence.
+The journey of AI agents is about moving from rule-based responses to autonomous, ethical, and socially aware systems that can collaborate, predict, and even go beyond human intelligence. Each level builds on the previous one - adding memory, context, adaptability, collaboration, and foresight.
+𝐇𝐞𝐫𝐞 𝐢𝐬 𝐡𝐨𝐰 𝐭𝐡𝐞 𝟏𝟎 𝐥𝐞𝐯𝐞𝐥𝐬 𝐨𝐟 𝐀𝐈 𝐚𝐠𝐞𝐧𝐭𝐬 𝐮𝐧𝐜𝐨𝐯𝐞𝐫 👇
+𝐋𝐞𝐯𝐞𝐥 𝟏 – Reactive Agents: Follow fixed rules, respond only to direct inputs (e.g., IVR systems, basic chatbots).
+𝐋𝐞𝐯𝐞𝐥 𝟐 – Context-Aware Agents: Use memory and past interactions to personalize responses (e.g., recommendation engines).
+𝐋𝐞𝐯𝐞𝐥 𝟑 – Goal-Oriented Agents: Plan actions to achieve objectives, prioritizing tasks (e.g., Alexa, Siri).
+𝐋𝐞𝐯𝐞𝐥 𝟒 – Adaptive Agents: Learn from feedback, adjust dynamically (e.g., customer service AI that improves over time).
+𝐋𝐞𝐯𝐞𝐥 𝟓 – Autonomous Agents: Make decisions with minimal oversight, act independently (e.g., autonomous vehicles, RPA).
+𝐋𝐞𝐯𝐞𝐥 𝟔 – Collaborative Agents: Work with humans or other agents to solve complex problems (e.g., multi-agent supply chain systems).
+𝐋𝐞𝐯𝐞𝐥 𝟕 – Proactive Agents: Anticipate needs and act before being asked (e.g., predictive maintenance AI).
+𝐋𝐞𝐯𝐞𝐥 𝟖 – Social Agents: Understand emotions, interact naturally, build human trust (e.g., AI companions, humanoid bots).
+𝐋𝐞𝐯𝐞𝐥 𝟗 – Ethical Agents: Operate under fairness, compliance, and transparency (e.g., bias-free healthcare AI).
+𝐋𝐞𝐯𝐞𝐥 𝟏𝟎 – Super intelligent Agents: Beyond human-level intelligence, capable of reasoning, creativity, and foresight (still theoretical).
+AI agents are not just tools. They represent an evolution of intelligence - from simple responders to autonomous collaborators shaping the future.
+
+Р.С: Prem N., FolIοw Prem N. for more content like this
+
+-----------------------
+If you find this post helpful, please Rерost & Fоllоw 👉  𝐀𝐈 𝐏𝐥𝐚𝐧𝐞𝐭𝐗
+------
+***  Wanт 27+ 𝐅𝐫𝐞𝐞 𝐀𝐈 𝐆𝐢𝐟𝐭𝐬, Worth 💲15000?  ***
+Enjoy with 100K+ AI Community and Accеѕs to ⤵️
+➡ 60+ Chapters of ChatGPT Mastery
+➡ 38000+ AI Tools
+➡ 600+ AI Courses
+➡ 3000+ AI Prompts & More
+𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 👉 AIPlanetX.com
+48
+3 Comments
+Like
+Comment
+Share
+Ashley Gross
+19h
+For most businesses, the real value comes from levels 3 to 7, where agents drive clear outcomes and support people in decision making!
+Like
+Reply
+Anthara Fairooz
+21h
+The evolution of AI agents is truly remarkable!
+From reactive to super intelligent, shaping the future.  
+Like
+Reply
+Vivek Samdariya
+11h
+Here are 8 Coursera courses I'd recommend starting with:
+1. Accelerate Your Job Search with Al by Google
+Use Al to improve your job search and land interviews faster.
+https://lnkd.in/dFrv8Ncg
+2. Introduction to Negotiation by Yale
+Learn how to negotiate better career outcomes.
+https://lnkd.in/dbd6RKRy
+3. Google Al Essentials
+Build practical fluency in the Al tools reshaping work.
+https://lnkd.in/dB7qR9vn
+4. Prompt Engineering Basics by IBM
+L, Get better outputs from Al models with better inputs.
+https://lnkd.in/dwWps5ur
+5. People and Soft Skills by IBM
+Strengthen the human skills that Al cannot replace.
+https://lnkd.in/dp7yDF3g
+6. Fundamentals of Sales by Goldman Sachs
+L, Learn how to sell your ideas, your value and your work.
+https://lnkd.in/df8zPYge
+7. Social Media Marketing Certificate by Meta
+Build visibility, reach and authority online.
+https://lnkd.in/dGw2h_25
+8. Claude Code in Action by Anthropic
+Learn how Al can support coding and product building.
+https://lnkd.in/dbrbnMs9
+Key takeaway:
+AL will not replace overvono
+Like
+Reply
+See more comments
+To view or add a comment, sign in"
+https://www.linkedin.com/posts/alireza-saboukhi_robotics-automation-industrialautomation-activity-7470082645687808000-PhH-,2026-06-10,8,"The post contains a unique, technical discussion about robotics innovation in manufacturing, with a specific example of a successful implementation of a robotics cell, which offers a deep dive into the subject matter and provides fertile ground for adding value.","Alireza, I appreciate you sharing your experience and the Canadian Robotics Council Symposium presentation. The example you provided about the implementation of a robotics cell for glass manufacturing highlights the potential for robotics to improve efficiency and reduce manual labor. What I find particularly interesting is the non-rectangular handling feature of the 60FT robot, which could potentially be applied to other industries with complex or irregularly-shaped products. How do you envision the future of robotics in manufacturing evolving, especially in terms of adapting to varying product geometries and sizes?",0,0,"Loaded: 28.71%
 Pause
 Back to start
 Current Time 
 0:02/
 Duration 
-1:12
+4:18
+Show Captions
 Unmute
 Fullscreen
-Ali Ahmad
-3mo
-What is an AI Agent? And Why It Matters in 2026
-AI Agents are not just chatbots.
-They are intelligent systems designed to perceive, decide, and act autonomously to achieve specific goals.
-How AI Agents Work
- An AI agent combines:
- • Human input + autonomous action
- • Memory and reactivity
- • Access to tools (APIs, internet, code execution)
- • Interaction with its environment
-Instead of just responding
-AI agents plan, execute tasks, and adapt based on feedback.
-Types of AI Agents
- • Simple Reflex Agents
- • Model-Based Agents
- • Goal-Based Agents
- • Utility-Based Agents
- • Learning Agents
-Each type increases in intelligence and decision-making capability.
-AI Agent Architectures
- • Single Agent – Acts as a personal assistant
- • Multi-Agent – Agents collaborate and communicate
- • Human–Machine – AI works alongside humans
-💡 The real power of AI agents lies in automation.
- From AI-driven workflows to intelligent business operations, agents are transforming how companies operate.
-The future is not just AI tools.
- The future is AI agents that think, act, and execute.
-#AgenticAI #RAG #AgenticSystems #RetrievalAugmentedGeneration #GenAI 
-
+Alireza Saboukhi, CEP, MSc.
+19h
+𝗡𝗼𝘁 𝗲𝘃𝗲𝗿𝘆 𝗿𝗼𝗯𝗼𝘁𝗶𝗰𝘀 𝗶𝗻𝗻𝗼𝘃𝗮𝘁𝗶𝗼𝗻 𝗵𝗮𝗽𝗽𝗲𝗻𝘀 𝗶𝗻 𝗮 𝗹𝗮𝗯. 𝗦𝗼𝗺𝗲 𝗵𝗮𝗽𝗽𝗲𝗻 𝗼𝗻 𝘁𝗵𝗲 𝗳𝗮𝗰𝘁𝗼𝗿𝘆 𝗳𝗹𝗼𝗼𝗿.
+Last October, I had the opportunity to present a Lightning Talk at the Canadian Robotics Council Symposium in Kingston, Ontario, where I shared one of the industrial automation projects I worked on and discussed the impact robotics can have on manufacturing operations.
+It was a great experience connecting with engineers, researchers, and industry leaders who are helping shape the future of robotics in Canada.
+Looking back, I’m grateful for the opportunity to share my work and contribute to the conversation around the future of robotics and advanced manufacturing.
+Special thanks to: Hallie Siegel, Ryan Gariepy, Pablo Molina and all of the Canadian Robotics Council team
+Video Link: https://lnkd.in/e-GXsQKv
+#Robotics #Automation #IndustrialAutomation #Manufacturing #Engineering #PhysicalAI #CanadianRobotics #Innovation #AdvancedManufacturing #WWRH Worldwide Robotics Hub
 …more
-6
-Like
-Comment
-Share
-To view or add a comment, sign in"
-https://www.linkedin.com/posts/carstenkrause_robotics-ai-innovation-activity-7209608478384885761-CQkc,2026-06-09,8,"The post discusses thought leadership in the robotics industry, specifically highlighting Boston Dynamics' innovative AI integrations and comparing them to other industry players, making it a valuable and engaging topic for technical discussion.","I completely agree with your analysis on how Boston Dynamics is pushing the boundaries of robotics innovation with their AI integrations. The use of generative AI, voice recognition, and computer vision is indeed transforming various industries. What I find particularly interesting is the potential for these advancements to not only enhance efficiency but also to introduce new challenges in terms of cybersecurity and data privacy. How do you think the robotics industry will address these concerns as AI integration becomes more widespread?",0,0,"Carsten Krause (MBA, CISM, TOGAF)
-1y  Edited
-🤖The Future of Robotics: A Boston Dynamics Case Study! 🤖
-In the rapidly evolving world of robotics, Boston Dynamics' Spot and Atlas robots are pushing the boundaries of innovation with advanced AI integrations! From generative AI and voice recognition to cutting-edge computer vision, these robots are transforming industries from construction and oil & gas to healthcare and public safety. 🌍
-🔍 Key Highlights:
-👉 Hyundai and Spot: Utilizing AI for predictive maintenance and voice-command capabilities.
-👉Ford and Atlas: Enhancing assembly lines with computer vision and adaptive AI.
-What is the competitio doing?
-👉Figure 01 by Figure.ai: Competing with top-tier AI and OpenAI's speech-to-speech reasoning for superior customer interaction.
-👉Tesla Optimus AI Gen 2 Bot: Revolutionizing industrial and domestic tasks with advanced AI and computer vision.
-Check out our in-depth analysis on how these companies are shaping the future of robotics, trends in the robotics industry 📈
-👉 Read the full article here: Boston Dynamics: Pioneering the Future of Robotics - link in the comments
-Boston Dynamics, Chad Wright, Marc Theermann, Brett Adcock, Milan Kovac
-#Robotics #AI #Innovation #BostonDynamics #Hyundai #Ford #Figure1 #TeslaBot #FutureOfWork #TechRevolution #Automation
-2
+63
 1 Comment
 Like
 Comment
 Share
-Carsten Krause (MBA, CISM, TOGAF)
-1y
-Here is the link: https://cdotimes.com/2024/06/20/boston-dynamics-pioneering-robotics-and-ai-integration/
+Transcript
+Transcript
+Thank you. Hello everyone. My name is Ada Rosa. I'm actually going to wear both of my hats today. So first going to talk about my other position as the manufacturing engineer at Oldcastle Building and Building, which is one of the biggest manufacturers of glass in North America. And the implementation of. Edging device that we have in our plant. So one of the problems that you're facing is that when we are actually cutting a glass, you have to grind it well, you Polish it well to be not sharp anymore. So we are actually using a vertical grinders that we actually always have it here. The most important thing is that in the past we were having for example, 2 racks face to face, one operator from one rack loading one glass waiting for the glass to be. Moved by the conveyor underneath to the end of the line and then the operator should go there, reload it, rotate it, bring it back again on the loading section. And we have to do the same thing over and over. But now we have implemented the actually my slides is a little bit different from what I said, but we have implemented the robotics cell which is actually going to send the get the glass from the first aging device and then put it on the second. Imaging device and we are going to put both of the operators just standing there, one of them just doing on loading and the other one is just doing the unloading. Which this is a 60FT robot, it can lift 300 kilograms. So the pilot is about 300 kilograms. Basically all of them have a limitation. So we have a limitation for the dimensions of the glass that you're using, but the thickness can go up to 20mm which is super fantastic on its own. And another cool feature is that it has a non rectangular handling feature because sometimes with when you are doing a repeatable procedure with a robot. So you are pretty. Pre programming everything ahead of time so when the glass is not cut properly it might damage your machine. But one of the cool features here is that there are sensors embedded inside the machine that when their gas is getting rotated by robot and putting on the other other. Conveyor, it's actually checking that the glass is sitting properly on the conveyor and then let the glass go so it can reduce the risks. And most of these agers, including the bullfighters that I mentioned, they are doing the grinding that we usually do after doing the the cut off the glass and then it can they can Polish the glass and they can also do the miter, which is basically the the flat edge of. Off the glass and the the other important feature that is super important is that the automation is not going to be limited only by implementing a robot in their plan. We are even using the automation even inside the racks and you can see that both of these agers, they have automated wheel adjustment setup. Which is actually going to make sure that the grinding wheels are always touching the glass, which is a huge problem in the past that that we were facing. And also in terms of the productivity and factors, the length, the weight and the spacing between the glasses basically are the major factors which can change the change everything in terms of the speed, but in total in terms of financing and in terms of the investment, the ROI or the return of investment. Usually for this kind of things, we had the previously doing 15,000 inches in the per shift, but now we're having increased by three times by having the same time, which is 3 times more productivity, which can give us back a 1.5 to three years payback. And another thing is that my second hat we are actually organizing a medical event in Montreal in 22nd. We did the biggest Montreal event of robotics this year in May 21st. We are doing another one in medical robotics, so if you're interested, this is the QR code. Please feel free to register and we would be happy to see you.
+Gabriel Gomez
+10h
+Way to go Alireza Saboukhi, CEP, MSc. 👏🏼
 Like
 Reply
+To view or add a comment, sign in"
+https://www.linkedin.com/posts/rocco-de-luca-automation_industrialautomation-robotics-factoryautomation-activity-7431873031565873153-d-ig,2026-06-10,8,"The post provides valuable industry insights and statistics, and the discussion is centered around a specific trend in robotics, making it a great opportunity to add unique value and technical expertise.","The growth in robot orders, especially collaborative robots, is a clear indicator of the increasing adoption of automation in various industries. I'd like to add that the integration of AI and machine learning in these robots will be crucial for their ability to adapt to new tasks and environments. As we see more widespread adoption of automation, what role do you think human-robot collaboration will play in addressing the existing workforce shortages and driving further innovation in manufacturing?",0,0,"Rocco De Luca
+3mo
+🤖 𝐑𝐨𝐛𝐨𝐭 𝐎𝐫𝐝𝐞𝐫𝐬 𝐔𝐩 6.6% 𝐢𝐧 2025 - 𝐀𝐧𝐝 𝐈𝐭’𝐬 𝐍𝐨𝐭 𝐉𝐮𝐬𝐭 𝐀𝐮𝐭𝐨𝐦𝐨𝐭𝐢𝐯𝐞
+According to the A3 - Association for Advancing Automation, North America ordered 36,766 robots in 2025, worth $2.25B.
+📈 2025: +6.6% units | +10.1% revenue
+📈 Q4 alone: +6.6% units | +8.7% revenue
+📈 6 consecutive quarters of YoY growth
+General industries - F&B, consumer goods, semiconductors, electronics, life sciences - drove the majority of demand.
+Automation adoption is broadening beyond traditional automotive strongholds.
+🤝 Collaborative robots are accelerating too:
+ • 7,212 Cobots ordered in 2025
+ • ~20% of total unit volume
+ • Strongest quarterly performance on record in Q4
+Automotive OEMs strengthened in H2 - often a leading indicator for broader supplier growth.
+This isn’t a short-term spike - Automation adoption is structurally expanding.
+Workforce shortages, reshoring, productivity pressure - manufacturers aren’t waiting... 2026 momentum looks real.
+#Industrialautomation #Robotics #Factoryautomation #Manufacturing #Cobots #Automationtrends #Industry40
+20
+2 Comments
+Like
+Comment
+Share
+Mohamed Shawky - محمد شوقي
+3mo
+The surge in cobot adoption highlights how flexible automation is addressing workforce shortages across diverse industries. How do you see AI integration evolving alongside this?
+Like
+Reply
+Mike Panse
+3mo
+Saw this from A3 - appreciate you pointing out the nuances! Good info. Thanks!
+Like
+Reply
+See more comments
 To view or add a comment, sign in"
