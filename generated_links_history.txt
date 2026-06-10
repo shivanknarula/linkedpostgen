@@ -1,6 +1,3 @@
-https://www.linkedin.com/posts/1950-ai_nvidias-isaac-gr00t-humanoid-robot-platform-activity-7467260137913724928-EM_j
-https://www.linkedin.com/posts/ctorobotics_nvidia-announces-the-first-open-humanoid-activity-7467439922853961728-LuSc
-=== RUN ===
 https://www.linkedin.com/posts/hingoraninaresh_agentic-ai-is-the-new-operating-system-for-activity-7467070034901667840-eCD4
 https://www.linkedin.com/posts/aditya-raj-6aa3aa260_industrialautomation-robotics-smartmanufacturing-activity-7435205723237572608-0NrD
 https://www.linkedin.com/posts/loksanthoshsurisetty_ai-aiagents-agenticai-activity-7460340082449788928-rtxl
@@ -105,3 +102,5 @@ https://www.linkedin.com/posts/billyjspears_ai-agent-incidents-unchecked-risks-e
 https://www.linkedin.com/posts/ai-planetx_ai-agents-evolved-from-simple-reactive-bots-activity-7470038616182837248-9_ks
 https://www.linkedin.com/posts/alireza-saboukhi_robotics-automation-industrialautomation-activity-7470082645687808000-PhH-
 https://www.linkedin.com/posts/rocco-de-luca-automation_industrialautomation-robotics-factoryautomation-activity-7431873031565873153-d-ig
+=== RUN ===
+https://www.linkedin.com/posts/transcript-iq_industrial-automation-isnt-becoming-autonomous-activity-7470379230845882368-VvRC
