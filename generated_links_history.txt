@@ -1,17 +1,3 @@
-https://www.linkedin.com/posts/youssbm_figure-ai-just-solved-the-sim-to-real-transfer-activity-7419110941415346177-CKER
-https://www.linkedin.com/posts/aditi-chandra-384585278_ros-robotoperatingsystem-ros2-activity-7467892869337477120-dCCQ
-https://www.linkedin.com/posts/robotverse_industrialautomation-industry40-smartmanufacturing-activity-7465635482836688896-r7AT
-https://www.linkedin.com/posts/industrial-automation-monthly_mind-robotics-expands-ai-driven-industrial-activity-7465073640703782913-xM6V
-https://www.linkedin.com/posts/alvinchang_autonomous-ai-agents-that-can-provision-infrastructure-activity-7465409230003421198-zWA-
-https://www.linkedin.com/posts/ai-infra-summit_ai-agents-are-moving-from-demos-into-real-activity-7466181970985635840-o046
-https://www.linkedin.com/posts/a-banks_boston-dynamics-just-partnered-with-google-activity-7416826389066047488-Xldl
-https://www.linkedin.com/posts/boston-dynamics_ask-a-roboticist-meet-karl-boston-dynamics-activity-7391520111997919232-ihCJ
-https://www.linkedin.com/posts/uni-network-group_bostondynamics-bostondynamicsuniversity-activity-7387790033732304896-27v0
-https://www.linkedin.com/posts/degrayautomation_robotics-automation-manufacturing-activity-7465410569316007936-MQeh
-https://www.linkedin.com/posts/humanoid-robotics-weekly_three-live-signals-19-25th-may-2026-methodology-activity-7465356206593970176-XZXV
-https://www.linkedin.com/posts/kinjalvrajput_what-happens-when-artificial-intelligence-activity-7467055753229680640-748V
-https://www.linkedin.com/posts/abhinandbinu_ros2-robotics-amr-activity-7467517193472081920-tDKh
-=== RUN ===
 https://www.linkedin.com/posts/lars-talbert-papershredding_robotics-humanoidrobots-bostondynamics-activity-7467237778943021056-Q3HG
 https://www.linkedin.com/posts/priya-singh-017b861b9_articulatedrobots-industrialrobotics-smartmanufacturing-activity-7467169933861441537-mMvb
 https://www.linkedin.com/posts/robotrove_humanoid-robotics-research-is-stuck-reinventing-activity-7467107232284004352-UvKY
@@ -103,3 +89,17 @@ https://www.linkedin.com/posts/hingoraninaresh_agentic-ai-is-the-new-operating-s
 https://www.linkedin.com/posts/piyush-ranjan-9297a632_the-rise-of-ai-agents-from-basic-llms-to-activity-7330071992831770625-L41D
 https://www.linkedin.com/posts/theaibothub_nvidia-has-unveiled-an-open-humanoid-robot-activity-7467289259016790016-dpWJ
 https://www.linkedin.com/posts/ryan-gunderson-1238796_industrial-ai-rockwell-automation-us-activity-7467952243271512064-VxkQ
+=== RUN ===
+https://www.linkedin.com/posts/siddhartha-bharti-b57a021b_industrialautomation-fmcgmanufacturing-smartmanufacturing-activity-7420771427643125760-1qW8
+https://www.linkedin.com/posts/boston-dynamics_the-to-do-list-with-spot-boston-dynamics-activity-7449834757271547904-_Ok8
+https://www.linkedin.com/posts/shubhamrobo_ros2-ros-robotics-activity-7470185918797225984-gnbk
+https://www.linkedin.com/posts/enzo-ghisoni-robotics_ros2-ai-robotics-activity-7449070785433993216-8JnR
+https://www.linkedin.com/posts/boston-dynamics_boston-dynamics-and-fieldai-are-collaborating-activity-7437861272697589761-_tCK
+https://www.linkedin.com/posts/rickspair_industrialrobotics-manufacturing-automation-activity-7467101465044537344-hdPc
+https://www.linkedin.com/posts/association-for-advancing-automation_automateshow-industrialautomation-robotics-activity-7440859786507599872-tczZ
+https://www.linkedin.com/posts/jayalakshmis19_aiagents-llms-autonomousai-activity-7468322495197265920-XjV9
+https://www.linkedin.com/posts/ai-insider-1_what-is-an-ai-agent-complete-beginners-activity-7468924421353668608-J5av
+https://www.linkedin.com/posts/manish-verma-66a98b307_robotics-automation-industrialautomation-activity-7469974909323005953-wXON
+https://www.linkedin.com/posts/the-knotts-company_the-stats-and-opportunity-behind-us-industrial-activity-7417223894106890240-PWi0
+https://www.linkedin.com/posts/abi-research_automate2026-industrialautomation-manufacturing-activity-7470911468578770946-W1yJ
+https://www.linkedin.com/posts/samchoksi_agenticai-ai-futureofwork-activity-7469931863499833344-P8Vj
