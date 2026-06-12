@@ -1,16 +1,3 @@
-https://www.linkedin.com/posts/boston-dynamics_boston-dynamics-and-fieldai-are-collaborating-activity-7437861272697589761-_tCK
-https://www.linkedin.com/posts/boston-dynamics_the-to-do-list-with-spot-boston-dynamics-activity-7449834757271547904-_Ok8
-https://www.linkedin.com/posts/robotverse_robotverse-industrialautomation-industry40-activity-7465771471278202882-ZSsw
-https://www.linkedin.com/posts/venkatavarun-yelika-849007301_ai-aiagents-artificialintelligence-activity-7465711006342819840-j5_o
-https://www.linkedin.com/posts/the-knotts-company_the-stats-and-opportunity-behind-us-industrial-activity-7417223894106890240-PWi0
-https://www.linkedin.com/posts/enzo-ghisoni-robotics_nav2-ros2-robotics-activity-7359191586280214530--Kae
-https://www.linkedin.com/posts/ashishcs1990_overview-of-the-different-types-of-ai-agents-activity-7335346484793503744-fBFj
-https://www.linkedin.com/posts/atomrobot_atomrobot-smartfactory-automation-activity-7465448138624102400-yiLk
-https://www.linkedin.com/posts/boston-consulting-group_intelligent-robotics-is-reshaping-industrial-activity-7369293194716475398-W3Pn
-https://www.linkedin.com/posts/abhisek-das-9ba967216_artificialintelligence-aiagents-autonomoussystems-activity-7465265295931113472-1KRN
-https://www.linkedin.com/posts/polestar-analytics_gartner-defines-ai-agents-as-autonomous-or-activity-7348301279770701824-5VhA
-https://www.linkedin.com/posts/enzo-ghisoni-robotics_ros2-ai-robotics-activity-7449070785433993216-8JnR
-=== RUN ===
 https://www.linkedin.com/posts/youssbm_figure-ai-just-solved-the-sim-to-real-transfer-activity-7419110941415346177-CKER
 https://www.linkedin.com/posts/aditi-chandra-384585278_ros-robotoperatingsystem-ros2-activity-7467892869337477120-dCCQ
 https://www.linkedin.com/posts/robotverse_industrialautomation-industry40-smartmanufacturing-activity-7465635482836688896-r7AT
@@ -103,3 +90,16 @@ https://www.linkedin.com/posts/axisone-robotics_robotics-industrialautomation-in
 https://www.linkedin.com/posts/waqarabro_aiagents-futureofwork-digitaltransformation-activity-7468561991641538560-OpCe
 https://www.linkedin.com/posts/ameersaeed-yaqub-97768a302_the-next-decade-of-hamanoid-robotics-from-activity-7469036823412023296-bq06
 https://www.linkedin.com/posts/aayush-prakash-a60b84287_ai-aiagents-generativeai-activity-7469806046346248193-f8eC
+=== RUN ===
+https://www.linkedin.com/posts/atlas-automated_automation-industrialrobots-manufacturing-activity-7466997823243456512-qXJ8
+https://www.linkedin.com/posts/omgajjar1976_ros2-robotoperatingsystem-robotics-activity-7470890770984644608-sIUA
+https://www.linkedin.com/posts/ilyass-oublal_ai-aiagents-automation-activity-7470038752095219712-EnaN
+https://www.linkedin.com/posts/manish-sawarkar_robotics-industrialautomation-fanuc-activity-7470483557950484480-DZY8
+https://www.linkedin.com/posts/akkar-ltd_bostondynamics-bobbi-ai-activity-7353349434463641600-MDt9
+https://www.linkedin.com/posts/rickspair_humanoidrobots-artificialintelligence-activity-7468852530425536513-hLXv
+https://www.linkedin.com/posts/md-abdullah-al-noman-nibir-362744390_ros2-robotics-esp32-activity-7469435700279508992-kZcp
+https://www.linkedin.com/posts/aditya-raj-6aa3aa260_industrialautomation-robotics-smartmanufacturing-activity-7435205723237572608-0NrD
+https://www.linkedin.com/posts/hingoraninaresh_agentic-ai-is-the-new-operating-system-for-activity-7470784575527391232-moIX
+https://www.linkedin.com/posts/piyush-ranjan-9297a632_the-rise-of-ai-agents-from-basic-llms-to-activity-7330071992831770625-L41D
+https://www.linkedin.com/posts/theaibothub_nvidia-has-unveiled-an-open-humanoid-robot-activity-7467289259016790016-dpWJ
+https://www.linkedin.com/posts/ryan-gunderson-1238796_industrial-ai-rockwell-automation-us-activity-7467952243271512064-VxkQ
