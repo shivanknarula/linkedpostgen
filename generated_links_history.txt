@@ -1,16 +1,3 @@
-https://www.linkedin.com/posts/lars-talbert-papershredding_robotics-humanoidrobots-bostondynamics-activity-7467237778943021056-Q3HG
-https://www.linkedin.com/posts/priya-singh-017b861b9_articulatedrobots-industrialrobotics-smartmanufacturing-activity-7467169933861441537-mMvb
-https://www.linkedin.com/posts/robotrove_humanoid-robotics-research-is-stuck-reinventing-activity-7467107232284004352-UvKY
-https://www.linkedin.com/posts/therobotics_bostondynamics-atlasrobot-humanoidrobot-activity-7465699672502775809-LG7T
-https://www.linkedin.com/posts/manikya-sinha_robotics-humanoidrobots-ai-activity-7461686304292933632-LWLy
-https://www.linkedin.com/posts/gayatri-tambe-b8818a332_ros2-robotics-robotry-activity-7467921735498207233-s_u4
-https://www.linkedin.com/posts/anoop-kumar-1462bb116_5g-industrialiot-ai-activity-7465651329659592704-6sQF
-https://www.linkedin.com/posts/andrzej-gocyla-278677131_industrial-automation-is-changing-the-future-activity-7466182910354767872-i4Ex
-https://www.linkedin.com/posts/arpit-jainn_introduction-to-agentspdf-activity-7395782475630854144-tMRn
-https://www.linkedin.com/posts/srinivasav22_artificialintelligence-agenticai-aiagents-activity-7435270705371394048-9TFw
-https://www.linkedin.com/posts/leggedrobotics_icra2026-humanoidrobots-leggedrobots-activity-7467555299780902915-82CQ
-https://www.linkedin.com/posts/humanoidsummit_nvidia-unveils-open-isaac-gr00t-humanoid-activity-7467141879185346560-Vo9a
-=== RUN ===
 https://www.linkedin.com/posts/huxaifash_agenticai-softwareengineering-automation-activity-7466834546886520833-lWGm
 https://www.linkedin.com/posts/learnroboticsandai_excited-to-share-some-insights-about-ros-activity-7468194941182046208-FFUA
 https://www.linkedin.com/posts/schaeffler_schaeffler-at-ces-2026-humanoid-robotics-activity-7414746402351820802-XB0q
@@ -103,3 +90,12 @@ https://www.linkedin.com/posts/manish-verma-66a98b307_robotics-automation-indust
 https://www.linkedin.com/posts/the-knotts-company_the-stats-and-opportunity-behind-us-industrial-activity-7417223894106890240-PWi0
 https://www.linkedin.com/posts/abi-research_automate2026-industrialautomation-manufacturing-activity-7470911468578770946-W1yJ
 https://www.linkedin.com/posts/samchoksi_agenticai-ai-futureofwork-activity-7469931863499833344-P8Vj
+=== RUN ===
+https://www.linkedin.com/posts/industrial-automation-and-machinery-dynamics_industrialrobotics-7axis-automation-activity-7471090290054053888-6Dpy
+https://www.linkedin.com/posts/theaibothub_the-era-of-humanoid-robot-mass-production-activity-7469766331240898560-Z8F5
+https://www.linkedin.com/posts/ashishcs1990_overview-of-the-different-types-of-ai-agents-activity-7335346484793503744-fBFj
+https://www.linkedin.com/posts/a-banks_boston-dynamics-just-partnered-with-google-activity-7416826389066047488-Xldl
+https://www.linkedin.com/posts/lentinjoseph_ros-ros2-robotics-activity-7173890674113675265-56I-
+https://www.linkedin.com/posts/youssbm_figure-ai-just-solved-the-sim-to-real-transfer-activity-7419110941415346177-CKER
+https://www.linkedin.com/posts/durgaprasad-budhwani_ai-aiagents-agenticai-activity-7353265039547449346-wPbs
+https://www.linkedin.com/posts/lisa-m-t-8031099b_the-humanoid-robotics-industry-seems-to-be-activity-7468925252790788097-Yaj5
