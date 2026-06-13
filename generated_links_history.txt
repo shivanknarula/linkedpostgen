@@ -1,15 +1,3 @@
-https://www.linkedin.com/posts/innovationsandai_physicalai-humanoidrobotics-bostondynamics-activity-7468678023232339968-9PQl
-https://www.linkedin.com/posts/ajitnaidu_ai-agenticai-futureofwork-activity-7337595714610376705-oyUQ
-https://www.linkedin.com/posts/sparvezshaikh_ai-just-shifted-from-chatbots-to-autonomous-activity-7467218897004539904-SOBT
-https://www.linkedin.com/posts/mohammed-ashik2002_ros2-robotics-selflearning-activity-7454480270847561728-zLvR
-https://www.linkedin.com/posts/robotisim_learning-ros2-starts-when-you-connect-a-real-activity-7387416392834306048-vnxh
-https://www.linkedin.com/posts/hingoraninaresh_ai-agents-are-tools-agentic-ai-is-a-system-activity-7468247769233645568-elmF
-https://www.linkedin.com/posts/chandrabhan-jha-265898229_bostondynamics-atlasrobot-humanoidrobots-activity-7465998335615832064-AdPW
-https://www.linkedin.com/posts/akhilantech_aiagents-autonomoussystems-artificialintelligence-activity-7466496147914682368-Szqm
-https://www.linkedin.com/posts/armel-nene-jr_ros2-slam-nav2-activity-7375521929706758144-fMQh
-https://www.linkedin.com/posts/sachinsuvarna_ros2-robotics-moveit2-activity-7467508369608810497-Y9d_
-https://www.linkedin.com/posts/alejandra-yonet-garza-delano%C3%A9-3b3191214_robotics-ros2-autonomoussystems-activity-7439020453056323584--1qQ
-=== RUN ===
 https://www.linkedin.com/posts/kevinmrusso_agentic-ai-in-software-engineering-activity-7468602676369600512-jq9o
 https://www.linkedin.com/posts/salman-aglawane-678b25201_robotics-automation-industrialautomation-activity-7455422500508848128-tG-g
 https://www.linkedin.com/posts/rvt-labs_rvtlabs-momentumrobotics-ros2-activity-7466396508649615360-H5ub
@@ -93,3 +81,19 @@ https://www.linkedin.com/posts/anupambagchi_robotics-softwareengineering-ros2-ac
 https://www.linkedin.com/posts/saurabh-ranjan-54b68474_ai-aiagents-artificialintelligence-activity-7470079638589997056-zAEb
 https://www.linkedin.com/posts/kashaf-noor-196bb6247_agentic-ai-explained-how-autonomous-agents-activity-7468667473962332160-OYiU
 https://www.linkedin.com/posts/abhinandbinu_ros2-nav2-amr-activity-7470766261082456064-ZNOJ
+=== RUN ===
+https://www.linkedin.com/posts/learnsyslab_ros2-lerobot-vlas-activity-7373994314848296960-mY8C
+https://www.linkedin.com/posts/mohan-2k8-6245531b_industrialautomation-robotics-facultydevelopmentprogramme-activity-7470353467518144512-IvUh
+https://www.linkedin.com/posts/artem-sokolov-s_humanoid-pioneering-humanoid-robots-for-activity-7255588413024702465-MlRz
+https://www.linkedin.com/posts/quest-global_industrialautomation-robotics-manufacturing-activity-7441796748118835200-pmH3
+https://www.linkedin.com/posts/csingh27_a-comprehensive-list-of-resources-for-activity-7281651323312214016-lHXv
+https://www.linkedin.com/posts/s1s2_ros2-robotics-robotlearning-activity-7394907771898380289-7O2B
+https://www.linkedin.com/posts/ramanabotta_robotics-robotlearning-artificialintelligence-activity-7469697520097640448-pxgW
+https://www.linkedin.com/posts/fev-consulting_artificialintelligence-robotics-humanoidrobot-activity-7314965215245185024-OPlX
+https://www.linkedin.com/posts/humanoidai_humanoid-founder-artem-sokolov-recently-sat-activity-7341392101319839746-hJqM
+https://www.linkedin.com/posts/brendanschulman_figure-ai-raises-whopping-675m-to-commercialize-activity-7168980241279868930-iufL
+https://www.linkedin.com/posts/4matic-robotics_4maticrobotics-industrialautomation-robotics-activity-7355552448985317379-ap2v
+https://www.linkedin.com/posts/robotry-ai-robotics_ros2-plc-industrialautomation-activity-7373759306745180160-dfbU
+https://www.linkedin.com/pulse/ai-agents-autonomous-systems-sanjay-basu-phd-vdrcc/
+https://www.linkedin.com/posts/aipoool_robotics-robots-humanoidrobot-activity-7320801181763584000-QZ05
+https://www.linkedin.com/posts/preyanka-chander_industrialautomation-robotics2026-futureofmanufacturing-activity-7435302280406409220-yxjd
