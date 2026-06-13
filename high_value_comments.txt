@@ -1,585 +1,247 @@
-LINK: https://www.linkedin.com/posts/ashishcs1990_overview-of-the-different-types-of-ai-agents-activity-7335346484793503744-fBFj
-DATE: 2026-06-12
+LINK: https://www.linkedin.com/posts/juliazadorozhna_meet-odin-our-new-humanoid-robot-that-activity-7358142104725778433-1C9O
+DATE: 2026-06-13
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post provides a comprehensive overview of AI agents, categorized by functionality, autonomy, and learning capabilities, making it a thoughtful and informative discussion with opportunities for adding unique value.
+SCORE: 9/10 - The post showcases thought leadership, deep technical discussions, and achievements in robotics and AI, making it ideal for adding value and sparking meaningful conversations.
 AI COMMENT:
-Ashish, your breakdown of AI agents by functionality, autonomy, and learning capabilities is incredibly insightful. As we move towards more integrated and autonomous systems, I think the key to unlocking their full potential will lie in the harmonious merge of these agents with edge computing, IoT, and cognitive architectures. What do you think will be the most critical factor in ensuring the seamless interaction of these agents in real-world applications?
+ODIN's autonomous capabilities, especially its real-time spatial mapping and human conversations, are truly impressive. The fact that your team achieved this in just a week is a testament to the power of pioneers in Labs and invested efforts in AI development. I'm particularly intrigued by the applications of embodied AI in real-world scenarios. What potential industries or use cases do you envision ODIN or similar robots having the most significant impact on in the near future?
 TEXT:
-Ashish Sahu
-1y
-Overview of the different types of AI agents, categorized by functionality, autonomy, and learning capabilities:
-⸻
-🚦 1. Simple Reflex Agents
-Behavior: Act only on the current percept (input), without memory.
-How they work: Use condition-action rules like “If traffic is red → stop.”
-✅ Use cases:
-	•	Basic automation (e.g. thermostat)
-	•	Rule-based bots (e.g. IVR systems)
-🔸 Limitation: Cannot handle unseen scenarios or remember past states.
-⸻
-🧠 2. Model-Based Reflex Agents
-Behavior: Maintain a model of the world to track internal state.
-How they work: Use the current input + internal memory to choose actions.
-✅ Use cases:
-	•	Game AI (e.g., enemies that patrol areas)
-	•	Robotic control with environment modeling
-🔸 Limitation: Still not goal-oriented; limited decision-making complexity.
-⸻
-🎯 3. Goal-Based Agents
-Behavior: Act to achieve specific goals using planning and search.
-How they work: Combine knowledge of actions with desired outcomes to select the best path.
-✅ Use cases:
-	•	Pathfinding algorithms (e.g. self-driving cars)
-	•	Recommender systems with optimization logic
-🔸 Limitation: Require defined goals; may not adapt well to changing goals or environments.
-⸻
-📈 4. Utility-Based Agents
-Behavior: Choose actions based on expected utility (how “good” outcomes are).
-How they work: Evaluate and rank multiple options, not just goal success.
-✅ Use cases:
-	•	Strategic AI in games
-	•	Financial AI for portfolio optimization
-🔸 Limitation: Require well-defined utility functions; harder to design.
-⸻
-🔄 5. Learning Agents
-Behavior: Learn from experiences and improve performance over time.
-How they work: Use reinforcement learning, supervised learning, or online adaptation.
-✅ Use cases:
-	•	AI in robotics (e.g. walking bots)
-	•	Personal assistants (e.g. Alexa, Siri improving via feedback)
-🔸 Limitation: Training data, time, and exploration/exploitation trade-offs.
-⸻
-🧠🤖 6. Agentic AI (Autonomous Cognitive Agents)
-Behavior: Exhibit agency—initiate tasks, set goals, reason, and adapt autonomously.
-How they work: Combine memory, planning, reasoning loops (e.g. ReAct, CoT), and tools to achieve complex goals.
-✅ Use cases:
-	•	AutoGPT, Devin
-	•	AI research assistants, autonomous workflows
-🔸 Limitation: Still emerging; risk of unpredictability or inefficiency without oversight.
-⸻
-🕸️ 7. Multi-Agent Systems (MAS)
-Behavior: Multiple agents interacting—collaborating or competing—to solve distributed problems.
-How they work: Communicate and coordinate actions across agents.
-✅ Use cases:
-	•	Swarm robotics
-	•	Distributed AI (e.g., market simulations, logistics)
-🔸 Limitation: Coordination, conflict resolution, and communication costs.
-4
-1 Comment
-Like
-Comment
-Share
-YZ-RA
-1w
-Ashish, thanks for providing a thorough overview of the various AI agent types. Your categorization by functionality, autonomy, and learning capabilities is particularly insightful. I'd like to add that the integration of these agents with edge computing and IoT devices will further enhance their capabilities, especially in real-time decision-making applications...
-Like
-Reply
-1 Reaction
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/a-banks_boston-dynamics-just-partnered-with-google-activity-7416826389066047488-Xldl
-DATE: 2026-06-12
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a significant partnership between Boston Dynamics and Google DeepMind, and the advancements in robotics technology, offering a high level of thought leadership and deep technical insights.
-AI COMMENT:
-Alex, your insight on the convergence of hardware and intelligence in robotics is spot on. The 56 degrees of freedom and self-swapping batteries in the Atlas humanoid are indeed game-changers. However, I'd like to add that the real challenge lies in integrating these robots with existing factory infrastructure and workflows. As Michal Majdanski pointed out, the reliability of these units could potentially surpass that of human workers. What do you think will be the key factors in determining the pace of adoption for these robots in manufacturing facilities, and how will this impact the future of work?
-TEXT:
-Loaded: 68.36%
-Pause
-Back to start
-Current Time 
-0:01/
-Duration 
-0:51
-Show Captions
-Unmute
-Fullscreen
-Alex Banks 
-Alex Banks is an Influencer
-5mo
-Boston Dynamics just partnered with Google DeepMind.
-Their robot is the same height as the Terminator.
-The upgraded electric Atlas humanoid just debuted at CES 2026.
-Here's what makes this different:
-→ 56 degrees of freedom
-→ 4-hour battery life
-→ Self-swapping batteries for continuous operation
-→ 1.9m frame (same height as Schwarzenegger in Terminator)
-→ Designed specifically for factory work
-The DeepMind partnership solves the missing piece:
-For years, hardware teams cracked locomotion.
-But intelligence and local compute lagged behind.
-Gemini Robotics integration changes that equation entirely.
-The humanoid advantage:
-Some argue the humanoid form is suboptimal.
-Why limit robots to human-like movements?
-But Atlas already exploits what we can't do:
-→ 360-degree torso rotations
-→ More energy-efficient than stepping
-→ Movements impossible for human joints
-The humanoid form serves as a universal worker, much like a human.
-My takeaway:
-We're watching hardware and intelligence finally converge at scale.
-The robotics race is now about who can deploy them fastest.
-Hyundai plans to deploy 30,000 units in their manufacturing facilities starting this year.
-Meanwhile, China's Unitree already ships robots at $70k with similar battery-swap capabilities.
-We’re watching the early stages of an industry that could reshape entire sectors within the decade.
-Follow me Alex Banks for daily AI highlights and insights.
-If you liked this post, you'll love the newsletter.
-I cover the most important AI developments each week.
-Subscribe here: https://lnkd.in/ePSZP6KF
-…more
-402
-147 Comments
-Like
-Comment
-Share
-Transcript
-Transcript
-First time in public and as you can see it's walk is pretty natural and pretty smooth. We've partnered with our sister organization, the Robotics and AI Institute to push the limits on natural walking just for this performance and I think we've done something really special. We've also visited this robotic staying for awhile, and we've learned that there's more to it than just copying nature. We can pick the best parts of what nature has to offer and do better in others. So as you can see, Atlas here has joints that can move 360��. This lets outlets move even more efficiently than humans, particularly in manufacturing environments where every second counts. We've also designed Atlas's head and face very purposefully, and we like both working with Atlas to know that Atlas is a helpful role.
-Alex Banks
-5mo
-📌 You can read the full announcement here: https://bostondynamics.com/blog/boston-dynamics-google-deepmind-form-new-ai-partnership/
-Like
-Reply
-9 Reactions
-Michal Majdanski
-5mo
-Great breakdown Alex Banks, but honestly the scariest part isn't in your post—it's what happens when Hyundai's 30,000 Atlas units become MORE reliable than their human workforce in 18 months. We're celebrating deployment speed like it's innovation, but China commoditizing these at $70k means every manufacturing CEO now has one choice: automate or watch competitors do it first and eat your lunch.
-The real story isn't hardware meeting AI. It's that we've crossed the economic threshold where robot workers are cheaper than human annual salaries, and we're still pretending "reskilling" will somehow keep pace with deployment velocity. What's the actual plan when entire sectors automate faster than people can pivot careers?
-Like
-Reply
-6 Reactions
-Muhammad Ali
-5mo
-It is wild to watch the timeline between 'science fiction concept' and 'industrial reality' shrink to almost zero.
-Like
-Reply
-7 Reactions
-Safia Saher
-5mo
-Humans now have competition on the ramp walk.🙌
-Like
-Reply
-3 Reactions
-Glenda Carnate
-5mo
-Alex Banks The partnership between robotics and intelligence platforms shows that movement alone is no longer the bottleneck; decision-making and adaptability are now the differentiators in automation.
-Like
-Reply
-3 Reactions
-Zaki Akhtar
-5mo
-Old industrial robots:
-	•	Bolted to one spot
-	•	Single task, single motion
-	•	Useless outside pre programmed paths
-New humanoid robots:
-	•	Mobile across the entire factory
-	•	Software defined roles
-	•	Adapt to layout changes without retooling
-The form factor isn’t the headline. The flexibility is.
-Like
-Reply
-4 Reactions
-Bryn Richards
-5mo
-This is wild, it really does feel like we’re watching the moment hardware and intelligence finally catch up to each other. The fact this is aimed at real factory work, not demos, makes it feel less sci-fi and more like a genuine industry shift already underway, is that the case?
-Like
-Reply
-5 Reactions
-Tersh Blissett
-5mo
-Intelligence has always been the bottleneck. With DeepMind onboard, Atlas could finally move from demo to real world impact.
-Like
-Reply
-10 Reactions
-Eduardo Roman
-5mo
-Feels like the race is less about who builds the best robot and more about who integrates, deploys, and maintains fastest. That’s where winners usually emerge.
-Like
-Reply
-5 Reactions
-Muhammad Waqas Arif
-5mo
- The convergence of advanced hardware and on-device intelligence finally makes humanoid robots practical for real work.
- I’ve seen similar breakthroughs where capability alone isn’t enough; speed of deployment and integration determines who leads the market.
-Like
-Reply
-6 Reactions
-See more comments
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/youssbm_figure-ai-just-solved-the-sim-to-real-transfer-activity-7419110941415346177-CKER
-DATE: 2026-06-12
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a significant breakthrough in humanoid robotics, presents a thoughtful analysis, and offers a prediction about the company's future success, making it an ideal opportunity to engage and add value.
-AI COMMENT:
-Youssef, your insight into Figure AI's sim-to-real transfer solution is right on point, highlighting the critical challenge that has hindered humanoid robotics for so long. What's also intriguing is how advancements in reinforcement learning and sensor fusion could further enhance Figure AI's robots, allowing them to adapt not just to physical environments but also to dynamic task requirements. How do you envision the integration of such technologies influencing the timeline for widespread commercial deployment of humanoid robots?
-TEXT:
-Youssef Ben Mahmoud
-4mo
-Figure AI just solved the sim-to-real transfer problem that has killed humanoid robotics for decades.
-Running in simulation is trivial. Every Boston Dynamics Atlas video proves labs can produce viral clips. But dealing with uneven pavement, wind gusts, and unpredictable surfaces is where 90% of bipedal systems fail. Figure 03 just ran outside the lab, not on a treadmill.
-Here's the real opportunity. Brett Adcock isn't building a robot company. He's building the first robotics platform that can graduate from warehouses to the real world. Boston Dynamics Atlas does backflips but requires external power for extended operation. Tesla Optimus prioritizes affordability over terrain adaptability.
-The strategic genius: NVIDIA, Intel Capital, and Brookfield didn't write $1B+ checks for another demo reel. They're betting Figure will dominate the labor shortage crisis hitting manufacturing, logistics, and healthcare globally.
-I think within 18 months, Figure AI becomes the first humanoid robotics company to achieve meaningful outdoor commercial deployment.
-6
-1 Comment
-Like
-Comment
-Share
-YZ-RA
-1w
-Youssef, your analysis of Figure AI's breakthrough in sim-to-real transfer is spot on. The ability to adapt to real-world environments is indeed a crucial hurdle for humanoid robotics. What's particularly interesting is how Figure AI's approach could be combined with advancements in edge computing to further enhance their robots' autonomy and resilience in unpredictable environments. 
-Like
-Reply
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/lisa-m-t-8031099b_the-humanoid-robotics-industry-seems-to-be-activity-7468925252790788097-Yaj5
-DATE: 2026-06-12
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - The post discusses a key challenge in the humanoid robotics industry, invites diverse perspectives, and is written by an individual interested in sparking a meaningful conversation.
-AI COMMENT:
-I completely agree that the industry has shifted from 'Can we build it?' to 'Can we scale it?', and it's fascinating to see the various approaches being explored. One aspect that I think warrants more attention is the role of standardized components and modular design in achieving scalable and cost-effective humanoid robotics solutions. What do you think will be the most significant factor in determining the scalability of humanoid robotics in the next 5 years?
-TEXT:
-Lisa.M T
-6d
-The humanoid robotics industry seems to be entering a new phase.
-The discussion is no longer "Can we build it?"
-It's becoming "Can we scale it?"
-Technology, cost, applications, ROI, supply chain...
-Everyone seems to have a different answer.
-Curious to hear yours.
-1
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/industrial-automation-and-machinery-dynamics_industrialrobotics-7axis-automation-activity-7471090290054053888-6Dpy
-DATE: 2026-06-12
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post provides in-depth technical information about 7-axis industrial robots, includes market data and lists key players, offering a platform for valuable discussion and insights
-AI COMMENT:
-The shift towards 7-axis industrial robots is indeed unlocking new dimensions in automation, especially with the benefits of redundant flexibility, expanded work envelopes, and consistent tool orientation. One interesting aspect to consider is how the integration of AI and machine learning can further enhance the capabilities of these systems, potentially leading to more autonomous and adaptive manufacturing processes. What do you think will be the next significant innovation in industrial robotics that builds upon the advancements of 7-axis systems?
-TEXT:
-Industrial Automation and Machinery Dynamics
-106 followers
-9h
-⚙️ 𝟕-𝐀𝐱𝐢𝐬 𝐈𝐧𝐝𝐮𝐬𝐭𝐫𝐢𝐚𝐥 𝐑𝐨𝐛𝐨𝐭 𝐌𝐚𝐫𝐤𝐞𝐭: 𝐔𝐧𝐥𝐨𝐜𝐤𝐢𝐧𝐠 𝐍𝐞𝐰 𝐃𝐢𝐦𝐞𝐧𝐬𝐢𝐨𝐧𝐬 𝐢𝐧 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧
-📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐞𝐞 𝐏𝐃𝐅:https://lnkd.in/dQGqaM7X
-The industrial robotics landscape is evolving beyond the traditional 6-axis standard. By adding a 7th axis either through a redundant joint in the robotic arm or a linear range extender manufacturers are achieving unprecedented levels of flexibility, reach, and precision. The global 7-axis collaborative robot market was valued at USD 117 million in 2025 and is projected to reach USD 625 million by 2034. 
-📈 𝐖𝐡𝐲 𝟕-𝐀𝐱𝐢𝐬 𝐒𝐲𝐬𝐭𝐞𝐦𝐬 𝐀𝐫𝐞 𝐭𝐡𝐞 𝐅𝐮𝐭𝐮𝐫𝐞
-Redundant Flexibility: The extra degree of freedom allows the robot to "snake" into tight spaces and reach around obstacles that would collide with a standard 6-axis arm. 
-Expanded Work Envelope: With linear 7th-axis range extenders, a single robot can service multiple workstations, turning one fixed unit into a mobile, high-throughput asset. 
-Consistent Tool Orientation: The additional axis enables the robot to maintain complex tool angles (like welding torches) even while the arm is repositioning, ensuring superior finish quality. 
-Operational Efficiency: By reducing the need for multiple robots or frequent repositioning/reprogramming, 7-axis solutions significantly lower total cost of ownership and downtime.
-🏢 𝐈𝐧𝐧𝐨𝐯𝐚𝐭𝐨𝐫𝐬 & 𝐊𝐞𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬
-CubeMars (Robot Actuator Motor)
-ARIA Technologies
-Mech-Mind Robotics
-INTECRO ROBOTICS
-BizLink Factory Automation & Machinery
-ISRA VISION
-ABB
-Addverb
-SCOTT
-FerRobotics
-Mujin
-wenglor sensoric group
-SUNPURE
-ELITE ROBOTS
-DUCO Robots
-Estun Automation
-SINBON Electronics Co., Ltd.
-Doosan Robotics
-Photoneo, now part of Zebra Technologies
-Gizelis Robotics SA
-Solinas Integrity
-OMRON Automation and Robotics Australia
-Promation
-Patvin Engineering Private Limited
-MSI AIoT
-Wandercraft
-TRONEX
-Valk Welding
-IDS Imaging Development Systems GmbH
-Asyril
-Lincoln Electric Asia Pacific
-Polytec
-Zivid
-ROBOTIS (Robot is ...)
-WorkFar
-ANYbotics
-Micropsi Industries
-HD HYUNDAI ROBOTICS
-CNC INDIA ROBOTICS AND INDUSTRIAL AUTOMATIONS PRIVATE LIMITED
-Yushin America, Inc
-📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐞𝐞 𝐏𝐃𝐅:https://lnkd.in/dQGqaM7X
-#IndustrialRobotics #7Axis #Automation #Manufacturing #Industry40 #Robotics #SmartFactory #Engineering #TechTrends #PrecisionManufacturing #AdvancedAutomation #DigitalTransformation #MechanicalEngineering
-
-1
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/theaibothub_the-era-of-humanoid-robot-mass-production-activity-7469766331240898560-Z8F5
-DATE: 2026-06-12
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses a significant development in the robotics industry, specifically the mass production of humanoid robots, which is a topic of interest for thought leadership and technical discussion.
-AI COMMENT:
-The news about 1X Technologies scaling production of its humanoid robots is indeed exciting and marks a significant milestone in the industry. What's particularly interesting is the potential for these robots to take on more complex roles in the production process beyond just logistics and parts transport. As we consider the integration of humanoid robots in various industries, what do you think will be the most critical factors in ensuring their safe and efficient operation, and how might they impact the future of work?
-TEXT:
-Loaded: 100.00%
-Pause
-Back to start
-Current Time 
-0:01/
-Duration 
-0:28
-Show Captions
-Unmute
-Fullscreen
-AIBot Hub | AI & Robotics Hub
-373 followers
-4d
-The era of humanoid robot mass production is starting to take shape.
-U.S.-based 1X Technologies has reportedly begun scaling production of its humanoid robots in California, with an initial target of 10,000 units per year.
-The company is said to be aiming even higher, with plans to produce more than 100,000 robots annually by 2027 as demand for humanoid automation continues to grow.
-According to reports, the robots are already being used inside factory environments, helping transport parts and support logistics operations.
-…more
+Julia Chansard (Zadorozhna)
+10mo
+🤖 Meet ODIN, our new humanoid robot that’s already walking, talking, and thinking autonomously just one week in. What a time to be alive!
+Pascal Brier 
+Pascal Brier is an Influencer
+10mo  Edited
+When I announced our AI Robotics & Experiences Lab, I promised there would be more to come. Here is a glimpse of what’s happening in Paris, where one of our new robots is already taking its first autonomous steps. 😊
+ 
+Just one week after receiving our new robot platform, ODIN (short for Observe, Detect, Interact & Navigate) is already fully autonomous. He isn’t just moving, he’s perceiving, understanding, interacting, and acting autonomously:
+✔️ Real-time spatial mapping, people and object recognition
+ ✔️ Natural human conversations
+ ✔️ Verbal instruction following and autonomous decision-making
+ 
+In the video below, we reveal not just what ODIN sees, but what he perceives from a third-person view into his first-person understanding. This is embodied AI, in action. No scripts. No demos. No Lab simulation. Just ODIN, navigating the real world.
+ 
+All of this was built in just a few days by the brilliant team of our AI Robotics & Experiences Lab, pushing the boundaries in:
+  #Robotics
+  #ComputerVision
+  #GenAI & #AgenticAI
+What our team achieved in a week would take others a quarter. This is why we build Labs and invest in pioneers. This is why Capgemini leads in AI that works, in the real world.
+ 
+Congratulations to the entire team. ODIN has awakened!
+ 
+🎥 Watch the video, and see through his eyes.
+Franck Greverie Alexandre Embry Keith Williams Rodrigo Maia Nitin Dhemre Marc Blanchon Àlex Santos Rosique
+Play Video
 5
 Like
 Comment
 Share
-Transcript
-Transcript
-1X Technologies that started full scale production of its humanoid home robot NEO at its factory in Hayward, CA. The factory can produce up to 10,000 robots per year. It aims to reach over 100,000 units annually by 2027. Some of the produce the NEO robots are already working inside the factory. They assist with simple tasks like moving parts and logistics. In the future, these robots are expected to take on bigger roles in the production process.
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/lentinjoseph_ros-ros2-robotics-activity-7173890674113675265-56I-
-DATE: 2026-06-12
+LINK: https://www.linkedin.com/posts/rkallepalli_ai-agents-are-rapidly-moving-from-assistants-activity-7469398882150588416-fExH
+DATE: 2026-06-13
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post is about a significant achievement in creating a comprehensive ROS training program, and it invites discussion and engagement from the audience, making it a valuable opportunity to add unique insights and thoughts.
+SCORE: 9/10 - The post discusses a cutting-edge topic in AI, autonomous agents, and their governance, providing an opportunity for deep technical insights and thought leadership
 AI COMMENT:
-Congratulations on completing the ROS training program, Lentin! Your dedication to sharing knowledge and creating a comprehensive learning path for ROS developers is truly commendable. I'd like to add that the inclusion of ROS 2 Industrial training topics, such as Navigation 2 Stack and MoveIt 2, will be highly beneficial for professionals looking to transition to ROS 2. What are your thoughts on the potential applications of ROS 2 in emerging industries like autonomous agriculture or construction, and how can your training program address the skills gap in these areas?
+I completely agree that assigning identities to AI agents is a crucial step towards achieving governance, auditability, and security in enterprise systems. The introduction of Entra Agent ID by Microsoft is a significant development in this space. However, as we move forward with AI identity management, it's essential to consider the challenges associated with agent identity lifecycle management, such as identity revocation and rotation. What are your thoughts on how organizations can balance the benefits of AI agent identities with the potential risks and complexities of managing these identities at scale?
 TEXT:
-Loaded: 61.55%
+Rama Kallepalli
+5d
+AI agents are rapidly moving from assistants to autonomous actors within enterprise systems. Giving them identities is a logical next step for governance, auditability, and security.
+However, organisations should be careful not to treat Agent IDs as a complete solution. Strong authorization controls, least-privilege access, continuous monitoring, and clear accountability remain critical.
+As AI agents gain more autonomy, the question won’t just be “Can they do it?” but also “Should they be allowed to do it?”
+Aiswarya Venkitesh
+1w
+🚨AI Agents are getting identities now.
+And that changes everything.
+Microsoft just introduced Entra Agent ID — bringing identity, governance, and security controls to AI agents across the enterprise ecosystem.
+From authentication to visibility, organizations can now manage AI agents with the same level of trust and control as human users.
+Here’s what stands out 👇
+🔹 Authentication for AI agents
+🔹 Authorization & access governance
+🔹 Identity protection mechanisms
+🔹 Better visibility into agent activities
+🔹 Integration across Copilot Studio, Foundry, Microsoft 365 Copilot & third-party ecosystems
+This is a major step toward secure enterprise AI adoption.
+As AI agents become part of daily workflows, identity management will become non-negotiable.
+The future isn’t just AI-powered.
+It’s AI-governed. ⚡
+What are your thoughts on AI identity management?
+📩 Every week I break down AI and cloud architecture in plain language - no jargon, just clarity. Free newsletter for builders and leaders: 
+👉 avsl.beehiiv.com
+Follow Aiswarya Venkitesh for more AI insights.
+3
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/anupambagchi_robotics-softwareengineering-ros2-activity-7467674996887195649-KBUq
+DATE: 2026-06-13
+METRICS: 0 Likes, 0 Comments
+SCORE: 9/10 - The post discusses a specific technical challenge in robotics, presents a thought-provoking solution, and references a novel framework and protocol, making it a high-value discussion
+AI COMMENT:
+I completely agree with you that latency is a significant concern when integrating VLA models with motor positions in robotics. The use of Zenoh and BabyROS to streamline the development process and reduce latency is indeed intriguing. One aspect that caught my attention is the potential of zero-overhead network protocols in facilitating seamless cloud-to-edge communication. What do you think are the primary use cases where BabyROS could have the most substantial impact, and how do you envision its adoption in the industry?
+TEXT:
+Anupam Bagchi
+1w
+Robotics and networking are linked together. The issue is latency experienced with transferring motor positons generated by VLA models during inference time to the actual motors. For development purposes, you may resort to the good old ROS2 middleware which is very powerful but it also comes with massive friction: painful installations, complex DDS networking, bulky Docker containers, and endless dependency hell. 
+As robots start having degrees-of-freedom amounting to 100, you will have huge latency issues in production using ROS2. I have seen solutions to this using triple-buffered shared memory - but you need to be a C++ expert to handle this.
+On this issue there is a zero-overhead network protocol offered by https://zenoh.io/. This has been used to create a lightweight framework called BabyROS (https://lnkd.in/gHmaY5Wt) which I found quite interesting. According to their site, it solves the following problems:
+It strips away the infrastructure bloat of ROS2 so you can focus entirely on building your robot.
+Instant Setup: Forget complex system-wide dependencies and workspace sourcing. BabyROS installs via pip and runs entirely on Python + Zenoh.
+Simplified Networking: Replaces heavy DDS configuration with Zenoh, delivering native shared memory, ultra-low latency, and seamless cloud-to-edge communication out of the box.
+Zero Message Overhead: No more writing .msg boilerplate for every data type. It dynamically serializes Python objects for rapid prototyping and faster experimentation.
+Lightweight & Container-Ready: Eliminates massive system-wide libraries, resulting in smaller Docker images, faster CI/CD pipelines, and bulletproof reproducibility.
+By moving from local-network-centric, heavy framework constraints to a lightweight, cloud-ready architecture, BabyROS cuts down development overhead and accelerates the path from prototype to deployment.
+#Robotics #SoftwareEngineering #ROS2 #RoboticsDeveloper #PhysicalAI #EmbeddedSystems #Zenoh
+1
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/saurabh-ranjan-54b68474_ai-aiagents-artificialintelligence-activity-7470079638589997056-zAEb
+DATE: 2026-06-13
+METRICS: 0 Likes, 0 Comments
+SCORE: 9/10 - The post provides a thought-provoking breakdown of the evolution of AI agents and their potential impact on society, making it an ideal opportunity to add unique value and insights.
+AI COMMENT:
+I completely agree that we're entering an exciting era of Autonomous AI Agents, which will indeed redefine various aspects of our lives. One aspect that caught my attention was the transition from Autonomous to Collaborative Agents. While Autonomous Agents can operate with minimal human intervention, Collaborative Agents will require a deeper understanding of human-AI interaction and trust. What do you think are the most significant challenges that need to be addressed to ensure a seamless transition to Collaborative Agents, and how can we start preparing for that shift?
+TEXT:
+Saurabh Ranjan
+3d
+🚀 The Evolution of AI Agents is happening faster than ever.
+From simple rule-based systems to autonomous and future superintelligent agents, AI is moving through multiple levels of intelligence and capability.
+Here’s a quick breakdown of the 10 Levels of AI Agents 👇
+1️⃣ Reactive Agents
+2️⃣ Context-Aware Agents
+3️⃣ Goal-Oriented Agents
+4️⃣ Adaptive Agents
+5️⃣ Autonomous Agents ← We are here
+6️⃣ Collaborative Agents
+7️⃣ Proactive Agents
+8️⃣ Social Agents
+9️⃣ Ethical Agents
+🔟 Superintelligent Agents
+The most exciting part?
+We are currently entering the era of Autonomous AI Agents  systems that can plan, execute, learn, and improve with minimal human intervention.
+This shift will redefine:
+⚡ Productivity
+🤖 Automation
+🧠 Decision Making
+🏭 Industries
+🌍 Human-AI Collaboration
+The future won’t just be AI tools.
+It will be AI teammates.
+Which level do you think will create the biggest impact on society?
+#AI #AIAgents #ArtificialIntelligence #Automation #GenerativeAI #FutureOfAI #MachineLearning #AGI #Technology #Innovation #AITrends
+1% Better Daily With Saurabh
+View C2PA information
+3
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/kashaf-noor-196bb6247_agentic-ai-explained-how-autonomous-agents-activity-7468667473962332160-OYiU
+DATE: 2026-06-13
+METRICS: 0 Likes, 0 Comments
+SCORE: 9/10 - The post discusses thought leadership on the shift from reactive AI to agentic AI, providing a deep technical breakdown and connections to autonomous robotics, making it a high-value topic for expertise and discussion.
+AI COMMENT:
+Kashaf, your explanation of the transition to agentic AI and its convergence with autonomous robotics is spot on. The integration of large language models with perception, planning, and action execution layers is indeed a significant leap forward. One aspect that I find particularly intriguing is how safety and scope constraints are being implemented in these systems to prevent unforeseen consequences. How do you envision the development of explainability and transparency in agentic AI systems, especially as they become more widespread in real-world deployments?
+TEXT:
+Kashaf Noor
+1w  Edited
+Most people still think AI = chatbot.
+But the real shift happening right now is much bigger.
+We've moved from reactive AI to agentic AI — systems that perceive, plan, act, observe, and iterate until a goal is fully complete. No hand-holding. No step-by-step instructions.
+The difference in 2026 is that the "sensors" are now web searches, APIs, and file systems. The "actuators" are code execution, email, and database writes. And the "controller" is a large language model reasoning in natural language.
+This convergence is why I believe the gap between software agents and embodied robots is closing faster than most people realize.
+Key components every agentic system shares with autonomous robotics:
+→ Perception layer (context ingestion)
+→ Planning and reasoning engine (LLM + ReAct / chain-of-thought)
+→ Action execution (tool use)
+→ Feedback and correction loop
+→ Safety and scope constraints
+→ Observability and logging
+I wrote a full breakdown of how this works — from first principles to real-world deployments at companies using LangGraph, CrewAI, AutoGen, and MCP.
+If you're at the intersection of robotics, AI, or autonomous systems — this one's for you.
+🔗 https://lnkd.in/dHrAfN83
+Which aspect of agentic AI are you most curious about? Drop it below 👇
+#AgenticAI #ArtificialIntelligence #LLMs #AIAgents #FutureOfAI #AITrends2026 #MachineLearning #AIAutomation
+Agentic AI Explained: How Autonomous Agents Actually Work in 2026
+kashafnoor.com
+1
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/abhinandbinu_ros2-nav2-amr-activity-7470766261082456064-ZNOJ
+DATE: 2026-06-13
+METRICS: 0 Likes, 0 Comments
+SCORE: 9/10 - The post showcases a significant technical achievement in ROS 2 and autonomous navigation, demonstrating thought leadership and deep technical expertise.
+AI COMMENT:
+Congratulations on achieving this impressive milestone in your ROS 2 learning journey! The integration of LiDAR, Camera, and ROS 2 Control with Nav2 is a remarkable feat. I'm particularly intrigued by the potential applications of this technology in real-world scenarios. How do you envision the scalability of this autonomous navigation system for larger, more complex environments, and what strategies would you employ to address potential challenges in sensor data fusion and localization?
+TEXT:
+Loaded: 77.30%
 Pause
 Back to start
 Current Time 
 0:01/
 Duration 
-0:58
+1:06
 Unmute
 Fullscreen
-Lentin Joseph
-2y
-Finally, I have completed the biggest ROS training program that I have ever done. 🎉 
-Teaching is one of my passions. In 2022, I started a personal mentorship program called ROS Developer Learning Path 2.0. The course covered the most important topics of ROS 1 & ROS 2. 
- 
-The plan was to complete the course within 1 - 1.5 years, but it was extended to 2 years because of my vacation plans.
-I have taken almost 170 hours of live lectures in this course. 
-I am apologizing for the delay caused, and I am thankful to everyone for their immense support. 
-Here is the course page: https://lnkd.in/ga7vMptE
-The live recorded videos and notes are available. If anyone is interested in joining the recorded sessions, please let me know 
-I am putting video highlights of the course sessions in the post
-If you are interested in ROS 2 Industrial training in the following topics, please DM me
-* ROS 2 Essentials
-* Gazebo Simulation essentials
-* Navigation 2 Stack
-* MoveIt 2
-* ROS 2 Perception
-* ROS 2 Deep learning
-* Micro-ROS Essentials
-* Rviz-Rqt-Gazebo-Navigation 2 plugin development
-* ROS 2 Docker & CI
-* Basics of NVIDIA Isaac Sim & Isaac ROS
-
-Thanks all
-Lentin Joseph
-#ros #ros2 #robotics #roscourses 
+Abhinand Binu
+1d
+🚀 ROS 2 Learning Series with  I Hub School of Learning  — Autonomous Navigation Achieved
+Excited to share another major milestone in my ROS 2 learning journey!
+After successfully building an Autonomous Mobile Robot (AMR) simulation from scratch, integrating LiDAR, Camera, ROS 2 Control, SLAM Mapping, and Localization, I have now completed autonomous navigation using the Nav2 stack.
+🔧 What I implemented:
+✔ Mobile robot modeling using URDF/Xacro
+✔ Gazebo simulation environment
+✔ LiDAR and Camera integration
+✔ ROS 2 Control for robot actuation
+✔ SLAM-based map generation
+✔ Map saving and localization
+✔ Nav2 autonomous navigation stack
+✔ Goal-based navigation through RViz
+🤖 Demonstrated Capability:
+Using the "2D Goal Pose" tool in RViz, the robot can autonomously:
+• Localize itself within a known environment
+• Plan an optimal path to the destination
+• Avoid obstacles using LiDAR data
+• Generate velocity commands automatically
+• Navigate to the selected goal without manual intervention
+🧠 Key Learning:
+This phase helped me understand the complete navigation pipeline used in real Autonomous Mobile Robots:
+Localization → Planning → Control → Navigation
+I also gained hands-on experience in debugging TF frames, odometry integration, controller configuration, SLAM Toolbox, AMCL, and Nav2.
+🚀 Next Steps:
+🔹 Waypoint navigation
+🔹 Multi-goal missions
+🔹 Behavior Trees
+🔹 Deployment on Raspberry Pi hardware
+🔹 Real-world autonomous robot implementation
+It is exciting to see the robot evolve from a simple URDF model into a fully autonomous navigation system.
+#ROS2 #Nav2 #AMR #AutonomousRobots #MobileRobotics #SLAM #Localization #Gazebo #RViz #LiDAR #ROS2Control #RoboticsEngineering #LearningSeries
 …more
-375
-19 Comments
+33
+2 Comments
 Like
 Comment
 Share
-Rob Knight
-2y
-I’m working with some partners in India to develop certified robotics courses aimed at industrial placement. Would be great to discuss if there’s a fit here.
+Muhammed Nihad Mt
+1d
+Incredible milestone!  Building a full ROS 2 Nav2-based autonomous navigation stack with SLAM, localization, and obstacle avoidance is seriously impressive. Great work on taking it from simulation to real autonomy concepts 
 Like
 Reply
 1 Reaction
-Hari Prasanth
-2y
-Have you tried ROS 2 on windows? If so, could you share your thoughts on it?
-Like
-Reply
-1 Reaction
-Abhishek Gupta
-2y
-It's great to see your dedication to sharing knowledge and helping others learn. Keep up the excellent work!
-Like
-Reply
-1 Reaction
-Harinarayanan Nampoothiri M G Ph.D.
-2y
-Thank you Lentin Joseph for the transforming course, happy to be a part of it live.
-Like
-Reply
-1 Reaction
-Siddhant Diwaker
-2y
-Amazing course 
-Like
-Reply
-1 Reaction
-Birhanu Shimelis
-2y
-Wooow amazing course content. Bravo.
-Does it have a discount for an international student from Africa?
-Like
-Reply
-Chaitra Sri Chenaboina
-2y
-Hello Sir ,
-Are new registrations still open?
-Like
-Reply
-Abdolrahman Vahabi
-2y
-Congratulations
-Like
-Reply
-Flavio Yamamoto
-2y
-Gilmar Jeronimo, Murilo Zanini de Carvalho
-Like
-Reply
-SreeHarsha Rowdur, PhD
-2y
-how can I get videos
-Like
-Reply
-See more comments
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/durgaprasad-budhwani_ai-aiagents-agenticai-activity-7353265039547449346-wPbs
-DATE: 2026-06-12
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post provides a well-structured roadmap for AI Agent Mastery, offering a clear framework for progression from basic to advanced levels, and the comments section already shows engagement with some thought-provoking responses.
-AI COMMENT:
-I appreciate the comprehensive roadmap you've outlined for achieving AI Agent Mastery, Durgaprasad. The progression from basic chatbots to autonomous ecosystems is indeed a journey that requires careful planning and execution. One aspect that caught my attention is the importance of multi-step reasoning and planning at Level 5. How do you envision the integration of explainability and transparency in AI decision-making processes as we move towards more complex agentic ecosystems?
-TEXT:
-Loaded: 23.01%
-Pause
-Back to start
-Current Time 
-0:02/
-Duration 
-1:23
-Unmute
-Fullscreen
-Durgaprasad Budhwani
-10mo
-🚀 The 7 Stages of AI Agent Mastery
- From basic bots to fully autonomous ecosystems — here's the roadmap.
-👶 Level 1: Understand AI Agents
- Start with the basics — chatbots, task agents, and guided tools that simply respond to inputs.
-🧠 Level 2: Prompt Engineering + Role Design
- Go deeper. Design prompts with intent. Give your agent a clear personality and purpose.
-🗂️ Level 3: Memory + Context Handling
- Introduce tools like RAG, Redis, or ChromaDB so your agent can remember, retrieve, and adapt.
-🛠️ Level 4: Tool Use + Action Execution
- Now your AI can act — make API calls, interact with data, and control web interfaces.
-🧩 Level 5: Multi-Step Reasoning + Planning
- Use ReAct, AutoGen, or MetaGPT to let your agent think, plan, and self-correct.
-🤖 Level 6: Multi-Agent Systems
- Create networks of agents with distinct roles that collaborate and coordinate in real time.
-🌐 Level 7: Agentic Ecosystems
- This is the future: autonomous, integrated AI systems that run entire workflows — with monitoring and fail-safes.
-—
-From simple prompt bots to self-running systems — this is the journey to true AI Agent Mastery.
-🔁 Save this post for reference
- 👀 Follow me for more breakdowns like this
-#AI #AIAgents #AgenticAI #ArtificialIntelligence #AutonomousSystems #PromptEngineering #MultiAgentSystems #AutoGPT #ReAct #AutoGen #LangChain #LLMs
-…more
-327
-70 Comments
-Like
-Comment
-Share
-Naveen Puniya
-10mo
-Thanks for sharing
-Like
-Reply
-1 Reaction
-Diwakar Panday
-10mo
-Thanks for sharing
-Like
-Reply
-2 Reactions
-P. Damian Leon
-10mo
-🚨 Durgaprasad Budhwanithanks for shining light here. FYI: Most #AIAgent projects silently crash when the wrong model gets used at the wrong time. I built this lightning-fast 🎥 Video breakdown to help- NO Fluff could save you millions and your reputation!: https://www.linkedin.com/feed/update/urn:li:activity:7355523690433810433/
-Like
-Reply
-1 Reaction
-Sid Vishwakarma
-10mo
-Thanks for sharing
-Like
-Reply
-1 Reaction
-Michael Shafir
-10mo
-personally, i believe mastering prompt engineering (level 2) is the game changer, it's like unlocking a whole new level of AI interaction. what do u think?
-Like
-Reply
-2 Reactions
-Taru Jaiswal
-10mo
-honestly, i think that mastering these stages could really give us an edge in the future workforce. ai is only gonna get bigger
-Like
-Reply
-1 Reaction
-World Longevity & Sustainability Forum Milan
-10mo
-This framework nails it. From basic interaction to orchestration, every stage adds a layer of intelligence.
-Like
-Reply
-1 Reaction
-Anandi Devi
-10mo
-Thanks for sharing it.
-Like
-Reply
-2 Reactions
-Jason Osborn
-10mo
-This roadmap offers a clear path from basic AI bots to advanced autonomous systems. It's exciting to see how each stage builds toward creating smarter, more capable AI agents.
-Like
-Reply
-1 Reaction
-Dr. V Amrutha 🚀👩🏻💻
-10mo
-hmm i wonder if most people actually know about these stages or if they just jump into more complex parts without understanding the basics first. totally agree with starting simple tho
-Like
-Reply
-1 Reaction
-See more comments
 To view or add a comment, sign in
 ================================================================================
 

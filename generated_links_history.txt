@@ -1,16 +1,3 @@
-https://www.linkedin.com/posts/huxaifash_agenticai-softwareengineering-automation-activity-7466834546886520833-lWGm
-https://www.linkedin.com/posts/learnroboticsandai_excited-to-share-some-insights-about-ros-activity-7468194941182046208-FFUA
-https://www.linkedin.com/posts/schaeffler_schaeffler-at-ces-2026-humanoid-robotics-activity-7414746402351820802-XB0q
-https://www.linkedin.com/posts/pandey-dhananjay_industrialautomation-plc-scada-activity-7466835889529331712-VaVW
-https://www.linkedin.com/posts/humanoid-global-holdings-corp_cse-robo-otc-activity-7364280146477899776-ORUB
-https://www.linkedin.com/posts/yinyinphyo29_robotics-ros2-embodiedai-activity-7454937501921832960-dClW
-https://www.linkedin.com/posts/automationnewsmedia_humanoid-robotics-activity-7392580345239535616-iutT
-https://www.linkedin.com/posts/rolandberger_humanoid-robots-roland-berger-activity-7283090175801389058-8tZx
-https://www.linkedin.com/posts/sambhav-agarwal-ba7923324_ros2-robotics-robotcontrol-activity-7424020483618226176-A5_e
-https://www.linkedin.com/posts/enzo-ghisoni-robotics_ros2-robotics-ai-activity-7468269898826170368-cV9l
-https://www.linkedin.com/posts/rockwell-automation-tackles-industry-50-share-7465472327334457346-Hcnh/
-https://www.linkedin.com/posts/humanoid-robotics-technology_sonic-supersizing-motion-tracking-for-natural-activity-7395460576430415872-ZrcG
-=== RUN ===
 https://www.linkedin.com/posts/innovationsandai_physicalai-humanoidrobotics-bostondynamics-activity-7468678023232339968-9PQl
 https://www.linkedin.com/posts/ajitnaidu_ai-agenticai-futureofwork-activity-7337595714610376705-oyUQ
 https://www.linkedin.com/posts/sparvezshaikh_ai-just-shifted-from-chatbots-to-autonomous-activity-7467218897004539904-SOBT
@@ -99,3 +86,10 @@ https://www.linkedin.com/posts/lentinjoseph_ros-ros2-robotics-activity-717389067
 https://www.linkedin.com/posts/youssbm_figure-ai-just-solved-the-sim-to-real-transfer-activity-7419110941415346177-CKER
 https://www.linkedin.com/posts/durgaprasad-budhwani_ai-aiagents-agenticai-activity-7353265039547449346-wPbs
 https://www.linkedin.com/posts/lisa-m-t-8031099b_the-humanoid-robotics-industry-seems-to-be-activity-7468925252790788097-Yaj5
+=== RUN ===
+https://www.linkedin.com/posts/juliazadorozhna_meet-odin-our-new-humanoid-robot-that-activity-7358142104725778433-1C9O
+https://www.linkedin.com/posts/rkallepalli_ai-agents-are-rapidly-moving-from-assistants-activity-7469398882150588416-fExH
+https://www.linkedin.com/posts/anupambagchi_robotics-softwareengineering-ros2-activity-7467674996887195649-KBUq
+https://www.linkedin.com/posts/saurabh-ranjan-54b68474_ai-aiagents-artificialintelligence-activity-7470079638589997056-zAEb
+https://www.linkedin.com/posts/kashaf-noor-196bb6247_agentic-ai-explained-how-autonomous-agents-activity-7468667473962332160-OYiU
+https://www.linkedin.com/posts/abhinandbinu_ros2-nav2-amr-activity-7470766261082456064-ZNOJ
