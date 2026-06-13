@@ -32,11 +32,12 @@ def get_queries(after_date):
     Returns a list of combined search queries with the date filter.
     """
     # Combining keywords into OR queries to minimize physical requests to Google
+    # Appending negative keyword filters to target world-specific/global results
     query_groups = [
-        'robotics OR "humanoid robot" OR "Boston Dynamics"',
-        '"AI robotics" OR "Tesla Optimus" OR "Figure AI"',
-        'ROS2 OR "robot learning" OR "reinforcement learning robotics"',
-        '"industrial automation" OR "robotics engineer"'
+        '(robotics OR "humanoid robot" OR "Boston Dynamics") -India -Bangalore -Bengaluru -Delhi -Mumbai -Pune -Chennai -Noida -Hyderabad -IIT -NIT -IISc',
+        '("AI robotics" OR "Tesla Optimus" OR "Figure AI") -India -Bangalore -Bengaluru -Delhi -Mumbai',
+        '(ROS2 OR "robot learning" OR "reinforcement learning robotics") -India -Bangalore -Bengaluru -Delhi -Mumbai -Pune -IIT -NIT',
+        '("industrial automation" OR "robotics engineer") -India -Bangalore -Bengaluru -Delhi -Mumbai -Pune -Chennai'
     ]
     
     dorks = []

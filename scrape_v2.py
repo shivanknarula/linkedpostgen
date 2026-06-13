@@ -12,6 +12,7 @@ from groq import Groq
 def get_target_profiles():
     # Specific high-profile accounts or companies to track
     return [
+        # --- TOP COMPANIES & ORGANIZATIONS ---
         'https://www.linkedin.com/company/boston-dynamics/',
         'https://www.linkedin.com/company/figure-ai/',
         'https://www.linkedin.com/company/agility-robotics/',
@@ -20,21 +21,130 @@ def get_target_profiles():
         'https://www.linkedin.com/company/1x-technologies/',
         'https://www.linkedin.com/company/sanctuary-ai/',
         'https://www.linkedin.com/company/tesla-motors/',
-        'https://www.linkedin.com/in/lexfridman/',
+        'https://www.linkedin.com/company/physical-intelligence/',
+        'https://www.linkedin.com/company/collaborative-robotics/',
+        'https://www.linkedin.com/company/skild-ai/',
+        'https://www.linkedin.com/company/covariant-ai/',
+        'https://www.linkedin.com/company/kuka-robotics/',
+        'https://www.linkedin.com/company/nvidia/',
+        'https://www.linkedin.com/company/meta/',
+        
+        # --- RESEARCH PIONEERS & ACADEMIC HEAVYWEIGHTS ---
+        'https://www.linkedin.com/in/yann-lecun/',
         'https://www.linkedin.com/in/andrewng/',
-        'https://www.linkedin.com/in/elonmusk/',
+        'https://www.linkedin.com/in/fei-fei-li-66779313/',
         'https://www.linkedin.com/in/demishassabis/',
-        'https://www.linkedin.com/in/yann-lecun/'
+        'https://www.linkedin.com/in/anima-anandkumar-b413008/',
+        'https://www.linkedin.com/in/ilya-sutskever/',
+        'https://www.linkedin.com/in/thrun/',
+        'https://www.linkedin.com/in/jeff-dean-5056/',
+        'https://www.linkedin.com/in/j%C3%BCrgen-schmidhuber-441634b/',
+        'https://www.linkedin.com/in/ruslan-salakhutdinov-9069a5b/',
+        'https://www.linkedin.com/in/christopher-manning-02b488b/',
+        'https://www.linkedin.com/in/kozyrkov/',
+        'https://www.linkedin.com/in/aidangomez/',
+        'https://www.linkedin.com/in/noam-shazeer-464879/',
+        'https://www.linkedin.com/in/socher/',
+        'https://www.linkedin.com/in/daphne-koller-17215/',
+        'https://www.linkedin.com/in/percy-liang-22a846b/',
+        'https://www.linkedin.com/in/joelle-pineau-1b07297/',
+        'https://www.linkedin.com/in/raquel-urtasun-995775b/',
+        'https://www.linkedin.com/in/david-silver-8bb84b/',
+        'https://www.linkedin.com/in/oriolvinyals/',
+        'https://www.linkedin.com/in/dario-amodei-3a216a4/',
+        
+        # --- ROBOTICS & EMBODIED AI VISIONARIES ---
+        'https://www.linkedin.com/in/brettadcock/',
+        'https://www.linkedin.com/in/geordierose/',
+        'https://www.linkedin.com/in/meloneewise/',
+        'https://www.linkedin.com/in/chris-anderson-8958221/',
+        'https://www.linkedin.com/in/berntbornich/',
+        'https://www.linkedin.com/in/jonathan-hurst-385a49b/',
+        'https://www.linkedin.com/in/pathakdeepak/',
+        'https://www.linkedin.com/in/sangbae-kim-1122a27/',
+        'https://www.linkedin.com/in/rodney-brooks-11488b3/',
+        'https://www.linkedin.com/in/gill-pratt-58a478b/',
+        'https://www.linkedin.com/in/raulbravo/',
+        'https://www.linkedin.com/in/daniela-rus-637996/',
+        'https://www.linkedin.com/in/ken-goldberg-8bb657/',
+        'https://www.linkedin.com/in/aaron-saunders-b84492/',
+        'https://www.linkedin.com/in/jameskuffner/',
+        'https://www.linkedin.com/in/prasv/',
+        'https://www.linkedin.com/in/ayanna-howard/',
+        'https://www.linkedin.com/in/raffaello-d-andrea-a745771/',
+        'https://www.linkedin.com/in/russ-tedrake-0a4a625/',
+        'https://www.linkedin.com/in/drdavidhanson/',
+        'https://www.linkedin.com/in/dennis-hong-b6a6042b/',
+        'https://www.linkedin.com/in/aude-billard-a447814/',
+        'https://www.linkedin.com/in/sanjivsingh/',
+        'https://www.linkedin.com/in/robplayter/',
+        
+        # --- AI FOUNDERS, CEOS & INDUSTRY LEADERS ---
+        'https://www.linkedin.com/in/samaltman/',
+        'https://www.linkedin.com/in/gdbrockman/',
+        'https://www.linkedin.com/in/mustafa-suleyman/',
+        'https://www.linkedin.com/in/rene-haas-5883261/',
+        'https://www.linkedin.com/in/clementdelangue/',
+        'https://www.linkedin.com/in/elonmusk/',
+        'https://www.linkedin.com/in/lexfridman/',
+        'https://www.linkedin.com/in/reidhoffman/',
+        'https://www.linkedin.com/in/alexandrwang/',
+        'https://www.linkedin.com/in/aravind-srinivas/',
+        'https://www.linkedin.com/in/emadmostaque/',
+        'https://www.linkedin.com/in/thomasdohmke/',
+        'https://www.linkedin.com/in/alighodsi/',
+        'https://www.linkedin.com/in/dharmesh/',
+        'https://www.linkedin.com/in/aaronlevie/',
+        'https://www.linkedin.com/in/tomasztunguz/',
+        'https://www.linkedin.com/in/vinodkhosla/',
+        'https://www.linkedin.com/in/billgross/',
+        'https://www.linkedin.com/in/amitabh-nag-a5b678/',
+        'https://www.linkedin.com/in/nandan-nilekani/',
+        'https://www.linkedin.com/in/kaifulee/',
+        'https://www.linkedin.com/in/feldmanandrew/',
+        'https://www.linkedin.com/in/tobiaslutke/',
+        'https://www.linkedin.com/in/patrickcollison/',
+        'https://www.linkedin.com/in/satyanadella/',
+        'https://www.linkedin.com/in/sundarpichai/',
+        
+        # --- LINKEDIN AI CREATORS & THOUGHT LEADERS ---
+        'https://www.linkedin.com/in/stevenouri/',
+        'https://www.linkedin.com/in/emollick/',
+        'https://www.linkedin.com/in/alliekmiller/',
+        'https://www.linkedin.com/in/pascalbornet/',
+        'https://www.linkedin.com/in/bernardmarr/',
+        'https://www.linkedin.com/in/ronald-van-loon-597b38/',
+        'https://www.linkedin.com/in/kashyapkompella/',
+        'https://www.linkedin.com/in/noellerussell/',
+        'https://www.linkedin.com/in/andreaspwelsch/',
+        'https://www.linkedin.com/in/markvanrijmenam/',
+        'https://www.linkedin.com/in/lizasadams/',
+        'https://www.linkedin.com/in/kateoneill/',
+        'https://www.linkedin.com/in/bentaylordata/',
+        'https://www.linkedin.com/in/azeemazhar/',
+        'https://www.linkedin.com/in/nathanbenaich/',
+        'https://www.linkedin.com/in/matt-wolfe-ai/',
+        'https://www.linkedin.com/in/rowancheung/',
+        'https://www.linkedin.com/in/linusekenstam/',
+        'https://www.linkedin.com/in/bentossell/',
+        'https://www.linkedin.com/in/mattschlicht/',
+        'https://www.linkedin.com/in/ganeskesari/',
+        'https://www.linkedin.com/in/miteshk/',
+        'https://www.linkedin.com/in/pratyush-kumar-b2b930b/',
+        'https://www.linkedin.com/in/vijay-janapa-reddi-0857997/',
+        'https://www.linkedin.com/in/rama-akkiraju-308119/',
+        'https://www.linkedin.com/in/andrej-karpathy-a3a89a19/',
+        'https://www.linkedin.com/in/linxi-fan-7a242a37/'
     ]
 
 def get_queries():
-    # Focused keywords for LinkedIn search as fallback
+    # Focused keywords for LinkedIn search as fallback with negative constraints to filter out Indian localized posts
     return [
-        'robotics "humanoid"',
-        '"Boston Dynamics" OR "Figure AI"',
-        'ROS2 "robot learning"',
-        '"industrial automation" robotics',
-        '"AI agents" OR "autonomous systems"'
+        'robotics "humanoid" -India -Bangalore -Bengaluru -Delhi -Mumbai -Pune -Chennai -Noida -Hyderabad -IIT -NIT -IISc',
+        '"Boston Dynamics" OR "Figure AI" -India -Bangalore -Bengaluru -Delhi -Mumbai',
+        'ROS2 "robot learning" -India -Bangalore -Bengaluru -Delhi -Mumbai -Pune -IIT -NIT',
+        '"industrial automation" robotics -India -Bangalore -Bengaluru -Delhi -Mumbai -Pune -Chennai',
+        '"AI agents" OR "autonomous systems" -India -Bangalore -Bengaluru -Delhi -Mumbai'
     ]
 
 HISTORY_FILE = "generated_links_history.txt"
@@ -245,12 +355,12 @@ def find_urls_via_public_search_fallback(p, queries, history_set, limit=50):
         if len(urls) >= limit:
             break
             
-        search_query = f'site:linkedin.com/posts "{q}"'
+        search_query = f'site:linkedin.com/posts {q}'
         encoded_query = urllib.parse.quote(search_query)
-        # Yahoo Search uses parameter 'p' instead of 'q'
-        yahoo_url = f"https://search.yahoo.com/search?p={encoded_query}"
+        # Force Yahoo US search with region/country parameters
+        yahoo_url = f"https://us.search.yahoo.com/search?p={encoded_query}&cc=us&vc=us"
         
-        print(f" -> Searching Yahoo Search: {search_query}")
+        print(f" -> Searching Yahoo US Search: {search_query}")
         try:
             page.goto(yahoo_url, timeout=30000)
             page.wait_for_timeout(3000)
@@ -387,12 +497,15 @@ def generate_ai_comment_and_score(post_text):
     try:
         client = Groq(api_key=api_key)
         prompt = (
-            "You are an expert Robotics Engineer and Startup Founder looking to build high-quality network on LinkedIn. "
-            "You are reviewing the following LinkedIn post. Your goal is to determine if the post is worth commenting on to build authority, and if so, draft the perfect comment.\n\n"
+            "You are an expert Robotics Engineer and Startup Founder looking to build a high-quality global network on LinkedIn. "
+            "You are reviewing the following LinkedIn post. Your goal is to determine if the post is worth commenting on to build authority globally, and if so, draft the perfect comment.\n\n"
+            "GLOBAL TARGETING FILTER:\n"
+            "We want ONLY global, world-specific robotics/AI posts (e.g., breakthrough research, global product releases, major industry announcements, thought leadership on global trends). "
+            "If the post is highly localized to a specific region or country (especially India, e.g., local college projects, local/regional events, announcements from local Indian firms, or posts featuring regional Indian academic institutes like IIT, NIT, etc.), you MUST score it low (1-4) and set the reasoning to 'Localized/India-specific post'. Do not generate comments for these posts.\n\n"
             "STEP 1: SCORE\n"
             "Rate the 'Commentability' of this post from 1 to 10.\n"
-            "- 1-4 (Low): Generic PR, hiring posts, shallow memes. Hard to add value.\n"
-            "- 5-7 (Medium): Standard industry news. You can add a decent thought.\n"
+            "- 1-4 (Low): Generic PR, localized/regional content, hiring posts, shallow memes, or posts hard to add global value to.\n"
+            "- 5-7 (Medium): Standard global industry news. You can add a decent thought.\n"
             "- 8-10 (High): Thought leadership, controversial takes, deep technical discussions, or posts by major figures where a smart comment will get high visibility.\n\n"
             "STEP 2: COMMENT\n"
             "If the score is 6 or higher, write a high-value comment. The comment MUST follow this framework:\n"
