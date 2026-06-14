@@ -469,6 +469,46 @@
             box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
         }
 
+        /* Category Tabs Styling */
+        .category-tabs {
+            display: flex;
+            background: rgba(0, 0, 0, 0.25);
+            padding: 0.3rem;
+            border-radius: 12px;
+            border: 1px solid var(--border-glass);
+            gap: 0.3rem;
+            margin-bottom: 1.5rem;
+            max-width: 450px;
+        }
+
+        .category-tab {
+            flex: 1;
+            padding: 0.65rem 1.25rem;
+            border-radius: 9px;
+            border: none;
+            background: transparent;
+            color: var(--text-secondary);
+            font-size: 0.88rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .category-tab:hover {
+            color: var(--text-primary);
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .category-tab.active {
+            background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-violet) 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.35);
+        }
+
         /* Table & Lists layout */
         .table-wrapper {
             overflow-x: auto;
@@ -797,6 +837,18 @@
 
         <!-- Scrapes Result Panel -->
         <section class="glass-card results-card">
+            <!-- Category Tabs Selector -->
+            <div class="category-tabs">
+                <button class="category-tab active" onclick="setCategory('global', this)">
+                    <i data-lucide="globe" style="width: 15px; height: 15px; display: inline-block; vertical-align: middle; margin-right: 0.35rem;"></i>
+                    <span>Global Network</span>
+                </button>
+                <button class="category-tab" onclick="setCategory('chinese', this)">
+                    <i data-lucide="languages" style="width: 15px; height: 15px; display: inline-block; vertical-align: middle; margin-right: 0.35rem;"></i>
+                    <span>Chinese Influencers</span>
+                </button>
+            </div>
+
             <div class="results-toolbar">
                 <div class="search-container">
                     <i data-lucide="search" class="search-icon"></i>
@@ -880,6 +932,7 @@
         // Global variables
         let rawData = [];
         let currentFilter = 'all';
+        let currentCategory = 'global';
         let logInterval = null;
         let activeRowIndex = null;
         let editingRowId = null;
@@ -916,12 +969,17 @@
 
         // Renders statistics based on fetched entries
         function calculateStats() {
-            const total = rawData.length;
-            const highValue = rawData.filter(item => (parseInt(item.score) || 0) >= 8).length;
+            const categoryData = rawData.filter(item => {
+                const cat = (item.category || 'global').toLowerCase();
+                return cat === currentCategory;
+            });
+            
+            const total = categoryData.length;
+            const highValue = categoryData.filter(item => (parseInt(item.score) || 0) >= 8).length;
             
             let totalScore = 0;
             let countWithScore = 0;
-            rawData.forEach(item => {
+            categoryData.forEach(item => {
                 const score = parseInt(item.score);
                 if (!isNaN(score)) {
                     totalScore += score;
@@ -957,8 +1015,11 @@
 
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
             
-            // Filter by Score & Search queries
+            // Filter by Category, Score & Search queries
             let filtered = rawData.filter(item => {
+                const cat = (item.category || 'global').toLowerCase();
+                if (cat !== currentCategory) return false;
+
                 const score = parseInt(item.score) || 0;
                 
                 // Filter tab match
@@ -1074,6 +1135,20 @@
             btnElement.classList.add('active');
 
             renderTable();
+        }
+
+        function setCategory(categoryType, btnElement) {
+            currentCategory = categoryType;
+            
+            // Toggle active state in category buttons
+            const tabs = btnElement.parentElement.children;
+            for (let t of tabs) {
+                t.classList.remove('active');
+            }
+            btnElement.classList.add('active');
+
+            renderTable();
+            calculateStats();
         }
 
         function filterResults() {

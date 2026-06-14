@@ -137,6 +137,16 @@ def get_target_profiles():
         'https://www.linkedin.com/in/linxi-fan-7a242a37/'
     ]
 
+def get_chinese_target_profiles():
+    # Specific high-profile accounts or companies for Chinese AI & Robotics
+    return [
+        'https://cn.linkedin.com/in/kaifulee/',
+        'https://www.linkedin.com/company/unitree/',
+        'https://www.linkedin.com/company/ubtech-robotics/',
+        'https://www.linkedin.com/company/sensetime/',
+        'https://www.linkedin.com/company/megvii-technology/'
+    ]
+
 def get_queries():
     # Focused keywords for LinkedIn search as fallback with negative constraints to filter out Indian localized posts
     return [
@@ -145,6 +155,21 @@ def get_queries():
         'ROS2 "robot learning" -India -Bangalore -Bengaluru -Delhi -Mumbai -Pune -IIT -NIT',
         '"industrial automation" robotics -India -Bangalore -Bengaluru -Delhi -Mumbai -Pune -Chennai',
         '"AI agents" OR "autonomous systems" -India -Bangalore -Bengaluru -Delhi -Mumbai'
+    ]
+
+def get_chinese_queries():
+    # Focused keywords for Chinese AI & Robotics influencers and companies, targeting global achievements
+    return [
+        '("Kai-Fu Lee" OR "01.AI" OR "Sinovation") -India',
+        '("Robin Li" OR "Baidu" OR "Wang Haifeng") -India',
+        '("Wang Xingxing" OR "Unitree" OR "Zhou Jian" OR "UBTECH") -India',
+        '("He Xiaopeng" OR "XPENG Robotics" OR "Peng Zhihui" OR "AGIBOT") -India',
+        '("Xu Li" OR "Tang Xiao\'ou" OR "SenseTime" OR "Yin Qi" OR "Megvii") -India',
+        '("Yu Kai" OR "Horizon Robotics" OR "Tony Han" OR "WeRide" OR "James Peng" OR "Pony.ai") -India',
+        '("Zhang Peng" OR "Zhipu AI" OR "Liang Wenfeng" OR "DeepSeek" OR "Yang Zhilin" OR "Moonshot AI") -India',
+        '("Li Xiang" OR "Li Auto" OR "William Li" OR "NIO" OR "Zhou Hongyi" OR "360 Group") -India',
+        '("Richard Liu" OR "JD.com" OR "Xu Zhijun" OR "Meng Wanzhou" OR "Huawei") -India',
+        '("Dr. Leo Wang" OR "Geek+" OR "Nicolas Chee" OR "ForwardX" OR "Tiancheng Lou" OR "AUBO") -India'
     ]
 
 HISTORY_FILE = "generated_links_history.txt"
@@ -203,7 +228,7 @@ def update_history(new_urls):
 import urllib.parse
 
     
-def find_urls_via_linkedin(p, queries, history_set, limit=50, state_file="session.json"):
+def find_urls_via_linkedin(p, target_profiles, queries, history_set, limit=50, state_file="session.json"):
     """
     Uses Playwright to search LinkedIn directly using session.
     """
@@ -235,7 +260,7 @@ def find_urls_via_linkedin(p, queries, history_set, limit=50, state_file="sessio
         return []
     
     # Phase 1: High-Value Discovery (Target Specific Profiles First)
-    target_profiles = get_target_profiles()
+    # target_profiles is passed as a parameter now
     print(f"[*] Discovery Phase: Checking {len(target_profiles)} Target Profiles...")
     
     for profile_url in target_profiles:
@@ -550,13 +575,14 @@ def save_to_file(posts, filename="robotics_posts.txt"):
             f.write(f"DATE: {p['date']}\n")
             f.write(f"METRICS: {p.get('likes', '0')} Likes, {p.get('comments', '0')} Comments\n")
             f.write(f"SCORE: {p.get('score', '0')}/10 - {p.get('reasoning', '')}\n")
+            f.write(f"CATEGORY: {p.get('category', 'global')}\n")
             f.write(f"AI COMMENT:\n{p.get('comment', 'N/A')}\n")
             f.write("TEXT:\n")
             f.write(p['text'])
             f.write("\n" + "="*80 + "\n\n")
 
 def save_to_csv(posts, filename="robotics_posts.csv"):
-    keys = ['url', 'date', 'score', 'reasoning', 'comment', 'likes', 'comments', 'text']
+    keys = ['url', 'date', 'score', 'reasoning', 'comment', 'likes', 'comments', 'text', 'category']
 
     # FIX: Merge with existing CSV so posts accumulate across runs instead of being overwritten
     existing_rows = {}
@@ -610,19 +636,36 @@ def main():
         all_urls = set()
         queries = get_queries()
         
-        all_urls = set()
-        queries = get_queries()
-        
         # Discovery Phase
         history = load_history()
         print(f"[*] Loaded {len(history)} links from history.")
         
-        candidates = find_urls_via_linkedin(p, queries, history, limit=args.limit)
-        
-        if not candidates:
-            print("[!] LinkedIn login search returned 0 candidates. Triggering Yahoo Search fallback...")
-            candidates = find_urls_via_public_search_fallback(p, queries, history, limit=args.limit)
+        # 1. Global Discovery
+        global_queries = get_queries()
+        global_profiles = get_target_profiles()
+        print("[*] Starting discovery for GLOBAL network...")
+        global_candidates = find_urls_via_linkedin(p, global_profiles, global_queries, history, limit=args.limit)
+        if not global_candidates:
+            print("[!] LinkedIn login search returned 0 global candidates. Triggering Yahoo Search fallback...")
+            global_candidates = find_urls_via_public_search_fallback(p, global_queries, history, limit=args.limit)
             
+        # 2. Chinese Discovery
+        chinese_queries = get_chinese_queries()
+        chinese_profiles = get_chinese_target_profiles()
+        print("[*] Starting discovery for CHINESE influencers...")
+        chinese_candidates = find_urls_via_linkedin(p, chinese_profiles, chinese_queries, history, limit=args.limit)
+        if not chinese_candidates:
+            print("[!] LinkedIn login search returned 0 Chinese candidates. Triggering Yahoo Search fallback...")
+            chinese_candidates = find_urls_via_public_search_fallback(p, chinese_queries, history, limit=args.limit)
+
+        # Merge candidates with categories
+        candidates = []
+        for url in global_candidates:
+            candidates.append({'url': url, 'category': 'global'})
+        for url in chinese_candidates:
+            if not any(c['url'] == url for c in candidates):
+                candidates.append({'url': url, 'category': 'chinese'})
+                
         if candidates:
             print(f"[*] Total unique new candidates: {len(candidates)}")
             
@@ -631,7 +674,7 @@ def main():
             try:
                 with open(CSV_FILE, "w", encoding="utf-8", newline="") as f:
                     writer = csv.writer(f)
-                    writer.writerow(['url', 'date', 'score', 'reasoning', 'comment', 'likes', 'comments', 'text'])
+                    writer.writerow(['url', 'date', 'score', 'reasoning', 'comment', 'likes', 'comments', 'text', 'category'])
                 print(f"[*] Initialized fresh {CSV_FILE} for this run.")
             except Exception as e:
                 print(f"    ! Could not initialize CSV: {e}")
@@ -656,8 +699,10 @@ def main():
                 )
             page = context.new_page()
             
-            for i, url in enumerate(candidates):
-                print(f" [{i+1}/{len(candidates)}] Processing: {url}")
+            for i, cand in enumerate(candidates):
+                url = cand['url']
+                category = cand['category']
+                print(f" [{i+1}/{len(candidates)}] Processing: {url} ({category})")
                 post = extract_single_post(page, url)
                 
                 if post and post['text']:
@@ -666,6 +711,7 @@ def main():
                     post['score'] = analysis['score']
                     post['reasoning'] = analysis['reasoning']
                     post['comment'] = analysis['comment']
+                    post['category'] = category
                     
                     analyzed_posts.append(post)
                     
