@@ -759,7 +759,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/weride.ai/recent-activity/all/",
+            "url": "https://www.linkedin.com/company/werideai/recent-activity/all/",
             "date": "2026-05-26",
             "score": "8",
             "reasoning": "WeRide CEO sharing commercial robotaxi deployment updates in Guangzhou and global markets.",
