@@ -469,6 +469,46 @@
             box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
         }
 
+        /* Category Tabs Styling */
+        .category-tabs {
+            display: flex;
+            background: rgba(0, 0, 0, 0.25);
+            padding: 0.3rem;
+            border-radius: 12px;
+            border: 1px solid var(--border-glass);
+            gap: 0.3rem;
+            margin-bottom: 1.5rem;
+            max-width: 450px;
+        }
+
+        .category-tab {
+            flex: 1;
+            padding: 0.65rem 1.25rem;
+            border-radius: 9px;
+            border: none;
+            background: transparent;
+            color: var(--text-secondary);
+            font-size: 0.88rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .category-tab:hover {
+            color: var(--text-primary);
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .category-tab.active {
+            background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-violet) 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.35);
+        }
+
         /* Table & Lists layout */
         .table-wrapper {
             overflow-x: auto;
@@ -797,6 +837,18 @@
 
         <!-- Scrapes Result Panel -->
         <section class="glass-card results-card">
+            <!-- Category Tabs Selector -->
+            <div class="category-tabs">
+                <button class="category-tab active" onclick="setCategory('global', this)">
+                    <i data-lucide="globe" style="width: 15px; height: 15px; display: inline-block; vertical-align: middle; margin-right: 0.35rem;"></i>
+                    <span>Global Network</span>
+                </button>
+                <button class="category-tab" onclick="setCategory('chinese', this)">
+                    <i data-lucide="languages" style="width: 15px; height: 15px; display: inline-block; vertical-align: middle; margin-right: 0.35rem;"></i>
+                    <span>Chinese Influencers</span>
+                </button>
+            </div>
+
             <div class="results-toolbar">
                 <div class="search-container">
                     <i data-lucide="search" class="search-icon"></i>
@@ -880,6 +932,7 @@
         // Global variables
         let rawData = [];
         let currentFilter = 'all';
+        let currentCategory = 'global';
         let logInterval = null;
         let activeRowIndex = null;
         let editingRowId = null;
@@ -898,7 +951,7 @@
         // Fetch entries from Flask or direct raw GitHub data
         async function loadResults() {
             try {
-                const response = await fetch('/api/results?_t=' + Date.now());
+                const response = await fetch('/api/results');
                 const data = await response.json();
                 
                 if (data.status === 'success' && data.data) {
@@ -916,12 +969,17 @@
 
         // Renders statistics based on fetched entries
         function calculateStats() {
-            const total = rawData.length;
-            const highValue = rawData.filter(item => (parseInt(item.score) || 0) >= 8).length;
+            const categoryData = rawData.filter(item => {
+                const cat = (item.category || 'global').toLowerCase();
+                return cat === currentCategory;
+            });
+            
+            const total = categoryData.length;
+            const highValue = categoryData.filter(item => (parseInt(item.score) || 0) >= 8).length;
             
             let totalScore = 0;
             let countWithScore = 0;
-            rawData.forEach(item => {
+            categoryData.forEach(item => {
                 const score = parseInt(item.score);
                 if (!isNaN(score)) {
                     totalScore += score;
@@ -957,8 +1015,11 @@
 
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
             
-            // Filter by Score & Search queries
+            // Filter by Category, Score & Search queries
             let filtered = rawData.filter(item => {
+                const cat = (item.category || 'global').toLowerCase();
+                if (cat !== currentCategory) return false;
+
                 const score = parseInt(item.score) || 0;
                 
                 // Filter tab match
@@ -1076,6 +1137,20 @@
             renderTable();
         }
 
+        function setCategory(categoryType, btnElement) {
+            currentCategory = categoryType;
+            
+            // Toggle active state in category buttons
+            const tabs = btnElement.parentElement.children;
+            for (let t of tabs) {
+                t.classList.remove('active');
+            }
+            btnElement.classList.add('active');
+
+            renderTable();
+            calculateStats();
+        }
+
         function filterResults() {
             renderTable();
         }
@@ -1102,88 +1177,12 @@
             });
         }
 
-        function showToast(message = "Copied to Clipboard!", icon = "check-circle", isSuccess = true) {
+        function showToast() {
             const toast = document.getElementById('copyToast');
-            toast.innerHTML = `<i data-lucide="${icon}" style="width: 18px; height: 18px;"></i> <span>${message}</span>`;
-            if (!isSuccess) {
-                toast.style.background = 'var(--danger)';
-                toast.style.boxShadow = '0 8px 24px rgba(239, 68, 68, 0.35)';
-            } else {
-                toast.style.background = 'var(--success)';
-                toast.style.boxShadow = '0 8px 24px rgba(16, 185, 129, 0.35)';
-            }
             toast.classList.add('show');
-            lucide.createIcons();
             setTimeout(() => {
                 toast.classList.remove('show');
             }, 3000);
-        }
-
-        function closeOverlay() {
-            document.getElementById('loadingOverlay').style.display = 'none';
-        }
-
-        let vercelPollInterval = null;
-        function startVercelBackgroundPolling(btn) {
-            if (vercelPollInterval) clearInterval(vercelPollInterval);
-            
-            const originalDataString = JSON.stringify(rawData);
-            let pollCount = 0;
-            const maxPolls = 24; // 24 * 10 seconds = 4 minutes timeout
-            
-            // Set button to active background scanning state
-            btn.disabled = true;
-            btn.innerHTML = '<i data-lucide="compass" style="animation: spin-clockwise 2s linear infinite; width: 16px; height: 16px; display: inline-block;"></i> Scanning...';
-            btn.style.opacity = '0.75';
-            btn.style.boxShadow = '0 0 15px rgba(59, 130, 246, 0.3)';
-            lucide.createIcons();
-            
-            vercelPollInterval = setInterval(async () => {
-                pollCount++;
-                try {
-                    const response = await fetch('/api/results?_t=' + Date.now());
-                    const data = await response.json();
-                    
-                    if (data.status === 'success' && data.data) {
-                        const newDataString = JSON.stringify(data.data);
-                        if (newDataString !== originalDataString) {
-                            // Data has changed!
-                            clearInterval(vercelPollInterval);
-                            vercelPollInterval = null;
-                            
-                            rawData = data.data;
-                            renderTable();
-                            calculateStats();
-                            
-                            // Reset button
-                            btn.disabled = false;
-                            btn.innerHTML = '<i data-lucide="play" style="width: 18px; height: 18px;"></i> <span>Scan Robotics Network</span>';
-                            btn.style.opacity = '';
-                            btn.style.boxShadow = '';
-                            lucide.createIcons();
-                            
-                            showToast("Scan Complete! Discovered fresh robotics posts.", "check-circle", true);
-                            return;
-                        }
-                    }
-                } catch (e) {
-                    console.error("Vercel background poll error:", e);
-                }
-                
-                if (pollCount >= maxPolls) {
-                    // Timeout
-                    clearInterval(vercelPollInterval);
-                    vercelPollInterval = null;
-                    
-                    btn.disabled = false;
-                    btn.innerHTML = '<i data-lucide="play" style="width: 18px; height: 18px;"></i> <span>Scan Robotics Network</span>';
-                    btn.style.opacity = '';
-                    btn.style.boxShadow = '';
-                    lucide.createIcons();
-                    
-                    showToast("Scan completed in background. Check results above.", "info", true);
-                }
-            }, 10000); // Poll every 10 seconds
         }
 
         // Modal Editor actions
@@ -1210,6 +1209,10 @@
                 document.getElementById(`draft-${activeRowIndex}`).innerText = newValue;
             }
             closeEditor();
+        }
+
+        function closeOverlay() {
+            document.getElementById('loadingOverlay').style.display = 'none';
         }
 
         // Core Scraper controller: handles local logs polling vs cloud dispatching
@@ -1279,16 +1282,10 @@
                         overlayTitle.innerText = "🚀 Cloud Agent Triggered!";
                         overlayDesc.innerHTML = `
                             The scraping worker has been successfully triggered on your <strong>GitHub Actions</strong> workflow.<br><br>
-                            It will run silently in the background (~2 minutes). You can close this dialog; your page will automatically refresh as soon as new leads are ready!
+                            It will run silently in the background (takes ~3 minutes). Once complete, Vercel will automatically redeploy your site with the fresh results.<br><br>
+                            You can check the build progress in your GitHub repo's <strong>Actions</strong> tab.
                         `;
                         closeBtn.style.display = 'inline-block';
-                        
-                        // Auto-close the overlay modal after 2 seconds so the user isn't blocked
-                        setTimeout(() => {
-                            closeOverlay();
-                        }, 2000);
-
-                        startVercelBackgroundPolling(btn);
                     } else {
                         throw new Error(data.message || "Could not trigger GitHub Workflow");
                     }
@@ -1296,8 +1293,7 @@
                     overlayTitle.innerText = "❌ Trigger Failed";
                     overlayDesc.innerText = error.message;
                     closeBtn.style.display = 'inline-block';
-                    
-                    // Reset button only on failure
+                } finally {
                     btn.disabled = false;
                     btn.innerHTML = '<i data-lucide="play" style="width: 18px; height: 18px;"></i> <span>Scan Robotics Network</span>';
                     lucide.createIcons();
@@ -1313,7 +1309,7 @@
 
             logInterval = setInterval(async () => {
                 try {
-                    const response = await fetch('/api/scrape/status?_t=' + Date.now());
+                    const response = await fetch('/api/scrape/status');
                     const data = await response.json();
                     
                     if (data.status === 'success') {
@@ -1325,9 +1321,6 @@
                             
                             // Autoscroll terminal
                             terminalLog.scrollTop = terminalLog.scrollHeight;
-                            
-                            // Real-time results update as logs stream in!
-                            loadResults();
                         }
                         
                         // Check if process finished
