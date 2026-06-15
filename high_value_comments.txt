@@ -1,753 +1,511 @@
-LINK: https://www.linkedin.com/posts/grishinrobotics_startups-rhoda-ai-and-genesis-ai-are-building-activity-7384182504351547392-0dNH
+LINK: https://www.linkedin.com/posts/arcon-risk-control_arcon-ai-aiagents-activity-7471169448146599936-7yX3
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - High-value thought leadership post on global robotics trends with insightful analysis
+SCORE: 8/10 - The post discusses global AI trends, security concerns, and the importance of governing AI agents, making it a high-value topic for global robotics/AI discussions
 CATEGORY: global
 AI COMMENT:
-Excellent analysis of the shifting landscape in humanoid robotics, highlighting the strategic focus on near-term utility and risk mitigation. The comparison between Rhoda AI's and Genesis AI's approaches underscores the ongoing debate on the efficacy of wheeled versus bipedal designs. As we consider the future of factory floors, what do you think will be the tipping point for bipedal robots to overcome the current limitations in balance, dexterity, and cost, and thus achieve widespread adoption?
+I completely agree that as AI agents become smarter, organizations must prioritize security and governance. The point about redefining privilege in the AI world is particularly insightful. What do you think is the most critical step organizations can take to ensure accountability and security in their AI systems, and how can we balance the need for autonomy with the need for control?
 TEXT:
-Grishin Robotics
-25,869 followers
-8mo
-Two stealth humanoid plays just surfaced with $100M+ each: Rhoda AI ($162.6M Series A, April 2025) and Genesis AI ($105M seed). Both are chasing "general-purpose" manipulation-Rhoda aiming beyond 23 kg (50 lb) lift where many biped bots wobble; Genesis opting for a wheeled base and software-first control.
-Why it matters: the money is following deployment paths that reduce risk. Figure just locked $1B (Series C) at a $39B post-capital to turn pilots into production lines. Meanwhile, Tesla's Optimus push keeps meeting real-world constraints, from rare-earth magnet export licensing to manufacturing bottlenecks. The signal: investors want near-term utility while the hardest biped problems get worked out.
-What we're watching on factory floors in 2026: wheels vs. legs. A wheeled, two-arm unit can unload 25–35 kg cartons at inbound docks today, with simpler safety envelopes and service economics. True bipeds promise reach and human-scale ergonomics-but need reliable balance under load, dexterous hands, and cheaper actuation to win TCO.
-https://lnkd.in/gYEFenqp
-Startups Rhoda AI And Genesis AI Are Building Humanoid Robots In Stealth
-social-www.forbes.com
-3
-1 Comment
-Like
-Comment
-Share
-YZ-RA
-3d
-Great analysis on the recent developments in humanoid robotics, particularly the contrasting approaches of Rhoda AI and Genesis AI. The emphasis on near-term utility and risk reduction is well-taken, and the comparison between wheeled and bipedal designs is crucial for determining the optimal deployment paths. ..
-Like
-Reply
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/wsj-leadership-institute_wsj-wsjceo-ai-activity-7470449909851197441-r6i5
-DATE: 2026-06-15
-METRICS: 0 Likes, 0 Comments
-SCORE: 9/10 - Global thought leadership on AI trends and industry insights from a prominent figure
-CATEGORY: chinese
-AI COMMENT:
-Kai-Fu Lee's perspective on the AI race highlights the nuances of comparing models, enterprise adoption, and consumer applications between the US and China. The analogy of American companies being like individual geniuses and Chinese companies being like a study group is particularly insightful. What do you think will be the tipping point for Chinese enterprises to shift towards annual or per-use software spending, and how will this impact the global AI landscape?
-TEXT:
-Loaded: 30.76%
+Loaded: 9.99%
 Pause
 Back to start
 Current Time 
 0:01/
 Duration 
-3:46
+2:54
 Show Captions
 Unmute
 Fullscreen
-WSJ Leadership Institute
-13,861 followers
-4d  Edited
-Who is really winning the AI race? 
-At the WSJ Leadership Institute CEO Summit in London, Kai-Fu Lee CEO of 01.AI and Chairman of Sinovation Ventures, joins WSJ Leadership Institute President Alan Murray to explain why the answer depends on whether you're talking about models, enterprise adoption, consumer applications, robotics or the next generation of AI-powered devices.
-Watch the full conversation: https://lnkd.in/et8Uj628
-#WSJ #WSJCEO #AI
+ARCON
+42,957 followers
+2d
+As AI Agents become smarter, organizations must become more secure.
+The rapid adoption of AI-powered assistants, autonomous workflows, and intelligent automation is creating new opportunities for businesses—but also new risks.
+How should organizations govern AI Agents? What level of access should they have? And how can enterprises maintain accountability as machine-driven decision-making expands?
+Watch the snippet below on the rise of AI Agents and the importance of securing the next generation of digital identities.
+Watch the full podcast on YouTube:
+https://lnkd.in/d-Andrgw
+#ARCON #AI #AIAgents #IAM #CyberSec #EnterpriseAI #MachineIdentity 
 …more
-3
+7
 Like
 Comment
 Share
 Transcript
 Transcript
-Were largely the two countries are in parallel universes, so the companies don't really compete. If you're in the US, you don't tend to use Chinese models and vice versa. But just to kind of compare the quality and the business models. I would say that purely large language model with Claude's new release, I think it's now around 15 months ahead of 15 months that that anything China can build is is really Fable 5 is really pretty amazing. That fluctuates, right? Last March it was three months with Deep Sea V3 coming out. So that's gonna sort of ohh, 1 coming out, R1 coming out, too many numbers. But so it's gonna go back and forth anywhere between 3 to 15 months, it's gonna fluctuate. So the the American approach is, you know, each one of the top three companies is like a genius who wants to win the Nobel Prize. The Chinese companies are like a bunch of smart kids who formed the study group. They still compete. In the class, but they're sort of share a bit with each other through open source. So amazingly, China has become the open and US has become closed. So they both deserve a place. If you want on premise implementation, you'll want an open source model. If you want the very best, you'll want one of the top American models. If you don't need the very best and one to save some money, the Chinese models can suffice. So that's the model status in terms of enterprise adoption and generating. Huge amounts of money for Anthropic in particular that is a matched in China. There are way ahead in that. A lot of reasons China will eventually improve, but now it's it's quite difficult to get that kind of enterprise spending even though I work there and people listen to me. Why? Enterprises just haven't got used to paying annually for software or on the per use basis. Too many CEO's think of software as a project, so they want to pay you project based. So we're trying to change that. But we're also selling outside China because it's easier to get what you're talking about. Large companies, many of them state owned. State on our private OHH they but how how about smaller companies so startups I but they don't have money right. I mean we we sell to the enterprise and the amount. A Western companies or even Middle Eastern Central Asian companies are willing to pay is about 8 times what the Chinese company is willing to pay same product. So we have a that's so that's why we're going abroad. That's why I'm here. Oh yeah, yeah, we'll come back to that. But let me finish on the competition. Sure. So very quickly so consumer adoption right now looks like both countries are doing stuff and I'm gonna bet China is going to have a lot breakthrough new AI consumer apps just because. Those gladiators are so good in what they do. And then on hardware, China is not only well ahead in robotics, embodied AI as well as as well as devices, devices that will really be AI first. The phone is not an AI first device, it's a mobile first device and AI FIRST device. My description may. Ohh, scare some of you, but that's what it's gonna be If the AI first device has to be speech driven because you guys are OK with that, but then it has to be always on, always listening, otherwise there's a huge latency. So if there's always on, always listening, then it must have an infinite memory because it remember, why not remember everything if it's always on, always listening, and then the technology is getting such that it will become invisible.
+Yeah, and you and I were talking earlier about just the, the overall the, the AI problem, right? And kind of what's happening, you know, and the fact that obviously it's, it's, I think it's been led by the business within a lot of the enterprises. So it's grown and it's, it's, it's embedded, it's being utilized and security is trying to catch up. They're trying not to make the mistakes of shadow IT from the past as much as possible. And obviously RA isn't very focused obviously on securing the governing of those AI identities. But I think, you know, there's there's that we were talking earlier like there's, there's a couple of things. Like maybe people aren't considering, right, which is obviously as AI becomes more prevalent and you have now an exponential environment of non human identities that are smart. Some are static right from the previous days and now you have smart ones. How do we look at privilege and what does that even mean in, in, in the AI world? AI agents obviously can have privileged access. What they do with whatever access they have can change what privilege is defined as within the organization, right? So I think there's a lot of things that. The security kind of community still going to have to grapple with any thoughts on that. Yeah, You know, I think we all started hearing about agentic AI maybe. Just over a year ago, probably end of 2024. So time flies. But the initial, there was initial huge wave of enthusiasm and I think it was based on, Oh my gosh, this technology, what it can do. Than than sea level executives all realized, hey, we're gonna have to get on board right Jenny Ki were able to move that much faster. It's going to be a huge boost productivity, but nobody was talking about security. Umm, I found that quite bothersome and it is refreshing now to be here at RSA Conference and here so many vendors actually talking about security. But even a year ago, among the vendors, there was very few people who had ideas on how to solve some of the AI problems. Like I think there's a lot of assumptions that were traditionally used to around. Control. Which start to go away with truly agentic AI. And so I think businesses are going to have to grapple with that. Do they always want to have a human in the loop and directing what the AI agents can do? Do you want, you know, can you, are you going to be able to detect if the AI agent is well, first of all, perhaps nursing aging, but. Worse than that, doing more than what you expected to do. Maybe it's learned some new things that the time.
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/capgemini_airobotics-humanaichemistry-activity-7391515835636543489-N_1f
+LINK: https://www.linkedin.com/posts/xiaopeng-he-41615484_xpeng-activity-7399345381203111936-jz1N
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - Global industry news with a major milestone in industrial innovation
-CATEGORY: global
+SCORE: 8/10 - Global industry news with thought leadership potential
+CATEGORY: chinese
 AI COMMENT:
-The deployment of the first intelligent humanoid robot in the nuclear sector is indeed a groundbreaking achievement, showcasing the potential of AI, robotics, and digital twins to redefine human-machine interaction in sensitive environments. What I find particularly interesting is the intersection of physical AI and human ingenuity, as highlighted by Alexandre Embry. However, as we continue to push the boundaries of industrial automation, what measures should be taken to ensure the seamless integration of human oversight and machine decisions, and how can we mitigate potential risks associated with increased reliance on autonomous systems?
+Xiaopeng He's achievement is a testament to XPeng's innovative approach to EV manufacturing, and the company's inclusion on both the Fortune Tech 50 and Fortune China 500 lists is a remarkable feat. The use of CATIA in design and development is particularly noteworthy, as it enables the creation of highly customizable and efficient 3D prototypes. As we move forward in the global EV landscape, what role do you think AI-guided design and manufacturing will play in driving further innovation and reducing production costs?
 TEXT:
-Loaded: 41.17%
+Loaded: 17.09%
 Pause
 Back to start
 Current Time 
-0:01/
+0:02/
 Duration 
-1:50
+3:40
 Unmute
 Fullscreen
-Capgemini
-9,176,684 followers
-7mo  Edited
-Today, with Orano , we’re proud to announce a major milestone in industrial innovation: the deployment of the first intelligent humanoid robot in the nuclear sector. This achievement marks a significant step forward for a strategic industry that has long been a pioneer in innovation.
-Led by Capgemini’s AI Robotics and Experiences Lab, this project demonstrates the convergence of robotics, AI, computer vision, and digital twins. It redefines human-machine interaction in sensitive environments and pushes the boundaries of industrial automation.
-Watch the video below to see Hoxo in action at the site and discover how we’re working with Orano to shape the future of nuclear operations.
-https://lnkd.in/g22pGgWu
-#AIRobotics  #HumanAIChemistry
-…more
-1,348
-35 Comments
+Xiaopeng He 
+Xiaopeng He is an Influencer
+6mo
+Many, many thanks to everyone once again!
+#XPENG
+707
+40 Comments
 Like
 Comment
 Share
-NAMBURU NARASIMHA RAO
-7mo
-When Machines Learn to Carry Courage
-A milestone like this is not about a robot entering a nuclear facility, it is about humanity stepping into a larger version of itself. Hoxo is more than engineered metal and code. It is proof that intelligence can take shape, walk beside us, and extend human capability into places where risk once halted progress.
-In this fusion of robotics, vision systems, and digital twins, we witness a new covenant between human judgment and machine precision. Industry evolves when imagination dares to take physical form and today, the future just learned to stand upright.
+Somsak Phonaiwakunwong
+6mo
+https://www.tiktok.com/@somsakphornsiwakunwong/video/7568552558428540167?is_from_webapp=1&sender_device=pc&web_id=7517226116516414992
+Research and Development (R&D)
+ Develop work procedures
+CATIA
+1.Design by catia (2D,3D,Modeling,Styling)
+2.The advantages of new process: (KAIZEN)
+  3D prototype solid by CATIA 
+3D prototype surface by CATIA can be used for 
+ another automobile model.
+  (Minor change( example: change from Sedan model to hatchback model), 
+ study for new model change) 
+Reduce working time and working manhour. 
+Reduce working process. 
+Reduce operation cost. 
+Like
+Reply
+Deep Kim Singh
+6mo
+Congratulations Xiaopeng. XPeng secured places on both the Fortune Tech 50 and Fortune China 500 lists in 2024, being one of only two automotive companies to make the Tech 50 list. Bravo
+Like
+Reply
+1 Reaction
+Ijaz Mehmood
+6mo
+Impressive milestone - one million cars from XPENG Motors Guangzhou base! A clear sign of China’s EV strength and global momentum 👍 
 Like
 Reply
 2 Reactions
-Alexandre Embry
-7mo
-This is a major step forward for industrial robotics, where #physicalAI meets human ingenuity. Congratulations to the Capgemini AI Robotics and Experiences Lab and Orano teams for making this breakthrough a reality.
-Like
-Reply
-10 Reactions
-OneLIST Consultant
-7mo
-Incredible innovation! The development of AI and robotics that will change the future of nuclear operations in a genuine leap forward. Capgemini
+Harald Buchmann
+6mo
+Fantastic. Can't wait to see the sales numbers for the Land Carrier and flying cars. Xpeng symbolizes China's step to the forefront of global tech leadership
 Like
 Reply
 1 Reaction
-Twril Tech Solution LLP
-7mo
-This is next-level innovation! A perfect example of how human ingenuity and AI collaboration are redefining industrial possibilities
+Leslie Mouradian-Driehuizen
+6mo
+That’s some impressive numbers here, 1 million customers!
+Meanwhile, we are facing with oversupply in Europe..
+Like
+Reply
+Syam Krishnan R
+6mo
+👏congratulations 🎉
 Like
 Reply
 1 Reaction
-Giovanni Pitton
-7mo
-Not seeing anything in this video aside prebuild routine in the Unitree G1, waving hands, giving hand and walking, or am I wrong?
+Albert Qiu
+5mo
+Congratulations! Do hope Xpeng always puts Safety first as it has and that will drive the company to grow into a really great company for people, not only for its shareholders.
 Like
 Reply
-1 Reaction
-Suppriya Arondekar👉 Career Branding Specialist
-2mo
-Capgemini The combination of AI and robotics in critical industries highlights how operational roles are evolving. Success will depend on how well human oversight and machine decisions stay aligned.
+Sebastian Adam
+6mo
+Congratulations He and team ! 
+Last week I had the honor visiting your brand new HQ ! The AI guided tour left me literally speechless ! It was a fantastic experience and your team received me very well !
 Like
 Reply
-Manickam J
-7mo
-Humanoid Robots can only help human’s , they can’t replace 100 % human force. That applys for the AI tools
+Ching Wei L.
+6mo
+hoping to visit one day as an owner 😀. Keep delivering !
 Like
 Reply
-1 Reaction
-Alex Bulat- van den Wildenberg
-7mo
-Amazing Alexandre Embry and team congratulations ❤️🙌 This is amazing news 🗞️❤️🙌 This is truly a pioneering collaboration…!
+Alvin Chua
+5mo
+Congratulations 🥂 on the achievements
 Like
 Reply
-4 Reactions
-Victor Moreno
-7mo
-Impressive milestone! The integration of AI, robotics, and digital twins in such a sensitive and strategic sector truly showcases how innovation can transform industry standards. Congratulations to the teams at Capgemini and Orano for leading the way! 👍 
-Like
-Reply
-1 Reaction
-Slimane IDIR
-7mo
-A remarkable milestone for the nuclear industry! 👏
- Congratulations to the Capgemini and Orano teams for pushing the boundaries of innovation with HOXO, a perfect example of how AI and robotics can transform industrial operations. 🤖⚛️
-Like
-Reply
-1 Reaction
 See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/rohin-siddhartha-019071183_physicalai-embodiedai-vla-activity-7471779517997625344-_nOJ
+LINK: https://www.linkedin.com/posts/baidu-inc_were-not-that-far-behind-baidus-robin-activity-7421721440733003776-HMOP
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - Highly technical discussion on global robotics/AI trends with deep insights on robot learning
-CATEGORY: global
+SCORE: 8/10 - Global industry news with thought leadership from Baidu's CEO Robin Li on AI diffusion throughout society
+CATEGORY: chinese
 AI COMMENT:
-I completely agree with the lessons learned from this project, particularly the importance of simulation fidelity and clean data in achieving robust robot learning outcomes. The approach of using SE(3) relative action representation to improve robustness to randomized board positions is noteworthy. What are some potential applications or extensions of this work that could further advance the field of embodied AI and robot manipulation, and how might these advancements impact industries beyond robotics?
+It's fascinating to see Baidu's push to diffuse AI throughout society, and Robin Li's insights on this topic are truly valuable. The concept of a full-stack AI company is particularly intriguing, as it raises questions about the future of AI integration in various industries. What do you think will be the most significant challenge in implementing AI on a global scale, and how can companies like Baidu address these challenges to drive widespread adoption?
 TEXT:
-Rohin Siddhartha
-1d
-Excited to share a project that pushed us outside our comfort zone during the Intrinsic AI for Industry Challenge (AIC). 🤖
-The challenge: train a robot to autonomously insert cable connectors into target ports — a manipulation problem requiring sub-millimeter precision, contact-aware behavior, and generalization across randomized environments.
-Over the past few weeks, I worked alongside Narendar Sriram, Sai Shruthi Balaji, Sharon Richu S. and Varun Gampa to build an end-to-end imitation learning pipeline for precision robotic manipulation: inserting SFP and SC plugs into randomized ports on a task board.
-We didn’t qualify for the next phase — but that isn’t the takeaway.
-Coming from robotics, controls, and AI backgrounds, this was an opportunity to apply those fundamentals to learning-based manipulation and understand firsthand where robot learning succeeds — and where it breaks.
-What we built:
-🔧 Custom LeRobot integration
-Integrated ROS 2 control, multi-camera observations, and a 26D robot state directly into the training and data collection pipeline.
-📡 Automated demonstration collection
-Built a passive observer pipeline that recorded ground-truth CheatCode actions as demonstrations, enabling consistent, low-noise supervision without manual teleoperation.
-📐 SE(3) relative action representation
-Encoded actions as relative pose deltas instead of absolute targets, improving robustness to randomized board positions and reducing dependence on workspace coordinates.
-🎬 Scalable dataset infrastructure
-Built an automated collection and curation pipeline covering hundreds of demonstrations and ~363K frames, with tooling to inspect trajectories and surgically remove failed episodes at the parquet + video level without re-recording datasets.
-🧠 ACT policy training
-Trained Action Chunking Transformer (ACT) using multi-view observations and robot state for sequential manipulation.
-Three lessons that stood out:
-1. Simulation fidelity matters.
-Physics quality and roll-out throughput directly affect learning outcomes.
-2. Clean data beats more data.
-Consistent demonstrations mattered more than collecting additional episodes.
-3. Diversity beats repetition.
-Interleaving environments improved generalization far more than collecting many samples per configuration.
-This challenge sharpened our understanding of the full robot learning stack — data, representation, training, and deployment.
-Huge thanks to the Intrinsic team for creating a genuinely challenging and well-designed competition.
-#PhysicalAI #EmbodiedAI #VLA #RobotLearning #ImitationLearning #RobotManipulation #LeRobot #ROS2 #ACTPolicy #FoundationModels #IntrinsicAIChallenge
-30
+Baidu, Inc.
+295,196 followers
+4mo
+On the sidelines of last November’s Baidu World conference, TIME spoke with our CEO Robin Li as part of its Person of the Year special feature, “The Architects of AI.”
+Read the interview for his take on diffusing AI throughout society, and on how Baidu has built itself into a full-stack AI company.
+TIME
+2,483,861 followers
+4mo
+The Leadership Brief: Baidu’s Robin Li on China’s push to diffuse AI throughout society.
+‘We’re Not That Far Behind.’ Baidu’s Robin Li on China’s Push to Diffuse AI Throughout Society
+TIME on LinkedIn
+13
 2 Comments
 Like
 Comment
 Share
-Narendar Sriram
-1d
-Spot on takeaways. Always fun working with this team!
+Eleanore Cheung 張
+3mo
+🪈 💚 #DowJonesIndustrialAverageIndex
+Round 2A Will Fall to ~40,000
+💞 Happy International Women Day 🍫 
+#fintech  #金融科技  2026-2-28f
+恒指 26,631 +249🎂 (+0.95%) 成交 2,884億
+期指 26,465 -143 (-0.54%) 低水166
+上證 4,163 +16(+0.39%)成交 10,724億
+4-29 My Birthday 
+2026-3-6f HK
 Like
 Reply
-1 Reaction
-Shreyas Ramesh
-1d
-Amazing stuff! 
+Eleanore Cheung 張
+3mo
+🪈💚  #nikkeiindex  #日經指數 
+Round 3A  📉  Will Fall to ~ 45,000 
+3B 📉 ~40000
+元宵節快樂  💞🍫
+🧑🏫 #Volatility  of #indexfutures 
+#期貨  gives chances for  #hedgefunds, investors ... to earn more capital
+Copyright 
+🎂4-29 My Birthday 
+2026-3-4w 8am 🇭🇰
 Like
 Reply
-1 Reaction
 See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/kaifulee_valued-at-1b-kai-fu-lees-llm-startup-unveils-activity-7127160586538291200-ibuH
+LINK: https://www.linkedin.com/posts/hktenzin_xpeng-robotics-humanoidrobots-activity-7470632145342853122-tqnD
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - Global industry news with thought leadership from a major figure
+SCORE: 8/10 - Global industry news with a significant development in humanoid robotics
 CATEGORY: chinese
 AI COMMENT:
-Kai-Fu, your insights on the LLM ecosystem momentum are well-taken, and the competitive performance of Yi-34B is a significant achievement. What I find particularly interesting is the potential for open-source models like Yi-34B to democratize access to AI capabilities globally, beyond the current industry leaders. How do you envision the open-sourcing of LLMs like Yi-34B influencing the global AI landscape, particularly in regions where access to cutting-edge AI technologies has been limited?
+The move by Xpeng to double down on robotics, especially with their CEO leading the humanoid robot unit, signals a major strategic pivot. As they prepare for mass production of IRON humanoid robots, it's interesting to note how their 'physical AI' concept could redefine the future of work and retail experiences. What potential applications or challenges do you think will arise from the integration of humanoid robots in commercial settings worldwide?
 TEXT:
-Kai-Fu Lee 
-Kai-Fu Lee is an Influencer
-2y  Edited
-I must say China is now behind the U.S. in the LLM ecosystem momentum.  The underlying vision for me to start 01.AI is to make better AI accessible to more people. We are glad our first moderate-size Yi-34B performs competitively at a global level.  More to come soon after this base model. http://01.ai/en 
-https://lnkd.in/gc7a4BGq
-Valued at $1B, Kai-Fu Lee's LLM startup unveils open source model | TechCrunch
-https://techcrunch.com
-1,542
-72 Comments
+Tenzin Partners
+21,004 followers
+4d
+Xpeng is doubling down on robotics, with CEO He Xiaopeng stepping in to lead the company’s humanoid robot unit ahead of commercial rollout.
+He will take on direct leadership of the division as Xpeng moves closer to mass production of its IRON humanoid robots, targeted by the end of 2026. The robots are expected to see initial deployment in Xpeng retail stores before being rolled out to commercial customers in China and overseas from 2027.
+The move comes amid rising competition in humanoid robotics, with the company positioning “physical AI”—including robots, robotaxis and flying cars—as a future growth driver.
+The leadership change also follows the departure of a key robotics executive, with Xpeng emphasising the need for stronger execution as it enters the commercialisation phase.
+Source: Reuters  
+#Xpeng #Robotics #HumanoidRobots #AI #ChinaTech #FutureOfWork
+1
 Like
 Comment
 Share
-Michael Witbrock
-2y
-Congratulations on this step, Kai-Fu
-Like
-Reply
-3 Reactions
-Michael Spencer
-2y
-I'm including this in my Newsletter for Monday, it's called AI Supremacy. 
-Like
-Reply
-4 Reactions
-Richard Turrin
-2y
-Congratulations to you and team Yi OI-AI!  Can't wait to use it for real!  
-Agree that the LLM ecosystem in the US has the momentum but with better digital systems and services in China, implementation speeds may be higher here.
-The race is for implementation not whose system is technically the most capable.   
-Like
-Reply
-3 Reactions
-James (Kayliang) Ong
-2y
-Kai-Fu Lee Yi 0I·AI is exactly the type of  #AI4Good initiative the world needs to strive towards #SustainableAI!
-Like
-Reply
-3 Reactions
-Dawn Lim 一棽 🌤️✨
-2y
-That’s amazing!! Kai-Fu Lee
-Like
-Reply
-2 Reactions
-AI Brains
-2y
-Congratulations Kai-Fu Lee! 
-Like
-Reply
-2 Reactions
-Glocal SEO LLM + BPN Platform 2025 -- Gloc.al International Import Export Search Visibility
-2y
-Kai-Fu Lee brilliant domain name man! As same as our https://zh.gloc.al :)
-Like
-Reply
-4 Reactions
-Firoj Alam
-2y
-Great to see another step to the open sourced LLMs.
-Like
-Reply
-2 Reactions
-TOMEK
-2y
-Congratulations on the success of your startup!
-Like
-Reply
-2 Reactions
-SHEILA shang
-2y
-You did it! Congratulations Kaifu!
-Like
-Reply
-2 Reactions
-See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/activity-7371755352578703360-yMJg
+LINK: https://www.linkedin.com/posts/sensetime-group-limited_sensetime10-sensetimeglobalaisummit-professortangxiao-activity-7253952430776713216-_srD
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - Global industry news with thought leadership and deep technical insights
+SCORE: 8/10 - Global industry announcement and thought leadership on AI innovation
 CATEGORY: chinese
 AI COMMENT:
-I completely agree that Unitree's focus on affordability has disrupted the robotics industry. The fact that they've achieved a $7B IPO valuation by prioritizing end-to-end integration, measured scaling, and cultural resonance is a testament to the power of innovative thinking. What's particularly interesting is how their open-source philosophy and viral marketing strategy have generated millions of views without massive ad spending. As Unitree expands globally, do you think their 'embodied intelligence' approach will pave the way for a new wave of robotics startups that prioritize accessibility over high-end features, and how will this shift impact the traditional robotics industry players?
+I appreciate how SenseTime is honoring Professor Tang Xiao'ou's legacy and commitment to bridging research and real-world solutions. The impact of his vision is evident in the work SenseTime continues to do. What do you think will be the most significant challenge for the next generation of innovators in AI, and how can we collectively work to address it?
 TEXT:
-Ashley Dudarenok 艾熙丽
-9mo
-This is Wang Xingxing with his very first robot dog models in 2017. 🤓 Fast forward 8 years, and his company Unitree Robotics sets sights on $7B IPO valuation.
-🤖 Here's how Unitree cracked the robotics code:
-China's industrial robot production jumped 35.6% YoY, hitting 369,316 units in H1 2025. 
-But while giants like Boston Dynamics chase perfection, Unitree chose a different path: 
-affordability.
-The breakthrough moment came from constraints, not resources. 👇
-Wang Xingxing bootstrapped from his university lab in 2016. 
-Laikago, Unitree’s first quadruped robot (2017), laid the foundation for its humanoid breakthroughs, which has taught him something crucial: expensive doesn't mean better.
-🤖 The G1 humanoid costs under US $16,000.
-That's cheaper than many laptops, and far below competitor prices. 
-But how do you maintain quality at that price point?
-Wang's three-part strategy:
-1️⃣First, end-to-end integration. Instead of buying expensive components, Unitree builds everything in-house. Motors, sensors, AI chips. This vertical approach cuts costs while maintaining control.
-2️⃣Second, measured scaling. While competitors raised massive funding rounds, Wang took eight smaller ones. No vanity metrics, no premature expansion. Focus on getting the fundamentals right.
-3️⃣Third, cultural resonance first. The H1 humanoid captivated over a billion viewers at the 2025 Spring Festival Gala. Domestic success before global expansion.
-And here's what really sets Unitree apart:
-✔️ Open-source philosophy meets viral marketing. Their robots dance, do backflips, and navigate stairs. These demos generate millions of views without massive ad spending.
-✔️ Unitree’s innovations, like the G1’s affordability, earned global recognition at events like the 2025 World Robot Conference, beating 780 applicants worldwide
-👇 The business model is fascinating.
-Unitree scaled from niche sales in 2024 to mass production in 2025, achieving a billion-dollar valuation through strategic funding.
-🤔 How? 
-✔️ They're not selling robots; they're selling the future of "embodied intelligence."
-By 2035, the humanoid market is projected to reach $38–43 billion, with Unitree positioning itself as the affordable gateway.
-🚀Wang's leadership philosophy drives everything:
-"Passion-driven iteration beats endless funding." 
-His team prioritizes breakthrough moments over incremental improvements.
-While Boston Dynamics perfects warehouse automation, Unitree democratizes robotics for manufacturing, search-rescue, and entertainment.
-🌎 The IPO horizon signals global ambitions.
-Unitree is eyeing global expansion, with plans to scale production and distribution worldwide. 
-❓The question becomes: can established players adapt to this affordable revolution? 
-Wang's journey proved that innovation leadership doesn't always require the biggest budget. 
-Sometimes constraints force breakthrough thinking that resources can't buy.
-Your take? 🤓👇
-84
-20 Comments
-Like
-Comment
-Share
-Herbert Hofmann
-8mo
-Thrilled to have visited Unitree Robotics and witnessed their groundbreaking robots in person. Seeing them deployed in EV factories like NIO's in Hefei solidified a key insight: this is just the beginning.
-There's a common misconception that Chinese entrepreneurs are just "playing" with tech without a clear strategy. This is a profound misreading.
-Their focus is intensely pragmatic: get a functional, valuable product to the market first. Margin optimization comes later. It’s a powerful lesson in customer-centric innovation and speed that the West would be wise to observe.
-Like
-Reply
-Patrick Gray
-9mo
-Ashley Dudarenok 艾熙丽 Ummm... their robot weighs 50lbs, this is why it can do its sort human like movements. None of this is possible with what I think is a real military use robot (6ft tall, weighs 198lbs, can walk at 2-3mph carrying a 40lb pack for 6-8 hours without any re-supply of anything, including no swapping out of batteries). Physics and thermodynamics do not allow electric motor/gearhead systems to do this, for the form factor required, if you put the electric power that is required into the motor size that can be used, this amount of power will melt the wires in the motor. Hydraulic cylinders can supply these specifications easily. Hydraulic motors can allow the military robot I outlined. It will need a fuel engine. On my website I discuss this form of robot, here's the robot walking webpage: 
-https://pistonrobot.com/pistonrobot-discussion-of-the-topic/pistonrobot-hydraulic-walking/
-Here's the fuel engine webpage, of note, this engine (I think) will make no noise.
-https://pistonrobot.com/the-heart-of-the-robot/
-Like
-Reply
-See more comments
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/xiaopeng-he-41615484_xpeng-activity-7345805874872950784-tPqG
-DATE: 2026-06-15
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - Global industry news with thought leadership potential, discussing record-breaking deliveries and future plans for intelligent computing and Super Electric launches
-CATEGORY: chinese
-AI COMMENT:
-Congratulations on achieving a record-breaking performance in H1 2025, Xiaopeng He! The plans for entering a new era of intelligent computing with the Super Electric launch by year-end are particularly exciting. As XPENG continues to push the boundaries of innovation in the electric vehicle and potentially eVTOL markets, what do you think will be the most significant challenges to overcome in integrating advanced AI and computing capabilities into your products, and how do you envision addressing these challenges to stay ahead in the global market?
-TEXT:
-Xiaopeng He 
-Xiaopeng He is an Influencer
-11mo  Edited
-Proud to share that we wrapped up Q2 2025 with a record-breaking performance, bringing our H1 total to 197,189 deliveries, already surpassing our full-year 2024. 
-In the second half of the year, #XPENG will enter a new era of intelligent computing, with our Super Electric coming by year-end.
-397
-43 Comments
-Like
-Comment
-Share
-ADAYO Automotive Business
-11mo
-Keep up the momentum and strive for greater achievements! 👍 
-Like
-Reply
-William H.
-11mo
-Congrats Xiaopeng He! 
-Hope you have more success in the next Quarter in this year!
-At the same time, I hope that your eVTOL Flying Car company will also have significant success. 
-We have some ideas about flying cars, and our solutions can improve the safety and stability of flying cars. We expect that eVTOL Flying Car will not only be limited to manned missions, but we also expect it to be used for more social purposes, such as short-distance manned and cargoed transportation like cellular networks. 
-We look forward to working with you to build the prototype of the leading transportation way of the future society. 
-If you are interested, let's talk! My email is hoyucheng04@gmail.com
-Like
-Reply
-Bjørn Are Gaaserud Stødle
-11mo
-Perhaps it might be better to change your name to Xpeng Group? It seems like you include your low-end brand Mona in these figures.
-Like
-Reply
-Thomas Dan
-11mo
-Congrats Xiaopeng! 🎉
-Like
-Reply
-Yury Kotov 尤里
-11mo
-Huge congratulations to the team! Impressive milestone — surpassing the full-year 2024 deliveries in just H1 speaks volumes about XPENG’s execution and market momentum. Looking forward to how the Super Electric and next-gen intelligence will shape the next chapter in smart mobility!
-Like
-Reply
-Henry wu
-11mo
-Incredible momentum! Surpassing last year’s total in just six months is no small feat. Excited to see what the second half — and the Super Electric — will bring!
-Like
-Reply
-Thomas Hukman
-11mo
-Congrats 🥰 , Xiaopeng He! 🎉 If you need any help or support in the field of IT for your company headquarters in Germany, we are here for you. Keep up the good work!
-Like
-Reply
-Dovydas Mockevicius
-11mo
-Congrats Xpeng! How many X9 were delivered in Europe?
-Like
-Reply
-Tony ZEN
-11mo
-Is fully auto pilot system available ?
-Like
-Reply
-Seng Hong 成豐 Ker 郭
-11mo
-Excellent ...... Congratulations 👏 👏 👏 
-Like
-Reply
-See more comments
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/humanoidai_humanoid-and-schaeffler-announce-strategic-activity-7416783429725310976-vjFc
-DATE: 2026-06-15
-METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - Standard global industry news with potential for deep discussion on robotics and AI
-CATEGORY: global
-AI COMMENT:
-The strategic partnership between Humanoid and Schaeffler is indeed a significant step forward for the robotics industry, as it has the potential to accelerate the development of next-gen actuators and bring humanoid robots into production facilities. However, one of the key challenges in this space is ensuring the reliability and precision of these robots in industrial environments. What do you think are the most critical factors that need to be addressed to make humanoid robots a practical and reliable part of industrial environments, and how can this partnership help overcome these challenges?
-TEXT:
-Loaded: 100.00%
+Loaded: 20.84%
 Pause
 Back to start
 Current Time 
-0:01/
+0:02/
 Duration 
-0:41
+3:20
 Unmute
 Fullscreen
-Humanoid
-79,531 followers
-5mo
-Humanoid and Schaeffler announce strategic technology partnership.
- 
-Over the next 5 years, the collaboration will bring hundreds of Humanoid’s robots into Schaeffler’s production facilities. Initial deployments will begin with beta-stage robots in 2026-2027. 
-We will also explore development of next-gen actuators, with Schaeffler becoming Humanoid’s preferred supplier for joint actuators used in the wheeled platform. The partnership further covers data collection and skill development for humanoid robots.
-“Together, we are laying the groundwork for humanoid robots to become a practical and reliable part of industrial environments within just a few years,” said Artem Sokolov, founder of Humanoid.
-Learn more here: https://lnkd.in/dETQad4B 
+SenseTime 商汤科技
+112,977 followers
+1y
+As we look forward to the next chapter of AI 2.0, we carry the enduring legacy of the late Professor Tang Xiao’ou, the founder of SenseTime. His determination and vision were the cornerstones of the innovation we continue to pursue today.
+At the SenseTime 10th Anniversary Global AI Summit, we reflected on his impact, with special tributes during the In Conversation: Growing the Next Generation of Innovators with Prof. Raymond W. Yeung, Choh-Ming Li Professor of Information Engineering, 香港中文大学, Dr. Lin Dahua, Co-founder of SenseTime and Closing Fireside Chat: 
+Catalyzing Innovation: Elevating Hong Kong's Collaborative Leadership in the Global Innovation Ecosystem with Mr. Albert Wong, CEO, HKSTP - Hong Kong Science and Technology Parks Corporation, Ms. Cindy Chow, Executive Director and CEO, Alibaba Entrepreneurs Fund, Dr. Xu Li, Chairman of the Board and CEO, SenseTime and Hui-Luen Lien, Deputy General Manager of SenseTime Hong Kong. These discussions honored his unwavering commitment to bridging research and real-world solutions, and nurturing the next generation of talent.
+We invite you to take a moment to watch this video which showcases how Prof Tang’s spirit of innovation continues to inspire those who dare to dream and reimagine the possibilities of tomorrow.
+#SenseTime10 #SenseTimeGlobalAISummit #ProfessorTangXiao’ou #AIInnovation
 …more
-764
-10 Comments
+69
 Like
 Comment
 Share
-Alexander N.
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/leo-wang-13263225_great-experience-of-cooperating-to-provide-activity-6705474762359099392-qP8W
+DATE: 2026-06-15
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - Global partnership announcement in the field of robotics and supply chain automation
+CATEGORY: chinese
+AI COMMENT:
+Congratulations to Geek+ and Körber Supply Chain Software on this significant global partnership! The union of AMR expertise and supply chain software solutions will undoubtedly bring about innovative and efficient solutions for clients worldwide. What do you think will be the most impactful benefit of this partnership in terms of revolutionizing the supply chain industry, and how will it influence the adoption of AMR technology in the next 5 years?
+TEXT:
+Leo WANG
+5y
+Great experience of cooperating to provide innovative solution to clients from all industry and expand together globally!
+Körber Supply Chain Software
+21,560 followers
+5y
+A great reinforcement of our continued success together as partners in AMR excellence! Geek+ and Körber Supply Chain announce global partnership. Read more about what Nishan Wijemanne has to say about this milestone.
+https://lnkd.in/gBXhnfv
+#AMR #SupplyChain #Automation #Geek+ #conquersupplychaincomplexity
+Yong Zheng Lit FUNG Hong Yu Marie Peterson Mark Messina Fish Yu Kevin Guo Rick DeFiesta James Leung Jian Zhang Harry C C. Dave Ching Brian Lee Chad Collins Anton du Preez John Santagate Rene Hermes
+Geek+ and Körber announce global partnership for AMR deployment
+8
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/the-icons-global_unitreerobotics-wangxingxing-china2026cctvspringfestivalgala-activity-7439684732453498880-sST1
+DATE: 2026-06-15
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - Global thought leadership and insight into humanoid robotics standardization
+CATEGORY: chinese
+AI COMMENT:
+Wang Xingxing's journey from a 'poor English student' to Vice Chair of the MIIT Humanoid Robotics Standardisation Committee is truly inspiring, highlighting the importance of perseverance and vision in driving innovation. The shift from demonstration to real-world deployment in humanoid robotics indeed necessitates a focus on standardization and scalability. As we move towards more widespread adoption of humanoid robots, what do you think will be the most significant challenge in achieving global standards for motion capabilities and stability?
+TEXT:
+The Icons
+20,398 followers
+2mo
+Unitree Robotics Founder and CEO Wang Xingxing, from being labelled a “poor English student” to serving as Vice Chair of the MIIT Humanoid Robotics Standardisation Committee, has maintained a consistent focus: only when motion capabilities are sufficiently stable and diverse can robots truly enter real work scenarios. As the technology moves from demonstration to real-world deployment, competition in humanoid robotics is entering a critical phase of standardisation and scalability.
+read more: https://reurl.cc/qpgaGR
+Unitree Robotics  
+Robotics
+The Icons
+ 
+#UnitreeRobotics #WangXingxing #China2026CCTVSpringFestivalGala
+5
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/worldaiconf_zhang-peng-zhipu-ai-ceo-large-models-bring-activity-7215912014240448513-2wiu
+DATE: 2026-06-15
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - Standard global industry news with a quote from a CEO, relevant to AI trends
+CATEGORY: chinese
+AI COMMENT:
+I appreciate ZHANG Peng's insight on large models bringing new opportunities. The concept of using general models to address diverse needs while balancing cost and benefit is indeed a crucial aspect of AI development. What are some potential applications or scenarios where you think these large models will have the most significant impact in the next 2-3 years?
+TEXT:
+WAIC - World Artificial Intelligence Conference
+8,141 followers
+1y
+ZHANG Peng, Zhipu AI CEO: Large models bring new
+opportunities. Using a general model to address the diverse needs of various scenarios and applications while balancing cost and benefit is its essential feature.
+#WAIC2024 #WAIC #TechTrends #AI
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/williambinli_1000000th-vehicle-milestone-thank-you-activity-7414263975397367808-IOwo
+DATE: 2026-06-15
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - Standard global industry news milestone with notable comments from industry professionals
+CATEGORY: chinese
+AI COMMENT:
+Congratulations to NIO on achieving this significant milestone! The fact that it took approximately 7 years and 7 months to reach one million vehicles cumulatively is a testament to the company's perseverance and innovative approach. As the global automotive industry continues to shift towards electric and autonomous vehicles, what role do you think Chinese companies like NIO will play in shaping the future of sustainable mobility, and how can they address concerns around global trust and transparency?
+TEXT:
+William Li
+5mo
+Thrilled to share that today, our 1,000,000th vehicle rolled off the production line, marking a significant milestone in NIO's journey!🎉
+I'd like to extend my sincere thank-yous to all our friends who've been with us through this winding yet determined journey. Your steadfast trust and companionship is the greatest driving force for us to keep moving forward.
+Read the full story. Let's Jiadian!⚡
+#NIO #BlueSkyComing
+1,000,000th Vehicle Milestone: Thank You for Being with NIO
+William Li on LinkedIn
+1,657
+130 Comments
+Like
+Comment
+Share
+O. C
+5mo
+Congratulations.
+it took NIO approximately 7 years and 7 months (from mid-2018 to early 2026) to reach one million vehicles cumulatively.
+ it took Tesla approximately 12 years — from early 2008 to early 2020 — to reach one million vehicles cumulatively.
+Like
+Reply
+16 Reactions
+祉祁Viktor
 3mo
-A candle can’t interate into a lightbulb.  Similarly, these toys with oversized drone motors and clunky gearboxs can’t iterate into something with real commercial value… bionic superhumanoids.
-Legacy robotics (delicate low-torque motors, shock-prone power-sapping gearboxes) is why humanoids from the best funded developers like Tesla, Figure, and Unitree Robotics are too weak and fragile to fulfill duty cycles necessary for commercial value.
-That’s why nMECH Robotics Corporation  initiated Project Hyperion.  We can build superhumanoids that sound like science fiction…space robots that dive to the ocean floor to harvest minerals and energy from hydrothermal vents and walk through fire and flood to carry people to safety.  We solved motors and actuators.  Cognitive AI is coming…10 watt ASIC.
-Learn about nMECH Robotics Corporation 
-https://www.linkedin.com/posts/nmech_robotics-is-the-new-big-things-with-an-activity-7417382735264153600-I-mF?utm_source=share&utm_medium=member_ios&rcm=ACoAAAxa8DMB0O_FjMf2nT8MB2Wp5njYNiBT5U4
+A million cheers for the NIO team! 🎉 This achievement proves that 'User Enterprise' isn't just a slogan—it's a global standard.
+However, as we witness more Chinese 'smart' vehicles hitting global roads, the conversation is shifting toward global trust and transparency. The brands that will lead the next decade are those that treat international legal compliance as a core product feature, not an after-thought. Let’s keep moving forward with both speed and security. Let's Jiadian!
 Like
 Reply
-Theodora Preda
-5mo
-So excited to see an early intro to Schaeffler turn into such an exciting deployment  Angelo Kumar, Dr. Astrid Heckl Raúl Martín Montero Robin Mayer  🚀🚀🚀
-Like
-Reply
-8 Reactions
-Roshan V
-5mo
-Congratulations to Humanoid and Schaeffler on this visionary partnership—an exciting step toward humanoid robots on the factory floor.
-Turning innovation into industrial reality demands absolute precision and reliability. With 150 years of engineering expertise, Bulten Fasteners is ready to support next-generation robotics with high-performance fastening solutions built for the future.
- 🔗 https://www.bulten.com
-Like
-Reply
-Dan Mathias
+Punit Singh
 4mo
-More fake hype.... Humanoids will not be ready for prime time for many years, ASIMO was out 20+ years ago and we had the same hype...
+A million vehicles is a milestone — but the more telling signal is what it takes to reach it in an industry where capital pressure, technology cycles, and consumer expectations collide.
+ 
+At this scale, success is less about momentum and more about organisational endurance: the ability to keep aligning product, infrastructure, and trust as the system grows. That’s when manufacturing volume turns into long-term relevance.
 Like
 Reply
-2 Reactions
-RoboHorizon.com
+Patrice Nordey
 5mo
-Cool but OMG these guys need to speed up a little bit in the future 😅
-Like
-Reply
-Ketevan Tsereteli
-5mo
-🚀🤝 From Vision to Scale: Humanoid Partners with Schaeffler
+💪
 Like
 Reply
 3 Reactions
-Tony Skurr
+Haoyu Qin
 5mo
-Impressive announcement, intrigued to see what can be developed and how this could impact change and daily tasks. Exciting times ahead! Bravo 👏
+At the end of 2025, total delivery number is 997592, the actual number out of production lines should be more than 997592. The 1000000th vehicle came out production line on January 6th, why only less than 2408 vehicles were produced in first six days of 2026? Holiday?
 Like
 Reply
-Juraj Madejski
-Head of Truck Tire Key Accounts & Fleet Solutions in CZ&SK
+3 Reactions
+ANKUR TIWARI
 5mo
-New era....
+William Li This is a fascinating development. It's exciting to see how Nio is pushing the boundaries in the automotive and tech space. The potential impact on sustainable mobility is huge. Infinity IIAC https://infinityiiac.in/
+
 Like
 Reply
-Iulian Negoiță CMgr FCMI
+6 Reactions
+Alexey S.
 5mo
-Exciting news! 
+congrats and well done!
 Like
 Reply
+3 Reactions
+Sadaat M Saim
+4mo
+Congratulations on this wonderful milestone! 🎉 Four years of growth and impact at Haleon is truly inspiring. Your journey as a Woman in Field Force is a powerful example of dedication and resilience, and it’s great to see you acknowledge the mentors and colleagues who supported you along the way. Wishing you continued success and even greater achievements in the chapters ahead! 🌟
+
+Like
+Reply
+2 Reactions
+Artem Perkov
+4mo
+A remarkable milestone — congratulations to the entire NIO team.  
+Reaching 1,000,000 vehicles is not just a production achievement, but proof of industrial-scale execution under constant market pressure.  
+What stands out is how NIO has combined long-term vision with disciplined operations — something that will matter even more as EV competition shifts from innovation to global scalability and resilience.  
+Well done on turning persistence into momentum.
+
+Like
+Reply
+Jessie Yu
+4mo
+the 1,000,000th on the license made me think of Audi, but IT IS NIO!!! So proud of Made in China! And as a member of Chinese overseas sales team , I felt extremely proud when I see lots of NIO cars on the street of many countries by my own eyes, also LI 😁 
+Like
+Reply
+2 Reactions
 See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/williambinli_nio-blueskycoming-ev-activity-7303000696679739393-dpOu
+LINK: https://www.linkedin.com/posts/leo-wang-13263225_totetoperson-ecommerce-pharmaceutical-activity-7212181399238270977-O5Dk
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - Standard global industry news with a showcase of autonomous driving technology in a smart factory
+SCORE: 7/10 - Global industry news with a notable company and technology application
 CATEGORY: chinese
 AI COMMENT:
-It's exciting to see the advancements in autonomous driving technology being implemented in smart factories like NIO's. The use of self-driving cars within the factory can significantly improve efficiency and reduce labor costs. However, I'd love to know more about the safety protocols in place, especially when it comes to unexpected events or system failures. How do you think the industry can balance innovation with safety concerns, and what role will regulatory frameworks play in shaping the future of autonomous driving in manufacturing?
+Congratulations to Geek+ on this successful implementation of the Tote-to-Person RoboShuttle System for Dr. Max in Italy. It's fascinating to see how robotics and automation can help pharmaceutical chains meet the increasing demands of e-commerce while maintaining efficiency. What potential do you see for further integrating AI and robotics in the pharmaceutical supply chain to enhance customer experience and reduce costs?
 TEXT:
-William Li
+Leo WANG
+1y
+Geek+
+89,721 followers
 1y  Edited
-Here's a quick peek from our smart factory! 💡 Cool things happening--these cars are driving themselves within the factory.
-#NIO #BlueSkyComing #EV #SmartFactory #AutonomousDriving
-718
-24 Comments
+Dr. Max, one of Europe’s leading pharmaceutical chains, is now using Geek+ Tote-to-Person RoboShuttle System in Italy! Geekplus has already implemented similar solutions in the pharmaceutical chain’s European sites together with SSI SCHÄFER.
+ 
+Dr. Max was faced with a 55% increase in e-commerce business last year and needed a solution to get customers medicine both direct-to-order and for pickup at a pharmacy. RoboShuttle System does both--proving that Geekplus is your one-stop partner for warehouse robotics, no matter how complex the scenario might be.
+ 
+Read more here: https://lnkd.in/gFckSc8x
+ 
+Dr. Max Italia Dr.Max Pharmacy Chain Dr.Max Italia
+ 
+#totetoperson #ecommerce #pharmaceutical #onestop
+13
+1 Comment
 Like
 Comment
 Share
-Sherveen Lotfi
+Wilson Leung
 1y
-Driving the wrong direction (against the direction arrow) or is the driverless car just following the path of the pilot car in front of it?
+nice project
 Like
 Reply
-1 Reaction
-Felix G.
-1y
-Why do they look like Teslas?
-Like
-Reply
-Frank Schlenstedt
-1y
-🤖🛻🪫🔁🔋🏁
-Like
-Reply
-2 Reactions
-Alexander Decker
-1y
-Why are the windows down in the cars, and what happens when it rains?
-Like
-Reply
-Jeffrey Johnston
-1y
-Thank you 🙏 for the update. 
-Let’s get the ONVO cars 🚘 ramped up 🆙 and ready for new NIO users !
-Like
-Reply
-2 Reactions
-Carsten Müller
-1y
-William Li sounds impressive ... more and more less human resource needed for certain "standard jobs" / results in massive cost savings - and at the end competetive prices for consumers ;-).
-Like
-Reply
-张雪钢zhangxuegang
-1y
-Can we post them in Chinese media platform? Just like the Tesla's clips. Make a fancy short video, something like that… I can volunteer for anything
-Like
-Reply
-Ron Gillingham
-1y
-Tesla posted a similar video... If I were your marketing lead I would focus on what NIO does... Things that Tesla can't do
-Like
-Reply
-See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/ai-market-watch_%E6%99%BA%E8%B0%B1-activity-7277385345409720320-rPHx
+LINK: https://www.linkedin.com/posts/leo-wang-13263225_gxo-logistics-deploys-tote-to-person-mobile-activity-7201232363580760065-uSWs
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - Standard global industry news with detailed information about a significant AI startup
+SCORE: 7/10 - Global industry news with potential for technical insight
 CATEGORY: chinese
 AI COMMENT:
-It's exciting to see Zhipu AI's advancements in developing AI models that mimic human thinking, a crucial step towards more sophisticated AI applications. The company's focus on providing API services for various industry verticals, including military, environment, agriculture, and medical, underscores the broad potential impact of their technology. What do you think will be the most significant challenge for Zhipu AI as they expand their operations globally, especially in terms of adapting their AI models to diverse regulatory and cultural contexts?
+The partnership between Geek+ and GXO Logistics to deploy the Tote-to-Person RoboShuttle System in France is a significant step towards advancing omnichannel retail logistics. The scale of this deployment, with 500 robots handling 70,000 bins, underscores the growing need for efficient and automated solutions in supply chain management. What do you think will be the most critical factor in determining the long-term success of such robotic systems in global retail operations?
 TEXT:
-AI Market Watch
-2,065 followers
-1y  Edited
-🚀 Startup Spotlight 🚀 
-Zhipu AI (Beijing Zhipu Huazhang Technology Co., Ltd.) - Teaching machines to think like humans through advanced AI models.
-🔍 Company Overview
-- CEO: Zhang Peng
-- Year Founded: 2019
-- Location: Beijing, China
-- Team Size: 800 (as of 2024)
-- Webpage: https://zhipu.ai
-🎯 What They Do
-- One-line Description: Zhipu AI is a data company developing an AI-based large model platform to provide API services.
-- Target Customers: Various types of customers needing AI large model platforms
-- Industry Verticals: Military, Environment, Agriculture, Medical
-🚀 Achievements & Status
-- Current Stage/Status: Active and expanding
-- Major Milestones: Raised significant funding from major Chinese tech companies.
-- Basic Growth Metrics: Valued at $3 billion
-💡 Competitive Edge
-- How They Differentiate: Focus on AI models that mimic human thinking.
-- Key Technological Advantage: Advanced AI-based large model platform.
-📈 Funding & Partnerships
-- Total Funding Raised: $1.16 billion over 9 rounds
-- Latest Funding Round: Raised over 2.5 billion yuan ($341.82 million) in 2023
-- Key Investors: Alibaba Group Holding, Tencent Holdings, Ant Group, Meituan, Xiaomi, HongShan
-- Key Partnerships/Collaborations: Alibaba Group Holding, Tencent Holdings, Ant Group, Meituan, Xiaomi, HongShan
-👥 Leadership & Team
-- CEO Background: Ph.D. in Computer Science from Tsinghua University
-- Key Members: Tang Jie (Founder), Li Juanzi (Founder)
-📊 Market & Competition
-- Market Positioning: Valued at $3 billion as a private company.
-- Geographic Focus: China and potentially global due to partnerships with major Chinese tech firms.
-- Main Competitors: OpenAI, Moonshot AI, MiniMax, 01.ai, Baichuan AI
-Based on database updated on: 2024-12-19
-#Innovation #AI #Startups
-“Spot an error? Share your feedback to help us improve!”
-Teaching machines to think like humans through advanced AI models.
-zhipuai.cn
-1
+Leo WANG
+2y
+Geek+
+89,721 followers
+2y
+Geek+ and GXO Logistics are proud to announce that we have partnered to bring Tote-to-Person RoboShuttle System to France for a major sporting goods retailer. The automated solution includes 500 Geekplus robots handling 70,000 bins.
+ 
+The deployment at the customer’s 12,000-square-foot facility marks the debut of Tote-to-Person in France. According to GXO, the deployment “is part of a complete transformation of the omnichannel retailer’s supply chain in the region.”
+ 
+ #totetoperson #partnership #EMEA #sportinggoodsautomation
+GXO Logistics deploys Tote-to-Person mobile robot innovation in France
+source.blog.geekplus.com
+19
 Like
 Comment
 Share
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/tmtpost_zhipu-ai-kicks-off-ipo-race-as-openai-tightens-activity-7318110671093600256-59_h
+LINK: https://www.linkedin.com/posts/sensetime-group-limited_ai-highereducation-aigovernance-activity-7448897687367737344-Pnge
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - Global industry news with implications for AI development and IPO ambitions
+SCORE: 6/10 - Global industry news with thought leadership on AI and higher education
 CATEGORY: chinese
 AI COMMENT:
-It's interesting to see Zhipu AI pursuing an IPO while emphasizing its full-stack independence across various computing platforms. The ability to be compatible with multiple domestic GPU chips could be a strategic advantage, especially considering the current geopolitical landscape. How do you think Zhipu AI's focus on independence will impact its competitiveness in the global AI market, particularly in light of OpenAI's recent advancements with GPT-4.1?
+Dr. Xu Li's perspective on AI as a long-term companion to amplify human potential is insightful. The shift towards methodological and exploratory learning, facilitated by AI, can indeed revolutionize the way we approach education. However, what are the potential challenges in implementing AI-enabled learning models globally, and how can we ensure that digital equality is achieved across different regions and communities?
 TEXT:
-钛媒体TMTPOST
-631 followers
-1y
-CEO Zhang Peng reaffirmed the company's IPO ambitions, emphasizing its "full-stack independence" across computing platforms—including compatibility with Ascend, Hygon, Sunway, and dozens of domestic GPU chips—and asserting that U.S. export controls would not materially affect business operations.
-https://lnkd.in/eU8hwnaZ
-Zhipu AI Kicks Off IPO Race as OpenAI Tightens Global Lead with GPT-4.1 | TMTPOST
-en.tmtpost.com
-1
+SenseTime 商汤科技
+112,977 followers
+2mo
+Dr. Xu Li, our Chairman of the Board and CEO, shared his perspectives on #AI and #HigherEducation in the AI era at the Hong Kong Global #AIGovernance Conference 2026, hosted by the HKU Musketeers Foundation Institute of Data Science .
+He emphasized that #AI should be viewed as a long-term companion — to amplify human potential, not substitute human creativity, judgment, or decision-making.
+Meanwhile, learning in the AI era is shifting from memorizing broad knowledge to building a systematic methodology for exploring knowledge. He noted that, "By using AI as an interactive tool, learners can dive deeply into a topic and complete experimental validation along the way."
+Dr. Xu said Hong Kong’s universities hold a unique advantage in this transformation: they can pioneer innovative AI-enabled learning models and help drive global replication.
+As #EdTech becomes increasingly central to education empowerment, SenseTime continues to advance practical and advanced EdTech solutions. He further highlighted that Hong Kong can play a crucial role as a “super connector” and “super value adder” for B2B AI, especially EdTech—supporting its international expansion.
+Underlying all of this is the need for #DigitalEquality. SenseTime is committed to accelerating AI as public infrastructure—making it accessible, affordable, and available to all.
+香港大學
+44
+1 Comment
 Like
 Comment
 Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/williambinli_nio-blueskycoming-batteryswap-activity-7458894611764367360-PApn
-DATE: 2026-06-15
-METRICS: 0 Likes, 0 Comments
-SCORE: 6/10 - Global industry news with potential for adding unique value
-CATEGORY: chinese
-AI COMMENT:
-William, it's great to see the progress of NIO's battery swap technology along the Hexi Corridor. The integration of battery swap stations with existing infrastructure can significantly reduce range anxiety and increase adoption of EVs. What are your thoughts on how this technology can be scaled globally, particularly in regions with limited existing infrastructure, to support widespread EV adoption?
-TEXT:
-William Li
-1mo
-Arrived in Zhangye and just wrapped up the prep session for tomorrow's 24-hour livestream.
-This morning, Lihong and I set off from Lanzhou to inspect our battery swap route along the Hexi Corridor. We drove the executive flagship SUV NIO ES9 all the way to Zhangye, swapping along the way and covering 560 km in total.🔋
-At one point during the trip, Lihong took over driving while I relaxed in the ES9's second row and watched the NBA game. Plenty of space, very comfortable.😁
-On the road, we stopped at a few iconic places:
-📍Wuwei Service Area: this is where we built our first expressway battery swap station in Gansu. Huge thanks to our on-duty colleague Yanwen for the amazing work.🙌
-📍Shandan Horse Farm: located in the core area of Qilian Mountains ecological protection zone. Thousands of horses here, stunning scenery, and I also got to ride one.🐎
-📍Battery Swap Station in Zhangye: our final stop today. This station was built in 2023 after a friendly bet between Lihong and our user Mr. Wu. He said that if we built it, we'd have at least 100 more users here. He was right, and now there're nearly 120 users across NIO, ONVO, and firefly.
-Tomorrow at 6:00 AM (UTC+8), I'll start my 24-hour livestream and head to Dunhuang with some special guests and our colleagues. Stay tuned.
-Let's Power Up! Let's Jiadian!⚡
-#NIO #BlueSkyComing #BatterySwap #HexiCorridor #SilkRoad
-+1
-198
-7 Comments
-Like
-Comment
-Share
-Mitra Harrysingh
-1mo
-Battery Swap is the only way forward when it comes to EVS, mainly due to no battery degradation,  customers never have to worry about range anxiety. You are a genius William https://youtu.be/98BL-lx_-xE
+HKU Musketeers Foundation Institute of Data Science
+2mo
+Thank you for sharing these perspectives, and for Dr Xu’s contribution to the conference!
+The framing of AI as a long-term companion, alongside the shift towards methodological and exploratory learning, reflects a key direction discussed across sessions on AI and education. It also highlights how governance and deployment intersect in practice, particularly in shaping how institutions adopt and integrate AI into learning environments.
+We also appreciate the emphasis on digital equality and Hong Kong’s role as a connector. These themes align closely with the conference’s focus on inclusive, cross-regional approaches to AI governance and development.  
+Many thanks again for Dr Xu’s engagement and participation!
 Like
 Reply
 1 Reaction
-Tameem Sajid
-3w
-Leadership like this builds more than infrastructure it builds trust. Seeing innovation scale through real execution real teams and real customer adoption is always inspiring
- 
-What you are building across the corridor is genuinely impressive looking forward to following the journey. 
-Like
-Reply
-Mariusz Biały
-1mo
-Great example of how real EV adoption is built — not only through vehicles, but also through infrastructure, user experience and long-term commitment.
-The combination of product, service network and confidence on the road is what will define the next stage of electric mobility.
-Like
-Reply
-John Cooper
-1mo
-We need this in the UK asap
-Like
-Reply
-2 Reactions
-Frank Schlenstedt
-1mo
-🤖🪫🔁🔋🏁
-Like
-Reply
-1 Reaction
-Ruihan G.
-1mo
-最近在领英很活跃呀， 国外版的 雷军 lol 
-Like
-Reply
-David Johansson
-1mo
- 👏 
-Like
-Reply
-See more comments
 To view or add a comment, sign in
 ================================================================================
 

@@ -1,17 +1,3 @@
-https://www.linkedin.com/posts/siddhartha-bharti-b57a021b_industrialautomation-fmcgmanufacturing-smartmanufacturing-activity-7420771427643125760-1qW8
-https://www.linkedin.com/posts/boston-dynamics_the-to-do-list-with-spot-boston-dynamics-activity-7449834757271547904-_Ok8
-https://www.linkedin.com/posts/shubhamrobo_ros2-ros-robotics-activity-7470185918797225984-gnbk
-https://www.linkedin.com/posts/enzo-ghisoni-robotics_ros2-ai-robotics-activity-7449070785433993216-8JnR
-https://www.linkedin.com/posts/boston-dynamics_boston-dynamics-and-fieldai-are-collaborating-activity-7437861272697589761-_tCK
-https://www.linkedin.com/posts/rickspair_industrialrobotics-manufacturing-automation-activity-7467101465044537344-hdPc
-https://www.linkedin.com/posts/association-for-advancing-automation_automateshow-industrialautomation-robotics-activity-7440859786507599872-tczZ
-https://www.linkedin.com/posts/jayalakshmis19_aiagents-llms-autonomousai-activity-7468322495197265920-XjV9
-https://www.linkedin.com/posts/ai-insider-1_what-is-an-ai-agent-complete-beginners-activity-7468924421353668608-J5av
-https://www.linkedin.com/posts/manish-verma-66a98b307_robotics-automation-industrialautomation-activity-7469974909323005953-wXON
-https://www.linkedin.com/posts/the-knotts-company_the-stats-and-opportunity-behind-us-industrial-activity-7417223894106890240-PWi0
-https://www.linkedin.com/posts/abi-research_automate2026-industrialautomation-manufacturing-activity-7470911468578770946-W1yJ
-https://www.linkedin.com/posts/samchoksi_agenticai-ai-futureofwork-activity-7469931863499833344-P8Vj
-=== RUN ===
 https://www.linkedin.com/posts/industrial-automation-and-machinery-dynamics_industrialrobotics-7axis-automation-activity-7471090290054053888-6Dpy
 https://www.linkedin.com/posts/theaibothub_the-era-of-humanoid-robot-mass-production-activity-7469766331240898560-Z8F5
 https://www.linkedin.com/posts/ashishcs1990_overview-of-the-different-types-of-ai-agents-activity-7335346484793503744-fBFj
@@ -108,3 +94,24 @@ https://www.linkedin.com/posts/williambinli_nio-blueskycoming-activity-742536339
 https://www.linkedin.com/posts/wsj-leadership-institute_wsj-wsjceo-ai-activity-7470449909851197441-r6i5
 https://www.linkedin.com/posts/xiaopeng-he-41615484_xpeng-activity-7345805874872950784-tPqG
 https://www.linkedin.com/posts/tmtpost_zhipu-ai-kicks-off-ipo-race-as-openai-tightens-activity-7318110671093600256-59_h
+=== RUN ===
+https://www.linkedin.com/posts/arcon-risk-control_arcon-ai-aiagents-activity-7471169448146599936-7yX3
+https://www.linkedin.com/posts/manish-sawarkar_robotics-industrialautomation-fanuc-activity-7470483557950484480-DZY8
+https://www.linkedin.com/posts/worldaiconf_zhang-peng-zhipu-ai-ceo-large-models-bring-activity-7215912014240448513-2wiu
+https://www.linkedin.com/posts/tmtpost_jdcoms-richard-liu-returns-to-spotlight-activity-7392405859294781441-Vtzg
+https://www.linkedin.com/posts/xiaopeng-he-41615484_xpeng-activity-7399345381203111936-jz1N
+https://www.linkedin.com/posts/sensetime-group-limited_chinesechip-ai-multimodal-activity-7440681770431442944-mQLU
+https://www.linkedin.com/posts/williambinli_1000000th-vehicle-milestone-thank-you-activity-7414263975397367808-IOwo
+https://www.linkedin.com/posts/williambinli_nio-nioes8-blueskycoming-activity-7453438857058078720-ihyv
+https://www.linkedin.com/posts/leo-wang-13263225_getting-ready-for-koreamat-2023-activity-7053673598686810112-V_gq
+https://www.linkedin.com/posts/leo-wang-13263225_totetoperson-ecommerce-pharmaceutical-activity-7212181399238270977-O5Dk
+https://www.linkedin.com/posts/baidu-inc_were-not-that-far-behind-baidus-robin-activity-7421721440733003776-HMOP
+https://www.linkedin.com/posts/leo-wang-13263225_gxo-logistics-deploys-tote-to-person-mobile-activity-7201232363580760065-uSWs
+https://www.linkedin.com/posts/sensetime-group-limited_ai-highereducation-aigovernance-activity-7448897687367737344-Pnge
+https://www.linkedin.com/posts/leo-wang-13263225_geekplus-brings-flexible-warehouse-automation-activity-7204398396609077248-L73E
+https://www.linkedin.com/posts/hktenzin_xpeng-robotics-humanoidrobots-activity-7470632145342853122-tqnD
+https://www.linkedin.com/posts/momentum-works_jdcom-founders-rare-reflections-ignite-activity-7343167240239816704-SEJs
+https://www.linkedin.com/posts/sensetime-group-limited_sensetime10-sensetimeglobalaisummit-professortangxiao-activity-7253952430776713216-_srD
+https://www.linkedin.com/posts/asiaconnectmagazine_jdcom-richardliu-seaexpandary-activity-7432473270685442049-WEMD
+https://www.linkedin.com/posts/leo-wang-13263225_great-experience-of-cooperating-to-provide-activity-6705474762359099392-qP8W
+https://www.linkedin.com/posts/the-icons-global_unitreerobotics-wangxingxing-china2026cctvspringfestivalgala-activity-7439684732453498880-sST1
