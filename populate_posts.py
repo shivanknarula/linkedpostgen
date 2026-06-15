@@ -808,6 +808,71 @@ def populate_database():
         for post in all_seeded_posts:
             writer.writerow(post)
             
+    # Seed into SQLite
+    from src.database import init_db, get_db_connection
+    init_db()
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    
+    print("[*] Seeding posts into SQLite database...")
+    for post in all_seeded_posts:
+        # Check if profile_id can be matched
+        profile_id = None
+        cursor.execute("SELECT id FROM profiles WHERE url = ?", (post['url'],))
+        p_row = cursor.fetchone()
+        if p_row:
+            profile_id = p_row['id']
+            
+        cursor.execute("""
+        INSERT INTO posts (url, profile_id, post_text, likes, comments, published_date, category, status)
+        VALUES (?, ?, ?, ?, ?, ?, ?, 'scored')
+        ON CONFLICT(url) DO UPDATE SET
+            post_text = excluded.post_text,
+            likes = excluded.likes,
+            comments = excluded.comments,
+            published_date = excluded.published_date,
+            status = 'scored'
+        """, (
+            post['url'], profile_id, post['text'], 
+            int(post['likes']), int(post['comments']), 
+            post['date'], post['category']
+        ))
+        
+        # Get post_id
+        cursor.execute("SELECT id FROM posts WHERE url = ?", (post['url'],))
+        post_id = cursor.fetchone()['id']
+        
+        # Calculate individual metric scores from the total score for seeding
+        total_score = int(post['score']) * 10 # scale to 100
+        # distribute points roughly
+        novelty = min(10, int(post['score']))
+        virality = min(10, int(post['score']))
+        technical_depth = min(10, int(post['score']))
+        ai_relevance = min(10, int(post['score']))
+        robotics_relevance = 9 if 'robot' in post['text'].lower() else 5
+        china_relevance = 9 if post['category'] == 'chinese' else 1
+        founder_signal = 9
+        research_signal = 8
+        
+        cursor.execute("""
+        INSERT OR REPLACE INTO scores (
+            post_id, total_score, novelty, virality, technical_depth, 
+            ai_relevance, robotics_relevance, china_relevance, founder_signal, research_signal, reasoning
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """, (
+            post_id, total_score, novelty, virality, technical_depth, 
+            ai_relevance, robotics_relevance, china_relevance, founder_signal, research_signal, 
+            post['reasoning']
+        ))
+        
+        if post['comment']:
+            cursor.execute("""
+            INSERT OR REPLACE INTO generated_comments (post_id, comment_text)
+            VALUES (?, ?)
+            """, (post_id, post['comment']))
+            
+    conn.commit()
+    conn.close()
     print("[+] Seeding complete!")
 
 if __name__ == "__main__":

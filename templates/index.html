@@ -781,7 +781,7 @@
         <!-- Stats deck -->
         <section class="stats-grid">
             <div class="glass-card stat-card">
-                <div class="stat-icon">
+                <div class="stat-icon" style="background: rgba(59, 130, 246, 0.08); color: var(--accent-primary);">
                     <i data-lucide="compass" style="width: 24px; height: 24px;"></i>
                 </div>
                 <div class="stat-info">
@@ -790,7 +790,7 @@
                 </div>
             </div>
             <div class="glass-card stat-card">
-                <div class="stat-icon">
+                <div class="stat-icon" style="background: rgba(139, 92, 246, 0.08); color: var(--accent-violet);">
                     <i data-lucide="sparkles" style="width: 24px; height: 24px;"></i>
                 </div>
                 <div class="stat-info">
@@ -799,12 +799,39 @@
                 </div>
             </div>
             <div class="glass-card stat-card">
-                <div class="stat-icon">
+                <div class="stat-icon" style="background: rgba(239, 68, 68, 0.08); color: var(--danger);">
                     <i data-lucide="trending-up" style="width: 24px; height: 24px;"></i>
                 </div>
                 <div class="stat-info">
-                    <h3>Avg Commentability</h3>
+                    <h3>Avg Score</h3>
                     <p id="statAvg">0.0</p>
+                </div>
+            </div>
+            <div class="glass-card stat-card">
+                <div class="stat-icon" style="background: rgba(16, 185, 129, 0.08); color: var(--success);">
+                    <i data-lucide="activity" style="width: 24px; height: 24px;"></i>
+                </div>
+                <div class="stat-info">
+                    <h3>Last Run</h3>
+                    <p id="statDuration">N/A</p>
+                </div>
+            </div>
+            <div class="glass-card stat-card">
+                <div class="stat-icon" style="background: rgba(245, 158, 11, 0.08); color: var(--warning);">
+                    <i data-lucide="play-circle" style="width: 24px; height: 24px;"></i>
+                </div>
+                <div class="stat-info">
+                    <h3>Total Runs</h3>
+                    <p id="statRuns">0</p>
+                </div>
+            </div>
+            <div class="glass-card stat-card">
+                <div class="stat-icon" style="background: rgba(6, 182, 212, 0.08); color: #06b6d4;">
+                    <i data-lucide="users" style="width: 24px; height: 24px;"></i>
+                </div>
+                <div class="stat-info">
+                    <h3>Monitored Profiles</h3>
+                    <p id="statProfiles">0</p>
                 </div>
             </div>
         </section>
@@ -941,6 +968,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             lucide.createIcons();
             loadResults();
+            loadMetrics();
         });
 
         // Helper to check environment
@@ -964,6 +992,29 @@
             } catch (error) {
                 console.error("Results fetch failure:", error);
                 renderEmptyTable();
+            }
+        }
+
+        // Fetch metrics from API
+        async function loadMetrics() {
+            try {
+                const response = await fetch('/api/metrics');
+                const data = await response.json();
+                if (data.status === 'success' && data.metrics) {
+                    const m = data.metrics;
+                    document.getElementById('statProfiles').innerText = m.active_profiles;
+                    document.getElementById('statRuns').innerText = m.total_runs;
+                    
+                    if (m.latest_runs && m.latest_runs.length > 0) {
+                        const lastRun = m.latest_runs[0];
+                        const durationSec = lastRun.duration_ms ? (lastRun.duration_ms / 1000).toFixed(1) + 's' : 'N/A';
+                        document.getElementById('statDuration').innerText = `${durationSec} (${lastRun.status})`;
+                    } else {
+                        document.getElementById('statDuration').innerText = 'N/A';
+                    }
+                }
+            } catch (error) {
+                console.error("Metrics fetch failure:", error);
             }
         }
 
@@ -1353,8 +1404,9 @@
                             btn.innerHTML = '<i data-lucide="play" style="width: 18px; height: 18px;"></i> <span>Scan Robotics Network</span>';
                             lucide.createIcons();
                             
-                            // Reload results
+                            // Reload results and metrics
                             loadResults();
+                            loadMetrics();
                         }
                     }
                 } catch (error) {

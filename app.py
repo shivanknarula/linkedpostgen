@@ -1,7 +1,7 @@
 import os
-import csv
 import subprocess
 from flask import Flask, render_template, jsonify
+from src.database import get_results_list, get_metrics_summary
 
 app = Flask(__name__)
 
@@ -22,13 +22,13 @@ def run_scrape():
     try:
         # Initialize and clear log file
         with open("scrape_run.log", "w", encoding="utf-8") as f:
-            f.write("[*] Starting LinkedIn Scraper background process...\n")
+            f.write("[*] Starting LinkedIn Intelligence Platform async background process...\n")
             
         log_file = open("scrape_run.log", "a", encoding="utf-8")
         
-        # Start scraper as background process
+        # Start new async orchestrator as background process
         current_process = subprocess.Popen(
-            ["python", "-u", "scrape_v2.py"],
+            ["python", "-u", "-m", "src.main"],
             stdout=log_file,
             stderr=log_file,
             text=True
@@ -67,18 +67,19 @@ def get_scrape_status():
 
 @app.route("/api/results", methods=["GET"])
 def get_results():
-    results = []
-    csv_file = "robotics_posts.csv"
-    if os.path.exists(csv_file):
-        try:
-            with open(csv_file, "r", encoding="utf-8", newline="") as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    results.append(row)
-        except Exception as e:
-            return jsonify({"status": "error", "message": f"Could not read CSV: {str(e)}"}), 500
-            
-    return jsonify({"status": "success", "data": results})
+    try:
+        results = get_results_list(limit=50)
+        return jsonify({"status": "success", "data": results})
+    except Exception as e:
+        return jsonify({"status": "error", "message": f"Could not read results: {str(e)}"}), 500
+
+@app.route("/api/metrics", methods=["GET"])
+def get_metrics():
+    try:
+        metrics = get_metrics_summary()
+        return jsonify({"status": "success", "metrics": metrics})
+    except Exception as e:
+        return jsonify({"status": "error", "message": f"Could not read metrics: {str(e)}"}), 500
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
