@@ -1,10 +1,3 @@
-https://www.linkedin.com/posts/juliazadorozhna_meet-odin-our-new-humanoid-robot-that-activity-7358142104725778433-1C9O
-https://www.linkedin.com/posts/rkallepalli_ai-agents-are-rapidly-moving-from-assistants-activity-7469398882150588416-fExH
-https://www.linkedin.com/posts/anupambagchi_robotics-softwareengineering-ros2-activity-7467674996887195649-KBUq
-https://www.linkedin.com/posts/saurabh-ranjan-54b68474_ai-aiagents-artificialintelligence-activity-7470079638589997056-zAEb
-https://www.linkedin.com/posts/kashaf-noor-196bb6247_agentic-ai-explained-how-autonomous-agents-activity-7468667473962332160-OYiU
-https://www.linkedin.com/posts/abhinandbinu_ros2-nav2-amr-activity-7470766261082456064-ZNOJ
-=== RUN ===
 https://www.linkedin.com/posts/learnsyslab_ros2-lerobot-vlas-activity-7373994314848296960-mY8C
 https://www.linkedin.com/posts/mohan-2k8-6245531b_industrialautomation-robotics-facultydevelopmentprogramme-activity-7470353467518144512-IvUh
 https://www.linkedin.com/posts/artem-sokolov-s_humanoid-pioneering-humanoid-robots-for-activity-7255588413024702465-MlRz
@@ -124,3 +117,12 @@ https://www.linkedin.com/posts/werideai_globalization-robotaxi-weride-activity-7
 https://www.linkedin.com/posts/martechai2025_robotics-ceo-confident-in-creations-activity-7432763888716136448-oAfW
 https://www.linkedin.com/posts/qbeep_chinas-zhipu-ai-ceo-zhang-peng-said-full-activity-7380901603647815681-3CBp
 https://www.linkedin.com/posts/baidu-inc_genai-agents-baidu-activity-7208880262749773825-7MpL
+=== RUN ===
+https://www.linkedin.com/posts/boston-dynamics_careers-boston-dynamics-activity-7231363693345714178-eWGe
+https://www.linkedin.com/posts/thomasforindustry_how-boston-dynamics-is-leading-the-robotics-activity-7166453880648556544-brOy
+https://www.linkedin.com/posts/boston-dynamics_from-teleoperation-to-autonomy-inside-boston-activity-7376295561219588096-KsnD
+https://www.linkedin.com/posts/xu-li-92340a18_title-activity-6844784388903972864-0F3x
+https://www.linkedin.com/posts/williambinli_nio-blueskycoming-niocup-activity-7453813461945569280-BpE3
+https://www.linkedin.com/posts/untold-success_e-commerce-elevation-richard-lius-jdcom-activity-7151163016330235904-399Z
+https://www.linkedin.com/posts/baidu-inc_our-ceo-robin-li-is-ready-to-give-a-hands-on-activity-7119321020208947200-g7mV
+https://www.linkedin.com/posts/chinesellers_can-jdcom-win-abroad-without-playing-temus-activity-7346796006946086912-J_GO
