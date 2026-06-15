@@ -1,297 +1,159 @@
-LINK: https://www.linkedin.com/posts/werideai_robotaxi-hpc-weride-activity-7422898938325790722-oWFH
+LINK: https://www.linkedin.com/posts/grishinrobotics_startups-rhoda-ai-and-genesis-ai-are-building-activity-7384182504351547392-0dNH
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - Global thought leadership on autonomous driving and AI
-CATEGORY: chinese
+SCORE: 9/10 - High-value thought leadership post on global robotics trends with insightful analysis
+CATEGORY: global
 AI COMMENT:
-Tony Han's vision for autonomous driving is truly inspiring, and his experience as a former chief scientist and professor brings a unique perspective to the industry. The reduction in autonomous driving suite cost by 50% through strong partnerships like the one with Lenovo and NVIDIA is a remarkable achievement. What do you think will be the most significant hurdle for widespread adoption of autonomous vehicles in the next 5 years, and how can industry leaders address it?
+Excellent analysis of the shifting landscape in humanoid robotics, highlighting the strategic focus on near-term utility and risk mitigation. The comparison between Rhoda AI's and Genesis AI's approaches underscores the ongoing debate on the efficacy of wheeled versus bipedal designs. As we consider the future of factory floors, what do you think will be the tipping point for bipedal robots to overcome the current limitations in balance, dexterity, and cost, and thus achieve widespread adoption?
 TEXT:
-Loaded: 6.50%
-Pause
-Back to start
-Current Time 
-0:01/
-Duration 
-9:57
-Show Captions
-Unmute
-Fullscreen
-WeRide
-45,404 followers
-4mo
-💬 "If you could be the Wright Brothers at the beginning of the 20th century, would you take the risk of flying? To me, the answer is obvious."
-Tony Han, Founder and CEO of WeRide, spoke with Ken Wong, President of Lenovo's Solutions and Services group, for an episode of Perspective+, a series that spotlights industry leaders driving real-world digital transformation.
-In the interview, Tony shared how he built WeRide into a global autonomous technology leader, now present across over 40 cities in 11 countries. Drawing on his academic background and experience as a former chief scientist at one of the world's leading technology companies, Tony reflected on the bold risks, strategic partnerships, and agile execution needed to turn autonomous driving from vision into reality. 💪
-🚘 The conversation aptly took place inside WeRide’s latest-generation #Robotaxi GXR, built on #HPC 3.0 – a platform jointly developed with Lenovo and NVIDIA that has reduced autonomous driving suite cost by 50%, underscoring the role of strong partnerships to WeRide's success.
-📺 Watch the full episode here to catch more insights from Tony and Ken!
-(Video credits: Lenovo)
-#WeRide #Lenovo #AutonomousMobility #AutonomousVehicle #SmartMobility #Innovation #SmartCities #FutureOfTransport
-…more
-67
-Like
-Comment
-Share
-Transcript
-Transcript
-Hello everyone, I'm Ken Wong and welcome back to Perspective Plus, where we meet the visionaries transforming how we live, move and connect. Now, today's episode is a special one because what if I told you the future of mobility is not ten years away, It is already here. Today we are writing into that future with a pioneer who is helping make autonomous driving real. My guest today is Tony Hang, the founder and CEO of Rewrite. Tony went from being a professor in the US to now running one of the most influential autonomous mobility companies in the world. They have got Robo Taxi on the roll, robo buses in smart cities, and Robo Sweeper keeping things clean. And they're all doing it with cutting edge AI and high performance computing. Hey, hi Tony. First of all, thank you very much for your time and thanks for having me on this. You know the next generation of mobility, right? I'm actually on an autonomous driving car and this is one of the world's first mass produced Level 4 autonomous driving car like those. Thanks for the opportunity. By the way, I have one question for you, right? Should I call you? Professor or should I call you doctor or should I call you as I always call you tonight because you have any call you tonight? You know, the first question that I have is when I read your background, I think it's fascinating because you have been a professor. You also was the chief scientist of one of the leading technology company in the world and now you're leading one of the most influential autonomous driving company on the planet. But startup is completely different start new company, which is all risk a lot of things that you have to take care of by yourself. So how did you make that decision and how can you how did you balance the opportunity and risk and what are they shooting for at that point of time? OK, so first of all, you know, I don't think. Balancing life and work is an easy job. The reason is like you know in the year of 2017, people who are doing a research and doing development in that field can can feel like the moment is coming. OK. So within five or seven years at that time we all believe autonomous driving will be like what we have experienced today. It will be available and the supply robot taxi service to ordinary people. So no question is who will implement or who can just make this. Fiction into reality that is a historical moment at the beginning of 20th century. If you can be right, brothers, will you be able to do it? Will you'll take the risk of of of the flight? I think to me, the answer is obvious. I quit my tenure professor position and also I quit my executive position to to start a company. And of course, the past eight years has been like riding a roller coaster. Overall, I think it's worthy. What I heard there's a lot of uh. You know, understanding of the opportunity and also courageous. There was a lot of uncertainty and unknown that you have to figure out. I think most of the people who would like to start a new business we'll think about. Even even for myself, you know, I'm a Lenovo, I'm running a global business. It's about strategy and business plan, right? A lot of people are debating, oh, should we come up with a, you know, three-year, five year or even A10 year business plan, assuming we'll know everything is going to happen in the future. For a lot of startup, you know, they might start with a A1. Idea and then based on the latest dynamic in the market and change their plan right. So Tony you, you both in corporate academia and also a startup. How do you balance between a perfect plan versus let's start 1st and then we'll figure out this is a great question you know can I think that is the question that only Ken can ask. I'm so eager to answer this question. Basically adopt the framework by Professor Jung Ming Zuni was the CEO of Alibaba and also my mentor and he has a framework methodology called vision for 10 years and planning for three years and then the real action for the for only one year. What does that mean? That means every year you plan for the next three years, but only the first years plan got got executed and then you added by the same time when you make 3 years. And you always think about 10 years. So in this way you can become very nimble, but you don't lose your long term goal you have. So that's that is framework I adopted for the past few years. I think so far that framework works pretty well. And I recommend to my friends, to you and to everybody, okay, strategic direction and also be nimble in your execution. I think this is the the key take away from me. The other question I would like to ask Tony is that you like me. We have a global business, right? If we look at we write today, you operate in more than 30 cities across 11 markets, right, which is huge. Now, what are some of the similarities and also differences, right, when you do autonomous driving in different parts of the world? OK, let me start with the similarities. As human beings, we all treat driving as a tedious job and also we all hate the traffic, right? Nobody enjoyed gets stuck in the car. Waiting for the for the traffic flow for for two hours. So I think you know people all like the way autonomous driving can can supply that is transparent passengers from point A to point B, which much safer and more economically effective. So if you adopt adult driving all the every market, every market embrace it. There are several difference number one infrastructure, you know the road conditions, the network, Internet connections are all different that will affect our. Deployment and also affect our strategy for reliability #2 is about regulations. You know, there are some market currently are more open to autonomous driving, right? There are some markets that are little bit conservative, you know, they want to make sure it's 100% safe and maybe some market want other people to adopt autonomous driving 1st and they just they become a follower. And the third difference is the economy development levels are different. So therefore the cost, some markets are very cost. This table because labor cost is so high, so these are three major differences. OK, thank you. And by the way, I mean this autonomous driving car from rewrite, right? I think this is a perfect experience. We have been talking to each other on the car for almost like 15 minutes, right? But I didn't feel any difference compared to a normal car, maybe even better in terms of smooth and you know we're in Guangzhou, you know the traffic of Guangzhou, right? There's a lot of big cars and also smaller motorbikes. But so far I think the experience. Spend. It's been perfect. First of all, thanks for the the opportunity for your company. We write and, and, and us at Lenovo and also with our partner NVIDIA to work together to provide the computing power as you need in your autonomous driving car. And also, you know, driving the powerful cloud at the back to orchestrate and manage all your autonomous driving car across the world. I have one question, right? So when you start a business, there's a part where it is your core. That you have to do it by yourself only you you're the best to do it but I believe there's a part also. How can you work with the best partner mm-hmm. So As for you to get the best support to succeed your venture, right. So what is your view about partnership, how to identify the best partner. If you read the book the Wealth of Nations, it's talk about the industrial revolution start not only because of the invention of the steam engine it also. Because they refine the split of the jobs, OK, how do we speed jobs and people work together? For example, we write these autonomous driving company. So the technology, the software, the algorithm, we are the best. But we actually closely work with Lenovo for the autograde domain computer. I think nobody can compete even with against Lenovo. And together we have developed the first auto grade level 4. Driving domain computer based on soil platform that is a breakthrough I think only because of close collaboration between these two companies can we bring this auto grade L4 level domain computer into reality. Now we are sitting there with that computer running. So I think both of us should be very proud of that progress. Thank you, Tony. I think today I I'm it's really a fascinating experience for me and also to be able to work with you and also here at your insight today I'm sure our audience. This way on my on my platform will love this episode very much. So once again, thank you very much. Thank you very much. Thank you. Lenovo. Lenovo.
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/xiaopeng-he-41615484_xpeng-activity-7415342702482857984-u5Cz
-DATE: 2026-06-15
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - Global product release and major industry announcement with thought leadership potential
-CATEGORY: chinese
-AI COMMENT:
-Congratulations to the XPENG team on this significant milestone! The simultaneous launch of the P7+ in China and globally, along with its production in Europe, marks a new era in the automotive industry. As a robotics engineer, I'm intrigued by the potential for XPENG's advanced technology to drive innovation in autonomous vehicles. What do you think will be the most significant challenge for XPENG as it expands its global presence, and how will the company address it?
-TEXT:
-Xiaopeng He 
-Xiaopeng He is an Influencer
-5mo
-Today marks the 100,000th XPENG P7+ pure-electric rolling off the production line, and the very first P7+ EREV as well. Meanwhile, the 2026 XPENG P7+ launched at Brussels Moto Show, kicking off the first stop of its global journey.
-The XPENG P7+ is the first vehicle in XPENG's history to launch simultaneously in China and globally, and it will also be produced in Europe. This is the beginning of the P7+ moving from China to the world, with an official rollout across 36 countries. 
-We believe that in the time ahead, more high-quality, cutting-edge vehicles from China will reach the global stage. 
-Thank you again to our XPENG friends around the world.
-#XPENG
-486
-29 Comments
-Like
-Comment
-Share
-Shee Cheong Man
-5mo
-A massive congratulations to the XPENG team! 🎊 Seeing the 100,000th P7+ roll off the line and launching in 36 countries simultaneously is a proud moment for the entire Chinese automotive ecosystem. As a specialist in high-precision die-casting for the New Energy sector, we know that reaching this global stage requires uncompromising quality and precision engineering. Truly inspiring to see XPENG moving from China to the world!
-Like
-Reply
-7 Reactions
-Bhupender Singh Bura
-5mo
-I am writing to formally escalate my concerns regarding the status of my G9 order (Order No. XPNL25103033492, placed on 30 October 2025). Despite multiple follow-ups with your team over the past two months, I have yet to receive any concrete information regarding the expected delivery date. The original commitment was for delivery by 20 January 2026, which is now only a week away, and there remains a lack of transparency and clarity about my order status.
-Throughout this period, I have repeatedly requested updates, but the responses have been vague and unhelpful. This prolonged delay, coupled with the absence of clear communication, raises serious questions about XPENG’s order tracking processes and overall reliability.
-Furthermore, as previously communicated, I am currently relying on a rented vehicle. If my car is not delivered by the committed date of 20 January 2026, I request that XPENG either arrange a replacement vehicle for me until my car arrives or reimburse me for my ongoing rental costs.
-I trust XPENG values its customers and will take the necessary steps to restore my confidence in your brand. I look forward to your prompt and positive response.
-
-Like
-Reply
-Joey McNeil
-5mo
-This is a remarkable milestone. Hitting the 100,000th P7+ while simultaneously debuting the first P7+ EREV shows exactly what sustained, disciplined innovation looks like — not just scaling production, but expanding the frontier at the same time. Moments like this signal where the category is heading: smarter electrification, broader consumer reach, and technology that evolves in real time with market demand. Impressive momentum from XPENG.
-Like
-Reply
-Shih Min Zhuang
-5mo
-
-🚀 **100,000 XPENG P7+ units rolling off the line!**  
-
-- 🎉 Huge congratulations to the XPENG team for hitting this milestone and launching the first P7+ EREV.  
-- 🌍 It’s exciting to see a Chinese brand debut simultaneously in China and globally, and now producing in Europe.  
-- 🔧 The 2026 P7+ at the Brussels Moto Show marks a bold step toward a 36‑country rollout—what a journey!  
-
-Looking forward to more high‑quality, cutting‑edge vehicles from China hitting the global stage. Great job, XPENG!  
-
-— RogerZhuang
-Like
-Reply
-Roger Atkins
-5mo
-Truly impressive in every way - congratulations Xiaopeng He 👏
-Like
-Reply
-4 Reactions
-Klaus Diedert
-4mo
-XPeng manufacturers outstanding EV cars. Can’t wait for the P7+ to be launched in Thailand 🇹🇭. I owned a first gen. P7 and this was already a stunning car in every point of aspect.
-Like
-Reply
-Bruno Oliveira
-5mo
-Dear Mr Xiaopeng He and Mr @shee cheong man can we also get the new G7 EREV over here in Europe ? 
-Looking to buy a new car and the G7 EREV fits perfectly like no other, there's nothing close in the market.
-🎉 Congratulations on such great innovation at XPENG 🎉
-Like
-Reply
-Dragon lee
-4mo
-Congratulations on the 100,000th XPENG P7+ rolling off the line and its global debut! It’s amazing to see XPENG leading the charge in bringing high-quality Chinese EVs to the world. Looking forward to seeing the P7+ on roads across Europe and beyond! 🚀
-Like
-Reply
-See more comments
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/startup-pakistan_wang-xingxing-of-unitree-robotics-from-severe-activity-7298010888874164225-3YKS
-DATE: 2026-06-15
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - Global thought leadership and breakthrough in robotics/AI
-CATEGORY: chinese
-AI COMMENT:
-Wang Xingxing's journey from overcoming academic challenges to becoming a robotics pioneer is truly inspiring. His achievement of securing RMB 1 billion funding at a young age and catching Elon Musk's attention speaks to the innovative spirit and potential of robotics to transform industries. What do you think is the most significant impact that robotics companies like Unitree can have on the global economy in the next decade?
-TEXT:
-Loaded: 8.61%
-Pause
-Back to start
-Current Time 
-0:01/
-Duration 
-2:23
-Unmute
-Fullscreen
-Startup Pakistan
-889,114 followers
-1y
-Wang Xingxing of Unitree Robotics: From Severe Academic Imbalance to Robotics Pioneer - Made Robots at 19, Secured RMB 1 Billion Funding at 34, and Caught Elon Musk's Attention.
-15
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/xpengmotorsglobal_xpeng-activity-7412121794070904834-mqfq
-DATE: 2026-06-15
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - Global industry announcement with a thought leadership perspective on the future of robotics and AI
-CATEGORY: chinese
-AI COMMENT:
-I completely agree with He Xiaopeng that the future is indeed robotic, and it's exciting to see XPENG pushing the boundaries with humanoid robots, flying cars, and autonomous driving. The integration of AI in these areas will undoubtedly revolutionize the way we live and interact. What do you think will be the most significant challenge in implementing AI-powered autonomous driving on a global scale, and how does XPENG plan to address it?
-TEXT:
-Loaded: 9.15%
-Pause
-Back to start
-Current Time 
-0:01/
-Duration 
-6:43
-Unmute
-Fullscreen
-XPENG
-224,615 followers
-5mo
-Looking back, 2025 was a year of real progress. But as we kick off 2026, the message is clear: the future is robotic. Our CEO He Xiaopeng believes that whether it drives, walks, or flies, it’s all about AI. 
-Check out the video highlights from our Silicon Valley team, including viral humanoid robots, flying cars and our global plans for autonomous driving!
-#XPENG 
-…more
-37
+Grishin Robotics
+25,869 followers
+8mo
+Two stealth humanoid plays just surfaced with $100M+ each: Rhoda AI ($162.6M Series A, April 2025) and Genesis AI ($105M seed). Both are chasing "general-purpose" manipulation-Rhoda aiming beyond 23 kg (50 lb) lift where many biped bots wobble; Genesis opting for a wheeled base and software-first control.
+Why it matters: the money is following deployment paths that reduce risk. Figure just locked $1B (Series C) at a $39B post-capital to turn pilots into production lines. Meanwhile, Tesla's Optimus push keeps meeting real-world constraints, from rare-earth magnet export licensing to manufacturing bottlenecks. The signal: investors want near-term utility while the hardest biped problems get worked out.
+What we're watching on factory floors in 2026: wheels vs. legs. A wheeled, two-arm unit can unload 25–35 kg cartons at inbound docks today, with simpler safety envelopes and service economics. True bipeds promise reach and human-scale ergonomics-but need reliable balance under load, dexterous hands, and cheaper actuation to win TCO.
+https://lnkd.in/gYEFenqp
+Startups Rhoda AI And Genesis AI Are Building Humanoid Robots In Stealth
+social-www.forbes.com
+3
 1 Comment
 Like
 Comment
 Share
-Michael Simonsen
-5mo
-Would be great if you could deliver the cars
+YZ-RA
+3d
+Great analysis on the recent developments in humanoid robotics, particularly the contrasting approaches of Rhoda AI and Genesis AI. The emphasis on near-term utility and risk reduction is well-taken, and the comparison between wheeled and bipedal designs is crucial for determining the optimal deployment paths. ..
 Like
 Reply
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/eric-weng-qz_zhipu-%E6%99%BA%E8%B0%B1-zhangpeng-activity-7359575633229729792-4XpS
+LINK: https://www.linkedin.com/posts/wsj-leadership-institute_wsj-wsjceo-ai-activity-7470449909851197441-r6i5
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - Global significance of AI open-source release and potential for thought leadership discussion
+SCORE: 9/10 - Global thought leadership on AI trends and industry insights from a prominent figure
 CATEGORY: chinese
 AI COMMENT:
-The open-source release of Zhipu's GLM-4.5 model is indeed a significant milestone in the development of large-scale AI models. The fact that it achieved state-of-the-art performance in reasoning, coding, and agent capabilities, and ranks third globally, is a testament to the advancements being made in the field. What I find particularly interesting is the potential for open-source models like GLM-4.5 to democratize access to AI technology and accelerate innovation. How do you think the global AI community will be impacted by the increasing availability of open-source models, and what are the potential implications for the future of AI development?
+Kai-Fu Lee's perspective on the AI race highlights the nuances of comparing models, enterprise adoption, and consumer applications between the US and China. The analogy of American companies being like individual geniuses and Chinese companies being like a study group is particularly insightful. What do you think will be the tipping point for Chinese enterprises to shift towards annual or per-use software spending, and how will this impact the global AI landscape?
 TEXT:
-Eric Weng
-10mo  Edited
-🔴(Part 1 of 2)🇨🇳CEO Zhang Peng 张鹏 of China’s new top AI open-source release, Zhipu 智谱 shares backstage stories
-By Hu Yuwei  and Liu Yang
-Published: Jul 29, 2025 10:49 PM
-Global Times
-🌐🔗 
-https://lnkd.in/gWBFpzCs
-#Zhipu #智谱 #ZhangPeng #张鹏
-
-🔶Following this open-source release of another world-leading large-scale model by a Chinese AI company, 
-🔸global media outlets and international social media platforms swiftly turned their attention 
-🔸to the performance and open-source achievements of this domestic model. 
-🔸Within two hours of the GLM-4.5 model's release, 
-🔸X featured it on its homepage. 
-🔸Within 12 hours of release, 
-🔸it has ranked second globally on the AI community Hugging Face's trending list. 
-🔶The Global Times recently conducted an exclusive interview 
-🔸with Zhipu's CEO, Zhang Peng, 
-🔸to discuss the latest features and breakthroughs of GLM-4.5, 
-🔸the rationale behind its full open-source strategy, 
-🔸and its impact on the development of Chinese large-scale models.
-
-❇️Among world's top models
-🔶The new flagship large model GLM-4.5 achieves open-source SOTA (state-of-the-art) performance in reasoning, coding, and agent capabilities. 
-🔸Evaluated across 12 representative benchmarks for comprehensive model assessment, GLM-4.5 ranks third globally, 
-🔸first among Chinese models, 
-🔸and first among open-source models in average composite score, 
-according to Zhipu.
-❇️(Part 2 of 2) 🇨🇳CEO Zhang Peng 张鹏 of China’s new top AI open-source release, Zhipu 智谱 shares backstage stories
-By Hu Yuwei  and Liu Yang
-Published: Jul 29, 2025 10:49 PM
-Global Times
-🌐 
-https://lnkd.in/giza-CNN
-
-❇️APPENDICES 
-See Comments section - more appendices may be added from time to time.
-.
-2
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/horizonrobotics_keynote-speech-of-dr-yu-kai-at-world-new-activity-7112780281543094272-Iq7q
-DATE: 2026-06-15
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - Global thought leadership in automotive computing and AI
-CATEGORY: chinese
-AI COMMENT:
-Dr. Yu Kai's vision for leveraging technology innovation to enhance human life is truly inspiring. The intersection of automotive computing and AI has the potential to revolutionize the industry, making vehicles safer and more efficient. One interesting aspect to consider is how the integration of edge AI computing in vehicles can further optimize real-time data processing and decision-making. What role do you think standardization of automotive computing platforms will play in driving the widespread adoption of these technologies?
-TEXT:
-Horizon Robotics
-14,023 followers
-2y  Edited
-On September 6, Dr. Yu Kai, Founder and CEO of Horizon Robotics, delivered a keynote speech on “Automotive Computing to Make Human Life Safer and Better” at #WNEVC2023 (World New Energy Vehicle Conference) during #IAA Mobility.
-Dr. Yu began his speech by expressing his delight and excitement of returning to #Munich, as he obtained his PhD in mathematics and computer science from the University of Munich twenty years ago. From that time till now, his mission and pursuit has never changed, that is to leverage technology innovation to make human life safer and better.
-You may find the full speech video here: https://lnkd.in/gCEykyHK.
+Loaded: 30.76%
+Pause
+Back to start
+Current Time 
+0:01/
+Duration 
+3:46
+Show Captions
+Unmute
+Fullscreen
+WSJ Leadership Institute
+13,861 followers
+4d  Edited
+Who is really winning the AI race? 
+At the WSJ Leadership Institute CEO Summit in London, Kai-Fu Lee CEO of 01.AI and Chairman of Sinovation Ventures, joins WSJ Leadership Institute President Alan Murray to explain why the answer depends on whether you're talking about models, enterprise adoption, consumer applications, robotics or the next generation of AI-powered devices.
+Watch the full conversation: https://lnkd.in/et8Uj628
+#WSJ #WSJCEO #AI
 …more
-Keynote Speech of Dr. Yu Kai at World New Energy Vehicle Conference 2023 during IAA Mobility
-https://www.youtube.com/
-20
+3
 Like
 Comment
 Share
+Transcript
+Transcript
+Were largely the two countries are in parallel universes, so the companies don't really compete. If you're in the US, you don't tend to use Chinese models and vice versa. But just to kind of compare the quality and the business models. I would say that purely large language model with Claude's new release, I think it's now around 15 months ahead of 15 months that that anything China can build is is really Fable 5 is really pretty amazing. That fluctuates, right? Last March it was three months with Deep Sea V3 coming out. So that's gonna sort of ohh, 1 coming out, R1 coming out, too many numbers. But so it's gonna go back and forth anywhere between 3 to 15 months, it's gonna fluctuate. So the the American approach is, you know, each one of the top three companies is like a genius who wants to win the Nobel Prize. The Chinese companies are like a bunch of smart kids who formed the study group. They still compete. In the class, but they're sort of share a bit with each other through open source. So amazingly, China has become the open and US has become closed. So they both deserve a place. If you want on premise implementation, you'll want an open source model. If you want the very best, you'll want one of the top American models. If you don't need the very best and one to save some money, the Chinese models can suffice. So that's the model status in terms of enterprise adoption and generating. Huge amounts of money for Anthropic in particular that is a matched in China. There are way ahead in that. A lot of reasons China will eventually improve, but now it's it's quite difficult to get that kind of enterprise spending even though I work there and people listen to me. Why? Enterprises just haven't got used to paying annually for software or on the per use basis. Too many CEO's think of software as a project, so they want to pay you project based. So we're trying to change that. But we're also selling outside China because it's easier to get what you're talking about. Large companies, many of them state owned. State on our private OHH they but how how about smaller companies so startups I but they don't have money right. I mean we we sell to the enterprise and the amount. A Western companies or even Middle Eastern Central Asian companies are willing to pay is about 8 times what the Chinese company is willing to pay same product. So we have a that's so that's why we're going abroad. That's why I'm here. Oh yeah, yeah, we'll come back to that. But let me finish on the competition. Sure. So very quickly so consumer adoption right now looks like both countries are doing stuff and I'm gonna bet China is going to have a lot breakthrough new AI consumer apps just because. Those gladiators are so good in what they do. And then on hardware, China is not only well ahead in robotics, embodied AI as well as as well as devices, devices that will really be AI first. The phone is not an AI first device, it's a mobile first device and AI FIRST device. My description may. Ohh, scare some of you, but that's what it's gonna be If the AI first device has to be speech driven because you guys are OK with that, but then it has to be always on, always listening, otherwise there's a huge latency. So if there's always on, always listening, then it must have an infinite memory because it remember, why not remember everything if it's always on, always listening, and then the technology is getting such that it will become invisible.
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/werideai_shanghaiautoshow-robotaxis-weride-activity-7321155013773283328-aZcY
+LINK: https://www.linkedin.com/posts/capgemini_airobotics-humanaichemistry-activity-7391515835636543489-N_1f
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - Standard global industry news with a specific company's innovation and progress in autonomous driving
-CATEGORY: chinese
+SCORE: 8/10 - Global industry news with a major milestone in industrial innovation
+CATEGORY: global
 AI COMMENT:
-The focus on safety and continuous refinement of technology through real-world data is indeed crucial for the adoption of robotaxis. It's interesting to see WeRide's approach to partnerships and local collaborations. What role do you think standardization of regulations across different regions will play in the large-scale commercialization of robotaxis, and how can industry leaders like WeRide contribute to this process?
+The deployment of the first intelligent humanoid robot in the nuclear sector is indeed a groundbreaking achievement, showcasing the potential of AI, robotics, and digital twins to redefine human-machine interaction in sensitive environments. What I find particularly interesting is the intersection of physical AI and human ingenuity, as highlighted by Alexandre Embry. However, as we continue to push the boundaries of industrial automation, what measures should be taken to ensure the seamless integration of human oversight and machine decisions, and how can we mitigate potential risks associated with increased reliance on autonomous systems?
 TEXT:
-WeRide
-45,404 followers
-1y
-In an exclusive CNBC interview yesterday at the #ShanghaiAutoShow 2025, conducted by Lin Lin, our founder and CEO Tony Han spoke about how #robotaxis are set to transform urban mobility — with safety as our top priority.
-🚗At WeRide, we value the investment in R&D to build vehicles that are not just smarter, but also safer. With over 2,000 days of safe operations, we’re using real-world data to continuously refine our technology and move closer to large-scale Robotaxi commercialization.
-🤝And we're not doing it alone. We work closely with experienced partners and trusted local collaborators, forming strong partnership networks in each market.
-📺Watch the full interview here: https://lnkd.in/dEe8ruh2 
-#WeRide #AutonomousDriving #AV #SmartMobility #Innovation #Robotaxi
-105
-2 Comments
+Loaded: 41.17%
+Pause
+Back to start
+Current Time 
+0:01/
+Duration 
+1:50
+Unmute
+Fullscreen
+Capgemini
+9,176,684 followers
+7mo  Edited
+Today, with Orano , we’re proud to announce a major milestone in industrial innovation: the deployment of the first intelligent humanoid robot in the nuclear sector. This achievement marks a significant step forward for a strategic industry that has long been a pioneer in innovation.
+Led by Capgemini’s AI Robotics and Experiences Lab, this project demonstrates the convergence of robotics, AI, computer vision, and digital twins. It redefines human-machine interaction in sensitive environments and pushes the boundaries of industrial automation.
+Watch the video below to see Hoxo in action at the site and discover how we’re working with Orano to shape the future of nuclear operations.
+https://lnkd.in/g22pGgWu
+#AIRobotics  #HumanAIChemistry
+…more
+1,348
+35 Comments
 Like
 Comment
 Share
-Benjamin Beaudet
-1y
-Indeed, In Europe, we have already covered several thousand kilometers with beti - Experts Mobilité Automatisée without any major incident, given the safety practices of the technology, practices which were key in our assessment of WeRide for Europe. 👌 
+NAMBURU NARASIMHA RAO
+7mo
+When Machines Learn to Carry Courage
+A milestone like this is not about a robot entering a nuclear facility, it is about humanity stepping into a larger version of itself. Hoxo is more than engineered metal and code. It is proof that intelligence can take shape, walk beside us, and extend human capability into places where risk once halted progress.
+In this fusion of robotics, vision systems, and digital twins, we witness a new covenant between human judgment and machine precision. Industry evolves when imagination dares to take physical form and today, the future just learned to stand upright.
 Like
 Reply
 2 Reactions
-Lin Lin
-1y
-Great to hear Tony’s insights on the company and the future of mobility as well. Thank you!
+Alexandre Embry
+7mo
+This is a major step forward for industrial robotics, where #physicalAI meets human ingenuity. Congratulations to the Capgemini AI Robotics and Experiences Lab and Orano teams for making this breakthrough a reality.
+Like
+Reply
+10 Reactions
+OneLIST Consultant
+7mo
+Incredible innovation! The development of AI and robotics that will change the future of nuclear operations in a genuine leap forward. Capgemini
+Like
+Reply
+1 Reaction
+Twril Tech Solution LLP
+7mo
+This is next-level innovation! A perfect example of how human ingenuity and AI collaboration are redefining industrial possibilities
+Like
+Reply
+1 Reaction
+Giovanni Pitton
+7mo
+Not seeing anything in this video aside prebuild routine in the Unitree G1, waving hands, giving hand and walking, or am I wrong?
+Like
+Reply
+1 Reaction
+Suppriya Arondekar👉 Career Branding Specialist
+2mo
+Capgemini The combination of AI and robotics in critical industries highlights how operational roles are evolving. Success will depend on how well human oversight and machine decisions stay aligned.
+Like
+Reply
+Manickam J
+7mo
+Humanoid Robots can only help human’s , they can’t replace 100 % human force. That applys for the AI tools
+Like
+Reply
+1 Reaction
+Alex Bulat- van den Wildenberg
+7mo
+Amazing Alexandre Embry and team congratulations ❤️🙌 This is amazing news 🗞️❤️🙌 This is truly a pioneering collaboration…!
+Like
+Reply
+4 Reactions
+Victor Moreno
+7mo
+Impressive milestone! The integration of AI, robotics, and digital twins in such a sensitive and strategic sector truly showcases how innovation can transform industry standards. Congratulations to the teams at Capgemini and Orano for leading the way! 👍 
+Like
+Reply
+1 Reaction
+Slimane IDIR
+7mo
+A remarkable milestone for the nuclear industry! 👏
+ Congratulations to the Capgemini and Orano teams for pushing the boundaries of innovation with HOXO, a perfect example of how AI and robotics can transform industrial operations. 🤖⚛️
 Like
 Reply
 1 Reaction
@@ -299,277 +161,590 @@ See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/bazaartimes_unitree-founder-wang-xingxing-training-a-activity-7431446213696090112-W9Rc
+LINK: https://www.linkedin.com/posts/rohin-siddhartha-019071183_physicalai-embodiedai-vla-activity-7471779517997625344-_nOJ
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - Global industry news with shipment projections and market growth potential
+SCORE: 8/10 - Highly technical discussion on global robotics/AI trends with deep insights on robot learning
+CATEGORY: global
+AI COMMENT:
+I completely agree with the lessons learned from this project, particularly the importance of simulation fidelity and clean data in achieving robust robot learning outcomes. The approach of using SE(3) relative action representation to improve robustness to randomized board positions is noteworthy. What are some potential applications or extensions of this work that could further advance the field of embodied AI and robot manipulation, and how might these advancements impact industries beyond robotics?
+TEXT:
+Rohin Siddhartha
+1d
+Excited to share a project that pushed us outside our comfort zone during the Intrinsic AI for Industry Challenge (AIC). 🤖
+The challenge: train a robot to autonomously insert cable connectors into target ports — a manipulation problem requiring sub-millimeter precision, contact-aware behavior, and generalization across randomized environments.
+Over the past few weeks, I worked alongside Narendar Sriram, Sai Shruthi Balaji, Sharon Richu S. and Varun Gampa to build an end-to-end imitation learning pipeline for precision robotic manipulation: inserting SFP and SC plugs into randomized ports on a task board.
+We didn’t qualify for the next phase — but that isn’t the takeaway.
+Coming from robotics, controls, and AI backgrounds, this was an opportunity to apply those fundamentals to learning-based manipulation and understand firsthand where robot learning succeeds — and where it breaks.
+What we built:
+🔧 Custom LeRobot integration
+Integrated ROS 2 control, multi-camera observations, and a 26D robot state directly into the training and data collection pipeline.
+📡 Automated demonstration collection
+Built a passive observer pipeline that recorded ground-truth CheatCode actions as demonstrations, enabling consistent, low-noise supervision without manual teleoperation.
+📐 SE(3) relative action representation
+Encoded actions as relative pose deltas instead of absolute targets, improving robustness to randomized board positions and reducing dependence on workspace coordinates.
+🎬 Scalable dataset infrastructure
+Built an automated collection and curation pipeline covering hundreds of demonstrations and ~363K frames, with tooling to inspect trajectories and surgically remove failed episodes at the parquet + video level without re-recording datasets.
+🧠 ACT policy training
+Trained Action Chunking Transformer (ACT) using multi-view observations and robot state for sequential manipulation.
+Three lessons that stood out:
+1. Simulation fidelity matters.
+Physics quality and roll-out throughput directly affect learning outcomes.
+2. Clean data beats more data.
+Consistent demonstrations mattered more than collecting additional episodes.
+3. Diversity beats repetition.
+Interleaving environments improved generalization far more than collecting many samples per configuration.
+This challenge sharpened our understanding of the full robot learning stack — data, representation, training, and deployment.
+Huge thanks to the Intrinsic team for creating a genuinely challenging and well-designed competition.
+#PhysicalAI #EmbodiedAI #VLA #RobotLearning #ImitationLearning #RobotManipulation #LeRobot #ROS2 #ACTPolicy #FoundationModels #IntrinsicAIChallenge
+30
+2 Comments
+Like
+Comment
+Share
+Narendar Sriram
+1d
+Spot on takeaways. Always fun working with this team!
+Like
+Reply
+1 Reaction
+Shreyas Ramesh
+1d
+Amazing stuff! 
+Like
+Reply
+1 Reaction
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/kaifulee_valued-at-1b-kai-fu-lees-llm-startup-unveils-activity-7127160586538291200-ibuH
+DATE: 2026-06-15
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - Global industry news with thought leadership from a major figure
 CATEGORY: chinese
 AI COMMENT:
-It's fascinating to see Unitree Robotics' ambitious plans to ship up to 20,000 humanoid robots this year, which could significantly impact the global robotics market. The fact that they're aiming for roughly 10,000 to 20,000 units of the total global humanoid robot shipments is a testament to their growth potential. What do you think will be the most significant challenges for Unitree Robotics in achieving this goal, and how might they overcome them to maintain their competitive edge in the market?
+Kai-Fu, your insights on the LLM ecosystem momentum are well-taken, and the competitive performance of Yi-34B is a significant achievement. What I find particularly interesting is the potential for open-source models like Yi-34B to democratize access to AI capabilities globally, beyond the current industry leaders. How do you envision the open-sourcing of LLMs like Yi-34B influencing the global AI landscape, particularly in regions where access to cutting-edge AI technologies has been limited?
+TEXT:
+Kai-Fu Lee 
+Kai-Fu Lee is an Influencer
+2y  Edited
+I must say China is now behind the U.S. in the LLM ecosystem momentum.  The underlying vision for me to start 01.AI is to make better AI accessible to more people. We are glad our first moderate-size Yi-34B performs competitively at a global level.  More to come soon after this base model. http://01.ai/en 
+https://lnkd.in/gc7a4BGq
+Valued at $1B, Kai-Fu Lee's LLM startup unveils open source model | TechCrunch
+https://techcrunch.com
+1,542
+72 Comments
+Like
+Comment
+Share
+Michael Witbrock
+2y
+Congratulations on this step, Kai-Fu
+Like
+Reply
+3 Reactions
+Michael Spencer
+2y
+I'm including this in my Newsletter for Monday, it's called AI Supremacy. 
+Like
+Reply
+4 Reactions
+Richard Turrin
+2y
+Congratulations to you and team Yi OI-AI!  Can't wait to use it for real!  
+Agree that the LLM ecosystem in the US has the momentum but with better digital systems and services in China, implementation speeds may be higher here.
+The race is for implementation not whose system is technically the most capable.   
+Like
+Reply
+3 Reactions
+James (Kayliang) Ong
+2y
+Kai-Fu Lee Yi 0I·AI is exactly the type of  #AI4Good initiative the world needs to strive towards #SustainableAI!
+Like
+Reply
+3 Reactions
+Dawn Lim 一棽 🌤️✨
+2y
+That’s amazing!! Kai-Fu Lee
+Like
+Reply
+2 Reactions
+AI Brains
+2y
+Congratulations Kai-Fu Lee! 
+Like
+Reply
+2 Reactions
+Glocal SEO LLM + BPN Platform 2025 -- Gloc.al International Import Export Search Visibility
+2y
+Kai-Fu Lee brilliant domain name man! As same as our https://zh.gloc.al :)
+Like
+Reply
+4 Reactions
+Firoj Alam
+2y
+Great to see another step to the open sourced LLMs.
+Like
+Reply
+2 Reactions
+TOMEK
+2y
+Congratulations on the success of your startup!
+Like
+Reply
+2 Reactions
+SHEILA shang
+2y
+You did it! Congratulations Kaifu!
+Like
+Reply
+2 Reactions
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/activity-7371755352578703360-yMJg
+DATE: 2026-06-15
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - Global industry news with thought leadership and deep technical insights
+CATEGORY: chinese
+AI COMMENT:
+I completely agree that Unitree's focus on affordability has disrupted the robotics industry. The fact that they've achieved a $7B IPO valuation by prioritizing end-to-end integration, measured scaling, and cultural resonance is a testament to the power of innovative thinking. What's particularly interesting is how their open-source philosophy and viral marketing strategy have generated millions of views without massive ad spending. As Unitree expands globally, do you think their 'embodied intelligence' approach will pave the way for a new wave of robotics startups that prioritize accessibility over high-end features, and how will this shift impact the traditional robotics industry players?
+TEXT:
+Ashley Dudarenok 艾熙丽
+9mo
+This is Wang Xingxing with his very first robot dog models in 2017. 🤓 Fast forward 8 years, and his company Unitree Robotics sets sights on $7B IPO valuation.
+🤖 Here's how Unitree cracked the robotics code:
+China's industrial robot production jumped 35.6% YoY, hitting 369,316 units in H1 2025. 
+But while giants like Boston Dynamics chase perfection, Unitree chose a different path: 
+affordability.
+The breakthrough moment came from constraints, not resources. 👇
+Wang Xingxing bootstrapped from his university lab in 2016. 
+Laikago, Unitree’s first quadruped robot (2017), laid the foundation for its humanoid breakthroughs, which has taught him something crucial: expensive doesn't mean better.
+🤖 The G1 humanoid costs under US $16,000.
+That's cheaper than many laptops, and far below competitor prices. 
+But how do you maintain quality at that price point?
+Wang's three-part strategy:
+1️⃣First, end-to-end integration. Instead of buying expensive components, Unitree builds everything in-house. Motors, sensors, AI chips. This vertical approach cuts costs while maintaining control.
+2️⃣Second, measured scaling. While competitors raised massive funding rounds, Wang took eight smaller ones. No vanity metrics, no premature expansion. Focus on getting the fundamentals right.
+3️⃣Third, cultural resonance first. The H1 humanoid captivated over a billion viewers at the 2025 Spring Festival Gala. Domestic success before global expansion.
+And here's what really sets Unitree apart:
+✔️ Open-source philosophy meets viral marketing. Their robots dance, do backflips, and navigate stairs. These demos generate millions of views without massive ad spending.
+✔️ Unitree’s innovations, like the G1’s affordability, earned global recognition at events like the 2025 World Robot Conference, beating 780 applicants worldwide
+👇 The business model is fascinating.
+Unitree scaled from niche sales in 2024 to mass production in 2025, achieving a billion-dollar valuation through strategic funding.
+🤔 How? 
+✔️ They're not selling robots; they're selling the future of "embodied intelligence."
+By 2035, the humanoid market is projected to reach $38–43 billion, with Unitree positioning itself as the affordable gateway.
+🚀Wang's leadership philosophy drives everything:
+"Passion-driven iteration beats endless funding." 
+His team prioritizes breakthrough moments over incremental improvements.
+While Boston Dynamics perfects warehouse automation, Unitree democratizes robotics for manufacturing, search-rescue, and entertainment.
+🌎 The IPO horizon signals global ambitions.
+Unitree is eyeing global expansion, with plans to scale production and distribution worldwide. 
+❓The question becomes: can established players adapt to this affordable revolution? 
+Wang's journey proved that innovation leadership doesn't always require the biggest budget. 
+Sometimes constraints force breakthrough thinking that resources can't buy.
+Your take? 🤓👇
+84
+20 Comments
+Like
+Comment
+Share
+Herbert Hofmann
+8mo
+Thrilled to have visited Unitree Robotics and witnessed their groundbreaking robots in person. Seeing them deployed in EV factories like NIO's in Hefei solidified a key insight: this is just the beginning.
+There's a common misconception that Chinese entrepreneurs are just "playing" with tech without a clear strategy. This is a profound misreading.
+Their focus is intensely pragmatic: get a functional, valuable product to the market first. Margin optimization comes later. It’s a powerful lesson in customer-centric innovation and speed that the West would be wise to observe.
+Like
+Reply
+Patrick Gray
+9mo
+Ashley Dudarenok 艾熙丽 Ummm... their robot weighs 50lbs, this is why it can do its sort human like movements. None of this is possible with what I think is a real military use robot (6ft tall, weighs 198lbs, can walk at 2-3mph carrying a 40lb pack for 6-8 hours without any re-supply of anything, including no swapping out of batteries). Physics and thermodynamics do not allow electric motor/gearhead systems to do this, for the form factor required, if you put the electric power that is required into the motor size that can be used, this amount of power will melt the wires in the motor. Hydraulic cylinders can supply these specifications easily. Hydraulic motors can allow the military robot I outlined. It will need a fuel engine. On my website I discuss this form of robot, here's the robot walking webpage: 
+https://pistonrobot.com/pistonrobot-discussion-of-the-topic/pistonrobot-hydraulic-walking/
+Here's the fuel engine webpage, of note, this engine (I think) will make no noise.
+https://pistonrobot.com/the-heart-of-the-robot/
+Like
+Reply
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/xiaopeng-he-41615484_xpeng-activity-7345805874872950784-tPqG
+DATE: 2026-06-15
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - Global industry news with thought leadership potential, discussing record-breaking deliveries and future plans for intelligent computing and Super Electric launches
+CATEGORY: chinese
+AI COMMENT:
+Congratulations on achieving a record-breaking performance in H1 2025, Xiaopeng He! The plans for entering a new era of intelligent computing with the Super Electric launch by year-end are particularly exciting. As XPENG continues to push the boundaries of innovation in the electric vehicle and potentially eVTOL markets, what do you think will be the most significant challenges to overcome in integrating advanced AI and computing capabilities into your products, and how do you envision addressing these challenges to stay ahead in the global market?
+TEXT:
+Xiaopeng He 
+Xiaopeng He is an Influencer
+11mo  Edited
+Proud to share that we wrapped up Q2 2025 with a record-breaking performance, bringing our H1 total to 197,189 deliveries, already surpassing our full-year 2024. 
+In the second half of the year, #XPENG will enter a new era of intelligent computing, with our Super Electric coming by year-end.
+397
+43 Comments
+Like
+Comment
+Share
+ADAYO Automotive Business
+11mo
+Keep up the momentum and strive for greater achievements! 👍 
+Like
+Reply
+William H.
+11mo
+Congrats Xiaopeng He! 
+Hope you have more success in the next Quarter in this year!
+At the same time, I hope that your eVTOL Flying Car company will also have significant success. 
+We have some ideas about flying cars, and our solutions can improve the safety and stability of flying cars. We expect that eVTOL Flying Car will not only be limited to manned missions, but we also expect it to be used for more social purposes, such as short-distance manned and cargoed transportation like cellular networks. 
+We look forward to working with you to build the prototype of the leading transportation way of the future society. 
+If you are interested, let's talk! My email is hoyucheng04@gmail.com
+Like
+Reply
+Bjørn Are Gaaserud Stødle
+11mo
+Perhaps it might be better to change your name to Xpeng Group? It seems like you include your low-end brand Mona in these figures.
+Like
+Reply
+Thomas Dan
+11mo
+Congrats Xiaopeng! 🎉
+Like
+Reply
+Yury Kotov 尤里
+11mo
+Huge congratulations to the team! Impressive milestone — surpassing the full-year 2024 deliveries in just H1 speaks volumes about XPENG’s execution and market momentum. Looking forward to how the Super Electric and next-gen intelligence will shape the next chapter in smart mobility!
+Like
+Reply
+Henry wu
+11mo
+Incredible momentum! Surpassing last year’s total in just six months is no small feat. Excited to see what the second half — and the Super Electric — will bring!
+Like
+Reply
+Thomas Hukman
+11mo
+Congrats 🥰 , Xiaopeng He! 🎉 If you need any help or support in the field of IT for your company headquarters in Germany, we are here for you. Keep up the good work!
+Like
+Reply
+Dovydas Mockevicius
+11mo
+Congrats Xpeng! How many X9 were delivered in Europe?
+Like
+Reply
+Tony ZEN
+11mo
+Is fully auto pilot system available ?
+Like
+Reply
+Seng Hong 成豐 Ker 郭
+11mo
+Excellent ...... Congratulations 👏 👏 👏 
+Like
+Reply
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/humanoidai_humanoid-and-schaeffler-announce-strategic-activity-7416783429725310976-vjFc
+DATE: 2026-06-15
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - Standard global industry news with potential for deep discussion on robotics and AI
+CATEGORY: global
+AI COMMENT:
+The strategic partnership between Humanoid and Schaeffler is indeed a significant step forward for the robotics industry, as it has the potential to accelerate the development of next-gen actuators and bring humanoid robots into production facilities. However, one of the key challenges in this space is ensuring the reliability and precision of these robots in industrial environments. What do you think are the most critical factors that need to be addressed to make humanoid robots a practical and reliable part of industrial environments, and how can this partnership help overcome these challenges?
 TEXT:
 Loaded: 100.00%
 Pause
 Back to start
 Current Time 
-0:02/
+0:01/
 Duration 
-0:23
+0:41
 Unmute
 Fullscreen
-Bazaar Times
-4,048 followers
+Humanoid
+79,531 followers
+5mo
+Humanoid and Schaeffler announce strategic technology partnership.
+ 
+Over the next 5 years, the collaboration will bring hundreds of Humanoid’s robots into Schaeffler’s production facilities. Initial deployments will begin with beta-stage robots in 2026-2027. 
+We will also explore development of next-gen actuators, with Schaeffler becoming Humanoid’s preferred supplier for joint actuators used in the wheeled platform. The partnership further covers data collection and skill development for humanoid robots.
+“Together, we are laying the groundwork for humanoid robots to become a practical and reliable part of industrial environments within just a few years,” said Artem Sokolov, founder of Humanoid.
+Learn more here: https://lnkd.in/dETQad4B 
+…more
+764
+10 Comments
+Like
+Comment
+Share
+Alexander N.
 3mo
-Unitree founder Wang Xingxing training a grid of dozens of G1 robots. 
-China’s Unitree Robotics plans to ship as many as 20,000 humanoid robots this year, up from about 5,500 in 2025, according to chief executive Wang Xingxing, after the company drew global attention with its appearance at Spring Festival Gala.
-Speaking to domestic tech outlet 36Kr after the show, Wang said global humanoid robot shipments could reach “tens of thousands” this year, with Unitree accounting for roughly 10,000 to 20,000 units of that total.
-…more
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/xiaopeng-he-41615484_xpeng-iaa2025-p7-activity-7367136077054136321-rChA
-DATE: 2026-06-15
-METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - Standard global industry news with a major company's product release
-CATEGORY: chinese
-AI COMMENT:
-The fusion of AI and mobility is undoubtedly redefining the future of transportation. XPENG's vision, as showcased with The Next P7 and IRON, highlights the potential for technological advancements to enhance user experience and safety. What role do you think humanoid robots like IRON will play in shaping the future of smart mobility, and how might they interact with autonomous vehicles?
-TEXT:
-Xiaopeng He 
-Xiaopeng He is an Influencer
-9mo  Edited
-Thrilled to personally showcase our latest tech and vision for the future of mobility. Together with The Next P7, IRON and even more, we will unveil how AI is redefining the future.
-#XPENG #IAA2025 #P7
-XPENG
-224,615 followers
-9mo  Edited
-Hallo, München. 🇩🇪
-The Next P7 makes its European premiere right here in Munich.
-Join us for our flagship lineup, humanoid robot Iron, and even a chance to meet our CEO.
-Where technology meets aesthetics, we lead with bold vision.
-For every XPENG enthusiast seeking the extraordinary — see you on September 8, Hall B1, Booth C20, Messe München. 
-#TheNextP7EUDebut #IAA2025 #XPENGP7
-181
-19 Comments
-Like
-Comment
-Share
-Colin Hughes
-9mo
-Mr. He, your insights on the future of smart mobility are truly inspiring. They resonate strongly with some ideas I’ve been developing around safety and user engagement in EVs.
-I’ve sent you a short note to your Gmail for your kind review whenever you have a moment. It would mean a lot if you could take a quick look. Thank you sincerely for your time and leadership.
-
+A candle can’t interate into a lightbulb.  Similarly, these toys with oversized drone motors and clunky gearboxs can’t iterate into something with real commercial value… bionic superhumanoids.
+Legacy robotics (delicate low-torque motors, shock-prone power-sapping gearboxes) is why humanoids from the best funded developers like Tesla, Figure, and Unitree Robotics are too weak and fragile to fulfill duty cycles necessary for commercial value.
+That’s why nMECH Robotics Corporation  initiated Project Hyperion.  We can build superhumanoids that sound like science fiction…space robots that dive to the ocean floor to harvest minerals and energy from hydrothermal vents and walk through fire and flood to carry people to safety.  We solved motors and actuators.  Cognitive AI is coming…10 watt ASIC.
+Learn about nMECH Robotics Corporation 
+https://www.linkedin.com/posts/nmech_robotics-is-the-new-big-things-with-an-activity-7417382735264153600-I-mF?utm_source=share&utm_medium=member_ios&rcm=ACoAAAxa8DMB0O_FjMf2nT8MB2Wp5njYNiBT5U4
 Like
 Reply
-1 Reaction
-jiyoung cho
-9mo
-Impressive vision at IAA 2025 — excited to see how XPENG is shaping the future of mobility with AI and bold innovation.
+Theodora Preda
+5mo
+So excited to see an early intro to Schaeffler turn into such an exciting deployment  Angelo Kumar, Dr. Astrid Heckl Raúl Martín Montero Robin Mayer  🚀🚀🚀
 Like
 Reply
-李怡荣
-9mo
-国人的骄傲
+8 Reactions
+Roshan V
+5mo
+Congratulations to Humanoid and Schaeffler on this visionary partnership—an exciting step toward humanoid robots on the factory floor.
+Turning innovation into industrial reality demands absolute precision and reliability. With 150 years of engineering expertise, Bulten Fasteners is ready to support next-generation robotics with high-performance fastening solutions built for the future.
+ 🔗 https://www.bulten.com
 Like
 Reply
-1 Reaction
-Nazlı Güveç
-9mo
-Hello, I have an untested idea related to car security systems, and it’s a system that could make a huge impact worldwide. I’m working on individual project ideas, but this system is really exciting—I’m currently developing it.
-Like
-Reply
-Chris Atkins
-9mo
-Excited to hear all about it next week, the new P7 looks like something from the future, would be amazing to explore it more.
-Like
-Reply
-Jim Riley
-9mo
-Xpeng makes super cool cars; but outside China they are still missing the killer app called karaoke 🎤 
-Cya in Munich
-Like
-Reply
-Devon Veenhuis
-9mo
-Exciting to see the Next P7 making its European premiere at IAA. My colleague Rick Zielman, Partnership Director Europe at Autotelex, and also a P7 driver and experienced user, will be attending the event as well – a great opportunity to exchange insights!
-Like
-Reply
-Taha AlRaeeini 塔哈 咨询 .
-8mo
-Interesting and looking forward to connecting with you Xiaopeng He
-Like
-Reply
-KIM KHORN LONG (龍金夫)
-9mo
-XPENG also available in Cambodia, Xiaopeng He 
-Like
-Reply
-David Zhu Songcheng Electronics And Cars
-9mo
-太帅了
-Like
-Reply
-1 Reaction
-See more comments
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/hktenzin_robotics-ai-technology-activity-7299549840525471744-k3_2
-DATE: 2026-06-15
-METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - Global industry news with a focus on a specific company and its achievements in robotics and AI
-CATEGORY: chinese
-AI COMMENT:
-Wang Xingxing's journey and Unitree Robotics' advancements in humanoid robots are truly inspiring, showcasing the potential for innovation in AI-powered robotics. The emphasis on suitable AI models and computing power highlights a critical challenge in the field. As we see more companies like Unitree pushing the boundaries, what role do you think international collaborations will play in driving the next generation of advancements in robotics and AI?
-TEXT:
-Tenzin Partners
-20,998 followers
-1y  Edited
-Wang Xingxing, the 35-year-old founder and CEO of Unitree Robotics, has made significant strides in the field of robotics. Despite facing academic challenges, Wang has led his company to develop advanced humanoid robots, including the Go1 and H1 models. His achievements were highlighted when he attended a summit hosted by President Xi Jinping. Wang predicts rapid advancements in AI-powered robotics, emphasizing the importance of suitable AI models and computing power. Unitree's robots have been showcased at major events globally, including the CCTV Spring Festival Gala.
-Source: VnExpress
-#Robotics #AI #Technology #Innovation #Unitree #WangXingxing #HumanoidRobots #China #TechNews
-6
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/williambinli_nio-onvo-l90-activity-7452635654951186432-u044
-DATE: 2026-06-15
-METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - Standard global industry news, with a notable achievement in the electric vehicle sector
-CATEGORY: chinese
-AI COMMENT:
-Congratulations to the ONVO team on achieving the fastest 2,000km BEV challenge! The integration of ADAS technology is a significant milestone. What role do you think advanced driver-assistance systems will play in the widespread adoption of electric vehicles globally, and how will this impact the future of smart driving?
-TEXT:
-Loaded: 30.90%
-Pause
-Back to start
-Current Time 
-0:02/
-Duration 
-1:22
-Unmute
-Fullscreen
-William Li
-1mo
-Thrilled to share that yesterday, the 2026 ONVO L90 completed the fastest 2,000km BEV challenge, with ADAS all the way, finishing in 23h 57m 40s!
-Let's Power Up! Let's Jiadian!⚡
-#NIO #ONVO #L90 #BlueSkyComing #SmartDriving
-…more
-137
-3 Comments
-Like
-Comment
-Share
-Michael Sura
-1mo
-I like the NIO design.
-https://www.linkedin.com/posts/michael-sura-9a47511bb_vw-nio-activity-7328163720440823808-UilO?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMwpUwBYTepb0SA_1gB6xWaGabGpjOZYSI
-Like
-Reply
-Aaron Cadle
-1mo
-Great news,,,, now we need them in Europe to expand.
-Like
-Reply
-1 Reaction
-Kehan XU
-1mo
-Well done
-Like
-Reply
-See more comments
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/xiaopeng-he-41615484_xpeng-activity-7320735422463062016-2t-z
-DATE: 2026-06-15
-METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - Global industry news with thought leadership elements
-CATEGORY: chinese
-AI COMMENT:
-I appreciate Xiaopeng He's emphasis on global partnerships and language skills, which highlights the importance of cultural understanding in international business. The announcement of the Global Partner Conference in Shanghai also underscores XPENG's commitment to expanding its global reach. What role do you think language skills and cultural awareness will play in shaping the future of the robotics and AI industry, particularly in the context of international collaborations?
-TEXT:
-Loaded: 55.66%
-Pause
-Back to start
-Current Time 
-0:02/
-Duration 
-1:27
-Unmute
-Fullscreen
-Xiaopeng He 
-Xiaopeng He is an Influencer
-1y
-Last year I learned to say "Hi, XPENG friends" in 7 languages. This year, my teammate handed me an even longer list — guess learning never stops!
-In 2025, XPENG is taking global partnerships to the next level. See you in Shanghai on April 24 at the Global Partner Conference.
-#XPENG
-…more
-637
-68 Comments
-Like
-Comment
-Share
-Emilio Giacomazzi
-1y
-I was very pleased to see this video, you have definitely made many people happy.
-I will add a difficulty, I hope you will accept it as a challenge :-)
-In my local dialect, (officially considered a language) The Friulian language, the greeting is very meaningful.
-You greet by saying "MANDI" which has a very deep meaning, and is very easy to pronounce:-))
-It is a word composed of MAN+DI meaning: I put you in the hands of God, which regardless of religious belief is a very deep greeting. I hope I made you smile too as you did to me ;-)
-你好
-Like
-Reply
-RICHARD JIANG
-1y
-now to be  a leader become more and more difficult, except business management, you still need do more ablity which is not belong to your responsibilty as before like be a internet celebrities
-Like
-Reply
-Alex Tai
-1y
-Hire more multinationals.
+Dan Mathias
+4mo
+More fake hype.... Humanoids will not be ready for prime time for many years, ASIMO was out 20+ years ago and we had the same hype...
 Like
 Reply
 2 Reactions
-Yong Zhang
-1y
-Love this, but the office is a mess, please make it elegant, connect me and I will recommend a few experts to you for building your personal brand.
+RoboHorizon.com
+5mo
+Cool but OMG these guys need to speed up a little bit in the future 😅
 Like
 Reply
-META MIKEY 麦麒
-1y
-Very often, I buy XPENG stock. I have a very strong faith in XPENG and your growing technology Xiaopeng He
+Ketevan Tsereteli
+5mo
+🚀🤝 From Vision to Scale: Humanoid Partners with Schaeffler
 Like
 Reply
-Wijesingha Dissanayake
-1y
-Sharing your enthusiasm, Xiaopeng. It is a pity that you selected a too local name for branding, instead of a globally appealing brand name for your  great line up of vehicles with a global appeal.
+3 Reactions
+Tony Skurr
+5mo
+Impressive announcement, intrigued to see what can be developed and how this could impact change and daily tasks. Exciting times ahead! Bravo 👏
 Like
 Reply
-Yimin Zhu
-1y
-Love it - learning never stops
+Juraj Madejski
+Head of Truck Tire Key Accounts & Fleet Solutions in CZ&SK
+5mo
+New era....
 Like
 Reply
-ANSON SUN
-1y
-Mr. He serves as an exemplary role model for us.
+Iulian Negoiță CMgr FCMI
+5mo
+Exciting news! 
 Like
 Reply
-Mohamad Kebbeh
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/williambinli_nio-blueskycoming-ev-activity-7303000696679739393-dpOu
+DATE: 2026-06-15
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - Standard global industry news with a showcase of autonomous driving technology in a smart factory
+CATEGORY: chinese
+AI COMMENT:
+It's exciting to see the advancements in autonomous driving technology being implemented in smart factories like NIO's. The use of self-driving cars within the factory can significantly improve efficiency and reduce labor costs. However, I'd love to know more about the safety protocols in place, especially when it comes to unexpected events or system failures. How do you think the industry can balance innovation with safety concerns, and what role will regulatory frameworks play in shaping the future of autonomous driving in manufacturing?
+TEXT:
+William Li
+1y  Edited
+Here's a quick peek from our smart factory! 💡 Cool things happening--these cars are driving themselves within the factory.
+#NIO #BlueSkyComing #EV #SmartFactory #AutonomousDriving
+718
+24 Comments
+Like
+Comment
+Share
+Sherveen Lotfi
 1y
-Partnerships and collaborations are what make great companies and great leadership!
+Driving the wrong direction (against the direction arrow) or is the driverless car just following the path of the pilot car in front of it?
 Like
 Reply
 1 Reaction
-Husnain Khalid
+Felix G.
 1y
-I'm fluent in Chinese, English, Hindi, Urdu and Punjabi , gown up in Shanghai China, I would like to be a part of X Peng
+Why do they look like Teslas?
+Like
+Reply
+Frank Schlenstedt
+1y
+🤖🛻🪫🔁🔋🏁
+Like
+Reply
+2 Reactions
+Alexander Decker
+1y
+Why are the windows down in the cars, and what happens when it rains?
+Like
+Reply
+Jeffrey Johnston
+1y
+Thank you 🙏 for the update. 
+Let’s get the ONVO cars 🚘 ramped up 🆙 and ready for new NIO users !
+Like
+Reply
+2 Reactions
+Carsten Müller
+1y
+William Li sounds impressive ... more and more less human resource needed for certain "standard jobs" / results in massive cost savings - and at the end competetive prices for consumers ;-).
+Like
+Reply
+张雪钢zhangxuegang
+1y
+Can we post them in Chinese media platform? Just like the Tesla's clips. Make a fancy short video, something like that… I can volunteer for anything
+Like
+Reply
+Ron Gillingham
+1y
+Tesla posted a similar video... If I were your marketing lead I would focus on what NIO does... Things that Tesla can't do
+Like
+Reply
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/ai-market-watch_%E6%99%BA%E8%B0%B1-activity-7277385345409720320-rPHx
+DATE: 2026-06-15
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - Standard global industry news with detailed information about a significant AI startup
+CATEGORY: chinese
+AI COMMENT:
+It's exciting to see Zhipu AI's advancements in developing AI models that mimic human thinking, a crucial step towards more sophisticated AI applications. The company's focus on providing API services for various industry verticals, including military, environment, agriculture, and medical, underscores the broad potential impact of their technology. What do you think will be the most significant challenge for Zhipu AI as they expand their operations globally, especially in terms of adapting their AI models to diverse regulatory and cultural contexts?
+TEXT:
+AI Market Watch
+2,065 followers
+1y  Edited
+🚀 Startup Spotlight 🚀 
+Zhipu AI (Beijing Zhipu Huazhang Technology Co., Ltd.) - Teaching machines to think like humans through advanced AI models.
+🔍 Company Overview
+- CEO: Zhang Peng
+- Year Founded: 2019
+- Location: Beijing, China
+- Team Size: 800 (as of 2024)
+- Webpage: https://zhipu.ai
+🎯 What They Do
+- One-line Description: Zhipu AI is a data company developing an AI-based large model platform to provide API services.
+- Target Customers: Various types of customers needing AI large model platforms
+- Industry Verticals: Military, Environment, Agriculture, Medical
+🚀 Achievements & Status
+- Current Stage/Status: Active and expanding
+- Major Milestones: Raised significant funding from major Chinese tech companies.
+- Basic Growth Metrics: Valued at $3 billion
+💡 Competitive Edge
+- How They Differentiate: Focus on AI models that mimic human thinking.
+- Key Technological Advantage: Advanced AI-based large model platform.
+📈 Funding & Partnerships
+- Total Funding Raised: $1.16 billion over 9 rounds
+- Latest Funding Round: Raised over 2.5 billion yuan ($341.82 million) in 2023
+- Key Investors: Alibaba Group Holding, Tencent Holdings, Ant Group, Meituan, Xiaomi, HongShan
+- Key Partnerships/Collaborations: Alibaba Group Holding, Tencent Holdings, Ant Group, Meituan, Xiaomi, HongShan
+👥 Leadership & Team
+- CEO Background: Ph.D. in Computer Science from Tsinghua University
+- Key Members: Tang Jie (Founder), Li Juanzi (Founder)
+📊 Market & Competition
+- Market Positioning: Valued at $3 billion as a private company.
+- Geographic Focus: China and potentially global due to partnerships with major Chinese tech firms.
+- Main Competitors: OpenAI, Moonshot AI, MiniMax, 01.ai, Baichuan AI
+Based on database updated on: 2024-12-19
+#Innovation #AI #Startups
+“Spot an error? Share your feedback to help us improve!”
+Teaching machines to think like humans through advanced AI models.
+zhipuai.cn
+1
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/tmtpost_zhipu-ai-kicks-off-ipo-race-as-openai-tightens-activity-7318110671093600256-59_h
+DATE: 2026-06-15
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - Global industry news with implications for AI development and IPO ambitions
+CATEGORY: chinese
+AI COMMENT:
+It's interesting to see Zhipu AI pursuing an IPO while emphasizing its full-stack independence across various computing platforms. The ability to be compatible with multiple domestic GPU chips could be a strategic advantage, especially considering the current geopolitical landscape. How do you think Zhipu AI's focus on independence will impact its competitiveness in the global AI market, particularly in light of OpenAI's recent advancements with GPT-4.1?
+TEXT:
+钛媒体TMTPOST
+631 followers
+1y
+CEO Zhang Peng reaffirmed the company's IPO ambitions, emphasizing its "full-stack independence" across computing platforms—including compatibility with Ascend, Hygon, Sunway, and dozens of domestic GPU chips—and asserting that U.S. export controls would not materially affect business operations.
+https://lnkd.in/eU8hwnaZ
+Zhipu AI Kicks Off IPO Race as OpenAI Tightens Global Lead with GPT-4.1 | TMTPOST
+en.tmtpost.com
+1
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/williambinli_nio-blueskycoming-batteryswap-activity-7458894611764367360-PApn
+DATE: 2026-06-15
+METRICS: 0 Likes, 0 Comments
+SCORE: 6/10 - Global industry news with potential for adding unique value
+CATEGORY: chinese
+AI COMMENT:
+William, it's great to see the progress of NIO's battery swap technology along the Hexi Corridor. The integration of battery swap stations with existing infrastructure can significantly reduce range anxiety and increase adoption of EVs. What are your thoughts on how this technology can be scaled globally, particularly in regions with limited existing infrastructure, to support widespread EV adoption?
+TEXT:
+William Li
+1mo
+Arrived in Zhangye and just wrapped up the prep session for tomorrow's 24-hour livestream.
+This morning, Lihong and I set off from Lanzhou to inspect our battery swap route along the Hexi Corridor. We drove the executive flagship SUV NIO ES9 all the way to Zhangye, swapping along the way and covering 560 km in total.🔋
+At one point during the trip, Lihong took over driving while I relaxed in the ES9's second row and watched the NBA game. Plenty of space, very comfortable.😁
+On the road, we stopped at a few iconic places:
+📍Wuwei Service Area: this is where we built our first expressway battery swap station in Gansu. Huge thanks to our on-duty colleague Yanwen for the amazing work.🙌
+📍Shandan Horse Farm: located in the core area of Qilian Mountains ecological protection zone. Thousands of horses here, stunning scenery, and I also got to ride one.🐎
+📍Battery Swap Station in Zhangye: our final stop today. This station was built in 2023 after a friendly bet between Lihong and our user Mr. Wu. He said that if we built it, we'd have at least 100 more users here. He was right, and now there're nearly 120 users across NIO, ONVO, and firefly.
+Tomorrow at 6:00 AM (UTC+8), I'll start my 24-hour livestream and head to Dunhuang with some special guests and our colleagues. Stay tuned.
+Let's Power Up! Let's Jiadian!⚡
+#NIO #BlueSkyComing #BatterySwap #HexiCorridor #SilkRoad
++1
+198
+7 Comments
+Like
+Comment
+Share
+Mitra Harrysingh
+1mo
+Battery Swap is the only way forward when it comes to EVS, mainly due to no battery degradation,  customers never have to worry about range anxiety. You are a genius William https://youtu.be/98BL-lx_-xE
+Like
+Reply
+1 Reaction
+Tameem Sajid
+3w
+Leadership like this builds more than infrastructure it builds trust. Seeing innovation scale through real execution real teams and real customer adoption is always inspiring
+ 
+What you are building across the corridor is genuinely impressive looking forward to following the journey. 
+Like
+Reply
+Mariusz Biały
+1mo
+Great example of how real EV adoption is built — not only through vehicles, but also through infrastructure, user experience and long-term commitment.
+The combination of product, service network and confidence on the road is what will define the next stage of electric mobility.
+Like
+Reply
+John Cooper
+1mo
+We need this in the UK asap
+Like
+Reply
+2 Reactions
+Frank Schlenstedt
+1mo
+🤖🪫🔁🔋🏁
+Like
+Reply
+1 Reaction
+Ruihan G.
+1mo
+最近在领英很活跃呀， 国外版的 雷军 lol 
+Like
+Reply
+David Johansson
+1mo
+ 👏 
 Like
 Reply
 See more comments

@@ -1,16 +1,3 @@
-https://www.linkedin.com/posts/atlas-automated_automation-industrialrobots-manufacturing-activity-7466997823243456512-qXJ8
-https://www.linkedin.com/posts/omgajjar1976_ros2-robotoperatingsystem-robotics-activity-7470890770984644608-sIUA
-https://www.linkedin.com/posts/ilyass-oublal_ai-aiagents-automation-activity-7470038752095219712-EnaN
-https://www.linkedin.com/posts/manish-sawarkar_robotics-industrialautomation-fanuc-activity-7470483557950484480-DZY8
-https://www.linkedin.com/posts/akkar-ltd_bostondynamics-bobbi-ai-activity-7353349434463641600-MDt9
-https://www.linkedin.com/posts/rickspair_humanoidrobots-artificialintelligence-activity-7468852530425536513-hLXv
-https://www.linkedin.com/posts/md-abdullah-al-noman-nibir-362744390_ros2-robotics-esp32-activity-7469435700279508992-kZcp
-https://www.linkedin.com/posts/aditya-raj-6aa3aa260_industrialautomation-robotics-smartmanufacturing-activity-7435205723237572608-0NrD
-https://www.linkedin.com/posts/hingoraninaresh_agentic-ai-is-the-new-operating-system-for-activity-7470784575527391232-moIX
-https://www.linkedin.com/posts/piyush-ranjan-9297a632_the-rise-of-ai-agents-from-basic-llms-to-activity-7330071992831770625-L41D
-https://www.linkedin.com/posts/theaibothub_nvidia-has-unveiled-an-open-humanoid-robot-activity-7467289259016790016-dpWJ
-https://www.linkedin.com/posts/ryan-gunderson-1238796_industrial-ai-rockwell-automation-us-activity-7467952243271512064-VxkQ
-=== RUN ===
 https://www.linkedin.com/posts/siddhartha-bharti-b57a021b_industrialautomation-fmcgmanufacturing-smartmanufacturing-activity-7420771427643125760-1qW8
 https://www.linkedin.com/posts/boston-dynamics_the-to-do-list-with-spot-boston-dynamics-activity-7449834757271547904-_Ok8
 https://www.linkedin.com/posts/shubhamrobo_ros2-ros-robotics-activity-7470185918797225984-gnbk
@@ -104,3 +91,20 @@ https://www.linkedin.com/posts/sankalp-awiskar-31345027b_robin-li-is-one-of-chin
 https://www.linkedin.com/posts/xu-li-2402831b2_activity-6858399559345958912-lefb
 https://www.linkedin.com/posts/horizonrobotics_keynote-speech-of-dr-yu-kai-at-world-new-activity-7112780281543094272-Iq7q
 https://www.linkedin.com/posts/xiaopeng-he-41615484_xpeng-activity-7320735422463062016-2t-z
+=== RUN ===
+https://www.linkedin.com/posts/vivek-narang-2995582_hiring-ai-automation-freelancer-ai-activity-7466685685199118337--xkg
+https://www.linkedin.com/posts/capgemini_airobotics-humanaichemistry-activity-7391515835636543489-N_1f
+https://www.linkedin.com/posts/grishinrobotics_startups-rhoda-ai-and-genesis-ai-are-building-activity-7384182504351547392-0dNH
+https://www.linkedin.com/posts/humanoidai_humanoid-and-schaeffler-announce-strategic-activity-7416783429725310976-vjFc
+https://www.linkedin.com/posts/rohin-siddhartha-019071183_physicalai-embodiedai-vla-activity-7471779517997625344-_nOJ
+https://www.linkedin.com/posts/jiang-jiang-grr_zhipu-ceo-zhang-peng-on-taking-chinas-first-activity-7416125502777663488-4zBJ
+https://www.linkedin.com/posts/williambinli_nio-blueskycoming-ev-activity-7303000696679739393-dpOu
+https://www.linkedin.com/posts/ai-market-watch_%E6%99%BA%E8%B0%B1-activity-7277385345409720320-rPHx
+https://www.linkedin.com/posts/kaifulee_valued-at-1b-kai-fu-lees-llm-startup-unveils-activity-7127160586538291200-ibuH
+https://www.linkedin.com/posts/williambinli_nio-blueskycoming-batteryswap-activity-7458894611764367360-PApn
+https://www.linkedin.com/posts/activity-7371755352578703360-yMJg
+https://www.linkedin.com/posts/tech-in-asia_zhipu-ais-formula-for-surviving-china-activity-7425027510612090880-I4LO
+https://www.linkedin.com/posts/williambinli_nio-blueskycoming-activity-7425363394179907584-FtPn
+https://www.linkedin.com/posts/wsj-leadership-institute_wsj-wsjceo-ai-activity-7470449909851197441-r6i5
+https://www.linkedin.com/posts/xiaopeng-he-41615484_xpeng-activity-7345805874872950784-tPqG
+https://www.linkedin.com/posts/tmtpost_zhipu-ai-kicks-off-ipo-race-as-openai-tightens-activity-7318110671093600256-59_h
