@@ -1,213 +1,478 @@
-LINK: https://www.linkedin.com/posts/arcon-risk-control_arcon-ai-aiagents-activity-7471169448146599936-7yX3
+LINK: https://www.linkedin.com/posts/laurenceliew_futureofwork-ai-plusskilling-share-7470660379812003840-escm
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - The post discusses global AI trends, security concerns, and the importance of governing AI agents, making it a high-value topic for global robotics/AI discussions
+SCORE: 9/10 - Post provides thought leadership and a unique perspective on the future of work with AI, using a historical analogy to frame the narrative
 CATEGORY: global
 AI COMMENT:
-I completely agree that as AI agents become smarter, organizations must prioritize security and governance. The point about redefining privilege in the AI world is particularly insightful. What do you think is the most critical step organizations can take to ensure accountability and security in their AI systems, and how can we balance the need for autonomy with the need for control?
+Laurence, I appreciate how you're challenging the conventional narrative around AI agents by invoking the legend of Sun Wukong. This analogy not only highlights the extension of human skills through AI but also underscores the importance of human judgment and oversight. As we consider the implications of AI on the future of work, what do you think are the key factors that will determine the balance between human and artificial intelligence in decision-making processes?
 TEXT:
-Loaded: 9.99%
-Pause
-Back to start
-Current Time 
-0:01/
-Duration 
-2:54
-Show Captions
-Unmute
-Fullscreen
-ARCON
-42,957 followers
-2d
-As AI Agents become smarter, organizations must become more secure.
-The rapid adoption of AI-powered assistants, autonomous workflows, and intelligent automation is creating new opportunities for businesses—but also new risks.
-How should organizations govern AI Agents? What level of access should they have? And how can enterprises maintain accountability as machine-driven decision-making expands?
-Watch the snippet below on the rise of AI Agents and the importance of securing the next generation of digital identities.
-Watch the full podcast on YouTube:
-https://lnkd.in/d-Andrgw
-#ARCON #AI #AIAgents #IAM #CyberSec #EnterpriseAI #MachineIdentity 
-…more
-7
+Laurence Liew
+4d
+I am retiring my most popular slide.
+For two years I have told audiences the future of work looks like Iron Man: first the suit, then leading the Avengers — a team of AI agents.
+I no longer believe the second half.
+Every Avenger is a person. The moment we frame AI agents as a team to be led, we concede the vendor narrative that agents are digital employees — to be onboarded, performance-managed, and given org-chart positions. 
+A sixteenth-century novel tells a truer story. Sun Wukong did not manage a team. When the Monkey King needed work done at scale, he plucked his own hairs and transformed them into copies of himself. The clones did the work, then dissolved back into him. No identity. No careers. Nobody runs a performance review for a plucked hair.
+That is what an AI agent is: a projection of your skill, not a member of your staff.
+Read the full article: https://lnkd.in/dntM9GY8
+#FutureOfWork #AI #PLUSSkilling #SkillsNotStaff #AISingapore #100E #AIAP #AI4E #AIRE #AIReadyForEveryone #AIRI
+View C2PA information
+232
+21 Comments
 Like
 Comment
 Share
-Transcript
-Transcript
-Yeah, and you and I were talking earlier about just the, the overall the, the AI problem, right? And kind of what's happening, you know, and the fact that obviously it's, it's, I think it's been led by the business within a lot of the enterprises. So it's grown and it's, it's, it's embedded, it's being utilized and security is trying to catch up. They're trying not to make the mistakes of shadow IT from the past as much as possible. And obviously RA isn't very focused obviously on securing the governing of those AI identities. But I think, you know, there's there's that we were talking earlier like there's, there's a couple of things. Like maybe people aren't considering, right, which is obviously as AI becomes more prevalent and you have now an exponential environment of non human identities that are smart. Some are static right from the previous days and now you have smart ones. How do we look at privilege and what does that even mean in, in, in the AI world? AI agents obviously can have privileged access. What they do with whatever access they have can change what privilege is defined as within the organization, right? So I think there's a lot of things that. The security kind of community still going to have to grapple with any thoughts on that. Yeah, You know, I think we all started hearing about agentic AI maybe. Just over a year ago, probably end of 2024. So time flies. But the initial, there was initial huge wave of enthusiasm and I think it was based on, Oh my gosh, this technology, what it can do. Than than sea level executives all realized, hey, we're gonna have to get on board right Jenny Ki were able to move that much faster. It's going to be a huge boost productivity, but nobody was talking about security. Umm, I found that quite bothersome and it is refreshing now to be here at RSA Conference and here so many vendors actually talking about security. But even a year ago, among the vendors, there was very few people who had ideas on how to solve some of the AI problems. Like I think there's a lot of assumptions that were traditionally used to around. Control. Which start to go away with truly agentic AI. And so I think businesses are going to have to grapple with that. Do they always want to have a human in the loop and directing what the AI agents can do? Do you want, you know, can you, are you going to be able to detect if the AI agent is well, first of all, perhaps nursing aging, but. Worse than that, doing more than what you expected to do. Maybe it's learned some new things that the time.
+Jackson T.
+4d
+i love the reframe - Autonomous mini Wukongs vs Coordinated Avengers. 
+Like
+Reply
+1 Reaction
+ching charles
+4d
+I am thinking perhaps it can be not only an extension of skills, but also judgement. If you build the AI with your domain knowledge, surely you can embed an amount of judgement to it as well that you only focus on the judgement that needs your attention. To me the analogy is transferring my thinking process to AI to handle the mundane judgement and  mehandling the more complicated decision.
+Like
+Reply
+1 Reaction
+Stephan February
+4d
+I love both the historical reference and the sentiment. It very much aligns with my thinking of the future workforce. 
+Like
+Reply
+2 Reactions
+Larry Tan
+1d
+Best analogy yet.
+Like
+Reply
+1 Reaction
+Archan B.
+13h
+Nice analogy. This is the third time in a week I’ve seen the mention of the great Sun Wukong … I’m thinking it’s a sign! 
+Like
+Reply
+Frances Eugenia Collazo
+3d
+Agreed. AI is not a staff member.
+It can draft, sort, summarize, compare, pressure-test, and accelerate the work. But it does not understand the stakes. It does not know the client, the institution, the audience, the politics, the history, or the consequences.
+That responsibility stays with the person using it.
+AI can extend your cognitive ability. It cannot replace your judgment.
+Like
+Reply
+1 Reaction
+Wendy Tan Siew Inn Ph.D.
+4d
+Wow I love this analogy. "Vendor narrative" - a great term. Too much of the discourse is propagated by vendors now, too little coming from research or intentionality on how we want our future with AI to be and creating the world we want based on this intentionality. 
+Like
+Reply
+1 Reaction
+Sue Yen LEOW
+4d
+I like the main message: mastery.
+Mastery of self and skills.
+Like
+Reply
+2 Reactions
+Hui Chien Loy
+4d
+I like this narrative 👍 healthy and grounded way to see things 🤩
+Like
+Reply
+1 Reaction
+Ben Hanowell
+3d
+Dude, The Monkey King gets more and more rad the more I learn about him.
+Like
+Reply
+1 Reaction
+See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/xiaopeng-he-41615484_xpeng-activity-7399345381203111936-jz1N
+LINK: https://www.linkedin.com/posts/enzo-ghisoni-robotics_ros2-ai-robotics-activity-7449070785433993216-8JnR
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - Global industry news with thought leadership potential
-CATEGORY: chinese
+SCORE: 8/10 - Global relevance and technical depth in robotics and AI
+CATEGORY: global
 AI COMMENT:
-Xiaopeng He's achievement is a testament to XPeng's innovative approach to EV manufacturing, and the company's inclusion on both the Fortune Tech 50 and Fortune China 500 lists is a remarkable feat. The use of CATIA in design and development is particularly noteworthy, as it enables the creation of highly customizable and efficient 3D prototypes. As we move forward in the global EV landscape, what role do you think AI-guided design and manufacturing will play in driving further innovation and reducing production costs?
+Enzo, thanks for sharing this hands-on guide to training a robot using Reinforcement Learning in ROS 2. The use of Stable-Baselines3 and OpenAI Gym provides a robust framework for training robots. One aspect that I think would be beneficial to explore further is the integration of real-world constraints and safety considerations into the RL model. How do you envision the community balancing the need for exploration and safety in real-world RL deployments?
 TEXT:
-Loaded: 17.09%
+Enzo Ghisoni
+2mo  Edited
+Train Your Robot with Reinforcement Learning in ROS 2!
+Ever wondered how to get started with Reinforcement Learning (RL) in robotics using ROS 2?
+Check out the ros2_flatland_rl_tutorial package created by Filipe Almeida, a hands-on guide to training a robot using Stable-Baselines3, OpenAI Gym, and the Flatland lightweight 2D simulator under ROS 2 Humble.
+What you'll learn:
+✅ How to set up a custom Gym environment with ROS 2 nodes
+✅ How to train a robot to navigate a hallway using the PPO algorithm
+✅ How to structure rewards and observations from Lidar for RL
+✅ How to simulate faster and evaluate training strategies
+🔗 This repository is a great way to dive into Robot Learning, experiment with different environments, and see RL in action!
+https://lnkd.in/eF4FAJsK
+Do you have other awesome RL + ROS 2 example setup?
+Let's connect and share insights 🔽
+#ROS2 #AI #Robotics
+877
+19 Comments
+Like
+Comment
+Share
+Enzo Ghisoni
+2mo
+ 🔗 You can check the repository: https://github.com/FilipeAlmeidaFEUP/ros2_flatland_rl_tutorial
+Like
+Reply
+1 Reaction
+Prathmesh Barapatre
+2mo
+Made a custom gym with ISS layout for space Robotics simulation 
+Like
+Reply
+2 Reactions
+Hamna Qaseem
+2mo
+This is super helpful, thanks for sharing! 🙌
+As someone just getting started with Reinforcement Learning in robotics, I’m curious, what would you recommend as the best platform for beginners?
+Would you suggest starting with MuJoCo, or going directly with ROS 2 + simulators like Gazebo?
+I’m really excited to start experimenting and implementing RL in real-world-like environments, so would love your advice (and others here too!) 
+Like
+Reply
+1 Reaction
+Leo T.
+2mo
+Wow! Thanks! I really appreciate this! This is really useful! 
+Like
+Reply
+1 Reaction
+Shashank Dev
+2mo
+I’ve built ACPL (Adaptive Consequence Penalized Learning), a reinforcement learning approach designed to explicitly model delayed negative consequences. Instead of optimizing only for immediate reward, it penalizes actions based on anticipated future harm.
+The goal is to make RL agents safer and more risk-aware, especially in environments where failures are delayed, noisy, or rare.
+Like
+Reply
+2 Reactions
+Adithya Mohan
+2mo
+I think that for this env, ros2 is a bit too much.
+If RL is the goal, one could just implement a gym flatland env and learn to train the RL agent.
+Would like to know more from you why to use ROS2 for basic RL stuff. Any specifics?
+Like
+Reply
+1 Reaction
+YZ-RA
+2d
+The use of Stable-Baselines3 and OpenAI Gym provides a robust framework for training robots. One aspect that I think would be beneficial to explore further is the integration of Transfer Learning techniques to accelerate the training process in more complex environments. 
+Like
+Reply
+Mahmoud Majdalani
+2mo
+Engineer Enzo
+now I study basics of ROS2
+what can I achieve in this level and what can I will go in this field in the future
+I'm really excited to learn knowledge in robotics world
+Like
+Reply
+1 Reaction
+Dr. D.N.S Ravi Kumar
+2mo
+https://internsharks.ai/home
+Like
+Reply
+Pritam Bandgar, MS
+2mo
+Good resource Enzo Ghisoni. RL with ROS2 still feels like a deep rabbit hole, so hands-on examples like this are useful.
+Like
+Reply
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/rahulpandey-rp_most-ai-agents-never-make-it-past-the-chatbox-activity-7472232213288452098-XBcZ
+DATE: 2026-06-15
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - High-value post discussing a significant pain point in AI agent development and a novel solution
+CATEGORY: global
+AI COMMENT:
+I completely agree that most AI agents struggle to move beyond chatbox interactions, and Novu Connect seems to offer a compelling solution. The ability to connect AI agents to multiple channels through a single communication layer is a game-changer. What I'm curious about is how Novu Connect handles the nuances of human conversation, such as context switching and emotional intelligence, across different platforms. How do you envision AI agents using Novu Connect to navigate these complexities?
+TEXT:
+Loaded: 42.54%
 Pause
 Back to start
 Current Time 
 0:02/
 Duration 
-3:40
+0:43
 Unmute
 Fullscreen
-Xiaopeng He 
-Xiaopeng He is an Influencer
-6mo
-Many, many thanks to everyone once again!
-#XPENG
-707
-40 Comments
+Rahul Pandey
+3h
+Most AI agents never make it past the chatbox.
+They can answer questions.
+But can they follow up on Slack?
+Send approvals on Teams?
+Continue conversations on WhatsApp?
+Email users and pick up the thread when they reply?
+That's where most AI agents break.
+And that's exactly what Novu Connect solves.
+Instead of building separate integrations for Slack, Teams, WhatsApp, Telegram, and Email, you can connect your AI agent to all of them through a single communication layer.
+✅ Two-way conversations across channels
+✅ Identity resolution & message threading
+✅ Smart routing & channel-specific formatting
+✅ Built on trusted infrastructure with SOC 2, HIPAA & ISO 27001 compliance
+What caught my attention?
+You can open the terminal you're already using with Claude, run a simple prompt, and in under 60 seconds your agent can start talking to real users on the channels they already use.
+No complex setup.
+No custom integrations.
+No rebuilding the same communication stack over and over.
+The future of AI agents isn't just answering questions.
+It's reaching humans, holding conversations, escalating issues, sending approvals, and following up where work actually happens.
+Novu Connect handles that last mile.
+They're launching on Product Hunt today 🚀
+If you're building AI agents, developer tools, or automation workflows, this is worth checking out.
+Show your support and give them an upvote 👇
+https://lnkd.in/dYF9PCHi
+…more
+204
+50 Comments
 Like
 Comment
 Share
-Somsak Phonaiwakunwong
-6mo
-https://www.tiktok.com/@somsakphornsiwakunwong/video/7568552558428540167?is_from_webapp=1&sender_device=pc&web_id=7517226116516414992
-Research and Development (R&D)
- Develop work procedures
-CATIA
-1.Design by catia (2D,3D,Modeling,Styling)
-2.The advantages of new process: (KAIZEN)
-  3D prototype solid by CATIA 
-3D prototype surface by CATIA can be used for 
- another automobile model.
-  (Minor change( example: change from Sedan model to hatchback model), 
- study for new model change) 
-Reduce working time and working manhour. 
-Reduce working process. 
-Reduce operation cost. 
+Vipin Bais
+3h
+This solves a huge pain point for builders 🙌
 Like
 Reply
-Deep Kim Singh
-6mo
-Congratulations Xiaopeng. XPeng secured places on both the Fortune Tech 50 and Fortune China 500 lists in 2024, being one of only two automotive companies to make the Tech 50 list. Bravo
+Mazharuddin Farooque
+3h
+Love seeing infrastructure built for AI-native workflows
 Like
 Reply
-1 Reaction
-Ijaz Mehmood
-6mo
-Impressive milestone - one million cars from XPENG Motors Guangzhou base! A clear sign of China’s EV strength and global momentum 👍 
+Ritchie Nkana
+2h
+I appreciate the clarity in explaining how this avoids repetitive development efforts for integrations.  
+Like
+Reply
+Tomya Mateo
+2h
+This kind of system could save a lot of time for teams managing multiple communication tools.  
+Like
+Reply
+Rajesh Kumar
+2h
+I like how it highlights the gap between answering queries and actually maintaining conversations across platforms.  
+Like
+Reply
+Gaurav Sen
+2h
+I appreciate how this removes the need to rebuild communication stacks repeatedly for different platforms.  
+Like
+Reply
+Rajdeep Kumar Singh
+2h
+This solution appears to be built with developers convenience and scalability in mind.  
+Like
+Reply
+Antarip Chatterjee
+2h
+The ability to connect with users on platforms they already use is a major usability advantage.  
+Like
+Reply
+Eko Cahyo Nugroho S.Kom., M.T.I.
+Lecturer of Computer Science | Technology Section Head @ Bina Nusantara University | AWS Certified Solutions Architect – Associate
+2h
+I like how the post explains the problem first before introducing the solution in a structured way.  
+Like
+Reply
+Danylo Krasavin
+2h
+The integration with commonly used platforms like messaging and email makes it highly versatile.  
+Like
+Reply
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/krasia_in-a-rare-public-appearance-jdcoms-founder-activity-7349267119735283712-BvM7
+DATE: 2026-06-15
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - Global industry leader sharing vision and strategy for company's future, highlighting themes of innovation and expansion
+CATEGORY: chinese
+AI COMMENT:
+Richard Liu's emphasis on returning to JD.com's roots in supply chain innovation while expanding into new areas like food delivery and medical aesthetics is a fascinating approach. It underscores the importance of focusing on core competencies while diversifying. I'd love to know more about how JD.com plans to leverage AI and robotics in its supply chain optimization efforts. How do you think companies like JD.com can balance the need for innovation with the pressure to expand into new markets and services, and what role will technology play in this balancing act?
+TEXT:
+KrASIA
+6,670 followers
+11mo
+In a rare public appearance, JD.COM’s founder Richard Liu shared a wide-ranging vision for the company’s future. He spoke candidly about missed opportunities, internal stagnation, and why JD must return to its roots in supply chain innovation.
+Now expanding into food delivery, hospitality, and even medical aesthetics, JD.com is not diversifying for its own sake. Every move, Liu says, serves the same purpose: building infrastructure that lasts.
+This article highlights 20 takeaways from Liu’s address, from values and margin logic to global expansion and why he is still not ready to step away.
+📍 Read the full article: https://lnkd.in/gXQyUyMN
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/williambinli_nio-niopower-batteryswap-activity-7425567242714800128-N4NY
+DATE: 2026-06-15
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - Breakthrough milestone in global EV adoption with a unique battery swap model
+CATEGORY: chinese
+AI COMMENT:
+Congratulations on achieving the 100,000,000th battery swap, a remarkable testament to the scalability of NIO's innovative service model. The emphasis on 'Hardware Velocity' and providing 'biological freedom of movement' resonates deeply with the needs of EV adopters worldwide. As NIO continues to expand its presence globally, what strategic partnerships or collaborations do you envision will be crucial in further accelerating the adoption of battery swap technology and shaping the future of sustainable mobility?
+TEXT:
+Video Player is loading.
+Loaded: 0%
+Pause
+Back to start
+Current Time 
+0:00/
+Duration 
+-:-
+Unmute
+Fullscreen
+William Li
+4mo  Edited
+Proud to share that at 22:33:18 (UTC+8) on February 6, 2026, NIO hit 100,000,000th battery swap!🚀 Huge thanks to everyone who made this possible. Let's Power Up! Let's Jiadian!⚡
+#NIO #NIOPower #BatterySwap #BlueSkyComing
+…more
+1,911
+114 Comments
+Like
+Comment
+Share
+Hasan Z.
+4mo
+Wow, That's a remarkable milestone to hit and I love that you shared the precise timestamp it really underscores the momentum behind this service model. Seeing battery swap scale like this makes me optimistic about solving some real infrastructure challenges for EV adoption. How are you thinking about matching this pace with future station deployments.
+Like
+Reply
+10 Reactions
+Muhammad Owais Saleem
+4mo
+William Li 100 million swaps is more than a milestone; it’s the ultimate receipt for a superior mechanism.
+While most EV manufacturers fight over 'charging speed' (Stage 2 claims), NIO has architected a category of one: Hardware Velocity.
+The 60%, the people who want to go electric but fear the 'recharge stall', don't buy cars. They buy the biological freedom of movement without debt. By swapping the battery in seconds, you've bypassed the metabolic friction of the charging ritual.
+100,000,000 swaps prove that the market always chooses the mechanism over the claim.
+Massive win for the future of distribution, William. You aren't just selling EVs; you’re scaling the energy operating system for a mobile society.
 Like
 Reply
 2 Reactions
 Harald Buchmann
-6mo
-Fantastic. Can't wait to see the sales numbers for the Land Carrier and flying cars. Xpeng symbolizes China's step to the forefront of global tech leadership
+3mo
+Fantastic success. Go Nio. 
+The latest software update was very disappointing though. The HUD looks like a cheap Chinese brand‘s HUD now, packed full with all kind of data, even changing when switching to assisted driving, making it even more distracting. I wish at least you'd offer an option to go back to the old design, or choose which data we want on our HUD. 
+Assisted driving is also less convenient than in the past, turning itself off as soon as one intervenes, not like it used to work.
+Like
+Reply
+Syed Kamran Manzoor
+3mo
+This isn’t just a milestone; it’s proof that rethinking infrastructures changes everything. Most industries cling to “how it’s always been done” (slow charging, long waits). You didn’t just improve the process, you reinvented the experience.
+Curious:
+What’s the “battery swap moment” waiting to happen in your Country, everyone?
+Like
+Reply
+Jaansi Raj
+3mo
+Spare 3 minutes and take the Playground Challenge, or join the Community at https://pickdlabs.in 🤝
+Like
+Reply
+Eric Woning
+3mo
+Meanwhile most people in Europe reading this post.... NIO????
+Like
+Reply
+2 Reactions
+Sebastien ROUSSARIE
+3mo
+Un cap impressionnant ! 100 millions d’échanges de batteries, c’est plus qu’un chiffre : c’est la preuve d’une infrastructure fiable et d’une adoption massive par les utilisateurs. Une belle démonstration que l’innovation opérationnelle peut transformer l’expérience client et accélérer la transition énergétique.
 Like
 Reply
 1 Reaction
-Leslie Mouradian-Driehuizen
-6mo
-That’s some impressive numbers here, 1 million customers!
-Meanwhile, we are facing with oversupply in Europe..
+Nicholas Burson
+4mo
+William Li magnificent achievement, let me know when we can get these in California!
 Like
 Reply
-Syam Krishnan R
-6mo
-👏congratulations 🎉
-Like
-Reply
-1 Reaction
-Albert Qiu
-5mo
-Congratulations! Do hope Xpeng always puts Safety first as it has and that will drive the company to grow into a really great company for people, not only for its shareholders.
-Like
-Reply
-Sebastian Adam
-6mo
-Congratulations He and team ! 
-Last week I had the honor visiting your brand new HQ ! The AI guided tour left me literally speechless ! It was a fantastic experience and your team received me very well !
-Like
-Reply
-Ching Wei L.
-6mo
-hoping to visit one day as an owner 😀. Keep delivering !
-Like
-Reply
-Alvin Chua
-5mo
-Congratulations 🥂 on the achievements
+5 Reactions
+Noor Mughal
+3mo
+100 million swaps is an insane amount of data to manage in real time. the infra behind this must be a total beast. huge milestone.
 Like
 Reply
 See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/baidu-inc_were-not-that-far-behind-baidus-robin-activity-7421721440733003776-HMOP
+LINK: https://www.linkedin.com/posts/andrestoffels_software-horizonrobotics-ipo-activity-7255244155088478208-wuyI
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - Global industry news with thought leadership from Baidu's CEO Robin Li on AI diffusion throughout society
+SCORE: 8/10 - Global industry announcement with thought leadership on autonomous driving and AI trends
 CATEGORY: chinese
 AI COMMENT:
-It's fascinating to see Baidu's push to diffuse AI throughout society, and Robin Li's insights on this topic are truly valuable. The concept of a full-stack AI company is particularly intriguing, as it raises questions about the future of AI integration in various industries. What do you think will be the most significant challenge in implementing AI on a global scale, and how can companies like Baidu address these challenges to drive widespread adoption?
+Congratulations to Yu Kai and the Horizon Robotics team on this significant milestone! The successful IPO is a testament to the company's innovative approach to AI-powered solutions for the automotive industry. It's interesting to see how Horizon Robotics is poised to play a key role in the global smart driving transformation, with a strong presence in China and plans for international expansion. What do you think will be the most critical factor in driving the adoption of autonomous driving technologies in the next 5 years, and how will companies like Horizon Robotics shape the future of this industry?
 TEXT:
-Baidu, Inc.
-295,196 followers
-4mo
-On the sidelines of last November’s Baidu World conference, TIME spoke with our CEO Robin Li as part of its Person of the Year special feature, “The Architects of AI.”
-Read the interview for his take on diffusing AI throughout society, and on how Baidu has built itself into a full-stack AI company.
-TIME
-2,483,861 followers
-4mo
-The Leadership Brief: Baidu’s Robin Li on China’s push to diffuse AI throughout society.
-‘We’re Not That Far Behind.’ Baidu’s Robin Li on China’s Push to Diffuse AI Throughout Society
-TIME on LinkedIn
-13
-2 Comments
+André Stoffels
+1y
+Congratulations to Yu Kai and the entire Horizon Robotics team on a successful IPO! 
+This milestone is not only a testament to the innovation and dedication of this team but also a clear indication of the bright future ahead.
+As a member of the Board of Directors, I have witnessed firsthand the hard work, visionary leadership, and relentless pursuit of excellence that have positioned Horizon Robotics as a leader in AI-powered solutions for the automotive industry. 
+For Volkswagen Group, Horizon Robotics is an important partner and cornerstone of our in-China-for-China approach. Through CARIZON - the joint venture between CARIAD China and Horizon Robotics, we are working hand-in-hand to develop cutting-edge, full stack #software solutions for highly automated driving for the next generation of our intelligent, connected vehicles for the Chinese market.
+So, this IPO really is just the beginning – I’m excited to see what we’ll achieve next as we continue to shape the future of autonomous driving and AI!
+ 
+Peter Bosch  Ralf Brandstätter  Marcus Hafkemeyer
+#HorizonRobotics #IPO #Innovation #AutonomousDriving #AI #Leadership #FutureForward
+Horizon Robotics
+14,024 followers
+1y
+Horizon Robotics (HKEX: 9660), a leading provider of advanced driver assistance systems (ADAS) and autonomous driving (AD) solutions for passenger vehicles, today officially listed on the Main Board of the Hong Kong Stock Exchange.
+Horizon Robotics is a key enabler for the smart vehicle transformation and commercialization with its integrated solutions deployed on mass scale. According to data from CIC (China Insights Consultancy), Horizon is the first and has consistently been the largest Chinese company providing integrated ADAS and AD solutions, leading in overall solution installation volume since the mass deployment began in 2021. Its solutions are adopted by 27 OEMs across 42 brands for implementation in 290 car models, with all of China's top ten OEMs choosing Horizon's smart driving solutions for mass production into their passenger vehicle models.
+As a pioneer in the smart driving technology sector, Horizon offers a comprehensive portfolio of ADAS and AD solutions, namely Horizon Mono, Horizon Pilot and Horizon SuperDrive, to address different consumer needs from mainstream assisted driving to advanced level autonomous driving.
+In his speech at the ceremony, Dr. Yu said: "After nine years of effort, we have become the preferred partner for numerous OEMs in China, and a major force in advancing the transformation towards smarter automotive technology. The successful listing in Hong Kong marks a critical step towards our international market expansion."
+In 2023, the global smart driving penetration rate in new passenger cars reached 65.6%, projected to rise to 80.3% and 96.7% by 2026 and 2030, respectively. In China, the rate was 57.1% in 2023, and expected to reach 81.2% and 99.7% in the coming years, according to CIC data. As demand for smart driving features grows alongside supportive policies, the market is set for significant expansion, positioning Horizon Robotics to capitalize on this explosive growth.
+Following Horizon’s listing in Hong Kong, the company will continue to invest in R&D and industry collaboration, aiming to drive advancements in smart driving technology, creating greater value for consumers and investors, and fostering a safer and smarter future in mobility.
+38
 Like
 Comment
 Share
-Eleanore Cheung 張
-3mo
-🪈 💚 #DowJonesIndustrialAverageIndex
-Round 2A Will Fall to ~40,000
-💞 Happy International Women Day 🍫 
-#fintech  #金融科技  2026-2-28f
-恒指 26,631 +249🎂 (+0.95%) 成交 2,884億
-期指 26,465 -143 (-0.54%) 低水166
-上證 4,163 +16(+0.39%)成交 10,724億
-4-29 My Birthday 
-2026-3-6f HK
-Like
-Reply
-Eleanore Cheung 張
-3mo
-🪈💚  #nikkeiindex  #日經指數 
-Round 3A  📉  Will Fall to ~ 45,000 
-3B 📉 ~40000
-元宵節快樂  💞🍫
-🧑🏫 #Volatility  of #indexfutures 
-#期貨  gives chances for  #hedgefunds, investors ... to earn more capital
-Copyright 
-🎂4-29 My Birthday 
-2026-3-4w 8am 🇭🇰
-Like
-Reply
-See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/hktenzin_xpeng-robotics-humanoidrobots-activity-7470632145342853122-tqnD
+LINK: https://www.linkedin.com/posts/werideai_globalization-robotaxi-weride-activity-7264648011459244034-3qFq
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - Global industry news with a significant development in humanoid robotics
+SCORE: 8/10 - Global recognition of a leader in autonomous driving innovation
 CATEGORY: chinese
 AI COMMENT:
-The move by Xpeng to double down on robotics, especially with their CEO leading the humanoid robot unit, signals a major strategic pivot. As they prepare for mass production of IRON humanoid robots, it's interesting to note how their 'physical AI' concept could redefine the future of work and retail experiences. What potential applications or challenges do you think will arise from the integration of humanoid robots in commercial settings worldwide?
+Congratulations to Dr. Tony Han on this well-deserved recognition! The work WeRide is doing in autonomous driving is truly pioneering. I'm particularly interested in the implications of universal autonomous driving technology on global transportation systems. How do you envision WeRide's innovative solutions shaping the future of urban mobility worldwide?
 TEXT:
-Tenzin Partners
-21,004 followers
-4d
-Xpeng is doubling down on robotics, with CEO He Xiaopeng stepping in to lead the company’s humanoid robot unit ahead of commercial rollout.
-He will take on direct leadership of the division as Xpeng moves closer to mass production of its IRON humanoid robots, targeted by the end of 2026. The robots are expected to see initial deployment in Xpeng retail stores before being rolled out to commercial customers in China and overseas from 2027.
-The move comes amid rising competition in humanoid robotics, with the company positioning “physical AI”—including robots, robotaxis and flying cars—as a future growth driver.
-The leadership change also follows the departure of a key robotics executive, with Xpeng emphasising the need for stronger execution as it enters the commercialisation phase.
-Source: Reuters  
-#Xpeng #Robotics #HumanoidRobots #AI #ChinaTech #FutureOfWork
+WeRide
+45,412 followers
+1y
+We’re excited to share that our Founder & CEO Dr. Tony Han has been named one of the 2024 Forbes China Go-International Pioneers Top 30 Selection!
+This award recognizes leaders who are shaping #globalization through innovation, resilience, and forward-thinking leadership. Dr. Tony Han is a pioneer of autonomous driving innovation and continues to lead the company to bring quality autonomous driving products and services to our global customers and users.
+As the world’s first publicly listed universal autonomous driving technology company and the first publicly listed #Robotaxi company, WeRide remains committed to delivering cutting-edge innovation to the world.
+ 
+#WeRide #AutonomousDriving #Innovation #GlobalLeadership #Forbes
+64
+Like
+Comment
+Share
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/qbeep_chinas-zhipu-ai-ceo-zhang-peng-said-full-activity-7380901603647815681-3CBp
+DATE: 2026-06-15
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - Relevant global thought leadership from a prominent AI CEO
+CATEGORY: chinese
+AI COMMENT:
+Zhang Peng's cautious stance on achieving full artificial superintelligence by 2030 is a valuable reminder of the complexity involved in creating truly autonomous AI systems. The release of GLM-4.6 showcases advancements in narrow AI capabilities, which will undoubtedly drive innovation in various sectors. However, the question remains: What key milestones need to be achieved in the development of artificial general intelligence before we can confidently predict the emergence of superintelligence, and how might Zhang Peng's predictions influence the global AI research agenda?
+TEXT:
+QBeep Intelligent Systems Sdn Bhd
+235 followers
+8mo
+China's Zhipu AI CEO Zhang Peng said full artificial superintelligence (ASI) is unlikely by 2030. 🤖
+While AI might surpass humans in specific aspects by then, it will likely still fall short in many others. This cautious view contrasts with more optimistic predictions from other AI leaders. Zhipu AI recently released an improved language model, GLM-4.6, enhancing coding, reasoning, writing, and agent applications.
 1
 Like
 Comment
@@ -215,196 +480,149 @@ Share
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/sensetime-group-limited_sensetime10-sensetimeglobalaisummit-professortangxiao-activity-7253952430776713216-_srD
+LINK: https://www.linkedin.com/posts/baidu-inc_genai-agents-baidu-activity-7208880262749773825-7MpL
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - Global industry announcement and thought leadership on AI innovation
+SCORE: 8/10 - Global industry leader's thought leadership on emerging trends
 CATEGORY: chinese
 AI COMMENT:
-I appreciate how SenseTime is honoring Professor Tang Xiao'ou's legacy and commitment to bridging research and real-world solutions. The impact of his vision is evident in the work SenseTime continues to do. What do you think will be the most significant challenge for the next generation of innovators in AI, and how can we collectively work to address it?
+I completely agree with Robin Li's vision on the potential of agents in the genAI era. The concept of agents shaping a vast ecosystem, similar to how websites transformed the internet, is indeed promising. One interesting aspect to consider is how these agents will interact with each other and with humans, potentially leading to a new paradigm in human-computer interaction. What role do you think standardization and interoperability will play in enabling the widespread adoption of these agents?
 TEXT:
-Loaded: 20.84%
+Loaded: 29.49%
 Pause
 Back to start
 Current Time 
 0:02/
 Duration 
-3:20
+0:57
 Unmute
 Fullscreen
-SenseTime 商汤科技
-112,977 followers
+Baidu, Inc.
+295,203 followers
 1y
-As we look forward to the next chapter of AI 2.0, we carry the enduring legacy of the late Professor Tang Xiao’ou, the founder of SenseTime. His determination and vision were the cornerstones of the innovation we continue to pursue today.
-At the SenseTime 10th Anniversary Global AI Summit, we reflected on his impact, with special tributes during the In Conversation: Growing the Next Generation of Innovators with Prof. Raymond W. Yeung, Choh-Ming Li Professor of Information Engineering, 香港中文大学, Dr. Lin Dahua, Co-founder of SenseTime and Closing Fireside Chat: 
-Catalyzing Innovation: Elevating Hong Kong's Collaborative Leadership in the Global Innovation Ecosystem with Mr. Albert Wong, CEO, HKSTP - Hong Kong Science and Technology Parks Corporation, Ms. Cindy Chow, Executive Director and CEO, Alibaba Entrepreneurs Fund, Dr. Xu Li, Chairman of the Board and CEO, SenseTime and Hui-Luen Lien, Deputy General Manager of SenseTime Hong Kong. These discussions honored his unwavering commitment to bridging research and real-world solutions, and nurturing the next generation of talent.
-We invite you to take a moment to watch this video which showcases how Prof Tang’s spirit of innovation continues to inspire those who dare to dream and reimagine the possibilities of tomorrow.
-#SenseTime10 #SenseTimeGlobalAISummit #ProfessorTangXiao’ou #AIInnovation
+What does Robin Li see as promising in the #genAI era? Agents. Speaking to a group of entrepreneurs on Baidu campus as part of the Yabuli Growth Plan program, Robin shared his take on #agents and their potential to shape a vast ecosystem in the future just like websites in the Internet era did. Watch the video and learn more!
+#Baidu #AI #Agent 
 …more
-69
+14
+1 Comment
 Like
 Comment
 Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/leo-wang-13263225_great-experience-of-cooperating-to-provide-activity-6705474762359099392-qP8W
-DATE: 2026-06-15
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - Global partnership announcement in the field of robotics and supply chain automation
-CATEGORY: chinese
-AI COMMENT:
-Congratulations to Geek+ and Körber Supply Chain Software on this significant global partnership! The union of AMR expertise and supply chain software solutions will undoubtedly bring about innovative and efficient solutions for clients worldwide. What do you think will be the most impactful benefit of this partnership in terms of revolutionizing the supply chain industry, and how will it influence the adoption of AMR technology in the next 5 years?
-TEXT:
-Leo WANG
-5y
-Great experience of cooperating to provide innovative solution to clients from all industry and expand together globally!
-Körber Supply Chain Software
-21,560 followers
-5y
-A great reinforcement of our continued success together as partners in AMR excellence! Geek+ and Körber Supply Chain announce global partnership. Read more about what Nishan Wijemanne has to say about this milestone.
-https://lnkd.in/gBXhnfv
-#AMR #SupplyChain #Automation #Geek+ #conquersupplychaincomplexity
-Yong Zheng Lit FUNG Hong Yu Marie Peterson Mark Messina Fish Yu Kevin Guo Rick DeFiesta James Leung Jian Zhang Harry C C. Dave Ching Brian Lee Chad Collins Anton du Preez John Santagate Rene Hermes
-Geek+ and Körber announce global partnership for AMR deployment
-8
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/the-icons-global_unitreerobotics-wangxingxing-china2026cctvspringfestivalgala-activity-7439684732453498880-sST1
-DATE: 2026-06-15
-METRICS: 0 Likes, 0 Comments
-SCORE: 8/10 - Global thought leadership and insight into humanoid robotics standardization
-CATEGORY: chinese
-AI COMMENT:
-Wang Xingxing's journey from a 'poor English student' to Vice Chair of the MIIT Humanoid Robotics Standardisation Committee is truly inspiring, highlighting the importance of perseverance and vision in driving innovation. The shift from demonstration to real-world deployment in humanoid robotics indeed necessitates a focus on standardization and scalability. As we move towards more widespread adoption of humanoid robots, what do you think will be the most significant challenge in achieving global standards for motion capabilities and stability?
-TEXT:
-The Icons
-20,398 followers
-2mo
-Unitree Robotics Founder and CEO Wang Xingxing, from being labelled a “poor English student” to serving as Vice Chair of the MIIT Humanoid Robotics Standardisation Committee, has maintained a consistent focus: only when motion capabilities are sufficiently stable and diverse can robots truly enter real work scenarios. As the technology moves from demonstration to real-world deployment, competition in humanoid robotics is entering a critical phase of standardisation and scalability.
-read more: https://reurl.cc/qpgaGR
-Unitree Robotics  
-Robotics
-The Icons
- 
-#UnitreeRobotics #WangXingxing #China2026CCTVSpringFestivalGala
-5
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/worldaiconf_zhang-peng-zhipu-ai-ceo-large-models-bring-activity-7215912014240448513-2wiu
-DATE: 2026-06-15
-METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - Standard global industry news with a quote from a CEO, relevant to AI trends
-CATEGORY: chinese
-AI COMMENT:
-I appreciate ZHANG Peng's insight on large models bringing new opportunities. The concept of using general models to address diverse needs while balancing cost and benefit is indeed a crucial aspect of AI development. What are some potential applications or scenarios where you think these large models will have the most significant impact in the next 2-3 years?
-TEXT:
-WAIC - World Artificial Intelligence Conference
-8,141 followers
+Melody M
 1y
-ZHANG Peng, Zhipu AI CEO: Large models bring new
-opportunities. Using a general model to address the diverse needs of various scenarios and applications while balancing cost and benefit is its essential feature.
-#WAIC2024 #WAIC #TechTrends #AI
+Hi 
+Like
+Reply
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/caproasia_china-autonomous-driving-tech-company-horizon-activity-7179814913995943936-jdzG
+DATE: 2026-06-15
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - Standard global industry news, major company IPO announcement
+CATEGORY: chinese
+AI COMMENT:
+The IPO filing of Horizon Robotics is a significant milestone for the autonomous driving industry, validating the growth and potential of AI-powered transportation solutions. What's interesting is how their focus on energy-efficient computing solutions for ADAS and AD could set a new standard for the global automotive industry. How do you think Horizon Robotics' listing will impact the development of autonomous driving technologies worldwide, and what role will they play in shaping the future of smart electric vehicles?
+TEXT:
+Caproasia
+25,821 followers
+2y
+China autonomous driving tech company Horizon Robotics has filed for a Hong Kong IPO (26/3/24) and targeting to raise $500 million.  Horizon Robotics current market valuation is around $7 billion. Read - https://lnkd.in/gdsQWTDk follow Caproasia | Driving the future of Asia
+China autonomous driving tech company Horizon Robotics has filed for a Hong Kong IPO (26/3/24) and targeting to raise $500 million.  
+Horizon Robotics current market valuation is around $7 billion.  Horizon Robotics is founded in 2015 by Dr Yu Kai.  
+Horizon Robotics is a leading provider of energy-efficient computing solutions for advanced driver assistance systems (ADAS) and automated driving (AD) for consumer vehicles, with the mission to make human life safer and better. As a pioneer to commercialize embedded passenger-vehicle ADAS and AD products in China, Horizon Robotics is committed to enhancing next-generation driving experiences by integrating hardware and software, including low-power hardware computing solutions and open software development tools. By closely collaborating with a community of partners, Horizon Robotics offers products and services that enable an open ecosystem to accelerate the transformation of smart electric vehicles.  Dr. Kai YU is Founder & CEO of Horizon Robotics Inc., a company dedicated to developing aritificial intelligence (AI) chips and solutions for AIoT and Automotives. Dr. Yu is an internationally recognized leading researcher in machine learning and deep learning. He led the R&D of artificial intelligence at Baidu from April 2012 to June 2015. He founded Baidu IDL (Institute of Deep Learning), the first AI lab in China industry.
+China Autonomous Driving Tech Company Horizon Robotics Files for Hong Kong IPO Targeting to Raise $500 Million, Current Market Valuation Around $7 Billion, Founded in 2015 by Dr Yu Kai
+https://www.caproasia.com
+1
 Like
 Comment
 Share
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/williambinli_1000000th-vehicle-milestone-thank-you-activity-7414263975397367808-IOwo
+LINK: https://www.linkedin.com/posts/xiaopeng-he-41615484_xpeng-iron-g7-activity-7353244463982432258-1eGg
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - Standard global industry news milestone with notable comments from industry professionals
+SCORE: 6/10 - Global industry news with a notable achievement in humanoid robotics
 CATEGORY: chinese
 AI COMMENT:
-Congratulations to NIO on achieving this significant milestone! The fact that it took approximately 7 years and 7 months to reach one million vehicles cumulatively is a testament to the company's perseverance and innovative approach. As the global automotive industry continues to shift towards electric and autonomous vehicles, what role do you think Chinese companies like NIO will play in shaping the future of sustainable mobility, and how can they address concerns around global trust and transparency?
+Impressive achievement by the XPENG IRON humanoid robot in completing a full sales shift, it's a great example of how robotics can enhance customer experience in retail. The technical capabilities of the robot to guide customers through the entire G7 experience are a testament to the advancements in smart mobility retail. What potential challenges or limitations do you foresee in scaling this technology to other retail environments, and how do you plan to address them?
 TEXT:
-William Li
-5mo
-Thrilled to share that today, our 1,000,000th vehicle rolled off the production line, marking a significant milestone in NIO's journey!🎉
-I'd like to extend my sincere thank-yous to all our friends who've been with us through this winding yet determined journey. Your steadfast trust and companionship is the greatest driving force for us to keep moving forward.
-Read the full story. Let's Jiadian!⚡
-#NIO #BlueSkyComing
-1,000,000th Vehicle Milestone: Thank You for Being with NIO
-William Li on LinkedIn
-1,657
-130 Comments
+Loaded: 11.07%
+Pause
+Back to start
+Current Time 
+0:02/
+Duration 
+0:11
+Unmute
+Fullscreen
+Xiaopeng He 
+Xiaopeng He is an Influencer
+10mo
+Our humanoid robot XPENG IRON just completed a full sales shift at XPENG showroom in Shenzhen, effortlessly guiding customers through the entire G7 experience. From serving refreshments to explaining every technical detail. This is smart mobility retail reinvented! 
+#XPENG #IRON #G7
+…more
+409
+33 Comments
 Like
 Comment
 Share
-O. C
-5mo
-Congratulations.
-it took NIO approximately 7 years and 7 months (from mid-2018 to early 2026) to reach one million vehicles cumulatively.
- it took Tesla approximately 12 years — from early 2008 to early 2020 — to reach one million vehicles cumulatively.
-Like
-Reply
-16 Reactions
-祉祁Viktor
-3mo
-A million cheers for the NIO team! 🎉 This achievement proves that 'User Enterprise' isn't just a slogan—it's a global standard.
-However, as we witness more Chinese 'smart' vehicles hitting global roads, the conversation is shifting toward global trust and transparency. The brands that will lead the next decade are those that treat international legal compliance as a core product feature, not an after-thought. Let’s keep moving forward with both speed and security. Let's Jiadian!
-Like
-Reply
-Punit Singh
-4mo
-A million vehicles is a milestone — but the more telling signal is what it takes to reach it in an industry where capital pressure, technology cycles, and consumer expectations collide.
- 
-At this scale, success is less about momentum and more about organisational endurance: the ability to keep aligning product, infrastructure, and trust as the system grows. That’s when manufacturing volume turns into long-term relevance.
-Like
-Reply
-Patrice Nordey
-5mo
-💪
+XcavaFleets Services
+10mo
+Congrats Xiaopeng! 🎉
+#ImpactInvesting #InfraTech #ConstructionAfrica #GreenTech #MobilityInnovation
 Like
 Reply
 3 Reactions
-Haoyu Qin
-5mo
-At the end of 2025, total delivery number is 997592, the actual number out of production lines should be more than 997592. The 1000000th vehicle came out production line on January 6th, why only less than 2408 vehicles were produced in first six days of 2026? Holiday?
+Sascha Opperer
+10mo
+Very impressive.
 Like
 Reply
 3 Reactions
-ANKUR TIWARI
-5mo
-William Li This is a fascinating development. It's exciting to see how Nio is pushing the boundaries in the automotive and tech space. The potential impact on sustainable mobility is huge. Infinity IIAC https://infinityiiac.in/
-
-Like
-Reply
-6 Reactions
-Alexey S.
-5mo
-congrats and well done!
-Like
-Reply
-3 Reactions
-Sadaat M Saim
-4mo
-Congratulations on this wonderful milestone! 🎉 Four years of growth and impact at Haleon is truly inspiring. Your journey as a Woman in Field Force is a powerful example of dedication and resilience, and it’s great to see you acknowledge the mentors and colleagues who supported you along the way. Wishing you continued success and even greater achievements in the chapters ahead! 🌟
-
+Shiar Hido
+10mo
+When it will be available?
 Like
 Reply
 2 Reactions
-Artem Perkov
-4mo
-A remarkable milestone — congratulations to the entire NIO team.  
-Reaching 1,000,000 vehicles is not just a production achievement, but proof of industrial-scale execution under constant market pressure.  
-What stands out is how NIO has combined long-term vision with disciplined operations — something that will matter even more as EV competition shifts from innovation to global scalability and resilience.  
-Well done on turning persistence into momentum.
+Paul Ma
+10mo
+Xiaopeng He
+The humanoid robot is excellent. Well done.
 
 Like
 Reply
-Jessie Yu
-4mo
-the 1,000,000th on the license made me think of Audi, but IT IS NIO!!! So proud of Made in China! And as a member of Chinese overseas sales team , I felt extremely proud when I see lots of NIO cars on the street of many countries by my own eyes, also LI 😁 
+3 Reactions
+Samantha Su
+10mo
+This is really wonderful! Would you like to give a speech at the world's leading user experience innovation event and share your outstanding innovations and product experiences? 😃 
+Like
+Reply
+2 Reactions
+Yawen Fan
+10mo
+Our wonderful colleague 😎
+Like
+Reply
+4 Reactions
+新宅敏伸
+元シャープ - 主事
+10mo
+我対日本方面想合作。
+Like
+Reply
+2 Reactions
+Nicholas Tan Check Foong , CA(M)
+10mo
+Congrats. Great if you could showcase it in Malaysia 😃 Happy to facilitate that
+Like
+Reply
+2 Reactions
+Jeffrey van Vegten
+10mo
+That's great. A sales person at the dealers without a second agenda when you shop for EV!
 Like
 Reply
 2 Reactions
@@ -412,100 +630,33 @@ See more comments
 To view or add a comment, sign in
 ================================================================================
 
-LINK: https://www.linkedin.com/posts/leo-wang-13263225_totetoperson-ecommerce-pharmaceutical-activity-7212181399238270977-O5Dk
+LINK: https://www.linkedin.com/posts/martechai2025_robotics-ceo-confident-in-creations-activity-7432763888716136448-oAfW
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - Global industry news with a notable company and technology application
+SCORE: 6/10 - Global industry news with potential for thought leadership
 CATEGORY: chinese
 AI COMMENT:
-Congratulations to Geek+ on this successful implementation of the Tote-to-Person RoboShuttle System for Dr. Max in Italy. It's fascinating to see how robotics and automation can help pharmaceutical chains meet the increasing demands of e-commerce while maintaining efficiency. What potential do you see for further integrating AI and robotics in the pharmaceutical supply chain to enhance customer experience and reduce costs?
+It's interesting to see CEOs like Wang Xingxing expressing confidence in the safety and reliability of their robots, which is crucial for widespread adoption. The development of humanoid robots like those produced by Unitree raises important questions about the future of human-robot interaction and the potential risks and benefits associated with advanced AI. What do you think will be the most significant challenge in ensuring the safe integration of robots like these into our daily lives?
 TEXT:
-Leo WANG
-1y
-Geek+
-89,721 followers
-1y  Edited
-Dr. Max, one of Europe’s leading pharmaceutical chains, is now using Geek+ Tote-to-Person RoboShuttle System in Italy! Geekplus has already implemented similar solutions in the pharmaceutical chain’s European sites together with SSI SCHÄFER.
- 
-Dr. Max was faced with a 55% increase in e-commerce business last year and needed a solution to get customers medicine both direct-to-order and for pickup at a pharmacy. RoboShuttle System does both--proving that Geekplus is your one-stop partner for warehouse robotics, no matter how complex the scenario might be.
- 
-Read more here: https://lnkd.in/gFckSc8x
- 
-Dr. Max Italia Dr.Max Pharmacy Chain Dr.Max Italia
- 
-#totetoperson #ecommerce #pharmaceutical #onestop
-13
-1 Comment
+Loaded: 56.38%
+Pause
+Back to start
+Current Time 
+0:01/
+Duration 
+0:23
+Unmute
+Fullscreen
+Robotics CEO confident in creations
+MartechAi
+1,849 followers
+3mo
+Unitree CEO Wang Xingxing appears highly confident in the safety and reliability of his robots. 🤖
+#Unitree #Robotics #AIInnovation #HumanoidRobots #FutureTech
+…more
 Like
 Comment
 Share
-Wilson Leung
-1y
-nice project
-Like
-Reply
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/leo-wang-13263225_gxo-logistics-deploys-tote-to-person-mobile-activity-7201232363580760065-uSWs
-DATE: 2026-06-15
-METRICS: 0 Likes, 0 Comments
-SCORE: 7/10 - Global industry news with potential for technical insight
-CATEGORY: chinese
-AI COMMENT:
-The partnership between Geek+ and GXO Logistics to deploy the Tote-to-Person RoboShuttle System in France is a significant step towards advancing omnichannel retail logistics. The scale of this deployment, with 500 robots handling 70,000 bins, underscores the growing need for efficient and automated solutions in supply chain management. What do you think will be the most critical factor in determining the long-term success of such robotic systems in global retail operations?
-TEXT:
-Leo WANG
-2y
-Geek+
-89,721 followers
-2y
-Geek+ and GXO Logistics are proud to announce that we have partnered to bring Tote-to-Person RoboShuttle System to France for a major sporting goods retailer. The automated solution includes 500 Geekplus robots handling 70,000 bins.
- 
-The deployment at the customer’s 12,000-square-foot facility marks the debut of Tote-to-Person in France. According to GXO, the deployment “is part of a complete transformation of the omnichannel retailer’s supply chain in the region.”
- 
- #totetoperson #partnership #EMEA #sportinggoodsautomation
-GXO Logistics deploys Tote-to-Person mobile robot innovation in France
-source.blog.geekplus.com
-19
-Like
-Comment
-Share
-To view or add a comment, sign in
-================================================================================
-
-LINK: https://www.linkedin.com/posts/sensetime-group-limited_ai-highereducation-aigovernance-activity-7448897687367737344-Pnge
-DATE: 2026-06-15
-METRICS: 0 Likes, 0 Comments
-SCORE: 6/10 - Global industry news with thought leadership on AI and higher education
-CATEGORY: chinese
-AI COMMENT:
-Dr. Xu Li's perspective on AI as a long-term companion to amplify human potential is insightful. The shift towards methodological and exploratory learning, facilitated by AI, can indeed revolutionize the way we approach education. However, what are the potential challenges in implementing AI-enabled learning models globally, and how can we ensure that digital equality is achieved across different regions and communities?
-TEXT:
-SenseTime 商汤科技
-112,977 followers
-2mo
-Dr. Xu Li, our Chairman of the Board and CEO, shared his perspectives on #AI and #HigherEducation in the AI era at the Hong Kong Global #AIGovernance Conference 2026, hosted by the HKU Musketeers Foundation Institute of Data Science .
-He emphasized that #AI should be viewed as a long-term companion — to amplify human potential, not substitute human creativity, judgment, or decision-making.
-Meanwhile, learning in the AI era is shifting from memorizing broad knowledge to building a systematic methodology for exploring knowledge. He noted that, "By using AI as an interactive tool, learners can dive deeply into a topic and complete experimental validation along the way."
-Dr. Xu said Hong Kong’s universities hold a unique advantage in this transformation: they can pioneer innovative AI-enabled learning models and help drive global replication.
-As #EdTech becomes increasingly central to education empowerment, SenseTime continues to advance practical and advanced EdTech solutions. He further highlighted that Hong Kong can play a crucial role as a “super connector” and “super value adder” for B2B AI, especially EdTech—supporting its international expansion.
-Underlying all of this is the need for #DigitalEquality. SenseTime is committed to accelerating AI as public infrastructure—making it accessible, affordable, and available to all.
-香港大學
-44
-1 Comment
-Like
-Comment
-Share
-HKU Musketeers Foundation Institute of Data Science
-2mo
-Thank you for sharing these perspectives, and for Dr Xu’s contribution to the conference!
-The framing of AI as a long-term companion, alongside the shift towards methodological and exploratory learning, reflects a key direction discussed across sessions on AI and education. It also highlights how governance and deployment intersect in practice, particularly in shaping how institutions adopt and integrate AI into learning environments.
-We also appreciate the emphasis on digital equality and Hong Kong’s role as a connector. These themes align closely with the conference’s focus on inclusive, cross-regional approaches to AI governance and development.  
-Many thanks again for Dr Xu’s engagement and participation!
-Like
-Reply
-1 Reaction
 To view or add a comment, sign in
 ================================================================================
 

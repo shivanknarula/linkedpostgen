@@ -1,12 +1,3 @@
-https://www.linkedin.com/posts/industrial-automation-and-machinery-dynamics_industrialrobotics-7axis-automation-activity-7471090290054053888-6Dpy
-https://www.linkedin.com/posts/theaibothub_the-era-of-humanoid-robot-mass-production-activity-7469766331240898560-Z8F5
-https://www.linkedin.com/posts/ashishcs1990_overview-of-the-different-types-of-ai-agents-activity-7335346484793503744-fBFj
-https://www.linkedin.com/posts/a-banks_boston-dynamics-just-partnered-with-google-activity-7416826389066047488-Xldl
-https://www.linkedin.com/posts/lentinjoseph_ros-ros2-robotics-activity-7173890674113675265-56I-
-https://www.linkedin.com/posts/youssbm_figure-ai-just-solved-the-sim-to-real-transfer-activity-7419110941415346177-CKER
-https://www.linkedin.com/posts/durgaprasad-budhwani_ai-aiagents-agenticai-activity-7353265039547449346-wPbs
-https://www.linkedin.com/posts/lisa-m-t-8031099b_the-humanoid-robotics-industry-seems-to-be-activity-7468925252790788097-Yaj5
-=== RUN ===
 https://www.linkedin.com/posts/juliazadorozhna_meet-odin-our-new-humanoid-robot-that-activity-7358142104725778433-1C9O
 https://www.linkedin.com/posts/rkallepalli_ai-agents-are-rapidly-moving-from-assistants-activity-7469398882150588416-fExH
 https://www.linkedin.com/posts/anupambagchi_robotics-softwareengineering-ros2-activity-7467674996887195649-KBUq
@@ -115,3 +106,21 @@ https://www.linkedin.com/posts/sensetime-group-limited_sensetime10-sensetimeglob
 https://www.linkedin.com/posts/asiaconnectmagazine_jdcom-richardliu-seaexpandary-activity-7432473270685442049-WEMD
 https://www.linkedin.com/posts/leo-wang-13263225_great-experience-of-cooperating-to-provide-activity-6705474762359099392-qP8W
 https://www.linkedin.com/posts/the-icons-global_unitreerobotics-wangxingxing-china2026cctvspringfestivalgala-activity-7439684732453498880-sST1
+=== RUN ===
+https://www.linkedin.com/posts/laurenceliew_futureofwork-ai-plusskilling-share-7470660379812003840-escm
+https://www.linkedin.com/posts/enzo-ghisoni-robotics_ros2-ai-robotics-activity-7449070785433993216-8JnR
+https://www.linkedin.com/posts/rahulpandey-rp_most-ai-agents-never-make-it-past-the-chatbox-activity-7472232213288452098-XBcZ
+https://www.linkedin.com/posts/leo-wang-13263225_galipo-foods-cold-storage-amr-implementation-activity-6713069676286636032-RIBi
+https://www.linkedin.com/posts/caproasia_china-autonomous-driving-tech-company-horizon-activity-7179814913995943936-jdzG
+https://www.linkedin.com/posts/xiaopeng-he-41615484_xpeng-iron-g7-activity-7353244463982432258-1eGg
+https://www.linkedin.com/posts/krasia_in-a-rare-public-appearance-jdcoms-founder-activity-7349267119735283712-BvM7
+https://www.linkedin.com/posts/technodechina_jd-introduces-avatar-of-founder-richard-liu-activity-7186665300099006465-FJfL
+https://www.linkedin.com/posts/leo-wang-13263225_top-5-moments-of-geek-apac-activity-7012051391183556608-elpM
+https://www.linkedin.com/posts/williambinli_nio-blueskycoming-batteryswap-activity-7459257746366963713-nysh
+https://www.linkedin.com/posts/williambinli_nio-niopower-batteryswap-activity-7425567242714800128-N4NY
+https://www.linkedin.com/posts/andrestoffels_software-horizonrobotics-ipo-activity-7255244155088478208-wuyI
+https://www.linkedin.com/posts/hnb-global_richardliu-liuqiangdong-jdcom-activity-7416411363708792832-0dLN
+https://www.linkedin.com/posts/werideai_globalization-robotaxi-weride-activity-7264648011459244034-3qFq
+https://www.linkedin.com/posts/martechai2025_robotics-ceo-confident-in-creations-activity-7432763888716136448-oAfW
+https://www.linkedin.com/posts/qbeep_chinas-zhipu-ai-ceo-zhang-peng-said-full-activity-7380901603647815681-3CBp
+https://www.linkedin.com/posts/baidu-inc_genai-agents-baidu-activity-7208880262749773825-7MpL
