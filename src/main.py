@@ -8,7 +8,8 @@ from src.config import HEADLESS, DB_PATH
 from src.database import (
     init_db, get_db_connection, start_crawl_run, finish_crawl_run,
     get_history_set, add_urls_to_history, add_discovered_post,
-    save_extracted_post, get_unscored_posts, save_post_scoring
+    save_extracted_post, get_unscored_posts, save_post_scoring,
+    export_to_legacy_files
 )
 from src.scraper import AsyncLinkedInScraper
 from src.discovery import DiscoveryEngine
@@ -155,6 +156,9 @@ async def run_pipeline(args):
             duration_ms=duration_ms
         )
         print(f"[*] Crawl Run ID {run_id} finished in {duration_ms / 1000:.2f} seconds. Status: {status}")
+        
+        # Export files for backward/cloud compatibility
+        export_to_legacy_files()
 
 def main():
     parser = argparse.ArgumentParser(description="LinkedIn AI & Robotics Intelligence Platform orchestrator")

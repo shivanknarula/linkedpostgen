@@ -342,3 +342,96 @@ def get_metrics_summary():
         "total_runs": total_runs,
         "latest_runs": latest_runs
     }
+
+def export_to_legacy_files():
+    """Exports SQLite scored posts to robotics_posts.csv and text files for Vercel/legacy compatibility."""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    
+    # 1. Fetch scored posts for CSV
+    cursor.execute("""
+    SELECT 
+        p.url, 
+        p.published_date as date, 
+        p.post_text as text,
+        p.likes, 
+        p.comments, 
+        p.category,
+        s.total_score as score, 
+        s.reasoning,
+        c.comment_text as comment
+    FROM posts p
+    JOIN scores s ON p.id = s.post_id
+    LEFT JOIN generated_comments c ON p.id = c.post_id
+    ORDER BY s.total_score DESC, p.created_at DESC
+    """)
+    
+    rows = cursor.fetchall()
+    conn.close()
+    
+    import csv
+    keys = ['url', 'date', 'score', 'reasoning', 'comment', 'likes', 'comments', 'text', 'category']
+    
+    # Write to CSV
+    csv_file = "robotics_posts.csv"
+    try:
+        with open(csv_file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=keys)
+            writer.writeheader()
+            for r in rows:
+                # scale score back to 0-10 for CSV compatibility
+                score_scaled = str(r['score'] // 10)
+                writer.writerow({
+                    'url': r['url'],
+                    'date': r['date'],
+                    'score': score_scaled,
+                    'reasoning': r['reasoning'],
+                    'comment': r['comment'] or '',
+                    'likes': str(r['likes']),
+                    'comments': str(r['comments']),
+                    'text': r['text'],
+                    'category': r['category']
+                })
+        print(f"[*] Exported {len(rows)} posts to {csv_file}")
+    except Exception as e:
+        print(f"Error exporting to CSV: {e}")
+        
+    # Write to high_value_comments.txt and all_scraped_posts.txt
+    try:
+        with open("high_value_comments.txt", "w", encoding="utf-8") as f_high, \
+             open("all_scraped_posts.txt", "w", encoding="utf-8") as f_all:
+             
+            for r in rows:
+                score_scaled = r['score'] // 10
+                text_block = (
+                    f"LINK: {r['url']}\n"
+                    f"DATE: {r['date']}\n"
+                    f"METRICS: {r['likes']} Likes, {r['comments']} Comments\n"
+                    f"SCORE: {score_scaled}/10 - {r['reasoning']}\n"
+                    f"CATEGORY: {r['category']}\n"
+                    f"AI COMMENT:\n{r['comment'] or 'N/A'}\n"
+                    f"TEXT:\n{r['text']}\n"
+                    f"{'='*80}\n\n"
+                )
+                f_all.write(text_block)
+                if score_scaled >= 6:
+                    f_high.write(text_block)
+        print("[*] Exported txt files successfully.")
+    except Exception as e:
+        print(f"Error exporting to txt files: {e}")
+
+    # Export history to generated_links_history.txt
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        cursor.execute("SELECT url FROM crawl_history")
+        urls = [row['url'] for row in cursor.fetchall()]
+        conn.close()
+        
+        with open("generated_links_history.txt", "w", encoding="utf-8") as f:
+            for url in urls:
+                f.write(f"{url}\n")
+        print(f"[*] Exported {len(urls)} history links to generated_links_history.txt")
+    except Exception as e:
+        print(f"Error exporting history: {e}")
+
