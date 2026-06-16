@@ -107,16 +107,18 @@ class AsyncLinkedInScraper:
                 likes = 0
                 comments = 0
                 try:
-                    social_text = await page.locator('.social-details-social-counts').first.inner_text()
-                    if 'Like' in social_text:
-                        likes_str = social_text.split('Like')[0].strip().replace(',', '')
-                        if likes_str.isdigit():
-                            likes = int(likes_str)
-                    if 'Comment' in social_text:
-                        comments_parts = social_text.split('Comment')[0].split('\n')
-                        comment_str = comments_parts[-1].strip().replace(',', '')
-                        if comment_str.isdigit():
-                            comments = int(comment_str)
+                    social_loc = page.locator('.social-details-social-counts').first
+                    if await social_loc.count() > 0:
+                        social_text = await social_loc.inner_text(timeout=1000)
+                        if 'Like' in social_text:
+                            likes_str = social_text.split('Like')[0].strip().replace(',', '')
+                            if likes_str.isdigit():
+                                likes = int(likes_str)
+                        if 'Comment' in social_text:
+                            comments_parts = social_text.split('Comment')[0].split('\n')
+                            comment_str = comments_parts[-1].strip().replace(',', '')
+                            if comment_str.isdigit():
+                                comments = int(comment_str)
                 except:
                     pass
                 
