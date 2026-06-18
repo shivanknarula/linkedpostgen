@@ -1146,12 +1146,19 @@
                             ${domainName}
                         </div>
                         ${isProfileUrl ? `
-                            <div style="display: flex; flex-direction: column; gap: 0.25rem; margin-bottom: 0.75rem;">
+                            <div style="display: flex; flex-wrap: wrap; gap: 0.5rem 0.75rem; margin-bottom: 0.75rem; align-items: center;">
                                 <a href="${displayUrl}" target="_blank" style="font-size: 0.82rem; color: var(--accent-primary); text-decoration: none; display: inline-flex; align-items: center; gap: 0.25rem;" title="Go to the public profile page.">
                                     Go to Profile <i data-lucide="external-link" style="width: 12px; height: 12px;"></i>
                                 </a>
-                                <span style="font-size: 0.72rem; color: var(--text-muted); font-style: italic;">
-                                    (Seeded demo post: redirects to author's profile)
+                                <span style="color: var(--text-muted); font-size: 0.82rem;">|</span>
+                                <a href="https://www.linkedin.com/search/results/content/?keywords=${encodeURIComponent(
+                                    (domainName && !domainName.includes('Feed') && !domainName.includes('Article') ? domainName + ' ' : '') + 
+                                    (row.text ? row.text.replace(/[^\w\s]/gi, '').split(/\s+/).slice(0, 10).join(' ') : '')
+                                )}" target="_blank" style="font-size: 0.82rem; color: var(--accent-violet); text-decoration: none; display: inline-flex; align-items: center; gap: 0.25rem;" title="Search for this specific post directly on LinkedIn.">
+                                    Search Post on LinkedIn <i data-lucide="search" style="width: 12px; height: 12px;"></i>
+                                </a>
+                                <span style="font-size: 0.72rem; color: var(--text-muted); display: block; width: 100%; margin-top: -0.15rem; font-style: italic;">
+                                    (Seeded demo post: redirects to author's profile, use search to find post)
                                 </span>
                             </div>
                         ` : `

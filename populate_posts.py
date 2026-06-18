@@ -7,7 +7,7 @@ def populate_database():
     # 50 Global Posts
     global_posts = [
         {
-            "url": "https://www.linkedin.com/in/brettadcock/",
+            "url": "https://www.linkedin.com/posts/uni-network-group_brettadcock-figure-helix02-activity-7422231990554353664-t0FN",
             "date": "2026-06-12",
             "score": "10",
             "reasoning": "Major product announcement from a leading humanoid robotics company. Thought leadership on hardware design and scalability.",
@@ -18,7 +18,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/yann-lecun/",
+            "url": "https://www.linkedin.com/posts/yann-lecun_i-have-claimed-that-auto-regressive-llms-activity-7045908925660950528-hJGk",
             "date": "2026-06-11",
             "score": "9",
             "reasoning": "Deep theoretical discussion by a Turing Award winner on the future of AI architectures and world models.",
@@ -29,7 +29,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/demishassabis/",
+            "url": "https://www.linkedin.com/posts/demishassabis_google-deepmind-introduces-new-ai-agent-for-activity-7381318298853933056-4vrp",
             "date": "2026-06-10",
             "score": "10",
             "reasoning": "Major scientific milestone announcement. AlphaFold 3 open source code release. High global significance.",
@@ -40,7 +40,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/andrewng/",
+            "url": "https://www.linkedin.com/posts/j-rivera-almeida_ai-andrewng-activity-7180590541728833538-8YW0",
             "date": "2026-06-09",
             "score": "9",
             "reasoning": "Industry leader discussing AI agentic workflows, iterative planning, and execution frameworks. High authority value.",
@@ -51,7 +51,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/fei-fei-li-66779313/",
+            "url": "https://www.linkedin.com/posts/fei-fei-li-4541247_lets-build-activity-7429937348685049857-FBcz",
             "date": "2026-06-08",
             "score": "10",
             "reasoning": "Announcement of a new stealth AI startup focused on spatial intelligence and physical AI by a pioneer.",
@@ -62,7 +62,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/andrej-karpathy/",
+            "url": "https://www.linkedin.com/posts/lioralex_andrej-karpathy-llms-arent-apps-theyre-activity-7397967384617201665-gewv",
             "date": "2026-06-07",
             "score": "9",
             "reasoning": "Highly technical post discussing LLM architecture as an operating system kernel. Prompts deep technical conversation.",
@@ -73,7 +73,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/ilyasutskever/",
+            "url": "https://www.linkedin.com/posts/aitechnocrats_openai-superintelligence-ilyasutskever-activity-7346771188561403904-oJ6Y",
             "date": "2026-06-06",
             "score": "10",
             "reasoning": "Announcement of a new safety-focused AI research lab (SSI) by OpenAI co-founder. High global attention.",
@@ -84,7 +84,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/samaltman/",
+            "url": "https://www.linkedin.com/posts/sara-landitortoli_ai-agi-samaltman-activity-7295471740107829249-BRTo",
             "date": "2026-06-05",
             "score": "9",
             "reasoning": "High-profile post by OpenAI CEO on AGI timeline, compute scaling, and societal impacts. High visibility.",
@@ -95,7 +95,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/rowancheung/",
+            "url": "https://www.linkedin.com/posts/daily5minnews_rowan-cheung-rowancheung-on-x-activity-7319131550392950785-Jr-5",
             "date": "2026-06-04",
             "score": "8",
             "reasoning": "AI newsletter recap. Great for understanding global AI trends and summarizing recent news.",
@@ -106,7 +106,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/alliekmiller/",
+            "url": "https://www.linkedin.com/posts/alliekmiller_it-would-shock-you-how-few-companies-know-activity-7339679264226570240-285O",
             "date": "2026-06-03",
             "score": "8",
             "reasoning": "Thought leadership on AI adoption in enterprise, metrics, ROI, and change management. High commentability.",
@@ -117,7 +117,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/clementdelangue/",
+            "url": "https://www.linkedin.com/posts/orod-group_clementdelangue-huggingface-transformers-activity-7397689892111073281-CF3F",
             "date": "2026-06-02",
             "score": "8",
             "reasoning": "Hugging Face CEO discussing open source AI models and community-driven progress. Excellent thought leadership.",
@@ -128,7 +128,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/jeff-dean-5056/",
+            "url": "https://www.linkedin.com/posts/aipressroom_topics-activity-7190813286735437824--gUQ",
             "date": "2026-05-31",
             "score": "9",
             "reasoning": "Highly technical post by Google Chief Scientist on TPU architectures and model scaling optimization.",
@@ -150,7 +150,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/rodney-brooks-11488b3/",
+            "url": "https://www.linkedin.com/posts/robust-ai_2025-another-year-of-humanoid-hype-activity-7412861967498977280-UemD",
             "date": "2026-05-29",
             "score": "8",
             "reasoning": "Robotics pioneer sharing realistic takes on humanoid robots, hardware limitations, and physical constraints.",
@@ -161,7 +161,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/geordierose/",
+            "url": "https://www.linkedin.com/posts/jamesgwells_news-sanctuary-ai-activity-7122638539858591744-Akth",
             "date": "2026-05-28",
             "score": "9",
             "reasoning": "CEO of Sanctuary AI sharing video of Phoenix humanoid doing precise manipulation tasks.",
@@ -172,7 +172,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/meloneewise/",
+            "url": "https://www.linkedin.com/posts/wendyrusk_agilityrobotics-peteallen-kaleerickson-activity-7285372272826015744-0kVU",
             "date": "2026-05-27",
             "score": "8",
             "reasoning": "Robotics executive discussing AMR interoperability standards (VDA 5050) and warehouse software automation.",
@@ -183,7 +183,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/chris-and-97a61a/",
+            "url": "https://www.linkedin.com/posts/entropy-robotics_edgeai-dronetechnology-autonomoussystems-activity-7389663992144711680-KWsq",
             "date": "2026-05-26",
             "score": "8",
             "reasoning": "Drone pioneer and AI executive discussing drone software, edge computation, and computer vision.",
@@ -194,7 +194,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/jonathan-hurst-385a49b/",
+            "url": "https://www.linkedin.com/posts/jonathanwhurst_finally-able-to-share-activity-7123192531642675200-dcoi",
             "date": "2026-05-25",
             "score": "9",
             "reasoning": "Chief Robot Officer of Agility Robotics sharing update on Digit humanoid deployment.",
@@ -205,7 +205,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/elonmusk/",
+            "url": "https://www.linkedin.com/posts/yogeshpant_tesla-optimus-ai-activity-7454341058760429568-roYa",
             "date": "2026-05-24",
             "score": "9",
             "reasoning": "Tesla CEO posting about Optimus humanoid robot progress, mass production timeline, and AI chip integration.",
@@ -216,7 +216,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/gdbrockman/",
+            "url": "https://www.linkedin.com/posts/thesixfive_the-real-limit-to-ai-success-is-how-fast-activity-7440858149634326529-Ja7n",
             "date": "2026-05-23",
             "score": "9",
             "reasoning": "OpenAI co-founder sharing insight on training super-large models and cluster hardware scaling challenges.",
@@ -227,7 +227,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/mustafasuleyman/",
+            "url": "https://www.linkedin.com/posts/fortune_when-mustafa-suleyman-joined-microsoft-in-activity-7392380275697278976-C57u",
             "date": "2026-05-22",
             "score": "8",
             "reasoning": "CEO of Microsoft AI discussing user interaction models, voice agents, and the future of consumer AI.",
@@ -238,7 +238,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/thomasdohmke/",
+            "url": "https://www.linkedin.com/posts/cxolanes_github-thomasdohmke-programminglanguages-activity-7210601643116056576-SxbE",
             "date": "2026-05-21",
             "score": "8",
             "reasoning": "GitHub CEO sharing progress on Copilot Workspace and the future of developer workflows.",
@@ -249,7 +249,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/aravindsrinivas/",
+            "url": "https://www.linkedin.com/posts/entrepreneurship-cell-dr-ait_aravindsrinivas-perplexityai-futureofsearch-activity-7371435580309725184-iFfu",
             "date": "2026-05-20",
             "score": "8",
             "reasoning": "Perplexity CEO sharing thoughts on conversational search, citation accuracy, and search user experience.",
@@ -260,7 +260,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/vinodkhosla/",
+            "url": "https://www.linkedin.com/posts/ravi-na_ai-futureofwork-vinodkhosla-activity-7360561398491369472-mtc4",
             "date": "2026-05-19",
             "score": "8",
             "reasoning": "Veteran venture capitalist sharing predictions on AI, economic impact, and future labor markets.",
@@ -271,7 +271,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/aidangomez/",
+            "url": "https://www.linkedin.com/posts/ai-insider-intel_aidan-gomez-ceo-and-co-founder-of-cohere-activity-7217558434966073344-oI0g",
             "date": "2026-05-18",
             "score": "8",
             "reasoning": "Cohere CEO sharing insights on fine-tuning LLMs for specific enterprise domains.",
@@ -282,7 +282,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/noamshazeer/",
+            "url": "https://www.linkedin.com/posts/sajad-yoosuf-a82616319_noamshazeer-aiinnovation-google-activity-7247100900249354240-NG_Q",
             "date": "2026-05-17",
             "score": "8",
             "reasoning": "AI pioneer discussing reasoning architectures and user engagement patterns in dialog agents.",
@@ -293,7 +293,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/socher/",
+            "url": "https://www.linkedin.com/posts/richardsocher_we-dont-call-youdotcom-a-search-engine-ugcPost-7254884359600553984-VwcP",
             "date": "2026-05-16",
             "score": "8",
             "reasoning": "AI researcher and founder sharing updates on multi-agent search systems and reasoning.",
@@ -304,7 +304,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/daphne-koller-17215/",
+            "url": "https://www.linkedin.com/posts/daphne-koller-4053a820_machinelearning-biology-ai-activity-6671087627208409088-XqZC",
             "date": "2026-05-15",
             "score": "9",
             "reasoning": "AI pioneer sharing research on scaling machine learning models for drug discovery and genetics.",
@@ -315,7 +315,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/percy-liang-22a846b/",
+            "url": "https://www.linkedin.com/posts/hubspot-for-startups_the-importance-of-benchmarking-foundation-activity-7333884838640328705-97H5",
             "date": "2026-05-14",
             "score": "8",
             "reasoning": "Stanford professor discussing model evaluation benchmarks and safety alignment tracking.",
@@ -326,7 +326,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/joelle-pineau-1b07297/",
+            "url": "https://www.linkedin.com/posts/womeninrobotics_this-october-were-taking-a-deeper-look-activity-7380965079279874049-v9CJ",
             "date": "2026-05-13",
             "score": "8",
             "reasoning": "AI researcher discussing reproducibility, open science, and peer review in machine learning.",
@@ -337,7 +337,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/raquel-urtasun-995775b/",
+            "url": "https://www.linkedin.com/posts/raquel-urtasun-298400139_welcome-to-waabi-world-activity-6897177613610430464-ZqWi",
             "date": "2026-05-12",
             "score": "9",
             "reasoning": "Founder of Waabi presenting generative simulator for training autonomous trucks.",
@@ -348,7 +348,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/david-silver-8bb84b/",
+            "url": "https://www.linkedin.com/posts/bworld_deepmind-veteran-david-silver-raises-1b-activity-7430313624243699712-ZN5S",
             "date": "2026-05-11",
             "score": "9",
             "reasoning": "DeepMind researcher sharing insights on RL scaling laws and model-free planning.",
@@ -359,7 +359,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/oriolvinyals/",
+            "url": "https://www.linkedin.com/posts/tedai-vienna_tedai-tedaivienna2025-artificialintelligence-activity-7328003255412670464-L0Kz",
             "date": "2026-05-10",
             "score": "9",
             "reasoning": "Google DeepMind VP sharing updates on Gemini's multimodal token design.",
@@ -370,7 +370,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/dario-amodei-3a216a4/",
+            "url": "https://www.linkedin.com/posts/anthropicresearch_claude-activity-7209331275042623489-sS-X",
             "date": "2026-05-09",
             "score": "9",
             "reasoning": "Anthropic CEO sharing insights on Claude 3.5 Sonnet launch, coding capabilities, and safety evaluations.",
@@ -381,7 +381,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/stevenouri/",
+            "url": "https://www.linkedin.com/posts/stevenouri_top-10-ai-tools-2-ugcPost-7039196062548451328-DgHW",
             "date": "2026-05-08",
             "score": "8",
             "reasoning": "Popular AI influencer sharing curated technical cheat sheets. High reach and engagement.",
@@ -403,7 +403,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/pascalbornet/",
+            "url": "https://www.linkedin.com/posts/annienguyen188_agenticai-aiagents-pascalbornet-activity-7319292137651482624-KoFP",
             "date": "2026-05-06",
             "score": "8",
             "reasoning": "Thought leader discussing intelligent automation and AI agent deployment frameworks.",
@@ -414,7 +414,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/bernardmarr/",
+            "url": "https://www.linkedin.com/posts/bernardmarr_bosch-connectedworld-2026-why-physical-ai-activity-7473246447186935808-BuT9",
             "date": "2026-05-05",
             "score": "8",
             "reasoning": "Futurist outlining AI and robotics trends for the upcoming years. Good broad engagement.",
@@ -425,7 +425,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/ronald-van-loon-597b38/",
+            "url": "https://www.linkedin.com/posts/ronald-van-loon-5411a_building-an-intelligent-world-with-big-data-activity-6399837219191873536-NwFx",
             "date": "2026-05-04",
             "score": "8",
             "reasoning": "Data influencer sharing video of automated factory floor and discussing IIoT.",
@@ -436,7 +436,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/nathanbenaich/",
+            "url": "https://www.linkedin.com/posts/nirmal-rajan-75b687a_state-of-ai-report-2025-is-out-from-nathan-activity-7382179272431640576-mlOW",
             "date": "2026-05-03",
             "score": "9",
             "reasoning": "Venture capitalist sharing findings from the annual State of AI Report. High value.",
@@ -447,7 +447,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/matt-wolfe-ai/",
+            "url": "https://www.linkedin.com/posts/buzzdatascience_sora-2-isnt-the-only-ai-video-tool-worth-activity-7383493469392080897-Uqpn",
             "date": "2026-05-02",
             "score": "8",
             "reasoning": "AI content creator discussing generative video tools and spatial consistency.",
@@ -469,7 +469,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/bentossell/",
+            "url": "https://www.linkedin.com/posts/bens-bites_ai-case-studies-custom-gpts-for-work-bens-activity-7181679160703021056-Dbvk",
             "date": "2026-04-30",
             "score": "8",
             "reasoning": "AI tools directory editor sharing workflow optimization list. Broad appeal.",
@@ -491,7 +491,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/miteshk/",
+            "url": "https://www.linkedin.com/posts/activity-7401286826117726208-OGdH",
             "date": "2026-04-28",
             "score": "8",
             "reasoning": "Professor sharing updates on academic AI research and publishing trends globally.",
@@ -524,7 +524,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/linxi-fan-7a242a37/",
+            "url": "https://www.linkedin.com/posts/ai-tech-suite_ai-robotics-nvidia-activity-7378716503535312896-K7YV",
             "date": "2026-04-25",
             "score": "10",
             "reasoning": "Nvidia research lead sharing progress on Project GR00T foundation model for humanoid robots.",
@@ -535,7 +535,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/alliekmiller/",
+            "url": "https://www.linkedin.com/posts/alliekmiller_2025-is-the-year-of-the-ai-agent-but-if-activity-7317941208469663744-csAW",
             "date": "2026-04-24",
             "score": "8",
             "reasoning": "AI leader reviewing agent orchestration libraries like LangGraph and CrewAI.",
@@ -546,7 +546,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/clementdelangue/",
+            "url": "https://www.linkedin.com/posts/aiforeveryone_lerobothackathon-opensourcerobotics-aicommunity-activity-7323437688211042304-UmsJ",
             "date": "2026-04-23",
             "score": "9",
             "reasoning": "Hugging Face CEO announcing open-source robotics initiative LeRobot.",
@@ -557,7 +557,7 @@ def populate_database():
             "category": "global"
         },
         {
-            "url": "https://www.linkedin.com/in/brettadcock/",
+            "url": "https://www.linkedin.com/posts/b2spod_figureai-brettadcock-tech-activity-7319854149372637184-GD1b",
             "date": "2026-04-22",
             "score": "9",
             "reasoning": "CEO of Figure sharing video of Figure 01 robot operating a coffee machine by observing humans.",
@@ -572,7 +572,7 @@ def populate_database():
     # 20 Chinese Influencer Posts
     chinese_posts = [
         {
-            "url": "https://cn.linkedin.com/in/kaifulee/",
+            "url": "https://www.linkedin.com/posts/kaifulee_01ais-new-model-yi-lightning-is-now-6-activity-7252115411469492224-PArf",
             "date": "2026-06-13",
             "score": "9",
             "reasoning": "Major model launch by 01.AI CEO. Highlights competitive performance of Chinese LLMs on global leaderboards.",
@@ -583,7 +583,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/baidu/",
+            "url": "https://www.linkedin.com/posts/baidu-inc_within-two-days-following-the-ernie-bot-announcement-activity-7042794738151751681-up9s",
             "date": "2026-06-12",
             "score": "9",
             "reasoning": "CEO of Baidu sharing performance metrics and API call counts for ERNIE model ecosystem.",
@@ -594,7 +594,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/unitree/",
+            "url": "https://www.linkedin.com/posts/unitreerobotics_unitree-g1-the-mass-production-marvelstronger-activity-7231204778620416001-SPJi",
             "date": "2026-06-11",
             "score": "10",
             "reasoning": "Major announcement of low-cost humanoid robot (Unitree G1 at $16k) and mass production readiness by Unitree founder.",
@@ -605,7 +605,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/xpeng-motors/",
+            "url": "https://www.linkedin.com/posts/xpengmotorsglobal_xpeng-humanoid-px5-prototype-showcase-activity-7126417781117337600-HEwh",
             "date": "2026-06-10",
             "score": "9",
             "reasoning": "XPENG CEO sharing video of humanoid robot working in automotive factory. High relevance to Physical AI.",
@@ -616,7 +616,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/ubtech-robotics/",
+            "url": "https://www.linkedin.com/posts/ubtech-robotics_walkers2-humanoidrobots-industrial-activity-7394358950571220992-x0ZK",
             "date": "2026-06-09",
             "score": "9",
             "reasoning": "UBTECH CEO announcing pilot program of Walker S humanoid robot in NIO EV factory. High-value industry announcement.",
@@ -627,7 +627,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/sensetime/",
+            "url": "https://www.linkedin.com/posts/markovate_sensetime-%E5%95%86%E6%B1%A4%E7%A7%91%E6%8A%80-has-launched-sensenova-55-activity-7218491875425406977-qsu_",
             "date": "2026-06-08",
             "score": "8",
             "reasoning": "SenseTime CEO sharing updates on SenseNova 5.5 model launch and edge-side deployment.",
@@ -638,7 +638,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/megvii-technology/",
+            "url": "https://www.linkedin.com/posts/megvii-automation-robotics_key-to-automated-warehouse-efficiency-abc-activity-7234087378632458243-moH1",
             "date": "2026-06-07",
             "score": "8",
             "reasoning": "Megvii CEO sharing updates on automated warehouse management systems using physical AI models.",
@@ -649,7 +649,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/horizon-robotics/",
+            "url": "https://www.linkedin.com/posts/victor-gonz%C3%A1lez-%E6%AC%A7%E8%B0%B7%E5%9B%BD-9a93b671_byd-backed-horizon-robotics-unveils-next-activity-7190150672493748224-MKOQ",
             "date": "2026-06-06",
             "score": "8",
             "reasoning": "Horizon Robotics CEO sharing details on new auto chip launch and autonomous driving partnerships.",
@@ -660,7 +660,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/agibot/",
+            "url": "https://www.linkedin.com/posts/agibot_gitex2025recap-agibot-intelligenthumanoidrobots-activity-7385287293739180032-hJGh",
             "date": "2026-06-05",
             "score": "10",
             "reasoning": "Major post by AGIBOT founder (famous creator Peng Zhihui/Wilder) announcing Raise A1 humanoid and open source framework. Highly popular.",
@@ -671,7 +671,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/zhipu-ai/",
+            "url": "https://www.linkedin.com/posts/mboulos_glm-4-9b-is-the-open-source-version-of-the-activity-7204695033269121024-eVlZ",
             "date": "2026-06-04",
             "score": "9",
             "reasoning": "CEO of Zhipu AI announcing open weights for GLM-4-9B, featuring long context and advanced reasoning.",
@@ -682,7 +682,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/baidu/",
+            "url": "https://www.linkedin.com/posts/baidu-inc_baidu-unveils-ernie-50-and-a-series-of-ai-activity-7394727883782438912-gitS",
             "date": "2026-06-03",
             "score": "8",
             "reasoning": "Baidu CTO sharing updates on industrial AI applications, agent templates, and cloud scalability.",
@@ -693,7 +693,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/tsinghua-university/",
+            "url": "https://www.linkedin.com/posts/tsinghua-university_tsinghua-has-launched-an-ai-industry-research-activity-6748824478836514816-6f-g",
             "date": "2026-06-02",
             "score": "9",
             "reasoning": "Tsinghua Dean sharing academic research on embodied intelligence, sim-to-real translation, and robot control.",
@@ -704,7 +704,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/360-security-group/",
+            "url": "https://www.linkedin.com/posts/erudite-asia_360-security-enhances-cybersecurity-service-activity-7360160487969337344-rXPy",
             "date": "2026-06-01",
             "score": "8",
             "reasoning": "CEO of 360 Group discussing AI safety, LLM security, and cybersecurity agents.",
@@ -715,7 +715,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/jd.com/",
+            "url": "https://www.linkedin.com/posts/jd.com_singlesday-supplychain-innovation-activity-7394206012221620224-k9Xx",
             "date": "2026-05-30",
             "score": "8",
             "reasoning": "JD.com founder sharing video of fully automated sorting center and driverless delivery vans.",
@@ -726,7 +726,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/huawei/",
+            "url": "https://www.linkedin.com/posts/ruima_the-most-important-china-tech-news-today-activity-7374448614972194816-rLrR",
             "date": "2026-05-29",
             "score": "9",
             "reasoning": "Huawei Chairman sharing details on Ascend chip scaling, compiler optimizations, and cluster benchmarks.",
@@ -737,7 +737,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/li-auto/",
+            "url": "https://www.linkedin.com/posts/brakediscjonny_li-auto-unveils-mindvla-a-leap-toward-truly-activity-7309747591036960771-wjME",
             "date": "2026-05-28",
             "score": "8",
             "reasoning": "CEO of Li Auto sharing video of end-to-end autonomous driving model in heavy traffic.",
@@ -748,7 +748,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/nio/",
+            "url": "https://www.linkedin.com/posts/gerald-krainer-27a295a7_this-weekniohas-performed-over-40-million-activity-7174329378833633280-npOU",
             "date": "2026-05-27",
             "score": "8",
             "reasoning": "NIO CEO sharing video of automated battery swapping station operated by robotic arms.",
@@ -759,7 +759,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/werideai/",
+            "url": "https://www.linkedin.com/posts/werideai_weride-in-2025-expanding-autonomous-driving-activity-7406239098283163648-QFbJ",
             "date": "2026-05-26",
             "score": "8",
             "reasoning": "WeRide CEO sharing commercial robotaxi deployment updates in Guangzhou and global markets.",
@@ -770,7 +770,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/moonshot-ai/",
+            "url": "https://www.linkedin.com/posts/somireddy-t-231a57264_kimi-ai-can-ingest-2-million-charactersroughly-activity-7459264212373094401-OBND",
             "date": "2026-05-25",
             "score": "9",
             "reasoning": "CEO of Moonshot AI discussing long-context windows (Kimi) and its application to long-horizon agents.",
@@ -781,7 +781,7 @@ def populate_database():
             "category": "chinese"
         },
         {
-            "url": "https://www.linkedin.com/company/deepseek/",
+            "url": "https://www.linkedin.com/posts/jonathan-zarecki_meet-deepseek-v3-a-new-king-in-text2text-activity-7278302741909639169-RUHQ",
             "date": "2026-05-24",
             "score": "10",
             "reasoning": "DeepSeek founder sharing architectural details on DeepSeek-V3 and its extreme training cost-efficiency. Highly impactful globally.",
@@ -813,8 +813,11 @@ def populate_database():
     init_db()
     conn = get_db_connection()
     cursor = conn.cursor()
-    
     print("[*] Seeding posts into SQLite database...")
+    # Clean up old profile-URL based mock posts to prevent duplicates
+    cursor.execute("DELETE FROM posts WHERE url IN (SELECT url FROM profiles)")
+    conn.commit()
+    
     for post in all_seeded_posts:
         # Check if profile_id can be matched
         profile_id = None
