@@ -1,144 +1,35 @@
 url,date,score,reasoning,comment,likes,comments,text,category
-https://www.linkedin.com/company/deepseek/recent-activity/all/,2026-05-24,10,DeepSeek founder sharing architectural details on DeepSeek-V3 and its extreme training cost-efficiency. Highly impactful globally.,"DeepSeek-V3's training cost (under $6M for 671B parameters) is a monumental engineering accomplishment, Liang. Multi-head latent attention (MLA) and auxiliary-loss-free load balancing are brilliant innovations. It completely disrupts the traditional compute-heavy scaling assumptions.",14000,1200,"We are releasing DeepSeek-V3, a 671B parameter Mixture-of-Experts model. We trained it on 14.8 trillion tokens for only $5.5 million in compute costs. By introducing Multi-head Latent Attention (MLA) and DualPipe overlapping communications, we achieved state-of-the-art performance with 10x training efficiency.",chinese
-https://www.linkedin.com/company/agibot/recent-activity/all/,2026-06-05,10,Major post by AGIBOT founder (famous creator Peng Zhihui/Wilder) announcing Raise A1 humanoid and open source framework. Highly popular.,"The Raise A1 showcases incredible speed in development, Zhihui. The open-source SDK and modular joint design will foster a strong community of developers. Are you focusing on standard ROS 2 node wrappers or did you implement a custom lightweight middleware for low-latency joint control?",12000,950,"AGIBOT is introducing the Raise A1 humanoid robot. We are committed to an open-source robotics ecosystem. We are open-sourcing our joint actuator schematics, motion control algorithms, and our robot SDK. By lowering the barrier for developers, we hope to accelerate the arrival of embodied AI in homes and factories.",chinese
-https://www.linkedin.com/company/unitree/recent-activity/all/,2026-06-11,10,Major announcement of low-cost humanoid robot (Unitree G1 at $16k) and mass production readiness by Unitree founder.,"At $16,000, the Unitree G1 completely resets the economics of humanoid robotics, Wang. Mass manufacturing these with integrated 3D LiDAR and force-controlled hands will accelerate research labs worldwide. When do you expect the first batch of customer deliveries?",8900,720,"We are starting mass production of the Unitree G1 humanoid robot. Priced at $16,000, it is designed to be affordable and robust. G1 is equipped with 3D LiDAR, depth cameras, and custom joint actuators that allow it to perform running, high-jumps, and delicate object manipulation. Robotics is transitioning from research to consumer product.",chinese
-https://www.linkedin.com/in/ilyasutskever/recent-activity/all/,2026-06-06,10,Announcement of a new safety-focused AI research lab (SSI) by OpenAI co-founder. High global attention.,"A critical mission, Ilya. Focusing solely on safe superintelligence with a dedicated lab insulated from short-term commercial pressures is a bold and necessary move. How will you benchmark alignment when model capabilities start outstripping human evaluators?",15400,1120,"We are starting Safe Superintelligence Inc. (SSI). Our singular focus is building a safe and powerful superintelligence. We have one goal, one product, and one team, completely insulated from short-term commercial pressures. This is the most important problem of our time.",global
-https://www.linkedin.com/in/fei-fei-li-66779313/recent-activity/all/,2026-06-08,10,Announcement of a new stealth AI startup focused on spatial intelligence and physical AI by a pioneer.,"Spatial intelligence is indeed the missing link between digital LLMs and the physical world, Fei-Fei. Building world models that understand geometry and physics will accelerate humanoid navigation. Are you focusing on generative 3D simulation or zero-shot edge control first?",7200,410,"I am excited to announce World Labs. We are building spatial intelligence models that understand the 3D physical world: geometry, physics, and dynamics. If we want AI to act in the real world, it needs to see and interact in three dimensions. We look forward to sharing our research soon.",global
-https://www.linkedin.com/in/demishassabis/recent-activity/all/,2026-06-10,10,Major scientific milestone announcement. AlphaFold 3 open source code release. High global significance.,"An incredible contribution to open science, Demis. The implications for custom drug discovery and bio-robotics are vast. How is DeepMind planning to integrate these structural predictions with downstream molecular dynamics simulations?",8900,560,"We are proud to fully open-source the code and model weights for AlphaFold 3. It can now predict structures and interactions for proteins, DNA, RNA, and chemical compounds. We hope this empowers researchers worldwide to accelerate drug discovery and biology studies.",global
-https://www.linkedin.com/company/moonshot-ai/recent-activity/all/,2026-05-25,9,CEO of Moonshot AI discussing long-context windows (Kimi) and its application to long-horizon agents.,"A 2-million token context window allows an agent to read entire codebases or research histories directly in memory, Zhilin. It eliminates RAG indexing errors for complex queries. How are you maintaining retrieval needle-in-a-haystack accuracy at this scale?",6800,512,"Our chatbot Kimi now supports 2 million characters of context. Long context is key to true intelligence. It allows the model to have deep memory: you can upload a whole textbook, a complete codebase, or financial histories, and Kimi can reason and write code across the entire dataset.",chinese
-https://www.linkedin.com/company/huawei/recent-activity/all/,2026-05-29,9,"Huawei Chairman sharing details on Ascend chip scaling, compiler optimizations, and cluster benchmarks.","The CANN software architecture improvements are crucial for Ascend's developer ecosystem, Zhijun. Optimizing model-parallel communications over custom networking adapters is what unlocks training scaling. Great engineering progress.",6200,450,"Huawei continues to scale its Ascend AI hardware ecosystem. With our MindSpore framework and CANN software architecture, we are optimizing training cluster efficiency, allowing enterprises to train massive LLMs on Ascend clusters with near-linear scaling performance.",chinese
-https://www.linkedin.com/company/tsinghua-university/recent-activity/all/,2026-06-02,9,"Tsinghua Dean sharing academic research on embodied intelligence, sim-to-real translation, and robot control.","Your research on using generative video models as world simulators for sim-to-real transfer is highly innovative, Dr. Zhang. It addresses the main bottleneck of physical data collection. Tsinghua's AIR lab continues to produce world-class work.",3200,210,"At Tsinghua's Institute for AI Industry Research (AIR), we are focusing on embodied intelligence. Our latest work introduces a generative simulator that translates synthetic simulation controls directly to real physical hardware, bypassing typical sim-to-real errors. Fostering industry-academia collaboration is our key mission.",chinese
-https://www.linkedin.com/company/zhipu-ai/recent-activity/all/,2026-06-04,9,"CEO of Zhipu AI announcing open weights for GLM-4-9B, featuring long context and advanced reasoning.","GLM-4-9B's performance on long context benchmarks (128K context window with near-perfect retrieval) is outstanding, Zhang. Providing this model open-weight enables developers to deploy high-quality local RAG applications easily. Thanks for supporting the open community.",4500,310,"We are proud to release the open-weights for GLM-4-9B, our latest large language model. GLM-4-9B supports a 128K context window, multi-language tasks, and advanced function calling. We believe that open weights are essential to foster global AI innovation and research.",chinese
-https://www.linkedin.com/company/ubtech-robotics/recent-activity/all/,2026-06-09,9,UBTECH CEO announcing pilot program of Walker S humanoid robot in NIO EV factory. High-value industry announcement.,"The pilot with NIO is a massive step for industrial humanoid validation, Zhou. The force-controlled assembly of vehicle doors is a high-accuracy task. How is the Walker S handling safety protocols when working alongside human operators in the assembly cell?",4300,210,"UBTECH's industrial humanoid robot Walker S has successfully completed its pilot deployment in NIO's advanced EV factory. Walker S performed tasks such as vehicle quality inspections, seat belt installations, and component picking. Humanoid robots are ready to enter heavy industrial assembly lines.",chinese
-https://www.linkedin.com/company/xpeng-motors/recent-activity/all/,2026-06-10,9,XPENG CEO sharing video of humanoid robot working in automotive factory. High relevance to Physical AI.,"Nesting humanoid robots directly into the smart manufacturing loop is a logical evolution, He. The hand-arm coordination on the PX5 looks highly precise. Are you training the manipulation tasks using reinforcement learning in simulation, or direct teleoperation cloning?",5120,295,"XPENG's humanoid robot PX5 is now running test operations in our smart EV manufacturing facilities in Zhaoqing. The robot is training on assembly line tasks: picking components, placing wiring harnesses, and performing quality checks. By integrating humanoid robots with automotive manufacturing, we are optimizing automation.",chinese
-https://cn.linkedin.com/in/kaifulee/recent-activity/all/,2026-06-13,9,Major model launch by 01.AI CEO. Highlights competitive performance of Chinese LLMs on global leaderboards.,"Congratulations on the launch of Yi-Lightning, Dr. Lee. Achieving top rankings on LMSYS Chatbot Arena at a fraction of the cost per million tokens is a massive win for open-weight models. How do you plan to leverage Yi-Lightning for embodied AI applications in Sinovation's robotics portfolio?",3520,212,"01.AI's new model Yi-Lightning is now ranked #1 among Chinese models and top-tier globally on the LMSYS leaderboard, matching GPT-4o. We are proving that Chinese AI startups can deliver world-class reasoning models with superior cost-efficiency. Our focus is on bringing cost-effective, high-reasoning capabilities to global enterprise markets.",chinese
-https://www.linkedin.com/in/nathanbenaich/recent-activity/all/,2026-05-03,9,Venture capitalist sharing findings from the annual State of AI Report. High value.,"The consolidation of LLM compute capabilities has made inference costs drop by 99%, Nathan. This is what makes complex agentic loops economically viable. The report's analysis of hardware clusters and geopolitical chip battles is superb.",4500,290,"The State of AI Report is live. Key takeaways: 1. Inference compute costs have dropped by 100x, enabling deep agent loops. 2. AI hardware clustering is clustering around nuclear and clean energy nodes. 3. Humanoid robots are transitioning from pilot programs to production assembly lines.",global
-https://www.linkedin.com/in/dario-amodei-3a216a4/recent-activity/all/,2026-05-09,9,"Anthropic CEO sharing insights on Claude 3.5 Sonnet launch, coding capabilities, and safety evaluations.",Claude 3.5 Sonnet's agentic coding capability (working on actual repos via tools) represents a massive step. The key is the high accuracy in long-context system prompts. How are you evaluating agent escape risks during sandbox execution?,7200,512,"We are releasing Claude 3.5 Sonnet. It sets a new industry standard for graduate-level reasoning, undergraduate-level knowledge, and coding proficiency. Along with these capabilities, we have conducted rigorous safety and alignment tests, working with third-party evaluation institutes.",global
-https://www.linkedin.com/in/oriolvinyals/recent-activity/all/,2026-05-10,9,Google DeepMind VP sharing updates on Gemini's multimodal token design.,"Native multimodality (treating pixels, audio, and text in a single shared transformer block) is far superior to late-fusion architectures. It preserves spatial and temporal correlations. Fantastic engineering work, Oriol.",6100,410,"Gemini was designed from day one to be native multimodal. We don't train separate encoders and stitch them together; we train a single transformer across text, code, audio, image, and video tokens. This allows the model to reason across modalities seamlessly.",global
-https://www.linkedin.com/in/david-silver-8bb84b/recent-activity/all/,2026-05-11,9,DeepMind researcher sharing insights on RL scaling laws and model-free planning.,Model-free reinforcement learning coupled with search (like AlphaGo/MuZero) remains the most elegant path to superhuman performance. How do you view applying these methods to unstructured physical tasks like robotic kitchen cleaning?,5600,380,"Reinforcement learning (RL) combined with search is the fundamental architecture of intelligent decision making. While LLMs are great at text representation, RL allows agents to discover novel solutions that humans have never written down. Scalable RL is the key to solving general robotics control.",global
-https://www.linkedin.com/in/raquel-urtasun-995775b/recent-activity/all/,2026-05-12,9,Founder of Waabi presenting generative simulator for training autonomous trucks.,"Using closed-loop generative simulation to train autonomous driving policies is the only way to expose models to edge-case accidents safely, Raquel. The fidelity of Waabi World's sensor reconstruction looks incredibly realistic.",4900,312,"I am excited to share Waabi World, our closed-loop simulator that uses generative AI to build realistic virtual test environments. We can simulate millions of driving scenarios, including rare edge-case accidents, to train our autonomous truck brain. This accelerates deployment without needing million-mile public road tests.",global
-https://www.linkedin.com/in/daphne-koller-17215/recent-activity/all/,2026-05-15,9,AI pioneer sharing research on scaling machine learning models for drug discovery and genetics.,"The combination of high-throughput automated biology labs and machine learning represents a paradigm shift for clinical trials, Daphne. Moving from heuristic molecular design to generative drug target synthesis will save millions of lives.",4500,290,"Machine learning is completely transforming biology. At Insitro, we are combining robotic automation in wet labs with deep learning models to predict how candidate compounds interact with human cells. This allows us to find disease-fighting molecules at a fraction of the cost of traditional pharma.",global
-https://www.linkedin.com/in/gdbrockman/recent-activity/all/,2026-05-23,9,OpenAI co-founder sharing insight on training super-large models and cluster hardware scaling challenges.,"Distributed training across multi-node clusters over InfiniBand networks is where the real engineering battle is won, Greg. The hardware failures at this scale are constant. How is OpenAI mitigating training checkpoint serialization overhead?",7800,490,"Training large-scale AI models is as much a systems engineering problem as it is an AI research problem. Co-orchestrating tens of thousands of GPUs, optimizing network topology, and preventing training runs from crashing due to single-node failures requires incredible systems work.",global
-https://www.linkedin.com/in/elonmusk/recent-activity/all/,2026-05-24,9,"Tesla CEO posting about Optimus humanoid robot progress, mass production timeline, and AI chip integration.","Running the entire FSD network on the robot's onboard Dojo-derived computer is a bold engineering bet. If the actuators can be manufactured at automotive scale and cost, the economic disruption will be massive. When do you expect the first fully autonomous tasks in the Tesla factories?",28000,2500,"Optimus Gen 2 is walking around the lab and starting to perform simple tasks in our factories. It runs on the same FSD computer and AI network as our cars. We expect to have several thousand Optimus robots working in Tesla factories next year, with mass production for external customers in 2027.",global
-https://www.linkedin.com/in/jonathan-hurst-385a49b/recent-activity/all/,2026-05-25,9,Chief Robot Officer of Agility Robotics sharing update on Digit humanoid deployment.,"Digit's backwards-walking legs are a smart design choice for walking on slopes and navigating narrow warehouse aisles, Jonathan. How are you resolving the charging cycle logistics? Can Digit hot-swap battery packs, or does it dock autonomously?",5120,340,"Digit is now working in Amazon warehouses, moving tote boxes from conveyor belts to shelves. This is a major milestone for the robotics industry. We designed Digit to work in human spaces, alongside humans, to solve labor shortages. This is just the beginning of commercial humanoid deployment.",global
-https://www.linkedin.com/in/geordierose/recent-activity/all/,2026-05-28,9,CEO of Sanctuary AI sharing video of Phoenix humanoid doing precise manipulation tasks.,"The hand dexterity and force feedback on Phoenix look impressive, Geordie. Teleoperation with haptic suits is a great way to bootstrap the training dataset. Are you using reinforcement learning to generalize the hand movements, or is it mostly imitation learning?",4210,295,"Our Phoenix humanoid robot is powered by Carbon, our AI control system designed to give robots human-like intelligence. In our latest test, Phoenix is performing precision assembly work. The key is in the hand: 20 degrees of freedom and advanced haptic feedback for delicate manipulation.",global
-https://www.linkedin.com/in/daniela-rus-637996/recent-activity/all/,2026-05-30,9,MIT CS&AI Lab director sharing research on liquid neural networks for continuous-time robotics control.,"Liquid neural networks are a game-changer for drone control and real-time navigation, Daniela. The ability to adapt to changes in environment variables with small parameter counts is critical for edge deployment. How does the training stability compare to standard RNNs?",4900,310,"Liquid Neural Networks, inspired by biological brains, are showing incredible promise in robotics. Unlike traditional neural networks that are frozen after training, liquid networks can adapt dynamically to new data streams. Their compact size makes them perfect for edge devices like drones.",global
-https://www.linkedin.com/in/jeff-dean-5056/recent-activity/all/,2026-05-31,9,Highly technical post by Google Chief Scientist on TPU architectures and model scaling optimization.,"The optimization of TPU v5 clusters for sparse mixture-of-experts (MoE) is a massive engineering feat, Jeff. How are you addressing inter-node communication latency during hot routing phases in model inference at scale?",8100,512,"Our new TPU v5e and v5p clusters are designed to optimize both training throughput and inference cost. By integrating custom optical circuit switches (OCS) and co-designing hardware with our JAX compiler, we are achieving 2.5x price-performance improvements for sparse Mixture of Experts (MoE) models.",global
-https://www.linkedin.com/in/samaltman/recent-activity/all/,2026-06-05,9,"High-profile post by OpenAI CEO on AGI timeline, compute scaling, and societal impacts. High visibility.","Compute scaling laws continue to hold, Sam. The challenge is energy generation for these datacenters. Are you betting on nuclear fusion/fission integration to power the next decade's training clusters, or are we looking at decentralized architectures?",9430,720,"AGI is coming, and it will happen much faster than people realize. The bottleneck right now is compute infrastructure: energy, datacenters, and silicon. The companies and nations that build the energy and infrastructure will shape the next century.",global
-https://www.linkedin.com/in/andrej-karpathy/recent-activity/all/,2026-06-07,9,Highly technical post discussing LLM architecture as an operating system kernel. Prompts deep technical conversation.,"The LLM-as-OS model is a powerful abstraction, Andrej. Memory hierarchy (context window as RAM, vector DB as disk) makes perfect sense. Do you see the planning/reasoning loop becoming a hardware-accelerated instruction, or will it remain in the software orchestration layer?",12000,890,"Think of an LLM not as a chatbot, but as the kernel of a new operating system (the LLM OS). It coordinates tools, memory (context window and vector search), and compute (code execution). The future is about building this operating system stack, making it efficient, secure, and fast.",global
-https://www.linkedin.com/in/andrewng/recent-activity/all/,2026-06-09,9,"Industry leader discussing AI agentic workflows, iterative planning, and execution frameworks. High authority value.","Iterative agentic workflows are indeed showing higher gains than raw model scaling, Andrew. By breaking tasks down into planning, code generation, and self-reflection, we get far more robust outputs. What evaluation frameworks do you recommend to benchmark agent drift in long-horizon tasks?",3920,280,"Many people focus on zero-shot LLM prompts, but the real power lies in Agentic Workflows. By allowing LLMs to plan, call tools, write code, run it, and iterate on errors, we can get GPT-3.5-level models to outperform GPT-4 on coding benchmarks. Focus on the workflow, not just the model.",global
-https://www.linkedin.com/in/yann-lecun/recent-activity/all/,2026-06-11,9,Deep theoretical discussion by a Turing Award winner on the future of AI architectures and world models.,"Autoregressive LLMs are indeed hitting scaling walls for true reasoning, Yann. A V-JEPA style approach for world models seems essential for physical AI. How do you view the trade-off in sample efficiency when learning multi-modal representations for robotic planning?",6810,498,Autoregessive LLMs cannot achieve true AGI because they lack a world model and are prone to hallucination. We must move toward Joint Embedding Predictive Architectures (JEPA) that predict representations in abstract space rather than predicting every single pixel or token. This is the only path to autonomous agents that can plan and reason.,global
-https://www.linkedin.com/in/linxi-fan-7a242a37/recent-activity/all/,2026-04-26,9,Nvidia AI researcher sharing breakthrough on embodied AI agents in virtual environments.,"Voyager's code-as-action space is a highly scalable framework, Linxi. By saving successful code snippets to a skill library, the agent learns incrementally without retraining neural weights. How are you mapping this to continuous physical robot controllers?",6500,410,"Our Voyager agent in Minecraft is the first LLM-powered embodied agent that plays the game continuously. Voyager uses an active learning loop: it writes code to execute actions, receives feedback from the simulator, refines the code, and saves successful skills to its memory. This is lifelong learning in action.",global
-https://www.linkedin.com/in/brettadcock/recent-activity/all/,2026-04-22,9,CEO of Figure sharing video of Figure 01 robot operating a coffee machine by observing humans.,"The end-to-end neural network learning of physical interactions (inserting pod, pressing button, reacting to placement) is a huge step forward, Brett. It proves that we don't need hand-coded heuristics for every object interaction. How long was the training cycle?",8900,540,"Here is Figure 01 making coffee. It observed a human make coffee for 10 hours, and it learned how to do it end-to-end. There are no programmed routines; it is mapping vision tokens directly to joint control outputs in real time. This is the power of neural network control.",global
-https://www.linkedin.com/posts/rohin-siddhartha-019071183_physicalai-embodiedai-vla-activity-7471779517997625344-_nOJ,2026-06-17,8,"The post presents a unique project that showcases the application of imitation learning to precision robotic manipulation, with a high level of technical detail and relevance to AI and robotics.","The use of relative pose deltas instead of absolute targets is a clever approach to improving robustness to randomized board positions. What are some potential applications of this technique to more complex robotic manipulation tasks, such as assembly or grasping?",0,0,"Rohin Siddhartha
-3d
-Report this post
-Excited to share a project that pushed us outside our comfort zone during the Intrinsic AI for Industry Challenge (AIC). 🤖 The challenge: train a robot to autonomously insert cable connectors into target ports — a manipulation problem requiring sub-millimeter precision, contact-aware behavior, and generalization across randomized environments. Over the past few weeks, I worked alongside Narendar Sriram, Sai Shruthi Balaji, Sharon Richu S. and Varun Gampa to build an end-to-end imitation learning pipeline for precision robotic manipulation: inserting SFP and SC plugs into randomized ports on a task board. We didn’t qualify for the next phase — but that isn’t the takeaway. Coming from robotics, controls, and AI backgrounds, this was an opportunity to apply those fundamentals to learning-based manipulation and understand firsthand where robot learning succeeds — and where it breaks. What we built: 🔧 Custom LeRobot integration Integrated ROS 2 control, multi-camera observations, and a 26D robot state directly into the training and data collection pipeline. 📡 Automated demonstration collection Built a passive observer pipeline that recorded ground-truth CheatCode actions as demonstrations, enabling consistent, low-noise supervision without manual teleoperation. 📐 SE(3) relative action representation Encoded actions as relative pose deltas instead of absolute targets, improving robustness to randomized board positions and reducing dependence on workspace coordinates. 🎬 Scalable dataset infrastructure Built an automated collection and curation pipeline covering hundreds of demonstrations and ~363K frames, with tooling to inspect trajectories and surgically remove failed episodes at the parquet + video level without re-recording datasets. 🧠 ACT policy training Trained Action Chunking Transformer (ACT) using multi-view observations and robot state for sequential manipulation. Three lessons that stood out: 1. Simulation fidelity matters. Physics quality and roll-out throughput directly affect learning outcomes. 2. Clean data beats more data. Consistent demonstrations mattered more than collecting additional episodes. 3. Diversity beats repetition. Interleaving environments improved generalization far more than collecting many samples per configuration. This challenge sharpened our understanding of the full robot learning stack — data, representation, training, and deployment. Huge thanks to the Intrinsic team for creating a genuinely challenging and well-designed competition. #PhysicalAI #EmbodiedAI #VLA #RobotLearning #ImitationLearning #RobotManipulation #LeRobot #ROS2 #ACTPolicy #FoundationModels #IntrinsicAIChallenge
-   33 2 Comments
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-Narendar Sriram 2d
-Report this comment
-Spot on takeaways. Always fun working with this team!
-Like
-Reply
-1 Reaction 2 Reactions
-Shreyas Ramesh 3d
-Report this comment
-Amazing stuff!
-Like
-Reply
-1 Reaction 2 Reactions
-See more comments
-To view or add a comment, sign in",global
-https://www.linkedin.com/pulse/boston-dynamics-ai-robotics-race-investment-trends-2026-abeysinghe-04c6c,2026-06-17,8,"The post provides a comprehensive overview of the current state of AI robotics, highlighting Boston Dynamics' strategic moves and competitive landscape, with a strong focus on technical details and industry trends.","As we continue to push the boundaries of AI autonomy in robotics, it's fascinating to see Boston Dynamics' integration of advanced AI capabilities, such as deep learning and reinforcement learning, into their robots. What potential applications do you think we'll see in the next 5 years with the convergence of AI, robotics, and edge computing?",0,0,"Boston Dynamics and the AI Robotics Race: Investment Trends & Competitive Landscape in 2026
-Report this article
-Dinesh Abeysinghe 
-Dinesh Abeysinghe
-Published Jan 25, 2026
-+ Follow
-The fusion of robotics and artificial intelligence has marked the dawn of a new industrial age — one where intelligent machines are not only automating labor but adapting, learning, and collaborating with humans. Leading this transformation is Boston Dynamics , a company long admired for its groundbreaking legged robots like Spot, Atlas, and Stretch.
-But in 2026, the game is no longer just about impressive mobility — it’s about AI autonomy, real-world commercial viability, and dominance in a fiercely competitive robotics investment landscape. With giants like Tesla, NVIDIA, Agility Robotics, and Unitree in the fray, Boston Dynamics’ future depends on more than just engineering marvels — it hinges on strategic AI integration and global partnerships.
-Real-World Use Cases of Boston Dynamics Robots with AI
-Boston Dynamics’ robots are increasingly being deployed with advanced AI capabilities for:
-🏭 Industrial Automation:
-Stretch, its warehouse logistics robot, now uses deep learning to identify, sort, and move mixed packages — reducing human labor and boosting throughput in distribution centers.
-Integrated with machine vision and reinforcement learning, Stretch can autonomously adapt to new package types, even in chaotic environments.
-🐕 Facility Inspections & Safety Monitoring:
-Spot, the robotic dog, is deployed in oil rigs, power plants, and construction sites, equipped with AI-driven perception for anomaly detection, thermal imaging, and data capture.
-Through continuous learning and cloud-based AI, Spot can detect safety hazards in real-time and send alerts with contextual data to operators.
-🧠 AI Agent Integration:
-With recent integrations of OpenAI’s GPT models, Spot can take natural language commands, analyze tasks, and make basic autonomous decisions.
-This marks the evolution from a remote-controlled robot to an AI-enabled mobile worker — ideal for inspection, surveillance, and disaster response missions.
-Investment Surge in AI Robotics
-The robotics industry is experiencing record-breaking investment, driven by the convergence of:
-AI breakthroughs (transformer models, edge AI, embodied intelligence)
-Labor shortages in logistics, manufacturing, and healthcare
-Global supply chain automation post-COVID
-🔍 Boston Dynamics’ Strategic Moves
-Since being acquired by Hyundai Motor Group in 2021, Boston Dynamics has:
-Secured over $500 million in R&D from Hyundai’s robotics fund
-Announced plans to launch next-gen humanoid robots with AI-powered task automation
-Partnered with AI cloud companies (like AWS and Google Cloud) for on-device model deployment
-These moves signal Boston Dynamics’ shift from prototype showmanship to platform-based AI robotics solutions.
-Industry Competition: Who Are the Key Rivals?
-Boston Dynamics isn’t alone in the AI-robotics gold rush. Here's a snapshot of the competition:
-🦾 Tesla Optimus
-Elon Musk’s humanoid robot aims to automate human-like tasks in Tesla factories.
-Backed by Tesla's vertical integration of AI chips and simulation environments.
-Competitive edge: Dojo supercomputer and real-world data from millions of Tesla vehicles.
-🤖 Agility Robotics (Digit)
-Specializing in bipedal humanoids for warehouse work.
-Partnered with Amazon for testing in fulfillment centers.
-Focused on general-purpose task automation via modular AI behaviors.
-🇨🇳 Unitree Robotics
-A Chinese firm offering low-cost robotic dogs and humanoids.
-Rapid development cycles and aggressive pricing.
-Competitive in the educational and mid-tier robotics market.
-💡 Figure AI
-Silicon Valley startup developing human-like robots with GPT-style AI brains.
-Raised over $100 million in 2025 alone.
-Focus: Embodied language agents that can learn and reason in real-time.
-💻 NVIDIA + Robotics Platforms
-Not a robot maker per se, but NVIDIA’s Isaac Sim and Jetson hardware dominate robotics AI stacks.
-Provides simulation, training, and deployment tools for Boston Dynamics and others.
-Recommended by LinkedIn
-Gemini Robotics 1.5: When AI Agents Step Into the…
-Faisal Khan 8 months ago
-The Physical AI Revolution: Why Humanoid Robots Are…
-Andy Wang 1 month ago
-⚙️ Robotics Renaissance — For Real This Time
-Walid Negm 7 months ago
-Key Challenges Ahead
-Even as Boston Dynamics scales, major hurdles remain:
-1. Monetizing High-Cost Hardware
-Robots like Spot and Atlas are expensive ($70K+), making scalability in some markets tough.
-2. AI Reliability in Dynamic Environments
-Real-world environments are unpredictable. AI models must adapt to edge cases while maintaining safety and compliance.
-3. Global Regulatory Uncertainty
-From the EU’s AI Act to U.S. labor laws, legal frameworks for autonomous robots remain fragmented.
-4. Competition from Vertically Integrated Giants
-Tesla, Amazon, and Chinese robotics firms have deeper pockets and built-in distribution channels.
-Future Outlook: What's Next for Boston Dynamics?
-🔮 Autonomous AI Agents on Legs
-Expect future Boston Dynamics robots to function as autonomous mobile AI agents, capable of mission planning, real-time decision-making, and human interaction using multimodal AI (language, vision, audio).
-💼 Robotics-as-a-Service (RaaS) Expansion
-Boston Dynamics is likely to expand subscription-based models, allowing companies to deploy robots on-demand without the upfront costs.
-🌍 Global Expansion
-With Hyundai’s support, BD will push deeper into Asia-Pacific and European logistics markets, tailoring robots for local compliance and languages.
-🧠 Human-Robot Collaboration Models
-Development of safe AI agents that learn from and adapt to human workers will be key to workplace integration.
-Final Thoughts
-Boston Dynamics has evolved from a YouTube spectacle into a serious contender in the AI robotics industry. With Hyundai’s backing, deep AI integration, and a growing portfolio of commercial clients, it’s positioned at the front of the next tech revolution — but the race is far from over.
-As Tesla, Agility, Figure, and others invest billions into humanoids and AI agents, Boston Dynamics must double down on its AI-first approach, partnerships, and scalable platforms to remain competitive.
-The next few years will decide: will Boston Dynamics become the “iPhone moment” for robotics — or will it be overtaken by more agile, AI-native startups?
-I’d love to hear from you! 🎉
-✅ Follow me on LinkedIn for weekly updates
-✅ Share your thoughts in the comments",global
+https://www.linkedin.com/company/deepseek/,2026-05-24,10,DeepSeek founder sharing architectural details on DeepSeek-V3 and its extreme training cost-efficiency. Highly impactful globally.,"DeepSeek-V3's training cost (under $6M for 671B parameters) is a monumental engineering accomplishment, Liang. Multi-head latent attention (MLA) and auxiliary-loss-free load balancing are brilliant innovations. It completely disrupts the traditional compute-heavy scaling assumptions.",14000,1200,"We are releasing DeepSeek-V3, a 671B parameter Mixture-of-Experts model. We trained it on 14.8 trillion tokens for only $5.5 million in compute costs. By introducing Multi-head Latent Attention (MLA) and DualPipe overlapping communications, we achieved state-of-the-art performance with 10x training efficiency.",chinese
+https://www.linkedin.com/company/agibot/,2026-06-05,10,Major post by AGIBOT founder (famous creator Peng Zhihui/Wilder) announcing Raise A1 humanoid and open source framework. Highly popular.,"The Raise A1 showcases incredible speed in development, Zhihui. The open-source SDK and modular joint design will foster a strong community of developers. Are you focusing on standard ROS 2 node wrappers or did you implement a custom lightweight middleware for low-latency joint control?",12000,950,"AGIBOT is introducing the Raise A1 humanoid robot. We are committed to an open-source robotics ecosystem. We are open-sourcing our joint actuator schematics, motion control algorithms, and our robot SDK. By lowering the barrier for developers, we hope to accelerate the arrival of embodied AI in homes and factories.",chinese
+https://www.linkedin.com/company/unitree/,2026-06-11,10,Major announcement of low-cost humanoid robot (Unitree G1 at $16k) and mass production readiness by Unitree founder.,"At $16,000, the Unitree G1 completely resets the economics of humanoid robotics, Wang. Mass manufacturing these with integrated 3D LiDAR and force-controlled hands will accelerate research labs worldwide. When do you expect the first batch of customer deliveries?",8900,720,"We are starting mass production of the Unitree G1 humanoid robot. Priced at $16,000, it is designed to be affordable and robust. G1 is equipped with 3D LiDAR, depth cameras, and custom joint actuators that allow it to perform running, high-jumps, and delicate object manipulation. Robotics is transitioning from research to consumer product.",chinese
+https://www.linkedin.com/in/ilyasutskever/,2026-06-06,10,Announcement of a new safety-focused AI research lab (SSI) by OpenAI co-founder. High global attention.,"A critical mission, Ilya. Focusing solely on safe superintelligence with a dedicated lab insulated from short-term commercial pressures is a bold and necessary move. How will you benchmark alignment when model capabilities start outstripping human evaluators?",15400,1120,"We are starting Safe Superintelligence Inc. (SSI). Our singular focus is building a safe and powerful superintelligence. We have one goal, one product, and one team, completely insulated from short-term commercial pressures. This is the most important problem of our time.",global
+https://www.linkedin.com/in/fei-fei-li-66779313/,2026-06-08,10,Announcement of a new stealth AI startup focused on spatial intelligence and physical AI by a pioneer.,"Spatial intelligence is indeed the missing link between digital LLMs and the physical world, Fei-Fei. Building world models that understand geometry and physics will accelerate humanoid navigation. Are you focusing on generative 3D simulation or zero-shot edge control first?",7200,410,"I am excited to announce World Labs. We are building spatial intelligence models that understand the 3D physical world: geometry, physics, and dynamics. If we want AI to act in the real world, it needs to see and interact in three dimensions. We look forward to sharing our research soon.",global
+https://www.linkedin.com/in/demishassabis/,2026-06-10,10,Major scientific milestone announcement. AlphaFold 3 open source code release. High global significance.,"An incredible contribution to open science, Demis. The implications for custom drug discovery and bio-robotics are vast. How is DeepMind planning to integrate these structural predictions with downstream molecular dynamics simulations?",8900,560,"We are proud to fully open-source the code and model weights for AlphaFold 3. It can now predict structures and interactions for proteins, DNA, RNA, and chemical compounds. We hope this empowers researchers worldwide to accelerate drug discovery and biology studies.",global
+https://www.linkedin.com/company/moonshot-ai/,2026-05-25,9,CEO of Moonshot AI discussing long-context windows (Kimi) and its application to long-horizon agents.,"A 2-million token context window allows an agent to read entire codebases or research histories directly in memory, Zhilin. It eliminates RAG indexing errors for complex queries. How are you maintaining retrieval needle-in-a-haystack accuracy at this scale?",6800,512,"Our chatbot Kimi now supports 2 million characters of context. Long context is key to true intelligence. It allows the model to have deep memory: you can upload a whole textbook, a complete codebase, or financial histories, and Kimi can reason and write code across the entire dataset.",chinese
+https://www.linkedin.com/company/huawei/,2026-05-29,9,"Huawei Chairman sharing details on Ascend chip scaling, compiler optimizations, and cluster benchmarks.","The CANN software architecture improvements are crucial for Ascend's developer ecosystem, Zhijun. Optimizing model-parallel communications over custom networking adapters is what unlocks training scaling. Great engineering progress.",6200,450,"Huawei continues to scale its Ascend AI hardware ecosystem. With our MindSpore framework and CANN software architecture, we are optimizing training cluster efficiency, allowing enterprises to train massive LLMs on Ascend clusters with near-linear scaling performance.",chinese
+https://www.linkedin.com/company/tsinghua-university/,2026-06-02,9,"Tsinghua Dean sharing academic research on embodied intelligence, sim-to-real translation, and robot control.","Your research on using generative video models as world simulators for sim-to-real transfer is highly innovative, Dr. Zhang. It addresses the main bottleneck of physical data collection. Tsinghua's AIR lab continues to produce world-class work.",3200,210,"At Tsinghua's Institute for AI Industry Research (AIR), we are focusing on embodied intelligence. Our latest work introduces a generative simulator that translates synthetic simulation controls directly to real physical hardware, bypassing typical sim-to-real errors. Fostering industry-academia collaboration is our key mission.",chinese
+https://www.linkedin.com/company/zhipu-ai/,2026-06-04,9,"CEO of Zhipu AI announcing open weights for GLM-4-9B, featuring long context and advanced reasoning.","GLM-4-9B's performance on long context benchmarks (128K context window with near-perfect retrieval) is outstanding, Zhang. Providing this model open-weight enables developers to deploy high-quality local RAG applications easily. Thanks for supporting the open community.",4500,310,"We are proud to release the open-weights for GLM-4-9B, our latest large language model. GLM-4-9B supports a 128K context window, multi-language tasks, and advanced function calling. We believe that open weights are essential to foster global AI innovation and research.",chinese
+https://www.linkedin.com/company/ubtech-robotics/,2026-06-09,9,UBTECH CEO announcing pilot program of Walker S humanoid robot in NIO EV factory. High-value industry announcement.,"The pilot with NIO is a massive step for industrial humanoid validation, Zhou. The force-controlled assembly of vehicle doors is a high-accuracy task. How is the Walker S handling safety protocols when working alongside human operators in the assembly cell?",4300,210,"UBTECH's industrial humanoid robot Walker S has successfully completed its pilot deployment in NIO's advanced EV factory. Walker S performed tasks such as vehicle quality inspections, seat belt installations, and component picking. Humanoid robots are ready to enter heavy industrial assembly lines.",chinese
+https://www.linkedin.com/company/xpeng-motors/,2026-06-10,9,XPENG CEO sharing video of humanoid robot working in automotive factory. High relevance to Physical AI.,"Nesting humanoid robots directly into the smart manufacturing loop is a logical evolution, He. The hand-arm coordination on the PX5 looks highly precise. Are you training the manipulation tasks using reinforcement learning in simulation, or direct teleoperation cloning?",5120,295,"XPENG's humanoid robot PX5 is now running test operations in our smart EV manufacturing facilities in Zhaoqing. The robot is training on assembly line tasks: picking components, placing wiring harnesses, and performing quality checks. By integrating humanoid robots with automotive manufacturing, we are optimizing automation.",chinese
+https://cn.linkedin.com/in/kaifulee/,2026-06-13,9,Major model launch by 01.AI CEO. Highlights competitive performance of Chinese LLMs on global leaderboards.,"Congratulations on the launch of Yi-Lightning, Dr. Lee. Achieving top rankings on LMSYS Chatbot Arena at a fraction of the cost per million tokens is a massive win for open-weight models. How do you plan to leverage Yi-Lightning for embodied AI applications in Sinovation's robotics portfolio?",3520,212,"01.AI's new model Yi-Lightning is now ranked #1 among Chinese models and top-tier globally on the LMSYS leaderboard, matching GPT-4o. We are proving that Chinese AI startups can deliver world-class reasoning models with superior cost-efficiency. Our focus is on bringing cost-effective, high-reasoning capabilities to global enterprise markets.",chinese
+https://www.linkedin.com/in/nathanbenaich/,2026-05-03,9,Venture capitalist sharing findings from the annual State of AI Report. High value.,"The consolidation of LLM compute capabilities has made inference costs drop by 99%, Nathan. This is what makes complex agentic loops economically viable. The report's analysis of hardware clusters and geopolitical chip battles is superb.",4500,290,"The State of AI Report is live. Key takeaways: 1. Inference compute costs have dropped by 100x, enabling deep agent loops. 2. AI hardware clustering is clustering around nuclear and clean energy nodes. 3. Humanoid robots are transitioning from pilot programs to production assembly lines.",global
+https://www.linkedin.com/in/dario-amodei-3a216a4/,2026-05-09,9,"Anthropic CEO sharing insights on Claude 3.5 Sonnet launch, coding capabilities, and safety evaluations.",Claude 3.5 Sonnet's agentic coding capability (working on actual repos via tools) represents a massive step. The key is the high accuracy in long-context system prompts. How are you evaluating agent escape risks during sandbox execution?,7200,512,"We are releasing Claude 3.5 Sonnet. It sets a new industry standard for graduate-level reasoning, undergraduate-level knowledge, and coding proficiency. Along with these capabilities, we have conducted rigorous safety and alignment tests, working with third-party evaluation institutes.",global
+https://www.linkedin.com/in/oriolvinyals/,2026-05-10,9,Google DeepMind VP sharing updates on Gemini's multimodal token design.,"Native multimodality (treating pixels, audio, and text in a single shared transformer block) is far superior to late-fusion architectures. It preserves spatial and temporal correlations. Fantastic engineering work, Oriol.",6100,410,"Gemini was designed from day one to be native multimodal. We don't train separate encoders and stitch them together; we train a single transformer across text, code, audio, image, and video tokens. This allows the model to reason across modalities seamlessly.",global
+https://www.linkedin.com/in/david-silver-8bb84b/,2026-05-11,9,DeepMind researcher sharing insights on RL scaling laws and model-free planning.,Model-free reinforcement learning coupled with search (like AlphaGo/MuZero) remains the most elegant path to superhuman performance. How do you view applying these methods to unstructured physical tasks like robotic kitchen cleaning?,5600,380,"Reinforcement learning (RL) combined with search is the fundamental architecture of intelligent decision making. While LLMs are great at text representation, RL allows agents to discover novel solutions that humans have never written down. Scalable RL is the key to solving general robotics control.",global
+https://www.linkedin.com/in/raquel-urtasun-995775b/,2026-05-12,9,Founder of Waabi presenting generative simulator for training autonomous trucks.,"Using closed-loop generative simulation to train autonomous driving policies is the only way to expose models to edge-case accidents safely, Raquel. The fidelity of Waabi World's sensor reconstruction looks incredibly realistic.",4900,312,"I am excited to share Waabi World, our closed-loop simulator that uses generative AI to build realistic virtual test environments. We can simulate millions of driving scenarios, including rare edge-case accidents, to train our autonomous truck brain. This accelerates deployment without needing million-mile public road tests.",global
+https://www.linkedin.com/in/daphne-koller-17215/,2026-05-15,9,AI pioneer sharing research on scaling machine learning models for drug discovery and genetics.,"The combination of high-throughput automated biology labs and machine learning represents a paradigm shift for clinical trials, Daphne. Moving from heuristic molecular design to generative drug target synthesis will save millions of lives.",4500,290,"Machine learning is completely transforming biology. At Insitro, we are combining robotic automation in wet labs with deep learning models to predict how candidate compounds interact with human cells. This allows us to find disease-fighting molecules at a fraction of the cost of traditional pharma.",global
+https://www.linkedin.com/in/gdbrockman/,2026-05-23,9,OpenAI co-founder sharing insight on training super-large models and cluster hardware scaling challenges.,"Distributed training across multi-node clusters over InfiniBand networks is where the real engineering battle is won, Greg. The hardware failures at this scale are constant. How is OpenAI mitigating training checkpoint serialization overhead?",7800,490,"Training large-scale AI models is as much a systems engineering problem as it is an AI research problem. Co-orchestrating tens of thousands of GPUs, optimizing network topology, and preventing training runs from crashing due to single-node failures requires incredible systems work.",global
+https://www.linkedin.com/in/elonmusk/,2026-05-24,9,"Tesla CEO posting about Optimus humanoid robot progress, mass production timeline, and AI chip integration.","Running the entire FSD network on the robot's onboard Dojo-derived computer is a bold engineering bet. If the actuators can be manufactured at automotive scale and cost, the economic disruption will be massive. When do you expect the first fully autonomous tasks in the Tesla factories?",28000,2500,"Optimus Gen 2 is walking around the lab and starting to perform simple tasks in our factories. It runs on the same FSD computer and AI network as our cars. We expect to have several thousand Optimus robots working in Tesla factories next year, with mass production for external customers in 2027.",global
+https://www.linkedin.com/in/jonathan-hurst-385a49b/,2026-05-25,9,Chief Robot Officer of Agility Robotics sharing update on Digit humanoid deployment.,"Digit's backwards-walking legs are a smart design choice for walking on slopes and navigating narrow warehouse aisles, Jonathan. How are you resolving the charging cycle logistics? Can Digit hot-swap battery packs, or does it dock autonomously?",5120,340,"Digit is now working in Amazon warehouses, moving tote boxes from conveyor belts to shelves. This is a major milestone for the robotics industry. We designed Digit to work in human spaces, alongside humans, to solve labor shortages. This is just the beginning of commercial humanoid deployment.",global
+https://www.linkedin.com/in/geordierose/,2026-05-28,9,CEO of Sanctuary AI sharing video of Phoenix humanoid doing precise manipulation tasks.,"The hand dexterity and force feedback on Phoenix look impressive, Geordie. Teleoperation with haptic suits is a great way to bootstrap the training dataset. Are you using reinforcement learning to generalize the hand movements, or is it mostly imitation learning?",4210,295,"Our Phoenix humanoid robot is powered by Carbon, our AI control system designed to give robots human-like intelligence. In our latest test, Phoenix is performing precision assembly work. The key is in the hand: 20 degrees of freedom and advanced haptic feedback for delicate manipulation.",global
+https://www.linkedin.com/in/daniela-rus-637996/,2026-05-30,9,MIT CS&AI Lab director sharing research on liquid neural networks for continuous-time robotics control.,"Liquid neural networks are a game-changer for drone control and real-time navigation, Daniela. The ability to adapt to changes in environment variables with small parameter counts is critical for edge deployment. How does the training stability compare to standard RNNs?",4900,310,"Liquid Neural Networks, inspired by biological brains, are showing incredible promise in robotics. Unlike traditional neural networks that are frozen after training, liquid networks can adapt dynamically to new data streams. Their compact size makes them perfect for edge devices like drones.",global
+https://www.linkedin.com/in/jeff-dean-5056/,2026-05-31,9,Highly technical post by Google Chief Scientist on TPU architectures and model scaling optimization.,"The optimization of TPU v5 clusters for sparse mixture-of-experts (MoE) is a massive engineering feat, Jeff. How are you addressing inter-node communication latency during hot routing phases in model inference at scale?",8100,512,"Our new TPU v5e and v5p clusters are designed to optimize both training throughput and inference cost. By integrating custom optical circuit switches (OCS) and co-designing hardware with our JAX compiler, we are achieving 2.5x price-performance improvements for sparse Mixture of Experts (MoE) models.",global
+https://www.linkedin.com/in/samaltman/,2026-06-05,9,"High-profile post by OpenAI CEO on AGI timeline, compute scaling, and societal impacts. High visibility.","Compute scaling laws continue to hold, Sam. The challenge is energy generation for these datacenters. Are you betting on nuclear fusion/fission integration to power the next decade's training clusters, or are we looking at decentralized architectures?",9430,720,"AGI is coming, and it will happen much faster than people realize. The bottleneck right now is compute infrastructure: energy, datacenters, and silicon. The companies and nations that build the energy and infrastructure will shape the next century.",global
+https://www.linkedin.com/in/andrej-karpathy/,2026-06-07,9,Highly technical post discussing LLM architecture as an operating system kernel. Prompts deep technical conversation.,"The LLM-as-OS model is a powerful abstraction, Andrej. Memory hierarchy (context window as RAM, vector DB as disk) makes perfect sense. Do you see the planning/reasoning loop becoming a hardware-accelerated instruction, or will it remain in the software orchestration layer?",12000,890,"Think of an LLM not as a chatbot, but as the kernel of a new operating system (the LLM OS). It coordinates tools, memory (context window and vector search), and compute (code execution). The future is about building this operating system stack, making it efficient, secure, and fast.",global
+https://www.linkedin.com/in/andrewng/,2026-06-09,9,"Industry leader discussing AI agentic workflows, iterative planning, and execution frameworks. High authority value.","Iterative agentic workflows are indeed showing higher gains than raw model scaling, Andrew. By breaking tasks down into planning, code generation, and self-reflection, we get far more robust outputs. What evaluation frameworks do you recommend to benchmark agent drift in long-horizon tasks?",3920,280,"Many people focus on zero-shot LLM prompts, but the real power lies in Agentic Workflows. By allowing LLMs to plan, call tools, write code, run it, and iterate on errors, we can get GPT-3.5-level models to outperform GPT-4 on coding benchmarks. Focus on the workflow, not just the model.",global
+https://www.linkedin.com/in/yann-lecun/,2026-06-11,9,Deep theoretical discussion by a Turing Award winner on the future of AI architectures and world models.,"Autoregressive LLMs are indeed hitting scaling walls for true reasoning, Yann. A V-JEPA style approach for world models seems essential for physical AI. How do you view the trade-off in sample efficiency when learning multi-modal representations for robotic planning?",6810,498,Autoregessive LLMs cannot achieve true AGI because they lack a world model and are prone to hallucination. We must move toward Joint Embedding Predictive Architectures (JEPA) that predict representations in abstract space rather than predicting every single pixel or token. This is the only path to autonomous agents that can plan and reason.,global
+https://www.linkedin.com/in/linxi-fan-7a242a37/,2026-04-26,9,Nvidia AI researcher sharing breakthrough on embodied AI agents in virtual environments.,"Voyager's code-as-action space is a highly scalable framework, Linxi. By saving successful code snippets to a skill library, the agent learns incrementally without retraining neural weights. How are you mapping this to continuous physical robot controllers?",6500,410,"Our Voyager agent in Minecraft is the first LLM-powered embodied agent that plays the game continuously. Voyager uses an active learning loop: it writes code to execute actions, receives feedback from the simulator, refines the code, and saves successful skills to its memory. This is lifelong learning in action.",global
+https://www.linkedin.com/in/brettadcock/,2026-04-22,9,CEO of Figure sharing video of Figure 01 robot operating a coffee machine by observing humans.,"The end-to-end neural network learning of physical interactions (inserting pod, pressing button, reacting to placement) is a huge step forward, Brett. It proves that we don't need hand-coded heuristics for every object interaction. How long was the training cycle?",8900,540,"Here is Figure 01 making coffee. It observed a human make coffee for 10 hours, and it learned how to do it end-to-end. There are no programmed routines; it is mapping vision tokens directly to joint control outputs in real time. This is the power of neural network control.",global
 https://www.linkedin.com/posts/divyanshukr12_zingrobot-robotics-humanoidrobot-activity-7341837564447739905-q4ha,2026-06-15,8,"The post introduces a novel, AI-powered humanoid robot called Zing, with a detailed technical breakdown of its components and capabilities, showcasing a high level of technical depth and AI relevance.","The integration of Raspberry Pi, Jetson Nano, and Arduino in Zing's architecture is impressive, and the use of AI libraries like OpenCV and TensorFlow Lite enables advanced computer vision capabilities. What potential applications do you envision for Zing in the fields of education and research, and how do you plan to further develop its AI-driven interaction capabilities?",0,0,"Divyanshu Kumar
 12mo
 Report this post
@@ -151,417 +42,41 @@ LinkedIn
 Facebook
 X
 To view or add a comment, sign in",global
-https://www.linkedin.com/company/werideai/recent-activity/all/,2026-05-26,8,WeRide CEO sharing commercial robotaxi deployment updates in Guangzhou and global markets.,"Scaling driverless commercial robotaxis requires robust remote assistance nodes and low-latency safety streaming. Having deployments in multiple cities worldwide shows WeRide's regulatory and technical maturity, Tony.",3800,190,"WeRide is expanding its driverless robotaxi operations. We have received approval to operate commercial driverless passenger services in Guangzhou, and are scaling our fleets in Abu Dhabi and Singapore. Autonomous mobility is no longer a pilot; it's a public utility.",chinese
-https://www.linkedin.com/company/nio/recent-activity/all/,2026-05-27,8,NIO CEO sharing video of automated battery swapping station operated by robotic arms.,"Replacing a battery pack in under 3 minutes using robotic automation is a major convenience moat, William. The alignment precision of the torque-controlled bolts on the robotic gantry is impressive.",5100,320,"NIO has completed over 40 million battery swaps globally. Our Gen 4 swapping stations are fully automated: the car parks itself, and a robotic gantry swaps the battery pack in 2 minutes and 40 seconds. We are combining smart EV technology with industrial robotics.",chinese
-https://www.linkedin.com/company/li-auto/recent-activity/all/,2026-05-28,8,CEO of Li Auto sharing video of end-to-end autonomous driving model in heavy traffic.,"End-to-end neural networks (mapping camera streams directly to steering/braking controls) handle dense traffic much more naturally than rule-based planners. The vehicle's lane merge in the video was incredibly smooth, Xiang.",4500,290,"Li Auto's new end-to-end (E2E) autonomous driving model is now rolling out to our L-series customers. The E2E network processes camera frames and outputs steering angle and speed directly, resulting in smoother human-like driving, especially in chaotic urban traffic environments.",chinese
-https://www.linkedin.com/company/jd.com/recent-activity/all/,2026-05-30,8,JD.com founder sharing video of fully automated sorting center and driverless delivery vans.,"The density of AMRs in JD's smart fulfillment centers is remarkable, Richard. Coordinating hundreds of robots in a dynamic layout without collisions requires excellent central task orchestration. Thanks for sharing the video.",4900,280,JD Logistics is expanding its driverless delivery network. Our automated fulfillment centers now handle over 90% of sorting tasks using smart robotic AMRs. We are deploying autonomous delivery vans in municipal zones to bridge the last-mile logistics gap efficiently.,chinese
-https://www.linkedin.com/company/360-security-group/recent-activity/all/,2026-06-01,8,"CEO of 360 Group discussing AI safety, LLM security, and cybersecurity agents.","Secure-by-design AI agents are critical, Hongyi. An LLM agent with direct database write access must be surrounded by robust input-validation wrappers and sandbox controls. Appreciate your focus on security.",4100,310,"As AI models get more autonomous, LLM security is becoming the new cybersecurity frontier. At 360 Group, we are building specialized security agents that monitor LLM inputs and outputs to prevent prompt injection, data leakage, and unauthorized tool calls in enterprise networks.",chinese
-https://www.linkedin.com/company/horizon-robotics/recent-activity/all/,2026-06-06,8,Horizon Robotics CEO sharing details on new auto chip launch and autonomous driving partnerships.,"The Journey 6 chip's design (specifically the hardware acceleration for transformer blocks) is crucial for end-to-end autonomous driving networks, Yu. Are you seeing Chinese OEMs move completely to end-to-end models (like UniAD) on this silicon?",3900,210,"We are launching the Horizon Journey 6 chip series, designed specifically for intelligent driving systems. With custom hardware engines that optimize neural networks (especially vision transformers), Journey 6 enables low-power, high-compute autonomous driving. We are proud to partner with leading automakers.",chinese
-https://www.linkedin.com/company/megvii-technology/recent-activity/all/,2026-06-07,8,Megvii CEO sharing updates on automated warehouse management systems using physical AI models.,"Integrating deep-learning-based 3D bin packing with multi-agent AMR routing is where true efficiency lies, Yin. Standard heuristic systems fail when item geometry is highly variable. Your physical AI approach is showing the way.",2800,150,"Megvii is applying Physical AI models to warehouse logistics. Our smart AMRs and robotic arms are now using a shared coordinate system and visual world models to optimize automated picking, sorting, and high-density storage. The software is learning to understand physical space.",chinese
-https://www.linkedin.com/company/sensetime/recent-activity/all/,2026-06-08,8,SenseTime CEO sharing updates on SenseNova 5.5 model launch and edge-side deployment.,"SenseNova 5.5's edge-side execution capabilities open up great possibilities for local robotic control loops, Xu. Running a high-performance vision-language-action (VLA) model locally under low latency is crucial. How many parameters are dedicated to the visual encoder?",3100,180,"We are releasing SenseNova 5.5, which features advanced real-time multimodal reasoning. Our model optimizes edge-side deployment, allowing smart devices and collaborative robots to process visual and audio streams locally with sub-100ms latency. We are empowering edge intelligence.",chinese
-https://www.linkedin.com/in/rama-akkiraju-308119/recent-activity/all/,2026-04-27,8,"AI executive discussing data governance, copyright issues, and ethical compliance.","Watermarking training datasets and tracking model provenance is critical for enterprise legal compliance. A robust compliance dashboard is as important as the model evaluation stack itself. Appreciate your focus on this, Rama.",3100,195,"AI governance is no longer just a policy conversation; it's a technical requirement. Enterprises need tools to track data lineage, verify training rights, detect bias in model outputs, and enforce compliance guidelines in real-time agent deployments.",global
-https://www.linkedin.com/in/miteshk/recent-activity/all/,2026-04-28,8,Professor sharing updates on academic AI research and publishing trends globally.,"Fostering academic-industry partnerships is vital to commercialize deep tech research. The work you are doing in training the next generation of deep learning researchers is highly commendable, Mitesh.",2400,120,"Academic AI research must shift from simple benchmarking to solving real-world domain problems. We are building deep partnerships between universities and robotics firms to commercialize research in computer vision, edge SLAM, and physical control algorithms.",global
-https://www.linkedin.com/in/mattschlicht/recent-activity/all/,2026-04-29,8,AI newsletter editor discussing background agent infrastructure and API tools.,"The rise of Model Context Protocol (MCP) by Anthropic is unifying how agents connect to local tools and databases, Matt. It solves the fragmentation problem of custom API connectors. Great analysis.",3500,190,"The infrastructure layer for AI agents is consolidating. With standards like the Model Context Protocol (MCP), developers can now build a single tool wrapper that can be utilized by Claude, OpenAI, and local LLMs without rewriting code. This accelerates agent interoperability.",global
-https://www.linkedin.com/in/bentossell/recent-activity/all/,2026-04-30,8,AI tools directory editor sharing workflow optimization list. Broad appeal.,"Orchestrating tools with simple system integrations (like Make/Zapier or MCP) is where most companies find immediate ROI. Great checklist of tools, Ben.",4100,210,"Here are 5 AI tools that will save you 10 hours of work this week: 1. Perplexity for research. 2. Cursor for coding. 3. Claude for writing. 4. Granola for meeting notes. 5. Gamma for presentation designs. Stop working hard, start working smart.",global
-https://www.linkedin.com/in/linusekenstam/recent-activity/all/,2026-05-01,8,Designer discussing AI product UI/UX and text-based vs canvas interfaces.,"The chatbot interface is just a temporary stepping stone, Linus. The true UX for AI is proactive: background agents performing tasks and presenting results in dynamic canvas interfaces. Thanks for driving this conversation.",4900,310,"AI product design is moving away from the simple chat box. The chat interface requires too much cognitive load from the user. We are transitioning to canvas-based layouts, generative interfaces, and background agents that present completed drafts for approval.",global
-https://www.linkedin.com/in/matt-wolfe-ai/recent-activity/all/,2026-05-02,8,AI content creator discussing generative video tools and spatial consistency.,"Spatial consistency in video generators is critical because it means the AI model is learning a physics simulator implicitly. This will feed back into synthetic training data pipelines for humanoid robotics. Great comparison, Matt.",3800,250,"Generative video tools (Sora, Runaway Gen-3, Luma Dream Machine) are achieving incredible spatial consistency. You can now generate a scene from multiple camera angles and have the objects retain their structure. This is a massive step for digital cinematography.",global
-https://www.linkedin.com/in/ronald-van-loon-597b38/recent-activity/all/,2026-05-04,8,Data influencer sharing video of automated factory floor and discussing IIoT.,"Integrating factory telemetry (Industrial IoT) with large language model interfaces allows operators to query factory line status in natural language. This is a massive win for manufacturing uptime, Ronald.",8900,580,"Industrial IoT and Big Data are the foundations of the smart factory. By combining real-time sensor streams from robotic lines with predictive maintenance models, manufacturers can predict machine failures days before they occur, saving millions in downtime.",global
-https://www.linkedin.com/in/bernardmarr/recent-activity/all/,2026-05-05,8,Futurist outlining AI and robotics trends for the upcoming years. Good broad engagement.,"The convergence of LLM-based reasoning and humanoid mechanical platforms is the defining tech trend of this decade. It unlocks automation for non-structured physical work. Thanks for the summary, Bernard.",5400,340,What is the future of AI and robotics? Here are the top 5 trends: 1. Embodied AI and commercial humanoids. 2. Native multimodal large models. 3. Autonomous agent coordination networks. 4. AI-accelerated scientific research. 5. Edge computing and micro-model deployments.,global
-https://www.linkedin.com/in/pascalbornet/recent-activity/all/,2026-05-06,8,Thought leader discussing intelligent automation and AI agent deployment frameworks.,"Intelligent automation requires transitioning from rigid robotic process automation (RPA) workflows to goal-driven LLM planner agents. RPA breaks when the web UI changes; LLM agents adapt dynamically. Great point, Pascal.",3900,210,"Intelligent Automation is moving from simple RPA rules to autonomous cognitive agents. RPA could copy and paste data between screens; cognitive agents can make decisions, resolve invoice discrepancies, and coordinate across systems to complete business goals.",global
-https://www.linkedin.com/in/emollick/recent-activity/all/,2026-05-07,8,Wharton professor writing about using AI in classrooms and co-intelligence frameworks.,"AI as an active co-intelligence tutor that queries the student and provides hints is far more educational than a simple answer-generation box. Spot-on pedagogy, Ethan.",4500,310,"Instead of banning AI in schools, we must teach students how to work alongside AI as a co-intelligence partner. Those who learn to orchestrate AI models, check their output, and leverage them for brainstorming will be 10x more productive in the future workforce.",global
-https://www.linkedin.com/in/stevenouri/recent-activity/all/,2026-05-08,8,Popular AI influencer sharing curated technical cheat sheets. High reach and engagement.,"Excellent compilation, Steven. Visual cheat sheets are highly effective for onboarding junior developers to complex ML concepts like attention mechanisms and vector search index layouts. Thanks for sharing.",15000,680,"Here are the top 10 AI cheat sheets every developer needs in 2026, covering LLM fine-tuning, retrieval-augmented generation (RAG), vector database comparison, and agentic workflows. Download the high-res PDF versions in the comments.",global
-https://www.linkedin.com/in/joelle-pineau-1b07297/recent-activity/all/,2026-05-13,8,"AI researcher discussing reproducibility, open science, and peer review in machine learning.","Reproducibility is the bedrock of scientific progress, Joelle. Requiring code, environment configs, and training logs alongside papers is crucial to filter out cherry-picked baseline results. Thank you for advocating for this.",2800,190,"As AI research accelerates, the reproducibility crisis in machine learning is worsening. We must make it standard practice to publish code, hyperparameter settings, and data split files alongside our papers. Open science is only open if it is reproducible.",global
-https://www.linkedin.com/in/percy-liang-22a846b/recent-activity/all/,2026-05-14,8,Stanford professor discussing model evaluation benchmarks and safety alignment tracking.,"Standard static benchmarks (like MMLU) are saturated and subject to data contamination. We need dynamic evaluation benchmarks like HELM that continuously test models with out-of-distribution reasoning prompts. Excellent work, Percy.",3100,210,"Model evaluation is broken. Standard benchmarks are increasingly leaked into the training datasets. Our latest Holistic Evaluation of Language Models (HELM) introduces dynamic evaluations to measure safety, bias, reasoning accuracy, and code execution across 50+ open and closed models.",global
-https://www.linkedin.com/in/socher/recent-activity/all/,2026-05-16,8,AI researcher and founder sharing updates on multi-agent search systems and reasoning.,"Orchestrating multiple specialized agents (e.g. Writer agent, Search agent, Code runner agent) yields far better structured research reports than a single prompt. Spot-on architecture demonstration, Richard.",2900,195,"Our new multi-agent search engine doesn't just fetch answers. It spawns a researcher agent, a writer agent, and a fact-checker agent that work in parallel to compile a comprehensive, cited report on any topic. This is the future of digital knowledge workers.",global
-https://www.linkedin.com/in/noamshazeer/recent-activity/all/,2026-05-17,8,AI pioneer discussing reasoning architectures and user engagement patterns in dialog agents.,"The latency budget for chat agents dictates the complexity of the reasoning path. Dynamic routing (using quick models for chit-chat and heavy reasoning models for multi-step prompts) is essential. Great insights, Noam.",4900,320,"The next major breakthrough is not just predicting the next word, but incorporating reasoning steps into the inference cycle. By allocating computation time dynamically based on prompt complexity, models will behave more like human thinkers who pause to reflect before answering.",global
-https://www.linkedin.com/in/aidangomez/recent-activity/all/,2026-05-18,8,Cohere CEO sharing insights on fine-tuning LLMs for specific enterprise domains.,"Fine-tuning models on proprietary enterprise data with parameter-efficient techniques (like LoRA) is far more secure and accurate for corporate compliance than general APIs. Appreciate Cohere's enterprise-first focus, Aidan.",3500,210,"Enterprises don't need general chatbot models; they need models that speak their corporate language, understand their databases, and respect data privacy constraints. Fine-tuning models on proprietary data is the only way to build secure, domain-specific AI.",global
-https://www.linkedin.com/in/vinodkhosla/recent-activity/all/,2026-05-19,8,"Veteran venture capitalist sharing predictions on AI, economic impact, and future labor markets.","Free cognitive labor will indeed restructure the services sector, Vinod. The key is how quickly we can scale physical robotics hardware to automate manual labor. The bottleneck is the high cost of mechanical actuators.",6800,690,"In 10 years, AI will be able to perform almost all cognitive labor. Medical diagnostics, legal contracts, coding, and teaching will be near-free. This will lead to unprecedented abundance, but we must prepare for the massive shift in labor markets and tax systems.",global
-https://www.linkedin.com/in/aravindsrinivas/recent-activity/all/,2026-05-20,8,"Perplexity CEO sharing thoughts on conversational search, citation accuracy, and search user experience.","The core value of Perplexity is citation verification. By grounding LLM reasoning in index search results, you minimize hallucinations. How do you plan to scale the indexing infrastructure to handle real-time social media search?",4800,395,"Traditional search is dead. People don't want a list of 10 links; they want direct, verified answers with citations. Conversational search is about combining large language models with real-time web indexes to give users the ground truth instantly.",global
-https://www.linkedin.com/in/thomasdohmke/recent-activity/all/,2026-05-21,8,GitHub CEO sharing progress on Copilot Workspace and the future of developer workflows.,"Moving from inline code completion to repository-level workspace agents is the right direction, Thomas. The developer shifts from a writer of code to a reviewer and system architect. How do you plan to handle complex multi-file debugging loops in legacy codebases?",5200,310,"GitHub Copilot Workspace is our vision for natural language coding. Developers can now express their ideas in plain English, and the workspace agent will plan the edits, modify files, run tests, and open a Pull Request. Coding is becoming accessible to everyone.",global
-https://www.linkedin.com/in/mustafasuleyman/recent-activity/all/,2026-05-22,8,"CEO of Microsoft AI discussing user interaction models, voice agents, and the future of consumer AI.","Voice interaction with latency below 300ms is the tipping point where AI feels like a natural conversation partner. The challenge is handling speech interruptions and context tracking during long dialogs. Exciting updates, Mustafa.",6300,510,"We are designing Copilot to be an emotional and intellectual assistant that supports you throughout the day. With natural voice interfaces and real-time vision capabilities, your AI companion will be able to see what you see, listen to you, and help you interact with the digital world.",global
-https://www.linkedin.com/in/chris-and-97a61a/recent-activity/all/,2026-05-26,8,"Drone pioneer and AI executive discussing drone software, edge computation, and computer vision.","Edge AI chipsets (like Jetson Orin Nano) are really unlocking real-time SLAM and obstacle avoidance on micro-drones. The next frontier is visual-inertial odometry that runs under 5W. Exciting times, Chris.",3100,210,"Drones are transitioning from simple remote-controlled cameras to autonomous edge devices. By running computer vision models directly on small companion computers, drones can now map structures and navigate indoor environments without GPS or cloud connection.",global
-https://www.linkedin.com/in/meloneewise/recent-activity/all/,2026-05-27,8,Robotics executive discussing AMR interoperability standards (VDA 5050) and warehouse software automation.,"VDA 5050 is a start, Melonee, but it's too rigid for high-dynamic setups. We need a unified API standard at the orchestration layer that handles active obstacle avoidance and path negotiation dynamically. Glad to see you driving this discourse.",2900,180,"If we want warehouse automation to scale, we need interoperability. A single warehouse shouldn't require five different proprietary fleet managers for five different types of robots. Open standards like VDA 5050 are critical to allow AMRs from different vendors to work together.",global
-https://www.linkedin.com/in/rodney-brooks-11488b3/recent-activity/all/,2026-05-29,8,"Robotics pioneer sharing realistic takes on humanoid robots, hardware limitations, and physical constraints.","Your pragmatism is always refreshing, Rodney. The mechanical reliability (joints, gears, heat dissipation) is indeed a bigger bottleneck than the neural network brains. Humanoids in real warehouses need to hit a 10,000-hour mean time between failures (MTBF) to make economic sense.",3500,280,"Every tech investor is excited about humanoid robots right now. But hardware is hard. Building a robot that can walk is easy; building one that can run 20 hours a day, 7 days a week, in a dusty warehouse, with a payload, and not break down for years, is a massive mechanical challenge.",global
-https://www.linkedin.com/in/alliekmiller/recent-activity/all/,2026-04-24,8,AI leader reviewing agent orchestration libraries like LangGraph and CrewAI.,"The challenge with graph-based agent libraries is debugging state transitions when the loop gets stuck. Simple, explicit state machines are often more reliable in production. Great review of the ecosystem, Allie.",3500,230,"Which agent orchestration library should you choose? LangGraph is great for cyclic, graph-based agents; CrewAI is perfect for role-playing, multi-agent setups; and Semantic Kernel is ideal for enterprise C# integration. Choose the library that matches your backend architecture.",global
-https://www.linkedin.com/in/rowancheung/recent-activity/all/,2026-06-04,8,AI newsletter recap. Great for understanding global AI trends and summarizing recent news.,"Great recap as always, Rowan. The progress in text-to-video models (Sora, Kling, Luma) is closing the gap for spatial simulators. It will be interesting to see how robotics teams use these video generators for synthetic data and world model pretraining.",5400,310,The 5 biggest AI updates of the week: 1. OpenAI launches GPT-4o voice mode globally. 2. Figure AI deploys humanoids to BMW production line. 3. DeepSeek releases Open-Source V3 model. 4. Google updates Gemini 1.5 Pro with 2M context. 5. Luma Dream Machine video generator goes viral.,global
-https://www.linkedin.com/company/baidu/recent-activity/all/,2026-06-03,8,"Baidu CTO sharing updates on industrial AI applications, agent templates, and cloud scalability.","Deploying ERNIE-powered agents directly into manufacturing telemetry pipelines is a great use-case, Haifeng. Natural language diagnostics for machine operators drastically reduces repair search time. Appreciate you sharing the metrics.",2400,140,"We are expanding the industrial application templates for the ERNIE platform. By providing pre-built agent architectures for quality inspection, machine diagnostics, and supply chain routing, we are making it easy for energy and manufacturing sectors to deploy AI.",chinese
-https://www.linkedin.com/in/clementdelangue/recent-activity/all/,2026-06-02,8,Hugging Face CEO discussing open source AI models and community-driven progress. Excellent thought leadership.,"Open source is indeed driving the developer ecosystem, Clement. The rise of DeepSeek and Llama models proves that closed-source APIs are losing their moat. Hugging Face remains the absolute hub for this collaborative ecosystem.",6200,410,"Open-source AI models are now matching or outperforming proprietary APIs on core benchmarks. The community-driven approach is more collaborative, secure, and cost-effective. Hugging Face now hosts over 1 million models, and the momentum is unstoppable.",global
-https://www.linkedin.com/posts/kaifulee_01-ai-01-ai-activity-7133449190742884352-qvZ4,2026-06-17,7,"The post announces the launch of a finetuned chat model and quantized version, which is a significant development in the AI ecosystem. The involvement of Kai-Fu Lee, a prominent figure in the AI community, adds to the post's credibility and relevance. However, the post lacks depth in terms of technical details and robotics relevance.","The launch of Yi-34B-Chat finetuned model is an exciting development, and the quantized versions will likely facilitate more efficient deployment of LLMs. As we continue to push the boundaries of AI capabilities, what role do you think explainability and transparency will play in ensuring the responsible development and use of these models?",0,0,"Kai-Fu Lee Kai-Fu Lee is an Influencer
-2y
-Report this post
-2.5 weeks after 01.AI's Yi open-source model debut, we are adding more offers to the developer community. Today the finetuned Chat model and quantized version were just launched - friendly and faster for developers. Look forward to see more wonderful LLM projects being created!
-01.AI
-6,878 followers
-2y
-01.AI team worked hard to launch Yi-34B-Chat finetuned on world's #1 open source base model, 4 bits & 8 bits quantized versions also went 🔥live🔥 on Hugging Face. More to start with your projects! https://lnkd.in/gmpPfbxJ
-01-ai (01-ai) huggingface.co
-   196 3 Comments
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-Chu Chen 2y
-Report this comment
-Let’s make sure the Responsible AI structure is in place sooner than later.. https://www.linkedin.com/posts/chuchen_responsible-ai-for-developers-2023-activity-7132612581764050944-IW7j
-Like
-Reply
-2 Reactions 3 Reactions
-Wynce Low 2y
-Report this comment
-Highest respect for Kai-Fu Lee , most people at your age already retired doing nothing , yet you are leading super high intensity technology 👏 love your book AI2041
-Like
-Reply
-1 Reaction
-Jim Kyung-Soo Liew, Ph.D. 2y
-Report this comment
-The Johns Hopkins University - Carey Business School US Congress
-Like
-Reply
-1 Reaction
-See more comments
-To view or add a comment, sign in",chinese
-https://www.linkedin.com/posts/mohammad-alashkar-md-mmsc-phd-036853103_kai-fu-lee-highlights-rise-of-multi-agent-activity-7471655252350459904-rkfX,2026-06-17,7,"The post discusses the rise of multi-agent systems in AI, highlighting the potential for increased efficiency and problem-solving capabilities. The founder of Sinovation Ventures, Kai-Fu Lee, shares his insights on the future of AI development, making the post highly relevant to the AI ecosystem in China.","Kai-Fu Lee's vision for multi-agent systems is indeed transformative, and the potential for autonomous agents to coordinate and share context is vast. However, as we move towards more complex agent networks, how will we ensure that these systems maintain transparency, accountability, and explainability in their decision-making processes?",0,0,"Play Video
-Video Player is loading.
-Loaded: 0%
-0:00
-PlayBack to start
-Stream Type LIVE
-Current Time 0:00
-/
-Duration -:-
- 
-1x
-Playback Rate
-Show Captions
-Unmute
-Fullscreen
-Mohammad Alashkar, MD, MMSc, PhD
-3d
-Report this post
-Kai-Fu Lee highlights rise of multi-agent systems in AI Kai-Fu Lee, founder of Sinovation Ventures, addressed the growing importance of multi-agent systems in the future of artificial intelligence. According to Lee, a single AI agent today is comparable to a pre-internet personal computer—functional yet operating in isolation. When AI agents are interconnected, they are able to share relevant context, divide tasks, and coordinate activities instantaneously. Lee’s comments underscore a shift in AI development, moving from independent tools toward collaborative networks of agents designed to enhance efficiency and problem-solving capabilities.
-…more
- 2
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-Transcript Transcript
-Transcript
-It thinks, it reasons, it plans, and then it executes now and then after that it's something even more amazing. So reasoning agent is kind of here today and I'll show you a demo. But multi agent is the even more exciting thing that will transform all of your organizations. Why is that? Because multi agents is when agents talk to each other. Think about the original PC. I see some of you may be old enough to remember the first PC. It wasn't connected to the Internet, was it? And that was the human machine interface. It's a human and software talking to each other, just like chat bots today, more or less. But in the future, as chat bots become agents, why shouldn't the agents talk to each other? Why should Professor Chan have to tolerate Dr. Lee's agent bombarding his WeChat, knowing with him knowing? This is not? Kaifu talking, right? So my agent should just bombard Dr. Chang's agent, then they've sort things out, then guess what happens? My trip to Kong Kong can be planned in 10 minutes or maybe one minute because all the agents know everything so they don't have to go back and forth. Are you free Friday at 2 now? Can we do 3 now? How about four? They know the entire schedule. So agents talking to each other is magic. Just like PC's talking to each other created what today is known as mobile Internet.
-To view or add a comment, sign in",chinese
-https://www.linkedin.com/posts/priyanka-agarwal-b7059a25_robots-are-the-future-of-industrial-development-activity-7444351274323644416-rKjZ,2026-06-17,7,"The post discusses the transformative role of robotics in industrial development, highlighting key advantages such as consistency, precision, and productivity. It also mentions the importance of workplace safety and flexibility in manufacturing, showcasing the potential of robotics to shape the future of industries.","I appreciate the emphasis on reliability and long-term performance in robotic solutions, as this is crucial for industries transitioning to automated systems. However, what role do you think human-robot collaboration will play in the future of industrial development, and how can we ensure seamless integration of robotic systems with existing workforce?",0,0,"Priyanka Agarwal
-2mo
-Report this post
-Robots are the Future of Industrial Development Industrial development is entering a transformative era, and at the center of this evolution lies robotics. What was once considered advanced automation is now becoming the foundation of modern manufacturing and production systems. Robots are no longer optional—they are essential for industries aiming to stay competitive, efficient, and future-ready. The biggest advantage of robotics in industrial development is consistency and precision. Unlike manual labor, robots can perform repetitive tasks with near-perfect accuracy, reducing defects and ensuring high-quality output. In sectors like automotive, electronics, and heavy engineering, even the smallest deviation can lead to major losses—robots eliminate that risk. Another key driver is productivity. Robots can operate 24/7 without fatigue, significantly increasing output while reducing downtime. This allows industries to meet growing demand without proportionally increasing labor costs. In a world where speed-to-market is critical, this becomes a powerful advantage. Workplace safety is another area where robotics is making a major impact. Hazardous tasks such as welding, heavy lifting, and exposure to toxic environments can be handled by robots, minimizing risk to human workers. This not only protects employees but also reduces costs related to accidents and insurance. Beyond efficiency, robots are enabling flexibility in manufacturing. Modern robotic systems can be reprogrammed and adapted for different tasks, allowing industries to switch production lines quickly based on market needs. This is especially valuable in today’s dynamic environment where customization and rapid changes are the norm. This is where RL Robotics is playing a crucial role in shaping the future. By offering reliable, application-focused robotic solutions, RL Robotics is helping industries transition from traditional processes to smarter, automated systems. Our focus on quality, performance, and long-term reliability ensures that businesses don’t just adopt automation—but adopt it the right way. For industries in growing economies, adopting robotics is no longer a luxury—it’s a necessity. Companies that partner with RL Robotics gain a competitive edge by implementing solutions that are not only efficient but also dependable and scalable. In conclusion, robots are not just shaping the future of industrial development—they are defining it. With RL Robotics the journey toward smarter manufacturing is already well underway.
-  9 1 Comment
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-YZ-RA 3d
-Report this comment
-I completely agree that robots are becoming the backbone of modern manufacturing and production systems. The points you've made about consistency, precision, productivity, and workplace safety are well-taken and underscore the critical role robotics plays in pushing industrial development forward.
-Like
-Reply
-1 Reaction
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/quest-global_industrialautomation-robotics-manufacturing-activity-7441796748118835200-pmH3,2026-06-17,7,"The post discusses the growing importance of robotic simulation and offline programming in industrial automation, highlighting their potential to reduce downtime and increase efficiency.","The integration of robotic simulation and offline programming is a significant step forward for industrial automation, but what are the key challenges that manufacturers must address to ensure seamless implementation of these technologies, and how can they balance the benefits of increased efficiency with the potential risks of over-reliance on automated systems?",0,0,"Quest Global
-767,082 followers
-2mo
-Report this post
-As the industrial sector navigates the AI‑ and automation‑driven evolution of modern manufacturing, leaders are facing a new challenge: reducing downtime and making programming changes without disrupting production. In this article, Thandaveshwara Babu, explores how robotic simulation and robotics offline programming (OLP) are quickly becoming essential pillars of today’s manufacturing landscape. He breaks down how growing OLP adoption is reshaping industrial market drivers and outlooks, while laying out a clear case for why OLP and simulation are strong alternatives to traditional robot programming. With practical, actionable strategies for implementing these technologies, he helps demystify the future of industrial robotics. Read the full article here: 🔗https://lnkd.in/gKUTbqJk #IndustrialAutomation #Robotics #Manufacturing #QuestGlobalHorizons
-   77 1 Comment
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-YZ-RA 6h
-Report this comment
-The integration of robotic simulation and offline programming is indeed a game-changer for industrial automation, enabling more efficient production workflows and reduced downtime..
-Like
-Reply
-1 Reaction
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/aryaman-saraogi_robotics-robotlearning-manipulation-activity-7470110312462065665-kI_O,2026-06-17,7,"The post highlights a crucial aspect of robotics, emphasizing the importance of sensorimotor data, particularly tactile sensing and proprioception, for achieving robust physical intelligence.","I couldn't agree more on the significance of sensorimotor learning in robotics; the next breakthroughs will likely come from integrating multimodal sensing and feedback loops, but how can we effectively balance the complexity of real-world environments with the need for standardized, high-quality datasets?",0,0,"Aryaman Saraogi
-1w Edited
-Report this post
-We are pouring a lot of effort into larger VLAs, foundation models, and increasingly capable policies. Yet many systems still struggle when object positions change, contacts become unpredictable, or the environments are different from labs. Manipulation is fundamentally a sensorimotor problem. What matters is: Contact forces, Tactile signals, and Proprioception. It is difficult to see a path to robust physical intelligence that relies primarily on vision while treating the rest of the sensor stack as secondary. The next generation of robotics datasets should not just record what the robot sees. They should capture what the robot feels and how it moves through the world. Better models will help. Better sensorimotor data may matter even more. Vineet Saraogi Raushan Kumar #Robotics #RobotLearning #Manipulation #PhysicalAI #TactileSensing #Proprioception #EmbodiedAI #RoboticsResearch #SensorimotorLearning #FoundationModels
- 5
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/rai-inst_boston-dynamics-and-the-robotics-ai-institute-activity-7292923410731421696-35Oc,2026-06-17,7,"The post announces a significant partnership between the RAI Institute and Boston Dynamics, focusing on advancing humanoid robotics through reinforcement learning, which is a notable development in the field.","The integration of reinforcement learning with humanoid robots like Atlas has the potential to significantly enhance their capabilities, but what are the most significant challenges that this partnership aims to address in terms of scalability and real-world application?",0,0,"RAI Institute
-35,601 followers
-1y
-Report this post
-Announcing our new partnership with Boston Dynamics! The Robotics & AI Institute is teaming up with Boston Dynamics to advance humanoid robotics through reinforcement learning. We're excited to bring our research teams together to produce new, dynamic and generalizable capabilities on Atlas. Learn more — https://lnkd.in/etMgKSQH
-Boston Dynamics and the Robotics and AI Institute Partner to Advance Humanoid Robots Through Reinforcement Learning | RAI Institute rai-inst.com
-   413 4 Comments
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-Kerri Neelon 1y
-Report this comment
-Proud to expand on our history of collaboration and research with RAI Institute!
-Like
-Reply
-2 Reactions 3 Reactions
-Crystal Beckvold 1y
-Report this comment
-Sad I won't be there to see it but excited to see so many great people collaborating!
-Like
-Reply
-1 Reaction 2 Reactions
-George Gotsopoulos 1y
-Report this comment
-Love this
-Like
-Reply
-1 Reaction
-Rita V. 1y
-Report this comment
-Congrats! Aaron Prather
-Like
-Reply
-1 Reaction
-See more comments
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/boston-dynamics_from-teleoperation-to-autonomy-inside-boston-activity-7376295561219588096-KsnD,2026-06-17,7,"The post discusses the process of data collection, annotation, model training, and evaluation for Boston Dynamics' Atlas autonomy, showcasing high technical depth and AI relevance. The comments section features insightful discussions on data-centric AI, sim-to-real transfer, and control instability, further increasing the post's value.","The intersection of data quality and autonomy in robotics is indeed a crucial aspect, and I appreciate the emphasis on co-regulation stabilizing autonomy. How do you envision the role of multimodal sensing and sensor fusion in enhancing the robustness of autonomous robots like Atlas?",0,0,"Boston Dynamics
-653,848 followers
-8mo
-Report this post
-AI is rapidly enabling more robust and adaptable robotics, but AI models are only as good as the underlying data. Scott Kuindersma, VP of robotics research, shares the process of data collection, annotation, model training, and evaluation that power Atlas's autonomy. Listen to the full conversation: https://bosdyn.co/3KCo6Re
-From teleoperation to autonomy: Inside Boston Dynamics' Atlas training https://www.therobotreport.com
-   175 3 Comments
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-William Collins 6mo
-Report this comment
-Boston Dynamics What you’re describing here mirrors something I’ve been observing across LLMs as well: a lot of failure modes don’t come from the model’s capabilities, but from drift inside the interaction rhythm between subsystems. In robotics, that shows up as control instability. In language models, it shows up as behavioural drift. Different domains, same underlying pattern: co-regulation stabilises autonomy far more than raw data or model size.
-Like
-Reply
-1 Reaction
-LumiMerse 8mo
-Report this comment
-Spot on—robust robots are ultimately a data problem. Blending messy field logs with domain-randomized synthetic runs has been our biggest unlock, paired with scenario-library evaluation instead of single metrics. How do you balance real vs synthetic data for contact-rich motions? #DataCentricAI #Robotics #Sim2Real
-Like
-Reply
-1 Reaction
-Diego Tica 8mo
-Report this comment
-Love to get into teleoperation for humanoid robotics
-Like
-Reply
-1 Reaction
-See more comments
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/meet-prometheus-robotics_humanoidrobots-ai-automation-activity-7292829314478157824-OlWQ,2026-06-17,7,"The post discusses a promising application of AI in humanoid robotics, with a clear vision for industrial automation, and is written by a founder, hence scoring high on novelty, AI relevance, robotics relevance, and founder signal.","The integration of AI in humanoid robots for industrial automation is indeed a transformative concept, and I appreciate how Prometheus Robotics is pushing the boundaries in this space. However, what are the primary challenges you're facing in terms of ensuring seamless human-robot collaboration, and how do you envision overcoming them?",0,0,"Prometheus Robotics
-454 followers
-1y
-Report this post
-Humanoid Robotics with AI: The Future is Closer Than You Think At Alta Conference, we had the chance to share how Prometheus Robotics is building AI-powered humanoid robots for industrial automation. The response was incredible—huge interest, enthusiastic applause, and so many questions that even the organizer had a hard time wrapping up the discussion! After the talk, many attendees approached us, eager to dive deeper into the future of robotics. This level of excitement reaffirms our vision: humanoid robots will transform industries, working seamlessly alongside humans and pushing automation to the next level. Thank you Nikita Kruzement for the event! And thank you to everyone who engaged with us! If you're passionate about robotics, AI, and the future of work, let’s connect. #HumanoidRobots #AI #Automation #Robotics #Industry40 #FutureOfWork #Innovation #FutureOfAutomation #SmartManufacturing
-   7
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/looking-glass-services_robotics-humanoidrobots-embodiedai-activity-7471271443641733121-UHd9,2026-06-17,7,"The post highlights advancements in robotics and human-machine interaction, showcasing a lifelike robotic suit that blurs the line between science fiction and reality.","The demonstration of remarkably lifelike robotic suits is a testament to the rapid progress in embodied AI and physical robotics. As we continue to push the boundaries of human-machine interaction, what role do you think autonomous humanoid robots will play in redefining the future of work and innovation?",0,0,"Looking Glass XR
-258 followers
-4d
-Report this post
-Remarkably lifelike robotic suits drew crowds as attendees initially believed they were watching a fully autonomous humanoid robot. The demonstration highlights just how quickly robotics, human-machine interaction, and realistic motion systems are advancing. The line between science fiction and reality continues to blur!! #Robotics #HumanoidRobots #EmbodiedAI #PhysicalAI  #Automation #Innovation #FutureOfWork #ArtificialIntelligence #Technology #LookingGlassXR https://lnkd.in/evNQ8p3s
- 1
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/aipoool_ai-robotics-humanoid-activity-7382437307666292738-1qDM,2026-06-17,7,"The post presents a unique durability test on a humanoid robot, showcasing its limitations and potential for improvement, with a strong focus on AI and robotics relevance.","The failure of the $80K humanoid robot in the durability test highlights the importance of robust design and testing in robotics, but what potential advancements in materials or AI control systems could mitigate such failures in the future?",0,0,"Play Video
-Video Player is loading.
-Loaded: 0%
-0:00
-PlayBack to start
-Stream Type LIVE
-Current Time 0:00
-/
-Duration -:-
- 
-1x
-Playback Rate
-Show Captions
-Unmute
-Fullscreen
-AIPOOOL
-23,177 followers
-8mo
-Report this post
-🤖💥 $80K Humanoid Robot Pushed to the Limit An $80K humanoid robot just faced one of the harshest durability tests ever, and let’s just say, it didn’t make it out unscathed. Engineers subjected the robot to extreme stress tests, including high-impact pushes, balance shocks, and continuous motion challenges, all designed to push its mechanical and electronic systems to the edge. The result? Joints failed, circuits fried, and the robot that once moved like a human struggled to survive the test. But is this a failure, or a critical learning step toward creating robots strong enough for real-world applications? 👀 Durability tests like this aren’t just about breaking machines they’re about understanding limitations, refining designs, and pushing robotics closer to being safe, reliable, and resilient in everyday and extreme environments. Every failure teaches engineers how to improve materials, sensors, actuators, and AI control systems, making the next generation smarter and tougher. From advanced humanoids to service robots, this journey highlights how humanoid robotics is still in its experimental phase, where every setback is an opportunity to advance the field. 🔹 Follow AIPOOOL to Stay Ahead in the Race of Tech & AI 🚀 📩 Subscribe to our newsletter on LinkedIn 🔗 https://lnkd.in/gnUKzght #AI #Robotics #Humanoid #Engineering #Innovation #Technology #Automation #Machine #Learning #Future #Durability #Test #News #AIPOOOL #Science #Tech #Experimentation
-…more
- 5 2 Comments
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-YZ-RA 3d
-Report this comment
-The experiment on the $80K humanoid robot is a crucial step towards understanding the limitations of current robotics technology. It's fascinating to see how every failure can lead to improvements in materials, sensors, actuators, and AI control systems.
-Like
-Reply
-1 Reaction
-Ahmad Masoud 8mo
-Report this comment
-Do Not Condone Violence Against Robots ☺️
-No more previous content
-No more next content
-Like
-Reply
-1 Reaction 2 Reactions
-See more comments
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/usman-ali-haider_robotics-humanoidrobots-artificialintelligence-activity-7471136179158044673-m0__,2026-06-17,7,"The post presents a new development in humanoid robotics, with a focus on creating machines that can interact naturally with humans, and discusses potential applications in various industries.","The introduction of highly lifelike humanoid robots like the UWorld U1 Series raises important questions about human-robot interaction and the potential for these systems to augment human capabilities. As we continue to push the boundaries of robotics and AI, what are the key challenges we need to address in terms of ensuring seamless integration of these technologies into our daily lives?",0,0,"Play Video
-Video Player is loading.
-Loaded: 0%
-0:00
-PlayBack to start
-Stream Type LIVE
-Current Time 0:00
-/
-Duration -:-
- 
-1x
-Playback Rate
-Show Captions
-Unmute
-Fullscreen
-Usman Ali Haider
-4d
-Report this post
-What happens when robots stop looking like machines and start looking like us? A new teaser from UBTECH Robotics gives a glimpse into that future. The UWorld U1 Series introduces highly lifelike humanoid robots, featuring both male and female models designed to replicate human movement and facial expressions with remarkable realism. With over 88 degrees of freedom, these super bionic humanoids blur the line between biology and technology. For decades, robotics focused on strength, speed, and automation. Today, the challenge is different: creating machines that can move, react, communicate, and interact naturally with humans. As humanoid robotics continues to evolve, we may soon see these systems assisting in healthcare, education, customer service, research, and countless other industries. The question is no longer whether humanoid robots will become part of our daily lives. The real question is: How will society adapt when machines become almost indistinguishable from humans? #robotics #humanoidrobots #artificialintelligence #ai #automation #futuretech #innovation #technology #engineering #machinelearning #roboticsengineering #digitaltransformation #emergingtech #techinnovation #industry40 #ubtech #humanrobotinteraction #advancedrobotics #futureofwork #smarttechnology #usmanalihaider
-…more
- 3
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/capgemini_airobotics-humanaichemistry-activity-7391515835636543489-N_1f,2026-06-17,7,"The post announces a significant milestone in industrial innovation, the deployment of the first intelligent humanoid robot in the nuclear sector, demonstrating the convergence of robotics, AI, computer vision, and digital twins.","The integration of humanoid robots like Hoxo in sensitive environments marks a significant shift in human-machine interaction, but what are the potential challenges in ensuring seamless human oversight and machine decision alignment in such critical industries?",0,0,"Play Video
-Video Player is loading.
-Loaded: 0%
-0:00
-PlayBack to start
-Stream Type LIVE
-Current Time 0:00
-/
-Duration -:-
- 
-1x
-Playback Rate
-Show Captions
-Unmute
-Fullscreen
-Capgemini
-9,185,324 followers
-7mo Edited
-Report this post
-Today, with Orano , we’re proud to announce a major milestone in industrial innovation: the deployment of the first intelligent humanoid robot in the nuclear sector. This achievement marks a significant step forward for a strategic industry that has long been a pioneer in innovation. Led by Capgemini’s AI Robotics and Experiences Lab, this project demonstrates the convergence of robotics, AI, computer vision, and digital twins. It redefines human-machine interaction in sensitive environments and pushes the boundaries of industrial automation. Watch the video below to see Hoxo in action at the site and discover how we’re working with Orano to shape the future of nuclear operations. https://lnkd.in/g22pGgWu #AIRobotics #HumanAIChemistry
-…more
-   1,348 35 Comments
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-NAMBURU NARASIMHA RAO 7mo
-Report this comment
-When Machines Learn to Carry Courage A milestone like this is not about a robot entering a nuclear facility, it is about humanity stepping into a larger version of itself. Hoxo is more than engineered metal and code. It is proof that intelligence can take shape, walk beside us, and extend human capability into places where risk once halted progress. In this fusion of robotics, vision systems, and digital twins, we witness a new covenant between human judgment and machine precision. Industry evolves when imagination dares to take physical form and today, the future just learned to stand upright.
-Like
-Reply
-2 Reactions 3 Reactions
-Alexandre Embry 7mo
-Report this comment
-This is a major step forward for industrial robotics, where #physicalAI meets human ingenuity. Congratulations to the Capgemini AI Robotics and Experiences Lab and Orano teams for making this breakthrough a reality.
-Like
-Reply
-10 Reactions 11 Reactions
-OneLIST Consultant 7mo
-Report this comment
-Incredible innovation! The development of AI and robotics that will change the future of nuclear operations in a genuine leap forward. Capgemini
-Like
-Reply
-1 Reaction 2 Reactions
-Twril Tech Solution LLP 7mo
-Report this comment
-This is next-level innovation! A perfect example of how human ingenuity and AI collaboration are redefining industrial possibilities
-Like
-Reply
-1 Reaction 2 Reactions
-Giovanni Pitton 7mo
-Report this comment
-Not seeing anything in this video aside prebuild routine in the Unitree G1, waving hands, giving hand and walking, or am I wrong?
-Like
-Reply
-1 Reaction 2 Reactions
-Suppriya Arondekar👉 Career Branding Specialist 2mo
-Report this comment
-Capgemini The combination of AI and robotics in critical industries highlights how operational roles are evolving. Success will depend on how well human oversight and machine decisions stay aligned.
-Like
-Reply
-1 Reaction
-Manickam J 7mo
-Report this comment
-Humanoid Robots can only help human’s , they can’t replace 100 % human force. That applys for the AI tools
-Like
-Reply
-1 Reaction 2 Reactions
-Alex Bulat- van den Wildenberg 7mo
-Report this comment
-Amazing Alexandre Embry and team congratulations ❤️🙌 This is amazing news 🗞️❤️🙌 This is truly a pioneering collaboration…!
-Like
-Reply
-4 Reactions 5 Reactions
-Victor Moreno 7mo
-Report this comment
-Impressive milestone! The integration of AI, robotics, and digital twins in such a sensitive and strategic sector truly showcases how innovation can transform industry standards. Congratulations to the teams at Capgemini and Orano for leading the way! 👍
-Like
-Reply
-1 Reaction 2 Reactions
-Slimane IDIR 7mo
-Report this comment
-A remarkable milestone for the nuclear industry! 👏 Congratulations to the Capgemini and Orano teams for pushing the boundaries of innovation with HOXO, a perfect example of how AI and robotics can transform industrial operations. 🤖⚛️
-Like
-Reply
-1 Reaction 2 Reactions
-See more comments
-To view or add a comment, sign in",global
+https://www.linkedin.com/company/werideai/,2026-05-26,8,WeRide CEO sharing commercial robotaxi deployment updates in Guangzhou and global markets.,"Scaling driverless commercial robotaxis requires robust remote assistance nodes and low-latency safety streaming. Having deployments in multiple cities worldwide shows WeRide's regulatory and technical maturity, Tony.",3800,190,"WeRide is expanding its driverless robotaxi operations. We have received approval to operate commercial driverless passenger services in Guangzhou, and are scaling our fleets in Abu Dhabi and Singapore. Autonomous mobility is no longer a pilot; it's a public utility.",chinese
+https://www.linkedin.com/company/nio/,2026-05-27,8,NIO CEO sharing video of automated battery swapping station operated by robotic arms.,"Replacing a battery pack in under 3 minutes using robotic automation is a major convenience moat, William. The alignment precision of the torque-controlled bolts on the robotic gantry is impressive.",5100,320,"NIO has completed over 40 million battery swaps globally. Our Gen 4 swapping stations are fully automated: the car parks itself, and a robotic gantry swaps the battery pack in 2 minutes and 40 seconds. We are combining smart EV technology with industrial robotics.",chinese
+https://www.linkedin.com/company/li-auto/,2026-05-28,8,CEO of Li Auto sharing video of end-to-end autonomous driving model in heavy traffic.,"End-to-end neural networks (mapping camera streams directly to steering/braking controls) handle dense traffic much more naturally than rule-based planners. The vehicle's lane merge in the video was incredibly smooth, Xiang.",4500,290,"Li Auto's new end-to-end (E2E) autonomous driving model is now rolling out to our L-series customers. The E2E network processes camera frames and outputs steering angle and speed directly, resulting in smoother human-like driving, especially in chaotic urban traffic environments.",chinese
+https://www.linkedin.com/company/jd.com/,2026-05-30,8,JD.com founder sharing video of fully automated sorting center and driverless delivery vans.,"The density of AMRs in JD's smart fulfillment centers is remarkable, Richard. Coordinating hundreds of robots in a dynamic layout without collisions requires excellent central task orchestration. Thanks for sharing the video.",4900,280,JD Logistics is expanding its driverless delivery network. Our automated fulfillment centers now handle over 90% of sorting tasks using smart robotic AMRs. We are deploying autonomous delivery vans in municipal zones to bridge the last-mile logistics gap efficiently.,chinese
+https://www.linkedin.com/company/360-security-group/,2026-06-01,8,"CEO of 360 Group discussing AI safety, LLM security, and cybersecurity agents.","Secure-by-design AI agents are critical, Hongyi. An LLM agent with direct database write access must be surrounded by robust input-validation wrappers and sandbox controls. Appreciate your focus on security.",4100,310,"As AI models get more autonomous, LLM security is becoming the new cybersecurity frontier. At 360 Group, we are building specialized security agents that monitor LLM inputs and outputs to prevent prompt injection, data leakage, and unauthorized tool calls in enterprise networks.",chinese
+https://www.linkedin.com/company/horizon-robotics/,2026-06-06,8,Horizon Robotics CEO sharing details on new auto chip launch and autonomous driving partnerships.,"The Journey 6 chip's design (specifically the hardware acceleration for transformer blocks) is crucial for end-to-end autonomous driving networks, Yu. Are you seeing Chinese OEMs move completely to end-to-end models (like UniAD) on this silicon?",3900,210,"We are launching the Horizon Journey 6 chip series, designed specifically for intelligent driving systems. With custom hardware engines that optimize neural networks (especially vision transformers), Journey 6 enables low-power, high-compute autonomous driving. We are proud to partner with leading automakers.",chinese
+https://www.linkedin.com/company/megvii-technology/,2026-06-07,8,Megvii CEO sharing updates on automated warehouse management systems using physical AI models.,"Integrating deep-learning-based 3D bin packing with multi-agent AMR routing is where true efficiency lies, Yin. Standard heuristic systems fail when item geometry is highly variable. Your physical AI approach is showing the way.",2800,150,"Megvii is applying Physical AI models to warehouse logistics. Our smart AMRs and robotic arms are now using a shared coordinate system and visual world models to optimize automated picking, sorting, and high-density storage. The software is learning to understand physical space.",chinese
+https://www.linkedin.com/company/sensetime/,2026-06-08,8,SenseTime CEO sharing updates on SenseNova 5.5 model launch and edge-side deployment.,"SenseNova 5.5's edge-side execution capabilities open up great possibilities for local robotic control loops, Xu. Running a high-performance vision-language-action (VLA) model locally under low latency is crucial. How many parameters are dedicated to the visual encoder?",3100,180,"We are releasing SenseNova 5.5, which features advanced real-time multimodal reasoning. Our model optimizes edge-side deployment, allowing smart devices and collaborative robots to process visual and audio streams locally with sub-100ms latency. We are empowering edge intelligence.",chinese
+https://www.linkedin.com/in/rama-akkiraju-308119/,2026-04-27,8,"AI executive discussing data governance, copyright issues, and ethical compliance.","Watermarking training datasets and tracking model provenance is critical for enterprise legal compliance. A robust compliance dashboard is as important as the model evaluation stack itself. Appreciate your focus on this, Rama.",3100,195,"AI governance is no longer just a policy conversation; it's a technical requirement. Enterprises need tools to track data lineage, verify training rights, detect bias in model outputs, and enforce compliance guidelines in real-time agent deployments.",global
+https://www.linkedin.com/in/miteshk/,2026-04-28,8,Professor sharing updates on academic AI research and publishing trends globally.,"Fostering academic-industry partnerships is vital to commercialize deep tech research. The work you are doing in training the next generation of deep learning researchers is highly commendable, Mitesh.",2400,120,"Academic AI research must shift from simple benchmarking to solving real-world domain problems. We are building deep partnerships between universities and robotics firms to commercialize research in computer vision, edge SLAM, and physical control algorithms.",global
+https://www.linkedin.com/in/mattschlicht/,2026-04-29,8,AI newsletter editor discussing background agent infrastructure and API tools.,"The rise of Model Context Protocol (MCP) by Anthropic is unifying how agents connect to local tools and databases, Matt. It solves the fragmentation problem of custom API connectors. Great analysis.",3500,190,"The infrastructure layer for AI agents is consolidating. With standards like the Model Context Protocol (MCP), developers can now build a single tool wrapper that can be utilized by Claude, OpenAI, and local LLMs without rewriting code. This accelerates agent interoperability.",global
+https://www.linkedin.com/in/bentossell/,2026-04-30,8,AI tools directory editor sharing workflow optimization list. Broad appeal.,"Orchestrating tools with simple system integrations (like Make/Zapier or MCP) is where most companies find immediate ROI. Great checklist of tools, Ben.",4100,210,"Here are 5 AI tools that will save you 10 hours of work this week: 1. Perplexity for research. 2. Cursor for coding. 3. Claude for writing. 4. Granola for meeting notes. 5. Gamma for presentation designs. Stop working hard, start working smart.",global
+https://www.linkedin.com/in/linusekenstam/,2026-05-01,8,Designer discussing AI product UI/UX and text-based vs canvas interfaces.,"The chatbot interface is just a temporary stepping stone, Linus. The true UX for AI is proactive: background agents performing tasks and presenting results in dynamic canvas interfaces. Thanks for driving this conversation.",4900,310,"AI product design is moving away from the simple chat box. The chat interface requires too much cognitive load from the user. We are transitioning to canvas-based layouts, generative interfaces, and background agents that present completed drafts for approval.",global
+https://www.linkedin.com/in/matt-wolfe-ai/,2026-05-02,8,AI content creator discussing generative video tools and spatial consistency.,"Spatial consistency in video generators is critical because it means the AI model is learning a physics simulator implicitly. This will feed back into synthetic training data pipelines for humanoid robotics. Great comparison, Matt.",3800,250,"Generative video tools (Sora, Runaway Gen-3, Luma Dream Machine) are achieving incredible spatial consistency. You can now generate a scene from multiple camera angles and have the objects retain their structure. This is a massive step for digital cinematography.",global
+https://www.linkedin.com/in/ronald-van-loon-597b38/,2026-05-04,8,Data influencer sharing video of automated factory floor and discussing IIoT.,"Integrating factory telemetry (Industrial IoT) with large language model interfaces allows operators to query factory line status in natural language. This is a massive win for manufacturing uptime, Ronald.",8900,580,"Industrial IoT and Big Data are the foundations of the smart factory. By combining real-time sensor streams from robotic lines with predictive maintenance models, manufacturers can predict machine failures days before they occur, saving millions in downtime.",global
+https://www.linkedin.com/in/bernardmarr/,2026-05-05,8,Futurist outlining AI and robotics trends for the upcoming years. Good broad engagement.,"The convergence of LLM-based reasoning and humanoid mechanical platforms is the defining tech trend of this decade. It unlocks automation for non-structured physical work. Thanks for the summary, Bernard.",5400,340,What is the future of AI and robotics? Here are the top 5 trends: 1. Embodied AI and commercial humanoids. 2. Native multimodal large models. 3. Autonomous agent coordination networks. 4. AI-accelerated scientific research. 5. Edge computing and micro-model deployments.,global
+https://www.linkedin.com/in/pascalbornet/,2026-05-06,8,Thought leader discussing intelligent automation and AI agent deployment frameworks.,"Intelligent automation requires transitioning from rigid robotic process automation (RPA) workflows to goal-driven LLM planner agents. RPA breaks when the web UI changes; LLM agents adapt dynamically. Great point, Pascal.",3900,210,"Intelligent Automation is moving from simple RPA rules to autonomous cognitive agents. RPA could copy and paste data between screens; cognitive agents can make decisions, resolve invoice discrepancies, and coordinate across systems to complete business goals.",global
+https://www.linkedin.com/in/emollick/,2026-05-07,8,Wharton professor writing about using AI in classrooms and co-intelligence frameworks.,"AI as an active co-intelligence tutor that queries the student and provides hints is far more educational than a simple answer-generation box. Spot-on pedagogy, Ethan.",4500,310,"Instead of banning AI in schools, we must teach students how to work alongside AI as a co-intelligence partner. Those who learn to orchestrate AI models, check their output, and leverage them for brainstorming will be 10x more productive in the future workforce.",global
+https://www.linkedin.com/in/stevenouri/,2026-05-08,8,Popular AI influencer sharing curated technical cheat sheets. High reach and engagement.,"Excellent compilation, Steven. Visual cheat sheets are highly effective for onboarding junior developers to complex ML concepts like attention mechanisms and vector search index layouts. Thanks for sharing.",15000,680,"Here are the top 10 AI cheat sheets every developer needs in 2026, covering LLM fine-tuning, retrieval-augmented generation (RAG), vector database comparison, and agentic workflows. Download the high-res PDF versions in the comments.",global
+https://www.linkedin.com/in/joelle-pineau-1b07297/,2026-05-13,8,"AI researcher discussing reproducibility, open science, and peer review in machine learning.","Reproducibility is the bedrock of scientific progress, Joelle. Requiring code, environment configs, and training logs alongside papers is crucial to filter out cherry-picked baseline results. Thank you for advocating for this.",2800,190,"As AI research accelerates, the reproducibility crisis in machine learning is worsening. We must make it standard practice to publish code, hyperparameter settings, and data split files alongside our papers. Open science is only open if it is reproducible.",global
+https://www.linkedin.com/in/percy-liang-22a846b/,2026-05-14,8,Stanford professor discussing model evaluation benchmarks and safety alignment tracking.,"Standard static benchmarks (like MMLU) are saturated and subject to data contamination. We need dynamic evaluation benchmarks like HELM that continuously test models with out-of-distribution reasoning prompts. Excellent work, Percy.",3100,210,"Model evaluation is broken. Standard benchmarks are increasingly leaked into the training datasets. Our latest Holistic Evaluation of Language Models (HELM) introduces dynamic evaluations to measure safety, bias, reasoning accuracy, and code execution across 50+ open and closed models.",global
+https://www.linkedin.com/in/socher/,2026-05-16,8,AI researcher and founder sharing updates on multi-agent search systems and reasoning.,"Orchestrating multiple specialized agents (e.g. Writer agent, Search agent, Code runner agent) yields far better structured research reports than a single prompt. Spot-on architecture demonstration, Richard.",2900,195,"Our new multi-agent search engine doesn't just fetch answers. It spawns a researcher agent, a writer agent, and a fact-checker agent that work in parallel to compile a comprehensive, cited report on any topic. This is the future of digital knowledge workers.",global
+https://www.linkedin.com/in/noamshazeer/,2026-05-17,8,AI pioneer discussing reasoning architectures and user engagement patterns in dialog agents.,"The latency budget for chat agents dictates the complexity of the reasoning path. Dynamic routing (using quick models for chit-chat and heavy reasoning models for multi-step prompts) is essential. Great insights, Noam.",4900,320,"The next major breakthrough is not just predicting the next word, but incorporating reasoning steps into the inference cycle. By allocating computation time dynamically based on prompt complexity, models will behave more like human thinkers who pause to reflect before answering.",global
+https://www.linkedin.com/in/aidangomez/,2026-05-18,8,Cohere CEO sharing insights on fine-tuning LLMs for specific enterprise domains.,"Fine-tuning models on proprietary enterprise data with parameter-efficient techniques (like LoRA) is far more secure and accurate for corporate compliance than general APIs. Appreciate Cohere's enterprise-first focus, Aidan.",3500,210,"Enterprises don't need general chatbot models; they need models that speak their corporate language, understand their databases, and respect data privacy constraints. Fine-tuning models on proprietary data is the only way to build secure, domain-specific AI.",global
+https://www.linkedin.com/in/vinodkhosla/,2026-05-19,8,"Veteran venture capitalist sharing predictions on AI, economic impact, and future labor markets.","Free cognitive labor will indeed restructure the services sector, Vinod. The key is how quickly we can scale physical robotics hardware to automate manual labor. The bottleneck is the high cost of mechanical actuators.",6800,690,"In 10 years, AI will be able to perform almost all cognitive labor. Medical diagnostics, legal contracts, coding, and teaching will be near-free. This will lead to unprecedented abundance, but we must prepare for the massive shift in labor markets and tax systems.",global
+https://www.linkedin.com/in/aravindsrinivas/,2026-05-20,8,"Perplexity CEO sharing thoughts on conversational search, citation accuracy, and search user experience.","The core value of Perplexity is citation verification. By grounding LLM reasoning in index search results, you minimize hallucinations. How do you plan to scale the indexing infrastructure to handle real-time social media search?",4800,395,"Traditional search is dead. People don't want a list of 10 links; they want direct, verified answers with citations. Conversational search is about combining large language models with real-time web indexes to give users the ground truth instantly.",global
+https://www.linkedin.com/in/thomasdohmke/,2026-05-21,8,GitHub CEO sharing progress on Copilot Workspace and the future of developer workflows.,"Moving from inline code completion to repository-level workspace agents is the right direction, Thomas. The developer shifts from a writer of code to a reviewer and system architect. How do you plan to handle complex multi-file debugging loops in legacy codebases?",5200,310,"GitHub Copilot Workspace is our vision for natural language coding. Developers can now express their ideas in plain English, and the workspace agent will plan the edits, modify files, run tests, and open a Pull Request. Coding is becoming accessible to everyone.",global
+https://www.linkedin.com/in/mustafasuleyman/,2026-05-22,8,"CEO of Microsoft AI discussing user interaction models, voice agents, and the future of consumer AI.","Voice interaction with latency below 300ms is the tipping point where AI feels like a natural conversation partner. The challenge is handling speech interruptions and context tracking during long dialogs. Exciting updates, Mustafa.",6300,510,"We are designing Copilot to be an emotional and intellectual assistant that supports you throughout the day. With natural voice interfaces and real-time vision capabilities, your AI companion will be able to see what you see, listen to you, and help you interact with the digital world.",global
+https://www.linkedin.com/in/chris-and-97a61a/,2026-05-26,8,"Drone pioneer and AI executive discussing drone software, edge computation, and computer vision.","Edge AI chipsets (like Jetson Orin Nano) are really unlocking real-time SLAM and obstacle avoidance on micro-drones. The next frontier is visual-inertial odometry that runs under 5W. Exciting times, Chris.",3100,210,"Drones are transitioning from simple remote-controlled cameras to autonomous edge devices. By running computer vision models directly on small companion computers, drones can now map structures and navigate indoor environments without GPS or cloud connection.",global
+https://www.linkedin.com/in/meloneewise/,2026-05-27,8,Robotics executive discussing AMR interoperability standards (VDA 5050) and warehouse software automation.,"VDA 5050 is a start, Melonee, but it's too rigid for high-dynamic setups. We need a unified API standard at the orchestration layer that handles active obstacle avoidance and path negotiation dynamically. Glad to see you driving this discourse.",2900,180,"If we want warehouse automation to scale, we need interoperability. A single warehouse shouldn't require five different proprietary fleet managers for five different types of robots. Open standards like VDA 5050 are critical to allow AMRs from different vendors to work together.",global
+https://www.linkedin.com/in/rodney-brooks-11488b3/,2026-05-29,8,"Robotics pioneer sharing realistic takes on humanoid robots, hardware limitations, and physical constraints.","Your pragmatism is always refreshing, Rodney. The mechanical reliability (joints, gears, heat dissipation) is indeed a bigger bottleneck than the neural network brains. Humanoids in real warehouses need to hit a 10,000-hour mean time between failures (MTBF) to make economic sense.",3500,280,"Every tech investor is excited about humanoid robots right now. But hardware is hard. Building a robot that can walk is easy; building one that can run 20 hours a day, 7 days a week, in a dusty warehouse, with a payload, and not break down for years, is a massive mechanical challenge.",global
+https://www.linkedin.com/in/alliekmiller/,2026-04-24,8,AI leader reviewing agent orchestration libraries like LangGraph and CrewAI.,"The challenge with graph-based agent libraries is debugging state transitions when the loop gets stuck. Simple, explicit state machines are often more reliable in production. Great review of the ecosystem, Allie.",3500,230,"Which agent orchestration library should you choose? LangGraph is great for cyclic, graph-based agents; CrewAI is perfect for role-playing, multi-agent setups; and Semantic Kernel is ideal for enterprise C# integration. Choose the library that matches your backend architecture.",global
+https://www.linkedin.com/in/rowancheung/,2026-06-04,8,AI newsletter recap. Great for understanding global AI trends and summarizing recent news.,"Great recap as always, Rowan. The progress in text-to-video models (Sora, Kling, Luma) is closing the gap for spatial simulators. It will be interesting to see how robotics teams use these video generators for synthetic data and world model pretraining.",5400,310,The 5 biggest AI updates of the week: 1. OpenAI launches GPT-4o voice mode globally. 2. Figure AI deploys humanoids to BMW production line. 3. DeepSeek releases Open-Source V3 model. 4. Google updates Gemini 1.5 Pro with 2M context. 5. Luma Dream Machine video generator goes viral.,global
+https://www.linkedin.com/company/baidu/,2026-06-03,8,"Baidu CTO sharing updates on industrial AI applications, agent templates, and cloud scalability.","Deploying ERNIE-powered agents directly into manufacturing telemetry pipelines is a great use-case, Haifeng. Natural language diagnostics for machine operators drastically reduces repair search time. Appreciate you sharing the metrics.",2400,140,"We are expanding the industrial application templates for the ERNIE platform. By providing pre-built agent architectures for quality inspection, machine diagnostics, and supply chain routing, we are making it easy for energy and manufacturing sectors to deploy AI.",chinese
+https://www.linkedin.com/in/clementdelangue/,2026-06-02,8,Hugging Face CEO discussing open source AI models and community-driven progress. Excellent thought leadership.,"Open source is indeed driving the developer ecosystem, Clement. The rise of DeepSeek and Llama models proves that closed-source APIs are losing their moat. Hugging Face remains the absolute hub for this collaborative ecosystem.",6200,410,"Open-source AI models are now matching or outperforming proprietary APIs on core benchmarks. The community-driven approach is more collaborative, secure, and cost-effective. Hugging Face now hosts over 1 million models, and the momentum is unstoppable.",global
 https://www.linkedin.com/posts/automationnewsmedia_humanoid-robotics-activity-7392580345239535616-iutT,2026-06-15,7,"The post announces a significant collaboration between Humanoid and SAP, exploring the integration of cognitive humanoid robots into industrial environments, with a substantial estimated market size.","The integration of cognitive humanoid robots into industrial environments has the potential to revolutionize industries, but what are the key technical challenges that need to be addressed to ensure seamless deployment and operation of these robots?",0,0,"Automation News
 871 followers
 7mo
@@ -586,74 +101,5 @@ This collaboration between Humanoid and SAP marks a significant step towards int
 Like
 Reply
 1 Reaction
-See more comments
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/brendanschulman_figure-ai-raises-whopping-675m-to-commercialize-activity-7168980241279868930-iufL,2026-06-17,6,"The post discusses a significant funding event in the robotics space, indicating a strong signal for the industry's growth and potential for innovation, particularly in humanoids.","The commercialization of humanoids is an exciting development, and Figure AI's significant funding is a testament to the industry's potential. As we move forward with humanoid robotics, what role do you think AI-driven autonomy will play in shaping their applications and capabilities?",0,0,"Brendan Schulman
-2y
-Report this post
-It's an exciting time to be in robotics! And this is going to be a big year.
-Steve Crowe
-2y
-What's that about funding slowing down in robotics? Holy moly. Figure officially closes $675M Series B at $2.6B valuation. 🤖 #robotics #robots #humanoids #technology #engineering #startups
-Figure AI raises whopping $675M to commercialize humanoids https://www.therobotreport.com
-   21
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/4matic-robotics_4maticrobotics-industrialautomation-robotics-activity-7355552448985317379-ap2v,2026-06-17,4,"The post introduces a new startup, 4Matic Robotics, with a focus on industrial automation and robotics, but lacks technical details and engagement.",,0,0,"4Matic Robotics
-8 followers
-10mo
-Report this post
-🎉 Introducing 4Matic Robotics – Shaping the Future of Smart Industry 🤖 We are proud to launch 4Matic Robotics, a cutting-edge startup committed to transforming industries through intelligent automation, precision engineering, and future-ready robotics solutions. 🚀 From PLC programming to SCADA systems, robotic integration to industrial innovation — we bring automation that empowers businesses, enhances productivity, and redefines possibilities. #4MaticRobotics #IndustrialAutomation #Robotics #EngineeringInnovation #AutomationSolutions #SmartIndustry #StartupIndia #FutureOfWork
- 7 2 Comments
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-Valid Maniyar 10mo
-Report this comment
-Impressive
-Like
-Reply
-1 Reaction
-Valid Maniyar 10mo
-Report this comment
-Congrats! 🎉
-Like
-Reply
-1 Reaction
-See more comments
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/boston-dynamics_careers-boston-dynamics-activity-7231363693345714178-eWGe,2026-06-17,2,"The post is from a well-known robotics company, but it's primarily a warning about job scams and doesn't contain any novel or technical information.",,0,0,"Boston Dynamics
-653,848 followers
-1y
-Report this post
-There has been a recent uptick in people impersonating our staff members and offering false employment opportunities. These scams are increasingly common, so please be cautious. All candidates should apply through our LinkedIn Jobs page or our official website: https://lnkd.in/eBvmbvHb We are grateful for the high level of interest in working for Boston Dynamics. Boston Dynamics employs a thorough selection process and we believe interviewing is a two way street. We would never extend an offer of employment without giving our candidates an opportunity to meet us.  
-Careers | Boston Dynamics bostondynamics.com
-   164 3 Comments
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-Navaneeswar Palla 1y
-Report this comment
-Clear sign of professionalism........👌
-Like
-Reply
-1 Reaction 2 Reactions
-jean V. 1y
-Report this comment
-Je partage ce contenu
-Like
-Reply
-1 Reaction 2 Reactions
 See more comments
 To view or add a comment, sign in",global

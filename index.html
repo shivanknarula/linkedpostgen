@@ -1133,6 +1133,10 @@
                 // Extract a snippet of original text
                 const textSnippet = row.text ? row.text.substring(0, 150) + "..." : "No post body extracted.";
 
+                // Clean up URLs ending in /recent-activity/all/ to point to public profiles/companies
+                const displayUrl = row.url ? row.url.replace('/recent-activity/all/', '/') : '';
+                const isProfileUrl = displayUrl && (displayUrl.includes('/in/') || displayUrl.includes('/company/')) && !displayUrl.includes('/posts/') && !displayUrl.includes('/feed/') && !displayUrl.includes('/pulse/');
+
                 tr.innerHTML = `
                     <td style="vertical-align: middle;">
                         <span class="score-badge ${scoreClass}">${scoreVal}</span>
@@ -1141,24 +1145,17 @@
                         <div style="font-weight: 600; font-family: 'Space Grotesk', sans-serif; text-transform: capitalize; margin-bottom: 0.25rem;">
                             ${domainName}
                         </div>
-                        ${row.url && row.url.includes('/recent-activity/all/') ? `
-                            <div style="display: flex; flex-wrap: wrap; gap: 0.5rem 0.75rem; margin-bottom: 0.75rem; align-items: center;">
-                                <a href="${row.url}" target="_blank" style="font-size: 0.82rem; color: var(--accent-primary); text-decoration: none; display: inline-flex; align-items: center; gap: 0.25rem;" title="Go to the profile/company recent activity feed.">
-                                    Go to Profile Feed <i data-lucide="external-link" style="width: 12px; height: 12px;"></i>
+                        ${isProfileUrl ? `
+                            <div style="display: flex; flex-direction: column; gap: 0.25rem; margin-bottom: 0.75rem;">
+                                <a href="${displayUrl}" target="_blank" style="font-size: 0.82rem; color: var(--accent-primary); text-decoration: none; display: inline-flex; align-items: center; gap: 0.25rem;" title="Go to the public profile page.">
+                                    Go to Profile <i data-lucide="external-link" style="width: 12px; height: 12px;"></i>
                                 </a>
-                                <span style="color: var(--text-muted); font-size: 0.82rem;">|</span>
-                                <a href="https://www.linkedin.com/search/results/content/?keywords=${encodeURIComponent(
-                                    (domainName && !domainName.includes('Feed') && !domainName.includes('Article') ? domainName + ' ' : '') + 
-                                    (row.text ? row.text.replace(/[^\w\s]/gi, '').split(/\s+/).slice(0, 10).join(' ') : '')
-                                )}" target="_blank" style="font-size: 0.82rem; color: var(--accent-violet); text-decoration: none; display: inline-flex; align-items: center; gap: 0.25rem;" title="Search for this specific post directly on LinkedIn.">
-                                    Search Post on LinkedIn <i data-lucide="search" style="width: 12px; height: 12px;"></i>
-                                </a>
-                                <span style="font-size: 0.72rem; color: var(--text-muted); display: block; width: 100%; margin-top: -0.15rem; font-style: italic;">
-                                    (Seeded demo post: use Search to find it or browse the feed)
+                                <span style="font-size: 0.72rem; color: var(--text-muted); font-style: italic;">
+                                    (Seeded demo post: redirects to author's profile)
                                 </span>
                             </div>
                         ` : `
-                            <a href="${row.url}" target="_blank" style="font-size: 0.82rem; color: var(--accent-primary); text-decoration: none; display: inline-flex; align-items: center; gap: 0.25rem; margin-bottom: 0.75rem;">
+                            <a href="${displayUrl}" target="_blank" style="font-size: 0.82rem; color: var(--accent-primary); text-decoration: none; display: inline-flex; align-items: center; gap: 0.25rem; margin-bottom: 0.75rem;">
                                 Go to Post <i data-lucide="external-link" style="width: 12px; height: 12px;"></i>
                             </a>
                         `}
