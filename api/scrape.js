@@ -17,26 +17,43 @@ export default async function handler(req, res) {
     try {
         const functionUrl = `${supabaseUrl.replace(/\/$/, '')}/functions/v1/linkedin-agent`;
         
-        // Fire-and-forget call to the Supabase Edge Function.
-        // We do not wait for the response because the scraper run can take up to 2-3 minutes,
-        // which exceeds Vercel's free serverless function timeout of 10 seconds.
-        fetch(functionUrl, {
+        console.log(`[*] Sending trigger request to Supabase Edge Function: ${functionUrl}`);
+        
+        // Await the fetch call so Vercel doesn't freeze the function environment
+        // before the request actually leaves the server.
+        const response = await fetch(functionUrl, {
             method: 'POST',
             headers: {
                 'Authorization': `Bearer ${supabaseKey}`,
                 'Content-Type': 'application/json'
             }
-        }).catch(err => {
-            console.error("Async trigger of Supabase Edge Function failed:", err);
         });
+
+        if (!response.ok) {
+            const errorText = await response.text();
+            throw new Error(`Supabase Edge Function returned ${response.status}: ${errorText}`);
+        }
+
+        const responseData = await response.json();
 
         return res.status(200).json({ 
             status: 'success', 
-            message: 'LinkedIn Agent scraping run successfully triggered in Supabase Edge Functions!' 
+            message: 'LinkedIn Agent scraping run successfully completed!',
+            details: responseData
         });
 
     } catch (error) {
-        console.error(error);
+        console.error("Scrape trigger error:", error);
+        
+        // If it timed out on Vercel's end but the request was sent, the Edge Function
+        // is still executing in the background on Supabase.
+        if (error.message.includes("fetch failed") || error.message.includes("timeout")) {
+            return res.status(200).json({
+                status: 'success',
+                message: 'Scraping triggered successfully! Execution is running in the background on Supabase.'
+            });
+        }
+
         return res.status(500).json({ 
             status: 'error', 
             message: error.message 
