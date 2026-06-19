@@ -515,6 +515,80 @@ TEXT:
 Think of an LLM not as a chatbot, but as the kernel of a new operating system (the LLM OS). It coordinates tools, memory (context window and vector search), and compute (code execution). The future is about building this operating system stack, making it efficient, secure, and fast.
 ================================================================================
 
+LINK: https://www.linkedin.com/posts/learnsyslab_ros2-lerobot-vlas-activity-7373994314848296960-mY8C
+DATE: 2026-06-19
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post presents a novel and technically deep solution for deploying learning-based policies on real robots, with a high relevance to robotics and AI. The inclusion of code links, a paper, and a website adds to the technical depth and research signal.
+CATEGORY: global
+AI COMMENT:
+The CRISP framework seems to address a significant gap in the deployment of learning-based policies on real robots. I'm curious to know how the authors plan to handle the potential trade-offs between compliance and precision in torque-based control, and how this might impact the overall performance of the system?
+TEXT:
+Play Video
+Video Player is loading.
+Loaded: 0%
+0:00
+PlayBack to start
+Stream Type LIVE
+Current Time 0:00
+/
+Duration -:-
+ 
+1x
+Playback Rate
+Show Captions
+Unmute
+Fullscreen
+Learning Systems and Robotics Lab
+6,388 followers
+9mo Edited
+Report this post
+Looking for an easy-to-use way to deploy your VLAs and diffusion policies on real robots (maybe even before the ICRA video deadline next week 👀)? 🚀 Excited to share our latest work: 𝗖𝗥𝗜𝗦𝗣 - 𝗖𝗼𝗺𝗽𝗹𝗶𝗮𝗻𝘁 𝗥𝗢𝗦2 𝗖𝗼𝗻𝘁𝗿𝗼𝗹𝗹𝗲𝗿𝘀 𝗳𝗼𝗿 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴-𝗕𝗮𝘀𝗲𝗱 𝗠𝗮𝗻𝗶𝗽𝘂𝗹𝗮𝘁𝗶𝗼𝗻 𝗣𝗼𝗹𝗶𝗰𝗶𝗲𝘀 𝗮𝗻𝗱 𝗧𝗲𝗹𝗲𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻! Why CRISP? Most learning-based policies (diffusion, VLAs, etc.) output low-frequency or discontinuous commands, which don’t play nicely with real hardware. CRISP bridges that gap with lightweight, compliant, torque-based controllers built on #ROS2 control. Features: 🐍 𝗣𝘆𝘁𝗵𝗼𝗻 𝗶𝗻𝘁𝗲𝗿𝗳𝗮𝗰𝗲 — control your robot around without worrying about topics, spinning, etc., but still keep full ROS2 flexibility. 🔁 𝗚𝘆𝗺𝗻𝗮𝘀𝗶𝘂𝗺 𝗲𝗻𝘃𝗶𝗿𝗼𝗻𝗺𝗲𝗻𝘁 — use teleoperation to record robot and visual data in #LeRobot format & seamlessly deploy learning-based policies. 🎥 𝗗𝗲𝗺𝗼-𝗿𝗲𝗮𝗱𝘆 — examples for single-arm & bimanual manipulation with the Franka FR3. 🤖 𝗖𝗮𝗿𝘁𝗲𝘀𝗶𝗮𝗻 & 𝗷𝗼𝗶𝗻𝘁-𝘀𝗽𝗮𝗰𝗲 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗹𝗲𝗿𝘀 – built for torque control and smooth, compliant interaction. 🚫 𝗡𝗼 𝗠𝗼𝘃𝗲𝗜𝘁 𝗼𝗿 𝗵𝗲𝗮𝘃𝘆 𝗽𝗹𝗮𝗻𝗻𝗶𝗻𝗴 𝘀𝘁𝗮𝗰𝗸𝘀 required, ready to use. Our goal: Make deploying learning-based methods on real robots as frictionless as possible, reducing the gap between data collection, simulation, and deployment. 📄 Paper: https://lnkd.in/dmn8VReC 💻 Code: https://lnkd.in/dxwthhwb 🌐 Website: https://lnkd.in/dAuxRB9W This work is the result of a great team effort by Daniel San José Pro, Oliver Hausdörfer, Ralf Römer, Maximilian Dösch, and Martin Schuck! Angela Schoellig, Technical University of Munich, Munich Institute of Robotics and Machine Intelligence (MIRMI) at the Technical University of Munich, Robotics Institute Germany, University of Toronto Institute for Aerospace Studies, Franka Robotics #VLAs #robotics #manipulation #machinelearning #opensource
+…more
+   72
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/rohin-siddhartha-019071183_physicalai-embodiedai-vla-activity-7471779517997625344-_nOJ
+DATE: 2026-06-19
+METRICS: 0 Likes, 0 Comments
+SCORE: 8/10 - The post presents a unique project with high technical depth, directly relevant to robotics and AI, with a detailed explanation of the challenges and solutions, including specific technical insights and lessons learned.
+CATEGORY: global
+AI COMMENT:
+The use of relative pose deltas for action representation is a clever approach to improve robustness to randomized board positions, but I'd love to explore how this method could be further generalized to more complex manipulation tasks, such as those involving deformable objects or uncertain environments, what are your thoughts on this?
+TEXT:
+Rohin Siddhartha
+4d
+Report this post
+Excited to share a project that pushed us outside our comfort zone during the Intrinsic AI for Industry Challenge (AIC). 🤖 The challenge: train a robot to autonomously insert cable connectors into target ports — a manipulation problem requiring sub-millimeter precision, contact-aware behavior, and generalization across randomized environments. Over the past few weeks, I worked alongside Narendar Sriram, Sai Shruthi Balaji, Sharon Richu S. and Varun Gampa to build an end-to-end imitation learning pipeline for precision robotic manipulation: inserting SFP and SC plugs into randomized ports on a task board. We didn’t qualify for the next phase — but that isn’t the takeaway. Coming from robotics, controls, and AI backgrounds, this was an opportunity to apply those fundamentals to learning-based manipulation and understand firsthand where robot learning succeeds — and where it breaks. What we built: 🔧 Custom LeRobot integration Integrated ROS 2 control, multi-camera observations, and a 26D robot state directly into the training and data collection pipeline. 📡 Automated demonstration collection Built a passive observer pipeline that recorded ground-truth CheatCode actions as demonstrations, enabling consistent, low-noise supervision without manual teleoperation. 📐 SE(3) relative action representation Encoded actions as relative pose deltas instead of absolute targets, improving robustness to randomized board positions and reducing dependence on workspace coordinates. 🎬 Scalable dataset infrastructure Built an automated collection and curation pipeline covering hundreds of demonstrations and ~363K frames, with tooling to inspect trajectories and surgically remove failed episodes at the parquet + video level without re-recording datasets. 🧠 ACT policy training Trained Action Chunking Transformer (ACT) using multi-view observations and robot state for sequential manipulation. Three lessons that stood out: 1. Simulation fidelity matters. Physics quality and roll-out throughput directly affect learning outcomes. 2. Clean data beats more data. Consistent demonstrations mattered more than collecting additional episodes. 3. Diversity beats repetition. Interleaving environments improved generalization far more than collecting many samples per configuration. This challenge sharpened our understanding of the full robot learning stack — data, representation, training, and deployment. Huge thanks to the Intrinsic team for creating a genuinely challenging and well-designed competition. #PhysicalAI #EmbodiedAI #VLA #RobotLearning #ImitationLearning #RobotManipulation #LeRobot #ROS2 #ACTPolicy #FoundationModels #IntrinsicAIChallenge
+   38 2 Comments
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+Narendar Sriram 4d
+Report this comment
+Spot on takeaways. Always fun working with this team!
+Like
+Reply
+1 Reaction 2 Reactions
+Shreyas Ramesh 4d
+Report this comment
+Amazing stuff!
+Like
+Reply
+1 Reaction 2 Reactions
+See more comments
+To view or add a comment, sign in
+================================================================================
+
 LINK: https://www.linkedin.com/posts/divyanshukr12_zingrobot-robotics-humanoidrobot-activity-7341837564447739905-q4ha
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
@@ -1054,6 +1128,555 @@ TEXT:
 We are expanding the industrial application templates for the ERNIE platform. By providing pre-built agent architectures for quality inspection, machine diagnostics, and supply chain routing, we are making it easy for energy and manufacturing sectors to deploy AI.
 ================================================================================
 
+LINK: https://www.linkedin.com/posts/the-icons-global_unitreerobotics-wangxingxing-china2026cctvspringfestivalgala-activity-7439684732453498880-sST1
+DATE: 2026-06-19
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - The post highlights the founder of Unitree Robotics and their focus on motion capabilities for humanoid robots, indicating a strong robotics relevance and founder signal. The mention of standardisation and scalability also adds to the technical depth and China relevance.
+CATEGORY: chinese
+AI COMMENT:
+Wang Xingxing's emphasis on stable and diverse motion capabilities is crucial for real-world deployment of humanoid robots. As we move towards standardisation, what role do you think open-source platforms will play in driving innovation and scalability in the humanoid robotics industry?
+TEXT:
+The Icons
+21,703 followers
+3mo
+Report this post
+Unitree Robotics Founder and CEO Wang Xingxing, from being labelled a “poor English student” to serving as Vice Chair of the MIIT Humanoid Robotics Standardisation Committee, has maintained a consistent focus: only when motion capabilities are sufficiently stable and diverse can robots truly enter real work scenarios. As the technology moves from demonstration to real-world deployment, competition in humanoid robotics is entering a critical phase of standardisation and scalability. read more: https://reurl.cc/qpgaGR Unitree Robotics Robotics The Icons #UnitreeRobotics #WangXingxing #China2026CCTVSpringFestivalGala
+ 5
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/baidu-inc_the-future-we-shape-a-conversation-with-activity-7300519748369268739-Z2C1
+DATE: 2026-06-19
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - High scores in AI relevance, founder signal, and China relevance due to the discussion of AI breakthroughs and self-driving cars by Baidu's CEO Robin Li, with moderate novelty and technical depth.
+CATEGORY: chinese
+AI COMMENT:
+The integration of AI and robotics in autonomous vehicles is indeed a crucial aspect, and I appreciate Robin Li's insights on this topic. However, I'd like to delve deeper into the challenges of edge case handling in self-driving car technology - what role do you think transfer learning and multi-modal sensing will play in addressing these challenges?
+TEXT:
+Baidu, Inc.
+295,341 followers
+1y
+Report this post
+Didn't catch our CEO Robin Li's #WGS25 fireside chat? He talks AI breakthroughs, self-driving cars, and more—check out the full conversation here ↓
+…more
+The Future We Shape: A Conversation with Robin Li
+https://www.youtube.com/
+  9 1 Comment
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+中印慧智科技 4d
+Report this comment
+It's exciting to see Robin Li discussing AI breakthroughs and self-driving cars. The intersection of AI and robotics is crucial for the development of autonomous vehicles. I'd love to hear more about Baidu's approach to addressing edge cases in self-driving car technology.
+Like
+Reply
+1 Reaction
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/kaifulee_01-ai-01-ai-activity-7133449190742884352-qvZ4
+DATE: 2026-06-19
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - The post announces the launch of a finetuned chat model and quantized version, which is a significant development in the AI ecosystem. The involvement of Kai-Fu Lee, a prominent figure in the AI community, adds to the post's credibility and relevance. The discussion around responsible AI and the mention of specific technologies like Hugging Face also contribute to the post's technical depth and AI relevance.
+CATEGORY: chinese
+AI COMMENT:
+The launch of Yi-34B-Chat finetuned model is an exciting development, and the emphasis on responsible AI is crucial. As we continue to push the boundaries of LLMs, what role do you think explainability and transparency will play in ensuring the reliability and trustworthiness of these models?
+TEXT:
+Kai-Fu Lee Kai-Fu Lee is an Influencer
+2y
+Report this post
+2.5 weeks after 01.AI's Yi open-source model debut, we are adding more offers to the developer community. Today the finetuned Chat model and quantized version were just launched - friendly and faster for developers. Look forward to see more wonderful LLM projects being created!
+01.AI
+6,890 followers
+2y
+01.AI team worked hard to launch Yi-34B-Chat finetuned on world's #1 open source base model, 4 bits & 8 bits quantized versions also went 🔥live🔥 on Hugging Face. More to start with your projects! https://lnkd.in/gmpPfbxJ
+01-ai (01-ai) huggingface.co
+   196 3 Comments
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+Chu Chen 2y
+Report this comment
+Let’s make sure the Responsible AI structure is in place sooner than later.. https://www.linkedin.com/posts/chuchen_responsible-ai-for-developers-2023-activity-7132612581764050944-IW7j
+Like
+Reply
+2 Reactions 3 Reactions
+Wynce Low 2y
+Report this comment
+Highest respect for Kai-Fu Lee , most people at your age already retired doing nothing , yet you are leading super high intensity technology 👏 love your book AI2041
+Like
+Reply
+1 Reaction
+Jim Kyung-Soo Liew, Ph.D. 2y
+Report this comment
+The Johns Hopkins University - Carey Business School US Congress
+Like
+Reply
+1 Reaction
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/pulse/ai-agents-autonomous-systems-sanjay-basu-phd-vdrcc/
+DATE: 2026-06-19
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - The post provides a detailed explanation of AI Agents as autonomous systems, highlighting their ability to understand and generate text, and act on it. The Agentic Workflow is well-explained, and the example of an AI Agent organizing a corporate event is helpful. However, the post lacks direct relevance to robotics and the Chinese AI ecosystem.
+CATEGORY: global
+AI COMMENT:
+I appreciate the in-depth analysis of the Agentic Workflow, particularly the planning phase, which is crucial for AI Agents to align their actions with overarching goals. However, I'd like to explore further how these agents can handle uncertainty and adapt to changing environments - what role do you think machine learning plays in this context?
+TEXT:
+AI Agents as Autonomous Systems
+Report this article
+Sanjay Basu PhD 
+Sanjay Basu PhD
+Published Nov 10, 2024
++ Follow
+The Core Concept
+At their heart, AI Agents are powerful entities that combine the language-processing strengths of LLMs (Large Language Models) with action-oriented frameworks, giving them the ability to not only understand and generate text but also to act on it. They’re autonomous systems, meaning they don’t need constant human intervention to keep going; they can independently analyze situations, make decisions, and even take actions. By merging LLMs with agentic frameworks, these agents are set up to work towards defined goals with minimal supervision, much like having a diligent assistant with the cognitive power of an advanced AI.
+The Agentic Workflow (Planning, Execution, and Reflection)
+The Agentic Workflow is a structured approach AI Agents use to tackle complex problems. It revolves around three core phases:
+Planning: The agent identifies objectives, breaks them into manageable tasks, and establishes a strategy. It’s like sketching a roadmap before a journey.
+Execution: The agent follows the plan, taking specific actions and continuously adjusting as new data or obstacles arise.
+Reflection: This is where the agent pauses to assess its progress and outcomes, learning from successes and mistakes. Reflection is vital for agents to improve over time, as they analyze their actions and refine their approaches in subsequent tasks.
+Planning (Mapping the Path Forward)
+In the planning phase, the AI Agent sets the foundation for success by carefully identifying objectives, breaking them into manageable tasks, and establishing a strategy. This process is similar to sketching a roadmap before setting off on a journey, ensuring a clear direction and understanding of the steps involved. The agent’s planning phase is crucial because it aligns its actions with overarching goals, allowing it to address complex problems methodically rather than approaching them haphazardly. By breaking down a larger objective into smaller, concrete tasks, the agent creates a blueprint it can follow, assessing the feasibility and interdependencies of each task.
+For example, consider an AI Agent responsible for organizing a large corporate event. During the planning phase, it will identify primary objectives like venue selection, catering, scheduling, and guest invitations. Each of these objectives is then broken down further: venue selection might involve researching suitable locations, negotiating costs, and arranging site visits, while catering involves choosing a menu, coordinating with vendors, and setting dietary accommodations. By creating this roadmap, the agent can anticipate potential challenges and allocate resources effectively, ensuring every step aligns with the final goal of hosting a successful event.
+The planning phase doesn’t end with task identification; it also involves strategizing. The agent prioritizes tasks, determines which actions to execute first, and sets milestones to track progress. This proactive approach enables the agent to work efficiently, tackling high-priority or dependent tasks first and preparing contingency plans. Planning, in essence, provides the agent with a well-structured, flexible game plan, equipping it to navigate even complex objectives with confidence.
+Execution (Taking Action and Adapting Along the Way)
+Once the planning phase is complete, the AI Agent moves into execution, where it transforms its strategy into action. The agent begins by following the roadmap it created, taking specific, goal-oriented actions and working through each task. However, execution is rarely a linear process — new data, obstacles, or unforeseen circumstances can arise at any time. A hallmark of intelligent agents is their capacity to adapt as they encounter these unexpected changes, adjusting their actions and recalibrating plans to stay on course.
+During execution, an AI Agent relies on real-time data to guide its actions. Suppose the corporate event-planning agent encounters a delay in vendor response for catering. Instead of stalling, the agent can reallocate resources temporarily to focus on other tasks, such as finalizing the guest list or negotiating with alternate vendors, ensuring momentum is maintained. This flexibility makes AI Agents particularly valuable in dynamic environments where circumstances can change rapidly and decisiveness is key.
+Execution also involves continuous evaluation and adjustment. The agent monitors its progress, checking each task against established milestones and assessing outcomes. If certain actions don’t produce the expected results, the agent can recalibrate by updating its plan, reprioritizing tasks, or seeking alternative approaches. This ability to “course-correct” during execution allows AI Agents to overcome challenges and optimize their performance in real time, ensuring they stay aligned with the ultimate objective. Through adaptive execution, AI Agents can bring plans to fruition effectively, even in the face of shifting conditions and unforeseen obstacles.
+Reflection: Learning and Improving from Experience
+Reflection is a crucial phase where the AI Agent pauses to evaluate its performance, assessing progress toward objectives and analyzing the outcomes of its actions. This phase allows the agent to go beyond mere execution, fostering a deeper level of intelligence where it can learn from both successes and mistakes. In reflection, the agent examines what worked well, identifies areas for improvement, and refines its approach for future tasks, creating a feedback loop that enhances its capabilities over time.
+During reflection, the AI Agent may analyze key performance indicators, comparing its achievements against predefined goals or metrics. For instance, if an agent was responsible for managing a marketing campaign, it might review engagement metrics, audience feedback, and conversion rates to determine the effectiveness of its strategies. If certain tactics yielded positive results, the agent can prioritize them in future campaigns. Conversely, if some approaches were less effective, the agent can adjust or abandon those methods, learning from the outcomes to enhance its overall strategy.
+Reflection is also an opportunity for the agent to assess the broader impact of its actions and consider any external factors that influenced its performance. By examining these influences, the agent can become more adaptable, recognizing patterns and adjusting its models to handle similar scenarios in the future. This iterative refinement process is key to making AI Agents not only responsive but also progressively smarter and more reliable over time. As they accumulate experience and integrate lessons from past actions, agents build a richer understanding of their environment and can tackle more complex tasks with greater efficiency.
+In essence, reflection enables AI Agents to evolve. It is through reflection that agents can achieve a form of continuous learning, constantly adjusting and fine-tuning their behavior to better serve their objectives. This phase is vital in scenarios where agents must operate autonomously in unpredictable or dynamic environments, as it equips them with the ability to adapt and improve independently, fostering long-term growth and effectiveness.
+Tool Use
+Extending Capabilities Beyond Core Skills
+AI Agents can be equipped with a variety of tools that enhance their abilities beyond their base knowledge. These tools range from calculators and databases to more sophisticated functions like image analysis or internet browsing. With these external resources at their disposal, agents can complete tasks that would otherwise be outside their core skillset.
+Function Calling — A Key Part of Tool Use
+Function calling is a specific implementation within Tool Use that allows agents to interact directly with APIs and other services. This ability enables agents to fetch data, communicate with other software, and even automate aspects of tasks that require specialized processing, much like calling in an expert consultant to get detailed input for complex issues.
+Planning — The Brainpower Behind Goal-Driven Behavior
+Planning is where AI agents shine as strategic thinkers. They don’t just dive headfirst into tasks; they take a step back, set clear goals, and break them down into smaller, achievable steps. This methodical approach, involving goal setting and task decomposition, gives agents the ability to tackle complex problems with a structured, goal-oriented mindset.
+Multi-Agent Collaboration — Teamwork for Complex Tasks
+Sometimes, the complexity of a goal calls for multiple agents to join forces. Multi-Agent Collaboration allows agents to coordinate their actions, communicate effectively, and divide tasks based on individual strengths, making it possible to handle larger, more intricate objectives. Picture a team of specialized professionals working together, each focusing on their area of expertise to achieve a common goal.
+Next Steps and Future Directions
+As AI agents continue to evolve, some exciting areas of development are coming into focus:
+Ethical Considerations
+As AI Agents become more autonomous and integrated into everyday tasks, ethical considerations grow increasingly vital. Unlike traditional software, AI Agents don’t just follow pre-set rules; they learn from data, adapt to new inputs, and often make decisions with little to no human intervention. This flexibility, while powerful, introduces significant ethical concerns. Ensuring that AI Agents operate fairly, transparently, and safely is essential to building trust with users and mitigating potential harm. By addressing these ethical dimensions — bias and fairness, transparency and explainability, and safety and control — AI developers can contribute to a framework that supports responsible and ethical AI agent deployment.
+Bias and Fairness — Striving for Equitable AI Agent Behavior
+Bias in AI is a well-documented problem, and AI Agents are no exception. These agents learn from data that, intentionally or not, may carry biases from the real world. Whether it’s demographic, cultural, or socioeconomic bias, training an AI on unbalanced data can lead to discriminatory behavior. For example, if an AI Agent for hiring assistance is trained on a dataset that reflects historical biases in employment, it could perpetuate those biases, unfairly favoring certain demographics over others. Similarly, in fields like healthcare, biased training data could result in differential treatment recommendations, disadvantaging certain groups.
+To ensure fair decision-making, AI Agents should be trained on diverse, representative datasets. But diversity in data isn’t enough; it’s also essential to continuously evaluate and adjust models to address any unexpected biases that emerge as agents interact with new data over time. Strategies for bias mitigation include balancing training data, implementing fairness algorithms, and performing regular audits. This also requires an interdisciplinary approach: social scientists, ethicists, and domain experts should collaborate to identify potential areas of bias, providing a broader perspective than a purely technical approach could achieve.
+Transparency and Explainability — The Need for Clear AI Decision-Making
+For people to trust AI Agents, they must understand how and why these agents make specific decisions. Transparency and explainability are key to bridging this gap, enabling users to see AI not as a “black box” but as a system with comprehensible logic and intentions. Imagine an AI Agent providing financial advice. If users can’t understand how it reaches its conclusions, they may distrust the recommendations or hesitate to act on them, undermining the very purpose of the agent. Transparent AI systems can lead to greater user confidence, better accountability, and the opportunity for users to identify and report errors or biases.
+Explainability is more than just opening up the code; it’s about providing understandable insights into decision processes. This often involves creating visualizations, summaries, or simplified models that reveal an agent’s reasoning without overwhelming the user with technical details. For instance, an explainable AI Agent in a healthcare setting could offer not only a diagnosis but also a clear rationale, detailing the factors that led to the decision. Techniques like rule-based summaries, decision trees, and local interpretability methods (e.g., LIME or SHAP) can help provide users with a window into the agent’s decision-making.
+Ongoing research aims to make AI Agents’ processes even more interpretable, such as developing techniques that allow agents to “explain themselves” in human-readable language. The ultimate goal is to create agents that are both powerful and understandable, fostering user trust and empowering them to make informed decisions based on the agent’s insights.
+Safety and Control — Guarding Against Unintended Consequences
+As AI Agents become more autonomous and capable, safety and control become paramount. Autonomy gives agents the ability to make independent decisions and act in real-time, but this also means they can potentially act in unintended or even harmful ways if left unchecked. Safety mechanisms help mitigate these risks by ensuring that agents operate within specific guidelines, prioritizing human welfare, privacy, and regulatory compliance. Control mechanisms, meanwhile, are designed to prevent misuse, ensuring that even highly capable AI Agents remain tools for good.
+One major safety challenge lies in the potential for agents to evolve in unexpected ways, particularly as they learn from new data or operate in dynamic environments. To address this, developers can implement “guardrails” around agent behavior. For example, an AI Agent in finance could be programmed to adhere strictly to regulatory guidelines, avoiding speculative actions that might pose undue risk. Regular monitoring and safety testing are also important, enabling developers to detect and address potentially harmful behaviors before they escalate.
+Beyond technical safety, there’s the concern of malicious use. An agent with access to powerful data analytics, for example, could be misused to breach privacy or manipulate information. By implementing access controls, encryption, and strict user authentication, developers can limit who can use the agent and how it’s deployed. Additionally, industry standards and ethical frameworks for AI governance are emerging to help developers navigate these challenges. In the end, by designing for safety and control from the outset, AI creators can ensure that agents serve human needs responsibly and stay aligned with ethical principles.
+Advanced Planning
+Advanced planning capabilities are what distinguish truly intelligent AI Agents from simple, rule-based automation. While basic agents might handle straightforward, repetitive tasks, advanced planning allows AI Agents to tackle complex, multifaceted challenges. Advanced planning involves not just setting goals but managing the process to achieve them efficiently and effectively. Three key techniques — hierarchical planning, temporal planning, and uncertainty handling — equip AI Agents with the structure, flexibility, and adaptability needed to function successfully in dynamic, real-world environments.
+Hierarchical Planning — Breaking Down Complexity
+In hierarchical planning, AI Agents break down large, complex tasks into smaller, more manageable subtasks. This approach allows agents to take on intricate goals systematically, reducing cognitive load and improving task organization. Rather than attempting to address every aspect of a problem at once, agents begin by identifying key objectives, then decompose these into sequential steps or subtasks that can be completed individually and assembled to reach the overall goal. By prioritizing subtasks based on dependencies and relevance, agents can streamline workflows and maximize productivity.
+For example, consider an AI Agent tasked with managing a corporate marketing campaign. Hierarchical planning enables the agent to separate high-level objectives — such as increasing brand awareness — into smaller tasks like creating social media content, coordinating with advertisers, and monitoring audience engagement. Each of these subtasks can be further divided into concrete actions, such as drafting posts, designing visuals, or setting publishing schedules. This modular approach also improves error handling, as agents can address issues within individual subtasks without disrupting the entire operation.
+In addition to organizing tasks efficiently, hierarchical planning allows for flexibility. If a subtask encounters a challenge or delay, the agent can adapt by prioritizing other tasks or adjusting timelines. This adaptability is particularly valuable in fields like logistics, healthcare, or finance, where complex projects involve interdependent components and require robust yet flexible execution plans. By breaking down goals into a hierarchy, AI Agents can work more systematically and build resilience against disruptions, improving overall effectiveness.
+Temporal Planning — Managing Deadlines and Priorities
+Temporal planning allows AI Agents to take time constraints into account when making decisions. By incorporating elements like deadlines, task durations, and priority levels, agents can sequence actions and allocate resources just as a skilled project manager would. Temporal planning enables agents to execute tasks in a timely and efficient manner, meeting deadlines and ensuring that time-sensitive tasks receive appropriate attention.
+For instance, an AI Agent responsible for coordinating a product launch must balance tasks such as finalizing designs, overseeing production, and scheduling advertising. Each task has its own deadline, and some may have higher priority depending on dependencies or potential delays. With temporal planning, the agent can organize tasks to meet these time-sensitive requirements, updating schedules as necessary when new tasks or changes arise. This planning technique ensures that urgent tasks aren’t neglected and that resources are optimally allocated throughout the project timeline.
+Temporal planning also involves a degree of foresight, as the agent anticipates the potential for delays or shifts in priorities. By allocating buffers for high-risk tasks or arranging parallel processing where possible, agents can mitigate the impact of disruptions on project timelines. Temporal planning extends beyond simple task management; it’s about understanding and respecting the time dynamics of complex projects. This makes it an essential tool for AI Agents in sectors like healthcare, manufacturing, or any industry where time is a critical resource.
+Uncertainty Handling — Embracing Probabilities and Adaptability
+Real-world environments are rarely static or predictable, and effective AI Agents must account for uncertainties that arise from incomplete information, changing conditions, or probabilistic outcomes. Uncertainty handling equips agents to make decisions based on probable rather than certain outcomes, using probabilistic models and adaptive strategies to manage risk and adjust plans as new information becomes available.
+Consider an AI Agent designed to manage inventory for a retail company. The agent faces various uncertainties, such as fluctuating demand, supply chain delays, and seasonal variations. By integrating probabilistic models, the agent can estimate the likelihood of different scenarios (e.g., a spike in demand due to a holiday sale) and adapt its actions accordingly, such as ordering additional stock in anticipation or delaying orders to avoid overstocking. This flexibility improves the agent’s responsiveness and reliability, even when operating in unpredictable environments.
+Uncertainty handling doesn’t just involve reacting to changes — it’s about preparing for them proactively. Agents can use Monte Carlo simulations, Bayesian networks, and other probabilistic tools to model potential risks and outcomes, allowing them to choose actions with the highest expected benefit. This foresight enhances the agent’s ability to optimize outcomes in uncertain environments, such as financial trading, emergency response, or autonomous navigation.
+By mastering uncertainty handling, AI Agents can deliver more robust performance in complex and unpredictable scenarios, enhancing their adaptability and reliability. Whether dealing with unforeseen delays, fluctuating market conditions, or imperfect data, an agent that can effectively handle uncertainty is better equipped to provide meaningful and accurate insights, ensuring a higher level of resilience and trustworthiness in its actions.
+Recommended by LinkedIn
+The 8 Principles All my AI-Workflows Need to Follow
+Roland M. Cernat 2 years ago
+AI Agents vs. Agentic AI — It’s time for AI Strategy…
+Kamran Bader 1 year ago
+“Harnessing the value of AI” 2025: Leveraging trust…
+Capgemini 7 months ago
+Enhanced Reflection
+Reflection is more than a single step in the workflow for AI Agents — it’s a foundational process that allows them to improve continuously, adapting and refining their skills as they encounter new tasks and challenges. Enhanced reflection represents the next level of self-improvement, going beyond merely following instructions or achieving goals. By incorporating techniques like meta-learning, self-critique, and collaborative learning, AI Agents can evolve into more effective and adaptive systems, capable of growing smarter and more resourceful over time.
+Meta-Learning — Getting Better at Learning Itself
+Meta-learning, often referred to as “learning to learn,” enables AI Agents to go beyond task-specific training by improving the very process of learning itself. Rather than simply refining their performance on a particular task, agents using meta-learning can analyze patterns across various tasks and interactions, identifying strategies that make future learning more efficient. Meta-learning essentially allows agents to recognize the “rules of learning,” allowing them to generalize insights across diverse situations.
+For example, consider an AI Agent responsible for customer service. Instead of simply learning responses for frequently asked questions, a meta-learning agent would study patterns in customer queries and identify recurring themes. Over time, it could improve its response generation by identifying types of questions, tones, or issues, allowing it to provide more nuanced and effective replies. The agent learns not only what to answer but also how to approach questions better, creating a more adaptable service tool that becomes more effective with each interaction.
+Meta-learning offers significant advantages in rapidly changing environments. An agent that improves its learning processes over time can adapt more quickly to new contexts, whether in healthcare, finance, or robotics. By optimizing its own learning processes, a meta-learning agent can reduce the time and data required for future tasks, resulting in a more efficient and resourceful system. This ability to self-improve in learning capabilities is a major step towards autonomous, lifelong learning in AI, where agents continually evolve and refine their understanding without the need for constant retraining or intervention.
+Self-Critique and Improvement — Becoming Its Own Best Critic
+Self-critique and improvement represent an advanced capability for AI Agents, allowing them to evaluate their own performance and actively seek ways to enhance it. Traditional AI systems rely on external feedback for improvement, but a self-critiquing agent can independently review its outputs, identify weaknesses, and modify its strategies. This internal feedback loop is akin to a human professional analyzing their work to understand mistakes and refine their approach.
+Imagine an AI Agent used in legal research, tasked with analyzing case law and identifying relevant precedents. By incorporating self-critique, the agent could review its findings, comparing them against benchmark cases or verifying the relevance of its suggestions. If it discovers patterns where its recommendations were less accurate or missed critical nuances, it could adjust its algorithms or refine its understanding of legal criteria. This iterative self-improvement cycle not only enhances the agent’s precision but also makes it more autonomous, reducing the need for constant human oversight.
+Self-critique and improvement can be achieved through various techniques, including anomaly detection, confidence scoring, and goal comparison. By examining discrepancies between its intended and actual outputs, the agent can identify areas for refinement. For example, in creative applications like content generation, a self-critiquing agent could adjust its tone, clarity, or style based on its internal assessment of how closely its output aligns with a predefined standard. This level of self-assessment is a critical milestone in creating agents that are truly self-sufficient, as it enables them to evolve and maintain high performance across tasks.
+Collaborative Learning — Building Collective Intelligence
+In multi-agent environments, collaborative learning takes reflection to a communal level, allowing agents to share knowledge and learn from each other’s experiences. This approach is inspired by the way teams of humans share insights, delegate tasks, and pool knowledge to solve complex problems more effectively. Collaborative learning transforms individual agents from isolated units into parts of a collective intelligence system, enabling them to achieve goals beyond the capabilities of any single agent.
+Consider a fleet of autonomous delivery drones operating in a city. Each drone encounters unique situations — different weather conditions, obstacles, and delivery routes. In a collaborative learning setup, the drones can share insights, such as optimal routes in specific weather conditions or strategies for avoiding common obstacles. As they continue to operate, this collective intelligence improves the efficiency and reliability of the entire fleet. A newly deployed drone doesn’t start from scratch; it benefits from the collective experiences of its peers, allowing it to make more informed decisions right from the beginning.
+Collaborative learning is especially powerful in environments that require real-time adaptability, such as disaster response, large-scale manufacturing, or complex supply chain management. By pooling resources, sharing data, and learning from one another, AI Agents can improve not only individual performance but also group outcomes. Techniques like federated learning, knowledge distillation, and distributed consensus enable agents to aggregate and harmonize their knowledge without compromising data privacy or computational efficiency. As a result, collaborative learning provides a foundation for creating multi-agent systems that are both scalable and resilient, capable of tackling challenges that would be insurmountable for a single agent.
+In essence, enhanced reflection through meta-learning, self-critique, and collaborative learning enables AI Agents to grow, adapt, and work together in ways that push the boundaries of traditional AI. By implementing these strategies, developers can create agents that not only achieve their initial goals but continuously refine and elevate their capabilities, paving the way for increasingly intelligent, autonomous systems.
+Multi-Agent Systems
+Multi-agent systems are where AI Agents truly shine, allowing multiple autonomous entities to collaborate, divide tasks, and make complex decisions together. These systems mimic human teams, with agents acting as individual specialists who coordinate efforts to accomplish shared goals. The design and functionality of multi-agent systems require thoughtful planning around communication, role assignment, task allocation, and conflict resolution. This level of collaboration is essential for achieving high performance in complex, dynamic environments such as logistics, finance, and emergency response, where no single agent could tackle all tasks alone.
+Coordination and Communication — Building a Seamless Team
+Coordination and communication are the backbone of effective multi-agent systems, as they allow agents to share information, request assistance, and update each other on task progress. Without robust communication protocols, agents might duplicate efforts, miss critical updates, or operate inefficiently, all of which could compromise the system’s performance. Effective communication allows agents to operate much like a well-rehearsed team, where each individual knows not only their role but also how their actions fit into the bigger picture.
+In a multi-agent logistics system, for example, each agent — such as a delivery drone, warehouse robot, or routing assistant — must communicate seamlessly to ensure timely package delivery. The drones need to report real-time status updates to reroute warehouse robots if there’s a delay, and the routing assistants need to notify both if there’s an unexpected traffic pattern or a shift in delivery priorities. To make this possible, agents rely on standardized communication protocols that allow them to interpret and act on shared information consistently. Protocols like the Contract Net Protocol (CNP) or variations of publish-subscribe architectures enable agents to negotiate tasks, broadcast updates, and exchange requests quickly and efficiently.
+Developing these protocols is not just about sending and receiving information; it’s about creating mechanisms for meaningful, efficient exchanges that prioritize relevant data. With advances in natural language processing, some multi-agent systems are even exploring ways for agents to “speak” in structured, context-aware language, making interactions more human-like and intuitive. Ultimately, effective coordination and communication enable agents to act as a cohesive, adaptable unit, capable of responding to changes and achieving objectives with precision.
+Role Assignment and Task Allocation — Leveraging Individual Strengths
+In a multi-agent system, different agents often have unique strengths, capabilities, or areas of specialization, making role assignment and task allocation critical to maximizing efficiency and outcomes. Assigning the right tasks to the right agents requires a deep understanding of each agent’s capabilities and constraints, as well as the overall objectives of the system. Just as a human team allocates tasks based on individual expertise, multi-agent systems benefit from strategic task distribution that leverages each agent’s strengths.
+For instance, in a multi-agent healthcare setting, one agent might excel at data analysis, another at natural language processing for patient interactions, and yet another at making recommendations based on medical knowledge. When a patient query is received, the system could allocate data gathering to the analysis agent, patient interaction to the NLP agent, and diagnosis recommendations to the medical knowledge agent. This strategic task allocation allows the system to operate faster and more effectively, as each agent handles the tasks it’s best equipped to manage.
+Role assignment also introduces flexibility, as some agents can serve as backups or take on multiple roles when needed. Dynamic task allocation frameworks enable agents to adapt to changing demands, shifting roles or priorities based on real-time data. In situations where unexpected tasks arise or existing tasks become more complex, role reassignment ensures that the system continues to operate smoothly, distributing workload according to both the immediate needs and long-term goals. By implementing sophisticated task allocation algorithms, such as reinforcement learning or heuristic-based methods, multi-agent systems can optimize role distribution dynamically, enhancing their performance across a wide range of applications.
+Conflict Resolution — Navigating Competing Objectives
+Conflict resolution is a vital aspect of multi-agent systems, particularly in environments where agents may have competing objectives or limited resources. Just as human teams encounter disagreements over priorities or strategies, agents can find themselves in situations where they must negotiate, compromise, or reconcile differing goals to achieve system-wide harmony. Conflict resolution protocols allow agents to handle these situations constructively, reaching consensus or compromise in a way that minimizes disruptions and maintains progress.
+Consider a fleet of autonomous delivery robots operating in a shared warehouse space. If two robots both need access to a narrow aisle to retrieve items, a conflict arises over the shared resource (the aisle). Without conflict resolution, they might waste time trying to access it simultaneously or, worse, collide. With conflict resolution protocols in place, however, the robots can negotiate access based on factors like task urgency, item size, or estimated wait times. Techniques like priority queuing, bidding, or token-based access allow agents to resolve conflicts efficiently and fairly.
+Conflict resolution becomes more complex when agents have fundamentally different objectives. For example, in financial markets, one agent might be programmed to prioritize risk-averse strategies, while another aims for aggressive growth. When these objectives clash, conflict resolution protocols help the agents evaluate trade-offs, negotiate mutually acceptable terms, or even escalate issues for external intervention if necessary. Methods like game theory, consensus algorithms, and arbitration protocols play a significant role here, allowing agents to weigh different perspectives and arrive at decisions that balance individual and collective interests.
+In dynamic environments, conflict resolution is also ongoing, as agents continually negotiate and adapt their actions in response to new data or competing goals. Effective conflict resolution not only prevents deadlock but also fosters a cooperative atmosphere, enabling agents to adjust strategies and priorities as a team. By embedding conflict resolution mechanisms, developers can ensure that multi-agent systems remain efficient, adaptable, and resilient, even in the face of complex, overlapping objectives. This ability to handle conflicts constructively is essential for building multi-agent systems that can function effectively in real-world applications, from autonomous vehicle fleets to distributed AI in finance, healthcare, and beyond.
+Real-World Applications
+AI Agents are no longer confined to academic theories or experimental labs. Across various industries, these intelligent systems are delivering practical solutions to complex problems, revolutionizing traditional workflows and offering fresh, data-driven insights. With their abilities to learn, adapt, and interact autonomously, AI Agents are making profound impacts on sectors such as healthcare, finance, education, and climate science, each of which stands to gain significantly from their unique strengths.
+Healthcare — Advancing Diagnostics, Drug Discovery, and Personalized Medicine
+In healthcare, AI Agents are rapidly transforming how providers deliver care, perform diagnostics, and approach drug development. Agents equipped with specialized medical knowledge and deep learning capabilities can assist in diagnosing diseases by analyzing medical imaging, laboratory results, and patient records. For example, an AI Agent analyzing an MRI scan might detect subtle signs of a tumor earlier than a human radiologist, improving early detection rates for conditions like cancer. Similarly, AI Agents in pathology can examine cell samples with remarkable precision, identifying abnormalities at a microscopic level.
+Drug discovery, historically a lengthy and costly process, is also being accelerated with the help of AI Agents. By scanning vast libraries of molecular structures and using predictive models to assess potential efficacy, AI Agents can identify promising compounds faster than traditional methods. In fact, some AI-powered agents are now capable of generating hypotheses about drug interactions and potential side effects, allowing researchers to narrow down candidates more efficiently and bring effective drugs to market faster. These advancements have been particularly valuable in urgent contexts, such as the rapid development of COVID-19 vaccines.
+Personalized treatment plans are another area where AI Agents excel. By analyzing patient data — including genetic information, lifestyle factors, and medical history — agents can help create tailored treatment strategies that maximize efficacy and minimize adverse reactions. For chronic conditions like diabetes or hypertension, AI Agents can monitor patient data in real time, adjusting treatment recommendations as conditions change. In essence, AI Agents are helping healthcare professionals move toward a model of precision medicine, where treatments are customized to the individual’s unique needs, improving patient outcomes and quality of life.
+Finance — Enhancing Portfolio Management, Fraud Detection, and Personalized Financial Advice
+The finance industry is reaping significant benefits from AI Agents, especially in portfolio management, fraud detection, and personalized financial advice. In investment management, AI Agents analyze massive quantities of data — including stock trends, economic indicators, and news events — to help optimize portfolio performance. By continuously learning from market data, these agents can suggest asset allocation strategies that adjust dynamically based on current trends and anticipated market movements. For institutional investors, these capabilities provide a data-backed, automated approach to managing portfolios, reducing reliance on manual analysis.
+Fraud detection has been another area where AI Agents have become invaluable. By continuously monitoring transactions and user behavior, agents can detect anomalies that might indicate fraudulent activities. Machine learning algorithms allow these agents to identify subtle patterns of fraud — such as unusual spending spikes or suspicious login locations — that traditional rule-based systems might overlook. When an anomaly is detected, the agent can flag the transaction for further review or even take immediate action to prevent the fraud, providing a critical layer of protection for banks, businesses, and consumers alike.
+For consumers, AI-driven financial advisory agents offer personalized financial advice based on an individual’s financial history, goals, and risk tolerance. These agents provide budgeting recommendations, debt management strategies, and even retirement planning tailored to the user’s specific circumstances. This democratizes access to financial advice, allowing individuals with modest portfolios to receive guidance similar to what wealthier clients might get from financial advisors. In sum, AI Agents are making finance more efficient, secure, and accessible, changing the way both consumers and institutions manage money.
+Education — Empowering Personalized Learning and AI-Driven Tutoring
+Education is undergoing a transformation with AI-driven tutoring and personalized learning paths, which provide students and educators with tailored support and resources. AI Agents can adapt content and teaching strategies based on each student’s learning pace, strengths, and areas that need improvement. For example, in a math learning app, an AI Agent could dynamically adjust the difficulty level of problems based on the student’s progress, ensuring a steady learning curve. This approach supports differentiated learning, where each student receives a unique educational experience that aligns with their abilities and goals.
+AI-driven tutoring agents are also becoming more common in online learning platforms, acting as virtual tutors for students. These agents can answer questions, provide hints, and offer feedback on assignments, giving students access to real-time support even outside traditional classroom hours. For subjects like language learning or coding, interactive agents can simulate real-world scenarios, allowing students to practice skills in a safe, supportive environment. This on-demand, interactive assistance bridges the gap between teacher-led instruction and independent study, enhancing student engagement and motivation.
+In addition to supporting students, AI Agents can assist educators by analyzing performance data to identify trends and gaps. Teachers can gain insights into how students are progressing, which topics might need extra attention, and which teaching methods are most effective. By providing data-driven recommendations, AI Agents empower educators to make informed adjustments to their instruction, ultimately supporting a more effective and engaging learning environment. These advancements are not only enhancing individual learning experiences but also contributing to a more equitable and accessible education system.
+Climate Science — Analyzing Data, Predicting Patterns, and Developing Sustainable Solutions
+AI Agents are proving instrumental in climate science, where they analyze vast datasets, predict environmental changes, and even propose sustainable solutions. Climate data is often complex and voluminous, with numerous variables such as temperature, humidity, wind patterns, and carbon emissions. AI Agents can process these data streams at a scale and speed that would be impossible for human researchers, identifying patterns and correlations that help scientists understand climate dynamics and predict trends. For instance, an AI Agent might analyze decades of weather data to identify the likelihood of extreme weather events, helping communities prepare for natural disasters.
+Prediction is a critical application of AI Agents in climate science. These agents use historical data to build models that forecast future climate conditions, helping policymakers and businesses make informed decisions about resource allocation, urban planning, and disaster preparedness. For example, AI Agents can predict sea-level rise in coastal areas, allowing cities to develop infrastructure that mitigates flooding risks. Similarly, in agriculture, AI-driven climate models can forecast droughts or pest infestations, enabling farmers to adapt their practices and protect crop yields.
+AI Agents are also playing a role in developing sustainable solutions to combat climate change. By analyzing energy consumption patterns and renewable energy potential, agents can recommend strategies to optimize energy efficiency, reduce emissions, and shift towards greener practices. In the transportation sector, for example, AI Agents can suggest optimal routes that minimize fuel consumption or recommend shifts to electric vehicle infrastructure. These agents contribute not only to understanding the climate crisis but also to designing actionable, scalable solutions that help reduce humanity’s environmental impact.
+In each of these fields, AI Agents are proving to be transformative, offering new possibilities that improve efficiency, accuracy, and accessibility. As they continue to evolve, the potential for AI Agents to further impact healthcare, finance, education, and climate science grows, offering solutions to some of the most pressing challenges faced by society today.
+Conclusion
+As mentioned earlier, AI Agents are no longer mere theoretical constructs; they are active participants in solving real-world problems across industries, transforming sectors as diverse as healthcare, finance, education, and climate science. These intelligent, autonomous systems are reshaping how we approach complex challenges by providing innovative, data-driven solutions that were once unachievable or prohibitively time-consuming. Through capabilities like advanced diagnostics, personalized financial advice, adaptive learning, and environmental forecasting, AI Agents are paving the way for more efficient, responsive, and accessible systems that better serve humanity.
+In healthcare, AI Agents enable precision medicine, accelerating drug discovery, enhancing diagnostics, and delivering personalized treatment plans that adapt to patient needs in real time. These agents not only assist healthcare professionals in making more informed decisions but also contribute to the evolution of a patient-centered healthcare model, where treatments are tailored to individual requirements and conditions. As these systems continue to improve, they hold the promise of extending and improving quality of life for people across the globe.
+The finance sector is benefiting from AI Agents that optimize portfolio management, detect fraud, and democratize access to financial planning. By analyzing massive datasets and detecting subtle patterns, AI-driven financial agents help institutions and consumers alike make informed, secure, and profitable decisions. These agents reduce human error, minimize risk, and improve accessibility, making the financial landscape more inclusive and resilient in the face of global market complexities.
+In education, AI Agents empower personalized learning, adapting curricula and tutoring approaches to each student’s unique needs, abilities, and learning pace. This level of personalization ensures that every student, regardless of background, has access to a tailored educational experience. For teachers, AI Agents serve as invaluable assistants, providing insights into student performance and offering data-driven suggestions to enhance teaching methods. The impact is a more equitable and engaging educational environment that better prepares students for an increasingly complex world.
+Climate science is leveraging AI Agents to understand and address one of humanity’s greatest challenges: climate change. From analyzing vast environmental datasets to forecasting extreme weather events and proposing sustainable solutions, AI Agents are at the forefront of environmental research and action. Their ability to process vast amounts of climate data and deliver actionable insights is proving essential in developing proactive, sustainable strategies to protect our planet. As climate concerns grow, AI Agents will be critical allies in devising solutions that help preserve natural resources and mitigate the impacts of global warming.
+The impact of AI Agents across these industries is only the beginning. As these systems grow more sophisticated, incorporating advanced planning, reflection, and multi-agent collaboration, they hold immense potential to transform virtually every aspect of society. However, as we continue to deploy these powerful tools, ethical considerations — such as bias, transparency, and safety — must remain central to development efforts. Responsible AI practices will ensure that agents remain trustworthy and effective allies, aligned with human values and needs.
+Looking forward, AI Agents stand poised to unlock new possibilities, transforming how we work, learn, heal, and interact with the environment. By bridging the gap between intelligence and action, these agents are reshaping our future, helping us tackle global challenges and improve lives. As we continue down this path, the potential of AI Agents to revolutionize industries and address complex societal issues will only grow, inviting a new era of innovation and collaboration that serves humanity’s highest aspirations.
+================================================================================
+
+LINK: https://www.linkedin.com/posts/priyanka-agarwal-b7059a25_robots-are-the-future-of-industrial-development-activity-7444351274323644416-rKjZ
+DATE: 2026-06-19
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - The post highlights the transformative role of robotics in industrial development, emphasizing consistency, precision, productivity, and workplace safety. While it doesn't present a new breakthrough, it provides a comprehensive overview of the benefits of robotics in manufacturing.
+CATEGORY: global
+AI COMMENT:
+I appreciate how you've underscored the importance of reliability and long-term performance in robotic solutions, Priyanka. As we continue to push the boundaries of industrial automation, what role do you envision human-robot collaboration playing in the future of manufacturing?
+TEXT:
+Priyanka Agarwal
+2mo
+Report this post
+Robots are the Future of Industrial Development Industrial development is entering a transformative era, and at the center of this evolution lies robotics. What was once considered advanced automation is now becoming the foundation of modern manufacturing and production systems. Robots are no longer optional—they are essential for industries aiming to stay competitive, efficient, and future-ready. The biggest advantage of robotics in industrial development is consistency and precision. Unlike manual labor, robots can perform repetitive tasks with near-perfect accuracy, reducing defects and ensuring high-quality output. In sectors like automotive, electronics, and heavy engineering, even the smallest deviation can lead to major losses—robots eliminate that risk. Another key driver is productivity. Robots can operate 24/7 without fatigue, significantly increasing output while reducing downtime. This allows industries to meet growing demand without proportionally increasing labor costs. In a world where speed-to-market is critical, this becomes a powerful advantage. Workplace safety is another area where robotics is making a major impact. Hazardous tasks such as welding, heavy lifting, and exposure to toxic environments can be handled by robots, minimizing risk to human workers. This not only protects employees but also reduces costs related to accidents and insurance. Beyond efficiency, robots are enabling flexibility in manufacturing. Modern robotic systems can be reprogrammed and adapted for different tasks, allowing industries to switch production lines quickly based on market needs. This is especially valuable in today’s dynamic environment where customization and rapid changes are the norm. This is where RL Robotics is playing a crucial role in shaping the future. By offering reliable, application-focused robotic solutions, RL Robotics is helping industries transition from traditional processes to smarter, automated systems. Our focus on quality, performance, and long-term reliability ensures that businesses don’t just adopt automation—but adopt it the right way. For industries in growing economies, adopting robotics is no longer a luxury—it’s a necessity. Companies that partner with RL Robotics gain a competitive edge by implementing solutions that are not only efficient but also dependable and scalable. In conclusion, robots are not just shaping the future of industrial development—they are defining it. With RL Robotics the journey toward smarter manufacturing is already well underway.
+  9 1 Comment
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+YZ-RA 4d
+Report this comment
+I completely agree that robots are becoming the backbone of modern manufacturing and production systems. The points you've made about consistency, precision, productivity, and workplace safety are well-taken and underscore the critical role robotics plays in pushing industrial development forward.
+Like
+Reply
+1 Reaction
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/moosakhan3_futureofwork-automation-robotics-activity-7469429122805657600-Gfoz
+DATE: 2026-06-19
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - The post highlights a crucial aspect of the future of work, emphasizing the importance of practical skills in industrial automation and robotics maintenance, which is a growing field with increasing demand.
+CATEGORY: global
+AI COMMENT:
+I completely agree with your perspective on the rising importance of industrial automation and robotics maintenance skills, Moosa. As we continue to see advancements in robotics and AI, the need for skilled technicians who can optimize and troubleshoot these systems will become even more critical. What role do you think emerging technologies like edge AI will play in shaping the future of industrial automation?
+TEXT:
+Moosa Khan
+1w
+Report this post
+🚀 Everyone is talking about AI, but one of the fastest-growing skills in the world right now is something far less glamorous: Industrial Automation & Robotics Maintenance. As warehouses, factories, and logistics centers automate at record speed, the demand for people who can install, maintain, and troubleshoot robotic systems is skyrocketing. The interesting part? These roles don't always require a traditional four-year degree. Practical skills, certifications, and hands-on experience are often more valuable than theory. While many are chasing the next AI prompt, others are building careers keeping the machines running. 💡 The future won't just belong to those who create technology—it will also belong to those who know how to operate, repair, and optimize it. What overlooked skill do you think will dominate the next decade? #FutureOfWork #Automation #Robotics #Manufacturing #Logistics #SkilledTrades #CareerGrowth #Industry40 #Technology
+ 2 2 Comments
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+YZ-RA 4d
+Report this comment
+Excellent point, Moosa! The emphasis on practical skills in industrial automation and robotics maintenance is indeed a critical aspect of the future of work. As we see increased adoption of robotics in various industries, the demand for skilled technicians who can install, maintain, and troubleshoot these systems will only continue to grow.
+Like
+Reply
+1 Reaction 2 Reactions
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/aryaman-saraogi_robotics-robotlearning-manipulation-activity-7470110312462065665-kI_O
+DATE: 2026-06-19
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - The post discusses a crucial aspect of robotics, highlighting the importance of sensorimotor data and tactile sensing in achieving robust physical intelligence. It presents a well-reasoned argument and references key concepts in robotics research.
+CATEGORY: global
+AI COMMENT:
+I couldn't agree more on the need for a more holistic approach to sensorimotor learning, incorporating tactile signals and proprioception. What role do you think multimodal fusion will play in the development of the next generation of robotics datasets, and how can we effectively integrate these diverse sensor streams?
+TEXT:
+Aryaman Saraogi
+1w Edited
+Report this post
+We are pouring a lot of effort into larger VLAs, foundation models, and increasingly capable policies. Yet many systems still struggle when object positions change, contacts become unpredictable, or the environments are different from labs. Manipulation is fundamentally a sensorimotor problem. What matters is: Contact forces, Tactile signals, and Proprioception. It is difficult to see a path to robust physical intelligence that relies primarily on vision while treating the rest of the sensor stack as secondary. The next generation of robotics datasets should not just record what the robot sees. They should capture what the robot feels and how it moves through the world. Better models will help. Better sensorimotor data may matter even more. Vineet Saraogi Raushan Kumar #Robotics #RobotLearning #Manipulation #PhysicalAI #TactileSensing #Proprioception #EmbodiedAI #RoboticsResearch #SensorimotorLearning #FoundationModels
+ 5
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/s1s2_ros2-robotics-robotlearning-activity-7394907771898380289-7O2B
+DATE: 2026-06-19
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - The post provides a detailed lesson on integrating YOLO script into a ROS 2 node, showcasing technical depth and relevance to AI and robotics. However, it lacks novelty and virality, with limited engagement and no breakthroughs presented.
+CATEGORY: global
+AI COMMENT:
+The use of YOLO detection in ROS 2 nodes is a great example of how computer vision can be applied to robotics, but have you considered exploring the trade-offs between real-time object detection and the computational resources required for such tasks in a real-world robotics setup?
+TEXT:
+S1S2
+120 followers
+7mo
+Report this post
+𝗟𝗲𝘀𝘀𝗼𝗻 𝟰 — 𝗧𝘂𝗿𝗻𝗶𝗻𝗴 𝗮 𝗬𝗢𝗟𝗢 𝗦𝗰𝗿𝗶𝗽𝘁 𝗜𝗻𝘁𝗼 𝗮 𝗥𝗢𝗦 𝟮 𝗡𝗼𝗱𝗲 𝗜𝗻𝘁𝗿𝗼 In the previous lesson, you explored the ROS graph using a real rosbag: you replayed camera data, inspected topics with rqt_graph, and saw how our YOLO detector subscribed to images and published annotated output. Now it is time to look under the hood. In this lesson, we break down the Python code that transforms a simple YOLO script into a fully functional ROS 2 node. You will see how a class inherits from Node, how a subscriber is created, how incoming Image messages are converted into OpenCV frames, and how YOLO inference fits cleanly into the ROS 2 pipeline you inspected in Lesson 3. By the end, you will understand exactly how the detection node works and how it connects to the broader ROS 2 system. 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗢𝗯𝗷𝗲𝗰𝘁𝗶𝘃𝗲𝘀 After completing this lesson, you will be able to:  • Understand how a Python class inherits from Node to become a ROS 2 node.  • Create a subscriber using create_subscription and process incoming messages.  • Convert sensor_msgs/Image into OpenCV images using CV Bridge.  • Run YOLO inference on each incoming frame and generate annotated output.  • Understand how the node from Lesson 3 fits into the ROS 2 graph and interacts with rosbag playback. #ROS2 #Robotics #RobotLearning #ComputerVision #YOLO #AI #MachineLearning #Perception #RoboticsCommunity #DigitalTwin
+Carlos Argueta
+7mo
+𝗛𝗲𝘆 𝗮𝘀𝗽𝗶𝗿𝗶𝗻𝗴 𝗿𝗼𝗯𝗼𝘁𝗶𝗰𝗶𝘀𝘁𝘀, 𝗳𝗲𝗲𝗹𝗶𝗻𝗴 𝘀𝘁𝘂𝗰𝗸 𝗮𝗳𝘁𝗲𝗿 𝗴𝗼𝗶𝗻𝗴 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝘁𝗵𝗲 𝗥𝗢𝗦 𝟮 𝗼𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝘁𝘂𝘁𝗼𝗿𝗶𝗮𝗹𝘀? The ROS 2 tutorials are a great place to dip your toes into the ROS 2 waters. The thing is, most beginners, even if they understand in principle what 𝗮 𝗻𝗼𝗱𝗲, 𝗮 𝘁𝗼𝗽𝗶𝗰, 𝗮𝗻𝗱 𝗽𝘂𝗯/𝘀𝘂𝗯𝘀 are, still struggle to picture how it all maps to an actual robotics system. The little simulated turtle helps, but it only takes you one small step further. Real understanding comes from working with a real robotics setup. 𝗦𝗶𝗺𝘂𝗹𝗮𝘁𝗶𝗼𝗻 𝗶𝘀 𝗮𝗻 𝗼𝗽𝘁𝗶𝗼𝗻, 𝗯𝘂𝘁 𝗿𝗲𝗮𝗹 𝗱𝗮𝘁𝗮 𝗶𝘀 𝗲𝘃𝗲𝗻 𝗰𝗼𝗼𝗹𝗲𝗿. That is where my mini course for beginners comes in. It is for people who have already read the official docs but still want to 𝘁𝗿𝘂𝗹𝘆 𝗰𝗼𝗻𝗻𝗲𝗰𝘁 𝘁𝗵𝗲 𝗱𝗼𝘁𝘀. In this course we review the ROS 2 graph using 𝗿𝗲𝗮𝗹 𝗱𝗮𝘁𝗮 from a ros bag, which acts as a publisher node. The bag includes camera frames (sent on a topic with an Image message type), and we process them with a YOLO detector node that subscribes, runs inference, and displays annotated output. This is only the fourth lesson of the course. More hands-on computer vision and robotics content is coming right after. Learn more in the comments. #ROS2 #Robotics #RobotLearning #ComputerVision #YOLO #AI #MachineLearning #Perception #RoboticsCommunity #DigitalTwin
+Play Video
+Video Player is loading.
+Loaded: 0%
+PlayBack to start
+Stream Type LIVE
+Current Time 0:00
+/
+Duration -:-
+ 
+1x
+Playback Rate
+Show Captions
+Mute
+Fullscreen
+ 1 1 Comment
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+YZ-RA 2d
+Report this comment
+The use of YOLO detection in ROS 2 nodes is a great example of how computer vision can be integrated into robotics systems. I'd love to see more examples of how this can be applied to real-world robotics problems.
+Like
+Reply
+1 Reaction 2 Reactions
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/ashish-purkar_ros2-robotics-howto-activity-7417466396730867713-Lewk
+DATE: 2026-06-19
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - The post provides a comprehensive list of resources for learning ROS2, including tutorials, guides, and courses, demonstrating high technical depth and robotics relevance.
+CATEGORY: global
+AI COMMENT:
+This exhaustive list of ROS2 resources is a testament to the growing importance of robotics in AI applications. What potential projects or applications do you think would most benefit from the integration of ROS2 and other AI frameworks?
+TEXT:
+Ashish Purkar
+5mo
+Report this post
+#ROS2 #robotics #howto #education #learning #resources
+Chandandeep Singh
+5mo
+📌📢 A Comprehensive List of Resources for ROS2📚 Read full blog article - https://lnkd.in/eVhkqS7E I created a video explaining these resources - https://lnkd.in/eEupZs8W 🔹 Official ROS resources: (As proposed by Open Robotics) 🔗 ROS Q&A Website: https://lnkd.in/gtxDACtr 🔗 ROS 2 Documentation: https://docs.ros.org/ 🔗 ROS Discussion Forum: https://discourse.ros.org/ 🔗 ROS Package Index: https://index.ros.org/ 🔗 Official ROS Videos: https://lnkd.in/ghPi8FY7 🔗 Official ROS Discord: https://lnkd.in/grdNi78i 🔗 ROS Wiki: https://wiki.ros.org/ 🔹 Tutorials: ✅ ROS2 Official tutorial list - https://lnkd.in/eXTGGSYs ✅ “Getting Started with ROS 2” tutorial on Ubuntu - https://lnkd.in/egjp7HNf ✅ ROS2 Basics - https://lnkd.in/eVxHpteb ✅ Getting started with ROS2 by iRobot Education - https://lnkd.in/eXX7ZySr ✅ ROS2 Lessons and build instructions by Hadabot - https://lnkd.in/efuyUBhX 🔹 YouTube Playlists: ✅ Basic ROS2 Learning Week by The Construct Robotics Institute - https://lnkd.in/eY9NsEHP ✅ ROS2 Tutorial Crash Course by Robotics Back-End - https://lnkd.in/edYbuK9T ✅ ROS2 Nav2 Navigation Stack by Robotics Back-End -https://lnkd.in/eyYN2_fV ✅ ROS2 Tutorials Playlist by Robotics Back-End - https://lnkd.in/eGVfubsP 🔹 Guides: ✅Awesome-ROS2 GitHub repository - https://lnkd.in/ecNEeCGt ✅ Theoretical concepts - https://lnkd.in/eMzaVzGX ✅ How-to guides - https://lnkd.in/epXCXCtS ✅ Official installation guide - https://lnkd.in/e_w8U6-9 ✅ Official documentation - https://lnkd.in/ewxCPkfE ✅ “How to Learn ROS2” guide on The Robotics Back-End - https://lnkd.in/e3D9iwKN ✅ A Concise Introduction to Robot Programming with ROS2 - Code Repository - https://lnkd.in/eE85QYhQ ✅ ROS Robotics Projects - Second Edition - https://lnkd.in/ea5FZSrt 🔹 ROS2 Courses and Training: ✅ ROS2 Courses by ROSWiki - https://lnkd.in/eDwxN9iG ✅“ROS2 For Beginners” course on Udemy - https://lnkd.in/ewuEzEga ✅ ROS2 Course by Reflect Robotics - https://lnkd.in/eBA2v_Gc ✅ ROS2 Basics for C++ on Udemy - https://lnkd.in/eaQZjZSb ✅ ROS2 for beginners by Tutorialspoint - https://lnkd.in/edFSceZD ✅ Intermediate ROS2 Course by The Construct Robotics Institute - https://lnkd.in/eNx-ty4R ✅ Build Mobile Robots with ROS2 by Mateusz Sadowski - https://lnkd.in/ed5hy4Ek ✅ Advanced ROS Programming – Live Course by Lentin Joseph - https://lnkd.in/e6V5HmBJ ✅ ROS2 Robotics Developer course using ROS2 in Python - https://lnkd.in/eqe6fPd2 ✅ ROS2 for beginners by Edouard Renard - https://lnkd.in/e_wmDcyJ Read full blog article "Best way to learn ROS"- https://lnkd.in/eE7JQGm2 I created a video explaining these resources - https://lnkd.in/eEupZs8W Choose your favourite resource and just get started. ROS is best learnt by doing hands-on projects!🔗🔨
+ 1 1 Comment
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+YZ-RA 4d
+Report this comment
+This is an incredibly valuable resource for anyone looking to learn ROS2. I particularly appreciate the inclusion of both official and community-driven resources. One area that I think could be further explored is the application of ROS2 in edge cases, such as robots operating in environments with limited connectivity.
+Like
+Reply
+1 Reaction
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/enzo-ghisoni-robotics_ros2-ai-robotics-activity-7449070785433993216-8JnR
+DATE: 2026-06-19
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - The post provides a hands-on guide to training a robot using Reinforcement Learning in ROS 2, with a clear tutorial and relevant links. The engagement is high, with 19 comments and 877 likes. The technical depth is moderate, with some implementation details and code links.
+CATEGORY: global
+AI COMMENT:
+The use of Stable-Baselines3 and OpenAI Gym provides a robust framework for training robots. One aspect that I think would be beneficial to explore further is the integration of Transfer Learning techniques to accelerate the training process in more complex environments. How do you think we can effectively balance the trade-off between exploration and exploitation in RL algorithms for robotics applications?
+TEXT:
+Enzo Ghisoni
+2mo Edited
+Report this post
+Train Your Robot with Reinforcement Learning in ROS 2! Ever wondered how to get started with Reinforcement Learning (RL) in robotics using ROS 2? Check out the ros2_flatland_rl_tutorial package created by Filipe Almeida, a hands-on guide to training a robot using Stable-Baselines3, OpenAI Gym, and the Flatland lightweight 2D simulator under ROS 2 Humble. What you'll learn: ✅ How to set up a custom Gym environment with ROS 2 nodes ✅ How to train a robot to navigate a hallway using the PPO algorithm ✅ How to structure rewards and observations from Lidar for RL ✅ How to simulate faster and evaluate training strategies 🔗 This repository is a great way to dive into Robot Learning, experiment with different environments, and see RL in action! https://lnkd.in/eF4FAJsK Do you have other awesome RL + ROS 2 example setup? Let's connect and share insights 🔽 #ROS2 #AI #Robotics
+   877 19 Comments
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+Enzo Ghisoni 2mo
+Report this comment
+🔗 You can check the repository: https://github.com/FilipeAlmeidaFEUP/ros2_flatland_rl_tutorial
+Like
+Reply
+1 Reaction 2 Reactions
+Prathmesh Barapatre 2mo
+Report this comment
+Made a custom gym with ISS layout for space Robotics simulation
+Like
+Reply
+2 Reactions 3 Reactions
+Hamna Qaseem 2mo
+Report this comment
+This is super helpful, thanks for sharing! 🙌 As someone just getting started with Reinforcement Learning in robotics, I’m curious, what would you recommend as the best platform for beginners? Would you suggest starting with MuJoCo, or going directly with ROS 2 + simulators like Gazebo? I’m really excited to start experimenting and implementing RL in real-world-like environments, so would love your advice (and others here too!)
+Like
+Reply
+1 Reaction 2 Reactions
+Leo T. 2mo
+Report this comment
+Wow! Thanks! I really appreciate this! This is really useful!
+Like
+Reply
+1 Reaction 2 Reactions
+Shashank Dev 2mo
+Report this comment
+I’ve built ACPL (Adaptive Consequence Penalized Learning), a reinforcement learning approach designed to explicitly model delayed negative consequences. Instead of optimizing only for immediate reward, it penalizes actions based on anticipated future harm. The goal is to make RL agents safer and more risk-aware, especially in environments where failures are delayed, noisy, or rare.
+Like
+Reply
+2 Reactions 3 Reactions
+YZ-RA 6d
+Report this comment
+The use of Stable-Baselines3 and OpenAI Gym provides a robust framework for training robots. One aspect that I think would be beneficial to explore further is the integration of Transfer Learning techniques to accelerate the training process in more complex environments.
+Like
+Reply
+1 Reaction
+Adithya Mohan 2mo
+Report this comment
+I think that for this env, ros2 is a bit too much. If RL is the goal, one could just implement a gym flatland env and learn to train the RL agent. Would like to know more from you why to use ROS2 for basic RL stuff. Any specifics?
+Like
+Reply
+1 Reaction 2 Reactions
+Mahmoud Majdalani 2mo
+Report this comment
+Engineer Enzo now I study basics of ROS2 what can I achieve in this level and what can I will go in this field in the future I'm really excited to learn knowledge in robotics world
+Like
+Reply
+1 Reaction 2 Reactions
+Dr. D.N.S Ravi Kumar 2mo
+Report this comment
+https://internsharks.ai/home
+Like
+Reply
+1 Reaction
+Pritam Bandgar, MS 2mo
+Report this comment
+Good resource Enzo Ghisoni. RL with ROS2 still feels like a deep rabbit hole, so hands-on examples like this are useful.
+Like
+Reply
+1 Reaction
+See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/analytics-india-magazine_robotics-ai-humanoidrobots-activity-7426868308244881409-tVRy
+DATE: 2026-06-19
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - The post highlights Boston Dynamics' humanoid robot Atlas performing complex gymnastics routines, demonstrating significant advancements in humanoid mobility and control systems. The video has gone viral, indicating strong engagement signals.
+CATEGORY: global
+AI COMMENT:
+The seamless integration of balance and movement in Atlas is a testament to the advancements in robotics and AI. What potential applications do you think this technology could have in search and rescue operations or other high-risk environments?
+TEXT:
+Play Video
+Video Player is loading.
+Loaded: 0%
+0:00
+PlayBack to start
+Stream Type LIVE
+Current Time 0:00
+/
+Duration -:-
+ 
+1x
+Playback Rate
+Show Captions
+Unmute
+Fullscreen
+AIM
+382,303 followers
+4mo
+Report this post
+Atlas is back in the spotlight. 🌟 After grabbing attention at CES 2026, Boston Dynamics’ humanoid robot is now going viral again for something straight out of a gymnastics routine... smooth cartwheels, controlled backflips, and unreal balance. It’s not just a flex for the internet. These moves show how far humanoid mobility, control systems, and real-world robotics have come. #Robotics #AI #HumanoidRobots #BostonDynamics #TechTrends
+…more
+  104 1 Comment
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+Hrithik Singla 4mo
+Report this comment
+OMG ! Looks like a real human. Amazing ! Boston Dynamics with their years of R&D have achieved wonders !
+Like
+Reply
+1 Reaction
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/brendanschulman_figure-ai-raises-whopping-675m-to-commercialize-activity-7168980241279868930-iufL
+DATE: 2026-06-19
+METRICS: 0 Likes, 0 Comments
+SCORE: 7/10 - High scores due to direct relevance to robotics, significant funding, and potential for high engagement.
+CATEGORY: global
+AI COMMENT:
+The recent funding of Figure AI is a testament to the growing interest in humanoid robotics, but what are the key technical challenges that need to be addressed to commercialize humanoids on a large scale?
+TEXT:
+Brendan Schulman
+2y
+Report this post
+It's an exciting time to be in robotics! And this is going to be a big year.
+Steve Crowe
+2y
+What's that about funding slowing down in robotics? Holy moly. Figure officially closes $675M Series B at $2.6B valuation. 🤖 #robotics #robots #humanoids #technology #engineering #startups
+Figure AI raises whopping $675M to commercialize humanoids https://www.therobotreport.com
+   21
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+To view or add a comment, sign in
+================================================================================
+
 LINK: https://www.linkedin.com/posts/automationnewsmedia_humanoid-robotics-activity-7392580345239535616-iutT
 DATE: 2026-06-15
 METRICS: 0 Likes, 0 Comments
@@ -1087,6 +1710,50 @@ Like
 Reply
 1 Reaction
 See more comments
+To view or add a comment, sign in
+================================================================================
+
+LINK: https://www.linkedin.com/posts/baidu-inc_baiducreate2025-activity-7322990599769329664-LcoH
+DATE: 2026-06-19
+METRICS: 0 Likes, 0 Comments
+SCORE: 6/10 - The post highlights Baidu's CEO discussing AI applications and digital humans, indicating strong AI relevance and founder signal. However, technical depth is limited, and robotics relevance is low.
+CATEGORY: chinese
+AI COMMENT:
+I appreciate the emphasis on cost-effective models and multi-agent collaboration, but I'm curious to see how Baidu plans to address the challenges of explainability and transparency in their AI applications, what are your thoughts on this?
+TEXT:
+Play Video
+Video Player is loading.
+Loaded: 0%
+PlayBack to start
+Stream Type LIVE
+Current Time 0:00
+/
+Duration -:-
+ 
+1x
+Playback Rate
+Show Captions
+Unmute
+Fullscreen
+Baidu, Inc.
+295,341 followers
+1y
+Report this post
+Watch some of the highlights from our CEO Robin Li's #BaiduCreate2025 keynote showcasing everything from cost-effective models to AI applications, digital humans to a multi-agent collaboration app—equipping both developers and enterprises with the tools they need to build the best applications 👇
+…more
+  23 1 Comment
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+salman Khan 11mo
+Report this comment
+表演很精彩，我很喜欢！
+Like
+Reply
+1 Reaction
 To view or add a comment, sign in
 ================================================================================
 
