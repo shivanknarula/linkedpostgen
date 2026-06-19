@@ -1,74 +1,74 @@
+import { createClient } from '@supabase/supabase-js';
+
 export default async function handler(req, res) {
-    // Always fetch the latest CSV directly from GitHub raw content at runtime.
-    // This means data is live immediately after GitHub Actions commits — no Vercel redeploy needed.
-    const owner = process.env.GITHUB_REPO_OWNER || 'shivanknarula';
-    const repo  = process.env.GITHUB_REPO_NAME  || 'linkedpostgen';
-    const branch = 'main';
-    const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/robotics_posts.csv?t=${Date.now()}`;
+    // Disable Vercel edge caching to ensure live data is always fetched
+    res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
+
+    const supabaseUrl = process.env.SUPABASE_URL;
+    const supabaseKey = process.env.SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+    if (!supabaseUrl || !supabaseKey) {
+        return res.status(500).json({ 
+            status: 'error', 
+            message: 'Supabase credentials (SUPABASE_URL and SUPABASE_ANON_KEY) are not configured on Vercel environment variables.' 
+        });
+    }
 
     try {
-        const response = await fetch(rawUrl, {
-            // Bust any CDN cache so we always get the latest commit
-            headers: { 'Cache-Control': 'no-cache', 'Pragma': 'no-cache' }
+        const supabase = createClient(supabaseUrl, supabaseKey);
+
+        // Fetch scored posts joined with scores and comments
+        const { data, error } = await supabase
+            .from('posts')
+            .select(`
+                url,
+                date:published_date,
+                text:post_text,
+                likes,
+                comments,
+                category,
+                scores (
+                    total_score,
+                    reasoning
+                ),
+                generated_comments (
+                    comment_text
+                )
+            `)
+            .eq('status', 'scored')
+            .limit(50);
+
+        if (error) throw error;
+
+        // Map database fields to the exact keys expected by the frontend
+        const parsedData = (data || []).map(row => {
+            const scoreVal = row.scores ? Math.floor(row.scores.total_score / 10) : 0;
+            const reasoningVal = row.scores ? row.scores.reasoning : '';
+            const commentVal = (row.generated_comments && row.generated_comments.length > 0) 
+                ? row.generated_comments[0].comment_text 
+                : '';
+
+            return {
+                url: row.url,
+                date: row.date || '',
+                score: scoreVal.toString(),
+                reasoning: reasoningVal,
+                comment: commentVal,
+                likes: (row.likes || 0).toString(),
+                comments: (row.comments || 0).toString(),
+                text: row.text || '',
+                category: row.category,
+                raw_score: row.scores ? row.scores.total_score : 0 // Keep raw score for sorting
+            };
         });
 
-        if (!response.ok) {
-            throw new Error(`GitHub raw fetch failed: ${response.status} ${response.statusText}`);
-        }
+        // Sort by raw_score DESC
+        parsedData.sort((a, b) => b.raw_score - a.raw_score);
 
-        const csvText = await response.text();
-        const parsedData = parseCSV(csvText);
-
-        // Disable Vercel edge caching to ensure live data is always fetched immediately
-        res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
         return res.status(200).json({ status: 'success', data: parsedData });
 
     } catch (error) {
         console.error('results handler error:', error);
         return res.status(500).json({ status: 'error', message: error.message });
     }
-}
-
-function parseCSV(csvText) {
-    const lines = [];
-    let row = [''];
-    lines.push(row);
-    let inQuotes = false;
-
-    for (let i = 0; i < csvText.length; i++) {
-        const c    = csvText[i];
-        const next = csvText[i + 1];
-
-        if (c === '"') {
-            if (inQuotes && next === '"') {
-                row[row.length - 1] += '"';
-                i++;
-            } else {
-                inQuotes = !inQuotes;
-            }
-        } else if (c === ',' && !inQuotes) {
-            row.push('');
-        } else if ((c === '\r' || c === '\n') && !inQuotes) {
-            if (c === '\r' && next === '\n') i++;
-            row = [''];
-            lines.push(row);
-        } else {
-            row[row.length - 1] += c;
-        }
-    }
-
-    const headers = lines[0];
-    const result  = [];
-
-    for (let i = 1; i < lines.length; i++) {
-        const currentLine = lines[i];
-        if (currentLine.length < headers.length || (currentLine.length === 1 && currentLine[0] === '')) continue;
-        const obj = {};
-        for (let j = 0; j < headers.length; j++) {
-            obj[headers[j]] = currentLine[j] || '';
-        }
-        result.push(obj);
-    }
-
-    return result;
 }

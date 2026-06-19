@@ -1,42 +1,38 @@
+import { createClient } from '@supabase/supabase-js';
+
 export default async function handler(req, res) {
     if (req.method !== 'POST') {
-        return res.status(450).json({ error: 'Method Not Allowed' });
+        return res.status(405).json({ error: 'Method Not Allowed' });
     }
 
-    const { GITHUB_TOKEN, GITHUB_REPO_OWNER, GITHUB_REPO_NAME } = process.env;
+    const supabaseUrl = process.env.SUPABASE_URL;
+    const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_ANON_KEY;
 
-    if (!GITHUB_TOKEN || !GITHUB_REPO_OWNER || !GITHUB_REPO_NAME) {
+    if (!supabaseUrl || !supabaseKey) {
         return res.status(500).json({ 
-            error: 'Missing required GitHub configurations on Vercel Environment Variables.' 
+            error: 'Missing required Supabase configurations (SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY) on Vercel Environment Variables.' 
         });
     }
 
     try {
-        // Trigger workflow_dispatch on GitHub Actions
-        const response = await fetch(
-            `https://api.github.com/repos/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/actions/workflows/scrape.yml/dispatches`,
-            {
-                method: 'POST',
-                headers: {
-                    'Accept': 'application/vnd.github+json',
-                    'Authorization': `Bearer ${GITHUB_TOKEN}`,
-                    'X-GitHub-Api-Version': '2022-11-28',
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    ref: 'main' // Trigger on main branch
-                })
+        const functionUrl = `${supabaseUrl.replace(/\/$/, '')}/functions/v1/linkedin-agent`;
+        
+        // Fire-and-forget call to the Supabase Edge Function.
+        // We do not wait for the response because the scraper run can take up to 2-3 minutes,
+        // which exceeds Vercel's free serverless function timeout of 10 seconds.
+        fetch(functionUrl, {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${supabaseKey}`,
+                'Content-Type': 'application/json'
             }
-        );
-
-        if (!response.ok) {
-            const errorText = await response.text();
-            throw new Error(`GitHub API returned ${response.status}: ${errorText}`);
-        }
+        }).catch(err => {
+            console.error("Async trigger of Supabase Edge Function failed:", err);
+        });
 
         return res.status(200).json({ 
             status: 'success', 
-            message: 'Scraping workflow successfully triggered in GitHub Actions!' 
+            message: 'LinkedIn Agent scraping run successfully triggered in Supabase Edge Functions!' 
         });
 
     } catch (error) {
