@@ -1,7 +1,7 @@
 import asyncio
 import random
 import urllib.parse
-from src.config import GLOBAL_PROFILES, CHINESE_PROFILES, GLOBAL_QUERIES, CHINESE_QUERIES, MAX_CONCURRENT_TABS
+from src.config import GLOBAL_PROFILES, CHINESE_PROFILES, GLOBAL_QUERIES, CHINESE_QUERIES, MAX_CONCURRENT_TABS, PAGE_TIMEOUT_MS
 from src.scraper import AsyncLinkedInScraper
 
 class DiscoveryEngine:
@@ -36,7 +36,7 @@ class DiscoveryEngine:
             for page_no in range(1, 3):
                 search_url = f"https://www.linkedin.com/search/results/content/?keywords={encoded_q}&page={page_no}&origin=GLOBAL_SEARCH_HEADER"
                 print(f" -> Searching LinkedIn: {query} (Page {page_no})")
-                await page.goto(search_url, wait_until="domcontentloaded", timeout=25000)
+                await page.goto(search_url, wait_until="domcontentloaded", timeout=PAGE_TIMEOUT_MS)
                 await page.wait_for_timeout(2000)
                 
                 # Single quick scroll
@@ -69,7 +69,7 @@ class DiscoveryEngine:
         
         try:
             print(f" -> Searching Yahoo US Fallback: {query}")
-            await page.goto(yahoo_url, wait_until="domcontentloaded", timeout=25000)
+            await page.goto(yahoo_url, wait_until="domcontentloaded", timeout=PAGE_TIMEOUT_MS)
             await page.wait_for_timeout(2000)
             
             links = await page.query_selector_all('a')
@@ -88,6 +88,23 @@ class DiscoveryEngine:
         except Exception as e:
             print(f"    ! Yahoo search failed: {e}")
         return urls
+
+    async def run_single_search_query(self, context, category, query, history_set, is_active_session, limit) -> list:
+        """Runs a single search query in a separate browser page under semaphore control."""
+        async with self.scraper.semaphore:
+            page = await context.new_page()
+            await page.route("**/*", self.scraper.block_assets)
+            found_urls = []
+            try:
+                if is_active_session:
+                    found_urls = await self.run_search_query_linkedin(page, query, history_set, limit=limit)
+                else:
+                    found_urls = await self.run_search_query_yahoo(page, query, history_set, limit=limit)
+            except Exception as e:
+                print(f"    ! Search failed for '{query}': {e}")
+            finally:
+                await page.close()
+            return [{'url': url, 'category': category, 'profile_url': None} for url in found_urls]
 
     async def discover_urls(self, context, profiles, history_set, is_active_session=True) -> list:
         """Orchestrates multi-profile concurrent fetching."""
@@ -125,32 +142,24 @@ class DiscoveryEngine:
             remaining = target_limit - len(discovered_candidates)
             print(f"[*] Discovery limit not reached. Running Tier 3/4 Search Discoveries (needs {remaining} more)...")
             
-            # Setup search page
-            page = await context.new_page()
-            await page.route("**/*", self.scraper.block_assets)
-            
             # Combine queries
             queries = [
                 *(('global', q) for q in GLOBAL_QUERIES),
                 *(('chinese', q) for q in CHINESE_QUERIES)
             ]
             
-            for category, query in queries:
-                if len(discovered_candidates) >= target_limit:
-                    break
-                
-                found_urls = []
-                if is_active_session:
-                    # Tier 3: LinkedIn Search
-                    found_urls = await self.run_search_query_linkedin(page, query, history_set, limit=10)
-                else:
-                    # Tier 4: Yahoo Search Fallback
-                    found_urls = await self.run_search_query_yahoo(page, query, history_set, limit=10)
-                    
-                for url in found_urls:
-                    if not any(c['url'] == url for c in discovered_candidates):
-                        discovered_candidates.append({'url': url, 'category': category, 'profile_url': None})
+            # Execute search queries concurrently under semaphore control
+            tasks = [
+                self.run_single_search_query(context, category, query, history_set, is_active_session, limit=10)
+                for category, query in queries
+            ]
             
-            await page.close()
+            results = await asyncio.gather(*tasks)
+            
+            # Flatten results and append to candidates
+            for res_list in results:
+                for item in res_list:
+                    if not any(c['url'] == item['url'] for c in discovered_candidates):
+                        discovered_candidates.append(item)
             
         return discovered_candidates[:target_limit]

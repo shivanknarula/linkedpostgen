@@ -6,7 +6,7 @@ DB_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 # Playwright Scraper settings
 HEADLESS = True
 MAX_CONCURRENT_TABS = 3
-PAGE_TIMEOUT_MS = 25000
+PAGE_TIMEOUT_MS = 12000
 STEADY_STATE_TIMEOUT_MS = 1000
 
 # Groq API limits & settings

@@ -79,20 +79,38 @@ class AIScoringPipeline:
         """
 
         async with self.semaphore:
-            try:
-                response = await self.client.chat.completions.create(
-                    messages=[{"role": "user", "content": prompt}],
-                    model=GROQ_MODEL,
-                    response_format={"type": "json_object"},
-                    max_tokens=350,
-                    temperature=0.2
-                )
-                raw_json = response.choices[0].message.content.strip()
-                data = json.loads(raw_json)
-                return data
-            except Exception as e:
-                print(f"    ! Groq scoring API error: {e}")
-                return None
+            max_retries = 5
+            backoff = 2.0
+            for attempt in range(max_retries):
+                try:
+                    response = await self.client.chat.completions.create(
+                        messages=[{"role": "user", "content": prompt}],
+                        model=GROQ_MODEL,
+                        response_format={"type": "json_object"},
+                        max_tokens=350,
+                        temperature=0.2
+                    )
+                    raw_json = response.choices[0].message.content.strip()
+                    data = json.loads(raw_json)
+                    return data
+                except Exception as e:
+                    err_str = str(e)
+                    is_rate_limit = "429" in err_str or "rate limit" in err_str.lower()
+                    if is_rate_limit and attempt < max_retries - 1:
+                        # Extract wait time if possible, e.g. "try again in 9.22s"
+                        sleep_time = backoff
+                        import re
+                        match = re.search(r"try again in (\d+\.?\d*)s", err_str)
+                        if match:
+                            sleep_time = float(match.group(1)) + 0.5
+                        else:
+                            sleep_time = backoff
+                            backoff *= 2.0
+                        print(f"    [!] Groq rate limit hit. Retrying in {sleep_time:.2f}s... (Attempt {attempt+1}/{max_retries})")
+                        await asyncio.sleep(sleep_time)
+                    else:
+                        print(f"    ! Groq scoring API error: {e}")
+                        return None
 
     async def evaluate_posts(self, posts: list) -> list:
         """Evaluates a batch of posts in parallel using asynchronous tasks."""

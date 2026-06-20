@@ -380,33 +380,58 @@ async function getGroqScore(postText: string, category: string, groqKey: string)
   ${postText.substring(0, 3000)}
   `;
 
-  try {
-    const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
-      method: "POST",
-      headers: {
-        "Authorization": `Bearer ${groqKey}`,
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        messages: [{ role: "user", content: prompt }],
-        model: "llama-3.3-70b-versatile",
-        response_format: { type: "json_object" },
-        max_tokens: 350,
-        temperature: 0.2
-      })
-    });
+  const maxRetries = 5;
+  let backoff = 2;
+  for (let attempt = 0; attempt < maxRetries; attempt++) {
+    try {
+      const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+        method: "POST",
+        headers: {
+          "Authorization": `Bearer ${groqKey}`,
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          messages: [{ role: "user", content: prompt }],
+          model: "llama-3.3-70b-versatile",
+          response_format: { type: "json_object" },
+          max_tokens: 350,
+          temperature: 0.2
+        })
+      });
 
-    if (!response.ok) {
-      const errText = await response.text();
-      console.error(`[!] Groq API request failed: ${errText}`);
+      if (!response.ok) {
+        const errText = await response.text();
+        if (response.status === 429 && attempt < maxRetries - 1) {
+          let sleepTime = backoff;
+          try {
+            const errObj = JSON.parse(errText);
+            const errMsg = errObj.error?.message || "";
+            const match = errMsg.match(/try again in (\d+\.?\d*)s/);
+            if (match) {
+              sleepTime = parseFloat(match[1]) + 0.5;
+            }
+          } catch (_) {}
+          
+          console.warn(`[!] Groq rate limit (429) hit. Retrying in ${sleepTime}s... (Attempt ${attempt+1}/${maxRetries})`);
+          await new Promise(resolve => setTimeout(resolve, sleepTime * 1000));
+          backoff *= 2;
+          continue;
+        }
+        console.error(`[!] Groq API request failed: ${errText}`);
+        return null;
+      }
+
+      const resJson = await response.json();
+      const rawJson = resJson.choices[0].message.content.trim();
+      return JSON.parse(rawJson);
+    } catch (e) {
+      console.error(`[!] Error in getGroqScore attempt ${attempt+1}:`, e);
+      if (attempt < maxRetries - 1) {
+        await new Promise(resolve => setTimeout(resolve, backoff * 1000));
+        backoff *= 2;
+        continue;
+      }
       return null;
     }
-
-    const resJson = await response.json();
-    const rawJson = resJson.choices[0].message.content.trim();
-    return JSON.parse(rawJson);
-  } catch (e) {
-    console.error("[!] Error in getGroqScore:", e);
-    return null;
   }
 }

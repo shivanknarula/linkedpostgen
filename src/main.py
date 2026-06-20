@@ -77,6 +77,33 @@ async def run_pipeline(args):
             is_active_session = await scraper.verify_session(page)
             await page.close()
             
+            if not is_active_session:
+                username = os.getenv('LINKEDIN_USERNAME')
+                password = os.getenv('LINKEDIN_PASSWORD')
+                if username and password:
+                    print("[*] LinkedIn session expired. Attempting automatic login in background...")
+                    page = await context.new_page()
+                    try:
+                        await page.route("**/*", scraper.block_assets)
+                        await page.goto("https://www.linkedin.com/login", wait_until="domcontentloaded", timeout=12000)
+                        
+                        # Use a low timeout to fail-fast if a CAPTCHA/challenge redirects the page
+                        await page.fill('#username', username, timeout=3000)
+                        await page.fill('#password', password, timeout=3000)
+                        await page.click('button[type="submit"]', timeout=3000)
+                        
+                        print("    Waiting for feed page to verify automatic login...")
+                        await page.wait_for_url('**/feed/**', timeout=12000)
+                        print("    [+] Automatic login succeeded! Saving refreshed session state...")
+                        await context.storage_state(path=state_file)
+                        is_active_session = True
+                    except Exception as e:
+                        print(f"    [!] Automatic login failed: {e}. Falling back to Yahoo search.")
+                    finally:
+                        await page.close()
+                else:
+                    print("[!] Stored LinkedIn session has expired, and no credentials were found in env. Skipping direct LinkedIn search.")
+            
             # Step 2: Discovery Engine
             conn = get_db_connection()
             discovered = await discovery.run_discovery(context, conn, is_active_session=is_active_session, target_limit=args.limit)
