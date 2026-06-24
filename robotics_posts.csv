@@ -46,76 +46,177 @@ https://www.linkedin.com/company/xpeng-motors/,2026-06-10,9,XPENG CEO sharing vi
 https://www.linkedin.com/in/elonmusk/,2026-05-24,9,"Tesla CEO posting about Optimus humanoid robot progress, mass production timeline, and AI chip integration.","Running the entire FSD network on the robot's onboard Dojo-derived computer is a bold engineering bet. If the actuators can be manufactured at automotive scale and cost, the economic disruption will be massive. When do you expect the first fully autonomous tasks in the Tesla factories?",28000,2500,"Optimus Gen 2 is walking around the lab and starting to perform simple tasks in our factories. It runs on the same FSD computer and AI network as our cars. We expect to have several thousand Optimus robots working in Tesla factories next year, with mass production for external customers in 2027.",global
 https://www.linkedin.com/in/samaltman/,2026-06-05,9,"High-profile post by OpenAI CEO on AGI timeline, compute scaling, and societal impacts. High visibility.","Compute scaling laws continue to hold, Sam. The challenge is energy generation for these datacenters. Are you betting on nuclear fusion/fission integration to power the next decade's training clusters, or are we looking at decentralized architectures?",9430,720,"AGI is coming, and it will happen much faster than people realize. The bottleneck right now is compute infrastructure: energy, datacenters, and silicon. The companies and nations that build the energy and infrastructure will shape the next century.",global
 https://www.linkedin.com/in/andrej-karpathy/,2026-06-07,9,Highly technical post discussing LLM architecture as an operating system kernel. Prompts deep technical conversation.,"The LLM-as-OS model is a powerful abstraction, Andrej. Memory hierarchy (context window as RAM, vector DB as disk) makes perfect sense. Do you see the planning/reasoning loop becoming a hardware-accelerated instruction, or will it remain in the software orchestration layer?",12000,890,"Think of an LLM not as a chatbot, but as the kernel of a new operating system (the LLM OS). It coordinates tools, memory (context window and vector search), and compute (code execution). The future is about building this operating system stack, making it efficient, secure, and fast.",global
-https://www.linkedin.com/posts/saumy-sharma_robotics-ros2-computervision-activity-7473578374540730368-Rbdl,2026-06-23,8,"The post presents a novel AI-powered vision teleoperation pipeline, showcasing strong technical depth and relevance to both AI and robotics. The use of ROS 2, Google MediaPipe, and NVIDIA Isaac Sim demonstrates a high level of expertise.","Saumy, your work on bridging computer vision and robotic simulation is truly impressive. The application of Imitation Learning to train AI agents for autonomous manipulation has significant potential. How do you envision scaling this technology to more complex robotic systems and real-world environments?",0,0,"Play Video
-Video Player is loading.
-Loaded: 0%
-0:00
-PlayBack to start
-Stream Type LIVE
-Current Time 0:00
-/
-Duration -:-
- 
-1x
-Playback Rate
-Show Captions
-Unmute
-Fullscreen
-Saumy Sharma
-4d Edited
+https://www.linkedin.com/posts/activity-7371755352578703360-yMJg,2026-06-24,8,"The post highlights Unitree Robotics' innovative approach to robotics, focusing on affordability and end-to-end integration, with a strong founder signal and high relevance to AI and robotics.","Wang Xingxing's emphasis on 'passion-driven iteration' over endless funding is a refreshing perspective in the robotics industry, where breakthroughs often seem to require massive resources; can this approach be scaled to drive innovation in other areas of AI research?",0,0,"Ashley Dudarenok 艾熙丽
+9mo
 Report this post
-Weekend Robotics Build: AI-Powered Vision Teleoperation Pipeline! 🤖💻 Over the weekend, I decided to bridge the gap between computer vision and robotic simulation. I developed a real-time teleoperation pipeline that allows a user to control a 6DOF dexterous robotic hand in simulation using nothing but a standard webcam. Using ROS 2 and Google MediaPipe, I created a system that mirrors human hand movements onto a digital twin. Why build this? Because vision-based teleoperation is a crucial foundational step for gathering human demonstration data to train AI agents for autonomous manipulation (Imitation Learning). 🛠️ The Technical Stack & Pipeline: Computer Vision: Utilized Google MediaPipe and OpenCV to extract 21 3D spatial hand landmarks in real-time. Kinematics Engine: Developed a Python node to calculate vector geometry, translating raw 3D coordinates into relative angular radians. Signal Processing: Implemented a deadzone filter and Exponential Moving Average (EMA) to eliminate AI tracking jitter and ensure smooth robotic actuation. ROS 2 Architecture: Broadcasted the calculated angles via sensor_msgs/JointState topics to drive a high-fidelity robot state publisher in RViz2. 🚀 What’s Next on the Roadmap? The immediate next step is migrating this digital twin from RViz2 into NVIDIA Isaac Sim (Omniverse). By utilizing OmniGraph / Action Graph to subscribe to my ROS 2 topics, I will introduce rigid-body physics, gravity, and collision meshes to test physical grasping and object manipulation! I've made the codebase open-source. Feel free to check out the repository, try it yourself, and let me know your thoughts! Shadow Robot Humanoid Robotics Weekly IEEE Robotics and Automation Society The Robot Studio OpenCV 🔗 GitHub Repo & Setup Guide: https://lnkd.in/gNQdFv7d Edmar Mendizabal NVIDIA Omniverse #Robotics #ROS2 #ComputerVision #MediaPipe #NVIDIAOmniverse #IsaacSim #Python #ArtificialIntelligence #Automation #RoboticManipulation
-…more
-   80 2 Comments
+This is Wang Xingxing with his very first robot dog models in 2017. 🤓 Fast forward 8 years, and his company Unitree Robotics sets sights on $7B IPO valuation. 🤖 Here's how Unitree cracked the robotics code: China's industrial robot production jumped 35.6% YoY, hitting 369,316 units in H1 2025. But while giants like Boston Dynamics chase perfection, Unitree chose a different path: affordability. The breakthrough moment came from constraints, not resources. 👇 Wang Xingxing bootstrapped from his university lab in 2016. Laikago, Unitree’s first quadruped robot (2017), laid the foundation for its humanoid breakthroughs, which has taught him something crucial: expensive doesn't mean better. 🤖 The G1 humanoid costs under US $16,000. That's cheaper than many laptops, and far below competitor prices. But how do you maintain quality at that price point? Wang's three-part strategy: 1️⃣First, end-to-end integration. Instead of buying expensive components, Unitree builds everything in-house. Motors, sensors, AI chips. This vertical approach cuts costs while maintaining control. 2️⃣Second, measured scaling. While competitors raised massive funding rounds, Wang took eight smaller ones. No vanity metrics, no premature expansion. Focus on getting the fundamentals right. 3️⃣Third, cultural resonance first. The H1 humanoid captivated over a billion viewers at the 2025 Spring Festival Gala. Domestic success before global expansion. And here's what really sets Unitree apart: ✔️ Open-source philosophy meets viral marketing. Their robots dance, do backflips, and navigate stairs. These demos generate millions of views without massive ad spending. ✔️ Unitree’s innovations, like the G1’s affordability, earned global recognition at events like the 2025 World Robot Conference, beating 780 applicants worldwide 👇 The business model is fascinating. Unitree scaled from niche sales in 2024 to mass production in 2025, achieving a billion-dollar valuation through strategic funding. 🤔 How? ✔️ They're not selling robots; they're selling the future of ""embodied intelligence."" By 2035, the humanoid market is projected to reach $38–43 billion, with Unitree positioning itself as the affordable gateway. 🚀Wang's leadership philosophy drives everything: ""Passion-driven iteration beats endless funding."" His team prioritizes breakthrough moments over incremental improvements. While Boston Dynamics perfects warehouse automation, Unitree democratizes robotics for manufacturing, search-rescue, and entertainment. 🌎 The IPO horizon signals global ambitions. Unitree is eyeing global expansion, with plans to scale production and distribution worldwide. ❓The question becomes: can established players adapt to this affordable revolution? Wang's journey proved that innovation leadership doesn't always require the biggest budget. Sometimes constraints force breakthrough thinking that resources can't buy. Your take? 🤓👇
+   84 20 Comments
 Like Comment
 Share
 Copy
 LinkedIn
 Facebook
 X
-Phanindra Kotla 2d
+Herbert Hofmann 8mo
 Report this comment
-Keep rocking!! Saumy Sharma
+Thrilled to have visited Unitree Robotics and witnessed their groundbreaking robots in person. Seeing them deployed in EV factories like NIO's in Hefei solidified a key insight: this is just the beginning. There's a common misconception that Chinese entrepreneurs are just ""playing"" with tech without a clear strategy. This is a profound misreading. Their focus is intensely pragmatic: get a functional, valuable product to the market first. Margin optimization comes later. It’s a powerful lesson in customer-centric innovation and speed that the West would be wise to observe.
 Like
 Reply
-1 Reaction 2 Reactions
-Soumyadip Sarkar 3d
+1 Reaction
+Patrick Gray 9mo
 Report this comment
-Nice work!
+Ashley Dudarenok 艾熙丽 Ummm... their robot weighs 50lbs, this is why it can do its sort human like movements. None of this is possible with what I think is a real military use robot (6ft tall, weighs 198lbs, can walk at 2-3mph carrying a 40lb pack for 6-8 hours without any re-supply of anything, including no swapping out of batteries). Physics and thermodynamics do not allow electric motor/gearhead systems to do this, for the form factor required, if you put the electric power that is required into the motor size that can be used, this amount of power will melt the wires in the motor. Hydraulic cylinders can supply these specifications easily. Hydraulic motors can allow the military robot I outlined. It will need a fuel engine. On my website I discuss this form of robot, here's the robot walking webpage: https://pistonrobot.com/pistonrobot-discussion-of-the-topic/pistonrobot-hydraulic-walking/ Here's the fuel engine webpage, of note, this engine (I think) will make no noise. https://pistonrobot.com/the-heart-of-the-robot/
+No more previous content
+No more next content
 Like
 Reply
-1 Reaction 2 Reactions
+1 Reaction
 See more comments
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/therobotics_robotics-humanoidrobots-embodiedai-activity-7473245613069877248-E-XC,2026-06-23,8,"The post presents a significant breakthrough in motion generation for humanoid robots, leveraging NVIDIA's MotionBricks framework, which demonstrates high novelty, technical depth, and relevance to AI and robotics.","The integration of MotionBricks into NVIDIA's GR00T Whole-Body Control stack has the potential to revolutionize humanoid robotics by enabling real-time motion generation, but what are the potential limitations and challenges in scaling this technology to more complex, real-world environments?",0,0,"Play Video
-Video Player is loading.
-Loaded: 0%
-0:00
-PlayBack to start
-Stream Type LIVE
-Current Time 0:00
-/
-Duration -:-
- 
-1x
-Playback Rate
-Show Captions
-Unmute
-Fullscreen
-The Robotics Media
-9,451 followers
-5d
-Report this post
-🚀 The Future of Motion Generation for Humanoid Robots Is Arriving 15,000 FPS. 2ms latency. 350,000 motion skills powered by a single neural model. 🤯 NVIDIA AI has introduced MotionBricks, a real-time motion generation framework designed for both robotics and gaming, representing a significant step toward more adaptive and versatile embodied AI systems. Presented at SIGGRAPH 2026, MotionBricks integrates directly into NVIDIA’s GR00T Whole-Body Control stack, enabling humanoid robots to generate complex movements on the fly rather than relying on traditional animation pipelines. So, how does it work? The system is first trained on 350,000 production-quality motion capture clips from the BONES-SEED dataset created by Bones Studio. Instead of building countless handcrafted animation graphs or fine-tuning separate models for every task, MotionBricks learns a unified representation of movement. On top of this foundation, users simply provide high-level instructions such as: Navigation targets Object interaction keyframes Desired motion styles The neural network then generates the complete motion sequence in real time, eliminating the need for conventional animation graphs or task-specific optimization. The demonstration is particularly impressive. A single character can seamlessly: Navigate through an environment, Pick up a sword, Vault over a bench, Sit down, Instantly switch between movement styles such as zombie, injured, or skipping. Every frame is generated dynamically by the model itself. What makes this especially important is that MotionBricks is becoming a core component of GR00T Whole-Body Control, the same technology stack supporting many humanoid robotics research platforms worldwide. As these models continue to mature, they could dramatically reduce the engineering effort required to create agile and adaptable robots. The project already includes an interactive G1 demonstration, with a more comprehensive robotics-integrated release expected soon. The motion generation stack for humanoid robots is evolving at an incredible pace and this could be another major milestone toward more capable embodied intelligence. 🔥 #Robotics #HumanoidRobots #EmbodiedAI #ArtificialIntelligence #NVIDIA #MotionGeneration #MachineLearning
-…more
-  25
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-To view or add a comment, sign in",global
+To view or add a comment, sign in",chinese
+https://www.linkedin.com/pulse/how-ai-agents-really-work-under-hood-autonomous-systems-justin-norris-otb9c,2026-06-24,8,"The post provides a detailed explanation of AI agents, their architecture, and how they differ from traditional workflow automation. It includes technical insights and examples, making it a valuable resource for those interested in AI and agentic systems.","I appreciate the distinction you've made between traditional workflow automation and agentic systems, highlighting the importance of dynamic decision-making in AI agents. How do you envision the integration of human judgment and oversight in these systems as they become increasingly complex and autonomous?",0,0,"How AI Agents Really Work: Under the Hood of Autonomous AI Systems
+Report this article
+Justin Norris 
+Justin Norris
+Published Mar 28, 2025
++ Follow
+Everyone's talking about AI agents—but what actually makes them work?
+It’s more than just putting an LLM step into a workflow. Under the hood, real agentic systems break out of rigid if-this-then-that logic and use dynamic decision-making processes that more closely approximate human judgment.
+I recently chatted with Daniel Vassilev , co-founder of Relevance AI (a platform to develop commercial-grade multi-agent systems) about the underlying architecture of agentic AI and how to deploy it successfully.
+The article below summarizes the key ideas from that discussion, which I've expanded on with examples to really illustrate the underlying architecture.
+You can listen to or watch the whole episode for even more detail.
+Deep Dive: How AI Agents Really Work
+Defining Agentic AI
+At the heart of an AI agent is dynamic decision-making. Traditional software runs on hard-coded, deterministic rules—if this, then that. Agentic AI introduces something different: the ability to interpret context and choose from multiple possible actions without pre-defining every step.
+Think of it as hiring a junior employee. You give them goals, context, and tools—but you don’t tell them exactly what to click and when. They're able to exercise judgement within the parameters of their role.
+Agents vs. Workflows
+At first glance, a lot of what’s being called “AI agents” today looks impressive. But peel back the layers, and many of these systems are still built on traditional workflow automation paradigms: linear sequences of actions triggered by clear rules. You might see a Zapier-style flow where a new lead gets scored by an LLM, enriched via API, and sent to a CRM. It feels modern—but structurally, it’s just a smarter version of if-this-then-that. You’re still dictating the order of operations.
+An agentic system flips this.
+Instead of walking a fixed path, agents are given a goal, some tools, and a set of instructions. Then they decide what steps to take, in what order, and when to loop in a human. They might skip steps. They might retry a tool. They might change tactics based on unexpected input. In short, they plan, not just execute.
+A workflow might say:
+→ “When a new lead comes in, run steps A → B → C.”
+An agent might say:
+→ “Given this lead, what should I do? Should I enrich it? Score it? Flag it? Skip it?”
+The first requires the creator to anticipate every edge case. The second lets the agent make a judgment call on the fly.
+This distinction becomes crucial as tasks get more ambiguous. Workflows break when something unexpected happens, whereas agents can execute some discretion and judgement.
+Agent Architecture
+Agents are structured systems. They’re built from modular components that work together to perceive, reason, and act in pursuit of a goal.
+How these pieces come together will vary based on the platform you’re using to develop them. But conceptually, most AI agents are made from a few core building blocks.
+Let’s review each component in detail.
+1) Memory / Context
+This is how the agent remembers things, such as past actions, inputs, or external data.
+This can include:
+Short-term memory
+Context window of the current LLM session.
+Reference documents retrieved into short-term memory.
+Long-term memory
+Files and documents (uploaded into a platform or directly into a vector store).
+For example, in Relevance AI, you can create a knowledge table directly in the platform or by importing a variety of documents / website content.
+An agent can also update knowledge tables based on information retrieved, even creating AI-managed knowledge bases.
+Example of creating a knowledge table in Relevance AI
+2) Objectives / Instructions
+The agent’s objectives and instructions are a persistent prompt for the reasoning part of the agent. They describe its overall mission and provide critical guidance on how to do its job.
+These jobs can be simple or complex.
+Narrowly-defined tasks (e.g. “Summarize this article”)
+Dynamic user prompts (e.g. “Help me write a sales email for xyz”)
+Multi-step objectives (e.g. “Research a company and draft a proposal”)
+For example, Relevance AI agents have an input field for “Core Instructions,” where you can provide detailed context and reference specific tools.
+Core instructions in Relevance AI
+3) Reasoning Engine
+This is the brain of the operation, usually powered by a language model (like GPT, Claude, Gemini, Grok, etc.).
+Depending on the inputs and the instructions, the LLM can create a plan to achieve the agent’s goals and decide what to do next.
+You can see in the screenshot above where the model is selected in Relevance AI.
+4) Tools / Abilities
+If the LLM is the brain of the agent, its tools are how it actually gets things done.
+Just like a carpenter might have a toolbox of items for specific needs and purposes, AI agent tools are specific, task-oriented capabilities that may rely on functions or use APIs to connect to external services. For example:
+Search the web
+Perform calculations
+Ingest and process files
+Write or execute code
+Access a database
+Update a record in CRM
+POST to a webhook
+Essentially any workflow built in a traditional iPaaS context could serve as a tool—or one agent can act as a tool for another, enabling agents to delegate work to more specialized, sub-agents.
+List of tools for an enrichment agent in Relevance AI
+5) Perception / Input
+The input is how the agent “sees” the world and receives information that is specific to a particular session or instance of a task.
+This can be in the form of user input via a chat session, field data passed from another system as part of an automated workflow, and so on.
+In the example screenshot below, an agent is triggered by a new email, then uses properties of that email (message ID, thread ID, subject line, attachments, etc.) as inputs to pass to its tools to enable it to act.
+Recommended by LinkedIn
+Everyone’s “transforming with AI.” Almost no one…
+ASAPP 3 months ago
+Agentic AI Is Coming, Are Your Systems Ready?
+Smarterminds 8 months ago
+From Guesswork to Ground Truth: Using Agentic AI for…
+Manoj Mohan 8 months ago
+Screenshot from
+6) Action / Output
+The actions are the final outputs of the agent’s work.
+This could be:
+Generating text (a summary of a longer text)
+Sending a message via email or chat
+Writing or executing code
+Triggering another agent or workflow
+These actions are the end result of the agent accepting inputs, forming a plan based on its objectives/instructions and using the context of its memory/knowledge, and then leveraging its tools to achieve that plan.
+7) Control Loop / Orchestration
+Within the architecture of the agent, there needs to be some logic that orchestrates its activities and enables it to act. This is the control or orchestration layer. It’s a “traditional” deterministic software application, often built using frameworks designed for agentic applications like LangChain or abstracted within no-code / low-code platforms like Relevance AI.
+The orchestration layer handles the full cycle of perception, reasoning, action, and feedback—feeding inputs into the LLM, processing outputs, invoking tools or functions, capturing results, and re-routing them into subsequent reasoning steps if needed.
+You could consider it like the “nervous system” of a person. It doesn’t think, but it does enable communication and passes information between the brain, the senses, the motor system that enables action, and so forth.
+In Relevance AI, this orchestration layer is embodied by the platform itself, which connects the LLM, its core instructions, user inputs, tool executions, memory stores, and desired output. Users define steps and logic declaratively (rather than coding the control loop themselves).
+Another agent platform, Tray.ai, exposes this control layer in an illustrative way. Their agent builder automatically provisions a workflow that allows an agent step to receive instructions and inputs, then loop iteratively to execute a plan, invoke tools, and so forth.
+Always-On Agents
+Not all agents need to wait for a prompt or a user to interact with them. AI agents can also run in the background, scanning for new input, monitoring systems, or performing tasks on a regular schedule.
+They might run every hour, every day, or even more frequently, depending on the task. The key is that they’re not waiting for a human to kick things off.
+Take an example from Daniel’s team: every day, an agent combs through sales call transcripts, pulls out relevant insights, and pushes them into a structured Notion database for enablement and analytics. It’s not glamorous, but it’s high-leverage. No one needs to upload a file or paste a link.
+This shift from reactive tools to proactive agents changes how we think about work delegation. And as these agents become more intelligent and more integrated across systems, their ability to act in real time, without needing to be summoned, becomes a major source of operational leverage.
+Choosing the Right Tasks for AI
+Today’s agents are best suited for structured, repeatable work that requires a light layer of judgment. These are tasks like reviewing leads, cleaning CRM records, summarizing tickets, scheduling follow-ups. These are the small, necessary steps that quietly power a business day-to-day.
+(In the past I’ve referred to these tasks as “adaptive,” a middle ground between tasks that are fully deterministic and those that require deep human insight.)
+The key is that these tasks follow a pattern, but the pattern isn’t always 100% deterministic. A human might make small decisions based on context—skip a step, flag something, escalate when needed. That’s exactly where agentic systems can be impactful. They can be trained to follow a process and make dynamic decisions inside of it.
+The real opportunity isn’t necessarily doing these tasks better than a human could. It’s doing them 50x or 100x more often, with near-zero marginal cost.
+A task you might only do weekly, because it’s tedious or low priority, can now run every hour. A review process you apply to the top 10 deals? Now you can apply it to the top 1,000. The compounding effect of always-on, judgment-capable agents is enormous.
+This is where agentic AI stops looking like automation and starts looking like leverage.
+Copilot vs. Autopilot
+Much of the current discourse around AI centers on copilot-style tools—systems that sit alongside humans, waiting to be prompted, ready to assist. It’s a useful model, but Daniel argues it’s not the endgame.
+The real leap is toward autonomous agents: systems that don’t just wait for instructions, but can plan, decide, and act, then loop you in when needed.
+Daniel put it simply: imagine you’re building a team. Would you rather have five assistants, each waiting silently for you to delegate every task…or five teammates, each with context, tools, and the autonomy to take initiative and come back with results? That’s the difference between copilot and autopilot.
+But autonomy doesn’t mean absence of control. In fact, human-in-the-loop design becomes even more important as agents grow in capability. You still need checkpoints: approval flows, escalation paths, handoffs. Just like in a real team, some decisions are made independently, while others require review. The point is to offload the busywork of execution rather than to eliminate oversight entirely.
+Should AI Handle Strategy?
+Right now, agents are best suited for execution. Strategic planning still requires human context, creativity, and a broader lens.
+But over time, as models access richer company data and develop deeper reasoning capabilities, Daniel believes we’ll start to see agents contribute meaningfully to strategy—identifying patterns, flagging opportunities, even generating scenarios humans might overlook.
+Spotlight on Use Cases
+Some of the most impactful use cases today aren’t flashy—they’re operational, repetitive, and quietly transformative. These are the kinds of tasks companies typically under-resource or avoid entirely because they’re too time-consuming to scale manually. Agents flip that equation.
+Here are a few real-world examples Daniel shared that illustrate how agentic systems can create leverage right now:
+Lifecycle Marketing Agent
+Automatically sends tailored onboarding messages to every new user.
+Reads metadata about the user (e.g., company, role) to customize emails.
+Mimics the kind of personalized 1:1 attention the team gave early users.
+Replaces a level of white-glove support that would require a full team.
+Inbound Lead Qualification
+Handles every new inbound sign-up across time zones and geographies.
+Qualifies leads, asks follow-up questions, and routes them to sales, partnerships, or self-serve tracks.
+Operates at a scale that would otherwise require 10+ BDRs globally.
+Delivers a fast, consistent experience while maintaining SLAs.
+CRM Cleanup and Deduplication
+One customer had over 100,000 messy Salesforce accounts.
+Agent identified duplicates, outdated records, and bad statuses.
+Completed in under a week what a BPO team would take months to finish.
+Saved both money and enormous RevOps + sales frustration.
+Outbound Research and Personalization
+Agent performs deep prospect research (e.g. LinkedIn, website, funding history).
+Generates highly personalized messaging for sales outreach.
+Mimics how a top-performing rep would approach each lead.
+Scales high-quality outreach—without falling into spammy “spray and pray.”
+Recruiting Coordination Support
+Assists with screening, scheduling, and follow-ups across Slack, email, calendar, and ATS.
+Reads candidate context and instructions from hiring managers.
+Acts like a junior recruiting coordinator making intelligent decisions across platforms.
+Why RevOps Should Lead AI Initiatives
+You might assume that engineering or data science teams should own the AI roadmap. But Daniel makes a compelling case: RevOps is uniquely positioned to lead the way.
+RevOps understands both how the business runs and how the systems connect. We’re already stitching together tools, building automations, managing workflows, and measuring performance. We’re translators between strategy and systems.
+If you’ve ever built a process doc, optimized a Salesforce flow, or audited a broken funnel, you already have the instincts needed for agent design.
+And in a world where businesses can scale execution without scaling headcount, RevOps becomes the architect of that scale and managers of the AI workforce.
+If you want to experiment creating your own agents, Relevance AI offers a free plan you can play with.
+Disclosure: I am using an affiliate link for Relevance AI, which means I earn a small bonus if you sign up through my content.",global
 https://www.linkedin.com/posts/divyanshukr12_zingrobot-robotics-humanoidrobot-activity-7341837564447739905-q4ha,2026-06-15,8,"The post introduces a novel, AI-powered humanoid robot called Zing, with a detailed technical breakdown of its components and capabilities, showcasing a high level of technical depth and AI relevance.","The integration of Raspberry Pi, Jetson Nano, and Arduino in Zing's architecture is impressive, and the use of AI libraries like OpenCV and TensorFlow Lite enables advanced computer vision capabilities. What potential applications do you envision for Zing in the fields of education and research, and how do you plan to further develop its AI-driven interaction capabilities?",0,0,"Divyanshu Kumar
 12mo
 Report this post
@@ -175,7 +276,259 @@ https://www.linkedin.com/in/aravindsrinivas/,2026-05-20,8,"Perplexity CEO sharin
 https://www.linkedin.com/in/mustafasuleyman/,2026-05-22,8,"CEO of Microsoft AI discussing user interaction models, voice agents, and the future of consumer AI.","Voice interaction with latency below 300ms is the tipping point where AI feels like a natural conversation partner. The challenge is handling speech interruptions and context tracking during long dialogs. Exciting updates, Mustafa.",6300,510,"We are designing Copilot to be an emotional and intellectual assistant that supports you throughout the day. With natural voice interfaces and real-time vision capabilities, your AI companion will be able to see what you see, listen to you, and help you interact with the digital world.",global
 https://www.linkedin.com/in/chris-and-97a61a/,2026-05-26,8,"Drone pioneer and AI executive discussing drone software, edge computation, and computer vision.","Edge AI chipsets (like Jetson Orin Nano) are really unlocking real-time SLAM and obstacle avoidance on micro-drones. The next frontier is visual-inertial odometry that runs under 5W. Exciting times, Chris.",3100,210,"Drones are transitioning from simple remote-controlled cameras to autonomous edge devices. By running computer vision models directly on small companion computers, drones can now map structures and navigate indoor environments without GPS or cloud connection.",global
 https://www.linkedin.com/company/baidu/,2026-06-03,8,"Baidu CTO sharing updates on industrial AI applications, agent templates, and cloud scalability.","Deploying ERNIE-powered agents directly into manufacturing telemetry pipelines is a great use-case, Haifeng. Natural language diagnostics for machine operators drastically reduces repair search time. Appreciate you sharing the metrics.",2400,140,"We are expanding the industrial application templates for the ERNIE platform. By providing pre-built agent architectures for quality inspection, machine diagnostics, and supply chain routing, we are making it easy for energy and manufacturing sectors to deploy AI.",chinese
-https://www.linkedin.com/posts/kaifulee_tech-companies-should-stop-pretending-ai-activity-6372604994679640064-W4gl,2026-06-23,7,"The post discusses the impact of AI on jobs and the future of work, with comments from various individuals, including experts in the field. The post's relevance to AI and the presence of a high-signal founder, Kai-Fu Lee, contribute to its high score.","Kai-Fu Lee's perspective on AI's potential to automate tasks is thought-provoking, but what are the implications for human-AI collaboration in industries where creativity and empathy are essential, and how can we prepare the workforce for this transition?",0,0,"Kai-Fu Lee Kai-Fu Lee is an Influencer
+https://www.linkedin.com/posts/xiaopeng-he-41615484_xpeng-iaa2025-p7-activity-7367136077054136321-rChA,2026-06-24,7,"The post showcases XPENG's latest tech and vision for the future of mobility, featuring AI and a humanoid robot, with significant engagement and relevance to the Chinese AI ecosystem.","As a robotics engineer, I'm intrigued by the integration of AI in XPENG's mobility solutions, particularly the humanoid robot Iron. How do you envision the future of human-robot interaction in smart mobility, and what role will AI play in enhancing user experience?",0,0,"Xiaopeng He Xiaopeng He is an Influencer
+9mo Edited
+Report this post
+Thrilled to personally showcase our latest tech and vision for the future of mobility. Together with The Next P7, IRON and even more, we will unveil how AI is redefining the future. #XPENG #IAA2025 #P7
+XPENG
+227,332 followers
+9mo Edited
+Hallo, München. 🇩🇪 The Next P7 makes its European premiere right here in Munich. Join us for our flagship lineup, humanoid robot Iron, and even a chance to meet our CEO. Where technology meets aesthetics, we lead with bold vision. For every XPENG enthusiast seeking the extraordinary — see you on September 8, Hall B1, Booth C20, Messe München. #TheNextP7EUDebut #IAA2025 #XPENGP7
+   181 19 Comments
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+Colin Hughes 9mo
+Report this comment
+Mr. He, your insights on the future of smart mobility are truly inspiring. They resonate strongly with some ideas I’ve been developing around safety and user engagement in EVs. I’ve sent you a short note to your Gmail for your kind review whenever you have a moment. It would mean a lot if you could take a quick look. Thank you sincerely for your time and leadership.
+Like
+Reply
+1 Reaction 2 Reactions
+jiyoung cho 9mo
+Report this comment
+Impressive vision at IAA 2025 — excited to see how XPENG is shaping the future of mobility with AI and bold innovation.
+Like
+Reply
+1 Reaction
+李怡荣 9mo
+Report this comment
+国人的骄傲
+Like
+Reply
+1 Reaction 2 Reactions
+Nazlı Güvenç 9mo
+Report this comment
+Hello, I have an untested idea related to car security systems, and it’s a system that could make a huge impact worldwide. I’m working on individual project ideas, but this system is really exciting—I’m currently developing it.
+Like
+Reply
+1 Reaction
+Chris Atkins 9mo
+Report this comment
+Excited to hear all about it next week, the new P7 looks like something from the future, would be amazing to explore it more.
+Like
+Reply
+1 Reaction
+Jim Riley 9mo
+Report this comment
+Xpeng makes super cool cars; but outside China they are still missing the killer app called karaoke 🎤 Cya in Munich
+Like
+Reply
+1 Reaction
+Devon Veenhuis 9mo
+Report this comment
+Exciting to see the Next P7 making its European premiere at IAA. My colleague Rick Zielman, Partnership Director Europe at Autotelex, and also a P7 driver and experienced user, will be attending the event as well – a great opportunity to exchange insights!
+Like
+Reply
+1 Reaction
+Taha AlRaeeini 塔哈 咨询 . 9mo
+Report this comment
+Interesting and looking forward to connecting with you Xiaopeng He
+Like
+Reply
+1 Reaction
+KIM KHORN LONG (龍金夫) 9mo
+Report this comment
+XPENG also available in Cambodia, Xiaopeng He
+Like
+Reply
+1 Reaction
+David Zhu Songcheng Electronics And Cars 9mo
+Report this comment
+太帅了
+Like
+Reply
+1 Reaction 2 Reactions
+See more comments
+To view or add a comment, sign in",chinese
+https://www.linkedin.com/posts/openaimpact_xpeng-humanoidrobotics-futuremobility-activity-7470554182849257473-trcq,2026-06-24,7,"The post discusses a significant development in the Chinese AI ecosystem, with Xpeng's pivot to humanoid robotics and the potential for mass production by 2026. The integration of X-Chip edge compute with cloud-based language models offers a compelling AI stack, and the founder-CEO's involvement signals a strong commitment to this new direction.","The combination of real-time perception and conversational abilities in Xpeng's IRON robots could indeed transform customer service and retail, but what are the potential implications for job displacement and societal acceptance of humanoid machines in these roles?",0,0,"OpenAImpact
+67 followers
+1w
+Report this post
+🚀 Xpeng Chief Executive Takes Helm of Robotics Division as Humanoid Production Nears 2026 Deadline ✨ He Xiaopeng steps in to drive IRON humanoid rollout positioning Xpeng at the forefront of AI-powered automation. 💡 Xpeng’s founder-CEO He Xiaopeng has just taken the reins of the company’s robotics division, signaling a bold pivot from electric cars to humanoid assistants. The IRON robots, first shown in 2025, are set to move from prototype to mass production by the end of 2026, with trial runs already happening in Xpeng retail stores across China. By repurposing its EV factories for robot assembly, Xpeng aims to hit 5,000 units a quarter, bringing the cost of a fully-functional humanoid down to a level that could be viable for small businesses and even overseas markets. Financially, the move could boost Xpeng’s margins, which have been under pressure after a 17.6% revenue dip in Q1 2026. Analysts see a potential 30% upside in valuation if the robots capture even a slice of the booming Chinese service-robot market. The AI stack behind IRON combines X-Chip edge compute with cloud-based language models, offering real-time perception and conversational abilities that could transform customer service, retail, and hospitality. While the opportunity is massive, challenges remain — internal leadership changes, supply-chain bottlenecks for sensors, and the societal implications of humanoid machines working alongside humans. Still, Xpeng’s integrated ecosystem—cars, energy solutions, and now robots—could create powerful network effects, redefining how we interact with technology every day. What do you think: will these humanoid assistants become a common sight in our daily lives, or will they stay confined to niche applications? #Xpeng #HumanoidRobotics #FutureMobility #ChinaTech #Automation #Innovation #openaimpact #oai #anews
+1 Comment
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+OpenAImpact 1w
+Report this comment
+Read full article: https://openaimpact.com/news/xpeng-chief-executive-takes-helm-of-robotics-division-as-humanoid-production-nears-2026-deadline
+Like
+Reply
+1 Reaction
+To view or add a comment, sign in",chinese
+https://www.linkedin.com/posts/zzayas_unitree-ceo-says-robot-capability-comparable-activity-7431741878179549184-CoRv,2026-06-24,7,"The post discusses the current state of robotics technology, its limitations, and future prospects, with insights from Unitree Robotics' founder, making it relevant to AI, robotics, and the Chinese ecosystem.",Wang Xingxing's assessment of robotics technology being comparable to a 10-year-old child highlights the need for significant advancements in embodied AI algorithms and mass-production capabilities. What role do you think standardized application scenarios will play in accelerating the adoption of humanoid robots in industrial and service sectors?,0,0,"Zarina Z.
+4mo
+Report this post
+""Unitree Robotics founder Wang Xingxing said the current level of robotics technology is comparable to that of a 10-year-old child, adding that large-scale commercial adoption is still three to five years away, and no more than a decade at most. Despite steady annual progress, Wang said key bottlenecks remain, including the limited generalization capability of embodied artificial intelligence algorithms, low mass-production yield rates for core components and a lack of standardized application scenarios. The company expects shipments of humanoid robots to reach between 10,000 and 20,000 units in 2026 and plans to accelerate expansion into industrial and service sectors. "" https://lnkd.in/gcMYbbPc
+Unitree CEO says robot capability comparable to 10-year-old, large-scale use 3–5 years away · TechNode https://technode.com
+  6 1 Comment
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+中印慧智科技 1w
+Report this comment
+I appreciate Wang Xingxing's candid assessment of the current state of robotics technology, highlighting the significant challenges that still need to be overcome before we can achieve large-scale commercial adoption.
+Like
+Reply
+1 Reaction 2 Reactions
+To view or add a comment, sign in",chinese
+https://www.linkedin.com/posts/startup-pakistan_wang-xingxing-of-unitree-robotics-from-severe-activity-7298010888874164225-3YKS,2026-06-24,7,"The post highlights a pioneering figure in robotics, Wang Xingxing, and his achievements, including securing significant funding and gaining international attention, which contributes to its high scores in novelty, AI relevance, robotics relevance, and founder signal.","Wang Xingxing's journey from academic imbalance to robotics pioneer is truly inspiring, and his ability to secure substantial funding and catch Elon Musk's attention underscores the potential of innovative robotics solutions; what role do you think robotics will play in the future of industries like manufacturing and healthcare?",0,0,"Play Video
+Video Player is loading.
+Loaded: 0%
+0:00
+PlayBack to start
+Stream Type LIVE
+Current Time 0:00
+/
+Duration -:-
+ 
+1x
+Playback Rate
+Show Captions
+Unmute
+Fullscreen
+Startup Pakistan
+891,901 followers
+1y
+Report this post
+Wang Xingxing of Unitree Robotics: From Severe Academic Imbalance to Robotics Pioneer - Made Robots at 19, Secured RMB 1 Billion Funding at 34, and Caught Elon Musk's Attention.
+…more
+ 15
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+To view or add a comment, sign in",chinese
+https://www.linkedin.com/posts/hktenzin_robotics-ai-technology-activity-7299549840525471744-k3_2,2026-06-24,7,"The post highlights significant advancements in AI-powered robotics by Unitree Robotics, led by founder Wang Xingxing, with a strong focus on humanoid robots and AI relevance.","Wang Xingxing's achievements in developing advanced humanoid robots like Go1 and H1 are truly impressive, and his emphasis on suitable AI models and computing power is well-taken. As we continue to push the boundaries of AI-powered robotics, what role do you think edge computing will play in enabling more efficient and autonomous robotic systems?",0,0,"Tenzin Partners
+21,314 followers
+1y Edited
+Report this post
+Wang Xingxing, the 35-year-old founder and CEO of Unitree Robotics, has made significant strides in the field of robotics. Despite facing academic challenges, Wang has led his company to develop advanced humanoid robots, including the Go1 and H1 models. His achievements were highlighted when he attended a summit hosted by President Xi Jinping. Wang predicts rapid advancements in AI-powered robotics, emphasizing the importance of suitable AI models and computing power. Unitree's robots have been showcased at major events globally, including the CCTV Spring Festival Gala. Source: VnExpress #Robotics #AI #Technology #Innovation #Unitree #WangXingxing #HumanoidRobots #China #TechNews
+   6
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+To view or add a comment, sign in",chinese
+https://www.linkedin.com/posts/bazaartimes_unitree-founder-wang-xingxing-training-a-activity-7431446213696090112-W9Rc,2026-06-24,7,"The post highlights a significant development in the Chinese AI ecosystem, specifically in humanoid robotics, with a well-known founder discussing shipment plans and growth projections.","It's fascinating to see Unitree Robotics pushing the boundaries of humanoid robot production, but what potential applications or industries do you think will be most impacted by the widespread adoption of these robots?",0,0,"Play Video
+Video Player is loading.
+Loaded: 0%
+0:00
+PlayBack to start
+Stream Type LIVE
+Current Time 0:00
+/
+Duration -:-
+ 
+1x
+Playback Rate
+Show Captions
+Unmute
+Fullscreen
+Bazaar Times
+4,261 followers
+4mo
+Report this post
+Unitree founder Wang Xingxing training a grid of dozens of G1 robots. China’s Unitree Robotics plans to ship as many as 20,000 humanoid robots this year, up from about 5,500 in 2025, according to chief executive Wang Xingxing, after the company drew global attention with its appearance at Spring Festival Gala. Speaking to domestic tech outlet 36Kr after the show, Wang said global humanoid robot shipments could reach “tens of thousands” this year, with Unitree accounting for roughly 10,000 to 20,000 units of that total.
+…more
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+To view or add a comment, sign in",chinese
+https://www.linkedin.com/posts/the-icons-global_unitreerobotics-wangxingxing-china2026cctvspringfestivalgala-activity-7439684732453498880-sST1,2026-06-24,7,"The post highlights the founder of Unitree Robotics and their focus on humanoid robotics, demonstrating a strong robotics relevance and founder signal. The mention of standardisation and scalability indicates a growing industry, but lacks technical depth and research signal.","Wang Xingxing's emphasis on motion capabilities is well-timed, as we're seeing a surge in demand for robots that can navigate complex environments. What role do you think standardisation will play in accelerating the adoption of humanoid robots in various industries?",0,0,"The Icons
+18,166 followers
+3mo
+Report this post
+Unitree Robotics Founder and CEO Wang Xingxing, from being labelled a “poor English student” to serving as Vice Chair of the MIIT Humanoid Robotics Standardisation Committee, has maintained a consistent focus: only when motion capabilities are sufficiently stable and diverse can robots truly enter real work scenarios. As the technology moves from demonstration to real-world deployment, competition in humanoid robotics is entering a critical phase of standardisation and scalability. read more: https://reurl.cc/qpgaGR Unitree Robotics Robotics The Icons #UnitreeRobotics #WangXingxing #China2026CCTVSpringFestivalGala
+ 5
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+To view or add a comment, sign in",chinese
+https://www.linkedin.com/posts/baidu-inc_ai-is-changing-everything-from-how-we-search-activity-7393799631496912896-yGzH,2026-06-24,7,"The post is from a well-known company in the AI space, Baidu, and discusses upcoming trends and technologies, including LLMs and autonomous driving, with their CEO Robin Li as a speaker, indicating high AI and China relevance.","As we explore the frontiers of LLMs and autonomous driving, it's crucial to consider the potential impact of commoditization on the industry; what strategies do you think AI companies can employ to maintain a competitive edge in this landscape?",0,0,"Baidu, Inc.
+295,560 followers
+7mo
+Report this post
+AI is changing everything — from how we search to how we move. Don’t miss Baidu World 2025, where our CEO Robin Li and other speakers will explore what’s next for LLMs, autonomous driving, and more! Watch the livestream on Nov 13 at 9:30 am UTC+8 / 5:30 pm PT on X or YouTube! X: https://lnkd.in/gDhndD9H YouTube: https://lnkd.in/gXk6CPqU
+   22 3 Comments
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+Joseph T. 7mo
+Report this comment
+What's next might be increased competition for everything ai related, leading to commoditisation and sustained depressed profit margins for many ai companies.
+Like
+Reply
+1 Reaction
+中印慧智科技 1w
+Report this comment
+I appreciate Baidu's commitment to pushing the boundaries of AI innovation, and it's exciting to see the focus on LLMs and autonomous driving at Baidu World 2025.
+Like
+Reply
+1 Reaction
+Phanichandan Bachu 7mo
+Report this comment
+Is that a ‘remote’ in his hands !
+Like
+Reply
+1 Reaction
+See more comments
+To view or add a comment, sign in",chinese
+https://www.linkedin.com/posts/baidu-inc_the-future-we-shape-a-conversation-with-activity-7300519748369268739-Z2C1,2026-06-24,7,"The post features a high-signal founder discussing AI breakthroughs and self-driving cars, with relevance to both AI and robotics, and highlights the Chinese AI ecosystem.","It's fascinating to see Baidu's approach to autonomous vehicles, particularly in addressing edge cases. What role do you think transfer learning will play in improving the robustness of self-driving car technology?",0,0,"Baidu, Inc.
+295,560 followers
+1y
+Report this post
+Didn't catch our CEO Robin Li's #WGS25 fireside chat? He talks AI breakthroughs, self-driving cars, and more—check out the full conversation here ↓
+…more
+The Future We Shape: A Conversation with Robin Li
+https://www.youtube.com/
+  9 1 Comment
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+中印慧智科技 1w
+Report this comment
+It's exciting to see Robin Li discussing AI breakthroughs and self-driving cars. The intersection of AI and robotics is crucial for the development of autonomous vehicles. I'd love to hear more about Baidu's approach to addressing edge cases in self-driving car technology.
+Like
+Reply
+1 Reaction
+To view or add a comment, sign in",chinese
+https://www.linkedin.com/posts/kaifulee_tech-companies-should-stop-pretending-ai-activity-6372604994679640064-W4gl,2026-06-24,7,"The post discusses the impact of AI on jobs and the future of work, with comments from various individuals, including experts in the field. The post's relevance to AI and the presence of a high-signal founder, Kai-Fu Lee, contribute to its high score.","As we consider the potential for AI to augment human expertise, it's essential to think about the types of jobs that will be created to manage and maintain AI infrastructure. What role do you think human-AI collaboration will play in shaping the future of work?",0,0,"Kai-Fu Lee Kai-Fu Lee is an Influencer
 8y
 Report this post
 It will soon be obvious that half our tasks can be done better at almost no cost by AI. This will be the fastest transition humankind has experienced, and we’re not ready for it.
@@ -245,80 +598,12 @@ Reply
 1 Reaction
 See more comments
 To view or add a comment, sign in",chinese
-https://www.linkedin.com/posts/kaifulee_ai-pioneer-kai-fu-lee-builds-1-billion-startup-activity-7127087651135909888-9e9c,2026-06-23,7,"The post introduces a new open-source model, Yi-34B, which is a significant development in the AI ecosystem, particularly in China. The engagement signals are strong, with many comments and reactions. The technical depth is moderate, with some discussion of the model's performance, but no detailed implementation details.","Kai-Fu Lee's introduction of Yi-34B is a bold move, and its performance on both English and Chinese tasks is impressive. I'm curious to see how this model will be used in real-world applications, particularly in areas like natural language processing and machine translation. How do you envision Yi-34B being used to drive innovation in the Chinese AI ecosystem?",0,0,"Kai-Fu Lee Kai-Fu Lee is an Influencer
-2y Edited
-Report this post
-01.AI is a bold but long-awaited endeavor for my pursuit of AI over 4 decades. Proud to introduce the world's top open-source model Yi-34B as our first release to the developers' community encouraging fantastic LLM projects with a moderate-size, high-performing base model. Team Yi 0I·AI would love to hear your feedback! https://01.ai/en https://lnkd.in/gQ5hmih5
-AI Pioneer Kai-Fu Lee Builds $1 Billion Startup in Eight Months bloomberg.com
-   2,494 107 Comments
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-Yuchen Lu 2y
-Report this comment
-Very impressive that this model achieves No.1 in both English and Chinese.
-Like
-Reply
-6 Reactions 7 Reactions
-Nicholas A. Nystrom, PhD 2y
-Report this comment
-Great work, Kai-Fu!
-Like
-Reply
-5 Reactions 6 Reactions
-Sunil Daluvoy 2y
-Report this comment
-Curious how this LLM answers questions about Tiananman Square.
-Like
-Reply
-3 Reactions 4 Reactions
-David Giacomini 2y
-Report this comment
-Will definitely check out and experiment. Was just looking for alternatives to OpenAI and Llama and preferred open source. Have a sneaky suspicion that API fees will skyrocket when more broadly adopted. Great to have competitive options.
-Like
-Reply
-4 Reactions 5 Reactions
-TOMEK 2y
-Report this comment
-Congratulations on the milestone and best of luck with the new model!
-Like
-Reply
-3 Reactions 4 Reactions
-Terence Robinson 2y
-Report this comment
-👏👏👏
-Like
-Reply
-3 Reactions 4 Reactions
-JOANNA KWONG 2y
-Report this comment
-Congratulations
-Like
-Reply
-2 Reactions 3 Reactions
-Natalie Blyth 2y
-Report this comment
-Looking forward to understanding more about what has been unleashed.
-Like
-Reply
-1 Reaction 2 Reactions
-John Tischler 2y
-Report this comment
-https://justafewthoughtsonlife.wordpress.com/2023/11/01/how-artificial-intelligence-endangers-humanity/
-Like
-Reply
-2 Reactions 3 Reactions
-See more comments
-To view or add a comment, sign in",chinese
-https://www.linkedin.com/posts/kaifulee_01-ai-01-ai-activity-7133449190742884352-qvZ4,2026-06-23,7,"The post announces the launch of a finetuned chat model and quantized version, which is a significant development in the AI ecosystem, particularly in China. The involvement of Kai-Fu Lee, a prominent figure in the AI community, adds to the post's credibility and relevance.","The launch of Yi-34B-Chat finetuned model is an exciting development, and the use of quantization to improve efficiency is a great example of how AI can be made more accessible to developers. What potential applications do you see for this technology in the next 5 years?",0,0,"Kai-Fu Lee Kai-Fu Lee is an Influencer
+https://www.linkedin.com/posts/kaifulee_01-ai-01-ai-activity-7133449190742884352-qvZ4,2026-06-24,7,"The post announces the launch of a finetuned chat model and quantized version, which is a significant development in the AI ecosystem. The involvement of Kai-Fu Lee, a prominent figure in the AI community, adds to the post's credibility and relevance. The discussion around responsible AI and the mention of specific technical details, such as quantization, demonstrate a good balance of technical depth and AI relevance.",Kai-Fu Lee's efforts to promote open-source models and responsible AI practices are truly commendable. The launch of the Yi-34B-Chat model and its quantized versions will likely have a significant impact on the development of LLM projects. How do you think the integration of such models will influence the future of human-computer interaction?,0,0,"Kai-Fu Lee Kai-Fu Lee is an Influencer
 2y
 Report this post
 2.5 weeks after 01.AI's Yi open-source model debut, we are adding more offers to the developer community. Today the finetuned Chat model and quantized version were just launched - friendly and faster for developers. Look forward to see more wonderful LLM projects being created!
 01.AI
-6,891 followers
+6,894 followers
 2y
 01.AI team worked hard to launch Yi-34B-Chat finetuned on world's #1 open source base model, 4 bits & 8 bits quantized versions also went 🔥live🔥 on Hugging Face. More to start with your projects! https://lnkd.in/gmpPfbxJ
 01-ai (01-ai) huggingface.co
@@ -349,81 +634,7 @@ Reply
 1 Reaction
 See more comments
 To view or add a comment, sign in",chinese
-https://www.linkedin.com/posts/kaifulee_valued-at-1b-kai-fu-lees-llm-startup-unveils-activity-7127160586538291200-ibuH,2026-06-23,7,"The post discusses a significant development in the LLM ecosystem, with a well-known founder, Kai-Fu Lee, announcing a competitive model. The engagement is high, and the topic is highly relevant to AI, with some discussion on the Chinese AI ecosystem.","Kai-Fu Lee's vision for 01.AI is indeed ambitious, and the moderate-size Yi-34B model's competitive performance is a notable achievement. However, as we move forward with open-source LLMs, how do we ensure that these models are not only accessible but also provide a significant edge in real-world applications, and what are the potential implications for the global AI landscape?",0,0,"Kai-Fu Lee Kai-Fu Lee is an Influencer
-2y Edited
-Report this post
-I must say China is now behind the U.S. in the LLM ecosystem momentum. The underlying vision for me to start 01.AI is to make better AI accessible to more people. We are glad our first moderate-size Yi-34B performs competitively at a global level. More to come soon after this base model. http://01.ai/en https://lnkd.in/gc7a4BGq
-Valued at $1B, Kai-Fu Lee's LLM startup unveils open source model | TechCrunch https://techcrunch.com
-   1,542 72 Comments
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-Michael Witbrock 2y
-Report this comment
-Congratulations on this step, Kai-Fu
-Like
-Reply
-3 Reactions 4 Reactions
-Michael Spencer 2y
-Report this comment
-I'm including this in my Newsletter for Monday, it's called AI Supremacy.
-Like
-Reply
-4 Reactions 5 Reactions
-Richard Turrin 2y
-Report this comment
-Congratulations to you and team Yi OI-AI! Can't wait to use it for real! Agree that the LLM ecosystem in the US has the momentum but with better digital systems and services in China, implementation speeds may be higher here. The race is for implementation not whose system is technically the most capable.
-Like
-Reply
-3 Reactions 4 Reactions
-James (Kayliang) Ong 2y
-Report this comment
-Kai-Fu Lee Yi 0I·AI is exactly the type of #AI4Good initiative the world needs to strive towards #SustainableAI!
-Like
-Reply
-3 Reactions 4 Reactions
-Dawn Lim 一棽 🌤️✨ 2y
-Report this comment
-That’s amazing!! Kai-Fu Lee
-Like
-Reply
-2 Reactions 3 Reactions
-AI Brains 2y
-Report this comment
-Congratulations Kai-Fu Lee!
-Like
-Reply
-2 Reactions 3 Reactions
-Glocal SEO LLM + BPN Platform 2025 -- Gloc.al International Import Export Search Visibility 2y
-Report this comment
-Kai-Fu Lee brilliant domain name man! As same as our https://zh.gloc.al :)
-Like
-Reply
-4 Reactions 5 Reactions
-Firoj Alam 2y
-Report this comment
-Great to see another step to the open sourced LLMs.
-Like
-Reply
-2 Reactions 3 Reactions
-TOMEK 2y
-Report this comment
-Congratulations on the success of your startup!
-Like
-Reply
-2 Reactions 3 Reactions
-SHEILA shang 2y
-Report this comment
-You did it! Congratulations Kaifu!
-Like
-Reply
-2 Reactions 3 Reactions
-See more comments
-To view or add a comment, sign in",chinese
-https://www.linkedin.com/pulse/ai-agents-autonomous-systems-kavindi-navodya-dewmini-yovje/,2026-06-23,7,"The post provides a comprehensive overview of AI agents and autonomous AI systems, highlighting their capabilities, properties, and applications. It demonstrates a strong understanding of the underlying technologies and their potential impact on various industries.","The concept of AI agents and autonomous AI systems is indeed revolutionary, and their potential to transform industries is vast. However, as we continue to develop and deploy these systems, it's essential to consider the complexities of human-AI collaboration and the need for explainability in AI decision-making. What role do you think transparency and accountability will play in the future of AI agent development?",0,0,"AI Agents & Autonomous AI Systems: The Future of Intelligent Automation
+https://www.linkedin.com/pulse/ai-agents-autonomous-systems-kavindi-navodya-dewmini-yovje/,2026-06-24,7,"The post provides a comprehensive overview of AI agents and autonomous AI systems, highlighting their capabilities, properties, and potential applications. It demonstrates a strong understanding of the underlying technologies and their implications for various industries.","The distinction between traditional AI models and AI agents is crucial, as it underscores the shift from reactive to proactive systems. As we continue to develop more sophisticated AI agents, what role do you think human oversight and accountability will play in ensuring the safe and beneficial deployment of these autonomous systems?",0,0,"AI Agents & Autonomous AI Systems: The Future of Intelligent Automation
 AI Agents & Autonomous AI Systems
 Report this article
 Kavindi Navodya Dewmini 
@@ -513,12 +724,12 @@ AI agents are transforming how work gets done within organizations, moving beyon
 Task automation powered by AI goes far beyond the repetitive, structured tasks that traditional robotic process automation (RPA) handles. AI agents can automate tasks that require reading and understanding documents, interpreting emails, making judgment calls, and adapting to variable inputs.
 Workflow optimization uses AI to analyze how work flows through an organization, identify inefficiencies, predict bottlenecks, and recommend or implement improvements automatically.
 Recommended by LinkedIn
-10 Hard-Won Lessons from building an AI Security…
-Ankur Shah 5 months ago
-Engineering precision to solve the AI governance gap
-Ken Priore 10 months ago
-3 Simple Ways to Navigate AI Hype
-Pieter Nel 5 years ago
+Empowering the Age of Autonomous AI Agents
+Denis Nalon 1 year ago
+Observability of Autonomous AI Agents – Why It Matters…
+Wise Pirates 7 months ago
+Paper Review: Wolf: Captioning Everything with a World…
+Andrey Lukyanenko 1 year ago
 Intelligent scheduling agents coordinate calendars, resources, and priorities across complex organizations, balancing competing demands in ways that maximize productivity and minimize conflict.
 AI Agents in Business
 Across every major business function, AI agents are taking on roles that were previously the exclusive domain of human workers.
@@ -593,265 +804,7 @@ AI agents represent a fundamental shift in the nature of artificial intelligence
 But they also bring serious challenges that demand serious attention. Hallucinations, bias, security risks, privacy concerns, and the disruption of labor markets are not hypothetical they are real and present issues that require thoughtful governance, careful deployment, and ongoing vigilance.
 The choices made now by developers, business leaders, policymakers, and society at large will shape what kind of AI-powered future we build. The goal should not be to maximize automation at any cost, but to harness the extraordinary potential of AI agents in ways that expand human capability, distribute opportunity broadly, and reflect our deepest values.
 AI agents are powerful. Used wisely, they can help us solve problems we have struggled with for generations. The question is not whether AI agents will reshape the world they already are. The question is whether we will shape them thoughtfully enough to ensure it is reshaped for the better.",global
-https://www.linkedin.com/pulse/how-ai-agents-really-work-under-hood-autonomous-systems-justin-norris-otb9c,2026-06-23,7,"The post provides a detailed explanation of how AI agents work, highlighting the difference between traditional workflow automation and agentic systems. It also discusses the underlying architecture of agentic AI and how to deploy it successfully.","I appreciate the distinction made between workflows and agentic systems, as it highlights the importance of dynamic decision-making in AI agents. What are some potential applications of agentic AI in areas where traditional workflow automation falls short, such as handling ambiguous or unexpected tasks?",0,0,"How AI Agents Really Work: Under the Hood of Autonomous AI Systems
-Report this article
-Justin Norris 
-Justin Norris
-Published Mar 28, 2025
-+ Follow
-Everyone's talking about AI agents—but what actually makes them work?
-It’s more than just putting an LLM step into a workflow. Under the hood, real agentic systems break out of rigid if-this-then-that logic and use dynamic decision-making processes that more closely approximate human judgment.
-I recently chatted with Daniel Vassilev , co-founder of Relevance AI (a platform to develop commercial-grade multi-agent systems) about the underlying architecture of agentic AI and how to deploy it successfully.
-The article below summarizes the key ideas from that discussion, which I've expanded on with examples to really illustrate the underlying architecture.
-You can listen to or watch the whole episode for even more detail.
-Deep Dive: How AI Agents Really Work
-Defining Agentic AI
-At the heart of an AI agent is dynamic decision-making. Traditional software runs on hard-coded, deterministic rules—if this, then that. Agentic AI introduces something different: the ability to interpret context and choose from multiple possible actions without pre-defining every step.
-Think of it as hiring a junior employee. You give them goals, context, and tools—but you don’t tell them exactly what to click and when. They're able to exercise judgement within the parameters of their role.
-Agents vs. Workflows
-At first glance, a lot of what’s being called “AI agents” today looks impressive. But peel back the layers, and many of these systems are still built on traditional workflow automation paradigms: linear sequences of actions triggered by clear rules. You might see a Zapier-style flow where a new lead gets scored by an LLM, enriched via API, and sent to a CRM. It feels modern—but structurally, it’s just a smarter version of if-this-then-that. You’re still dictating the order of operations.
-An agentic system flips this.
-Instead of walking a fixed path, agents are given a goal, some tools, and a set of instructions. Then they decide what steps to take, in what order, and when to loop in a human. They might skip steps. They might retry a tool. They might change tactics based on unexpected input. In short, they plan, not just execute.
-A workflow might say:
-→ “When a new lead comes in, run steps A → B → C.”
-An agent might say:
-→ “Given this lead, what should I do? Should I enrich it? Score it? Flag it? Skip it?”
-The first requires the creator to anticipate every edge case. The second lets the agent make a judgment call on the fly.
-This distinction becomes crucial as tasks get more ambiguous. Workflows break when something unexpected happens, whereas agents can execute some discretion and judgement.
-Agent Architecture
-Agents are structured systems. They’re built from modular components that work together to perceive, reason, and act in pursuit of a goal.
-How these pieces come together will vary based on the platform you’re using to develop them. But conceptually, most AI agents are made from a few core building blocks.
-Let’s review each component in detail.
-1) Memory / Context
-This is how the agent remembers things, such as past actions, inputs, or external data.
-This can include:
-Short-term memory
-Context window of the current LLM session.
-Reference documents retrieved into short-term memory.
-Long-term memory
-Files and documents (uploaded into a platform or directly into a vector store).
-For example, in Relevance AI, you can create a knowledge table directly in the platform or by importing a variety of documents / website content.
-An agent can also update knowledge tables based on information retrieved, even creating AI-managed knowledge bases.
-Example of creating a knowledge table in Relevance AI
-2) Objectives / Instructions
-The agent’s objectives and instructions are a persistent prompt for the reasoning part of the agent. They describe its overall mission and provide critical guidance on how to do its job.
-These jobs can be simple or complex.
-Narrowly-defined tasks (e.g. “Summarize this article”)
-Dynamic user prompts (e.g. “Help me write a sales email for xyz”)
-Multi-step objectives (e.g. “Research a company and draft a proposal”)
-For example, Relevance AI agents have an input field for “Core Instructions,” where you can provide detailed context and reference specific tools.
-Core instructions in Relevance AI
-3) Reasoning Engine
-This is the brain of the operation, usually powered by a language model (like GPT, Claude, Gemini, Grok, etc.).
-Depending on the inputs and the instructions, the LLM can create a plan to achieve the agent’s goals and decide what to do next.
-You can see in the screenshot above where the model is selected in Relevance AI.
-4) Tools / Abilities
-If the LLM is the brain of the agent, its tools are how it actually gets things done.
-Just like a carpenter might have a toolbox of items for specific needs and purposes, AI agent tools are specific, task-oriented capabilities that may rely on functions or use APIs to connect to external services. For example:
-Search the web
-Perform calculations
-Ingest and process files
-Write or execute code
-Access a database
-Update a record in CRM
-POST to a webhook
-Essentially any workflow built in a traditional iPaaS context could serve as a tool—or one agent can act as a tool for another, enabling agents to delegate work to more specialized, sub-agents.
-List of tools for an enrichment agent in Relevance AI
-5) Perception / Input
-The input is how the agent “sees” the world and receives information that is specific to a particular session or instance of a task.
-This can be in the form of user input via a chat session, field data passed from another system as part of an automated workflow, and so on.
-In the example screenshot below, an agent is triggered by a new email, then uses properties of that email (message ID, thread ID, subject line, attachments, etc.) as inputs to pass to its tools to enable it to act.
-Recommended by LinkedIn
-AI Pundits Often Promise ‘More for Less,’ but end up…
-Peter Dorrington 4 months ago
-🤖 AI Agents Series — Part 3 of 3:
-Shyam Kashyap 1 year ago
-The Return of Traditional AI: Organisations Are…
-Mario Thomas 5 months ago
-Screenshot from
-6) Action / Output
-The actions are the final outputs of the agent’s work.
-This could be:
-Generating text (a summary of a longer text)
-Sending a message via email or chat
-Writing or executing code
-Triggering another agent or workflow
-These actions are the end result of the agent accepting inputs, forming a plan based on its objectives/instructions and using the context of its memory/knowledge, and then leveraging its tools to achieve that plan.
-7) Control Loop / Orchestration
-Within the architecture of the agent, there needs to be some logic that orchestrates its activities and enables it to act. This is the control or orchestration layer. It’s a “traditional” deterministic software application, often built using frameworks designed for agentic applications like LangChain or abstracted within no-code / low-code platforms like Relevance AI.
-The orchestration layer handles the full cycle of perception, reasoning, action, and feedback—feeding inputs into the LLM, processing outputs, invoking tools or functions, capturing results, and re-routing them into subsequent reasoning steps if needed.
-You could consider it like the “nervous system” of a person. It doesn’t think, but it does enable communication and passes information between the brain, the senses, the motor system that enables action, and so forth.
-In Relevance AI, this orchestration layer is embodied by the platform itself, which connects the LLM, its core instructions, user inputs, tool executions, memory stores, and desired output. Users define steps and logic declaratively (rather than coding the control loop themselves).
-Another agent platform, Tray.ai, exposes this control layer in an illustrative way. Their agent builder automatically provisions a workflow that allows an agent step to receive instructions and inputs, then loop iteratively to execute a plan, invoke tools, and so forth.
-Always-On Agents
-Not all agents need to wait for a prompt or a user to interact with them. AI agents can also run in the background, scanning for new input, monitoring systems, or performing tasks on a regular schedule.
-They might run every hour, every day, or even more frequently, depending on the task. The key is that they’re not waiting for a human to kick things off.
-Take an example from Daniel’s team: every day, an agent combs through sales call transcripts, pulls out relevant insights, and pushes them into a structured Notion database for enablement and analytics. It’s not glamorous, but it’s high-leverage. No one needs to upload a file or paste a link.
-This shift from reactive tools to proactive agents changes how we think about work delegation. And as these agents become more intelligent and more integrated across systems, their ability to act in real time, without needing to be summoned, becomes a major source of operational leverage.
-Choosing the Right Tasks for AI
-Today’s agents are best suited for structured, repeatable work that requires a light layer of judgment. These are tasks like reviewing leads, cleaning CRM records, summarizing tickets, scheduling follow-ups. These are the small, necessary steps that quietly power a business day-to-day.
-(In the past I’ve referred to these tasks as “adaptive,” a middle ground between tasks that are fully deterministic and those that require deep human insight.)
-The key is that these tasks follow a pattern, but the pattern isn’t always 100% deterministic. A human might make small decisions based on context—skip a step, flag something, escalate when needed. That’s exactly where agentic systems can be impactful. They can be trained to follow a process and make dynamic decisions inside of it.
-The real opportunity isn’t necessarily doing these tasks better than a human could. It’s doing them 50x or 100x more often, with near-zero marginal cost.
-A task you might only do weekly, because it’s tedious or low priority, can now run every hour. A review process you apply to the top 10 deals? Now you can apply it to the top 1,000. The compounding effect of always-on, judgment-capable agents is enormous.
-This is where agentic AI stops looking like automation and starts looking like leverage.
-Copilot vs. Autopilot
-Much of the current discourse around AI centers on copilot-style tools—systems that sit alongside humans, waiting to be prompted, ready to assist. It’s a useful model, but Daniel argues it’s not the endgame.
-The real leap is toward autonomous agents: systems that don’t just wait for instructions, but can plan, decide, and act, then loop you in when needed.
-Daniel put it simply: imagine you’re building a team. Would you rather have five assistants, each waiting silently for you to delegate every task…or five teammates, each with context, tools, and the autonomy to take initiative and come back with results? That’s the difference between copilot and autopilot.
-But autonomy doesn’t mean absence of control. In fact, human-in-the-loop design becomes even more important as agents grow in capability. You still need checkpoints: approval flows, escalation paths, handoffs. Just like in a real team, some decisions are made independently, while others require review. The point is to offload the busywork of execution rather than to eliminate oversight entirely.
-Should AI Handle Strategy?
-Right now, agents are best suited for execution. Strategic planning still requires human context, creativity, and a broader lens.
-But over time, as models access richer company data and develop deeper reasoning capabilities, Daniel believes we’ll start to see agents contribute meaningfully to strategy—identifying patterns, flagging opportunities, even generating scenarios humans might overlook.
-Spotlight on Use Cases
-Some of the most impactful use cases today aren’t flashy—they’re operational, repetitive, and quietly transformative. These are the kinds of tasks companies typically under-resource or avoid entirely because they’re too time-consuming to scale manually. Agents flip that equation.
-Here are a few real-world examples Daniel shared that illustrate how agentic systems can create leverage right now:
-Lifecycle Marketing Agent
-Automatically sends tailored onboarding messages to every new user.
-Reads metadata about the user (e.g., company, role) to customize emails.
-Mimics the kind of personalized 1:1 attention the team gave early users.
-Replaces a level of white-glove support that would require a full team.
-Inbound Lead Qualification
-Handles every new inbound sign-up across time zones and geographies.
-Qualifies leads, asks follow-up questions, and routes them to sales, partnerships, or self-serve tracks.
-Operates at a scale that would otherwise require 10+ BDRs globally.
-Delivers a fast, consistent experience while maintaining SLAs.
-CRM Cleanup and Deduplication
-One customer had over 100,000 messy Salesforce accounts.
-Agent identified duplicates, outdated records, and bad statuses.
-Completed in under a week what a BPO team would take months to finish.
-Saved both money and enormous RevOps + sales frustration.
-Outbound Research and Personalization
-Agent performs deep prospect research (e.g. LinkedIn, website, funding history).
-Generates highly personalized messaging for sales outreach.
-Mimics how a top-performing rep would approach each lead.
-Scales high-quality outreach—without falling into spammy “spray and pray.”
-Recruiting Coordination Support
-Assists with screening, scheduling, and follow-ups across Slack, email, calendar, and ATS.
-Reads candidate context and instructions from hiring managers.
-Acts like a junior recruiting coordinator making intelligent decisions across platforms.
-Why RevOps Should Lead AI Initiatives
-You might assume that engineering or data science teams should own the AI roadmap. But Daniel makes a compelling case: RevOps is uniquely positioned to lead the way.
-RevOps understands both how the business runs and how the systems connect. We’re already stitching together tools, building automations, managing workflows, and measuring performance. We’re translators between strategy and systems.
-If you’ve ever built a process doc, optimized a Salesforce flow, or audited a broken funnel, you already have the instincts needed for agent design.
-And in a world where businesses can scale execution without scaling headcount, RevOps becomes the architect of that scale and managers of the AI workforce.
-If you want to experiment creating your own agents, Relevance AI offers a free plan you can play with.
-Disclosure: I am using an affiliate link for Relevance AI, which means I earn a small bonus if you sign up through my content.",global
-https://www.linkedin.com/pulse/ai-agents-action-how-generative-enables-autonomous-systems-ranjan-bm7ne/,2026-06-23,7,"The post provides a comprehensive overview of AI agents and their applications, with a strong focus on Generative AI and its role in enabling autonomous systems. The technical depth is high, with detailed explanations of how Generative AI powers AI agents.","The integration of Generative AI with autonomous systems has the potential to revolutionize industries, but what are the potential risks and challenges associated with deploying such systems in real-world environments, and how can we ensure their reliability and trustworthiness?",0,0,"AI Agents in Action: How Generative AI Enables Autonomous Systems
-Report this article
-Piyush Ranjan 
-Piyush Ranjan
-Published Jan 5, 2025
-+ Follow
-AI has evolved far beyond static models and deterministic algorithms. Today, we are witnessing the emergence of autonomous AI agents—dynamic systems capable of reasoning, learning, and taking actions without constant human intervention. These agents leverage Generative AI to achieve unparalleled levels of flexibility and adaptability, opening up new possibilities for automation, decision-making, and problem-solving across industries.
-In this blog, we’ll explore how generative AI powers autonomous systems, the underlying technology behind AI agents, and their transformative real-world applications.
-What Are AI Agents?
-AI agents are software entities designed to autonomously perform tasks or solve problems in a given environment. Unlike traditional software systems, which follow pre-defined rules, AI agents use machine learning and Generative AI models to adapt, learn, and make decisions dynamically.
-Core Characteristics of AI Agents
-Autonomy: Operate independently with minimal human supervision.
-Context Awareness: Understand and interpret the environment they operate in.
-Adaptability: Learn from experience to improve performance over time.
-Proactivity: Anticipate needs and act without being explicitly programmed.
-Communication: Interact with humans and other systems to share information or collaborate.
-How Generative AI Powers AI Agents
-Generative AI, driven by large language models (LLMs) such as GPT, plays a central role in enabling AI agents. Here’s how:
-1. Understanding and Generating Natural Language
-Generative AI models excel at processing and generating human-like text. This capability allows AI agents to:
-Understand complex user inputs and respond in natural language.
-Generate contextually relevant outputs, such as instructions, summaries, or recommendations.
-For example, an AI agent in a customer service application can interpret a customer’s complaint and draft a polite, informative response.
-2. Dynamic Task Execution
-AI agents powered by Generative AI can break down high-level goals into smaller, executable tasks. For instance:
-A marketing AI agent can create a complete campaign plan from a vague prompt like “promote product X in Q1.”
-A developer AI agent can write and debug code based on functional requirements provided in natural language.
-3. Decision-Making with Context
-Generative AI enables agents to make decisions by analyzing historical data, user preferences, and environmental context. For example:
-A financial AI agent can recommend investment strategies tailored to a user’s risk profile and market trends.
-A supply chain AI agent can optimize logistics by considering real-time demand and inventory levels.
-4. Continuous Learning and Adaptation
-Generative AI enables agents to learn from interactions and feedback. With reinforcement learning and fine-tuning, agents can refine their behavior over time. For instance:
-A virtual tutor AI agent can improve how it teaches based on student progress and feedback.
-Key Technologies Behind AI Agents
-
-
-Several technologies come together to power AI agents:
-1. Generative AI Models
-Large language models like GPT-4, Claude, and LLaMA serve as the backbone of many AI agents. These models handle natural language understanding and generation, enabling intuitive human-agent interaction.
-2. Multi-Agent Systems
-Multi-agent frameworks like AutoGPT and BabyAGI allow multiple AI agents to collaborate and share tasks. Each agent specializes in a specific role, working together to achieve complex objectives.
-3. Tools and APIs
-AI agents often integrate with external tools and APIs to access data, execute tasks, or interface with software. For example:
-LangChain: Facilitates integration of LLMs with tools like vector databases and APIs.
-Pinecone: Provides vector storage for retrieving context-rich information.
-4. Reinforcement Learning
-Reinforcement learning techniques enable agents to learn from trial and error, improving their decision-making over time.
-Applications of AI Agents in the Real World
-1. Customer Support
-AI agents are revolutionizing customer service by handling queries, complaints, and FAQs autonomously. They can:
-Respond to customers in real time.
-Escalate complex issues to human agents when needed.
-Learn from past interactions to improve their performance.
-Example: AI-powered chatbots like Zendesk AI assist businesses in resolving customer issues faster.
-2. Software Development
-AI agents like GitHub Copilot and Tabnine assist developers by:
-Writing code based on descriptions.
-Debugging and suggesting optimizations.
-Automating repetitive tasks like writing unit tests.
-Recommended by LinkedIn
-What Is the Difference Between Generative AI and…
-Zenoffi E-Learning Labb 1 year ago
-Navigating the AI Glossary: Essential Terms Simplified
-Walter Shields 2 years ago
-Why are ChatGPT and Other Generative AI Technologies…
-Frederik De Breuck 3 years ago
-These agents accelerate development cycles and reduce the workload on engineers.
-3. Marketing and Content Creation
-AI agents are transforming marketing by autonomously creating and managing campaigns. They can:
-Generate ad copy and visuals.
-Analyze campaign performance.
-Suggest strategies for improving engagement.
-Example: Jasper AI and Writesonic use Generative AI to craft engaging content for blogs, ads, and social media.
-4. Healthcare
-In healthcare, AI agents assist doctors and researchers by:
-Summarizing patient records.
-Suggesting potential diagnoses.
-Automating administrative tasks like appointment scheduling.
-Example: IBM Watson Health has been used to analyze medical data and recommend treatment plans.
-5. Financial Services
-AI agents are enabling smarter financial decisions by:
-Recommending investment strategies.
-Monitoring transactions for fraud.
-Generating personalized financial plans.
-Example: Wealth management platforms use AI agents to guide clients in achieving their financial goals.
-6. Autonomous Vehicles
-AI agents in autonomous vehicles analyze real-time data from sensors to:
-Navigate roads safely.
-Respond to dynamic traffic conditions.
-Optimize routes for efficiency.
-Challenges in Deploying AI Agents
-While AI agents offer immense potential, they also come with challenges:
-1. Data Privacy and Security
-AI agents often require access to sensitive data, raising concerns about privacy and security.
-2. Reliability
-Ensuring that AI agents make accurate decisions in complex or high-stakes scenarios is a significant challenge.
-3. Ethical Concerns
-Agents must be designed to operate ethically, avoiding biases and harmful behaviors.
-4. Cost
-Training and deploying AI agents, especially those using large-scale generative models, can be resource-intensive.
-The Future of AI Agents
-The field of AI agents is evolving rapidly, with several exciting trends on the horizon:
-1. Enhanced Collaboration
-Multi-agent systems will become more sophisticated, enabling seamless collaboration between agents and humans.
-2. Domain-Specific Agents
-We’ll see more specialized agents tailored to specific industries, such as law, education, and agriculture.
-3. Explainable AI
-Future AI agents will include features for explaining their reasoning, improving trust and adoption.
-4. Integration with Edge Computing
-Deploying AI agents on edge devices will enable faster decision-making and reduce dependency on cloud infrastructure.
-Conclusion
-AI agents powered by Generative AI are reshaping the way we interact with technology, enabling autonomous systems that are smarter, faster, and more adaptive than ever before. From revolutionizing customer support to advancing healthcare and automating software development, these agents are unlocking unprecedented efficiencies across industries.
-As the technology matures, AI agents will become indispensable tools in our personal and professional lives, paving the way for a future where machines truly understand and act in the world around them.",global
-https://www.linkedin.com/pulse/ai-agents-autonomous-systems-sanjay-basu-phd-vdrcc/,2026-06-23,7,"The post provides a detailed explanation of AI Agents as autonomous systems, highlighting their ability to understand and generate text, and take actions. It also outlines the Agentic Workflow, a structured approach to tackling complex problems, which demonstrates a high level of technical depth and AI relevance.","The integration of LLMs with agentic frameworks is a powerful concept, enabling AI Agents to work towards defined goals with minimal supervision. However, as we continue to develop these autonomous systems, what measures can we take to ensure their decision-making processes are transparent and accountable, and how might this impact their overall effectiveness in real-world applications?",0,0,"AI Agents as Autonomous Systems
+https://www.linkedin.com/pulse/ai-agents-autonomous-systems-sanjay-basu-phd-vdrcc/,2026-06-24,7,"The post provides a detailed explanation of AI Agents as autonomous systems, highlighting their ability to understand and generate text, and act on it. The Agentic Workflow is well-explained, with a structured approach to tackling complex problems. The post demonstrates strong technical depth and AI relevance.","The integration of LLMs with agentic frameworks is a powerful concept, enabling AI Agents to work towards defined goals with minimal supervision. However, as we continue to develop these autonomous systems, what measures can we take to ensure their decision-making processes are transparent and accountable, and how can we mitigate potential risks associated with their actions?",0,0,"AI Agents as Autonomous Systems
 Report this article
 Sanjay Basu PhD 
 Sanjay Basu PhD
@@ -917,12 +870,12 @@ Consider an AI Agent designed to manage inventory for a retail company. The agen
 Uncertainty handling doesn’t just involve reacting to changes — it’s about preparing for them proactively. Agents can use Monte Carlo simulations, Bayesian networks, and other probabilistic tools to model potential risks and outcomes, allowing them to choose actions with the highest expected benefit. This foresight enhances the agent’s ability to optimize outcomes in uncertain environments, such as financial trading, emergency response, or autonomous navigation.
 By mastering uncertainty handling, AI Agents can deliver more robust performance in complex and unpredictable scenarios, enhancing their adaptability and reliability. Whether dealing with unforeseen delays, fluctuating market conditions, or imperfect data, an agent that can effectively handle uncertainty is better equipped to provide meaningful and accurate insights, ensuring a higher level of resilience and trustworthiness in its actions.
 Recommended by LinkedIn
-Understanding RAG, AI Agents, and Agentic RAG
-Frédéric Demierre 1 year ago
-From Instructions to Delegation: How AI Agents Are…
-Andrea Pastore 7 months ago
-Agentic AI in 2026: What It Actually Means for Your…
-TrianglZ LLC 2 months ago
+AI Makes the Strategist the King
+Jay Baer 3 years ago
+What is Agentic AI? Part: II
+Swapnil Amin 1 year ago
+What is Agentic AI?
+Zummit Africa 10 months ago
 Enhanced Reflection
 Reflection is more than a single step in the workflow for AI Agents — it’s a foundational process that allows them to improve continuously, adapting and refining their skills as they encounter new tasks and challenges. Enhanced reflection represents the next level of self-improvement, going beyond merely following instructions or achieving goals. By incorporating techniques like meta-learning, self-critique, and collaborative learning, AI Agents can evolve into more effective and adaptive systems, capable of growing smarter and more resourceful over time.
 Meta-Learning — Getting Better at Learning Itself
@@ -980,84 +933,57 @@ In education, AI Agents empower personalized learning, adapting curricula and tu
 Climate science is leveraging AI Agents to understand and address one of humanity’s greatest challenges: climate change. From analyzing vast environmental datasets to forecasting extreme weather events and proposing sustainable solutions, AI Agents are at the forefront of environmental research and action. Their ability to process vast amounts of climate data and deliver actionable insights is proving essential in developing proactive, sustainable strategies to protect our planet. As climate concerns grow, AI Agents will be critical allies in devising solutions that help preserve natural resources and mitigate the impacts of global warming.
 The impact of AI Agents across these industries is only the beginning. As these systems grow more sophisticated, incorporating advanced planning, reflection, and multi-agent collaboration, they hold immense potential to transform virtually every aspect of society. However, as we continue to deploy these powerful tools, ethical considerations — such as bias, transparency, and safety — must remain central to development efforts. Responsible AI practices will ensure that agents remain trustworthy and effective allies, aligned with human values and needs.
 Looking forward, AI Agents stand poised to unlock new possibilities, transforming how we work, learn, heal, and interact with the environment. By bridging the gap between intelligence and action, these agents are reshaping our future, helping us tackle global challenges and improve lives. As we continue down this path, the potential of AI Agents to revolutionize industries and address complex societal issues will only grow, inviting a new era of innovation and collaboration that serves humanity’s highest aspirations.",global
-https://www.linkedin.com/posts/robotry-ai-robotics_ros2-plc-industrialautomation-activity-7373759306745180160-dfbU,2026-06-23,7,"The post discusses a relevant and timely topic in the field of robotics and industrial automation, with a clear explanation of the benefits and methods of integrating ROS2 and PLCs. The engagement metrics are strong, with many comments and reactions.","The integration of ROS2 and PLCs is a crucial step towards achieving Industry 4.0 goals, but what are the potential challenges and limitations of implementing such systems in existing manufacturing infrastructure, and how can we address them?",0,0,"robotry
-3,756 followers
-9mo
+https://www.linkedin.com/posts/priyanka-agarwal-b7059a25_robots-are-the-future-of-industrial-development-activity-7444351274323644416-rKjZ,2026-06-24,7,"The post discusses the transformative role of robotics in industrial development, highlighting key advantages such as consistency, precision, and productivity. It also mentions the importance of workplace safety and flexibility in manufacturing, showcasing the potential of robotics to shape the future of industries.","I appreciate your emphasis on the critical role of robotics in modern manufacturing, Priyanka. The integration of AI and robotics can further enhance the precision and adaptability of industrial systems. What potential applications do you envision for the combination of machine learning and robotic systems in optimizing production workflows?",0,0,"Priyanka Agarwal
+2mo
 Report this post
-🚀 Bridging Robotics and Industrial Automation: ROS2 + PLC Integration ⚙️🤖 In modern manufacturing, the real power lies in combining ROS2 (for intelligent robotics, AI, and motion planning) with PLCs (for reliable, deterministic machine control). 🔹 Why integrate? PLC ensures safety, real-time control, and reliability. ROS2 enables perception, SLAM, advanced decision-making, and flexibility. 🔹 How to integrate? OPC UA for standardized industrial communication. Modbus / MQTT for lightweight connectivity. Fieldbus (EtherCAT, PROFINET) for real-time performance. Custom ROS2 nodes using PLC APIs. 🔹 Use Cases Smart factories 🏭 where PLCs run conveyors & safety while ROS2 handles vision and navigation. Collaborative robots 🤝 where ROS2 plans motion and PLC ensures safe execution. 👉 Integration of ROS2 and PLC is paving the way for Industry 4.0 – merging the robustness of industrial automation with the intelligence of modern robotics. #ROS2 #PLC #IndustrialAutomation #Robotics #Industry40 #Automation #OPCUA #Modbus
-   861 20 Comments
+Robots are the Future of Industrial Development Industrial development is entering a transformative era, and at the center of this evolution lies robotics. What was once considered advanced automation is now becoming the foundation of modern manufacturing and production systems. Robots are no longer optional—they are essential for industries aiming to stay competitive, efficient, and future-ready. The biggest advantage of robotics in industrial development is consistency and precision. Unlike manual labor, robots can perform repetitive tasks with near-perfect accuracy, reducing defects and ensuring high-quality output. In sectors like automotive, electronics, and heavy engineering, even the smallest deviation can lead to major losses—robots eliminate that risk. Another key driver is productivity. Robots can operate 24/7 without fatigue, significantly increasing output while reducing downtime. This allows industries to meet growing demand without proportionally increasing labor costs. In a world where speed-to-market is critical, this becomes a powerful advantage. Workplace safety is another area where robotics is making a major impact. Hazardous tasks such as welding, heavy lifting, and exposure to toxic environments can be handled by robots, minimizing risk to human workers. This not only protects employees but also reduces costs related to accidents and insurance. Beyond efficiency, robots are enabling flexibility in manufacturing. Modern robotic systems can be reprogrammed and adapted for different tasks, allowing industries to switch production lines quickly based on market needs. This is especially valuable in today’s dynamic environment where customization and rapid changes are the norm. This is where RL Robotics is playing a crucial role in shaping the future. By offering reliable, application-focused robotic solutions, RL Robotics is helping industries transition from traditional processes to smarter, automated systems. Our focus on quality, performance, and long-term reliability ensures that businesses don’t just adopt automation—but adopt it the right way. For industries in growing economies, adopting robotics is no longer a luxury—it’s a necessity. Companies that partner with RL Robotics gain a competitive edge by implementing solutions that are not only efficient but also dependable and scalable. In conclusion, robots are not just shaping the future of industrial development—they are defining it. With RL Robotics the journey toward smarter manufacturing is already well underway.
+  9 1 Comment
 Like Comment
 Share
 Copy
 LinkedIn
 Facebook
 X
-Florian Gramß 8mo
+YZ-RA 1w
 Report this comment
-Hey there, have you heard of ROSie? No need to learn a special API. Just give it your desired ROS 2 (custom) message and the rest gets generated for you. developers.siemens.com/rosie/overview.html
-Like
-Reply
-24 Reactions 25 Reactions
-Ali Altın 9mo
-Report this comment
-You have touched upon a very valid point, nice post 👍
-Like
-Reply
-1 Reaction 2 Reactions
-Holger Mönnich 8mo
-Report this comment
-It is somehow strange that nobody finds an attac vector against a super old technology - plc. I like the arduino approach - it should be possible to integrate the plc functionality into a consitistent software stack including robotics / slam / ai with modern software. The main reason plc are still used is reliability !
+I completely agree that robots are becoming the backbone of modern manufacturing and production systems. The points you've made about consistency, precision, productivity, and workplace safety are well-taken and underscore the critical role robotics plays in pushing industrial development forward.
 Like
 Reply
 1 Reaction
-Arvind Kaushik 9mo
-Report this comment
-Insightful
-Like
-Reply
-2 Reactions 3 Reactions
-Suresh Olluri 9mo
-Report this comment
-This is such a crucial topic in the industrial automation space right now. The convergence of ROS2 and PLCs is a perfect example of marrying the best of both worlds: the robust, real-time deterministic control of PLCs with the flexibility, advanced perception, and open-source ecosystem of ROS2.
-Like
-Reply
-1 Reaction
-Industrial Robot News 9mo
-Report this comment
-This is spot on!
-Like
-Reply
-1 Reaction 2 Reactions
-Pablo Silva 9mo
-Report this comment
-Plc+Ros2, first time I see that. Interesting
-Like
-Reply
-2 Reactions 3 Reactions
-Muhammad Rusydan 9mo
-Report this comment
-Very insightful. Thank you for sharing
-Like
-Reply
-1 Reaction 2 Reactions
-FAHMI FATHUR ROHMAN
-Berkuliah di Politeknik Negeri Semarang
-8mo
-Report this comment
-Good
-Like
-Reply
-1 Reaction
-Leonardo Rossi Leão 9mo
-Report this comment
-Rafael Cardoso
-Like
-Reply
-1 Reaction 2 Reactions
-See more comments
 To view or add a comment, sign in",global
-https://www.linkedin.com/posts/boston-consulting-group_intelligent-robotics-is-reshaping-industrial-activity-7369293194716475398-W3Pn,2026-06-23,7,"The post discusses a report on intelligent robotics reshaping industrial operations, highlighting the shift towards operating models where resilience, competitiveness, and workforce evolution are interconnected, with a strong focus on physical AI and its impact on value chains and workforce dynamics.","The intersection of physical AI and workforce development is a crucial aspect of this shift, as it underscores the need for continuous learning and adaptation; what role do you think human-AI collaboration will play in driving innovation and growth in this space?",0,0,"Boston Consulting Group (BCG)
-5,461,058 followers
+https://www.linkedin.com/posts/nikhil-wankhede-siemens-expert_industrialautomation-industry40-robotics-activity-7184134195525423104-tsqz,2026-06-24,7,"The post highlights recent advancements in industrial automation, including the integration of AI, robotics, and IoT, making it relevant to the field. However, it lacks specific technical details and academic references.","The convergence of AI, robotics, and IoT in industrial automation is indeed transformative, but what are the potential challenges and limitations of implementing these technologies in legacy manufacturing systems, and how can we address them?",0,0,"Nikhil Wankhede ✔
+2y
+Report this post
+🌟 Exciting Developments in Industrial Automation! 🤖💼 Are you ready to dive into the dynamic world of industrial automation? 🚀 From cutting-edge technologies to revolutionary applications, the current scenario in industrial automation is nothing short of fascinating! Here's a glimpse of what's happening: 🔧 Advanced Robotics: Witness the rise of collaborative robots (cobots) revolutionizing manufacturing processes, enhancing efficiency, and ensuring workplace safety like never before. 💡 AI and Machine Learning: Experience the power of artificial intelligence and machine learning algorithms optimizing production lines, predictive maintenance, and quality control, paving the way for smarter factories. 🌐 Industry 4.0: Embrace the era of interconnectedness and data-driven decision-making with Industry 4.0 technologies, transforming traditional manufacturing into agile, responsive, and highly adaptable ecosystems. 🔌 IoT Integration: Explore the seamless integration of Internet of Things (IoT) devices, sensors, and actuators, enabling real-time monitoring, remote control, and predictive analytics for enhanced operational efficiency. 🛠️ Digital Twins: Step into the realm of digital twins, where virtual replicas of physical assets enable simulation, optimization, and predictive analysis, empowering businesses to innovate and iterate with confidence. Join me in embracing the exciting opportunities and challenges of the ever-evolving landscape of industrial automation! Let's unlock new possibilities and drive innovation together. 💪✨ #IndustrialAutomation #Industry40 #Robotics #AI #IoT #DigitalTransformation #Innovation
+ 14
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+To view or add a comment, sign in",global
+https://www.linkedin.com/posts/quest-global_industrialautomation-robotics-manufacturing-activity-7441796748118835200-pmH3,2026-06-24,7,"The post discusses the growing importance of robotic simulation and offline programming in industrial automation, providing a clear and relevant perspective on the future of manufacturing.","The integration of robotic simulation and offline programming is a significant step forward, but what are the potential limitations and challenges that manufacturers may face when implementing these technologies, and how can they be addressed?",0,0,"Quest Global
+772,733 followers
+3mo
+Report this post
+As the industrial sector navigates the AI‑ and automation‑driven evolution of modern manufacturing, leaders are facing a new challenge: reducing downtime and making programming changes without disrupting production. In this article, Thandaveshwara Babu, explores how robotic simulation and robotics offline programming (OLP) are quickly becoming essential pillars of today’s manufacturing landscape. He breaks down how growing OLP adoption is reshaping industrial market drivers and outlooks, while laying out a clear case for why OLP and simulation are strong alternatives to traditional robot programming. With practical, actionable strategies for implementing these technologies, he helps demystify the future of industrial robotics. Read the full article here: 🔗https://lnkd.in/gKUTbqJk #IndustrialAutomation #Robotics #Manufacturing #QuestGlobalHorizons
+   77 1 Comment
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+YZ-RA 1w
+Report this comment
+The integration of robotic simulation and offline programming is indeed a game-changer for industrial automation, enabling more efficient production workflows and reduced downtime..
+Like
+Reply
+1 Reaction
+To view or add a comment, sign in",global
+https://www.linkedin.com/posts/boston-consulting-group_intelligent-robotics-is-reshaping-industrial-activity-7369293194716475398-W3Pn,2026-06-24,7,"The post discusses a report on intelligent robotics and its impact on industrial operations, with a focus on physical AI and its potential to redefine value chains. The comments section features insightful discussions from various individuals, highlighting the relevance of AI and robotics in the industry.","The intersection of physical AI and workforce development is a crucial aspect of this shift, as it underscores the need for continuous learning and adaptation. What are some potential strategies for implementing AI-trained resilience on factory floors, and how can we ensure a smooth transition for the workforce?",0,0,"Boston Consulting Group (BCG)
+5,462,003 followers
 9mo
 Report this post
 Intelligent robotics is reshaping industrial operations, expanding automation to tasks once thought too complex or variable to automate. A new report by BCG and the World Economic Forum explores how physical AI – intelligent robots that perceive, reason and act – is redefining value chains, from precision assembly to quality control. This marks a shift towards operating models where resilience, competitiveness and workforce evolution go hand in hand. Read the full report: http://on.bcg.com/3UZE8a0
@@ -1124,38 +1050,7 @@ Reply
 1 Reaction
 See more comments
 To view or add a comment, sign in",global
-https://www.linkedin.com/posts/quest-global_industrialautomation-robotics-manufacturing-activity-7441796748118835200-pmH3,2026-06-23,7,"The post discusses the growing importance of robotic simulation and offline programming in industrial automation, providing a clear and relevant perspective on the future of manufacturing.","The integration of robotic simulation and offline programming is a significant step forward, but what are the potential limitations and challenges that manufacturers may face when implementing these technologies, and how can they be addressed?",0,0,"Quest Global
-771,953 followers
-3mo
-Report this post
-As the industrial sector navigates the AI‑ and automation‑driven evolution of modern manufacturing, leaders are facing a new challenge: reducing downtime and making programming changes without disrupting production. In this article, Thandaveshwara Babu, explores how robotic simulation and robotics offline programming (OLP) are quickly becoming essential pillars of today’s manufacturing landscape. He breaks down how growing OLP adoption is reshaping industrial market drivers and outlooks, while laying out a clear case for why OLP and simulation are strong alternatives to traditional robot programming. With practical, actionable strategies for implementing these technologies, he helps demystify the future of industrial robotics. Read the full article here: 🔗https://lnkd.in/gKUTbqJk #IndustrialAutomation #Robotics #Manufacturing #QuestGlobalHorizons
-   77 1 Comment
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-YZ-RA 6d
-Report this comment
-The integration of robotic simulation and offline programming is indeed a game-changer for industrial automation, enabling more efficient production workflows and reduced downtime..
-Like
-Reply
-1 Reaction
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/balaji-balu_industrialautomation-industry40-smartmanufacturing-activity-7473894901407997952-zREN,2026-06-23,7,"The post discusses key trends and technologies driving industrial automation, including AI, robotics, and IoT, making it relevant to the field. However, it lacks novelty and depth in its analysis.","As we move towards more autonomous and connected factories, it's crucial to consider the role of explainable AI in ensuring transparency and trust in decision-making processes. How do you envision the integration of XAI in industrial automation systems?",0,0,"Balaji B.
-3d
-Report this post
-🏭 Industrial Automation Trends Shaping the Future of Manufacturing Manufacturing is undergoing a digital transformation driven by automation, connectivity, and intelligent decision-making. Modern factories are evolving into smart ecosystems where machines, data, and people work together seamlessly. Industrial automation is no longer just about increasing production—it's about creating smarter, safer, and more efficient operations. 🚀 Key Trends Driving Industrial Automation 🔹 Smart Factories & Industry 4.0 🔹 AI-Powered Process Optimization 🔹 Industrial Internet of Things (IIoT) 🔹 Digital Twins & Virtual Simulation 🔹 Collaborative Robots (Cobots) 🔹 Predictive Maintenance 🔧 Technologies Powering Automation ✅ Embedded Systems ✅ Artificial Intelligence (AI) ✅ IoT Connectivity ✅ Edge Computing ✅ Machine Vision ✅ Cloud Analytics 🌍 Benefits of Industrial Automation 📈 Increased Productivity ⚡ Reduced Downtime 🎯 Improved Product Quality 🤖 Enhanced Human-Robot Collaboration 🔒 Better Safety & Reliability 🌱 Improved Energy Efficiency 🔮 The Future of Manufacturing The next generation of factories will be intelligent, connected, and autonomous. By integrating AI, Robotics, IoT, and Embedded Systems, industries can achieve unprecedented levels of efficiency and innovation. 💡 Key Takeaway Industrial automation is transforming factories from production centers into intelligent decision-making ecosystems. Organizations that embrace automation today will lead the industries of tomorrow. #IndustrialAutomation #Industry40 #SmartManufacturing #IIoT #ArtificialIntelligence #Robotics #EmbeddedSystems #Automation #Engineering #Technology #Innovation #FutureFactory BALAJI BALU Embedded Systems | AI | IoT | Automation | Robotics Innovate • Integrate • Automate
- 3
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/preyanka-chander_industrialautomation-robotics2026-futureofmanufacturing-activity-7435302280406409220-yxjd,2026-06-23,7,"The post discusses the current state of industrial automation, highlighting the shift towards repetitive precision and the increasing importance of practical AI. It provides insights into the concentration of value in repetitive tasks and the role of humans in managing complex systems.","The concept of 'utility-fication' of physical labor through handling dominance is particularly intriguing, as it underscores the potential for industrial robots to optimize production processes. However, what are the potential limitations or challenges that may arise as we continue to redesign the world one 'pick and place' at a time?",0,0,"Preyanka Chander
+https://www.linkedin.com/posts/preyanka-chander_industrialautomation-robotics2026-futureofmanufacturing-activity-7435302280406409220-yxjd,2026-06-24,7,"The post discusses the current state of industrial automation, highlighting the shift towards repetitive precision and the increasing importance of practical AI. It provides insightful analysis of the industry's movement towards hard ROI and strategic value.","The notion that industrial robots are maturing to concentrate value in repetitive precision is well-taken, and the 'utility-fication' of physical labor is an interesting perspective. However, as we continue to automate thousands of repeated tasks, how will we ensure that the complexity of managed systems does not outpace human capabilities to oversee them?",0,0,"Preyanka Chander
 3mo
 Report this post
 From Concept to Consistency: The Repetition Era of Industrial Automation Industrial automation has moved on from ""can we do it?"" to ""how many times can we repeat it?"" In the past, the hardest part of scaling a business was the ""friction"" of human error in repetitive tasks. That bottleneck is cracking. As industrial robots mature, we are seeing a concentration of value in repetitive precision. -The Handling Dominance: With 51% of robots dedicated to handling, we are seeing the ""utility-fication"" of physical labour. -The ""Practical AI"" Table: The industry is moving away from ""soft measures"" and toward Hard ROI, Benchmarking, and Strategic Value. -A New Kind of Work: While some feared AI would reduce the need for work, the reality in 2026 is that it intensifies it. By automating thousands of repeated tasks, we’ve created a ""massive widening"" of what software and robotics can cover, requiring humans to step up and manage increasingly complex systems. When the cost of ""precision"" falls, specific industrial processes suddenly become worth automating. We are redesigning the world, one ""pick and place"" at a time. #IndustrialAutomation #Robotics2026 #FutureOfManufacturing #OperationalEfficiency #PracticalAI
@@ -1166,343 +1061,6 @@ Copy
 LinkedIn
 Facebook
 X
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/dewan-zahid-ahmed_robotics-ros2-amr-activity-7472658324065345536-7hxE,2026-06-23,7,"The post discusses a novel approach to robotics development, highlighting the challenges of setting up environments and the need for more accessible and collaborative tools. The mention of ROS2, simulation workflows, and AMR systems demonstrates technical depth and relevance to the field of robotics.","I appreciate how Nextaisense is tackling the often-overlooked issue of robotics development workflow inefficiencies with Galaxium, and I'm intrigued by the potential of web-based platforms to accelerate robotics innovation. What role do you envision cloud-based simulation playing in the future of robotics development, and how might it impact the way we design and test autonomous systems?",0,0,"Dewan Zahid Ahmed
-6d
-Report this post
-Most robotics projects don't fail because of bad robots. They fail long before a robot ever moves. After spending years in robotics, from surgical robotics to building our own platform, we kept seeing the same pattern: Teams spend months setting up environments. Students struggle with installations. Developers waste time reproducing bugs. Testing often happens too late. The result? Less time building robots. More time fighting tools. Over the past months, while being quiet online, we've been focused on solving exactly this problem. At Nextaisense, we've been building Galaxium, a web-based robotics development platform designed around ROS2 and simulation workflows. The goal isn't just learning robotics. The goal is making robotics development more accessible, collaborative, and faster for students, researchers, startups, and engineering teams. At the same time, we're also building our own AMR systems and applying everything we learn directly into real-world development. The robotics ecosystem is growing rapidly. But the tools and workflows need to evolve just as quickly. Curious: What's the biggest bottleneck you've faced while building robots? #Robotics #ROS2 #AMR #Simulation #Startup #DeepTech #Engineering
- 4
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/enzo-ghisoni-robotics_ros2-ai-robotics-activity-7449070785433993216-8JnR,2026-06-23,7,"The post provides a hands-on guide to training a robot using Reinforcement Learning in ROS 2, with a clear tutorial and relevant links. The engagement is high, with many comments and reactions. The technical depth is good, with specific details on the setup and algorithms used.",The use of Stable-Baselines3 and OpenAI Gym provides a robust framework for training robots. One aspect that I think would be beneficial to explore further is the integration of Transfer Learning techniques to accelerate the training process in more complex environments. How do you envision the application of Transfer Learning in real-world robotics scenarios?,0,0,"Enzo Ghisoni
-2mo Edited
-Report this post
-Train Your Robot with Reinforcement Learning in ROS 2! Ever wondered how to get started with Reinforcement Learning (RL) in robotics using ROS 2? Check out the ros2_flatland_rl_tutorial package created by Filipe Almeida, a hands-on guide to training a robot using Stable-Baselines3, OpenAI Gym, and the Flatland lightweight 2D simulator under ROS 2 Humble. What you'll learn: ✅ How to set up a custom Gym environment with ROS 2 nodes ✅ How to train a robot to navigate a hallway using the PPO algorithm ✅ How to structure rewards and observations from Lidar for RL ✅ How to simulate faster and evaluate training strategies 🔗 This repository is a great way to dive into Robot Learning, experiment with different environments, and see RL in action! https://lnkd.in/eF4FAJsK Do you have other awesome RL + ROS 2 example setup? Let's connect and share insights 🔽 #ROS2 #AI #Robotics
-   876 19 Comments
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-Enzo Ghisoni 2mo
-Report this comment
-🔗 You can check the repository: https://github.com/FilipeAlmeidaFEUP/ros2_flatland_rl_tutorial
-Like
-Reply
-1 Reaction 2 Reactions
-Prathmesh Barapatre 2mo
-Report this comment
-Made a custom gym with ISS layout for space Robotics simulation
-Like
-Reply
-2 Reactions 3 Reactions
-Hamna Qaseem 2mo
-Report this comment
-This is super helpful, thanks for sharing! 🙌 As someone just getting started with Reinforcement Learning in robotics, I’m curious, what would you recommend as the best platform for beginners? Would you suggest starting with MuJoCo, or going directly with ROS 2 + simulators like Gazebo? I’m really excited to start experimenting and implementing RL in real-world-like environments, so would love your advice (and others here too!)
-Like
-Reply
-1 Reaction 2 Reactions
-Leo T. 2mo
-Report this comment
-Wow! Thanks! I really appreciate this! This is really useful!
-Like
-Reply
-1 Reaction 2 Reactions
-Shashank Dev 2mo
-Report this comment
-I’ve built ACPL (Adaptive Consequence Penalized Learning), a reinforcement learning approach designed to explicitly model delayed negative consequences. Instead of optimizing only for immediate reward, it penalizes actions based on anticipated future harm. The goal is to make RL agents safer and more risk-aware, especially in environments where failures are delayed, noisy, or rare.
-Like
-Reply
-2 Reactions 3 Reactions
-Adithya Mohan 2mo
-Report this comment
-I think that for this env, ros2 is a bit too much. If RL is the goal, one could just implement a gym flatland env and learn to train the RL agent. Would like to know more from you why to use ROS2 for basic RL stuff. Any specifics?
-Like
-Reply
-1 Reaction 2 Reactions
-YZ-RA 1w
-Report this comment
-The use of Stable-Baselines3 and OpenAI Gym provides a robust framework for training robots. One aspect that I think would be beneficial to explore further is the integration of Transfer Learning techniques to accelerate the training process in more complex environments.
-Like
-Reply
-1 Reaction
-Mahmoud Majdalani 2mo
-Report this comment
-Engineer Enzo now I study basics of ROS2 what can I achieve in this level and what can I will go in this field in the future I'm really excited to learn knowledge in robotics world
-Like
-Reply
-1 Reaction 2 Reactions
-Dr. D.N.S Ravi Kumar 2mo
-Report this comment
-https://internsharks.ai/home
-Like
-Reply
-1 Reaction
-Pritam Bandgar, MS 2mo
-Report this comment
-Good resource Enzo Ghisoni. RL with ROS2 still feels like a deep rabbit hole, so hands-on examples like this are useful.
-Like
-Reply
-1 Reaction
-See more comments
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/analytics-india-magazine_robotics-ai-humanoidrobots-activity-7426868308244881409-tVRy,2026-06-23,7,"The post highlights Boston Dynamics' humanoid robot Atlas performing complex gymnastics routines, demonstrating significant advancements in humanoid mobility and control systems.","The seamless integration of balance and movement in Atlas is a testament to the progress in robotics and AI. What potential applications do you think this technology could have in real-world scenarios, such as search and rescue operations or industrial automation?",0,0,"Play Video
-Video Player is loading.
-Loaded: 0%
-0:00
-PlayBack to start
-Stream Type LIVE
-Current Time 0:00
-/
-Duration -:-
- 
-1x
-Playback Rate
-Show Captions
-Unmute
-Fullscreen
-AIM
-383,502 followers
-4mo
-Report this post
-Atlas is back in the spotlight. 🌟 After grabbing attention at CES 2026, Boston Dynamics’ humanoid robot is now going viral again for something straight out of a gymnastics routine... smooth cartwheels, controlled backflips, and unreal balance. It’s not just a flex for the internet. These moves show how far humanoid mobility, control systems, and real-world robotics have come. #Robotics #AI #HumanoidRobots #BostonDynamics #TechTrends
-…more
-  104 1 Comment
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-Hrithik Singla 4mo
-Report this comment
-OMG ! Looks like a real human. Amazing ! Boston Dynamics with their years of R&D have achieved wonders !
-Like
-Reply
-1 Reaction
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/aipoool_ai-robotics-humanoid-activity-7382437307666292738-1qDM,2026-06-23,7,"The post presents a unique durability test on a humanoid robot, showcasing its limitations and potential for improvement, with a strong focus on AI and robotics relevance.","The failure of the $80K humanoid robot in the durability test highlights the importance of robust design and testing in robotics, but what potential advancements in materials or AI control systems could mitigate such failures in the future?",0,0,"Play Video
-Video Player is loading.
-Loaded: 0%
-0:00
-PlayBack to start
-Stream Type LIVE
-Current Time 0:00
-/
-Duration -:-
- 
-1x
-Playback Rate
-Show Captions
-Unmute
-Fullscreen
-AIPOOOL
-23,204 followers
-8mo
-Report this post
-🤖💥 $80K Humanoid Robot Pushed to the Limit An $80K humanoid robot just faced one of the harshest durability tests ever, and let’s just say, it didn’t make it out unscathed. Engineers subjected the robot to extreme stress tests, including high-impact pushes, balance shocks, and continuous motion challenges, all designed to push its mechanical and electronic systems to the edge. The result? Joints failed, circuits fried, and the robot that once moved like a human struggled to survive the test. But is this a failure, or a critical learning step toward creating robots strong enough for real-world applications? 👀 Durability tests like this aren’t just about breaking machines they’re about understanding limitations, refining designs, and pushing robotics closer to being safe, reliable, and resilient in everyday and extreme environments. Every failure teaches engineers how to improve materials, sensors, actuators, and AI control systems, making the next generation smarter and tougher. From advanced humanoids to service robots, this journey highlights how humanoid robotics is still in its experimental phase, where every setback is an opportunity to advance the field. 🔹 Follow AIPOOOL to Stay Ahead in the Race of Tech & AI 🚀 📩 Subscribe to our newsletter on LinkedIn 🔗 https://lnkd.in/gnUKzght #AI #Robotics #Humanoid #Engineering #Innovation #Technology #Automation #Machine #Learning #Future #Durability #Test #News #AIPOOOL #Science #Tech #Experimentation
-…more
- 5 2 Comments
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-YZ-RA 1w
-Report this comment
-The experiment on the $80K humanoid robot is a crucial step towards understanding the limitations of current robotics technology. It's fascinating to see how every failure can lead to improvements in materials, sensors, actuators, and AI control systems.
-Like
-Reply
-1 Reaction
-Ahmad Masoud 8mo
-Report this comment
-Do Not Condone Violence Against Robots ☺️
-No more previous content
-No more next content
-Like
-Reply
-1 Reaction 2 Reactions
-See more comments
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/grishinrobotics_startups-rhoda-ai-and-genesis-ai-are-building-activity-7384182504351547392-0dNH,2026-06-23,7,"The post discusses recent developments in humanoid robotics, highlighting the contrasting approaches of Rhoda AI and Genesis AI, and provides insights into the challenges and opportunities in the field.","The trade-off between wheeled and bipedal designs is indeed crucial for determining optimal deployment paths, but what are the potential implications of these design choices on the development of more advanced robotic systems that can seamlessly interact with their environment?",0,0,"Grishin Robotics
-26,809 followers
-8mo
-Report this post
-Two stealth humanoid plays just surfaced with $100M+ each: Rhoda AI ($162.6M Series A, April 2025) and Genesis AI ($105M seed). Both are chasing ""general-purpose"" manipulation-Rhoda aiming beyond 23 kg (50 lb) lift where many biped bots wobble; Genesis opting for a wheeled base and software-first control. Why it matters: the money is following deployment paths that reduce risk. Figure just locked $1B (Series C) at a $39B post-capital to turn pilots into production lines. Meanwhile, Tesla's Optimus push keeps meeting real-world constraints, from rare-earth magnet export licensing to manufacturing bottlenecks. The signal: investors want near-term utility while the hardest biped problems get worked out. What we're watching on factory floors in 2026: wheels vs. legs. A wheeled, two-arm unit can unload 25–35 kg cartons at inbound docks today, with simpler safety envelopes and service economics. True bipeds promise reach and human-scale ergonomics-but need reliable balance under load, dexterous hands, and cheaper actuation to win TCO. https://lnkd.in/gYEFenqp
-Startups Rhoda AI And Genesis AI Are Building Humanoid Robots In Stealth social-www.forbes.com
-  3 1 Comment
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-YZ-RA 1w
-Report this comment
-Great analysis on the recent developments in humanoid robotics, particularly the contrasting approaches of Rhoda AI and Genesis AI. The emphasis on near-term utility and risk reduction is well-taken, and the comparison between wheeled and bipedal designs is crucial for determining the optimal deployment paths. ..
-Like
-Reply
-1 Reaction
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/fev-consulting_artificialintelligence-robotics-humanoidrobot-activity-7314965215245185024-OPlX,2026-06-23,7,"The post discusses humanoid robots and their potential impact on the workforce, with key takeaways from an event and insights from a leading robotics expert. While it lacks technical depth, it has strong AI and robotics relevance, and moderate virality.","As we accelerate towards a future with humanoid robots, it's crucial to consider the complexities of human-robot collaboration and the need for robust, explainable AI. How do you envision the development of trust and safety protocols for humanoid robots in the next 5 years?",0,0,"FEV Consulting
-13,986 followers
-1y Edited
-Report this post
-🚨 Humanoid Robots: Are You Ready for the Future? 🤖 ⚙️ At FEV, we’re ready to accelerate. With our deep expertise in future technologies and strategic consulting, we’re now fully engaging in the field of humanoid robotics – helping our clients understand, apply, and lead with this emerging technology.   Dr. Dominik Boemer, PMP from FEV Consulting attended the HANNOVER MESSE – and the message is clear: Humanoid robots are not just a trend; they are the future. 🚀   ✨ Key takeaways from the event: 1️⃣ AI & robotics are at the forefront of technological transformation – and this is just the beginning 2️⃣ Humanoid robots are now more affordable than ever, paving the way for widespread adoption 3️⃣ Dominik met Lukas M. Ziegler, a leading robotics expert, who emphasized how crucial data is for the future development of these robots 4️⃣ Manufacturers are focusing on differentiators like robustness, dexterity, and cost-efficiency to stay ahead in the market. ❓ Do you think that humanoid robots will be an integral part of our workforce in the next 5 years? How do you see humanoid robots impacting your industry? Are you ready to be part of the next industrial revolution?   Discover how humanoid robots are set to transform the workforce, and how we can help you navigate this exciting future! Explore our new website: 🔗 https://lnkd.in/eP992hrX #ArtificialIntelligence #Robotics #HumanoidRobot #Technology #Innovation
-+1
-   299 10 Comments
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-FEV Group 1y
-Report this comment
-Very exciting topic!
-Like
-Reply
-3 Reactions 4 Reactions
-Mehdi BAGHLI 1y
-Report this comment
-The future starts now. Thank you for developing this area in FEV
-Like
-Reply
-3 Reactions 4 Reactions
-Francis Dias 1y
-Report this comment
-Amazing
-Like
-Reply
-3 Reactions 4 Reactions
-Robert 지영 Liebhart 1y
-Report this comment
-Really like the Humanoid from Sanctuary!
-Like
-Reply
-3 Reactions 4 Reactions
-Saba Moghaddam 1y
-Report this comment
-Exciting
-Like
-Reply
-3 Reactions 4 Reactions
-Lukas M. Ziegler 1y
-Report this comment
-It was great to meet you you guys! Looking forward to discussing AI and robotics again! 🦾
-Like
-Reply
-3 Reactions 4 Reactions
-Priya jain 1y
-Report this comment
-Amazing
-Like
-Reply
-1 Reaction
-Thibault Pirard 1y
-Report this comment
-Great content !
-Like
-Reply
-1 Reaction
-See more comments
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/capgemini_airobotics-humanaichemistry-activity-7391515835636543489-N_1f,2026-06-23,7,"The post announces a significant milestone in industrial innovation, showcasing the deployment of an intelligent humanoid robot in the nuclear sector. It highlights the convergence of robotics, AI, computer vision, and digital twins, demonstrating a high level of novelty and relevance to AI and robotics.","The integration of humanoid robots in sensitive environments like nuclear facilities marks a significant step forward for industrial automation. As we push the boundaries of human-machine interaction, it's crucial to consider the long-term implications of such advancements on operational roles and human oversight. How will the future of nuclear operations balance the benefits of automation with the need for human judgment and decision-making?",0,0,"Play Video
-Video Player is loading.
-Loaded: 0%
-0:00
-PlayBack to start
-Stream Type LIVE
-Current Time 0:00
-/
-Duration -:-
- 
-1x
-Playback Rate
-Show Captions
-Unmute
-Fullscreen
-Capgemini
-9,208,104 followers
-7mo Edited
-Report this post
-Today, with Orano , we’re proud to announce a major milestone in industrial innovation: the deployment of the first intelligent humanoid robot in the nuclear sector. This achievement marks a significant step forward for a strategic industry that has long been a pioneer in innovation. Led by Capgemini’s AI Robotics and Experiences Lab, this project demonstrates the convergence of robotics, AI, computer vision, and digital twins. It redefines human-machine interaction in sensitive environments and pushes the boundaries of industrial automation. Watch the video below to see Hoxo in action at the site and discover how we’re working with Orano to shape the future of nuclear operations. https://lnkd.in/g22pGgWu #AIRobotics #HumanAIChemistry
-…more
-   1,347 35 Comments
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-NAMBURU NARASIMHA RAO 7mo
-Report this comment
-When Machines Learn to Carry Courage A milestone like this is not about a robot entering a nuclear facility, it is about humanity stepping into a larger version of itself. Hoxo is more than engineered metal and code. It is proof that intelligence can take shape, walk beside us, and extend human capability into places where risk once halted progress. In this fusion of robotics, vision systems, and digital twins, we witness a new covenant between human judgment and machine precision. Industry evolves when imagination dares to take physical form and today, the future just learned to stand upright.
-Like
-Reply
-2 Reactions 3 Reactions
-Alexandre Embry 7mo
-Report this comment
-This is a major step forward for industrial robotics, where #physicalAI meets human ingenuity. Congratulations to the Capgemini AI Robotics and Experiences Lab and Orano teams for making this breakthrough a reality.
-Like
-Reply
-10 Reactions 11 Reactions
-OneLIST Consultant 7mo
-Report this comment
-Incredible innovation! The development of AI and robotics that will change the future of nuclear operations in a genuine leap forward. Capgemini
-Like
-Reply
-1 Reaction 2 Reactions
-Twril Tech Solution LLP 7mo
-Report this comment
-This is next-level innovation! A perfect example of how human ingenuity and AI collaboration are redefining industrial possibilities
-Like
-Reply
-1 Reaction 2 Reactions
-Giovanni Pitton 7mo
-Report this comment
-Not seeing anything in this video aside prebuild routine in the Unitree G1, waving hands, giving hand and walking, or am I wrong?
-Like
-Reply
-1 Reaction 2 Reactions
-Suppriya Arondekar👉 Career Branding Specialist 2mo
-Report this comment
-Capgemini The combination of AI and robotics in critical industries highlights how operational roles are evolving. Success will depend on how well human oversight and machine decisions stay aligned.
-Like
-Reply
-1 Reaction
-Manickam J 7mo
-Report this comment
-Humanoid Robots can only help human’s , they can’t replace 100 % human force. That applys for the AI tools
-Like
-Reply
-1 Reaction 2 Reactions
-Alex Bulat- van den Wildenberg 7mo
-Report this comment
-Amazing Alexandre Embry and team congratulations ❤️🙌 This is amazing news 🗞️❤️🙌 This is truly a pioneering collaboration…!
-Like
-Reply
-4 Reactions 5 Reactions
-Victor Moreno 7mo
-Report this comment
-Impressive milestone! The integration of AI, robotics, and digital twins in such a sensitive and strategic sector truly showcases how innovation can transform industry standards. Congratulations to the teams at Capgemini and Orano for leading the way! 👍
-Like
-Reply
-1 Reaction 2 Reactions
-Slimane IDIR 7mo
-Report this comment
-A remarkable milestone for the nuclear industry! 👏 Congratulations to the Capgemini and Orano teams for pushing the boundaries of innovation with HOXO, a perfect example of how AI and robotics can transform industrial operations. 🤖⚛️
-Like
-Reply
-1 Reaction 2 Reactions
-See more comments
 To view or add a comment, sign in",global
 https://www.linkedin.com/posts/automationnewsmedia_humanoid-robotics-activity-7392580345239535616-iutT,2026-06-15,7,"The post announces a significant collaboration between Humanoid and SAP, exploring the integration of cognitive humanoid robots into industrial environments, with a substantial estimated market size.","The integration of cognitive humanoid robots into industrial environments has the potential to revolutionize industries, but what are the key technical challenges that need to be addressed to ensure seamless deployment and operation of these robots?",0,0,"Automation News
 871 followers
@@ -1530,7 +1088,55 @@ Reply
 1 Reaction
 See more comments
 To view or add a comment, sign in",global
-https://www.linkedin.com/posts/moosakhan3_futureofwork-automation-robotics-activity-7469429122805657600-Gfoz,2026-06-23,6,"The post highlights a crucial aspect of the future of work, emphasizing the importance of practical skills in industrial automation and robotics maintenance, which is a growing field with increasing demand.","I completely agree with your perspective on the rising importance of industrial automation and robotics maintenance skills, Moosa. The intersection of robotics and practical skills will indeed shape the future of work, but what role do you think emerging technologies like edge AI will play in enhancing the efficiency and capabilities of these maintenance roles?",0,0,"Moosa Khan
+https://www.linkedin.com/posts/xpengmotorsglobal_xpeng-activity-7412121794070904834-mqfq,2026-06-24,6,"The post highlights XPENG's progress in robotic and AI technologies, with a strong founder signal and relevance to both AI and robotics. However, it lacks technical depth and research signal.","The integration of AI in robotics is indeed a key factor for the future of autonomous driving and humanoid robots. I'd love to see more technical details on how XPENG plans to address the challenges of edge cases and real-world scenarios, what are your thoughts on the role of simulation in training these models?",0,0,"Play Video
+Video Player is loading.
+Loaded: 0%
+0:00
+PlayBack to start
+Stream Type LIVE
+Current Time 0:00
+/
+Duration -:-
+ 
+1x
+Playback Rate
+Show Captions
+Unmute
+Fullscreen
+XPENG
+227,332 followers
+5mo
+Report this post
+Looking back, 2025 was a year of real progress. But as we kick off 2026, the message is clear: the future is robotic. Our CEO He Xiaopeng believes that whether it drives, walks, or flies, it’s all about AI. Check out the video highlights from our Silicon Valley team, including viral humanoid robots, flying cars and our global plans for autonomous driving! #XPENG
+…more
+   37 1 Comment
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+Michael Simonsen 5mo
+Report this comment
+Would be great if you could deliver the cars
+Like
+Reply
+1 Reaction
+To view or add a comment, sign in",chinese
+https://www.linkedin.com/posts/atnewssa_wang-xingxing-a-26-year-old-graduate-from-activity-7456690266796687361-RI30,2026-06-24,6,"The post highlights a successful founder in the Chinese robotics industry, indicating a strong founder signal and relevance to both AI and robotics. However, it lacks technical depth and research signal.","Wang Xingxing's story is indeed inspiring, and his success in founding one of China's most valuable robotics firms is a testament to the country's thriving innovation ecosystem. I'd love to know more about the specific technologies and innovations that have driven his company's growth - what role do you think advancements in areas like computer vision and machine learning have played in his success?",0,0,"African Times
+726 followers
+1mo
+Report this post
+Wang Xingxing, a 26-year-old graduate from a non-elite university founded what is now one of China’s most valuable robotics firms. His story is the stuff of legend, but he is not alone. In China’s new wave of innovation, this narrative is playing out at breakneck speed. Read https://lnkd.in/dBmi2-zp
+ 1
+Like Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+To view or add a comment, sign in",chinese
+https://www.linkedin.com/posts/moosakhan3_futureofwork-automation-robotics-activity-7469429122805657600-Gfoz,2026-06-24,6,"The post highlights the growing importance of industrial automation and robotics maintenance, emphasizing practical skills over traditional degrees, which is a valuable perspective in the context of AI and robotics.","I appreciate your emphasis on the practical skills required for industrial automation and robotics maintenance, Moosa. As we continue to see increased adoption of robotics, the role of skilled technicians will become even more critical. What do you think are the most significant challenges in developing standardized training programs for these technicians?",0,0,"Moosa Khan
 2w
 Report this post
 🚀 Everyone is talking about AI, but one of the fastest-growing skills in the world right now is something far less glamorous: Industrial Automation & Robotics Maintenance. As warehouses, factories, and logistics centers automate at record speed, the demand for people who can install, maintain, and troubleshoot robotic systems is skyrocketing. The interesting part? These roles don't always require a traditional four-year degree. Practical skills, certifications, and hands-on experience are often more valuable than theory. While many are chasing the next AI prompt, others are building careers keeping the machines running. 💡 The future won't just belong to those who create technology—it will also belong to those who know how to operate, repair, and optimize it. What overlooked skill do you think will dominate the next decade? #FutureOfWork #Automation #Robotics #Manufacturing #Logistics #SkilledTrades #CareerGrowth #Industry40 #Technology
@@ -1548,39 +1154,9 @@ Like
 Reply
 1 Reaction 2 Reactions
 To view or add a comment, sign in",global
-https://www.linkedin.com/posts/brendanschulman_figure-ai-raises-whopping-675m-to-commercialize-activity-7168980241279868930-iufL,2026-06-23,6,"The post discusses a significant funding event in the robotics industry, indicating a strong signal for robotics and AI relevance. The mention of a specific company and valuation adds to the novelty and founder signal.","The commercialization of humanoids is an exciting development, and Figure AI's funding is a testament to the growing interest in robotics. However, what are the potential challenges in scaling humanoid production, and how might they impact the overall robotics ecosystem?",0,0,"Brendan Schulman
-2y
-Report this post
-It's an exciting time to be in robotics! And this is going to be a big year.
-Steve Crowe
-2y
-What's that about funding slowing down in robotics? Holy moly. Figure officially closes $675M Series B at $2.6B valuation. 🤖 #robotics #robots #humanoids #technology #engineering #startups
-Figure AI raises whopping $675M to commercialize humanoids https://www.therobotreport.com
-   21
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/rethinkx_15-rethinkx-robotics-insights-rethinkx-activity-7274740112251334656-2pAT,2026-06-23,6,"The post discusses a significant and emerging topic in robotics, humanoid robots, and their potential impact on labor systems, showing high relevance to AI and robotics. However, it lacks technical depth and specific implementation details.","The concept of humanoid robots creating a new labor system is intriguing, but it raises questions about the potential for job displacement and the need for a universal basic income. How do you think the implementation of humanoid robots will affect the global economy and what measures can be taken to mitigate the negative consequences?",0,0,"RethinkX
-10,769 followers
-1y
-Report this post
-Humanoid robots won’t just displace human jobs.. they will create an entirely new, vastly larger and more capable labor system 🌎 🤖 🚀 Read RethinkX's Top 15 Insights into the Inevitable Humanoid Robotics Disruption... https://hubs.li/Q02_SXLb0
-15 RethinkX Robotics Insights | RethinkX rethinkx.com
-  14
-Like Comment
-Share
-Copy
-LinkedIn
-Facebook
-X
-To view or add a comment, sign in",global
-https://www.linkedin.com/posts/4matic-robotics_4maticrobotics-industrialautomation-robotics-activity-7355552448985317379-ap2v,2026-06-23,4,"The post introduces a new startup, 4Matic Robotics, with a focus on industrial automation and robotics, but lacks specific technical details, engagement, and research relevance.",,0,0,"4Matic Robotics
+https://www.linkedin.com/posts/4matic-robotics_4maticrobotics-industrialautomation-robotics-activity-7355552448985317379-ap2v,2026-06-24,5,"The post introduces a new startup, 4Matic Robotics, with a focus on industrial automation and robotics, but lacks specific technical details or innovative concepts.",,0,0,"4Matic Robotics
 8 followers
-10mo
+11mo
 Report this post
 🎉 Introducing 4Matic Robotics – Shaping the Future of Smart Industry 🤖 We are proud to launch 4Matic Robotics, a cutting-edge startup committed to transforming industries through intelligent automation, precision engineering, and future-ready robotics solutions. 🚀 From PLC programming to SCADA systems, robotic integration to industrial innovation — we bring automation that empowers businesses, enhances productivity, and redefines possibilities. #4MaticRobotics #IndustrialAutomation #Robotics #EngineeringInnovation #AutomationSolutions #SmartIndustry #StartupIndia #FutureOfWork
  7 2 Comments
