@@ -28,7 +28,7 @@ def run_scrape():
         
         # Start new async orchestrator as background process
         current_process = subprocess.Popen(
-            ["python", "-u", "-m", "src.main"],
+            ["node", "crawler.js"],
             stdout=log_file,
             stderr=log_file,
             text=True

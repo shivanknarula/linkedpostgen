@@ -4,7 +4,11 @@
   "description": "LinkedIn AI & Robotics Intelligence Platform",
   "main": "api/results.js",
   "dependencies": {
-    "@supabase/supabase-js": "^2.39.0"
+    "@supabase/supabase-js": "^2.39.0",
+    "axios": "^1.18.1",
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.4.2",
+    "google-news-decoder": "^1.0.1"
   },
   "engines": {
     "node": ">=18.0.0"

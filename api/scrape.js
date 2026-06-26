@@ -38,7 +38,7 @@ export default async function handler(req, res) {
 
         return res.status(200).json({ 
             status: 'success', 
-            message: 'LinkedIn Agent scraping run successfully completed!',
+            message: 'Robotics News Agent scraping run successfully completed!',
             details: responseData
         });
 

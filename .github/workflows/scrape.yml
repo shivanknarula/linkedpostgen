@@ -1,4 +1,4 @@
-name: Nightly LinkedIn Scraper
+name: Nightly Robotics News Scraper
 
 on:
   schedule:
@@ -7,7 +7,6 @@ on:
   workflow_dispatch:
     # Allows manual triggering from GitHub UI or Vercel API
 
-# Give the workflow write access to push commits back
 permissions:
   contents: write
 
@@ -19,82 +18,19 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
       with:
-        python-version: '3.10'
-        cache: 'pip'
+        node-version: '20'
+        cache: 'npm'
 
     - name: Install Dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-
-    - name: Cache Playwright Browser
-      id: playwright-cache
-      uses: actions/cache@v4
-      with:
-        path: ~/.cache/ms-playwright
-        key: ${{ runner.os }}-playwright-${{ hashFiles('requirements.txt') }}
-
-    - name: Install Playwright Chromium Browser
-      if: steps.playwright-cache.outputs.cache-hit != 'true'
-      run: |
-        playwright install chromium
-
-    - name: Install Playwright system dependencies
-      run: |
-        playwright install-deps chromium
-
-    - name: Restore LinkedIn Session
-      env:
-        SESSION_JSON: ${{ secrets.SESSION_JSON }}
-      run: |
-        if [ -n "$SESSION_JSON" ]; then
-          echo "$SESSION_JSON" > session.json
-          echo "Restored session.json from GitHub Secrets."
-        else
-          echo "ERROR: SESSION_JSON secret is not set. Cannot proceed without a LinkedIn session."
-          exit 1
-        fi
+      run: npm install
 
     - name: Run Scraper
       env:
         GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        LINKEDIN_USERNAME: ${{ secrets.LINKEDIN_USERNAME }}
-        LINKEDIN_PASSWORD: ${{ secrets.LINKEDIN_PASSWORD }}
+        SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+        SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       run: |
-        python scrape_v2.py --limit 35 --target_output 12 || SCRAPER_FAILED=true
-        python migrate_to_supabase.py
-        if [ "$SCRAPER_FAILED" = "true" ]; then
-          echo "Scraper execution failed. Failing the workflow step."
-          exit 1
-        fi
-
-    - name: Commit and Push Changes
-      id: commit
-      run: |
-        git config --global user.name "GitHub Action Bot"
-        git config --global user.email "actions@github.com"
-        git add robotics_posts.csv high_value_comments.txt all_scraped_posts.txt generated_links_history.txt robotics_intelligence.db || true
-        if git diff --staged --quiet; then
-          echo "changed=false" >> $GITHUB_OUTPUT
-          echo "No changes to commit"
-        else
-          git commit -m "Auto-update scraped robotics posts [skip ci]"
-          git push origin main
-          echo "changed=true" >> $GITHUB_OUTPUT
-        fi
-
-    - name: Trigger Vercel Redeploy
-      if: steps.commit.outputs.changed == 'true'
-      env:
-        VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
-      run: |
-        if [ -n "$VERCEL_DEPLOY_HOOK" ]; then
-          echo "Triggering Vercel redeploy..."
-          curl -s -X POST "$VERCEL_DEPLOY_HOOK"
-          echo "Vercel redeploy triggered successfully."
-        else
-          echo "Warning: VERCEL_DEPLOY_HOOK secret not set. Skipping redeploy trigger."
-        fi
+        node crawler.js
