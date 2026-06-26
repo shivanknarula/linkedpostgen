@@ -21,7 +21,7 @@ export default async function handler(req, res) {
         const [profilesRes, totalRunsRes, latestRunsRes] = await Promise.all([
             supabase.from('profiles').select('*', { count: 'exact', head: true }).eq('is_active', true),
             supabase.from('crawl_runs').select('*', { count: 'exact', head: true }),
-            supabase.from('crawl_runs').select('duration_ms, status, start_time').order('id', { ascending: false }).limit(5)
+            supabase.from('crawl_runs').select('duration_ms, status, start_time, error_message').order('id', { ascending: false }).limit(5)
         ]);
 
         if (profilesRes.error) throw profilesRes.error;

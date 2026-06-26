@@ -778,6 +778,22 @@
             </div>
         </header>
 
+        <!-- Error Warning Banner -->
+        <div id="errorBanner" class="glass-card" style="display: none; padding: 1.25rem 1.75rem; margin-bottom: 2rem; border-color: rgba(239, 68, 68, 0.4); background: rgba(239, 68, 68, 0.05); box-shadow: 0 0 15px rgba(239, 68, 68, 0.1);">
+            <div style="display: flex; align-items: flex-start; gap: 1rem;">
+                <div style="color: var(--danger); padding-top: 0.15rem;">
+                    <i data-lucide="alert-triangle" style="width: 22px; height: 22px;"></i>
+                </div>
+                <div style="flex: 1;">
+                    <h4 style="font-family: 'Space Grotesk', sans-serif; font-size: 1.05rem; font-weight: 600; color: var(--danger); margin-bottom: 0.25rem; text-shadow: 0 0 8px rgba(239, 68, 68, 0.2);">
+                        Scraper Execution Alert
+                    </h4>
+                    <p id="errorBannerText" style="font-size: 0.9rem; color: var(--text-primary); line-height: 1.5;"></p>
+                    <div style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-secondary);" id="errorBannerMeta"></div>
+                </div>
+            </div>
+        </div>
+
         <!-- Stats deck -->
         <section class="stats-grid">
             <div class="glass-card stat-card">
@@ -1009,8 +1025,21 @@
                         const lastRun = m.latest_runs[0];
                         const durationSec = lastRun.duration_ms ? (lastRun.duration_ms / 1000).toFixed(1) + 's' : 'N/A';
                         document.getElementById('statDuration').innerText = `${durationSec} (${lastRun.status})`;
+                        
+                        // Error visibility handling
+                        const errorBanner = document.getElementById('errorBanner');
+                        if (lastRun.status === 'failed' || lastRun.error_message) {
+                            document.getElementById('errorBannerText').innerText = lastRun.error_message || "An unknown error occurred during the scraping and scoring pipeline.";
+                            const runTime = lastRun.start_time ? new Date(lastRun.start_time).toLocaleString() : 'Recent run';
+                            document.getElementById('errorBannerMeta').innerText = `Failed Run Timestamp: ${runTime} | Duration: ${durationSec}`;
+                            errorBanner.style.display = 'block';
+                            lucide.createIcons(); // ensure alert icon renders
+                        } else {
+                            errorBanner.style.display = 'none';
+                        }
                     } else {
                         document.getElementById('statDuration').innerText = 'N/A';
+                        document.getElementById('errorBanner').style.display = 'none';
                     }
                 }
             } catch (error) {

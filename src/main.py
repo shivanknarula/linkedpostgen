@@ -186,6 +186,9 @@ async def run_pipeline(args):
         
         # Export files for backward/cloud compatibility
         export_to_legacy_files()
+        
+        if error_message:
+            raise RuntimeError(f"Pipeline failed: {error_message}")
 
 def main():
     parser = argparse.ArgumentParser(description="LinkedIn AI & Robotics Intelligence Platform orchestrator")

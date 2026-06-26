@@ -64,8 +64,12 @@ jobs:
         LINKEDIN_USERNAME: ${{ secrets.LINKEDIN_USERNAME }}
         LINKEDIN_PASSWORD: ${{ secrets.LINKEDIN_PASSWORD }}
       run: |
-        python scrape_v2.py --limit 35 --target_output 12
+        python scrape_v2.py --limit 35 --target_output 12 || SCRAPER_FAILED=true
         python migrate_to_supabase.py
+        if [ "$SCRAPER_FAILED" = "true" ]; then
+          echo "Scraper execution failed. Failing the workflow step."
+          exit 1
+        fi
 
     - name: Commit and Push Changes
       id: commit
