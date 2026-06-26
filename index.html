@@ -1279,12 +1279,31 @@
             });
         }
 
-        function showToast() {
+        function showToastWithText(text, isError = false) {
             const toast = document.getElementById('copyToast');
+            const icon = toast.querySelector('i');
+            const span = toast.querySelector('span');
+            
+            span.innerText = text;
+            if (isError) {
+                toast.style.background = 'var(--danger)';
+                toast.style.boxShadow = '0 8px 24px rgba(239, 68, 68, 0.35)';
+                icon.outerHTML = '<i data-lucide="alert-circle" style="width: 18px; height: 18px;"></i>';
+            } else {
+                toast.style.background = 'var(--success)';
+                toast.style.boxShadow = '0 8px 24px rgba(16, 185, 129, 0.35)';
+                icon.outerHTML = '<i data-lucide="check-circle" style="width: 18px; height: 18px;"></i>';
+            }
+            lucide.createIcons();
+            
             toast.classList.add('show');
             setTimeout(() => {
                 toast.classList.remove('show');
-            }, 3000);
+            }, 4000);
+        }
+
+        function showToast() {
+            showToastWithText("Comment successfully copied!");
         }
 
         // Modal Editor actions
@@ -1374,33 +1393,126 @@
             } else {
                 // VERCEL CLOUD HANDLER
                 overlayTitle.innerText = "Triggering Cloud Agent...";
-                overlayDesc.innerText = "Sending request payload to GitHub Actions workflow dispatch api...";
+                overlayDesc.innerText = "Initializing backend scraping process on Supabase...";
 
                 try {
+                    const clickTime = Date.now();
                     const response = await fetch('/api/scrape', { method: 'POST' });
                     const data = await response.json();
 
                     if (data.status === 'success') {
-                        overlayTitle.innerText = "🚀 Cloud Agent Triggered!";
+                        overlayTitle.innerText = "🚀 Cloud Agent Initialized";
                         overlayDesc.innerHTML = `
-                            The scraping worker has been successfully triggered on your <strong>GitHub Actions</strong> workflow.<br><br>
-                            It will run silently in the background (takes ~3 minutes). Once complete, Vercel will automatically redeploy your site with the fresh results.<br><br>
-                            You can check the build progress in your GitHub repo's <strong>Actions</strong> tab.
+                            The scraper has been successfully started in the cloud.<br><br>
+                            We are now tracking its execution progress in real-time...
                         `;
-                        closeBtn.style.display = 'inline-block';
+                        startPollingCloudRun(clickTime);
                     } else {
-                        throw new Error(data.message || "Could not trigger GitHub Workflow");
+                        throw new Error(data.message || "Could not trigger scraping run");
                     }
                 } catch (error) {
                     overlayTitle.innerText = "❌ Trigger Failed";
                     overlayDesc.innerText = error.message;
                     closeBtn.style.display = 'inline-block';
-                } finally {
                     btn.disabled = false;
                     btn.innerHTML = '<i data-lucide="play" style="width: 18px; height: 18px;"></i> <span>Scan Robotics Network</span>';
                     lucide.createIcons();
                 }
             }
+        }
+
+        let cloudPollInterval = null;
+
+        function startPollingCloudRun(clickTime) {
+            if (cloudPollInterval) clearInterval(cloudPollInterval);
+
+            const overlayTitle = document.getElementById('overlayTitle');
+            const overlayDesc = document.getElementById('overlayDesc');
+            const closeBtn = document.getElementById('closeOverlayBtn');
+            const btn = document.getElementById('scrapeBtn');
+            
+            let elapsedSeconds = 0;
+
+            cloudPollInterval = setInterval(async () => {
+                elapsedSeconds += 5;
+                try {
+                    const response = await fetch('/api/metrics');
+                    const data = await response.json();
+                    
+                    if (data.status === 'success' && data.metrics) {
+                        const m = data.metrics;
+                        loadMetrics(); // Update metrics UI in the background
+                        
+                        if (m.latest_runs && m.latest_runs.length > 0) {
+                            const lastRun = m.latest_runs[0];
+                            const runTime = new Date(lastRun.start_time).getTime();
+                            
+                            // Check if this run was started after we clicked the button (within 45s safety buffer)
+                            if (runTime >= clickTime - 45000) {
+                                if (lastRun.status === 'running') {
+                                    overlayTitle.innerText = "⚡ Scraping in Progress...";
+                                    overlayDesc.innerHTML = `
+                                        Scraper is currently active in the background.<br><br>
+                                        <strong>Elapsed Time:</strong> ${elapsedSeconds} seconds<br>
+                                        <strong>Status:</strong> Active & gathering posts...
+                                    `;
+                                } else if (lastRun.status === 'success') {
+                                    clearInterval(cloudPollInterval);
+                                    cloudPollInterval = null;
+                                    
+                                    // Hide overlay and show success toast
+                                    document.getElementById('loadingOverlay').style.display = 'none';
+                                    showToastWithText(`✅ Scraping complete! Scored ${lastRun.posts_scored || 0} posts.`);
+                                    
+                                    btn.disabled = false;
+                                    btn.innerHTML = '<i data-lucide="play" style="width: 18px; height: 18px;"></i> <span>Scan Robotics Network</span>';
+                                    lucide.createIcons();
+                                    
+                                    loadResults();
+                                } else if (lastRun.status === 'failed') {
+                                    clearInterval(cloudPollInterval);
+                                    cloudPollInterval = null;
+                                    
+                                    document.getElementById('loadingOverlay').style.display = 'none';
+                                    showToastWithText(`❌ Scraper execution failed.`, true);
+                                    
+                                    btn.disabled = false;
+                                    btn.innerHTML = '<i data-lucide="play" style="width: 18px; height: 18px;"></i> <span>Scan Robotics Network</span>';
+                                    lucide.createIcons();
+                                    
+                                    // Trigger error banner display immediately
+                                    loadMetrics();
+                                }
+                            } else {
+                                // No new run started yet in the DB
+                                overlayTitle.innerText = "🚀 Initializing Scraper...";
+                                overlayDesc.innerHTML = `
+                                    Waiting for the background process to start...<br><br>
+                                    <strong>Elapsed Time:</strong> ${elapsedSeconds} seconds
+                                `;
+                            }
+                        }
+                    }
+                } catch (error) {
+                    console.error("Cloud status poll failed:", error);
+                }
+                
+                // Timeout after 6 minutes (360 seconds)
+                if (elapsedSeconds >= 360) {
+                    clearInterval(cloudPollInterval);
+                    cloudPollInterval = null;
+                    overlayTitle.innerText = "⏳ Request Timeout";
+                    overlayDesc.innerHTML = `
+                        The background scraper is taking longer than expected to complete.<br><br>
+                        It is likely still running in the background. Please close this modal and refresh the dashboard in a few minutes.
+                    `;
+                    closeBtn.style.display = 'inline-block';
+                    btn.disabled = false;
+                    btn.innerHTML = '<i data-lucide="play" style="width: 18px; height: 18px;"></i> <span>Scan Robotics Network</span>';
+                    lucide.createIcons();
+                }
+            }, 5000);
+        }
         }
 
         // Poll API for real-time scraper output
