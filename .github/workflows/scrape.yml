@@ -65,13 +65,14 @@ jobs:
         LINKEDIN_PASSWORD: ${{ secrets.LINKEDIN_PASSWORD }}
       run: |
         python scrape_v2.py --limit 35 --target_output 12
+        python migrate_to_supabase.py
 
     - name: Commit and Push Changes
       id: commit
       run: |
         git config --global user.name "GitHub Action Bot"
         git config --global user.email "actions@github.com"
-        git add robotics_posts.csv high_value_comments.txt all_scraped_posts.txt generated_links_history.txt || true
+        git add robotics_posts.csv high_value_comments.txt all_scraped_posts.txt generated_links_history.txt robotics_intelligence.db || true
         if git diff --staged --quiet; then
           echo "changed=false" >> $GITHUB_OUTPUT
           echo "No changes to commit"
