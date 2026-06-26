@@ -36,7 +36,7 @@ export default async function handler(req, res) {
                 )
             `)
             .eq('status', 'scored')
-            .limit(50);
+            .limit(300);
 
         if (error) throw error;
 
@@ -44,9 +44,18 @@ export default async function handler(req, res) {
         const parsedData = (data || []).map(row => {
             const scoreVal = row.scores ? Math.floor(row.scores.total_score / 10) : 0;
             const reasoningVal = row.scores ? row.scores.reasoning : '';
-            const commentVal = (row.generated_comments && row.generated_comments.length > 0) 
-                ? row.generated_comments[0].comment_text 
-                : '';
+            
+            // Support both array and object formats for generated_comments
+            let commentVal = '';
+            if (row.generated_comments) {
+                if (Array.isArray(row.generated_comments)) {
+                    if (row.generated_comments.length > 0) {
+                        commentVal = row.generated_comments[0].comment_text;
+                    }
+                } else if (row.generated_comments.comment_text) {
+                    commentVal = row.generated_comments.comment_text;
+                }
+            }
 
             return {
                 url: row.url,
@@ -65,7 +74,7 @@ export default async function handler(req, res) {
         // Sort by raw_score DESC
         parsedData.sort((a, b) => b.raw_score - a.raw_score);
 
-        return res.status(200).json({ status: 'success', data: parsedData });
+        return res.status(200).json({ status: 'success', data: parsedData.slice(0, 50) });
 
     } catch (error) {
         console.error('results handler error:', error);
