@@ -63,9 +63,22 @@ async function extractArticleText(url: string): Promise<string> {
         }
         
         const html = await response.text();
-        const $ = cheerio.load(html);
         
-        $('script, style, header, footer, nav, noscript, iframe').remove();
+        // Strip out scripts, styles, and iframe blocks using regex to drastically reduce memory usage before parsing
+        let cleanHtml = html
+            .replace(/<script[\s\S]*?<\/script>/gi, '')
+            .replace(/<style[\s\S]*?<\/style>/gi, '')
+            .replace(/<noscript[\s\S]*?<\/noscript>/gi, '')
+            .replace(/<iframe[\s\S]*?<\/iframe>/gi, '');
+            
+        const bodyMatch = cleanHtml.match(/<body[\s\S]*<\/body>/i);
+        if (bodyMatch) {
+            cleanHtml = bodyMatch[0];
+        }
+
+        const $ = cheerio.load(cleanHtml);
+        
+        $('header, footer, nav').remove();
         
         let textParts: string[] = [];
         const bodyContainers = $('article, .article-content, .post-content, .entry-content, main');
@@ -143,8 +156,8 @@ serve(async (req) => {
         const newArticles = candidates.filter(item => !historySet.has(item.link));
         console.log(`[*] ${newArticles.length} articles are new and require processing.`);
         
-        // Limit processing to 15 articles to avoid API limits and keep execution fast
-        const articlesToProcess = newArticles.slice(0, 15);
+        // Limit processing to 3 articles to avoid API limits and keep execution fast
+        const articlesToProcess = newArticles.slice(0, 3);
         
         // Fetch all profiles from Supabase to resolve authorship
         const { data: profiles, error: profError } = await supabase

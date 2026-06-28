@@ -63,9 +63,22 @@ async function extractArticleText(url) {
             },
             timeout: 15000
         });
-        const $ = cheerio.load(response.data);
         
-        $('script, style, header, footer, nav, noscript, iframe').remove();
+        // Strip out scripts, styles, and iframe blocks using regex to drastically reduce memory usage before parsing
+        let cleanHtml = response.data
+            .replace(/<script[\s\S]*?<\/script>/gi, '')
+            .replace(/<style[\s\S]*?<\/style>/gi, '')
+            .replace(/<noscript[\s\S]*?<\/noscript>/gi, '')
+            .replace(/<iframe[\s\S]*?<\/iframe>/gi, '');
+            
+        const bodyMatch = cleanHtml.match(/<body[\s\S]*<\/body>/i);
+        if (bodyMatch) {
+            cleanHtml = bodyMatch[0];
+        }
+
+        const $ = cheerio.load(cleanHtml);
+        
+        $('header, footer, nav').remove();
         
         let textParts = [];
         const bodyContainers = $('article, .article-content, .post-content, .entry-content, main');
